@@ -1,0 +1,50 @@
+@import "colors";
+
+.App {
+  text-align: center;
+
+}
+
+.logoContainer {
+  display: flex;
+  text-align: center;
+
+  img {
+    max-width: 10vw;
+    height: 48px;
+    margin-left: 1rem;
+  }
+}
+
+body {
+  background-color: $light-gray;
+}
+
+.header {
+  background-color: $gold;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  height: 4rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .navLink {
+      &:not(:first-child) {
+        margin-left: 4rem;
+      }
+    }
+  }
+}
+
+a {
+  color: $charcoal;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+}
