@@ -4,3 +4,110 @@
   text-align: center;
 
 }
+
+#main {
+  background-size: cover;
+  background-position: center;
+  background-image: url("/public/bg-taverne.jpg");
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+#logo {
+  max-width: 33vw;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.btn {
+  background-color: #d14f34;
+  padding: 12px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.25s;
+
+  &:hover {
+    scale: 1.2;
+    box-shadow: 2px 2px 8px black;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+
+  div {
+    width: 33%;
+    margin: auto;
+    display: flex;
+
+    a {
+      margin: auto;
+    }
+  }
+
+}
+
+
+#infos{
+  margin-top: 200px;
+  background-color: #0e1324;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+text-align: center;
+  p{
+    margin: 80px auto;
+    max-width: 50%;
+  }
+
+  a{
+    color: white;
+  }
+
+
+}
+
+
+
+@media(max-width: 640px) {
+  #logo {
+    max-width: 90vw;
+  }
+
+  #infos{
+    padding-bottom: 80px;
+    flex-direction: column;
+    p{
+      max-width: 90%;
+      margin: 40px auto;
+    }
+
+
+  }
+
+  .row {
+
+    div {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+
+
+      a {
+        margin: 40px auto auto;
+      }
+    }
+
+  }
+
+}
