@@ -7,7 +7,7 @@ const App: Component = () => {
         <div class={styles.App}>
             <div id={styles.main}>
 
-                <img id={styles.logo} src="/logo-date-lieu.png" alt="DevQuest, le 14 Juin 2024 à Niort"/>
+                <img id={styles.logo} src="logo-date-lieu.png" alt="DevQuest, le 14 Juin 2024 à Niort"/>
 
 
                 <div class={styles.row}>
