@@ -13,9 +13,9 @@ const App: Component = () => {
                 <div class={styles.row}>
                     <div>
 
-                        <a class={styles.btn} href="">DEVENIR SPEAKER</a>
+                        <a class={styles.btn} href="https://conference-hall.io/public/event/geINICiIQFU0WdORU423">DEVENIR SPEAKER</a>
 
-                        <a class={styles.btn} href="">BILLETTERIE</a>
+                        <a class={styles.btn} href="">BILLETTERIE (Bientôt dispo)</a>
                     </div>
 
                 </div>
