@@ -1,5 +1,6 @@
 import type {Component} from 'solid-js';
 import styles from './App.module.scss';
+import {Avatar} from "./components/Avatar";
 
 const App: Component = () => {
     return (
@@ -46,67 +47,18 @@ const App: Component = () => {
                 <div id={styles.equipe}>
                     <h1>L'équipe</h1>
                     <div id={styles.galery}>
-                        <div class={styles.cardSquad}>
-                            <img class={styles.avatar} src="https://i.pravatar.cc/128" alt="John"/>
-                            <h2>John</h2>
-                            <span>#Touriste</span>
-                        </div>
+                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
 
-                        <div className={styles.cardSquad}>
-                            <img className={styles.avatar} src="https://i.pravatar.cc/128" alt="John"/>
-                            <h2>John</h2>
-                            <span>#Touriste</span>
-                        </div>
-
-                        <div className={styles.cardSquad}>
-                            <img className={styles.avatar} src="https://i.pravatar.cc/128" alt="John"/>
-                            <h2>John</h2>
-                            <span>#Touriste</span>
-                        </div>
-
-                        <div className={styles.cardSquad}>
-                            <img className={styles.avatar} src="https://i.pravatar.cc/128" alt="John"/>
-                            <h2>John</h2>
-                            <span>#Touriste</span>
-                        </div>
-
-                        <div className={styles.cardSquad}>
-                            <img className={styles.avatar} src="https://i.pravatar.cc/128" alt="John"/>
-                            <h2>John</h2>
-                            <span>#Touriste</span>
-                        </div>
-
-                        <div className={styles.cardSquad}>
-                            <img className={styles.avatar} src="https://i.pravatar.cc/128" alt="John"/>
-                            <h2>John</h2>
-                            <span>#Touriste</span>
-                        </div>
-
-                        <div className={styles.cardSquad}>
-                            <img className={styles.avatar} src="https://i.pravatar.cc/128" alt="John"/>
-                            <h2>John</h2>
-                            <span>#Touriste</span>
-                        </div>
-
-                        <div className={styles.cardSquad}>
-                            <img className={styles.avatar} src="https://i.pravatar.cc/128" alt="John"/>
-                            <h2>John</h2>
-                            <span>#Touriste</span>
-                        </div>
-
-                        <div className={styles.cardSquad}>
-                            <img className={styles.avatar} src="https://i.pravatar.cc/128" alt="John"/>
-                            <h2>John</h2>
-                            <span>#Touriste</span>
-                        </div>
-
-                        <div className={styles.cardSquad}>
-                            <img className={styles.avatar} src="https://i.pravatar.cc/128" alt="John"/>
-                            <h2>John</h2>
-                            <span>#Touriste</span>
-                        </div>
                     </div>
-
                     <p>2024 - DevQuest - <a href="#">Mentions légales</a></p>
                 </div>
 

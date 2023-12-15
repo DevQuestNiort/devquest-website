@@ -29,7 +29,7 @@ h2 {
 #main {
   background-size: cover;
   background-position: center;
-  background-image: url("/public/devquest-fond-min.jpg");
+  background-image: url("/devquest-fond-min.jpg");
   width: 100vw;
   height: 100vh;
   overflow: auto;
@@ -146,11 +146,6 @@ h2 {
   grid-row-gap: 2rem;
   width: 60%;
   margin: 3rem auto;
-}
-
-.avatar {
-  border-radius: 50%;
-  border: solid 4px black;
 }
 
 @media(max-width: 640px) {
