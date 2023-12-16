@@ -7,7 +7,7 @@ interface AvartarProperties {
 
 export default function Avatar({img, name}: AvartarProperties) {
     return <div>
-        <img class={styles.avatar} src={img} alt={name}/>
+        <img class={styles.avatar} height="128" width="128" src={img} alt={name}/>
         <h2>{name}</h2>
         <span>#Touriste</span>
     </div>

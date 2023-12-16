@@ -140,15 +140,32 @@ h2 {
 }
 
 #galery {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
-  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  width: 90vw;
+  max-width: 850px;
   margin: 3rem auto;
 }
 
 @media(max-width: 640px) {
+
+  h1{
+    margin: 0 2rem;
+    line-height: 3rem;
+  }
+
+  .card {
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(black, .5);
+  }
+
+  #equipe, #infos {
+    padding: 2rem 0;
+  }
+
   #logo {
     max-width: 90vw;
   }

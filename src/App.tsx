@@ -47,16 +47,16 @@ const App: Component = () => {
                 <div id={styles.equipe}>
                     <h1>L'équipe</h1>
                     <div id={styles.galery}>
+                        <Avatar img="https://i.pravatar.cc/121" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/122" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/123" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/124" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/125" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/126" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/127" name="John"/>
                         <Avatar img="https://i.pravatar.cc/128" name="John"/>
-                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
-                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
-                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
-                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
-                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
-                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
-                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
-                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
-                        <Avatar img="https://i.pravatar.cc/128" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/129" name="John"/>
+                        <Avatar img="https://i.pravatar.cc/130" name="John"/>
 
                     </div>
                     <p>2024 - DevQuest - <a href="#">Mentions légales</a></p>
