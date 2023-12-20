@@ -1,31 +1,66 @@
 @import "colors";
 
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+
+:root {
+  --sable: #f1ddb7;
+  --vert-degueu: #192811;
+}
+
 .App {
   text-align: center;
 
 }
 
+h1, h2 {
+  font-family: Teko, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
 #main {
   background-size: cover;
   background-position: center;
-  background-image: url("/public/bg-taverne.jpg");
+  background-image: url("/devquest-fond-min.jpg");
   width: 100vw;
   height: 100vh;
   overflow: auto;
 }
 
+#brand {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--vert-degueu);
+}
+
 #logo {
+  margin-bottom: 2rem;
+  margin-right: auto;
+  margin-left: auto;
   max-width: 33vw;
   user-select: none;
   -webkit-user-drag: none;
 }
 
 .btn {
-  background-color: #d14f34;
-  padding: 12px;
-  border-radius: 4px;
-  color: white;
+  background-color: var(--vert-degueu);
+  padding: .5rem 1.5rem;
+  border-radius: 2px;
+  border: solid 4px var(--sable);
+  color: var(--sable);
+  font-family: Teko, sans-serif;
   font-weight: bold;
+  font-size: 2rem;
   text-decoration: none;
   transition: 0.25s;
 
@@ -39,7 +74,7 @@
   display: flex;
   flex-direction: row;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 1rem;
 
   div {
     width: 33%;
@@ -53,41 +88,97 @@
 
 }
 
-
-#infos{
-  margin-top: 200px;
-  background-color: #0e1324;
-  width: 100%;
+#infos {
+  background-color: #5a4949;
   color: white;
-  font-weight: bold;
+  padding: 2rem;
+  text-align: center;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
-text-align: center;
-  p{
-    margin: 80px auto;
-    max-width: 50%;
-  }
-
-  a{
-    color: white;
-  }
-
-
+  flex-direction: column;
+  align-items: center;
 }
 
+.card {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  margin: 2rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  width: 40%;
+}
 
+#rowrs {
+  display: flex;
+  gap: 2rem;
+}
+
+.rs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: 0.25s;
+
+  &:hover {
+    scale: 1.2;
+    box-shadow: 2px 2px 8px black;
+  }
+}
+
+#equipe {
+  background-color: #f1ddb7;
+  color: black;
+  padding: 2rem;
+  text-align: center;
+}
+
+#galery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  width: 90vw;
+  max-width: 1010px;
+  margin: 3rem auto;
+
+  > * {
+    width: 175px;
+  }
+}
 
 @media(max-width: 640px) {
+
+  h1{
+    margin: 0 2rem;
+    line-height: 3rem;
+  }
+
+  .card {
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(black, .5);
+  }
+
+  #equipe, #infos {
+    padding: 2rem 0;
+  }
+
   #logo {
     max-width: 90vw;
   }
 
-  #infos{
+  #infos {
     padding-bottom: 80px;
     flex-direction: column;
-    p{
+
+    p {
       max-width: 90%;
       margin: 40px auto;
     }
