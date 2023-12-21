@@ -138,6 +138,19 @@ h2 {
   text-align: center;
 }
 
+#eventspec {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  max-width: 1010px;
+  margin: 3rem auto;
+
+  > * {
+    width: 175px;
+  }
+}
+
 #equipe {
   background-color: #5a4949;
   color: white;

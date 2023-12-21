@@ -58,24 +58,24 @@ const App: Component = () => {
         </div>
         <div id={styles.event}>
           <h1>Diantre, DevQuest dîtes-vous? Qu'est-ce donc que cela?</h1>
-          <div id={styles.galery}>
+          <div id={styles.eventspec}>
             <div>
-              <img height="96" src="backpack.png" />
+              <img height="96" src="backpack.png" aria-hidden="true" />
               {/* <a href="https://www.flaticon.com/free-icons/rpg" title="rpg icons">Rpg icons created by Freepik - Flaticon</a> */}
               <h2>1 journée</h2>
             </div>
             <div>
-              <img height="96" src="knight.png" />
+              <img height="96" src="knight.png" aria-hidden="true" />
               {/* <a href="https://www.flaticon.com/free-icons/rpg" title="rpg icons">Rpg icons created by Freepik - Flaticon</a> */}
               <h2>150 spectateurs</h2>
             </div>
             <div>
-              <img height="96" src="king.png" />
+              <img height="96" src="king.png" aria-hidden="true" />
               {/* <a href="https://www.flaticon.com/free-icons/king" title="king icons">King icons created by Freepik - Flaticon</a> */}
               <h2>16 partenaires</h2>
             </div>
             <div>
-              <img height="96" src="quest.png" />
+              <img height="96" src="quest.png" aria-hidden="true" />
               {/* <a href="https://www.flaticon.com/free-icons/rpg" title="rpg icons">Rpg icons created by David Carapinha - Flaticon</a> */}
               <h2>20 présentations multi format</h2>
             </div>
