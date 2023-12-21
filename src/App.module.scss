@@ -129,6 +129,11 @@ h2 {
     scale: 1.2;
     box-shadow: 2px 2px 8px black;
   }
+
+  span {
+    font-size: 28px;
+    margin-left: -8px; // TODO: Choose better icon, this one is misaligned
+  }
 }
 
 #event {
