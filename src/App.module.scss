@@ -1,7 +1,7 @@
 @import "colors";
 
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/source-sans-pro");
 
 :root {
   --sable: #f1ddb7;
@@ -10,10 +10,10 @@
 
 .App {
   text-align: center;
-
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: Teko, sans-serif;
   margin: 0;
 }
@@ -54,7 +54,7 @@ h2 {
 
 .btn {
   background-color: var(--vert-degueu);
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 2px;
   border: solid 4px var(--sable);
   color: var(--sable);
@@ -85,7 +85,6 @@ h2 {
       margin: auto;
     }
   }
-
 }
 
 #infos {
@@ -132,9 +131,16 @@ h2 {
   }
 }
 
-#equipe {
+#event {
   background-color: #f1ddb7;
   color: black;
+  padding: 2rem;
+  text-align: center;
+}
+
+#equipe {
+  background-color: #5a4949;
+  color: white;
   padding: 2rem;
   text-align: center;
 }
@@ -153,9 +159,8 @@ h2 {
   }
 }
 
-@media(max-width: 640px) {
-
-  h1{
+@media (max-width: 640px) {
+  h1 {
     margin: 0 2rem;
     line-height: 3rem;
   }
@@ -163,10 +168,11 @@ h2 {
   .card {
     margin: 2rem 0;
     border-radius: 8px;
-    box-shadow: 0 0 8px rgba(black, .5);
+    box-shadow: 0 0 8px rgba(black, 0.5);
   }
 
-  #equipe, #infos {
+  #equipe,
+  #infos {
     padding: 2rem 0;
   }
 
@@ -182,24 +188,18 @@ h2 {
       max-width: 90%;
       margin: 40px auto;
     }
-
-
   }
 
   .row {
-
     div {
       width: 100%;
       margin: auto;
       display: flex;
       flex-direction: column;
 
-
       a {
         margin: 40px auto auto;
       }
     }
-
   }
-
 }
