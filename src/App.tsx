@@ -2,6 +2,83 @@ import type { Component } from "solid-js";
 import styles from "./App.module.scss";
 import { Avatar } from "./components/Avatar";
 
+interface Member {
+  img: string;
+  name: string;
+  role: string;
+  github?: string;
+  linkedin?: string;
+}
+
+const members = [
+  {
+    img: "https://media.licdn.com/dms/image/D4E03AQEc3Um3Fx4t5Q/profile-displayphoto-shrink_800_800/0/1677851859580?e=1707350400&v=beta&t=s-04aCeNnRZSGU4r8LbK6N91lsFTGUFjUIUMi5rLMsg",
+    name: "Alexandre Pacaud",
+    role: "#Dev",
+    linkedin: "alexandre-pacaud-78266210a",
+    github: "Lithyon"
+  },
+  {
+    img: "https://media.licdn.com/dms/image/D4E03AQEUfL_txA2kfg/profile-displayphoto-shrink_800_800/0/1679322061985?e=1707350400&v=beta&t=8a-20GsC1Ip8Kt1Bl49cekZnRcKI5GbgtNiCRXCWZPQ",
+    name: "Alexandre Guérin",
+    role: "#Dev",
+    linkedin: "alexandre-guerin",
+    github: "Ithrandil"
+  },
+  {
+    img: "https://media.licdn.com/dms/image/C5603AQHAeYGqwnhuFA/profile-displayphoto-shrink_800_800/0/1516958131555?e=1707350400&v=beta&t=9OUC-qHGNXf0FqQh7HqjkjT7jGHcOTtlj7rPLu4qGTo",
+    name: "Guillaume Le Floch",
+    role: "#Dev",
+    github: "glefloch",
+    linkedin: "guillaume-lefloch",
+  },
+  {
+    img: "https://media.licdn.com/dms/image/C5103AQFPsXqaEP8SJw/profile-displayphoto-shrink_800_800/0/1516962932996?e=1707350400&v=beta&t=LL9xN9enO9Vbljnce5G8N76KPvlh6GcD-tMawSobvU8",
+    name: "Samuel Nait",
+    role: "#Dev",
+    github: "Tisamu",
+    linkedin: "samuel-nait",
+  },
+  {
+    img: "https://media.licdn.com/dms/image/C5103AQFKDG5buZNfGw/profile-displayphoto-shrink_800_800/0/1516543245875?e=1707350400&v=beta&t=mTPn5FOr4iM-M58xZNEdJZsxe4JwZgEhhmZqipnupys",
+    name: "Vincent Gouadon",
+    role: "#Dev",
+    linkedin: "vincent-gouadon-14099851",
+    github: "nayosis",
+  },
+  {
+    img: "https://ca.slack-edge.com/T055LU83QP2-U055JRXG9ND-3f5d9c4690f7-512",
+    name: "Xavier Lecouls",
+    role: "#ProductOwner",
+    linkedin: "xavier-lecouls-53867b1",
+  },
+  {
+    img: "https://media.licdn.com/dms/image/D4E03AQHf5tj7o3FZLQ/profile-displayphoto-shrink_800_800/0/1672238774385?e=1707350400&v=beta&t=yv5RPqeo5aDjgtKveY5L9P_0kX83lCcd0ldLlbfimX0",
+    name: "Alice Cozien",
+    role: "#UX",
+    linkedin: "cozienalice",
+  },
+  {
+    img: "https://media.licdn.com/dms/image/C4E03AQG6mPrbLo3C1w/profile-displayphoto-shrink_800_800/0/1652993257274?e=1707350400&v=beta&t=ualtjp70jHqAYAr_LnUaX40S1Lb2lLXSJO6_Ly2LZ4g",
+    name: "Nicolas Duvivier",
+    role: "#UX",
+    linkedin: "nduvivier"
+  },
+  {
+    img: "https://media.licdn.com/dms/image/C4D03AQGNUzdW7g_ugg/profile-displayphoto-shrink_800_800/0/1597946404403?e=1707350400&v=beta&t=alSxQtyy6Lk4mPifSMm99jBo17cYuaGceIgGYxn-mXE",
+    name: "Florent Frémont",
+    role: "#Dev",
+    linkedin: "florent-frémont-b2a943a9",
+  },
+  {
+    img: "https://media.licdn.com/dms/image/D4E03AQFYSTY7EE_IOw/profile-displayphoto-shrink_800_800/0/1670840709307?e=1707350400&v=beta&t=thWeN8pqhdYO9No11HCy8eZSlAp7_sqxpxY7r-BBWOo",
+    name: "Susan Riou",
+    role: "#SysOps",
+    linkedin: "susan-riou-5a7a4a139"
+  }
+
+]
+
 const App: Component = () => {
   return (
     <div class={styles.App}>
@@ -10,7 +87,7 @@ const App: Component = () => {
           <img
             id={styles.logo}
             src="LOGO.svg"
-            alt="DevQuest, le 14 Juin 2024 à Niort"
+            alt="DevQuest"
           />
 
           <h1>Le premier rassemblement dev niortais</h1>
@@ -42,17 +119,22 @@ const App: Component = () => {
             <a
               class={styles.rs}
               href="https://www.linkedin.com/company/devquest-niort/"
+              aria-label="Linkedin DevQuest"
             >
               <img
                 height="32"
                 width="32"
                 src="logo-linkedin.png"
-                alt="LinkedIn"
+                aria-hidden="true"
               />
             </a>
 
-            <a class={styles.rs} href="https://twitter.com/DevQuestNiort">
-              <img height="32" width="32" src="logo-x.png" alt="Twitter" />
+            <a class={styles.rs} href="https://twitter.com/DevQuestNiort" aria-label="Twitter DevQuest">
+              <img height="32" width="32" src="logo-x.png" aria-hidden="true" />
+            </a>
+
+            <a class={styles.rs} href="mailto:bureau@devquest.fr" aria-label="Envoyer un mail à bureau@devquest.fr">
+              <span class="icon-mail" />
             </a>
           </div>
         </div>
@@ -85,56 +167,16 @@ const App: Component = () => {
         <div id={styles.equipe}>
           <h1>L'équipe</h1>
           <div id={styles.galery}>
-            <Avatar
-              img="https://media.licdn.com/dms/image/D4E03AQEc3Um3Fx4t5Q/profile-displayphoto-shrink_800_800/0/1677851859580?e=1707350400&v=beta&t=s-04aCeNnRZSGU4r8LbK6N91lsFTGUFjUIUMi5rLMsg"
-              name="Alexandre Pacaud"
-              info="#Dev"
-            />
-            <Avatar
-              img="https://media.licdn.com/dms/image/D4E03AQEUfL_txA2kfg/profile-displayphoto-shrink_800_800/0/1679322061985?e=1707350400&v=beta&t=8a-20GsC1Ip8Kt1Bl49cekZnRcKI5GbgtNiCRXCWZPQ"
-              name="Alexandre Guérin"
-              info="#Dev"
-            />
-            <Avatar
-              img="https://media.licdn.com/dms/image/C5603AQHAeYGqwnhuFA/profile-displayphoto-shrink_800_800/0/1516958131555?e=1707350400&v=beta&t=9OUC-qHGNXf0FqQh7HqjkjT7jGHcOTtlj7rPLu4qGTo"
-              name="Guillaume Le Floch"
-              info="#Dev"
-            />
-            <Avatar
-              img="https://media.licdn.com/dms/image/C5103AQFPsXqaEP8SJw/profile-displayphoto-shrink_800_800/0/1516962932996?e=1707350400&v=beta&t=LL9xN9enO9Vbljnce5G8N76KPvlh6GcD-tMawSobvU8"
-              name="Samuel Nait"
-              info="#Dev"
-            />
-            <Avatar
-              img="https://media.licdn.com/dms/image/C5103AQFKDG5buZNfGw/profile-displayphoto-shrink_800_800/0/1516543245875?e=1707350400&v=beta&t=mTPn5FOr4iM-M58xZNEdJZsxe4JwZgEhhmZqipnupys"
-              name="Vincent Gouadon"
-              info="#Dev"
-            />
-            <Avatar
-              img="https://ca.slack-edge.com/T055LU83QP2-U055JRXG9ND-3f5d9c4690f7-512"
-              name="Xavier Lecouls"
-              info="#ProductOwner"
-            />
-            <Avatar
-              img="https://media.licdn.com/dms/image/D4E03AQHf5tj7o3FZLQ/profile-displayphoto-shrink_800_800/0/1672238774385?e=1707350400&v=beta&t=yv5RPqeo5aDjgtKveY5L9P_0kX83lCcd0ldLlbfimX0"
-              name="Alice Cozien"
-              info="#UX"
-            />
-            <Avatar
-              img="https://media.licdn.com/dms/image/C4E03AQG6mPrbLo3C1w/profile-displayphoto-shrink_800_800/0/1652993257274?e=1707350400&v=beta&t=ualtjp70jHqAYAr_LnUaX40S1Lb2lLXSJO6_Ly2LZ4g"
-              name="Nicolas Duvivier"
-              info="#UX"
-            />
-            <Avatar
-              img="https://media.licdn.com/dms/image/C4D03AQGNUzdW7g_ugg/profile-displayphoto-shrink_800_800/0/1597946404403?e=1707350400&v=beta&t=alSxQtyy6Lk4mPifSMm99jBo17cYuaGceIgGYxn-mXE"
-              name="Florent Frémont"
-              info="#Dev"
-            />
-            <Avatar
-              img="https://media.licdn.com/dms/image/D4E03AQFYSTY7EE_IOw/profile-displayphoto-shrink_800_800/0/1670840709307?e=1707350400&v=beta&t=thWeN8pqhdYO9No11HCy8eZSlAp7_sqxpxY7r-BBWOo"
-              name="Susan Riou"
-              info="#SysOps"
-            />
+            {members.sort(() => (Math.random() > .5) ? 1 : -1).map((m: Member) =>
+              <Avatar
+                img={m.img}
+                name={m.name}
+                role={m.role}
+                github={m.github}
+                linkedin={m.linkedin}
+              />
+            )}
+
           </div>
           <p>2024 - DevQuest</p>
         </div>
