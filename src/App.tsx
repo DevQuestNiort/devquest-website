@@ -92,8 +92,6 @@ const App: Component = () => {
 
           <h1>Le premier rassemblement dev niortais</h1>
 
-          <h2>Tu veux être speaker ?</h2>
-
           <div class={styles.row}>
             <div>
               <a
@@ -101,6 +99,14 @@ const App: Component = () => {
                 href="https://conference-hall.io/public/event/geINICiIQFU0WdORU423"
               >
                 Proposer un sujet
+              </a>
+            </div>
+            <div>
+              <a
+                class={styles.btn}
+                href="https://www.billetweb.fr/devquest-niort-2024"
+              >
+                Accéder à la billeterie
               </a>
             </div>
           </div>
