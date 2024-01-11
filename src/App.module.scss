@@ -75,16 +75,8 @@ h2 {
   flex-direction: row;
   text-align: center;
   padding-top: 1rem;
-
-  div {
-    width: 33%;
-    margin: auto;
-    display: flex;
-
-    a {
-      margin: auto;
-    }
-  }
+  gap: 2rem;
+  justify-content: center;
 }
 
 #infos {
@@ -209,6 +201,8 @@ h2 {
   }
 
   .row {
+    flex-direction: column;
+    gap: 0;
     div {
       width: 100%;
       margin: auto;
