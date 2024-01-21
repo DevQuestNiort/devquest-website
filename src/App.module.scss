@@ -70,6 +70,24 @@ h2 {
   }
 }
 
+.btnreversesmaller {
+  background-color: var(--sable);
+  padding: 0.5rem 1.5rem;
+  border-radius: 2px;
+  border: solid 4px var(--vert-degueu);
+  color: var(--vert-degueu);
+  font-family: Teko, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: 0.25s;
+
+  &:hover {
+    scale: 1.2;
+    box-shadow: 2px 2px 8px black;
+  }
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -181,6 +199,17 @@ h2 {
 
 #programtext {
   max-width: 1010px;
+}
+
+#location {
+  background-size: cover;
+  background-position: center;
+  background-image: url("map.png");
+  height: auto;
+  width: 100%;
+  color: white;
+  padding: 2rem;
+  text-align: center;
 }
 
 @media (max-width: 640px) {
