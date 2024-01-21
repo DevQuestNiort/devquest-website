@@ -1,6 +1,7 @@
 import type { Component } from "solid-js";
 import styles from "./App.module.scss";
 import { Avatar } from "./components/Avatar";
+import Sponsor, { SponsorProperties } from "./components/Sponsor/Sponsor";
 
 interface Member {
   img: string;
@@ -78,6 +79,88 @@ const members = [
   }
 
 ]
+
+const sponsorUnique = {
+  img: "/team/pacaud.jpeg",
+  name: "Wekey",
+  websiteUrl: "https://wekey.fr/",
+};
+
+const sponsorsRare = [
+  {
+    img: "/team/pacaud.jpeg",
+    name: "Alltech",
+    websiteUrl: "https://www.alltechconsulting.fr/",
+  },
+  {
+    img: "/team/pacaud.jpeg",
+    name: "Altapyx",
+    websiteUrl: "https://altapyx.com/",
+  },
+  {
+    img: "/team/pacaud.jpeg",
+    name: "Cat-amania",
+    websiteUrl: "https://www.cat-amania.com/",
+  },
+  {
+    img: "/team/pacaud.jpeg",
+    name: "Darva",
+    websiteUrl: "https://www.darva.com/fr/",
+  },
+  {
+    img: "/team/pacaud.jpeg",
+    name: "IMA",
+    websiteUrl: "https://ima.eu/fr/index.php",
+  },
+  {
+    img: "/team/guerin.jpeg",
+    name: "Macif",
+    websiteUrl: "https://www.macif.fr/",
+  },
+  {
+    img: "/team/guerin.jpeg",
+    name: "Maif",
+    websiteUrl: "https://www.maif.fr/",
+  },
+  {
+    img: "/team/guerin.jpeg",
+    name: "NéoSoft",
+    websiteUrl: "https://www.neosoft.fr/",
+  },
+  {
+    img: "/team/guerin.jpeg",
+    name: "Niort Agglo",
+    websiteUrl: "https://www.niortagglo.fr/index.html",
+  },
+  {
+    img: "/team/guerin.jpeg",
+    name: "SERLI",
+    websiteUrl: "https://www.serli.com/",
+  },
+  {
+    img: "/team/guerin.jpeg",
+    name: "Zenika",
+    websiteUrl: "https://www.zenika.com/",
+  },
+];
+
+const sponsorsCommun = [
+  {
+    img: "/team/pacaud.jpeg",
+    name: "Acensi",
+    websiteUrl: "https://www.acensi.fr/page/accueil/fr_fr",
+  },
+  {
+    img: "/team/pacaud.jpeg",
+    name: "ASI",
+    websiteUrl: "https://www.asi.fr/",
+  },
+  {
+    img: "/team/guerin.jpeg",
+    name: "Neatcraft",
+    websiteUrl: "FIXME: pas de site",
+  },
+];
 
 const App: Component = () => {
   return (
@@ -189,6 +272,45 @@ const App: Component = () => {
         <div id={styles.program}>
           <h1>Le programme</h1>
           <p id={styles.programtext} >Le programme n'est pas encore disponible, mais d'ores et déjà, nous pouvons vous dire que les histoires que vous entendrez vous raconterons des épopées sur l'intelligence artificielle mais aussi autour de l'artisanat logiciel... ou bien encore d'autres sujets passionnants!</p>
+        </div>
+
+        <div id={styles.sponsors}>
+          <h1>Nos partenaires</h1>
+          <h2>Unique</h2>
+          <div id={styles.galery}>
+            <Sponsor
+              img={sponsorUnique.img}
+              name={sponsorUnique.name}
+              websiteUrl={sponsorUnique.websiteUrl}
+              level="unique"
+            />
+          </div>
+
+          <h2>Rare</h2>
+          <div id={styles.galery}>
+            {sponsorsRare.sort(() => (Math.random() > .5) ? 1 : -1).map((s) =>
+              <Sponsor
+                img={s.img}
+                name={s.name}
+                websiteUrl={s.websiteUrl}
+                level="rare"
+              />
+            )}
+
+          </div>
+
+          <h2>Commun</h2>
+          <div id={styles.galery}>
+            {sponsorsCommun.sort(() => (Math.random() > .5) ? 1 : -1).map((s) =>
+              <Sponsor
+                img={s.img}
+                name={s.name}
+                websiteUrl={s.websiteUrl}
+                level="commun"
+              />
+            )}
+
+          </div>
           <p>2024 - DevQuest</p>
         </div>
       </div>
