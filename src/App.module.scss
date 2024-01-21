@@ -143,7 +143,7 @@ h2 {
   max-width: 1010px;
   margin: 3rem auto;
 
-  > * {
+  >* {
     width: 175px;
   }
 }
@@ -164,9 +164,23 @@ h2 {
   max-width: 1010px;
   margin: 3rem auto;
 
-  > * {
+  >* {
     width: 175px;
   }
+}
+
+#program {
+  background-color: #f1ddb7;
+  color: black;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#programtext {
+  max-width: 1010px;
 }
 
 @media (max-width: 640px) {
@@ -203,6 +217,7 @@ h2 {
   .row {
     flex-direction: column;
     gap: 0;
+
     div {
       width: 100%;
       margin: auto;
