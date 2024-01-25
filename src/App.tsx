@@ -80,15 +80,6 @@ const members = [
 ]
 
 const App: Component = () => {
-
-  console.log(`
-    Félicitations !
-    Tu es la personne chanceuse qui a gagné une place gratuite. 
-    Pour la récupérer envoie nous un mail à bureau@devquest.com ;) 
-    A bientôt !
-  `)
-
-
   return (
     <div class={styles.App}>
       <div id={styles.main}>
