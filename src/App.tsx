@@ -82,9 +82,10 @@ const members = [
 const App: Component = () => {
 
   console.log(`
-    Félicitations !
-    Tu es la personne chanceuse qui a gagné une place gratuite. 
-    Pour la récupérer envoie nous un mail à bureau@devquest.com ;) 
+    Félicitations explorateur !
+    Tu es l'heureux gagnant d'une place gratuite pour accéder à notre aventure grâce à ta curiosité !
+    Pour récupérer ta place, utilise le code secret issue d'un langage ancien LAPIN_GAROU directement sur notre billetterie.
+    Attention ce code ne fonctionnera qu'une seule fois!
     A bientôt !
   `)
 
