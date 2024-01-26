@@ -76,7 +76,6 @@ const members = [
     role: "#SysOps",
     linkedin: "susan-riou-5a7a4a139"
   }
-
 ]
 
 const App: Component = () => {
@@ -87,8 +86,7 @@ const App: Component = () => {
     Pour récupérer ta place, utilise le code secret issue d'un langage ancien LAPIN_GAROU directement sur notre billetterie.
     Attention ce code ne fonctionnera qu'une seule fois!
     A bientôt !
-  `)
-
+  `);
 
   return (
     <div class={styles.App}>
