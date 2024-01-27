@@ -94,7 +94,7 @@ const App: Component = () => {
         <div id={styles.brand}>
           <img
               id={styles.logo}
-              src="logo.svg"
+              src="/logo.svg"
               alt="DevQuest"
           />
 
