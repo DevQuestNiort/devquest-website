@@ -12,66 +12,66 @@ interface Member {
 
 const members = [
   {
-    img: "https://media.licdn.com/dms/image/D4E03AQEc3Um3Fx4t5Q/profile-displayphoto-shrink_800_800/0/1677851859580?e=1707350400&v=beta&t=s-04aCeNnRZSGU4r8LbK6N91lsFTGUFjUIUMi5rLMsg",
+    img: "/team/pacaud.jpeg",
     name: "Alexandre Pacaud",
     role: "#Dev",
     linkedin: "alexandre-pacaud-78266210a",
     github: "Lithyon"
   },
   {
-    img: "https://media.licdn.com/dms/image/D4E03AQEUfL_txA2kfg/profile-displayphoto-shrink_800_800/0/1679322061985?e=1707350400&v=beta&t=8a-20GsC1Ip8Kt1Bl49cekZnRcKI5GbgtNiCRXCWZPQ",
+    img: "/team/guerin.jpeg",
     name: "Alexandre Guérin",
     role: "#Dev",
     linkedin: "alexandre-guerin",
     github: "Ithrandil"
   },
   {
-    img: "https://media.licdn.com/dms/image/C5603AQHAeYGqwnhuFA/profile-displayphoto-shrink_800_800/0/1516958131555?e=1707350400&v=beta&t=9OUC-qHGNXf0FqQh7HqjkjT7jGHcOTtlj7rPLu4qGTo",
+    img: "/team/lefloch.jpeg",
     name: "Guillaume Le Floch",
     role: "#Dev",
     github: "glefloch",
     linkedin: "guillaume-lefloch",
   },
   {
-    img: "https://media.licdn.com/dms/image/C5103AQFPsXqaEP8SJw/profile-displayphoto-shrink_800_800/0/1516962932996?e=1707350400&v=beta&t=LL9xN9enO9Vbljnce5G8N76KPvlh6GcD-tMawSobvU8",
+    img: "/team/nait.jpeg",
     name: "Samuel Nait",
     role: "#Dev",
     github: "Tisamu",
     linkedin: "samuel-nait",
   },
   {
-    img: "https://media.licdn.com/dms/image/C5103AQFKDG5buZNfGw/profile-displayphoto-shrink_800_800/0/1516543245875?e=1707350400&v=beta&t=mTPn5FOr4iM-M58xZNEdJZsxe4JwZgEhhmZqipnupys",
+    img: "/team/gouadon.jpeg",
     name: "Vincent Gouadon",
     role: "#Dev",
     linkedin: "vincent-gouadon-14099851",
     github: "nayosis",
   },
   {
-    img: "https://ca.slack-edge.com/T055LU83QP2-U055JRXG9ND-3f5d9c4690f7-512",
+    img: "/team/lecouls.jpeg",
     name: "Xavier Lecouls",
     role: "#ProductOwner",
     linkedin: "xavier-lecouls-53867b1",
   },
   {
-    img: "https://media.licdn.com/dms/image/D4E03AQHf5tj7o3FZLQ/profile-displayphoto-shrink_800_800/0/1672238774385?e=1707350400&v=beta&t=yv5RPqeo5aDjgtKveY5L9P_0kX83lCcd0ldLlbfimX0",
+    img: "/team/cozien.jpeg",
     name: "Alice Cozien",
     role: "#UX",
     linkedin: "cozienalice",
   },
   {
-    img: "https://media.licdn.com/dms/image/C4E03AQG6mPrbLo3C1w/profile-displayphoto-shrink_800_800/0/1652993257274?e=1707350400&v=beta&t=ualtjp70jHqAYAr_LnUaX40S1Lb2lLXSJO6_Ly2LZ4g",
+    img: "/team/duvivier.jpeg",
     name: "Nicolas Duvivier",
     role: "#UX",
     linkedin: "nduvivier"
   },
   {
-    img: "https://media.licdn.com/dms/image/C4D03AQGNUzdW7g_ugg/profile-displayphoto-shrink_800_800/0/1597946404403?e=1707350400&v=beta&t=alSxQtyy6Lk4mPifSMm99jBo17cYuaGceIgGYxn-mXE",
+    img: "/team/fremont.jpeg",
     name: "Florent Frémont",
     role: "#Dev",
     linkedin: "florent-frémont-b2a943a9",
   },
   {
-    img: "https://media.licdn.com/dms/image/D4E03AQFYSTY7EE_IOw/profile-displayphoto-shrink_800_800/0/1670840709307?e=1707350400&v=beta&t=thWeN8pqhdYO9No11HCy8eZSlAp7_sqxpxY7r-BBWOo",
+    img: "/team/riou.jpeg",
     name: "Susan Riou",
     role: "#SysOps",
     linkedin: "susan-riou-5a7a4a139"
@@ -94,7 +94,7 @@ const App: Component = () => {
         <div id={styles.brand}>
           <img
             id={styles.logo}
-            src="LOGO.svg"
+            src="logo.svg"
             alt="DevQuest"
           />
 
@@ -138,13 +138,13 @@ const App: Component = () => {
               <img
                 height="32"
                 width="32"
-                src="logo-linkedin.png"
+                src="/social/logo-linkedin.png"
                 aria-hidden="true"
               />
             </a>
 
             <a class={styles.rs} href="https://twitter.com/DevQuestNiort" aria-label="Twitter DevQuest">
-              <img height="32" width="32" src="logo-x.png" aria-hidden="true" />
+              <img height="32" width="32" src="/social/logo-x.png" aria-hidden="true" />
             </a>
 
             <a class={styles.rs} href="mailto:bureau@devquest.fr" aria-label="Envoyer un mail à bureau@devquest.fr">
@@ -156,22 +156,22 @@ const App: Component = () => {
           <h1>Diantre, DevQuest dîtes-vous? Qu'est-ce donc que cela?</h1>
           <div id={styles.eventspec}>
             <div>
-              <img height="96" src="backpack.png" aria-hidden="true" />
+              <img height="96" src="/assets/backpack.png" aria-hidden="true" />
               {/* <a href="https://www.flaticon.com/free-icons/rpg" title="rpg icons">Rpg icons created by Freepik - Flaticon</a> */}
               <h2>1 journée</h2>
             </div>
             <div>
-              <img height="96" src="knight.png" aria-hidden="true" />
+              <img height="96" src="/assets/knight.png" aria-hidden="true" />
               {/* <a href="https://www.flaticon.com/free-icons/rpg" title="rpg icons">Rpg icons created by Freepik - Flaticon</a> */}
               <h2>150 spectateurs</h2>
             </div>
             <div>
-              <img height="96" src="king.png" aria-hidden="true" />
+              <img height="96" src="/assets/king.png" aria-hidden="true" />
               {/* <a href="https://www.flaticon.com/free-icons/king" title="king icons">King icons created by Freepik - Flaticon</a> */}
               <h2>16 partenaires</h2>
             </div>
             <div>
-              <img height="96" src="quest.png" aria-hidden="true" />
+              <img height="96" src="/assets/quest.png" aria-hidden="true" />
               {/* <a href="https://www.flaticon.com/free-icons/rpg" title="rpg icons">Rpg icons created by David Carapinha - Flaticon</a> */}
               <h2>20 présentations multi format</h2>
             </div>
@@ -192,6 +192,11 @@ const App: Component = () => {
             )}
 
           </div>
+        </div>
+
+        <div id={styles.program}>
+          <h1>Le programme</h1>
+          <p id={styles.programtext} >Le programme n'est pas encore disponible, mais d'ores et déjà, nous pouvons vous dire que les histoires que vous entendrez vous raconterons des épopées sur l'intelligence artificielle mais aussi autour de l'artisanat logiciel... ou bien encore d'autres sujets passionnants!</p>
           <p>2024 - DevQuest</p>
         </div>
       </div>
