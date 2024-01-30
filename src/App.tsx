@@ -5,6 +5,8 @@ import { Theme, themes } from './data/themes'
 import { Member, members } from './data/members'
 import { Thematique } from "./components/Thematique";
 import { ThematiqueProperties } from "./components/Thematique/Thematique";
+import { contacts, Contact as ContactType } from './data/contacts'
+import { Contact } from "./components/Contact";
 
 
 
@@ -66,29 +68,10 @@ const App: Component = () => {
             </div>
 
             <div id={styles.rows}>
-            <a
-              class={styles.rs}
-              href="https://www.linkedin.com/company/devquest-niort/"
-              aria-label="Linkedin DevQuest"
-            >
-              <img
-                height="32"
-                width="32"
-                src="/social/logo-linkedin.png"
-                aria-hidden="true"
-              />
-            </a>
-
-            <a class={styles.rs} href="https://twitter.com/DevQuestNiort" aria-label="Twitter DevQuest">
-              <img height="32" width="32" src="/social/logo-x.png" aria-hidden="true" />
-            </a>
-
-            <a class={styles.rs} href="mailto:bureau@devquest.fr" aria-label="Envoyer un mail à bureau@devquest.fr">
-              <span class="icon-mail" />
-            </a>
+              {contacts?.map((contact: ContactType) => <Contact name={contact.name} asset={contact.asset} icon={contact.icon} link={contact.link} />)}
+            </div>
           </div>
-        </div>
-        <div id={styles.event}>
+          <div id={styles.event}>
             <h1>Diantre, DevQuest dîtes-vous? Qu'est-ce donc que cela?</h1>
             <div id={styles.eventspec}>
               <div>
