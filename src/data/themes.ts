@@ -1,4 +1,4 @@
-export const themes = [
+export const themes:Theme[] = [
   {
     img: "/assets/archer.png",
     name: "Front-End",
@@ -24,3 +24,9 @@ export const themes = [
     name: "Quêtes Secondaires",
   },
 ];
+
+
+export interface Theme {
+  img: string;
+  name: string;
+}
