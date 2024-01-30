@@ -24,7 +24,8 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  a{
+
+  a {
     text-decoration: underline;
     color: var(--vert-degueu);
   }
@@ -159,6 +160,15 @@ h2 {
   text-align: center;
 }
 
+
+#thematiques {
+  background-color: #5a4949;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+
 #galery {
   display: flex;
   flex-wrap: wrap;
@@ -221,7 +231,7 @@ h2 {
   .row {
     flex-direction: column;
     gap: 0;
-    
+
     div {
       width: 100%;
       margin: auto;
