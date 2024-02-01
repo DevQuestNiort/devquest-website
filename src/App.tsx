@@ -95,13 +95,6 @@ const App: Component = () => {
           <Thematiques />
         </div>
         <div id={styles.program}>
-          <h1>Le programme</h1>
-          <div class={styles.card}>
-
-
-            <p id={styles.programtext}>Le programme n'est pas encore disponible, mais d'ores et déjà, nous pouvons vous
-              dire que les histoires que vous entendrez vous raconterons des épopées sur l'intelligence artificielle
-              mais aussi autour de l'artisanat logiciel... ou bien encore d'autres sujets passionnants!</p>
           </div>
         </div>
         <div id={styles.equipe}>
