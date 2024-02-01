@@ -1,66 +1,76 @@
-export const members:Member[] = [
+export const members: Member[] = [
   {
     img: "/team/pacaud.jpeg",
-    name: "Alexandre Pacaud",
+    firstName: "Alexandre",
+    lastName: "Pacaud",
     role: "#Dev",
     linkedin: "alexandre-pacaud-78266210a",
     github: "Lithyon",
   },
   {
     img: "/team/guerin.jpeg",
-    name: "Alexandre Guérin",
+    firstName: "Alexandre",
+    lastName: "Guérin",
     role: "#Dev",
     linkedin: "alexandre-guerin",
     github: "Ithrandil",
   },
   {
     img: "/team/lefloch.jpeg",
-    name: "Guillaume Le Floch",
+    firstName: "Guillaume",
+    lastName: "Le Floch",
     role: "#Dev",
     github: "glefloch",
     linkedin: "guillaume-lefloch",
   },
   {
     img: "/team/nait.jpeg",
-    name: "Samuel Nait",
+    firstName: "Samuel",
+    lastName: "Nait",
     role: "#Dev",
     github: "Tisamu",
     linkedin: "samuel-nait",
   },
   {
     img: "/team/gouadon.jpeg",
-    name: "Vincent Gouadon",
+    firstName: "Vincent",
+    lastName: "Gouadon",
     role: "#Dev",
     linkedin: "vincent-gouadon-14099851",
     github: "nayosis",
   },
   {
     img: "/team/lecouls.jpeg",
-    name: "Xavier Lecouls",
+    firstName: "Xavier",
+    lastName: "Lecouls",
     role: "#ProductOwner",
     linkedin: "xavier-lecouls-53867b1",
   },
   {
     img: "/team/cozien.jpeg",
-    name: "Alice Cozien",
+    firstName: "Alice",
+    lastName: "Cozien",
     role: "#UX",
     linkedin: "cozienalice",
   },
   {
     img: "/team/duvivier.jpeg",
-    name: "Nicolas Duvivier",
+    firstName: "Nicolas",
+    lastName: "Duvivier",
     role: "#UX",
     linkedin: "nduvivier",
   },
   {
     img: "/team/fremont.jpeg",
-    name: "Florent Frémont",
+    firstName: "Florent",
+    lastName: "Frémont",
     role: "#Dev",
     linkedin: "florent-frémont-b2a943a9",
   },
   {
     img: "/team/riou.jpeg",
-    name: "Susan Riou",
+    firstName: "Susan",
+    lastName: "Riou",
     role: "#SysOps",
     linkedin: "susan-riou-5a7a4a139",
   },
@@ -68,7 +78,8 @@ export const members:Member[] = [
 
 export interface Member {
   img: string;
-  name: string;
+  firstName: string;
+  lastName: string;
   role: string;
   github?: string;
   linkedin?: string;
