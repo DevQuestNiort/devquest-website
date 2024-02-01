@@ -1,0 +1,37 @@
+.themeContainer {
+    max-width: 1010px;
+
+    @media (min-width: 640px) {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .theme {
+        margin: 96px 30px 15px;
+        display: flex;
+        border-radius: 10px;
+        background-color: #f29543;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        min-height: 64px;
+        min-width: 220px;
+        width: 25%;
+
+        img {
+
+            transform-origin: center;
+            height: 96px;
+            width: 96px;
+            position: absolute;
+            transform: translateY(-69px);
+
+        }
+
+        .themeName {
+            font-size: 1.2rem;
+        }
+    }
+}
