@@ -7,7 +7,8 @@ export default function Thematiques() {
         {themes?.map((theme: Theme) =>
             <div class={style.theme}>
                 <img src={theme.img} alt="" />
-                <span class={style.themeName}>{theme.name}</span>
+                <div class={style.themeName}>{theme.name}</div>
+                <div>{theme.details}</div>
             </div>)}
     </div>
 
