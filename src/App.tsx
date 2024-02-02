@@ -1,10 +1,8 @@
 import type { Component } from "solid-js";
 import styles from "./App.module.scss";
 import { Avatar } from "./components/Avatar";
-import { Theme, themes } from './data/themes'
 import { Member, members } from './data/members'
-import { Thematique } from "./components/Thematique";
-import { ThematiqueProperties } from "./components/Thematique/Thematique";
+import { Thematiques } from "./components/Thematiques";
 import { contacts, Contact as ContactType } from './data/contacts'
 import { Contact } from "./components/Contact";
 
@@ -58,71 +56,69 @@ const App: Component = () => {
           </div>
         </div>
 
-          <div id={styles.infos}>
-            <h1>Des conférences. Des sangliers. De la cervoise.</h1>
+        <div id={styles.infos}>
+          <h1>Des conférences. Des sangliers. De la cervoise.</h1>
 
-            <div class={styles.card}>
-              L'été prochain, ne manquez pas le premier événement
-              ludico-professionnel niortais dédié aux développeurs. Améliorez vos
-              compétences et surtout... Profitez de l'aventure !
+          <div class={styles.card}>
+            L'été prochain, ne manquez pas le premier événement
+            ludico-professionnel niortais dédié aux développeurs. Améliorez vos
+            compétences et surtout... Profitez de l'aventure !
+          </div>
+
+          <div id={styles.rows}>
+            {contacts?.map((contact: ContactType) => <Contact name={contact.name} asset={contact.asset} icon={contact.icon} link={contact.link} />)}
+          </div>
+        </div>
+        <div id={styles.event}>
+          <h1>Diantre, DevQuest dîtes-vous? Qu'est-ce donc que cela?</h1>
+          <div id={styles.eventspec}>
+            <div>
+              <img height="96" src="/assets/backpack.png" aria-hidden="true" />
+              <h2>1<br />journée</h2>
             </div>
-
-            <div id={styles.rows}>
-              {contacts?.map((contact: ContactType) => <Contact name={contact.name} asset={contact.asset} icon={contact.icon} link={contact.link} />)}
+            <div>
+              <img height="96" src="/assets/knight.png" aria-hidden="true" />
+              <h2>150 spectateurs</h2>
+            </div>
+            <div>
+              <img height="96" src="/assets/king.png" aria-hidden="true" />
+              <h2>16 partenaires</h2>
+            </div>
+            <div>
+              <img height="96" src="/assets/quest.png" aria-hidden="true" />
+              <h2>20 présentations multi format</h2>
             </div>
           </div>
-          <div id={styles.event}>
-            <h1>Diantre, DevQuest dîtes-vous? Qu'est-ce donc que cela?</h1>
-            <div id={styles.eventspec}>
-              <div>
-                <img height="96" src="/assets/backpack.png" aria-hidden="true" />
-                <h2>1 journée</h2>
-              </div>
-              <div>
-                <img height="96" src="/assets/knight.png" aria-hidden="true" />
-                <h2>150 spectateurs</h2>
-              </div>
-              <div>
-                <img height="96" src="/assets/king.png" aria-hidden="true" />
-                <h2>16 partenaires</h2>
-              </div>
-              <div>
-                <img height="96" src="/assets/quest.png" aria-hidden="true" />
-                <h2>20 présentations multi format</h2>
-              </div>
-            </div>
-          </div>
-          <div id={styles.thematiques}>
-            <h1>Les thématiques</h1>
-            <div id={styles.galery}>
-              {themes?.map((theme: Theme) => <Thematique name={theme.name} img={theme.img} />)}
-            </div>
-          </div>
-          <div id={styles.program}>
-            <h1>Le programme</h1>
-            <div class={styles.card}>
+        </div>
+        <div id={styles.thematiques}>
+          <h1>Les classes disponibles</h1>
+          <Thematiques />
+        </div>
+        <div id={styles.program}>
+          <h1>Le programme</h1>
+          <div class={styles.card}>
 
 
-              <p id={styles.programtext}>Le programme n'est pas encore disponible, mais d'ores et déjà, nous pouvons vous
-                dire que les histoires que vous entendrez vous raconterons des épopées sur l'intelligence artificielle
-                mais aussi autour de l'artisanat logiciel... ou bien encore d'autres sujets passionnants!</p>
-            </div>
+            <p id={styles.programtext}>Le programme n'est pas encore disponible, mais d'ores et déjà, nous pouvons vous
+              dire que les histoires que vous entendrez vous raconterons des épopées sur l'intelligence artificielle
+              mais aussi autour de l'artisanat logiciel... ou bien encore d'autres sujets passionnants!</p>
           </div>
-          <div id={styles.equipe}>
-            <h1>L'équipe</h1>
-            <div id={styles.galery}>
-              {members.sort(() => (Math.random() > .5) ? 1 : -1).map((m: Member) =>
-                <Avatar
-                  img={m.img}
-                  name={m.name}
-                  role={m.role}
-                  github={m.github}
-                  linkedin={m.linkedin}
-                />
-              )}
+        </div>
+        <div id={styles.equipe}>
+          <h1>L'équipe</h1>
+          <div id={styles.galery}>
+            {members.sort(() => (Math.random() > .5) ? 1 : -1).map((m: Member) =>
+              <Avatar
+                img={m.img}
+                name={m.name}
+                role={m.role}
+                github={m.github}
+                linkedin={m.linkedin}
+              />
+            )}
 
-            </div>
           </div>
+        </div>
 
 
 
