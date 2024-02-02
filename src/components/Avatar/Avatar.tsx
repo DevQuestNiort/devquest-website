@@ -2,17 +2,19 @@ import style from "./Avatar.module.scss";
 
 interface AvartarProperties {
     readonly img: string
-    readonly name: string
+    readonly firstName: string
+    readonly lastName: string
     readonly role: string
     readonly github?: string;
     readonly linkedin?: string;
 
 }
 
-export default function Avatar({ img, name, role, github, linkedin }: AvartarProperties) {
+export default function Avatar({ img, firstName, lastName, role, github, linkedin }: AvartarProperties) {
     return <div>
-        <img class={style.avatar} height="128" width="128" src={img} alt={name} />
-        <h2>{name}</h2>
+        <img class={style.avatar} height="128" width="128" src={img} alt="" />
+        <h2>{firstName}</h2>
+        <h2>{lastName}</h2>
         <div class={style.infos}>
 
             <p>{role}</p>

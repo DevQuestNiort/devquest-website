@@ -105,12 +105,13 @@ const App: Component = () => {
           </div>
         </div>
         <div id={styles.equipe}>
-          <h1>L'équipe</h1>
+          <h1>Les maîtres du donjon</h1>
           <div id={styles.galery}>
             {members.sort(() => (Math.random() > .5) ? 1 : -1).map((m: Member) =>
               <Avatar
                 img={m.img}
-                name={m.name}
+                firstName={m.firstName}
+                lastName={m.lastName}
                 role={m.role}
                 github={m.github}
                 linkedin={m.linkedin}
