@@ -5,6 +5,7 @@ import HomeController from './HomeController.ts';
 import useAttachController from '../../hooks/useAttachController.ts';
 import useInitContext from '../../hooks/useInitContext.ts';
 import Thematique from '../../components/Thematiques/Thematique.tsx';
+import {Galery} from "../../components/Galery";
 
 interface HomeViewProperties {
   readonly controller: HomeController;
@@ -102,7 +103,7 @@ export default function HomeView({ controller }: HomeViewProperties) {
         </div>
         <div id={styles.equipe}>
           <h1>Les maîtres du donjon</h1>
-          <div id={styles.galery}>
+          <Galery >
             {membres
               .sort(() => (Math.random() > 0.5 ? 1 : -1))
               .map((m, i) => (
@@ -116,7 +117,7 @@ export default function HomeView({ controller }: HomeViewProperties) {
                   linkedin={m.linkedin}
                 />
               ))}
-          </div>
+          </Galery>
         </div>
 
         <div id={styles.equipe}>
