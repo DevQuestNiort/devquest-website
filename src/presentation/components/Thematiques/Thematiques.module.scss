@@ -1,0 +1,28 @@
+.theme {
+  margin: 96px 30px 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  border-radius: 10px;
+  background-color: #f29543;
+
+  @media (min-width: 640px) {
+    min-width: 27%;
+  }
+
+  img {
+    transform-origin: center;
+    height: 96px;
+    width: 96px;
+    position: absolute;
+    transform: translateY(-80px);
+  }
+
+  .themeName {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+}

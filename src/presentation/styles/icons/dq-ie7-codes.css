@@ -1,0 +1,9 @@
+.icon-mail {
+  *zoom: expression(this.runtimeStyle[ 'zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;');
+}
+.icon-github {
+  *zoom: expression(this.runtimeStyle[ 'zoom'] = '1', this.innerHTML = '&#xf300;&nbsp;');
+}
+.icon-linkedin {
+  *zoom: expression(this.runtimeStyle[ 'zoom'] = '1', this.innerHTML = '&#xf318;&nbsp;');
+}

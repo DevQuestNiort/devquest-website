@@ -1,26 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
+    <link rel="icon" href="/favicon/favicon.ico" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" href="/favicon/mstile-150x150.png" />
+    <link rel="apple-touch-icon" type="image/png" href="/favicon/apple-touch-icon.png" sizes="180x180" />
 
-  <link rel="icon" href="/assets/favicon-6fe5302c.ico" sizes="32x32">
-  <link rel="icon" type="image/png" href="data:image/png;base64,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">
-  <link rel="icon" type="image/png" href="/assets/mstile-150x150-131ce72f.png">
-  <link rel="apple-touch-icon" type="image/png" href="/assets/apple-touch-icon-403af3ab.png" sizes="180x180">
-
-  <title>DevQuest Niort</title>
-  <script type="module" crossorigin src="/assets/index-697e0921.js"></script>
-  <link rel="stylesheet" href="/assets/index-9edb1b5d.css">
-</head>
-
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-
-  
-</body>
-
+    <title>DevQuest Niort</title>
+    <script type="module" crossorigin src="/assets/index-RQscef54.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-UDIMIs_J.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
 </html>
