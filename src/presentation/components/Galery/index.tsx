@@ -1,1 +1,1 @@
-export {default as Galery} from "./Galery.tsx"
+export { default as Galery } from './Galery.tsx';

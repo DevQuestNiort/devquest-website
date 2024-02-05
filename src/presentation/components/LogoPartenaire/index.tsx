@@ -1,1 +1,1 @@
-export {default as LogoPartenaire} from "./LogoPartenaire.tsx"
+export { default as LogoPartenaire } from './LogoPartenaire.tsx';
