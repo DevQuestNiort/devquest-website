@@ -10,6 +10,14 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
+    layout: 'centered',
+    backgrounds: {
+      default: 'marron',
+      values: [
+        { name: 'sable', value: '#f1ddb7' },
+        { name: 'marron', value: '#5a4949' },
+      ],
+    },
   },
 };
 
