@@ -1,7 +1,7 @@
-import {StateChangedHandler} from "./StateChangedHandler.ts";
+import { StateChangedHandler } from './StateChangedHandler.ts';
 
 export interface StateObservable {
-    subscribeStateChanged(onStateChanged: StateChangedHandler): void;
+  subscribeStateChanged(onStateChanged: StateChangedHandler): void;
 
-    unsubscribeStateChanged(onStateChanged: StateChangedHandler): void;
+  unsubscribeStateChanged(onStateChanged: StateChangedHandler): void;
 }

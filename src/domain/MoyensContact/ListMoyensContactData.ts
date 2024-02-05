@@ -1,22 +1,22 @@
-import {MoyensContact} from "./MoyensContact.ts";
+import { MoyensContact } from './MoyensContact.ts';
 
 export const ListMoyensContactData: MoyensContact[] = [
-    {
-        "name": "X DevQuest",
-        "asset": "social/logo-x.png",
-        "type": "RS",
-        "link": "https://twitter.com/DevQuestNiort"
-    },
-    {
-        "name": "LinkedIn DevQuest",
-        "asset": "social/logo-linkedin.png",
-        "type": "RS",
-        "link": "https://www.linkedin.com/company/devquest-niort/"
-    },
-    {
-        "name": "Mail",
-        "icon": "icon-mail",
-        "type": "MAIL",
-        "link": "mailto:bureau@devquest.fr"
-    }
-]
+  {
+    name: 'X DevQuest',
+    asset: 'social/logo-x.png',
+    type: 'RS',
+    link: 'https://twitter.com/DevQuestNiort',
+  },
+  {
+    name: 'LinkedIn DevQuest',
+    asset: 'social/logo-linkedin.png',
+    type: 'RS',
+    link: 'https://www.linkedin.com/company/devquest-niort/',
+  },
+  {
+    name: 'Mail',
+    icon: 'icon-mail',
+    type: 'MAIL',
+    link: 'mailto:bureau@devquest.fr',
+  },
+];
