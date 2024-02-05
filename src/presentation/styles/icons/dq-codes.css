@@ -1,6 +1,18 @@
 .icon-mail:before {
   content: '\e800';
 } /* '' */
+.icon-up-big:before {
+  content: '\e801';
+} /* '' */
+.icon-mail-1:before {
+  content: '\e802';
+} /* '' */
+.icon-github-1:before {
+  content: '\e803';
+} /* '' */
+.icon-linkedin-1:before {
+  content: '\e804';
+} /* '' */
 .icon-github:before {
   content: '\f300';
 } /* '' */

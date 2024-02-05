@@ -1,0 +1,20 @@
+#backToTop {
+  z-index: 200;
+  --width: 3rem;
+  --offset: 4rem;
+  background: var(--sable);
+  aspect-ratio: 1;
+  width: var(--width);
+  border-radius: var(--width);
+  display: flex;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  position: fixed;
+  bottom: var(--offset);
+  right: var(--offset);
+
+  span {
+    font-size: 1.3rem;
+    margin: auto;
+  }
+}

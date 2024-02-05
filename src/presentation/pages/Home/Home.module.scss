@@ -3,11 +3,13 @@
 }
 
 #main {
-  background-size: cover;
+  position: relative;
   background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   background-image: url('/devquest-fond-min.jpg');
-  width: 100vw;
-  height: 100vh;
+  //width: 100vw;
+  //height: 100vh;
   overflow: auto;
 }
 

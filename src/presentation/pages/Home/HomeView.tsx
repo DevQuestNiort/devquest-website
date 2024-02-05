@@ -6,6 +6,7 @@ import useAttachController from '../../hooks/useAttachController.ts';
 import useInitContext from '../../hooks/useInitContext.ts';
 import Thematique from '../../components/Thematiques/Thematique.tsx';
 import { Galery } from '../../components/Galery';
+import BackToTop from '../../components/BackToTop';
 
 interface HomeViewProperties {
   readonly controller: HomeController;
@@ -126,6 +127,7 @@ export default function HomeView({ controller }: HomeViewProperties) {
           </p>
         </div>
       </div>
+      <BackToTop />
     </div>
   );
 }
