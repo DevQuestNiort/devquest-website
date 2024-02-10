@@ -1,21 +1,21 @@
-import type { Preview } from '@storybook/react';
-import '../src/presentation/styles/main.scss';
+import type { Preview } from "@storybook/react";
+import "../src/styles/main.scss";
 
 const preview: Preview = {
   parameters: {
-    actions: { argTypesRegex: '^on[A-Z].*' },
+    actions: { argTypesRegex: "^on[A-Z].*" },
     controls: {
       matchers: {
         color: /(background|color)$/i,
         date: /Date$/i,
       },
     },
-    layout: 'centered',
+    layout: "centered",
     backgrounds: {
-      default: 'marron',
+      default: "marron",
       values: [
-        { name: 'sable', value: '#f1ddb7' },
-        { name: 'marron', value: '#5a4949' },
+        { name: "sable", value: "#f1ddb7" },
+        { name: "marron", value: "#5a4949" },
       ],
     },
   },
