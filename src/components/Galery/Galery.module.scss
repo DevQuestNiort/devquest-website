@@ -1,0 +1,13 @@
+.galery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  width: 90vw;
+  max-width: 1010px;
+  margin: 3rem auto;
+
+  > * {
+    width: 150px;
+  }
+}
