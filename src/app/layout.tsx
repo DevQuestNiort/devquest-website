@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../styles/main.scss";
 import { WebVitals } from "@/components/WebVitals";
 import {Source_Sans_3, Teko} from "next/font/google";
+import {QuestExplorateur} from "@/components/QuestExplorateur";
 
 export const metadata: Metadata = {
   title: "DevQuest Niort",
@@ -52,6 +53,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={`${teko.variable} ${sourceSansPro.variable}`}>
+      <QuestExplorateur />
         {children}
       </body>
     </html>
