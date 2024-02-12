@@ -1,0 +1,218 @@
+.App {
+  text-align: center;
+}
+
+#main {
+  background-size: cover;
+  background-position: center;
+  //background-image: url('/devquest-fond-min.jpg');
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+#bgImg {
+  z-index: -1;
+  object-fit: cover;
+}
+
+#brand {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: var(--vert-degueu);
+}
+
+#logo {
+  margin: 2rem auto;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.btn {
+  background-color: var(--vert-degueu);
+  padding: 0.5rem 1.5rem;
+  border-radius: 2px;
+  border: solid 4px var(--sable);
+  color: var(--sable);
+  font-family: var(--font-teko), sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: 0.25s;
+
+  &:hover {
+    scale: 1.2;
+    box-shadow: 2px 2px 8px black;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 1rem;
+  gap: 2rem;
+  justify-content: center;
+}
+
+#infos {
+  background-color: #5a4949;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  margin: 2rem;
+  font-family: var(--font-source-sans-pro), sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  width: 40%;
+}
+
+#rows {
+  display: flex;
+  gap: 2rem;
+}
+
+.rs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: 0.25s;
+
+  &:hover {
+    scale: 1.2;
+    box-shadow: 2px 2px 8px black;
+  }
+
+  span {
+    font-size: 28px;
+    margin-left: -8px; // TODO: Choose better icon, this one is misaligned
+  }
+}
+
+#event {
+  background-color: #f1ddb7;
+  color: black;
+  padding: 2rem;
+  text-align: center;
+}
+
+#eventspec {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  max-width: 1010px;
+  margin: 3rem auto;
+
+  > * {
+    width: 175px;
+  }
+}
+
+#equipe {
+  background-color: #5a4949;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+#thematiques {
+  background-color: #5a4949;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0 2rem;
+}
+
+.themeContainer {
+  width: 100%;
+  max-width: 1010px;
+
+  @media (min-width: 640px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+#program {
+  background-color: #f1ddb7;
+  color: black;
+  padding: 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#programtext {
+  max-width: 1010px;
+}
+
+@media (max-width: 640px) {
+  .h1 {
+    margin: 0 2rem;
+    line-height: 3rem;
+  }
+
+  .card {
+    width: 75%;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(black, 0.5);
+  }
+
+  #equipe,
+  #infos {
+    padding: 2rem 0;
+  }
+
+  #logo {
+    max-width: 90vw;
+  }
+
+  #infos {
+    padding-bottom: 80px;
+    flex-direction: column;
+
+    p {
+      max-width: 90%;
+      margin: 40px auto;
+    }
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 0;
+
+    div {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+
+      a {
+        margin: 40px auto auto;
+      }
+    }
+  }
+}

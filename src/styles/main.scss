@@ -1,0 +1,16 @@
+@import 'colors';
+@import 'typo';
+@import './icons/dq.css';
+
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: var(--font-source-sans-pro), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "img": "/teams/pacaud.jpeg",
+    "firstName": "Alexandre",
+    "lastName": "Pacaud",
+    "role": "#Dev",
+    "linkedin": "alexandre-pacaud-78266210a",
+    "github": "Lithyon"
+  },
+  {
+    "img": "/teams/guerin.jpeg",
+    "firstName": "Alexandre",
+    "lastName": "Guérin",
+    "role": "#Dev",
+    "linkedin": "alexandre-guerin",
+    "github": "Ithrandil"
+  },
+  {
+    "img": "/teams/lefloch.jpeg",
+    "firstName": "Guillaume",
+    "lastName": "Le Floch",
+    "role": "#Dev",
+    "github": "glefloch",
+    "linkedin": "guillaume-lefloch"
+  },
+  {
+    "img": "/teams/nait.jpeg",
+    "firstName": "Samuel",
+    "lastName": "Nait",
+    "role": "#Dev",
+    "github": "Tisamu",
+    "linkedin": "samuel-nait"
+  },
+  {
+    "img": "/teams/gouadon.jpeg",
+    "firstName": "Vincent",
+    "lastName": "Gouadon",
+    "role": "#Dev",
+    "linkedin": "vincent-gouadon-14099851",
+    "github": "nayosis"
+  },
+  {
+    "img": "/teams/lecouls.jpeg",
+    "firstName": "Xavier",
+    "lastName": "Lecouls",
+    "role": "#ProductOwner",
+    "linkedin": "xavier-lecouls-53867b1"
+  },
+  {
+    "img": "/teams/cozien.jpeg",
+    "firstName": "Alice",
+    "lastName": "Cozien",
+    "role": "#UX",
+    "linkedin": "cozienalice"
+  },
+  {
+    "img": "/teams/duvivier.jpeg",
+    "firstName": "Nicolas",
+    "lastName": "Duvivier",
+    "role": "#UX",
+    "linkedin": "nduvivier"
+  },
+  {
+    "img": "/teams/fremont.jpeg",
+    "firstName": "Florent",
+    "lastName": "Frémont",
+    "role": "#Dev",
+    "linkedin": "florent-frémont-b2a943a9"
+  },
+  {
+    "img": "/teams/riou.jpeg",
+    "firstName": "Susan",
+    "lastName": "Riou",
+    "role": "#SysOps",
+    "linkedin": "susan-riou-5a7a4a139"
+  }
+]
