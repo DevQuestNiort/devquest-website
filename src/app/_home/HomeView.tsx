@@ -64,7 +64,7 @@ export default function HomeView({
         </div>
 
         <div id={styles.infos}>
-          <h1>Des conférences. Des sangliers. De la cervoise.</h1>
+          <h2>Des conférences. Des sangliers. De la cervoise.</h2>
 
           <div className={styles.card}>
             L&apos;été prochain, ne manquez pas le premier événement
@@ -85,7 +85,7 @@ export default function HomeView({
           </div>
         </div>
         <div id={styles.event}>
-          <h1>Diantre, DevQuest dîtes-vous? Qu&apos;est-ce donc que cela?</h1>
+          <h2>Diantre, DevQuest dîtes-vous? Qu&apos;est-ce donc que cela?</h2>
           <div id={styles.eventspec}>
             <div>
               <Image
@@ -95,10 +95,9 @@ export default function HomeView({
                 src="/icons-rp/backpack.png"
                 aria-hidden="true"
               />
-              <h2>
-                1<br />
-                journée
-              </h2>
+              <p className="h2">
+                1 journée
+              </p>
             </div>
             <div>
               <Image
@@ -108,7 +107,7 @@ export default function HomeView({
                 src="/icons-rp/knight.png"
                 aria-hidden="true"
               />
-              <h2>150 spectateurs</h2>
+              <p className="h2">150 spectateurs</p>
             </div>
             <div>
               <Image
@@ -118,7 +117,7 @@ export default function HomeView({
                 src="/icons-rp/king.png"
                 aria-hidden="true"
               />
-              <h2>16 partenaires</h2>
+              <p className="h2">16 partenaires</p>
             </div>
             <div>
               <Image
@@ -128,12 +127,12 @@ export default function HomeView({
                 src="/icons-rp/quest.png"
                 aria-hidden="true"
               />
-              <h2>20 présentations multi format</h2>
+              <p className="h2">20 présentations multi format</p>
             </div>
           </div>
         </div>
         <div id={styles.thematiques}>
-          <h1>Les classes disponibles</h1>
+          <h2>Les classes disponibles</h2>
           <div className={styles.themeContainer}>
             {themes.map((theme, i) => (
               <Thematique
@@ -146,7 +145,7 @@ export default function HomeView({
           </div>
         </div>
         <div id={styles.program}>
-          <h1>Les quêtes</h1>
+          <h2>Les quêtes</h2>
           <div className={styles.card}>
             <Image
               height={96}
@@ -165,7 +164,7 @@ export default function HomeView({
           </div>
         </div>
         <div id={styles.equipe}>
-          <h1>Les maîtres du donjon</h1>
+          <h2>Les maîtres du donjon</h2>
           <Galery>
             {membres
               .sort(() => (Math.random() > 0.5 ? 1 : -1))

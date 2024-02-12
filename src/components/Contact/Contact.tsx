@@ -1,4 +1,5 @@
 import styles from './Contact.module.scss';
+import Image from "next/image";
 
 interface ContactProperties {
   readonly asset?: string;
@@ -17,7 +18,7 @@ export default function Contact({ asset, name, link, icon }: ContactProperties) 
   } else if (asset) {
     return (
       <a className={styles.rs} href={link} aria-label={name}>
-        <img height="32" width="32" src={asset} alt="" aria-hidden="true" />
+        <Image height="32" width="32" src={asset} alt="" aria-hidden="true" />
       </a>
     );
   }

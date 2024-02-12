@@ -1,4 +1,5 @@
 import style from './Avatar.module.scss';
+import Image from "next/image";
 
 interface AvartarProperties {
   readonly img: string;
@@ -12,9 +13,9 @@ interface AvartarProperties {
 export default function Avatar({ img, firstName, lastName, role, github, linkedin }: AvartarProperties) {
   return (
     <div>
-      <img className={style.avatar} height="128" width="128" src={img} alt="" />
-      <h2>{firstName}</h2>
-      <h2>{lastName}</h2>
+      <Image className={style.avatar} height="128" width="128" src={img} alt="" />
+      <p className="h2">{firstName}</p>
+      <p className="h2">{lastName}</p>
       <div className={style.infos}>
         <p>{role}</p>
         {github && (

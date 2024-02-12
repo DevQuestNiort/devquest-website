@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "../styles/main.scss";
 import { WebVitals } from "@/components/WebVitals";
+import {Source_Sans_3, Teko} from "next/font/google";
 
 export const metadata: Metadata = {
   title: "DevQuest Niort",
@@ -31,6 +32,18 @@ export const metadata: Metadata = {
   ],
 };
 
+const teko = Teko({
+  variable: '--font-teko',
+  subsets: ['latin'],
+  display: 'swap',
+})
+
+const sourceSansPro = Source_Sans_3({
+  variable: '--font-source-sans-pro',
+  subsets: ['latin'],
+  display: 'swap',
+})
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -38,8 +51,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body>
-        <WebVitals />
+      <body className={`${teko.variable} ${sourceSansPro.variable}`}>
         {children}
       </body>
     </html>

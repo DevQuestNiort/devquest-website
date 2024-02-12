@@ -1,4 +1,4 @@
-import HomeView from "@/app/Home/HomeView";
+import HomeView from "@/app/_home/HomeView";
 import { promises as fs } from "fs";
 import { MoyensContact } from "@/model/MoyensContact";
 import { Theme } from "@/model/Theme";

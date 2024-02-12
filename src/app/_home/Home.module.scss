@@ -35,7 +35,7 @@
   border-radius: 2px;
   border: solid 4px var(--sable);
   color: var(--sable);
-  font-family: Teko, sans-serif;
+  font-family: var(--font-teko), sans-serif;
   font-weight: bold;
   font-size: 2rem;
   text-decoration: none;
@@ -71,7 +71,7 @@
   color: black;
   padding: 2rem;
   margin: 2rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: var(--font-source-sans-pro), sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
   width: 40%;
