@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
   min-height: 80px;
-  border-radius: 10px;
   background-color: #f29543;
 
   @media (min-width: 640px) {
@@ -22,7 +21,9 @@
   }
 
   .themeName {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+    padding-top: 0.3rem;
+    font-size: 1.6rem;
+    font-family: var(--font-teko), sans-serif;
+    line-height: 1.6rem;
   }
 }

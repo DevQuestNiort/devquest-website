@@ -11,8 +11,9 @@
   transition: 0.25s;
 
   &:hover {
-    scale: 1.2;
-    box-shadow: 2px 2px 8px black;
+    transform: translateY(-2px);
+    //scale: 1.2;
+    //box-shadow: 2px 2px 8px black;
   }
 
   span {

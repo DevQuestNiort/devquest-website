@@ -1,1 +1,1 @@
-export { default as Thematiques } from "./Thematique";
+export { default as Thematique } from "./Thematique";

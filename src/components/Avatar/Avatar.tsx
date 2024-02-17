@@ -14,10 +14,9 @@ export default function Avatar({ img, firstName, lastName, role, github, linkedi
   return (
     <div>
       <Image className={style.avatar} height="128" width="128" src={img} alt="" />
-      <p className="h2">{firstName}</p>
-      <p className="h2">{lastName}</p>
+      <p className={style.name}>{firstName} {lastName}</p>
+      <p className={style.role}>{role}</p>
       <div className={style.infos}>
-        <p>{role}</p>
         {github && (
           <a target="_blank" href={`https://github.com/${github}`}>
             <span className="icon-github"></span>
