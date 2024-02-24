@@ -9,6 +9,7 @@ import { MoyensContact } from "@/model/MoyensContact";
 import { Contact } from "@/components/Contact";
 import { Section } from "@/components/Section";
 import backgroundImage from "../../../public/devquest-fond-min.jpg";
+import backgroundMapImage from "../../../public/devquest-bg-map.jpg";
 import { Card } from "@/components/Card";
 import { Button } from "@/components/Button";
 
@@ -37,6 +38,7 @@ export default function HomeView({
           id={styles.logo}
           src="/logo-date-lieu.svg"
           alt="DevQuest"
+          priority
           width={240}
           height={270}
         />
@@ -160,6 +162,33 @@ export default function HomeView({
         </div>
       </Section>
       <Section theme="Light">
+        <div
+          id={styles.mapContainer}
+          style={{
+            backgroundImage: `url(${backgroundMapImage.src})`,
+            backgroundPosition: "right",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <Card id={styles.cardMap}>
+            <h2>Le lieux</h2>
+            <h3>Parc des expositions, Niort</h3>
+            <p>
+              Pour cette première quête, voulant recevoir les aventuriers dans
+              les meilleures conditions , nous vous attendons dans ce lieu bien
+              connu de tous qu&apos;est le Dôme du parc des expositions de
+              Niort.
+            </p>
+            <Button
+              theme="Primary"
+              href="https://www.google.com/maps/dir/?api=1&destination=46.3293427,-0.4899051"
+            >
+              C&apos;est parti&nbsp;!
+            </Button>
+          </Card>
+        </div>
+      </Section>
+      <Section theme="Dark">
         <h2>Les quêtes</h2>
         <Card>
           <Image
@@ -178,7 +207,7 @@ export default function HomeView({
           </p>
         </Card>
       </Section>
-      <Section theme="Dark">
+      <Section theme="Light">
         <h2>Les maîtres du donjon</h2>
         <Galery>
           {membres

@@ -49,6 +49,19 @@
   gap: 2rem;
 }
 
+#mapContainer {
+  height: 586px;
+  max-width: 1200px;
+  display: flex;
+  align-items: flex-end;
+
+  #cardMap {
+    max-width: 40%;
+    text-align: left;
+    align-items: flex-start;
+  }
+}
+
 .eventSpecText {
   font-size: 1.6rem;
   font-family: var(--font-teko), sans-serif;
@@ -95,10 +108,19 @@
     flex-direction: column;
     gap: 1rem;
   }
+
+  #mapContainer {
+    height: fit-content;
+
+    #cardMap {
+      max-width: 100%;
+      margin: 0;
+    }
+  }
 }
 
 #footer {
-  padding: 4rem 0;
+  padding: 2rem 0;
   color: var(--sable);
   background-color: var(--vert);
 }
