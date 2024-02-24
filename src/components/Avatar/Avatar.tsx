@@ -1,4 +1,4 @@
-import style from './Avatar.module.scss';
+import style from "./Avatar.module.scss";
 import Image from "next/image";
 
 interface AvartarProperties {
@@ -10,22 +10,36 @@ interface AvartarProperties {
   readonly linkedin?: string;
 }
 
-export default function Avatar({ img, firstName, lastName, role, github, linkedin }: AvartarProperties) {
+export default function Avatar({
+  img,
+  firstName,
+  lastName,
+  role,
+  github,
+  linkedin,
+}: AvartarProperties) {
   return (
     <div>
-      <Image className={style.avatar} height="128" width="128" src={img} alt="" />
-      <p className="h2">{firstName}</p>
-      <p className="h2">{lastName}</p>
+      <Image
+        className={style.avatar}
+        height="128"
+        width="128"
+        src={img}
+        alt=""
+      />
+      <p className={style.name}>
+        {firstName} {lastName}
+      </p>
+      <p className={style.role}>{role}</p>
       <div className={style.infos}>
-        <p>{role}</p>
         {github && (
           <a target="_blank" href={`https://github.com/${github}`}>
-            <span className="icon-github"></span>
+            <span className="icon-github" style={{ color: "black" }}></span>
           </a>
         )}
         {linkedin && (
           <a target="_blank" href={`https://www.linkedin.com/in/${linkedin}`}>
-            <span className="icon-linkedin"></span>
+            <span className="icon-linkedin" style={{ color: "black" }}></span>
           </a>
         )}
       </div>

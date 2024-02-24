@@ -1,13 +1,18 @@
 .galery {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 4rem;
   justify-content: center;
-  width: 90vw;
-  max-width: 1010px;
+  max-width: 1200px;
   margin: 3rem auto;
 
   > * {
     width: 150px;
+  }
+
+  @media (max-width: 640px) {
+    column-gap: 0;
+    row-gap: 2rem;
+    justify-content: space-between;
   }
 }
