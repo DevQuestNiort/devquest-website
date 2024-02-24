@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
 import "../styles/main.scss";
-import { WebVitals } from "@/components/WebVitals";
-import {Source_Sans_3, Teko} from "next/font/google";
-import {QuestExplorateur} from "@/components/QuestExplorateur";
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { Source_Sans_3, Teko } from "next/font/google";
+import { QuestExplorateur } from "@/components/QuestExplorateur";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
-  title: "DevQuest Niort",
+  title: "DEVQUEST - 14 juin (Niort)",
   description:
-    "Explorez les événements incontournables pour les développeurs sur DevQuest. Découvrez des conférences stimulantes, " +
-    "des ateliers enrichissants et bien plus encore. Rejoignez-nous dès maintenant ! Ou proposer un sujet pour une conférence !",
+    "Vous êtes développeur ? Ne ratez pas le premier évènement dédié avec des morceaux d'aventure dedans !",
   keywords: ["devquest", "dev", "quest", "niort", "devs", "conférences"],
   icons: [
     { rel: "icon", url: "/favicon/favicon.ico", sizes: "any" },
@@ -35,16 +33,16 @@ export const metadata: Metadata = {
 };
 
 const teko = Teko({
-  variable: '--font-teko',
-  subsets: ['latin'],
-  display: 'swap',
-})
+  variable: "--font-teko",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 const sourceSansPro = Source_Sans_3({
-  variable: '--font-source-sans-pro',
-  subsets: ['latin'],
-  display: 'swap',
-})
+  variable: "--font-source-sans-pro",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export default function RootLayout({
   children,
@@ -54,8 +52,8 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={`${teko.variable} ${sourceSansPro.variable}`}>
-      <GoogleAnalytics gaId="G-MR3XKZY9PM" />
-      <QuestExplorateur />
+        <GoogleAnalytics gaId="G-MR3XKZY9PM" />
+        <QuestExplorateur />
         {children}
       </body>
     </html>
