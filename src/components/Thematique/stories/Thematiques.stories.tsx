@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import Thematique from "../Thematique";
 
 const meta: Meta<typeof Thematique> = {
-  title: "Components/Thematiques",
+  title: "Components/Thematique",
   component: Thematique,
 };
 

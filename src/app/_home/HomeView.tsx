@@ -3,7 +3,7 @@ import styles from "./Home.module.scss";
 import { Membre } from "@/model/Membre";
 import { Avatar } from "@/components/Avatar";
 import { Galery } from "@/components/Galery";
-import { Thematique } from "@/components/Thematiques";
+import { Thematique } from "../../components/Thematique";
 import { Theme } from "@/model/Theme";
 import { MoyensContact } from "@/model/MoyensContact";
 import { Contact } from "@/components/Contact";
@@ -11,7 +11,7 @@ import { Section } from "@/components/Section";
 import backgroundImage from "../../../public/devquest-fond-min.jpg";
 import backgroundMapImage from "../../../public/devquest-bg-map.jpg";
 import { Card } from "@/components/Card";
-import { Button } from "@/components/Button";
+import { LinkButton } from "../../components/LinkButton";
 
 interface HomeViewProperties {
   readonly themes: Theme[];
@@ -48,18 +48,18 @@ export default function HomeView({
           dev niortais
         </h1>
         <div className={styles.row}>
-          <Button
+          <LinkButton
             theme="Primary"
             href="https://conference-hall.io/public/event/geINICiIQFU0WdORU423"
           >
             Proposer un sujet
-          </Button>
-          <Button
+          </LinkButton>
+          <LinkButton
             theme="Secondary"
             href="https://www.billetweb.fr/devquest-niort-2024"
           >
             Réserver mes places
-          </Button>
+          </LinkButton>
         </div>
       </Section>
       <Section theme="Dark">
@@ -179,12 +179,12 @@ export default function HomeView({
               connu de tous qu&apos;est le Dôme du parc des expositions de
               Niort.
             </p>
-            <Button
+            <LinkButton
               theme="Primary"
               href="https://www.google.com/maps/dir/?api=1&destination=46.3293427,-0.4899051"
             >
               C&apos;est parti&nbsp;!
-            </Button>
+            </LinkButton>
           </Card>
         </div>
       </Section>
