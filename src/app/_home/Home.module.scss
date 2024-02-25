@@ -123,5 +123,10 @@
 #footer {
   padding: 2rem 0;
   color: var(--sable);
+  font-weight: 700;
   background-color: var(--vert);
+
+  a {
+    color: var(--sable);
+  }
 }

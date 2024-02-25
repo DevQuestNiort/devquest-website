@@ -12,6 +12,7 @@ import backgroundImage from "../../../public/devquest-fond-min.jpg";
 import backgroundMapImage from "../../../public/devquest-bg-map.jpg";
 import { Card } from "@/components/Card";
 import { LinkButton } from "../../components/LinkButton";
+import Link from "next/link";
 
 interface HomeViewProperties {
   readonly themes: Theme[];
@@ -171,7 +172,7 @@ export default function HomeView({
           }}
         >
           <Card id={styles.cardMap}>
-            <h2>Le lieux</h2>
+            <h2>Le lieu</h2>
             <h3>Parc des expositions, Niort</h3>
             <p>
               Pour cette première quête, voulant recevoir les aventuriers dans
@@ -226,7 +227,9 @@ export default function HomeView({
         </Galery>
       </Section>
       <footer id={styles.footer}>
-        <b aria-hidden="true">@ 2024 - DevQuest</b>
+        <b aria-hidden="true">@ 2024 DevQuest</b>
+        {" - "}
+        <Link href={"/mentions-legales"}>Mentions légales</Link>
       </footer>
     </div>
   );

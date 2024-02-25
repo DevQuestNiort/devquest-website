@@ -8,11 +8,12 @@ interface SectionProperties extends React.ComponentPropsWithoutRef<"section"> {
 export default function Section({
   children,
   theme,
+  className,
   ...props
 }: SectionProperties) {
   return (
     <section
-      className={`${styles.section} ${styles[`section${theme}`]}`}
+      className={`${styles.section} ${styles[`section${theme}`]}${className ? " " + className : ""}`}
       {...props}
     >
       {children}
