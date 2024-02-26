@@ -96,6 +96,12 @@ export function MentionsLegales() {
         contacter directement à l’adresse{" "}
         <a href={"mailto:bureau@devquest.fr"}>bureau@devquest.fr</a>.
       </p>
+      <p>
+        DevQuest ne converse aucune donnée personnelle lors de votre visite,
+        seule des données anonymes de navigations sont récoltées à des fins non
+        commerciales, afin de nous permettre d&apos;évaluer l&apos;affluence sur
+        le site.
+      </p>
       <LinkButton theme={"Primary"} href={"/"}>
         Retour à la page d&apos;accueil
       </LinkButton>
