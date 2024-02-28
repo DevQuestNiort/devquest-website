@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Wekey SAS",
+    "asset": "",
+    "site": "",
+    "level": "UNIQUE",
+    "actif": true,
+    "consolidated": false
+  },
+  {
+    "name": "Zenika",
+    "asset": "zenika.png",
+    "site": "https://zenika.com/",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "name": "Neatcraft",
+    "asset": "neatcraft.svg",
+    "level": "COMMUN",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "name": "NeoSoft",
+    "asset": "neosoft.jpg",
+    "site": "https://www.neosoft.fr/",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "name": "Maif",
+    "asset": "maif.png",
+    "site": "https://www.maif.fr/",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "name": "AllTech",
+    "asset": "alltech.png",
+    "site": "https://www.alltechconsulting.fr/",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "name": "IMA",
+    "asset": "ima.png",
+    "site": "https://ima.eu/fr/index.php",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "name": "Darva",
+    "asset": "darva.png",
+    "site": "https://www.darva.com",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "name": "Macif",
+    "asset": "macif.gif",
+    "site": "https://www.macif.fr/",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": false
+  },
+  {
+    "name": "Catamania",
+    "asset": "catamania.svg",
+    "site": "https://www.cat-amania.com/",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "name": "Serli",
+    "asset": "serli.svg",
+    "site": "https://www.serli.com/",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "name": "Altapyx",
+    "asset": "altapyx.png",
+    "site": "https://altapyx.com",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "name": "Acensi",
+    "asset": "acensi.png",
+    "site": "https://acensi.fr/page/accueil/fr_fr",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "name": "ASI",
+    "asset": "asi.png",
+    "site": "https://www.asi.fr",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "name": "NiortAglo",
+    "asset": "niortaglo.jpeg",
+    "site": "https://www.niortagglo.fr/index.html",
+    "level": "AUTRE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "name": "Socram",
+    "asset": "socram.png",
+    "site": "https://www.socram-banque.fr/",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "name": "Digital Associates",
+    "asset": "digitalassociates.png",
+    "site": "https://www.digital-associates.fr/",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  }
+]

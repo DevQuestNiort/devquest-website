@@ -13,17 +13,21 @@ import backgroundMapImage from "../../../public/devquest-bg-map.jpg";
 import { Card } from "@/components/Card";
 import { LinkButton } from "../../components/LinkButton";
 import Link from "next/link";
+import { LogoPartenaire } from "@/components/LogoPartenaire";
+import { Partenaire } from "@/model/Partenaire";
 
 interface HomeViewProperties {
   readonly themes: Theme[];
   readonly membres: Membre[];
   readonly contacts: MoyensContact[];
+  readonly partenaires: Partenaire[];
 }
 
 export default function HomeView({
   contacts,
   membres,
   themes,
+  partenaires,
 }: HomeViewProperties) {
   return (
     <div className={styles.main}>
@@ -225,6 +229,101 @@ export default function HomeView({
               />
             ))}
         </Galery>
+      </Section>
+      <Section theme={"Dark"}>
+        <h2>La tribu complète</h2>
+        <Card>
+          <p>
+            Car l&apos;aventure c&apos;est bien, mais avec des compagnons de
+            route, c&apos;est mieux!
+          </p>
+          <Image
+            height={96}
+            width={96}
+            alt=""
+            src="/icons-rp/shield.png"
+            aria-hidden="true"
+          />
+        </Card>
+        <div className={styles.partnerSection}>
+          <h2>Les guildes</h2>
+          <h3>Unique</h3>
+          {/*FIXME: J'aurais bien fait un truc avec le rappel des épées de la pres mais je vois pas comment les intégrer*/}
+          {/*<Image
+            height={64}
+            width={64}
+            alt=""
+            src="/icons-rp/uniquesword.png"
+            aria-hidden="true"
+          />*/}
+          <div className={styles.soloImage}>
+            {partenaires
+              .filter((p) => p.level === "UNIQUE")
+              .map((p, i) => (
+                <LogoPartenaire
+                  key={i}
+                  name={p.name}
+                  level={p.level}
+                  asset={p.asset}
+                  website={p.site}
+                  actif={p.actif}
+                />
+              ))}
+            {/*<p>
+            Wekey bla brkjh breokjhlkjrbe lkhbrelkh blekhlkhblrk berlkjbrelkj.
+            glrkjg gre rlkjer gerklgjherlkzpoejg erlkhgrelk elkhgrel k.
+            gekljhglkehj gelkhgrelkhgelrkh glekhlkghe glkh lgerhlg ehl
+          </p>*/}
+          </div>
+          <h3>Rare</h3>
+          <Galery>
+            {partenaires
+              .filter((p) => p.level === "RARE")
+              .sort(() => (Math.random() > 0.5 ? 1 : -1))
+              .map((p, i) => (
+                <LogoPartenaire
+                  key={i}
+                  name={p.name}
+                  level={p.level}
+                  asset={p.asset}
+                  website={p.site}
+                  actif={p.actif}
+                />
+              ))}
+          </Galery>
+          <h3>Commun</h3>
+          <div className={styles.soloImage}>
+            {partenaires
+              .filter((p) => p.level === "COMMUN")
+              .sort(() => (Math.random() > 0.5 ? 1 : -1))
+              .map((p, i) => (
+                <LogoPartenaire
+                  key={i}
+                  name={p.name}
+                  level={p.level}
+                  asset={p.asset}
+                  website={p.site}
+                  actif={p.actif}
+                />
+              ))}
+          </div>
+          <h2>Nos compagnons d&apos;aventure</h2>
+          <div className={styles.soloImage}>
+            {partenaires
+              .filter((p) => p.level === "AUTRE")
+              .sort(() => (Math.random() > 0.5 ? 1 : -1))
+              .map((p, i) => (
+                <LogoPartenaire
+                  key={i}
+                  name={p.name}
+                  level={p.level}
+                  asset={p.asset}
+                  website={p.site}
+                  actif={p.actif}
+                />
+              ))}
+          </div>
+        </div>
       </Section>
       <footer id={styles.footer}>
         <b aria-hidden="true">@ 2024 DevQuest</b>
