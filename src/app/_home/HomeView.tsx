@@ -247,15 +247,16 @@ export default function HomeView({
         </Card>
         <div className={styles.partnerSection}>
           <h2>Les guildes</h2>
-          <h3>Unique</h3>
-          {/*FIXME: J'aurais bien fait un truc avec le rappel des épées de la pres mais je vois pas comment les intégrer*/}
-          {/*<Image
-            height={64}
-            width={64}
-            alt=""
-            src="/icons-rp/uniquesword.png"
-            aria-hidden="true"
-          />*/}
+          <h3>
+            <Image
+              height={32}
+              width={32}
+              alt=""
+              src="/icons-rp/uniquesword.png"
+              aria-hidden="true"
+            />
+            <span>Unique</span>
+          </h3>
           <div className={styles.soloImage}>
             {partenaires
               .filter((p) => p.level === "UNIQUE")
@@ -269,13 +270,24 @@ export default function HomeView({
                   actif={p.actif}
                 />
               ))}
-            {/*<p>
-            Wekey bla brkjh breokjhlkjrbe lkhbrelkh blekhlkhblrk berlkjbrelkj.
-            glrkjg gre rlkjer gerklgjherlkzpoejg erlkhgrelk elkhgrel k.
-            gekljhglkehj gelkhgrelkhgelrkh glekhlkghe glkh lgerhlg ehl
-          </p>*/}
+            <div>
+              <p>
+                Wekey, le cabinet de transformation digitale qui accompagne les
+                entreprises dans le développement de leurs projets et les
+                freelances dans leur épanouissement professionnel.
+              </p>
+            </div>
           </div>
-          <h3>Rare</h3>
+          <h3>
+            <Image
+              height={32}
+              width={32}
+              alt=""
+              src="/icons-rp/raresword.png"
+              aria-hidden="true"
+            />
+            <span>Rares</span>
+          </h3>
           <Galery>
             {partenaires
               .filter((p) => p.level === "RARE")
@@ -291,7 +303,16 @@ export default function HomeView({
                 />
               ))}
           </Galery>
-          <h3>Commun</h3>
+          <h3>
+            <Image
+              height={32}
+              width={32}
+              alt=""
+              src="/icons-rp/communsword.png"
+              aria-hidden="true"
+            />
+            <span>Communs</span>
+          </h3>
           <div className={styles.soloImage}>
             {partenaires
               .filter((p) => p.level === "COMMUN")
@@ -307,7 +328,16 @@ export default function HomeView({
                 />
               ))}
           </div>
-          <h2>Nos compagnons d&apos;aventure</h2>
+          <h2>
+            <Image
+              height={32}
+              width={32}
+              alt=""
+              src="/icons-rp/magicsword.png"
+              aria-hidden="true"
+            />
+            <span>Nos compagnons d&apos;aventure</span>
+          </h2>
           <div className={styles.soloImage}>
             {partenaires
               .filter((p) => p.level === "AUTRE")

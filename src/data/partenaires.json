@@ -1,11 +1,10 @@
 [
   {
-    "name": "Wekey SAS",
-    "asset": "",
-    "site": "",
+    "asset": "wekey.png",
+    "site": "https://wekey.fr/",
     "level": "UNIQUE",
     "actif": true,
-    "consolidated": false
+    "consolidated": true
   },
   {
     "name": "Zenika",
@@ -64,11 +63,11 @@
   },
   {
     "name": "Macif",
-    "asset": "macif.gif",
+    "asset": "macif.png",
     "site": "https://www.macif.fr/",
     "level": "RARE",
     "actif": true,
-    "consolidated": false
+    "consolidated": true
   },
   {
     "name": "Catamania",
@@ -98,7 +97,7 @@
     "name": "Acensi",
     "asset": "acensi.png",
     "site": "https://acensi.fr/page/accueil/fr_fr",
-    "level": "RARE",
+    "level": "COMMUN",
     "actif": true,
     "consolidated": true
   },
@@ -106,7 +105,7 @@
     "name": "ASI",
     "asset": "asi.png",
     "site": "https://www.asi.fr",
-    "level": "RARE",
+    "level": "COMMUN",
     "actif": true,
     "consolidated": true
   },
