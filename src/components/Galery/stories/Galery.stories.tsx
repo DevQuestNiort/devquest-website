@@ -64,19 +64,19 @@ export const With: Story = {
       <LogoPartenaire
         name={"Cat-Amania"}
         level={"RARE"}
-        asset={"cat-amania.svg"}
+        asset={"catamania.svg"}
         website={"http://google.fr"}
       />
       <LogoPartenaire
         name={"Zenika"}
         level={"RARE"}
-        asset={"MonogrammeZenika.png"}
+        asset={"zenika.png"}
         website={"http://google.fr"}
       />
       <LogoPartenaire
         name={"Serli"}
         level={"RARE"}
-        asset={"serli-bl.svg"}
+        asset={"serli.svg"}
         website={"http://google.fr"}
       />
       <LogoPartenaire

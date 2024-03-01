@@ -81,6 +81,22 @@ export function MentionsLegales() {
             Chaman icônes créées par Freepik
           </a>
         </li>
+        <li>
+          <a
+            href="https://www.flaticon.com/fr/icones-gratuites/epee"
+            title="épée icônes"
+          >
+            Épée icônes créées par pongsakornRed - Flaticon
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.flaticon.com/free-icons/knight"
+            title="knight icons"
+          >
+            Knight icons created by Freepik - Flaticon
+          </a>
+        </li>
       </ul>
       <h2>Confidentialité&nbsp;:</h2>
       <p>
