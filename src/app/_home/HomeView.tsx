@@ -180,8 +180,8 @@ export default function HomeView({
             <h3>Parc des expositions, Niort</h3>
             <p>
               Pour cette première quête, voulant recevoir les aventuriers dans
-              les meilleures conditions , nous vous attendons dans ce lieu bien
-              connu de tous qu&apos;est le Dôme du parc des expositions de
+              les meilleures conditions, nous vous attendons dans ce lieu bien
+              connu de tous qu&apos;est le Dôme du Parc des expositions de
               Niort.
             </p>
             <LinkButton
