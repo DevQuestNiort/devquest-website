@@ -11,18 +11,10 @@ type Story = StoryObj<typeof LogoPartenaire>;
 
 export const SquareLogo: Story = {
   args: {
-    name: "La Boite",
-    asset: "maif.jpg",
-    level: "COMMUN",
+    name: "Le super partenaire",
+    asset: "wekey.png",
+    level: "RARE",
     website: "http://google.fr",
-  },
-};
-
-export const LargeLogo: Story = {
-  args: {
-    name: "Un boite autre",
-    asset: "darva.png",
-    level: "COMMUN",
-    website: "http://google.fr",
+    actif: true,
   },
 };

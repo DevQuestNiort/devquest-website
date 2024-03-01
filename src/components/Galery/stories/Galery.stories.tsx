@@ -34,56 +34,65 @@ export const With: Story = {
       <LogoPartenaire
         name={"Macif"}
         level={"RARE"}
-        asset={"macif.gif"}
+        asset={"macif.png"}
         website={"http://google.fr"}
+        actif={true}
       />
       <LogoPartenaire
         name={"Niort Agglo"}
         level={"RARE"}
         asset={"niortaglo.jpeg"}
         website={"http://google.fr"}
+        actif={true}
       />
       <LogoPartenaire
         name={"Maif"}
         level={"RARE"}
-        asset={"maif/l01t00-RVB-logo-MAIF-preconise.png"}
+        asset={"maif.png"}
         website={"http://google.fr"}
+        actif={true}
       />
       <LogoPartenaire
         name={"Macif"}
         level={"RARE"}
-        asset={"macif.gif"}
+        asset={"macif.png"}
         website={"http://google.fr"}
+        actif={true}
       />
       <LogoPartenaire
         name={"ASI"}
         level={"RARE"}
         asset={"asi.png"}
         website={"http://google.fr"}
+        actif={true}
       />
       <LogoPartenaire
         name={"Cat-Amania"}
         level={"RARE"}
         asset={"catamania.svg"}
         website={"http://google.fr"}
+        actif={true}
       />
       <LogoPartenaire
         name={"Zenika"}
         level={"RARE"}
         asset={"zenika.png"}
         website={"http://google.fr"}
+        actif={true}
       />
       <LogoPartenaire
         name={"Serli"}
         level={"RARE"}
         asset={"serli.svg"}
         website={"http://google.fr"}
+        actif={true}
       />
       <LogoPartenaire
         name={"IMA"}
         level={"RARE"}
-        asset={"ima/IMA_Groupe-RVB.jpg"}
+        asset={"ima.png"}
         website={"http://google.fr"}
+        actif={true}
       />
     </Galery>
   ),
