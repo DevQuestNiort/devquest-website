@@ -110,6 +110,14 @@
     "consolidated": true
   },
   {
+  "name": "SII",
+  "asset": "sii.webp",
+  "site": "https://sii-group.com/fr-FR",
+  "level": "COMMUN",
+  "actif": true,
+  "consolidated": true
+  },
+  {
     "name": "NiortAgglo",
     "asset": "niortaglo.jpeg",
     "site": "https://www.niortagglo.fr/index.html",
