@@ -263,6 +263,7 @@ export default function HomeView({
               .map((p, i) => (
                 <LogoPartenaire
                   key={i}
+                  showName={false}
                   name={p.name}
                   level={p.level}
                   asset={p.asset}

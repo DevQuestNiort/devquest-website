@@ -4,6 +4,7 @@ import { Component, ElementType } from "react";
 
 interface LogoPartenaireProperties {
   name: string;
+  showName?: boolean;
   asset?: string;
   website?: string;
   level: "RARE" | "COMMUN" | "UNIQUE" | "AUTRE";
@@ -13,6 +14,7 @@ interface LogoPartenaireProperties {
 
 export default function LogoPartenaire({
   name,
+  showName = true,
   asset,
   website,
   actif,
@@ -34,7 +36,7 @@ export default function LogoPartenaire({
         {asset ? (
           <Image
             src={`/partenaires/${asset}`}
-            alt={name}
+            alt={`${name} est partenaire ${level} de l'événement`}
             width={128}
             height={128}
             className={styles.logoPartenaire}
@@ -43,7 +45,7 @@ export default function LogoPartenaire({
           name
         )}
       </div>
-      <p>{name}</p>
+      {showName && <p>{name}</p>}
     </Component>
   ) : null;
 }

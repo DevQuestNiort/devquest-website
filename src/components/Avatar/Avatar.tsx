@@ -33,12 +33,12 @@ export default function Avatar({
       <p className={style.role}>{role}</p>
       <div className={style.infos}>
         {github && (
-          <a target="_blank" href={`https://github.com/${github}`}>
+          <a target="_blank" aria-label={`Github de ${firstName} ${lastName}`} href={`https://github.com/${github}`}>
             <span className="icon-github" style={{ color: "black" }}></span>
           </a>
         )}
         {linkedin && (
-          <a target="_blank" href={`https://www.linkedin.com/in/${linkedin}`}>
+          <a target="_blank" aria-label={`Linkedin de ${firstName} ${lastName}`} href={`https://www.linkedin.com/in/${linkedin}`}>
             <span className="icon-linkedin" style={{ color: "black" }}></span>
           </a>
         )}
