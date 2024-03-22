@@ -3,6 +3,7 @@ import "../styles/main.scss";
 import { Source_Sans_3, Teko } from "next/font/google";
 import { QuestExplorateur } from "@/components/QuestExplorateur";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import BackToTop from '@/components/BackToTop';
 
 export const metadata: Metadata = {
   title: "DEVQUEST - 14 juin (Niort)",
@@ -55,6 +56,8 @@ export default function RootLayout({
         <GoogleAnalytics gaId="G-MR3XKZY9PM" />
         <QuestExplorateur />
         {children}
+
+      <BackToTop/>
       </body>
     </html>
   );

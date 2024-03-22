@@ -1,5 +1,4 @@
-[class^='icon-'],
-[class*=' icon-'] {
+[class^="icon-"], [class*=" icon-"] {
   font-family: 'dq';
   font-style: normal;
   font-weight: normal;
@@ -11,12 +10,7 @@
   /* font-size: 120%; */
 }
 
-.icon-mail {
-  *zoom: expression(this.runtimeStyle[ 'zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;');
-}
-.icon-github {
-  *zoom: expression(this.runtimeStyle[ 'zoom'] = '1', this.innerHTML = '&#xf300;&nbsp;');
-}
-.icon-linkedin {
-  *zoom: expression(this.runtimeStyle[ 'zoom'] = '1', this.innerHTML = '&#xf318;&nbsp;');
-}
+.icon-mail { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.icon-up-big { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); }
+.icon-github { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf300;&nbsp;'); }
+.icon-linkedin { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf318;&nbsp;'); }
