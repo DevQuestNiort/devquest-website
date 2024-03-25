@@ -15,6 +15,7 @@ import { LinkButton } from "../../components/LinkButton";
 import Link from "next/link";
 import { LogoPartenaire } from "@/components/LogoPartenaire";
 import { Partenaire } from "@/model/Partenaire";
+import { Footer } from "@/components/Footer/Footer";
 
 interface HomeViewProperties {
   readonly themes: Theme[];
@@ -385,13 +386,7 @@ export default function HomeView({
           </div>
         </div>
       </Section>
-      <footer id={styles.footer}>
-        <b aria-hidden="true">@ 2024 DevQuest</b>
-        {" - "}
-        <Link href={"/mentions-legales"}>Mentions légales</Link>
-        {" - "}
-        <Link href={"/code-de-conduite"}>Code de conduite</Link>
-      </footer>
+      <Footer/>
     </div>
   );
 }

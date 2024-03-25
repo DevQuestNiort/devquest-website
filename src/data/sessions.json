@@ -1,0 +1,18 @@
+[
+    {
+        "id": "0gKr1WucXpgx24GQNrk5",
+        "slug": "azz",
+        "title": "C'est l'heure du Check-Up de vos pipelines CI/CD !",
+        "format": "Workshop",
+        "categorie": "Design & UX",
+        "abstract": "Et si on sécurisait aussi le code de nos pipelines CI/CD, cette colonne vertébrale de notre delivery ?\n\nAvec l'augmentation des cyberattaques de type \"supplychain\" et l'introduction de nouvelles réglementations comme NIS2, garantir la sécurité et la conformité du code des pipelines CI/CD à l'échelle de l'entreprise n'a jamais été aussi crucial.\n\nSouvent, le code de nos pipelines est hétérogène, comportant des conteneurs dont nous ignorons les origines, des bibliothèques dont nous avons perdu le contrôle des versions, et des secrets qui se propagent. Cette situation génère un risque élevé d'attaque et n'inspire guère confiance aux DSI/RSSI/CTO quant au niveau de conformité et de sécurité de l'ensemble de leurs chaînes d'approvisionnement.\n\nDemander à auditer des centaines de pipelines est fastidieux, déclaratif et non reproductible, ce qui devient un véritable cauchemar pour les équipes.\n\nJe vous propose de découvrir une approche pour simplifier la vie des développeurs, ainsi qu'un outil d'analyse gratuit de vos pipelines CI/CD qui vous permettra de :\n\n* Détecter les drifts, la dette technique et les ressources obsolètes\n* Identifier les problèmes de sécurité dans vos pipelines CI/CD\n* Visualiser l'origine des containers accédant à vos secrets\n* Garantir la conformité de vos chaînes d'approvisionnement\n* Éviter la prochaine \"supplychains attack\"\n* Faciliter votre mise en conformité (ISO 27001, SecNumCloud, AirCyber, NIS2)\n* Obtenir votre tableau de bord CI/CD d'entreprise\n\nSi cela a du sens pour vous, pour votre entreprise ou vos clients, venez économiser un temps précieux pour vos audits et enfin rassurer vos Directions sur la sécurité de l'ensemble de leurs chaînes d'approvisionnement.",
+        "speakers": [
+            {
+                "name": "xxx",
+                "id": "xxx",
+                "photo": "xxx",
+                "company": "xxx"
+            }
+        ]
+    }
+]
