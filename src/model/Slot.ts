@@ -1,10 +1,21 @@
 export interface Slot {
-    key: string,
-    start: string,
-    type: 'opening' | 'keynote' | 'lunch' | 'break' | 'quickie' | 'conference'| 'codelab' | 'party',
-    display: {
-        row: number,
-        size: number,
-        notForCodelab?: boolean
-    }
+  key: string;
+  start: string;
+  type: keyof typeof  SlotTypeLabel;
+  display: {
+    row: number;
+    size: number;
+    notForCodelab?: boolean;
+  };
+}
+
+export enum SlotTypeLabel {
+  opening = "Ouverture",
+  keynote = "Keynote",
+  break = "Pause",
+  lunch = "Déjeuner",
+  party = "After Party",
+  quickie= 'Quickie',
+  conference= 'Conférence',
+  codelab = 'CodeLab'
 }

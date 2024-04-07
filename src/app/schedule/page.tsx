@@ -1,6 +1,6 @@
 
 import { promises as fs } from "fs";
-import { Schedule } from "@/components/Schedule/Schedule";
+import { LargeSchedule } from "@/components/Schedule/LargeSchedule/LargeSchedule";
 import { Session } from "@/model/Session";
 import { Slot } from "@/model/Slot";
 import { PartialSession } from "@/components/Schedule/common";
@@ -25,7 +25,7 @@ const DevQuestSchedule = async () => {
     .filter(session => session.slot) as unknown as PartialSession[];
 
 
-  return <main className={styles.main}><Schedule sessions={sessions} allHoursSlots={slots} /></main>
+  return <main className={styles.main}><LargeSchedule sessions={sessions} allHoursSlots={slots} /></main>
 }
 
 export default DevQuestSchedule;

@@ -1,9 +1,9 @@
-import { Slot } from "@/model/Slot";
-import { PartialSession, Speakers, Tags, rooms } from "./common";
+import { Slot, SlotTypeLabel } from "@/model/Slot";
+import { PartialSession, Speakers, Tags, rooms } from "../common";
 import classNames from "classnames";
 import React from "react";
 import Link from "next/link";
-import styles from './Schedule.module.scss'
+import styles from './LargeSchedule.module.scss'
 
 const Room = ({ name }: { name: string }) => {
   const gridColumn = columnFromRoom(name);
@@ -72,22 +72,24 @@ const FixedSlot = ({ slot }: { slot: Slot }) => {
       : "2 / -1";
   return (
     <div
-      className={classNames(styles.slot, "fixed", slot.type)}
+      className={classNames(styles.slot, styles.fixed, styles[slot.type])}
       style={{
         gridColumn,
         gridRow: slotToRow(slot as Slot),
         zIndex: 0,
       }}
     >
-      <h3>{slot.type}</h3>
+      <h3>{SlotTypeLabel[slot.type]}</h3>
     </div>
   );
 };
 
 
 // @see https://github.com/GDG-Nantes/Devfest2023/blob/main/src/components/session/sessionPageTemplate.tsx
-export const Schedule = ({sessions, allHoursSlots}: {sessions: PartialSession[], allHoursSlots: Slot[]}) => {
-  const fixedSlots: Slot[] = [];
+export const LargeSchedule = ({sessions, allHoursSlots}: {sessions: PartialSession[], allHoursSlots: Slot[]}) => {
+  const fixedSlots: Slot[] = allHoursSlots.filter((s) =>
+    ["opening", "lunch", "break", "keynote", "party"].includes(s.type)
+  );
 
   const hoursStart = allHoursSlots.map((slot) => slot.start);
   const hoursSlots = hoursStart.map(
@@ -103,6 +105,7 @@ export const Schedule = ({sessions, allHoursSlots}: {sessions: PartialSession[],
       (s) => s.start === hourSlot.start
     );
   });
+  
 
 
   return (<div>

@@ -26,6 +26,13 @@
   padding: 10px;
   text-align: center;
   z-index: 1;
+
+  &.opening, &.break {
+    border: 1px solid white;
+  }
+  &.fixed{
+    align-items: center;
+  }
 }
 
 .slotLunch,
