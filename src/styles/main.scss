@@ -1,6 +1,9 @@
 @import 'colors';
 @import 'typo';
+@import 'sr';
 @import './icons/dq.css';
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0');
+
 
 body {
   margin: 0;
@@ -16,3 +19,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+

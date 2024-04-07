@@ -1,0 +1,58 @@
+.speakers {
+  background-color: var(--marron);
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px auto;
+  width: 100%;
+}
+
+.speaker {
+  align-items: center;
+  display: flex;
+  font-size: 10px;
+  justify-content: space-evenly;
+  padding: 0 10px;
+}
+
+.tags {
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+
+    border-radius: 16px;
+    border: 1px solid var(--marron);
+
+    .chipLabel {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding-left: 8px;
+      padding-right: 8px;
+      white-space: nowrap;
+    }
+  }
+}
+
+.avatar {
+  img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    object-fit: cover;
+    color: transparent;
+    text-indent: 10000px;
+  }
+}
+.avatarRound {
+  width: 2rem;
+  height: 2rem;
+  margin: 4px;
+
+  img {
+    border-radius: 50%;
+  }
+}
