@@ -1,6 +1,7 @@
 [
   {
-    "asset": "wekey.png",
+    "asset": "wekey.webp",
+    "name": "Wekey",
     "site": "https://wekey.fr/",
     "level": "UNIQUE",
     "actif": true,
@@ -8,7 +9,7 @@
   },
   {
     "name": "Zenika",
-    "asset": "zenika.png",
+    "asset": "zenika.webp",
     "site": "https://zenika.com/",
     "level": "RARE",
     "actif": true,
@@ -16,14 +17,14 @@
   },
   {
     "name": "Neatcraft",
-    "asset": "neatcraft.svg",
+    "asset": "neatcraft.webp",
     "level": "COMMUN",
     "actif": true,
     "consolidated": true
   },
   {
     "name": "NeoSoft",
-    "asset": "neosoft.jpg",
+    "asset": "neosoft.webp",
     "site": "https://www.neosoft.fr/",
     "level": "RARE",
     "actif": true,
@@ -31,7 +32,7 @@
   },
   {
     "name": "Maif",
-    "asset": "maif.png",
+    "asset": "maif.webp",
     "site": "https://www.maif.fr/",
     "level": "RARE",
     "actif": true,
@@ -39,7 +40,7 @@
   },
   {
     "name": "AllTech",
-    "asset": "alltech.png",
+    "asset": "alltech.webp",
     "site": "https://www.alltechconsulting.fr/",
     "level": "RARE",
     "actif": true,
@@ -47,7 +48,7 @@
   },
   {
     "name": "IMA",
-    "asset": "ima.png",
+    "asset": "ima.webp",
     "site": "https://ima.eu/fr/index.php",
     "level": "RARE",
     "actif": true,
@@ -55,7 +56,7 @@
   },
   {
     "name": "Darva",
-    "asset": "darva.png",
+    "asset": "darva.webp",
     "site": "https://www.darva.com",
     "level": "RARE",
     "actif": true,
@@ -63,7 +64,7 @@
   },
   {
     "name": "Macif",
-    "asset": "macif.png",
+    "asset": "macif.webp",
     "site": "https://www.macif.fr/",
     "level": "RARE",
     "actif": true,
@@ -71,7 +72,7 @@
   },
   {
     "name": "Catamania",
-    "asset": "catamania.svg",
+    "asset": "catamania.webp",
     "site": "https://www.cat-amania.com/",
     "level": "RARE",
     "actif": true,
@@ -79,7 +80,7 @@
   },
   {
     "name": "Serli",
-    "asset": "serli.svg",
+    "asset": "serli.webp",
     "site": "https://www.serli.com/",
     "level": "RARE",
     "actif": true,
@@ -87,7 +88,7 @@
   },
   {
     "name": "Altapyx",
-    "asset": "altapyx.png",
+    "asset": "altapyx.webp",
     "site": "https://altapyx.com",
     "level": "RARE",
     "actif": true,
@@ -95,7 +96,7 @@
   },
   {
     "name": "Acensi",
-    "asset": "acensi.png",
+    "asset": "acensi.webp",
     "site": "https://acensi.fr/page/accueil/fr_fr",
     "level": "COMMUN",
     "actif": true,
@@ -103,7 +104,7 @@
   },
   {
     "name": "ASI",
-    "asset": "asi.png",
+    "asset": "asi.webp",
     "site": "https://www.asi.fr",
     "level": "COMMUN",
     "actif": true,
@@ -119,7 +120,7 @@
   },
   {
     "name": "NiortAgglo",
-    "asset": "niortaglo.jpeg",
+    "asset": "niortaglo.webp",
     "site": "https://www.niortagglo.fr/index.html",
     "level": "AUTRE",
     "actif": true,
@@ -127,7 +128,7 @@
   },
   {
     "name": "Socram",
-    "asset": "socram.png",
+    "asset": "socram.webp",
     "site": "https://www.socram-banque.fr/",
     "level": "RARE",
     "actif": true,
