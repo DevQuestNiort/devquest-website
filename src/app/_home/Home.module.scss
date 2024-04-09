@@ -5,6 +5,16 @@
   overflow: auto;
 }
 
+.programTease {
+  font-family: var(--font-teko), sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  background-color: var(--sable);
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(black, 0.5);
+  text-align: center;
+}
+
 #heroSection {
   height: 100%;
   margin: 0 auto;

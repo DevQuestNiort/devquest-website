@@ -54,17 +54,17 @@ export default function HomeView({
         </h1>
         <div className={styles.row}>
           <LinkButton
-            theme="Primary"
-            href="https://conference-hall.io/public/event/geINICiIQFU0WdORU423"
-          >
-            Proposer un sujet
-          </LinkButton>
-          <LinkButton
             theme="Secondary"
             href="https://www.billetweb.fr/devquest-niort-2024"
           >
             Réserver mes places
           </LinkButton>
+        </div>
+
+        <div className={styles.row}>
+          <div className={styles.programTease}>
+            <p>Le programme arrive très bientôt ! 😁</p>
+          </div>
         </div>
       </Section>
       <Section theme="Dark">
