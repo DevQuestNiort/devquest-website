@@ -55,12 +55,6 @@ export default function HomeView({
         <div className={styles.row}>
           <LinkButton
             theme="Primary"
-            href="https://conference-hall.io/public/event/geINICiIQFU0WdORU423"
-          >
-            Proposer un sujet
-          </LinkButton>
-          <LinkButton
-            theme="Secondary"
             href="https://www.billetweb.fr/devquest-niort-2024"
           >
             Réserver mes places
