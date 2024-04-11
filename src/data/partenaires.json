@@ -141,5 +141,13 @@
     "level": "RARE",
     "actif": true,
     "consolidated": true
+  },
+  {
+    "name": "Le Grimoire",
+    "asset": "legrimoire.png",
+    "site": "https://www.legrimoire.fr/",
+    "level": "AUTRE",
+    "actif": true,
+    "consolidated": true
   }
 ]
