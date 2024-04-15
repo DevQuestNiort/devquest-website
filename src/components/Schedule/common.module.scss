@@ -17,25 +17,7 @@
   padding: 0 10px;
 }
 
-.tags {
-  .chip {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    white-space: nowrap;
 
-    border-radius: 16px;
-    border: 1px solid var(--marron);
-
-    .chipLabel {
-      overflow: hidden;
-      text-overflow: ellipsis;
-      padding-left: 8px;
-      padding-right: 8px;
-      white-space: nowrap;
-    }
-  }
-}
 
 .avatar {
   img {
@@ -55,4 +37,9 @@
   img {
     border-radius: 50%;
   }
+}
+
+
+.chip{
+  border-color: var(--marron);
 }

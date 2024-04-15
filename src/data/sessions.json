@@ -1,9 +1,9 @@
 [
     {
         "id": "0gKdd1WucXpgx24GQNrk5",
-        "slug": "abb",
-        "title": "Ouverture A",
-        "categorie": "Design & UX",
+        "slug": "keynote",
+        "title": "Keynote",
+        "categorie": "discovery",
         "abstract": "bla bla",
         "speakers": [
             {
@@ -13,30 +13,163 @@
                 "company": "xxx"
             }
         ],
-
-        "tags": ["discovery"],
-        "slot":"day-1-keynote-open",
+        "tags": [
+            "discovery"
+        ],
+        "slot": "day-1-keynote-open",
         "cancelled": false,
         "room": "Grande salle"
     },
     {
-        "id": "0gKr1WucXpgx24GQNrk5",
-        "slug": "azz",
-        "slot": "day-1-conference-1",
-        "title": "C'est l'heure du Check-Up de vos pipelines CI/CD !",
-        "categorie": "Design & UX",
-        "abstract": "Et si on sécurisait aussi le code de nos pipelines CI/CD, cette colonne vertébrale de notre delivery ?\n\nAvec l'augmentation des cyberattaques de type \"supplychain\" et l'introduction de nouvelles réglementations comme NIS2, garantir la sécurité et la conformité du code des pipelines CI/CD à l'échelle de l'entreprise n'a jamais été aussi crucial.\n\nSouvent, le code de nos pipelines est hétérogène, comportant des conteneurs dont nous ignorons les origines, des bibliothèques dont nous avons perdu le contrôle des versions, et des secrets qui se propagent. Cette situation génère un risque élevé d'attaque et n'inspire guère confiance aux DSI/RSSI/CTO quant au niveau de conformité et de sécurité de l'ensemble de leurs chaînes d'approvisionnement.\n\nDemander à auditer des centaines de pipelines est fastidieux, déclaratif et non reproductible, ce qui devient un véritable cauchemar pour les équipes.\n\nJe vous propose de découvrir une approche pour simplifier la vie des développeurs, ainsi qu'un outil d'analyse gratuit de vos pipelines CI/CD qui vous permettra de :\n\n* Détecter les drifts, la dette technique et les ressources obsolètes\n* Identifier les problèmes de sécurité dans vos pipelines CI/CD\n* Visualiser l'origine des containers accédant à vos secrets\n* Garantir la conformité de vos chaînes d'approvisionnement\n* Éviter la prochaine \"supplychains attack\"\n* Faciliter votre mise en conformité (ISO 27001, SecNumCloud, AirCyber, NIS2)\n* Obtenir votre tableau de bord CI/CD d'entreprise\n\nSi cela a du sens pour vous, pour votre entreprise ou vos clients, venez économiser un temps précieux pour vos audits et enfin rassurer vos Directions sur la sécurité de l'ensemble de leurs chaînes d'approvisionnement.",
+        "id": "0gKr1WucXdfgdh6Srk5",
+        "slug": "le-produit-entre-la-qualite-et-l-over-engineering",
+        "slot": "day-1-conference-1-gs",
+        "title": "Le produit entre la qualité et l’Over-Engineering",
+        "categorie": "Architecture",
+        "abstract": "...",
         "speakers": [
             {
-                "name": "xxx",
-                "id": "xxx",
-                "photo": "https://github.com/GDG-Nantes/Devfest2023/assets/525974/83271d10-643e-40f0-bd0a-972a7bdb5813",
-                "company": "xxx"
+                "name": "Jihène Mejri",
+                "id": "jmejri",
+                "photo": "https://media.licdn.com/dms/image/D4E03AQEpU0dd-S_jlg/profile-displayphoto-shrink_100_100/0/1677596494172?e=1718841600&v=beta&t=Qh0h0UFYCSJ58whz4hzZIFkVY6PWo1yQS4T_Wq0T9-Y",
+                "company": "bforbank"
             }
         ],
-
-        "tags": [],
+        "tags": [
+            "architecture"
+        ],
         "cancelled": false,
-        "room": "Moyenne salle"
+        "room": "Grande salle"
+    },
+    {
+        "id": "0gKTEEF4Xdfgdh6Srk5",
+        "slug": "dessine-moi-un-graphique-en-css",
+        "slot": "day-1-conference-1-ps",
+        "title": "Dessine moi un graphique (en CSS)",
+        "categorie": "Frontend",
+        "abstract": "...",
+        "speakers": [
+            {
+                "name": "Gaël Poupard",
+                "id": "gpoupard",
+                "photo": "https://avatars.githubusercontent.com/u/2890570?v=4",
+                "company": "Mamot"
+            }
+        ],
+        "tags": [
+            "frontend"
+        ],
+        "cancelled": false,
+        "room": "Petite salle"
+    },
+    {
+        "id": "0gKTE32F4Xdfgdh6Srk5",
+        "slug": "arretons-de-detester-nos-applications",
+        "slot": "day-1-codelab-1",
+        "title": "Arrêtons de (dé)tester nos applications",
+        "categorie": "Frontend",
+        "abstract": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?",
+        "speakers": [
+            {
+                "name": "Stanley S & Curacao",
+                "id": "sstanley-curacao",
+                "photo": "https://avatars.githubusercontent.com/u/2890570?v=4",
+                "company": "?",
+                "bio": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+                "social": {
+                    "linkedin": "alexandre-guerin",
+                    "github": "Ithrandil"
+                }
+            }
+        ],
+        "tags": [
+            "frontend"
+        ],
+        "cancelled": false,
+        "room": "Code Lab"
+    },
+    {
+        "id": "0azTE32F4Xdfgdh6Srk5",
+        "slug": "la-clean-archi-ca-marche-aussi-sur-le-front",
+        "slot": "day-1-conference-2-gs",
+        "title": "La Clean Archi ca marche aussi dans le Front !",
+        "categorie": "Frontend",
+        "abstract": "...",
+        "speakers": [
+            {
+                "name": "Dorian Lamandé",
+                "id": "dlamande",
+                "photo": "https://dorianlamande.com/images/dla.jpg",
+                "company": "Octo technology"
+            }
+        ],
+        "tags": [
+            "frontend"
+        ],
+        "cancelled": false,
+        "room": "Grande salle"
+    },
+    {
+        "id": "0azTE32F4adfgdh6Srk5",
+        "slug": "les-features-flags",
+        "slot": "day-1-conference-2-ps",
+        "title": "Les feature flags : le couteau suisse de votre flow de développement",
+        "categorie": "Architecture",
+        "abstract": "...",
+        "speakers": [
+            {
+                "name": "Benjamin Cavy",
+                "id": "bcavy",
+                "photo": "https://avatars.githubusercontent.com/u/1528358?v=4",
+                "company": "MAIF"
+            }
+        ],
+        "tags": [
+            "architecture"
+        ],
+        "cancelled": false,
+        "room": "Petite salle"
+    },
+    {
+        "id": "0azTE32F4Xdfff6Srk5",
+        "slug": "mister-wip-miss-vsm-in-factory-town",
+        "slot": "day-1-conference-3-gs",
+        "title": "Mister WIP & Miss VSM in Factory Town©️",
+        "categorie": "Architecture",
+        "abstract": "...",
+        "speakers": [
+            {
+                "name": "Fanny Klauk",
+                "id": "fklauk",
+                "photo": "https://media.licdn.com/dms/image/C5603AQFZSYVMSDhI3g/profile-displayphoto-shrink_400_400/0/1640874196592?e=1718841600&v=beta&t=UtsG4sv_BSntA7GjZa1NCcJOMthyw-joCX_yNDn5X8s",
+                "company": "Apside"
+            }
+        ],
+        "tags": [
+            "architecture"
+        ],
+        "cancelled": false,
+        "room": "Grande salle"
+    },
+    {
+        "id": "0azTE3oozadfff6Srk5",
+        "slug": "tremplin-devquest",
+        "slot": "day-1-conference-3-ps",
+        "title": "Tremplin DevQuest",
+        "categorie": "Architecture",
+        "abstract": "...",
+        "speakers": [
+            {
+                "name": "??",
+                "id": "??",
+                "photo": "https://media.licdn.com/dms/image/C5603AQFZSYVMSDhI3g/profile-displayphoto-shrink_400_400/0/1640874196592?e=1718841600&v=beta&t=UtsG4sv_BSntA7GjZa1NCcJOMthyw-joCX_yNDn5X8s",
+                "company": "??"
+            }
+        ],
+        "tags": [
+            "tremplin"
+        ],
+        "cancelled": false,
+        "room": "Petite salle"
     }
 ]

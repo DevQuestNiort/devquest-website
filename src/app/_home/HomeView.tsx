@@ -12,10 +12,10 @@ import backgroundImage from "../../../public/devquest-fond-min.jpg";
 import backgroundMapImage from "../../../public/devquest-bg-map.jpg";
 import { Card } from "@/components/Card";
 import { LinkButton } from "../../components/LinkButton";
-import Link from "next/link";
 import { LogoPartenaire } from "@/components/LogoPartenaire";
 import { Partenaire } from "@/model/Partenaire";
 import { Footer } from "@/components/Footer/Footer";
+import config from '../../data/config.json'
 
 interface HomeViewProperties {
   readonly themes: Theme[];
@@ -251,8 +251,7 @@ export default function HomeView({
               <Avatar
                 key={i}
                 img={m.img}
-                firstName={m.firstName}
-                lastName={m.lastName}
+                name={m.name}
                 role={m.role}
                 github={m.github}
                 linkedin={m.linkedin}

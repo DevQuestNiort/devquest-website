@@ -2,9 +2,12 @@ import { Footer } from "@/components/Footer/Footer";
 import { PageHeader } from "@/components/PageHeader/PageHeader";
 import { PropsWithChildren } from 'react';
 
+import { promises as fs } from "fs";
+import * as model from '@/model/Session'
 
-const SessionLayout = ({ children , params: {title}}: PropsWithChildren<{params: {title:string}}>) => <>
-    <PageHeader title={title} />
+
+const SessionLayout = ({ children }: PropsWithChildren<{}>) => <>
+    <PageHeader title={"Speakers"} />
     <main>
         {children}
     </main>

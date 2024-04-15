@@ -1,0 +1,19 @@
+.chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+
+  border-radius: 16px;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 2px;
+
+  .chipLabel {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 8px;
+    padding-right: 8px;
+    white-space: nowrap;
+  }
+}

@@ -1,9 +1,10 @@
 import { Slot, SlotTypeLabel } from "@/model/Slot";
-import { PartialSession, Speakers, Tags, rooms } from "../common";
+import {  Speakers, Tags, rooms } from "../common";
 import classNames from "classnames";
 import React from "react";
 import Link from "next/link";
 import styles from './LargeSchedule.module.scss'
+import { FullSession } from "@/model/FullSession";
 
 const Room = ({ name }: { name: string }) => {
   const gridColumn = columnFromRoom(name);
@@ -30,7 +31,7 @@ const Hour = ({ slot }: { slot: Slot }) => <div
   <h3>{slot.start}</h3>
 </div>
 
-const SessionInfo = ({ session }: { session: PartialSession }) => {
+const SessionInfo = ({ session }: { session: FullSession }) => {
   return (
     <div
       className={classNames( styles.slotSessionInfo, session.cancelled && "cancelled")}
@@ -47,7 +48,7 @@ const SessionInfo = ({ session }: { session: PartialSession }) => {
   );
 };
 
-const Session = ({ session }: { session: PartialSession }) => {
+const Session = ({ session }: { session: FullSession }) => {
   const gridColumn = columnFromRoom(session.room);
   return (
     <div
@@ -68,7 +69,7 @@ const FixedSlot = ({ slot }: { slot: Slot }) => {
   const gridColumn = slot.type.startsWith("keynote")
     ? "2 / 2"
     : slot.display.notForCodelab
-      ? "2 / span 4"
+      ? "2 / span 2"
       : "2 / -1";
   return (
     <div
@@ -86,7 +87,7 @@ const FixedSlot = ({ slot }: { slot: Slot }) => {
 
 
 // @see https://github.com/GDG-Nantes/Devfest2023/blob/main/src/components/session/sessionPageTemplate.tsx
-export const LargeSchedule = ({sessions, allHoursSlots}: {sessions: PartialSession[], allHoursSlots: Slot[]}) => {
+export const LargeSchedule = ({sessions, allHoursSlots}: {sessions: FullSession[], allHoursSlots: Slot[]}) => {
   const fixedSlots: Slot[] = allHoursSlots.filter((s) =>
     ["opening", "lunch", "break", "keynote", "party"].includes(s.type)
   );
@@ -95,7 +96,7 @@ export const LargeSchedule = ({sessions, allHoursSlots}: {sessions: PartialSessi
   const hoursSlots = hoursStart.map(
     (start) => allHoursSlots.find((slot) => slot.start === start) as Slot
   );
-  const sessionsByHours: { [k: string]: Array<PartialSession> } = {};
+  const sessionsByHours: { [k: string]: Array<FullSession> } = {};
   const fixedSlotsByHours: { [k: string]: Array<Slot> } = {};
   hoursSlots.forEach((hourSlot) => {
     sessionsByHours[hourSlot.start] = sessions

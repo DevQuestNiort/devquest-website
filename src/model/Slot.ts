@@ -13,7 +13,7 @@ export enum SlotTypeLabel {
   opening = "Ouverture",
   keynote = "Keynote",
   break = "Pause",
-  lunch = "Déjeuner",
+  lunch = "Déjeuner & Café",
   party = "After Party",
   quickie= 'Quickie',
   conference= 'Conférence',

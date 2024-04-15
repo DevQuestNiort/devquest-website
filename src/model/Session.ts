@@ -17,6 +17,7 @@ export interface Speaker{
     id: string,
     photo: string,
     company: string,
+    bio?:string,
     social?: {
         x: string,
         linkedin: string,
