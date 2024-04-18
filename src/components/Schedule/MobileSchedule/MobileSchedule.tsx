@@ -81,20 +81,16 @@ const Session = ({ session }: { session: FullSession }) => {
 
 const SessionInfo = ({ session }: { session: FullSession }) => {
     return (
-        <div
-            className={classNames(styles.sessionInfo, session.cancelled && styles.cancelled)}
+        <Link
+            href={"/sessions/" + session.slug}
+            className={classNames(styles.disableLinkStyle, styles.sessionInfo, session.cancelled && styles.cancelled)}
         >
-            <Link
-                key={session.title}
-                href={"/sessions/" + session.slug}
-                className={styles.sessionLink}
-            ><span className={styles.sessionTitle}>{session.title}</span>
+            <span className={styles.sessionTitle}>{session.title}</span>
             <Stack spacing={2} alignItems="center" direction="row">
                 {session.tags && <Tags tags={session.tags} />}
                 <span>{session.room}</span>
             </Stack>
             <Speakers speakers={session.speakers} />
-            </Link>
-        </div>
+        </Link>
     );
 };

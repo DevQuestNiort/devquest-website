@@ -66,4 +66,9 @@
       text-decoration: line-through;
     }
   }
+
+  .disableLinkStyle{
+    text-decoration: none;
+    color: inherit;
+  }
 }
