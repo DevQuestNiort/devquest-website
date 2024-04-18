@@ -1,7 +1,7 @@
 .speakers {
   background-color: var(--marron);
   color: white;
-  border: 1px solid;
+  border: 1px solid var(--marron);
   border-radius: 5px;
   display: flex;
   justify-content: space-evenly;

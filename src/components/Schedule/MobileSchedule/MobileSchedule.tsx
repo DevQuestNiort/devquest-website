@@ -1,5 +1,5 @@
 import { FullSession } from "@/model/FullSession";
-import { Slot } from "@/model/Slot";
+import { Slot, SlotTypeLabel } from "@/model/Slot";
 import { Speakers, Tags, rooms } from "../common";
 import classNames from "classnames";
 import Link from "next/link";
@@ -66,7 +66,7 @@ const Hour = ({ hour }: { hour: string }) => (
 const FixedSlot = ({ slot }: { slot: Slot }) => {
     return (
         <div className={classNames(styles.slot, styles.fixed, styles[slot.type])}>
-            <h3>{slot.type}</h3>
+            <h3>{SlotTypeLabel[slot.type]}</h3>
         </div>
     );
 };
@@ -88,12 +88,13 @@ const SessionInfo = ({ session }: { session: FullSession }) => {
                 key={session.title}
                 href={"/sessions/" + session.slug}
                 className={styles.sessionLink}
-            ><span className={styles.sessionTitle}>{session.title}</span></Link>
+            ><span className={styles.sessionTitle}>{session.title}</span>
             <Stack spacing={2} alignItems="center" direction="row">
                 {session.tags && <Tags tags={session.tags} />}
                 <span>{session.room}</span>
             </Stack>
             <Speakers speakers={session.speakers} />
+            </Link>
         </div>
     );
 };

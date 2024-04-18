@@ -1,5 +1,5 @@
 import { Slot, SlotTypeLabel } from "@/model/Slot";
-import { Speakers, Tags, rooms } from "../common";
+import {  Speakers, Tags, rooms } from "../common";
 import classNames from "classnames";
 import React from "react";
 import Link from "next/link";
@@ -33,10 +33,10 @@ const Hour = ({ slot }: { slot: Slot }) => <div
 
 const SessionInfo = ({ session }: { session: FullSession }) => {
   return (
-    <div
-      className={classNames(styles.slotSessionInfo, session.cancelled && styles.cancelled)}
+    <Link href={"/sessions/" + session.slug}
+      className={classNames( styles.disableLinkStyle, styles.slotSessionInfo, session.cancelled && "cancelled")}
     >
-      <Link href={"/sessions/" + session.slug} className={styles.slotSessionTitle}>{session.title}</Link>
+      <span className={styles.slotSessionTitle}>{session.title}</span>
       <span className="sr-only">Salle {session.room}</span>
       <div className={styles.slotSessionInfoBottom}>
         <div className={styles.stackSession}>
@@ -44,7 +44,7 @@ const SessionInfo = ({ session }: { session: FullSession }) => {
         </div>
         <Speakers speakers={session.speakers} />
       </div>
-    </div>
+    </Link>
   );
 };
 
@@ -53,7 +53,7 @@ const Session = ({ session }: { session: FullSession }) => {
   return (
     <div
       key={session.title}
-      className={classNames(styles.slot, styles.slotSession)}
+      className={classNames(styles.slot,styles.slotSession)}
       style={{
         gridColumn,
         gridRow: slotToRow(session.slot),
@@ -87,7 +87,11 @@ const FixedSlot = ({ slot }: { slot: Slot }) => {
 
 
 // @see https://github.com/GDG-Nantes/Devfest2023/blob/main/src/components/session/sessionPageTemplate.tsx
-export const LargeSchedule = ({ sessions, allHoursSlots, fixedSlots }: { sessions: FullSession[], allHoursSlots: Slot[], fixedSlots: Slot[] }) => {
+export const LargeSchedule = ({sessions, allHoursSlots}: {sessions: FullSession[], allHoursSlots: Slot[]}) => {
+  const fixedSlots: Slot[] = allHoursSlots.filter((s) =>
+    ["opening", "lunch", "break", "keynote", "party"].includes(s.type)
+  );
+
   const hoursStart = allHoursSlots.map((slot) => slot.start);
   const hoursSlots = hoursStart.map(
     (start) => allHoursSlots.find((slot) => slot.start === start) as Slot
@@ -102,10 +106,11 @@ export const LargeSchedule = ({ sessions, allHoursSlots, fixedSlots }: { session
       (s) => s.start === hourSlot.start
     );
   });
+  
 
 
-
-  return (
+  return (<div>
+    <div className={"header-rooms"}></div>
 
     <div className={styles.scheduleLarge}>
       {rooms.map((room) => (
@@ -125,7 +130,9 @@ export const LargeSchedule = ({ sessions, allHoursSlots, fixedSlots }: { session
         );
       })}
 
-    </div>)
+    </div>
+
+  </div>)
 }
 
 function columnFromRoom(room: string) {
