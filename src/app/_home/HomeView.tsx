@@ -114,7 +114,7 @@ export default function HomeView({
               aria-hidden="true"
             />
             <p className={styles.eventSpecText}>
-              150
+              500
               <br />
               spectateurs
             </p>
