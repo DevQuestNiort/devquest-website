@@ -128,21 +128,56 @@ export default function HomeView({
               aria-hidden="true"
             />
             <p className={styles.eventSpecText}>
-              16
+              19
               <br />
               partenaires
             </p>
+          </div>
+        </div>
+      </Section>
+      <Section theme="Light">
+        <h2>Plus en détails </h2>
+        <div id={styles.eventspec}>
+          <div>
+            <Image
+              height={96}
+              width={96}
+              alt="knight"
+              src="/icons-rp/potion.png"
+              aria-hidden="true"
+            />
+            <p className={styles.eventSpecText}>10 conférences</p>
+          </div>
+          <div>
+            <Image
+              height={96}
+              width={96}
+              alt="king"
+              src="/icons-rp/potion-tr.png"
+              aria-hidden="true"
+            />
+            <p className={styles.eventSpecText}>6 Quickies</p>
+          </div>
+          <div>
+            <Image
+              height={96}
+              width={96}
+              alt="backpack"
+              src="/icons-rp/hache.png"
+              aria-hidden="true"
+            />
+            <p className={styles.eventSpecText}>2 workshops</p>
           </div>
           <div>
             <Image
               height={96}
               width={96}
               alt="quest"
-              src="/icons-rp/quest.png"
+              src="/icons-rp/village.png"
               aria-hidden="true"
             />
             <p className={styles.eventSpecText}>
-              20 présentations multi&nbsp;format
+              un espace de rencontre avec nos partenaires
             </p>
           </div>
         </div>
