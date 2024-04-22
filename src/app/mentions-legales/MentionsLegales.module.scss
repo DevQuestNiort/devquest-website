@@ -1,13 +1,14 @@
 .mentionsLegales {
-  align-items: flex-start;
+
   min-height: calc(100vh - 4rem);
+  width :75%;
 
   h1, h2 {
     margin: 2rem 0 0;
   }
 
   p {
-    margin: 0
+    margin: 1rem;
   }
 
   p > a, li > a {
