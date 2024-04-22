@@ -389,6 +389,8 @@ export default function HomeView({
         <b aria-hidden="true">@ 2024 DevQuest</b>
         {" - "}
         <Link href={"/mentions-legales"}>Mentions légales</Link>
+        {" - "}
+        <Link href={"/code-de-conduite"}>Code de conduite</Link>
       </footer>
     </div>
   );
