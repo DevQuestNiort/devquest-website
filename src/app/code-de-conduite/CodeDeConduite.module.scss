@@ -1,0 +1,20 @@
+.cdc {
+
+  min-height: calc(100vh - 4rem);
+  width :75%;
+  h1, h2 {
+    margin: 2rem 0 0;
+  }
+
+  p {
+    margin: 1rem;
+  }
+
+  p > a, li > a {
+    color: black;
+  }
+
+  a:last-of-type {
+    margin-top: 2rem;
+  }
+}
