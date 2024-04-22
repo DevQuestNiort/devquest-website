@@ -13,8 +13,7 @@ export function CodeDeConduite() {
             d&apos;être une communauté ouverte, respectueuse des différences et
             de la diversité. Nous voulons que tous les participants et
             participantes (participants, conférenciers,…) vivent une expérience
-            agréable et enrichissante. Cela implique que tous les participants
-            et participantes, orateurs et oratrices, sponsors et bénévoles
+            agréable et enrichissante. Cela implique que tous les participants, participantes, orateurs, oratrices, sponsors et bénévoles
             respectent ce code de conduite.
           </p>
         </Card>
