@@ -119,8 +119,8 @@ participantes à la conférence. Le langage et les images sexuels ne
         </p>
         <p>
           Les organisateurs d&apos;événements peuvent prendre des mesures pour
-          remédier à tout ce qui est conçu pour perturber l’événement ou avoir
-          pour impact manifeste de rendre l’environnement hostile pour les
+          remédier à tout ce qui peut perturber l’événement ou avoir
+          un impact, rendant l’environnement hostile pour les
           participants et participantes.
         </p>
         <p>
