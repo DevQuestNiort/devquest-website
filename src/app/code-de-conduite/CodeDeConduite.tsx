@@ -42,8 +42,8 @@ export function CodeDeConduite() {
         <p>
           Nous ne tolérons aucune forme de harcèlement des participants et
           participantes à la conférence. Le langage et les images sexuels ne
-          sont appropriés pour aucun lieu de la conférence, y compris les talks,
-          les codelabs, les animations, les soirées, les réseaux sociaux. Les
+          sont pas appropriés pour le DevQuest. Cela comprend également les contenus de talks,
+          et codelabs, les animations, les soirées ainsi que les réseaux sociaux. Les
           participants et participantes de la conférence qui enfreignent ces
           règles peuvent être sanctionnés ou expulsés de la conférence sans
           remboursements, à la discrétion des organisateurs de la conférence.
