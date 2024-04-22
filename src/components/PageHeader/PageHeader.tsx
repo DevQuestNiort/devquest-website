@@ -1,34 +1,32 @@
+"use client";
 import Image from "next/image";
 import styles from "./PageHeader.module.scss";
 import config from '../../data/config.json'
 import Link from "next/link";
 import { LinkButton } from "../LinkButton";
+import {usePathname } from "next/navigation";
 
-type PageHeaderProps = {
-    title: string
-}
+export const PageHeader = () => {
+    const pathname = usePathname ();
 
-export const PageHeader = ({ title }: PageHeaderProps) => {
+    const isActive = (href: string) => pathname === href;
+
     return <nav className={styles.header}>
         <div className={styles.containerFluid}>
-            <a href="/">
+            <Link href="/">
                 <Image
                     src={`/devquest-color.svg`}
                     alt={"logo devquest"}
                     width={64}
                     height={64}
                 />
-            </a>
+            </Link>
 
-            <span className={styles.headerBrand}>{title}</span>
-
-            <span className={styles.separator}>|</span>
-
-            <Link href="/" className={styles.otherHeaderBrand}>Accueil</Link>
+            <Link href="/" className={styles.otherHeaderBrand} style={{fontWeight: isActive('/') ? 'bold' : 'normal'}}>Accueil</Link>
 
             <span className={styles.separator}>|</span>
 
-            <Link href="/schedule" className={styles.otherHeaderBrand}>Programme</Link>
+            <Link href="/schedule" className={styles.otherHeaderBrand} style={{fontWeight: isActive('/schedule') || pathname.includes('/sessions') ? 'bold' : 'normal'}}>Programme</Link>
 
             <span className={styles.separator}>|</span>
 
@@ -37,17 +35,16 @@ export const PageHeader = ({ title }: PageHeaderProps) => {
             <span className={styles.separator}>|</span>
 
 
-
             <Link href={config.kitMedia} className={styles.otherHeaderBrand}>Kit Média</Link>
 
             <div className={styles.mainBtnContainer}>
-            <LinkButton
+                {!isActive('/') && <LinkButton
                 theme="Primary"
                 classes={styles.reserverMaPlace}
                 href={config.shop}
             >
                 Réserver mes places
-            </LinkButton>
+            </LinkButton>}
             </div>
         </div>
     </nav>

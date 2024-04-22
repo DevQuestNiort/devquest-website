@@ -1,7 +1,6 @@
 import { Section } from "@/components/Section";
 import { default as styles } from "./CodeDeConduite.module.scss";
 import { Card } from "@/components/Card";
-import { LinkButton } from "@/components/LinkButton";
 
 export function CodeDeConduite() {
   return (
@@ -144,9 +143,6 @@ participantes à la conférence. Le langage et les images sexuels ne
           sous licence Creative Commons Zero.
         </p>
       </div>
-      <LinkButton theme={"Primary"} href={"/"}>
-        Retour à la page d&apos;accueil
-      </LinkButton>
     </Section>
   );
 }

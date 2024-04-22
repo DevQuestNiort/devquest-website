@@ -1,6 +1,5 @@
 import { Section } from "@/components/Section";
 import { default as styles } from "./MentionsLegales.module.scss";
-import { LinkButton } from "@/components/LinkButton";
 
 export function MentionsLegales() {
   return (
@@ -120,10 +119,6 @@ export function MentionsLegales() {
           l&apos;affluence sur le site.
         </p>
       </div>
-
-      <LinkButton theme={"Primary"} href={"/"}>
-        Retour à la page d&apos;accueil
-      </LinkButton>
     </Section>
   );
 }

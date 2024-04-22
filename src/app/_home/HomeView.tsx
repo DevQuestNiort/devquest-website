@@ -385,7 +385,6 @@ export default function HomeView({
           </div>
         </div>
       </Section>
-      <Footer/>
     </div>
   );
 }

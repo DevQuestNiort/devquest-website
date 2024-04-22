@@ -4,6 +4,8 @@ import { Source_Sans_3, Teko } from "next/font/google";
 import { QuestExplorateur } from "@/components/QuestExplorateur";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import BackToTop from '@/components/BackToTop';
+import {PageHeader} from "@/components/PageHeader/PageHeader";
+import {Footer} from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "DEVQUEST - 14 juin (Niort)",
@@ -55,9 +57,11 @@ export default function RootLayout({
       <body className={`${teko.variable} ${sourceSansPro.variable}`}>
         <GoogleAnalytics gaId="G-MR3XKZY9PM" />
         <QuestExplorateur />
+        <PageHeader />
         {children}
 
-      <BackToTop/>
+        <BackToTop/>
+        <Footer/>
       </body>
     </html>
   );
