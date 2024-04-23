@@ -37,7 +37,7 @@
         "room": "Petite salle",
         "slot": "day-1-conference-7-ps",
         "slug": "chrome-dev-tools-from-zero-to-hero",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "ioc2x2nW4KV5zrt69ZQm",
@@ -64,7 +64,7 @@
         "room": "Petite salle",
         "slot": "day-1-conference-1-ps",
         "slug": "dessine-moi-un-graphique-en-CSS",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "op9NV6COKMkYfRsCbA5Z",
@@ -91,7 +91,7 @@
         "room": "Grande salle",
         "slot": "day-1-conference-4-gs",
         "slug": "ne-jouez-plus-solo",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "sxuXYZ9LFxNrSVqKAGTu",
@@ -118,7 +118,7 @@
         "room": "Petite salle",
         "slot": "day-1-conference-6-ps",
         "slug": "3615-twitch",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "YPsuYQYS1gWLrKb4f2SA",
@@ -145,7 +145,7 @@
         "tags": ["discovery"],
         "slot": "day-1-conference-5-ps",
         "slug": "j-ai-beaucoup-de-taf",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "yRdKlGPKyggIvbVMJd45",
@@ -185,7 +185,7 @@
         "room": "Code Lab",
         "slot": "day-1-codelab-1",
         "slug": "arretons-de-de-tester-nos-applications",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "0gKr1WucXpgx24GQNrk5",
@@ -212,7 +212,7 @@
         "room": "Grande salle",
         "slot": "day-1-conference-8-gs",
         "slug": "c-est-l-heure-du-check-up-de-vos-pipelines-ci-cd",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "104ABCaH2K2YG1jyGRQ0",
@@ -239,7 +239,7 @@
         "room": "Grande salle",
         "slot": "day-1-conference-5-gs",
         "slug": "au-secours-mon-manager-me-demande-des-kpis",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "421I87Jua5ybGBpFB8mY",
@@ -266,7 +266,7 @@
         "room": "Grande salle",
         "slot": "day-1-conference-1-gs",
         "slug": "le-produit-entre-la-qualite-et-l-over-engineering",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "1UTHgcp3UIDFcoA2vwPC",
@@ -293,7 +293,7 @@
         "room": "Grande salle",
         "slot": "day-1-conference-7-gs",
         "slug": "les-flux-de-reactor-expliques",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "S33SsGdvuBSe79BRHX3L",
@@ -320,7 +320,7 @@
         "tags": ["architecture"],
         "slot": "day-1-conference-3-gs",
         "slug": "mister-wip-miss-vsm-in-factory-town",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "S33SsGd-tremplin",
@@ -334,7 +334,7 @@
         "tags": ["tremplin"],
         "slot": "day-1-conference-3-ps",
         "slug": "tremplin-speaker",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "jOS0fDBjpVxRwkJhYGx8",
@@ -361,7 +361,7 @@
         "room": "Petite salle",
         "slot": "day-1-conference-4-ps",
         "slug": "ppentelemetry-vous-ne-pourrez-plus-vous-passer-de-monitoring-en-prod",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "DFwcuwO56ihk6RRt92UE",
@@ -388,7 +388,7 @@
         "room": "Grande salle",
         "slot": "day-1-conference-6-gs",
         "slug": "securite-automatisee-regardez-vos-failles-en-face",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "anOldGi7qzAGSBM90IDy",
@@ -428,7 +428,7 @@
         "room": "Petite salle",
         "slot": "day-1-conference-8-ps",
         "slug": "dedramatisons-l-accessibilite",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "1VwnWElWuMILCaS98esg",
@@ -455,7 +455,7 @@
         "room": "Petite salle",
         "slot": "day-1-conference-2-ps",
         "slug": "les-feature-flags-le-couteau-suisse-de-votre-flow-de-developpement",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "DtBsONOL77NRIUkJCPqG",
@@ -482,7 +482,7 @@
         "room": "Grande salle",
         "slot": "day-1-conference-2-gs",
         "slug": "la-clean-archi-ca-marche-aussi-dans-le-front",
-        "cancelled": "false"
+        "cancelled": false
     },
     {
         "id": "kXmpwDrXnSne2RsXfj5X",
@@ -509,6 +509,6 @@
         "tags": ["backend"],
         "slot": "day-1-codelab-2",
         "slug": "programmation-reactive-avec-quarkus",
-        "cancelled": "false"
+        "cancelled": false
     }
 ]

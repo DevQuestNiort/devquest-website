@@ -40,7 +40,7 @@ const SessionInfo = ({ session }: { session: FullSession }) => {
       className={classNames(
         styles.disableLinkStyle,
         styles.slotSessionInfo,
-        session.cancelled && "cancelled",
+        session.cancelled && styles.cancelled,
       )}
     >
       <span className={styles.slotSessionTitle}>{session.title}</span>
