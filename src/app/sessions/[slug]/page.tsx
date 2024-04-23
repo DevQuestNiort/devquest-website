@@ -80,7 +80,7 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
                   icon: styles.icon,
                 }}
                 name={speaker.name}
-                img={speaker.photo}
+                img={speaker.photo || "/icons-rp/role-playing.png"}
                 github={speaker.social?.github}
                 linkedin={speaker.social?.linkedin}
               />
