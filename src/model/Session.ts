@@ -29,4 +29,4 @@ export interface Speaker{
 
 export type Format = "Workshop" | "Quickie" | "Workshop";
 
-export type Tags = 'iot_hardware' | 'mobile' | 'web' | 'discovery' | 'cloud_devops' | 'languages' | 'bigdata_ai' | 'security' | 'ux_ui';
+export type Tags = 'backend' | 'frontend' | 'discovery' | 'cloud_devops' | 'tremplin' | 'architecture' | 'ux_ui';

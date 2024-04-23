@@ -11,7 +11,7 @@
   {
     "key": "day-1-keynote-open",
     "start": "09:00",
-    "type": "conference",
+    "type": "keynote",
     "display": {
       "row": 2,
       "size": 2
@@ -93,7 +93,7 @@
   {
     "key": "day-1-conference-3-gs",
     "start": "13:30",
-    "type": "conference",
+    "type": "quickie",
     "display": {
       "row": 9,
       "size": 1
@@ -101,9 +101,163 @@
   },{
     "key": "day-1-conference-3-ps",
     "start": "13:30",
-    "type": "conference",
+    "type": "quickie",
     "display": {
       "row": 9,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-1-pause-3",
+    "start": "13:50",
+    "type": "break",
+    "display": {
+      "row": 10,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-1-conference-4-gs",
+    "start": "14:00",
+    "type": "conference",
+    "display": {
+      "row": 11,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-1-conference-4-ps",
+    "start": "14:00",
+    "type": "conference",
+    "display": {
+      "row": 11,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-1-codelab-2",
+    "start": "14:00",
+    "type": "codelab",
+    "display": {
+      "row": 11,
+      "size": 3
+    }
+  },
+  {
+    "key": "day-1-pause-4",
+    "start": "14:50",
+    "type": "break",
+    "display": {
+      "row": 12,
+      "size": 1,
+      "notForCodelab": true
+    }
+  },
+  {
+    "key": "day-1-conference-5-gs",
+    "start": "15:00",
+    "type": "conference",
+    "display": {
+      "row": 13,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-1-conference-5-ps",
+    "start": "15:00",
+    "type": "conference",
+    "display": {
+      "row": 13,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-1-pause-5",
+    "start": "15:50",
+    "type": "break",
+    "display": {
+      "row": 14,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-1-conference-6-gs",
+    "start": "16:10",
+    "type": "conference",
+    "display": {
+      "row": 15,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-1-conference-6-ps",
+    "start": "16:10",
+    "type": "conference",
+    "display": {
+      "row": 15,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-1-pause-6",
+    "start": "17:00",
+    "type": "break",
+    "display": {
+      "row": 16,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-1-conference-7-gs",
+    "start": "17:10",
+    "type": "quickie",
+    "display": {
+      "row": 17,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-1-conference-7-ps",
+    "start": "17:10",
+    "type": "quickie",
+    "display": {
+      "row": 17,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-1-pause-7",
+    "start": "17:30",
+    "type": "break",
+    "display": {
+      "row": 18,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-1-conference-8-gs",
+    "start": "17:40",
+    "type": "quickie",
+    "display": {
+      "row": 19,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-1-conference-8-ps",
+    "start": "17:40",
+    "type": "quickie",
+    "display": {
+      "row": 19,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-1-closing-1",
+    "start": "18:00",
+    "type": "closing",
+    "display": {
+      "row": 20,
       "size": 1
     }
   }

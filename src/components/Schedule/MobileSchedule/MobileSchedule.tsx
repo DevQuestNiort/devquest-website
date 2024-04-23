@@ -90,7 +90,7 @@ const SessionInfo = ({ session }: { session: FullSession }) => {
                 {session.tags && <Tags tags={session.tags} />}
                 <span>{session.room}</span>
             </Stack>
-            <Speakers speakers={session.speakers} />
+            {session.speakers.length != 0 && <Speakers speakers={session.speakers} /> }
         </Link>
     );
 };

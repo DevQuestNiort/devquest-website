@@ -1,175 +1,514 @@
 [
     {
-        "id": "0gKdd1WucXpgx24GQNrk5",
-        "slug": "keynote",
-        "title": "Keynote",
-        "categorie": "discovery",
-        "abstract": "bla bla",
+        "id": "XTt5AjfH18vpgIg3HC1j",
+        "title": "Chrome dev tools from zero to hero",
+        "abstract": "Depuis longtemps, en front on a pris l'habitude de debuguer à coup de `console.log` ?\n\nAussi, combien de fois avez-nous été confronté à des problèmes d'accessibilités sans les comprendre réellement ?\n\nEt si je vous disais qu'il existe de nombreuses autres façon de debuguer votre front et que de nombreuses astuces autour de votre navigateur peuvent vous aider tous les jours ?\n\nEn 20 minutes nous aborderont différentes aspects de vos chrome dev tools pour que vous ne soyez plus démunis face à un front récalcitrant et pour vous faire gagner en expérience développeur.",
         "speakers": [
             {
-                "name": "Alexandre SAUDINOS",
-                "id": "xxx",
-                "photo": "https://github.com/GDG-Nantes/Devfest2023/assets/525974/83271d10-643e-40f0-bd0a-972a7bdb5813",
-                "company": "xxx"
-            }
-        ],
-        "tags": [
-            "discovery"
-        ],
-        "slot": "day-1-keynote-open",
-        "cancelled": false,
-        "room": "Grande salle"
-    },
-    {
-        "id": "0gKr1WucXdfgdh6Srk5",
-        "slug": "le-produit-entre-la-qualite-et-l-over-engineering",
-        "slot": "day-1-conference-1-gs",
-        "title": "Le produit entre la qualité et l’Over-Engineering",
-        "categorie": "Architecture",
-        "abstract": "...",
-        "speakers": [
+                "name": "Simon Belbeoch",
+                "id": "R0e7G73kFbUoklczbPnVNlRZEAN2",
+                "photo": "https://lh3.googleusercontent.com/a/AGNmyxaD9wz2BJKqjan-v1O0Wuq12AZSAi68LF46dZx2=s96-c",
+                "company": "OCTO TECHNOLOGY",
+                "bio": "Simon débute l’informatique dès son plus jeune âge en automatisant des scripts et en réalisant le site de la webradio associative auprès de laquelle il s’engage à 12 ans.\nIl développe sa passion lors de ses études en MIAGE ou il développe ses compétences en apprentissage sur de l’expertise technique chez Orange puis SFR.\nIl lance en parallèle Intuitive Communication une application libre et gratuite qui permet aux personnes en situation de handicap de communiquer à nouveau. Convaincu que le web est voué à perdurer il développe l’application au format web ce qui permettra à quelques dizaines de milliers de personnes sourdes d’utiliser l’application.\n\nPendant deux ans et demi Simon tente ensuite l’expérience entrepreneuriale en développant frankise, une solution web pour remettre les utilisateurs en avant dans le cadre des avis clients. Il rejoint ensuite Octo Technology ou il rejoint WebF pour lui permettre dans ses mission comme en R&D de travailler autour des PWA et sur l’architecture front.",
+                "social": [
+                    {
+                        "x": "https://twitter.com/liquidIT_fr",
+                        "github": "https://github.com/LiquidITGuy/"
+                    }
+                ]
+            },
             {
-                "name": "Jihène Mejri",
-                "id": "jmejri",
-                "photo": "https://media.licdn.com/dms/image/D4E03AQEpU0dd-S_jlg/profile-displayphoto-shrink_100_100/0/1677596494172?e=1718841600&v=beta&t=Qh0h0UFYCSJ58whz4hzZIFkVY6PWo1yQS4T_Wq0T9-Y",
-                "company": "bforbank"
+                "name": "Brandone Martins",
+                "id": "Y2lZpK9WwGOtlJAClHuT4KJWDFf1",
+                "photo": "https://lh3.googleusercontent.com/a/ACg8ocLYt6lx3mG2ietFCLUB28R0xuZApaTW2SnIZ8u5gt3pVok=s96-c",
+                "company": null,
+                "bio": null,
+                "social": [
+                    {
+                        "x": null,
+                        "github": null
+                    }
+                ]
             }
         ],
-        "tags": [
-            "architecture"
-        ],
-        "cancelled": false,
-        "room": "Grande salle"
-    },
-    {
-        "id": "0gKTEEF4Xdfgdh6Srk5",
-        "slug": "dessine-moi-un-graphique-en-css",
-        "slot": "day-1-conference-1-ps",
-        "title": "Dessine moi un graphique (en CSS)",
+        "format": "Quickie",
         "categorie": "Frontend",
-        "abstract": "...",
+        "tags": ["frontend"],
+        "room": "Petite salle",
+        "slot": "day-1-conference-7-ps",
+        "slug": "chrome-dev-tools-from-zero-to-hero",
+        "cancelled": "false"
+    },
+    {
+        "id": "ioc2x2nW4KV5zrt69ZQm",
+        "title": "Dessine moi un graphique (en CSS)",
+        "abstract": "Les rutilantes nouveautés de CSS des dernières années permettent d’envisager de plus en plus sereinement l’abandon du JS pour créer des graphiques de données — en partant d’un tableau HTML sémantique et accessible, tant qu’à faire. Le CSS évolue à vitesse grand V, et vous verrez qu’on peut aller bien plus loin que vous ne l’auriez imaginé !\n\n",
         "speakers": [
             {
                 "name": "Gaël Poupard",
-                "id": "gpoupard",
+                "id": "YtwBB1tQOvPPUtv5kF729IErT4A2",
                 "photo": "https://avatars.githubusercontent.com/u/2890570?v=4",
-                "company": "Mamot"
+                "company": "ONEPOINT",
+                "bio": "Lead tech front et accessibilité à Nantes, je profite du soleil pendant les conf’ et dis des âneries régulièrement. Les jeux de mots sont notre avenir, ne nous économisons pas.",
+                "social": [
+                    {
+                        "x": null,
+                        "github": "ffoodd"
+                    }
+                ]
             }
         ],
-        "tags": [
-            "frontend"
-        ],
-        "cancelled": false,
-        "room": "Petite salle"
+        "format": "Conférence",
+        "categorie": "Frontend",
+        "tags": ["frontend"],
+        "room": "Petite salle",
+        "slot": "day-1-conference-1-ps",
+        "slug": "dessine-moi-un-graphique-en-CSS",
+        "cancelled": "false"
     },
     {
-        "id": "0gKTE32F4Xdfgdh6Srk5",
-        "slug": "arretons-de-detester-nos-applications",
-        "slot": "day-1-codelab-1",
+        "id": "op9NV6COKMkYfRsCbA5Z",
+        "title": "Ne jouez plus solo : travaillez réellement en équipe grâce au mob programming !",
+        "abstract": "Ce talk est la juste représentation d'un pari réussi !\n\nJe suis lead d'une équipe de développeurs depuis environ 4 ans et l'entreprise dans laquelle j'évolue connaît aujourd'hui une forte croissance. Les besoins de structuration, d’harmonisation et de partage du savoir sont devenus un enjeu majeur pour l'ensemble des départements. \n\nDans un flux qualité plutôt classique (gitflow, validation par revue de code, fusion des branches…) et relativement efficace, quelques lacunes ont commencé à émerger, notamment avec la multiplication des développeurs : merge conflicts entre développeurs sur la même fonctionnalité, goulot d’étranglement sur la validation des pull requests, allers/retours entre différentes branche pour les développeurs avant validation du code, code approuvé mais qui ne répond pas à la demande initiale…\n\nAprès avoir assisté à une conférence sur le **Mob Programming**, ma manière de voir les choses a changé et laissé place à la volonté d'oser une nouvelle méthode. Mais cette méthode ne semble pas sans risque : **3 ou 4 personnes derrière un seul clavier**, la productivité risque de chuter… \n\nAujourd’hui après un an d’adoption, le mob est initié sur plusieurs projets, dans différents contextes. De la mise en place aux ressentis des équipes de développeurs, j'explique ici ce que nous retirons de notre expérience, quels sont les points faibles et quelles ont été les surprises rencontrées au fil de cette aventure.\n",
+        "speakers": [
+            {
+                "name": "Julien Libert",
+                "id": "2aE2PqjuMEY7Fkzoa1QIXahUJZh1",
+                "photo": "https://lh3.googleusercontent.com/a/ACg8ocL0nyMI0BVkUL1VcrzHUUH0EeBF0onH9LTEE8r07UX1",
+                "company": "EVOLIZ",
+                "bio": "Développeur Web depuis plus de 15 ans, j’aime coder, gérer des équipes et faire en sorte de garder une bonne cohérence dans mon code et une architecture de projet élaborée. \nJe passe la majorité de mon quotidien à jongler entre du Laravel, du VueJS, mais aussi de bons gros morceaux de code legacy (PHP, jQuery…). \n\nAprès une formation en informatique générale, c’est toujours le web et ses technos qui m’ont attirées. La véritable révélation s'est faite avec l’arrivée des frameworks (CSS, PHP, JS) qui ont commencé à structurer et donner des lignes directrices pour des projets plus ou moins complexes. Malgré les reproches qu’on peut parfois leur faire, ils permettent aux équipes de développement d’accélérer la production, d’éviter la redite de tâches laborieuses et ainsi se concentrer sur du code à forte valeur ajoutée pour les utilisateurs.\n\nActuellement Lead développeur chez Evoliz, j'ai dû aborder un framework dans un autre domaine : l’agilité dans la réalisation de projets, avec SCRUM. Notre philosophie : on essaie, on échoue, on améliore, on réussit, on améliore encore… Après 6 ans à leurs côtés, je me dis qu’on a tenté pas mal de choses, réussi sur certaines, échoué sur d’autres, et surtout acquis une modeste expérience sur divers sujets. C’est donc tout naturellement que me vient l’envie de partager tout cela avec d’autres.\n",
+                "social": [
+                    {
+                        "x": null,
+                        "github": null
+                    }
+                ]
+            }
+        ],
+        "format": "Conférence",
+        "categorie": "Méthode & Architecture",
+        "tags": ["architecture"],
+        "room": "Grande salle",
+        "slot": "day-1-conference-4-gs",
+        "slug": "ne-jouez-plus-solo",
+        "cancelled": "false"
+    },
+    {
+        "id": "sxuXYZ9LFxNrSVqKAGTu",
+        "title": "3615 Twitch, un bot sur Minitel ?",
+        "abstract": "Streamant de temps en temps sur Twitch, je me suis demandé comment améliorer l'interaction avec les viewers.\n\nPassionné d'IoT et d'objets vintages, je me suis dit \"Et si mes viewers affichaient leurs réactions sur le Minitel que j'avais en arrière-plan ?\"\n\nDans ce talk, j'exprime mon REX sur comment ce bel objet du quotidien d'un autre temps fonctionnait pour l'affichage des images (le format Videotex), et comment créer un bot Twitch utilisant StableDiffusion pour afficher des images sur le minitel et comment bidouiller en mode DIY la machine avec un ESP8266.\n\nCe talk se veut également interactif : vous pourrez vous-même communiquer avec mon minitel en live depuis votre téléphone !\n",
+        "speakers": [
+            {
+                "name": "Sylvain Gougouzian",
+                "id": "IlVQ3DcdvccEIvzcYr75msiHJUo1",
+                "photo": "https://sylvain.gougouzian.fr/apple-touch-icon.png",
+                "company": "ZENIKA",
+                "bio": "Dev / Formateur @ Zenika Clermont-Ferrand,\nSpeaker,\nChef d'orchestre,\n(Retro)Gamer,\nPapa geek,\nEleveur de GNUs\n\nPlus d'infos sur https://gouz.dev",
+                "social": [
+                    {
+                        "x": "gouz",
+                        "github": "gouz"
+                    }
+                ]
+            }
+        ],
+        "format": "Conférence",
+        "categorie": "Quêtes secondaires",
+        "tags": ["discovery"],
+        "room": "Petite salle",
+        "slot": "day-1-conference-6-ps",
+        "slug": "3615-twitch",
+        "cancelled": "false"
+    },
+    {
+        "id": "YPsuYQYS1gWLrKb4f2SA",
+        "title": "J’ai beaucoup de taf 😱 mais je gère 😎",
+        "abstract": "On court toujours après le temps, dans notre vie perso, dans notre vie pro. Et si on essayait d’être plus productif non pas pour produire plus (enfin si un peu 😇) mais plutôt pour regagner du temps dans sa vie perso et arrêter de se sentir tous les jours surchargés.\nC’est ce que je vous propose à travers cette session qui revient sur ce que j’ai pu mettre en place dans mon organisation au quotidien et comment je m’y suis pris.\n\n\n",
+        "speakers": [
+            {
+                "name": "jean-francois garreau",
+                "id": "bAkrQrssjgU1zb5V2y2QpVnuCmf1",
+                "photo": "https://pbs.twimg.com/profile_images/1722992762981593088/JSeOp1pY_400x400.jpg",
+                "company": "SFEIR / GDG NANTES",
+                "bio": "GDE Web Technology, je travaille pour Sfeir en tant que CTO de l'agence de Nantes. Je suis un fan de la Web Platform et m'amuse dès que je peux avec les standards :)\n\nEn dehors du travail, je suis co-fondateur du GDG Nantes, organisateur du DevFest Nantes, Women Tech Makers Amabassador\n\nRetrouvez l'ensemble de mes contributions sur https://github.com/jefBinomed",
+                "social": [
+                    {
+                        "x": "jefbinomed",
+                        "github": "jefbinomed"
+                    }
+                ]
+            }
+        ],
+        "format": "Conférence",
+        "categorie": "Quêtes secondaires",
+        "room": "Petite salle",
+        "tags": ["discovery"],
+        "slot": "day-1-conference-5-ps",
+        "slug": "j-ai-beaucoup-de-taf",
+        "cancelled": "false"
+    },
+    {
+        "id": "yRdKlGPKyggIvbVMJd45",
         "title": "Arrêtons de (dé)tester nos applications",
+        "abstract": "\"Faire des tests E2E c'est compliqué\", \"Maintenir des tests E2E coûte cher\", \"L'accessibilité? on n'a plus de budget\". Ces phrases témoignent qu'encore de nos jours, les utilisateurs dépendants de l'accessibilité numérique sont délaissés et la vérification automatique des scénarios métiers nécessite une certaine expertise.\n\nAu cours de cette conférence, nous déterminerons si ces idées reçues sont justifiées et nous verrons, quelle est la meilleure approche pour résoudre en même temps ces problématiques.\n\nSi vous aussi, vous vous intéressez aux problématiques de tests automatisés et d'accessibilité alors cette conférence est faite pour vous.",
+        "speakers": [
+            {
+                "name": "Curacao",
+                "id": "QDwJ4DU76sNb5oSyuI4gbySGGub2",
+                "photo": "https://avatars.githubusercontent.com/u/131726886?v=4",
+                "company": null,
+                "bio": null,
+                "social": [
+                    {
+                        "x": null,
+                        "github": null
+                    }
+                ]
+            },
+            {
+                "name": "Stanley S",
+                "id": "OwhDA6tB9thpeMKG6M99VySu2N12",
+                "photo": "https://sessionize.com/image/1039-400o400o2-DMhoYdSRNTBGtVTfnR1h7T.png",
+                "company": "ORANGE",
+                "bio": null,
+                "social": [
+                    {
+                        "x": "https://twitter.com/2setech",
+                        "github": "https://github.com/stanlee974"
+                    }
+                ]
+            }
+        ],
+        "format": "Workshop",
         "categorie": "Frontend",
-        "abstract": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?",
-        "speakers": [
-            {
-                "name": "Stanley S & Curacao",
-                "id": "sstanley-curacao",
-                "photo": "https://avatars.githubusercontent.com/u/2890570?v=4",
-                "company": "?",
-                "bio": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-                "social": {
-                    "linkedin": "alexandre-guerin",
-                    "github": "Ithrandil"
-                }
-            }
-        ],
-        "tags": [
-            "frontend"
-        ],
-        "cancelled": false,
-        "room": "Code Lab"
+        "tags": ["frontend"],
+        "room": "Code Lab",
+        "slot": "day-1-codelab-1",
+        "slug": "arretons-de-de-tester-nos-applications",
+        "cancelled": "false"
     },
     {
-        "id": "0azTE32F4Xdfgdh6Srk5",
-        "slug": "la-clean-archi-ca-marche-aussi-sur-le-front",
-        "slot": "day-1-conference-2-gs",
-        "title": "La Clean Archi ca marche aussi dans le Front !",
-        "categorie": "Frontend",
-        "abstract": "...",
+        "id": "0gKr1WucXpgx24GQNrk5",
+        "title": "C'est l'heure du Check-Up de vos pipelines CI/CD !",
+        "abstract": "Et si on sécurisait aussi le code de nos pipelines CI/CD, cette colonne vertébrale de notre delivery ?\n\nAvec l'augmentation des cyberattaques de type \"supplychain\" et l'introduction de nouvelles réglementations comme NIS2, garantir la sécurité et la conformité du code des pipelines CI/CD à l'échelle de l'entreprise n'a jamais été aussi crucial.\n\nSouvent, le code de nos pipelines est hétérogène, comportant des conteneurs dont nous ignorons les origines, des bibliothèques dont nous avons perdu le contrôle des versions, et des secrets qui se propagent. Cette situation génère un risque élevé d'attaque et n'inspire guère confiance aux DSI/RSSI/CTO quant au niveau de conformité et de sécurité de l'ensemble de leurs chaînes d'approvisionnement.\n\nDemander à auditer des centaines de pipelines est fastidieux, déclaratif et non reproductible, ce qui devient un véritable cauchemar pour les équipes.\n\nJe vous propose de découvrir une approche pour simplifier la vie des développeurs, ainsi qu'un outil d'analyse gratuit de vos pipelines CI/CD qui vous permettra de :\n\n* Détecter les drifts, la dette technique et les ressources obsolètes\n* Identifier les problèmes de sécurité dans vos pipelines CI/CD\n* Visualiser l'origine des containers accédant à vos secrets\n* Garantir la conformité de vos chaînes d'approvisionnement\n* Éviter la prochaine \"supplychains attack\"\n* Faciliter votre mise en conformité (ISO 27001, SecNumCloud, AirCyber, NIS2)\n* Obtenir votre tableau de bord CI/CD d'entreprise\n\nSi cela a du sens pour vous, pour votre entreprise ou vos clients, venez économiser un temps précieux pour vos audits et enfin rassurer vos Directions sur la sécurité de l'ensemble de leurs chaînes d'approvisionnement.",
         "speakers": [
             {
-                "name": "Dorian Lamandé",
-                "id": "dlamande",
-                "photo": "https://dorianlamande.com/images/dla.jpg",
-                "company": "Octo technology"
+                "name": "Aurelien Coget",
+                "id": "YCssZeWom0gKHOMeVhmeseomrOA2",
+                "photo": "https://pbs.twimg.com/profile_images/1515336693641003013/DwikKth9_400x400.jpg",
+                "company": "R2DEVOPS",
+                "bio": "https://www.linkedin.com/in/aurelien-coget/",
+                "social": [
+                    {
+                        "x": null,
+                        "github": null
+                    }
+                ]
             }
         ],
-        "tags": [
-            "frontend"
-        ],
-        "cancelled": false,
-        "room": "Grande salle"
+        "format": "Quickie",
+        "categorie": "Cloud & DevSecOps",
+        "tags": ["cloud_devops"],
+        "room": "Grande salle",
+        "slot": "day-1-conference-8-gs",
+        "slug": "c-est-l-heure-du-check-up-de-vos-pipelines-ci-cd",
+        "cancelled": "false"
     },
     {
-        "id": "0azTE32F4adfgdh6Srk5",
-        "slug": "les-features-flags",
-        "slot": "day-1-conference-2-ps",
-        "title": "Les feature flags : le couteau suisse de votre flow de développement",
-        "categorie": "Architecture",
-        "abstract": "...",
+        "id": "104ABCaH2K2YG1jyGRQ0",
+        "title": "Au secours ! Mon manager me demande des KPIs !",
+        "abstract": "Kevin était un bon lead dev. Il travaillait dans une équipe de développement de 8 personnes. Il soutenait son équipe, il était respecté et il était écouté par son manager.\n\n\nMais un jour, son responsable lui demanda de mesurer la productivité de son équipe.\n\nEt lui demanda la chose dont on ne dit pas le nom ! \n\nDes KPIs... \n\nLa vie de Kevin bascule et débute ainsi une période sombre.\n\nHeureusement sur la route de son périple, il rencontre Eline - une coach agile expérimentée.\n\nA eux 2, ils feront face à la cruauté du destin et  ils chercheront à déjouer ce mauvais sort.\n\nRétabliront-t-ils la paix et l'ordre dans leur équipe ?",
         "speakers": [
             {
-                "name": "Benjamin Cavy",
-                "id": "bcavy",
-                "photo": "https://avatars.githubusercontent.com/u/1528358?v=4",
-                "company": "MAIF"
+                "name": "Geoffrey Graveaud",
+                "id": "A9zzfqYXubg8W63xrhWSXDz2Is53",
+                "photo": "https://agileniort.fr/wp-content/uploads/2022/03/Geoffrey-Gravaud.jpg",
+                "company": "ARIANE GROUP",
+                "bio": "Devops Lead & Acculturation at Ariane Group (SpaceEnabler)\nI'm like a Swiss army knife : DevOps, agility, accelerate(DORA metrics), coaching, etc.\nI am a speaker and I train on public speaking",
+                "social": [
+                    {
+                        "x": "@GraveaudG",
+                        "github": null
+                    }
+                ]
             }
         ],
-        "tags": [
-            "architecture"
-        ],
-        "cancelled": false,
-        "room": "Petite salle"
+        "format": "Conférence",
+        "categorie": "Quêtes secondaires",
+        "tags": ["discovery"],
+        "room": "Grande salle",
+        "slot": "day-1-conference-5-gs",
+        "slug": "au-secours-mon-manager-me-demande-des-kpis",
+        "cancelled": "false"
     },
     {
-        "id": "0azTE32F4Xdfff6Srk5",
-        "slug": "mister-wip-miss-vsm-in-factory-town",
-        "slot": "day-1-conference-3-gs",
+        "id": "421I87Jua5ybGBpFB8mY",
+        "title": "Le produit entre la qualité et l’Over-Engineering",
+        "abstract": "Avez vous déjà écrit un code supplémentaire pour recouvrir un besoin future <i>**\"au cas où\"**<i/> 🤓? \n\n**L'over-engineering**, est une pratique consistant à développer des solutions excessivement complexes et sophistiquées et qui ne répondent pas forcement aux besoins de l'utilisateur.\n\nDans le domaine du logiciel, cela se traduit par une focalisation excessive sur <u>la qualité au détriment de la rapidité 🚀. </u>\n\nCe problème concerne très souvent les jeunes programmeurs talentueux qui essaient d'appliquer naïvement des concepts de qualité tels que **SOLIDE**, **DRY**, **POO** et les design patterns.\n\nLa sur-ingénierie coûte généralement très cher à l'entreprise :\n\n💸 une augmentation des **coûts**\\\n⌛ des délais de développement prolongés \\\n🤯 une **complexité** accrue du système\n\nPour éviter <u>**ce piège**</u> ☠️, des exemples et des astuces sont à découvrir dans cette conférence 😉.\n",
+        "speakers": [
+            {
+                "name": "Jihène Mejri",
+                "id": "Yn72dWZwPYS1oDKlxfw6J70PtBW2",
+                "photo": "https://media.licdn.com/dms/image/D4E03AQEpU0dd-S_jlg/profile-displayphoto-shrink_800_800/0/1677596494172?e=1716422400&v=beta&t=jBRUYuIQ3AkovgFOXlxnu2kzrZ42UlRxqOSu6GxhvCI",
+                "company": "BFORBANK",
+                "bio": "Je m'appelle Jihène je suis ingénieure en systèmes embarqués spécialisée dans le développement mobile depuis 12 ans. \nActuellement, je suis Chapter Lead  chez Bforbank 🐸.\n\n",
+                "social": [
+                    {
+                        "x": "https://www.linkedin.com/in/jihenemejri/",
+                        "github": null
+                    }
+                ]
+            }
+        ],
+        "format": "Conférence",
+        "categorie": "Méthode & Architecture",
+        "tags": ["architecture"],
+        "room": "Grande salle",
+        "slot": "day-1-conference-1-gs",
+        "slug": "le-produit-entre-la-qualite-et-l-over-engineering",
+        "cancelled": "false"
+    },
+    {
+        "id": "1UTHgcp3UIDFcoA2vwPC",
+        "title": "Les Flux de reactor expliqués",
+        "abstract": "Si vous connaissez spring vous avez surement entendu parler de reactor avec ses `Mono` et ses `Flux`. \nMais est ce que vous savez comment ça fonctionne réellement ? \n\nDans cette présentation on verra la différence entre l'approche \"bloquante\" et non \"non bloquante\", on verra les avantages que peut avoir l'approche \"non bloquante\" mais aussi les problématiques que l'on peut rencontrer  lorsqu'on veut gérer des flux de données. \n\nNous verrons ensuite ce que propose la spec reactive stream pour résoudre ces problèmes. \nOn finira avec des exemples de code pour voir comment reactor implémente tous ces concepts. \n\n",
+        "speakers": [
+            {
+                "name": "Delegue Alexandre",
+                "id": "9g2TJuw97VMd8Zwn9y2x0g0w7SB2",
+                "photo": "https://avatars2.githubusercontent.com/u/1575521?v=4",
+                "company": "MAIF",
+                "bio": "Java, Scala, Kotlin, Javascript, pain au levain",
+                "social": [
+                    {
+                        "x": "@chanksleroux",
+                        "github": "larousso"
+                    }
+                ]
+            }
+        ],
+        "format": "Quickie",
+        "categorie": "Backend",
+        "tags": ["backend"],
+        "room": "Grande salle",
+        "slot": "day-1-conference-7-gs",
+        "slug": "les-flux-de-reactor-expliques",
+        "cancelled": "false"
+    },
+    {
+        "id": "S33SsGdvuBSe79BRHX3L",
         "title": "Mister WIP & Miss VSM in Factory Town©️",
-        "categorie": "Architecture",
-        "abstract": "...",
+        "abstract": "Charly WIP est un fermier solitaire de l’Amérique de l’ouest habitant Factory Town©️. Le jour où plusieurs familles s’installent dans sa ville, il doit soudainement faire face à l’augmentation des besoins en nourriture, en eau et en transports. Installé depuis longtemps dans les environs, il est catapulté chef des opérations et doit assurer la pérennité de Factory Town©️.\n\nSur la seule base de sa logique, du peu de moyens qu’il possède et avec l'aide de Miss Lean VSM, première cartographe des processus de l'histoire, WIP invente alors un système d’optimisation de process à qui il donnera leur nom : le Value Stream Mapping et le Work In Progress.\n\nVenez découvrir une explication et une illustration décalée de ce qu’est l’optimisation de process grâce à mon jeu favori du moment : Factory Town©️.",
         "speakers": [
             {
                 "name": "Fanny Klauk",
-                "id": "fklauk",
-                "photo": "https://media.licdn.com/dms/image/C5603AQFZSYVMSDhI3g/profile-displayphoto-shrink_400_400/0/1640874196592?e=1718841600&v=beta&t=UtsG4sv_BSntA7GjZa1NCcJOMthyw-joCX_yNDn5X8s",
-                "company": "Apside"
+                "id": "hDgeovtbpYUe248iONsiVDFsTn53",
+                "photo": "https://lh3.googleusercontent.com/a-/AOh14Ghy-jt97zLXbqxsYUcdxvd62hB1katKsxvruKL4",
+                "company": "APSIDE",
+                "bio": "[french version]  \nAccompagnatrice agile, co-créatrice de TADx, j'ai parcouru des kilomètres de lignes de développements, d'analyses fonctionnelles et d'architectures orientées données avant de revenir à mes premières amours : le travail d'équipe, dans un cadre motivant et bienveillant, autour de produits utiles et vivants.  \nC'est donc tout naturellement vers l'agilité que mes dernières missions se sont tournées. Depuis, je glane le meilleur pour alimenter les équipes que j'accompagne au quotidien : mindset DevOps et craftership, outils au service de la qualité et du déploiement, techniques de design thinking pour capter les vrais besoins et l'amélioration continue des produits et des équipes.\n\n-----\n\n[english version]  \nAs an agile coach and co-creator of TADx, I covered miles of development lines, functional analyses and data-oriented architectures before returning to my first love: teamwork, in a motivating and caring environment, around useful and lively products.   \nSo it was quite naturally that my latest assignments turned to agility. Since then, I've been gleaning the best from the teams I work with on a daily basis: a DevOps and craftership mindset, tools for quality and deployment, design thinking techniques to capture real needs and the continuous improvement of products and teams.\n",
+                "social": [
+                    {
+                        "x": "@klf37",
+                        "github": "klaukf"
+                    }
+                ]
             }
         ],
-        "tags": [
-            "architecture"
-        ],
-        "cancelled": false,
-        "room": "Grande salle"
+        "format": "Quickie",
+        "categorie": "Méthode & Architecture",
+        "room": "Grande salle",
+        "tags": ["architecture"],
+        "slot": "day-1-conference-3-gs",
+        "slug": "mister-wip-miss-vsm-in-factory-town",
+        "cancelled": "false"
     },
     {
-        "id": "0azTE3oozadfff6Srk5",
-        "slug": "tremplin-devquest",
+        "id": "S33SsGd-tremplin",
+        "title": "Tremplin Speaker",
+        "abstract": "Ce talk sera choisit lors de la soirée tremplin du 27 Mai à Niort Tech",
+        "speakers": [
+        ],
+        "format": "Quickie",
+        "categorie": "Méthode & Architecture",
+        "room": "Petite salle",
+        "tags": ["tremplin"],
         "slot": "day-1-conference-3-ps",
-        "title": "Tremplin DevQuest",
-        "categorie": "Architecture",
-        "abstract": "...",
+        "slug": "tremplin-speaker",
+        "cancelled": "false"
+    },
+    {
+        "id": "jOS0fDBjpVxRwkJhYGx8",
+        "title": "OpenTelemetry: vous ne pourrez plus vous passer de monitoring en prod",
+        "abstract": "Pour toutes les personnes qui travaillent dans un système distribué, il est aujourd’hui vital de monitorer son architecture. L’optimisation d’une architecture passe avant tout par une connaissance accrue de son fonctionnement. C’est à partir de cette problématique qu’est né OpenTelemetry.\n\nOpenTelemetry, c’est quoi ? Comment s'inscrit cette outil dans vos développements ?\nOn passera un peu de temps à vous présenter ce projet, puis on rentrera dans le vif du sujet. Une fois passée l’étape du tutoriel, on se retrouve souvent face à la dure réalité de mettre ça en place sur sa stack en production. Comment faire pour monitorer plus de 400 microservices en prod ? Quelles techniques peut-on utiliser pour concrètement optimiser les ressources dont on a besoin ?\n\nOn ressort souvent des conférences avec de belles démo et s’ensuit ce qu’on aime appeler le Hype Driven Development. Mais lorsqu’il faut mettre en place ce monitoring sur une stack existante, comment ça marche ?\n\nA travers un retour d’expérience et des exemples concrets d’utilisation, on vous présentera les enjeux et les bonnes pratiques pour monitorer votre production.",
         "speakers": [
             {
-                "name": "??",
-                "id": "??",
-                "photo": "https://media.licdn.com/dms/image/C5603AQFZSYVMSDhI3g/profile-displayphoto-shrink_400_400/0/1640874196592?e=1718841600&v=beta&t=UtsG4sv_BSntA7GjZa1NCcJOMthyw-joCX_yNDn5X8s",
-                "company": "??"
+                "name": "Vivien Maleze",
+                "id": "YLVMWwftLxMo9ReJKfiE5PRPVH23",
+                "photo": "https://gravatar.com/userimage/143841654/b55ad03b3e18b46c6de006673499537c.jpeg?size=256",
+                "company": "IPPON TECHNOLOGIES",
+                "bio": "Vivien est architecte technique chez Ippon Technologies. Son gros sujet, c'est améliorer l'expérience de développement de ses collaborateurs\nPassioné de nouvelles technologies, il est toujours avide de découvrir de nouveaux sujets, mais aussi de les partager.\n\nVivien a eu l'occasion de travailler sur de multiples architectures distribuées chez de nombreux clients avec chacune leur facette bien spécifique. Il a eu la chance de travailler aussi bien sur le développement de microservices, que sur leur déploiement et leur maintien sur les plateformes clouds",
+                "social": [
+                    {
+                        "x": "@vmaleze",
+                        "github": "vmaleze"
+                    }
+                ]
             }
         ],
-        "tags": [
-            "tremplin"
+        "format": "Conférence",
+        "categorie": "Cloud & DevSecOps",
+        "tags": ["cloud_devops"],
+        "room": "Petite salle",
+        "slot": "day-1-conference-4-ps",
+        "slug": "ppentelemetry-vous-ne-pourrez-plus-vous-passer-de-monitoring-en-prod",
+        "cancelled": "false"
+    },
+    {
+        "id": "DFwcuwO56ihk6RRt92UE",
+        "title": "Sécurité automatisée: Regardez vos failles en face.",
+        "abstract": "## Les failles sont détectées 212 jours après leur introduction\n\nIl faut en moyenne 212 jours pour détecter une faille de sécurité. Et au moins 50% des sites web contiennent une vulnérabilité critique. Vous en faites peut être partie.\n\n## Les tests d'intrusion, un moyen temporaire de détecter et fixer ses failles\n\nBien souvent, les failles de sécurité sont comme le monstre qui se cachaient sous notre lit étant enfant. Nous en avons peur sans oser les regarder en face. Un petit test d’intrusion nous rassure pour quelque temps comme les parents nous assurant qu’il n’y a rien. Mais ont-ils bien regardé ? Et les quelques monstres qu’ils ont chassés, sommes nous sûrs qu’ils ne reviendront pas demain ?\n\n## Il est nécessaire d'automatiser et de comprendre les causes des failles\n\nMon but est de démystifier les failles de sécurité en les considérant comme des défauts dont il faut fixer la cause profonde. Comme un testeur QA (Quality Assurance), l’expert cybersécurité vient vérifier au quotidien l’introduction de failles. Il aide à comprendre la cause de la faille et à mettre en place des moyens de protection en amont grâce à un outil Lean: le QRQC / Dantotsu.\n\n## Des outils pour détecter et éradiquer les vulnérabilités\n\nEn sortant de ce talk, vous aurez une méthode pour détecter et éradiquer les vulnérabilités sur vos projets grâce à trois axes:\n\n- Avoir moins peur d’aller voir vos failles de sécurité\n- Comprendre certains outils d'automatisation de cybersécurité\n- Utiliser un outil Lean pour mieux analyser vos failles et mettre en place des contre-mesures durables automatiques\n",
+        "speakers": [
+            {
+                "name": "Marine du Mesnil",
+                "id": "44hfk2wWowgNUCwLbanl27TPNC12",
+                "photo": "https://media.licdn.com/dms/image/C4E03AQE8-KTEeViCPA/profile-displayphoto-shrink_400_400/0/1657548896096?e=1717632000&v=beta&t=78KWAx5rTSVXfXReuS3RanoNVLnYTVOmu5jpeeVWqfU",
+                "company": "THEODO",
+                "bio": "Head of Cybersecurity Tribe @Theodo, Marine du Mesnil s’intéresse tout particulièrement à la sécurité informatique et s’implique au sein de la guilde Sécurité de Theodo pour aider les développeurs à créer des produits conformes en les formant et en intervenant dans les différents projets. \n\nElle suit particulièrement les publications de l’OWASP et s’intéresse tout particulièrement au contrôle d’accès, devenu la cause principale de faille sur les sites internets et placé au Top 1 du nouveau Top 10 de l’OWASP.",
+                "social": [
+                    {
+                        "x": "marine_mesnil",
+                        "github": "marine-mb"
+                    }
+                ]
+            }
         ],
-        "cancelled": false,
-        "room": "Petite salle"
+        "format": "Conférence",
+        "tags": ["cloud_devops"],
+        "categorie": "Cloud & DevSecOps",
+        "room": "Grande salle",
+        "slot": "day-1-conference-6-gs",
+        "slug": "securite-automatisee-regardez-vos-failles-en-face",
+        "cancelled": "false"
+    },
+    {
+        "id": "anOldGi7qzAGSBM90IDy",
+        "title": "Dédramatisons l'accessibilité",
+        "abstract": "Parce que l’accessibilité ce n’est pas seulement pour les aveugles <br>\nParce que l’accessibilité ce ne sont pas que des interfaces moches<br>\nParce que l’accessibilité ça coûte trop cher seulement si on y pense à la fin\n\n\nCéline et Charline vous projettent dans des situations concrètes auxquelles vous  serez très certainement, vous-même confrontés un jour.\nElles vous donneront quelques clés pour mettre un pied dans un concept pas si inaccessible.\n\nLaissez-vous convaincre par la nécessité d’adopter l’accessibilité sur vos projets, existants ou à venir.\nEt si finalement c’était avant tout des bonnes pratiques au quotidien?",
+        "speakers": [
+            {
+                "name": "Céline Mérand",
+                "id": "7YSzr05x4XUGZ8SsUtRUnNX6pIf2",
+                "photo": "https://lh3.googleusercontent.com/a/AGNmyxYvlqDjsfuDpmuhg8-R6s1oLIpxe6gfHZ-D3ocBTA=s96-c-rg-br100",
+                "company": null,
+                "bio": null,
+                "social": [
+                    {
+                        "x": null,
+                        "github": null
+                    }
+                ]
+            },
+            {
+                "name": "charline humeau",
+                "id": "HejjXL871HSYUhQxJUh1lJtueOp1",
+                "photo": "https://lh3.googleusercontent.com/a-/AOh14GgT-29BeaaTZZ7BB_sDQcHSH05HilRbreZCCpy3tw=s96-c",
+                "company": "ONEPOINT",
+                "bio": "Charline travaille depuis 7 ans chez onepoint. Son sujet du moment? L'accessibilité numérique ou comme le dit Tim Berners-Lee : \"Mettre le Web et ses services à la disposition de tous les individus, quel que soit leur matériel ou logiciel, [...] leur langue maternelle, ou leurs aptitudes physiques ou mentales\".\nAu quotidien, elle concentre toutes ses compétences pour réaliser des applications Web modernes à forte valeur ajoutée et à large diffusion. ",
+                "social": [
+                    {
+                        "x": null,
+                        "github": null
+                    }
+                ]
+            }
+        ],
+        "format": "Quickie",
+        "categorie": "Design & UX",
+        "tags": ["ux_ui"],
+        "room": "Petite salle",
+        "slot": "day-1-conference-8-ps",
+        "slug": "dedramatisons-l-accessibilite",
+        "cancelled": "false"
+    },
+    {
+        "id": "1VwnWElWuMILCaS98esg",
+        "title": "Les feature flags : le couteau suisse de votre flow de développement",
+        "abstract": "Les features flags sont une technique permettant d'activer ou désactiver à la demande certaines fonctionnalités d'une application.\n\nIls permettent non seulement de rendre les mises en production moins effrayantes, séparant le déploiement du livrable et l'activation des nouvelles fonctionnalités mais aussi de simplifier le flow de développement, en permettant de livrer des features non finalisées.\n\nAu travers d'exemples concrets, nous verrons comment mettre en place les features flags, ce qu'ils peuvent apporter, mais également les dérives auxquels ils peuvent aboutir les manières de les éviter.",
+        "speakers": [
+            {
+                "name": "Benjamin Cavy",
+                "id": "PRuMzxC7NVbsVnJP07AbHR2cNFx2",
+                "photo": "https://lh3.googleusercontent.com/-qridgWF20Vk/AAAAAAAAAAI/AAAAAAAAAtQ/K8bT4K-PTmU/photo.jpg",
+                "company": "MAIF",
+                "bio": "Lead dev à la MAIF, je m'intéresse en ce moment particulièrement aux tests et à ce qu'ils peuvent apporter dans le processus de développement logiciel.",
+                "social": [
+                    {
+                        "x": "@benjamin_cavy",
+                        "github": "ptitFicus"
+                    }
+                ]
+            }
+        ],
+        "format": "Conférence",
+        "categorie": "Méthode & Architecture",
+        "tags": ["architecture"],
+        "room": "Petite salle",
+        "slot": "day-1-conference-2-ps",
+        "slug": "les-feature-flags-le-couteau-suisse-de-votre-flow-de-developpement",
+        "cancelled": "false"
+    },
+    {
+        "id": "DtBsONOL77NRIUkJCPqG",
+        "title": "La Clean Archi ca marche aussi dans le Front !",
+        "abstract": "**Tout le monde pense que la \"Clean Architecture / Architecture Hexagonale\" se fait uniquement côté Back**.  \nDans ce talk, je vais vous montrer que cela fonctionne également côté Front.  \nEt oui, Redux n'est pas le Silver Bullet des applications front-end.  \nEt oui, Les Stores ne sont pas toujours obligatoires, mais ceci est une autre histoire !\n\n**La mise en place d'une \"clean archigonale\" ©️ sur un Front-End en VueJS, m'a sauvé la vie !**  \nPourquoi je structure un minimum mes projets fronts et comment au final, je fais gagner du temps à mon équipe.\n\nAvec ce talk on va revenir sur **l'importance d'isoler son code des dépendances extérieures (axios, vueJS, etc...)**.  \nOn verra que l'on peut tester de l'affichage avec des Tests Unitaires, sans forcément passer par du cypress ou du component testing.\n\nTake away :\n- Architecture\n- Stratégie de Tests\n\n\n\n",
+        "speakers": [
+            {
+                "name": "Dorian Lamandé",
+                "id": "6QI2Npr3sNYkVNvhdG0M3XD7IQg1",
+                "photo": "https://sessionize.com/image/860d-200o200o2-af67621f-91b1-453a-8f1d-d0a857a71aee.jpg",
+                "company": null,
+                "bio": "Dorian, à la fois formateur et leader d'équipe partage avec enthousiasme ses compétences humaines et techniques pour inspirer et guider chacun vers l'exploitation totale de leurs capacités.",
+                "social": [
+                    {
+                        "x": null,
+                        "github": "dlamande"
+                    }
+                ]
+            }
+        ],
+        "format": "Conférence",
+        "categorie": "Frontend",
+        "tags": ["frontend"],
+        "room": "Grande salle",
+        "slot": "day-1-conference-2-gs",
+        "slug": "la-clean-archi-ca-marche-aussi-dans-le-front",
+        "cancelled": "false"
+    },
+    {
+        "id": "kXmpwDrXnSne2RsXfj5X",
+        "title": "Programmation Réactive avec Quarkus",
+        "abstract": "# À propos de ce workshop\n\nAu cours de ce workshop les participants apprendront:\n- Le modèle d'exécution réactif\n- La librairie Mutiny utilisée par Quarkus pour la programmation réactive\n- La couche d’accès aux données de Quarkus avec Hibernate Reactive et Panache\n- Le développement d’APIs RESTful avec RESTEasy Reactive\n- La messagerie réactive interne\n- La messagerie réactive avec Kafka\n",
+        "speakers": [
+            {
+                "name": "Neil Benn",
+                "id": "MUIqX7ikE2aFlv66SOSnx4MylRb2",
+                "photo": "https://lh3.googleusercontent.com/a/ACg8ocJSZKh_Y6Mw4yVa9Fbs56v_oKUFMcjRdhp2ZdUj0Zf1Qw=s96-c",
+                "company": null,
+                "bio": null,
+                "social": [
+                    {
+                        "x": null,
+                        "github": null
+                    }
+                ]
+            }
+        ],
+        "format": "Workshop",
+        "categorie": "Backend",
+        "room": "Code Lab",
+        "tags": ["backend"],
+        "slot": "day-1-codelab-2",
+        "slug": "programmation-reactive-avec-quarkus",
+        "cancelled": "false"
     }
 ]

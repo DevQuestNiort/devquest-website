@@ -26,7 +26,7 @@ const DevQuestSchedule = async () => {
     .filter(session => session.slot) as unknown as FullSession[];
 
   const fixedSlots: Slot[] = slots.filter((s) =>
-    ["opening", "lunch", "break", "keynote", "party"].includes(s.type)
+    ["opening", "lunch", "break", "keynote", "party", "closing"].includes(s.type)
   );
 
   return <main className={styles.main}>

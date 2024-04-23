@@ -17,5 +17,6 @@ export enum SlotTypeLabel {
   party = "After Party",
   quickie= 'Quickie',
   conference= 'Conférence',
-  codelab = 'CodeLab'
+  codelab = 'CodeLab',
+  closing = 'Fermeture'
 }

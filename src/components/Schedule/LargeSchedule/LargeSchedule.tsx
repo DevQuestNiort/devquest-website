@@ -33,7 +33,7 @@ const Hour = ({ slot }: { slot: Slot }) => <div
 
 const SessionInfo = ({ session }: { session: FullSession }) => {
   return (
-    <Link href={"/sessions/" + session.slug}
+    <Link href={"/sessions/" + session.slug} 
       className={classNames( styles.disableLinkStyle, styles.slotSessionInfo, session.cancelled && "cancelled")}
     >
       <span className={styles.slotSessionTitle}>{session.title}</span>
@@ -42,7 +42,9 @@ const SessionInfo = ({ session }: { session: FullSession }) => {
         <div className={styles.stackSession}>
           {session.tags && <Tags tags={session.tags} />}
         </div>
-        <Speakers speakers={session.speakers} />
+        {session.speakers.length != 0 &&
+          <Speakers speakers={session.speakers} />
+        }
       </div>
     </Link>
   );
@@ -89,7 +91,7 @@ const FixedSlot = ({ slot }: { slot: Slot }) => {
 // @see https://github.com/GDG-Nantes/Devfest2023/blob/main/src/components/session/sessionPageTemplate.tsx
 export const LargeSchedule = ({sessions, allHoursSlots}: {sessions: FullSession[], allHoursSlots: Slot[]}) => {
   const fixedSlots: Slot[] = allHoursSlots.filter((s) =>
-    ["opening", "lunch", "break", "keynote", "party"].includes(s.type)
+    ["opening", "lunch", "break", "keynote", "party", "closing"].includes(s.type)
   );
 
   const hoursStart = allHoursSlots.map((slot) => slot.start);
