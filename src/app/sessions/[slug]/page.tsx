@@ -54,7 +54,7 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
       <h1>{myFullSession.title}</h1>
 
       <div className={styles.informations}>
-        <h3>{SlotTypeLabel[myFullSession.slot.type]}</h3>
+        <h2 className={styles.headingTree}>{SlotTypeLabel[myFullSession.slot.type]}</h2>
         <div className={styles.tags}>
           {session?.tags?.map((tag: TagsModel) => (
             <Chip
