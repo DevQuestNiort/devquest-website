@@ -1,49 +1,100 @@
-.header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
 
-  padding: 0.5rem 0;
-  background-color: var(--sable);
-
-  .containerFluid {
+.menuLarge{
+  @media (max-width: 959px) {
+    display: none !important;
+  }
+  &.header {
     display: flex;
-    flex-wrap: inherit;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1.5rem;
 
-    flex: 1;
-    gap:1rem;
-  }
+    padding: 0.5rem 0;
+    background-color: var(--sable);
 
-  .headerBrand, .otherHeaderBrand{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    font-size:2rem;
+    .containerFluid {
+      display: flex;
+      flex-wrap: inherit;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1.5rem;
 
-    color: var(--vert);
-    font-family: var(--font-teko), sans-serif;
-  }
-  .headerBrand{
-    font-weight: bold;
-  }
+      flex: 1;
+      gap:1rem;
+    }
 
-  .separator{
-    font-size:2rem;
-  }
+    .headerBrand, .otherHeaderBrand{
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      font-size:2rem;
 
-  .reserverMaPlace{
+      color: var(--vert);
+      font-family: var(--font-teko), sans-serif;
+    }
+    .headerBrand{
+      font-weight: bold;
+    }
 
-  }
+    .separator{
+      font-size:2rem;
+    }
 
-  .mainBtnContainer{
-    flex:1;
-    display: flex;
-    align-items: end;
-    justify-content: end;
+    .reserverMaPlace{
+
+    }
+
+    .mainBtnContainer{
+      flex:1;
+      display: flex;
+      align-items: end;
+      justify-content: end;
+    }
   }
 }
 
+.menuMobile{
+  @media (min-width: 960px) {
+    display: none !important;
+  }
+  &.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0.5rem 0;
+    background-color: var(--sable);
+
+    .containerFluid {
+      display: flex;
+      flex-wrap: inherit;
+      align-items: center;
+      padding: 0 1.5rem;
+
+      flex: 1;
+      gap:1rem;
+    }
+
+    .headerBrand, .otherHeaderBrand{
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      font-size:2rem;
+
+      color: var(--vert);
+      font-family: var(--font-teko), sans-serif;
+    }
+    .headerBrand{
+      font-weight: bold;
+    }
+
+    .separator{
+      font-size:2rem;
+    }
+
+
+  }
+}
+
+/**/
