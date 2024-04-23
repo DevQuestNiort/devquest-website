@@ -1,9 +1,9 @@
 import { Slot, SlotTypeLabel } from "@/model/Slot";
-import {  Speakers, Tags, rooms } from "../common";
+import { rooms, Speakers, Tags } from "../common";
 import classNames from "classnames";
 import React from "react";
 import Link from "next/link";
-import styles from './LargeSchedule.module.scss'
+import styles from "./LargeSchedule.module.scss";
 import { FullSession } from "@/model/FullSession";
 
 const Room = ({ name }: { name: string }) => {
@@ -19,22 +19,29 @@ const Room = ({ name }: { name: string }) => {
       <h3>{name}</h3>
     </div>
   );
-}
+};
 
-const Hour = ({ slot }: { slot: Slot }) => <div
-  className={styles.slot}
-  style={{
-    gridColumn: "1 / 1",
-    gridRow: slotToRow(slot),
-  }}
->
-  <h3>{slot.start}</h3>
-</div>
+const Hour = ({ slot }: { slot: Slot }) => (
+  <div
+    className={styles.slot}
+    style={{
+      gridColumn: "1 / 1",
+      gridRow: slotToRow(slot),
+    }}
+  >
+    <h3>{slot.start}</h3>
+  </div>
+);
 
 const SessionInfo = ({ session }: { session: FullSession }) => {
   return (
-    <Link href={"/sessions/" + session.slug} 
-      className={classNames( styles.disableLinkStyle, styles.slotSessionInfo, session.cancelled && "cancelled")}
+    <Link
+      href={"/sessions/" + session.slug}
+      className={classNames(
+        styles.disableLinkStyle,
+        styles.slotSessionInfo,
+        session.cancelled && "cancelled",
+      )}
     >
       <span className={styles.slotSessionTitle}>{session.title}</span>
       <span className="sr-only">Salle {session.room}</span>
@@ -42,9 +49,9 @@ const SessionInfo = ({ session }: { session: FullSession }) => {
         <div className={styles.stackSession}>
           {session.tags && <Tags tags={session.tags} />}
         </div>
-        {session.speakers.length != 0 &&
+        {session.speakers.length != 0 && (
           <Speakers speakers={session.speakers} />
-        }
+        )}
       </div>
     </Link>
   );
@@ -55,7 +62,7 @@ const Session = ({ session }: { session: FullSession }) => {
   return (
     <div
       key={session.title}
-      className={classNames(styles.slot,styles.slotSession)}
+      className={classNames(styles.slot, styles.slotSession)}
       style={{
         gridColumn,
         gridRow: slotToRow(session.slot),
@@ -87,16 +94,23 @@ const FixedSlot = ({ slot }: { slot: Slot }) => {
   );
 };
 
-
 // @see https://github.com/GDG-Nantes/Devfest2023/blob/main/src/components/session/sessionPageTemplate.tsx
-export const LargeSchedule = ({sessions, allHoursSlots}: {sessions: FullSession[], allHoursSlots: Slot[]}) => {
+export const LargeSchedule = ({
+  sessions,
+  allHoursSlots,
+}: {
+  sessions: FullSession[];
+  allHoursSlots: Slot[];
+}) => {
   const fixedSlots: Slot[] = allHoursSlots.filter((s) =>
-    ["opening", "lunch", "break", "keynote", "party", "closing"].includes(s.type)
+    ["opening", "lunch", "break", "keynote", "party", "closing"].includes(
+      s.type,
+    ),
   );
 
   const hoursStart = allHoursSlots.map((slot) => slot.start);
   const hoursSlots = hoursStart.map(
-    (start) => allHoursSlots.find((slot) => slot.start === start) as Slot
+    (start) => allHoursSlots.find((slot) => slot.start === start) as Slot,
   );
   const sessionsByHours: { [k: string]: Array<FullSession> } = {};
   const fixedSlotsByHours: { [k: string]: Array<Slot> } = {};
@@ -105,37 +119,35 @@ export const LargeSchedule = ({sessions, allHoursSlots}: {sessions: FullSession[
       .filter((s) => s.slot.start === hourSlot.start)
       .sort((s1, s2) => rooms.indexOf(s1.room) - rooms.indexOf(s2.room));
     fixedSlotsByHours[hourSlot.start] = fixedSlots.filter(
-      (s) => s.start === hourSlot.start
+      (s) => s.start === hourSlot.start,
     );
   });
-  
 
+  return (
+    <div>
+      <div className={"header-rooms"}></div>
 
-  return (<div>
-    <div className={"header-rooms"}></div>
-
-    <div className={styles.scheduleLarge}>
-      {rooms.map((room) => (
-        <Room key={room} name={room} />
-      ))}
-      {hoursSlots.map((hourSlot) => {
-        return (
-          <React.Fragment key={hourSlot.start}>
-            <Hour key={hourSlot.key} slot={hourSlot} />
-            {fixedSlotsByHours[hourSlot.start].map((slot) => (
-              <FixedSlot slot={slot} key={slot.key} />
-            ))}
-            {sessionsByHours[hourSlot.start].map((session) => (
-              <Session session={session} key={session.id} />
-            ))}
-          </React.Fragment>
-        );
-      })}
-
+      <div className={styles.scheduleLarge}>
+        {rooms.map((room) => (
+          <Room key={room} name={room} />
+        ))}
+        {hoursSlots.map((hourSlot) => {
+          return (
+            <React.Fragment key={hourSlot.start}>
+              <Hour key={hourSlot.key} slot={hourSlot} />
+              {fixedSlotsByHours[hourSlot.start].map((slot) => (
+                <FixedSlot slot={slot} key={slot.key} />
+              ))}
+              {sessionsByHours[hourSlot.start].map((session) => (
+                <Session session={session} key={session.id} />
+              ))}
+            </React.Fragment>
+          );
+        })}
+      </div>
     </div>
-
-  </div>)
-}
+  );
+};
 
 function columnFromRoom(room: string) {
   return rooms.indexOf(room) + 2 + " / " + (rooms.indexOf(room) + 2);
