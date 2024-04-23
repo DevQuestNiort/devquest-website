@@ -96,8 +96,9 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
         <span className="material-symbols-outlined">format_quote</span>
         <ReactMarkdown
           rehypePlugins={[rehypeRaw]}
-          children={session?.abstract}
-        />
+        >
+          {session?.abstract}
+        </ReactMarkdown>
         <span className="material-symbols-outlined">format_quote</span>
       </p>
     </div>
