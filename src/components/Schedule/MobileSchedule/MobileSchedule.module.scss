@@ -1,0 +1,74 @@
+.mobileSchedule {
+  @media (min-width: 960px) {
+    display: none !important;
+  }
+
+  .hour {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20px;
+  }
+
+  .sessionInfo{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .slot {
+    word-wrap: break-word;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+
+    &.opening,
+    &.break,
+    &.lunch {
+      border: 1px solid white;
+    }
+
+    &.slotSession {
+      background-color: var(--sable);
+      color: var(--vert);
+    }
+
+    .sessionTitle {
+      text-align: left;
+      color: var(--vert);
+    }
+
+    .sessionInfoMiddle {
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
+      .speakers {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .sessionLink{
+    text-decoration-color: var(--vert);
+  }
+
+  .cancelled {
+    opacity: 50%;
+    .sessionTitle {
+      text-decoration: line-through;
+    }
+  }
+
+  .disableLinkStyle{
+    text-decoration: none;
+    color: inherit;
+  }
+}

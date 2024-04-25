@@ -1,7 +1,6 @@
 export interface Membre {
   img: string;
-  firstName: string;
-  lastName: string;
+  name: string;
   role: string;
   github?: string;
   linkedin?: string;

@@ -4,6 +4,8 @@ import { Source_Sans_3, Teko } from "next/font/google";
 import { QuestExplorateur } from "@/components/QuestExplorateur";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import BackToTop from '@/components/BackToTop';
+import {PageHeader} from "@/components/PageHeader/PageHeader";
+import {Footer} from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "DEVQUEST - 14 juin (Niort)",
@@ -50,14 +52,20 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // FIXME : pas ouf le head comme ça pour les icones...
   return (
     <html lang="fr">
+      <head>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0&display=swap" rel="stylesheet"/>
+      </head>
       <body className={`${teko.variable} ${sourceSansPro.variable}`}>
         <GoogleAnalytics gaId="G-MR3XKZY9PM" />
         <QuestExplorateur />
+        <PageHeader />
         {children}
 
-      <BackToTop/>
+        <BackToTop/>
+        <Footer/>
       </body>
     </html>
   );
