@@ -97,6 +97,32 @@ export function MentionsLegales() {
               Knight icons created by Freepik - Flaticon
             </a>
           </li>
+          <li>
+            <a
+              href="https://www.flaticon.com/fr/icones-gratuites/forgeron"
+              title="forgeron icônes"
+            >
+              Forgeron icônes créées par Good Ware - Flaticon
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.flaticon.com/fr/icones-gratuites/nourriture-et-restaurant"
+              title="nourriture et restaurant icônes"
+            >
+              Nourriture et restaurant icônes créées par Good Ware - Flaticon
+            </a>
+          </li>
+          <li>
+            <a href="https://fr.freepik.com/search#uuid=0ec517df-f316-4653-9d94-aa3247ca3f93">
+              Icône de Good Ware
+            </a>
+          </li>
+          <li>
+            <a href="https://fr.freepik.com/icone/cuisse-poulet_657185#fromView=search&page=1&position=72&uuid=48243b3c-f818-4d94-bbdd-5bda3c724798">
+              Icône de Stockio
+            </a>
+          </li>
         </ul>
         <h2>Confidentialité&nbsp;:</h2>
         <p>
