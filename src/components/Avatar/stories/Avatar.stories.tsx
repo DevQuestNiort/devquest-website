@@ -12,8 +12,7 @@ type Story = StoryObj<typeof Avatar>;
 export const Default: Story = {
   args: {
     img: "/teams/pacaud.jpeg",
-    firstName: "Alexandre",
-    lastName: "Pacaud",
+    name: "Alexandre Pacaud",
     github: "fake.url",
     linkedin: "fake.url",
     role: "#Dev",

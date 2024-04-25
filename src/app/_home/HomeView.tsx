@@ -12,7 +12,6 @@ import backgroundImage from "../../../public/devquest-fond-min.jpg";
 import backgroundMapImage from "../../../public/devquest-bg-map.jpg";
 import { Card } from "@/components/Card";
 import { LinkButton } from "../../components/LinkButton";
-import Link from "next/link";
 import { LogoPartenaire } from "@/components/LogoPartenaire";
 import { Partenaire } from "@/model/Partenaire";
 
@@ -58,6 +57,9 @@ export default function HomeView({
             href="https://www.billetweb.fr/devquest-niort-2024"
           >
             Réserver mes places
+          </LinkButton>
+          <LinkButton theme="Secondary" href="/schedule">
+            Voir le programme
           </LinkButton>
         </div>
       </Section>
@@ -222,25 +224,7 @@ export default function HomeView({
           </Card>
         </div>
       </Section>
-      <Section theme="Dark">
-        <h2>Les quêtes</h2>
-        <Card>
-          <Image
-            height={96}
-            width={96}
-            alt="mission"
-            src="/icons-rp/mission.png"
-            aria-hidden="true"
-          />
-          <p>
-            Le programme n&apos;est pas encore disponible, mais d&apos;ores et
-            déjà, nous pouvons vous dire que les histoires que vous entendrez
-            vous raconterons des épopées sur l&apos;intelligence artificielle
-            mais aussi autour de l&apos;artisanat logiciel… ou bien encore
-            d&apos;autres sujets passionnants!
-          </p>
-        </Card>
-      </Section>
+
       <Section theme="Light">
         <h2>Les maîtres du donjon</h2>
         <Galery>
@@ -250,8 +234,7 @@ export default function HomeView({
               <Avatar
                 key={i}
                 img={m.img}
-                firstName={m.firstName}
-                lastName={m.lastName}
+                name={m.name}
                 role={m.role}
                 github={m.github}
                 linkedin={m.linkedin}
@@ -385,11 +368,6 @@ export default function HomeView({
           </div>
         </div>
       </Section>
-      <footer id={styles.footer}>
-        <b aria-hidden="true">@ 2024 DevQuest</b>
-        {" - "}
-        <Link href={"/mentions-legales"}>Mentions légales</Link>
-      </footer>
     </div>
   );
 }
