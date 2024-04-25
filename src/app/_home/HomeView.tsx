@@ -159,7 +159,7 @@ export default function HomeView({
               src="/icons-rp/potion-tr.png"
               aria-hidden="true"
             />
-            <p className={styles.eventSpecText}>6 Quickies</p>
+            <p className={styles.eventSpecText}>6 quick conferences</p>
           </div>
           <div>
             <Image
@@ -227,7 +227,7 @@ export default function HomeView({
               aria-hidden="true"
             />
             <p className={styles.eventSpecText}>
-              des organisateurs au petit soin
+              des organisateurs aux petits soins
             </p>
           </div>
         </div>
