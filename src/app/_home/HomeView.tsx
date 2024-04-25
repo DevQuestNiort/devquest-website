@@ -138,7 +138,8 @@ export default function HomeView({
         </div>
       </Section>
       <Section theme="Light">
-        <h2>Plus en détails </h2>
+        <h2>Avec votre billet</h2>
+        <p className={styles.eventSpecText}>Vous aurez accès à</p>
         <div id={styles.eventspec}>
           <div>
             <Image
@@ -165,7 +166,7 @@ export default function HomeView({
               height={96}
               width={96}
               alt="backpack"
-              src="/icons-rp/hache.png"
+              src="/icons-rp/forgeron.png"
               aria-hidden="true"
             />
             <p className={styles.eventSpecText}>2 workshops</p>
@@ -180,6 +181,53 @@ export default function HomeView({
             />
             <p className={styles.eventSpecText}>
               un espace de rencontre avec nos partenaires
+            </p>
+          </div>
+        </div>
+        <p className={styles.eventSpecText}>Mais aussi</p>
+        <div id={styles.eventspec}>
+          <div>
+            <Image
+              height={96}
+              width={96}
+              alt="knight"
+              src="/icons-rp/chicken.png"
+              aria-hidden="true"
+            />
+            <p className={styles.eventSpecText}>
+              le repas du midi, pour tous les gouts
+            </p>
+          </div>
+          <div>
+            <Image
+              height={96}
+              width={96}
+              alt="knight"
+              src="/icons-rp/tonneau-de-vin.png"
+              aria-hidden="true"
+            />
+            <p className={styles.eventSpecText}>la boisson</p>
+          </div>
+          <div>
+            <Image
+              height={96}
+              width={96}
+              alt="knight"
+              src="/icons-rp/gateaux.png"
+              aria-hidden="true"
+            />
+            <p className={styles.eventSpecText}>une collation le matin</p>
+          </div>
+          <div>
+            <Image
+              height={96}
+              width={96}
+              alt="knight"
+              src="/icons-rp/group.png"
+              aria-hidden="true"
+            />
+            <p className={styles.eventSpecText}>
+              des organisateurs au petit soin
             </p>
           </div>
         </div>
