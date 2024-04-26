@@ -265,7 +265,7 @@ export default function HomeView({
             </p>
             <LinkButton
               theme="Primary"
-              href="https://www.google.com/maps/dir/?api=1&destination=46.3293427,-0.4899051"
+              href="https://www.google.com/maps/dir/?api=1&destination=46.3306968,-0.4906424"
             >
               C&apos;est parti&nbsp;!
             </LinkButton>
