@@ -12,6 +12,15 @@ export const metadata: Metadata = {
   description:
     "Vous êtes développeur ? Ne ratez pas le premier évènement dédié avec des morceaux d'aventure dedans !",
   keywords: ["devquest", "dev", "quest", "niort", "devs", "conférences"],
+  openGraph: {
+    images: [
+      {
+        url: '/logo-date-lieu.svg',
+        width: 240,
+        height: 270,
+      }
+    ]
+  },
   icons: [
     { rel: "icon", url: "/favicon/favicon.ico", sizes: "any" },
     {

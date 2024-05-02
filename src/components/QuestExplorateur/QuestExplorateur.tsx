@@ -3,9 +3,12 @@
 export default function QuestExplorateur() {
   console.log(`
     Félicitations explorateur !
-    Tu es l'heureux gagnant d'une place gratuite pour accéder à notre aventure grâce à ta curiosité !
-    Pour récupérer ta place, utilise le code secret issue d'un langage ancien LAPIN_GAROU directement sur notre billetterie.
-    Attention ce code ne fonctionnera qu'une seule fois!
+    
+    Malheureusement, tu arrives trop tard, le lapin garou a déjà découvert. 
+    
+    Pour assister au DEVQUEST va devoir suivre la quête principale et te rendre 
+    sur la billeterie: https://www.billetweb.fr/devquest-niort-2024
+    
     A bientôt !
   `)
 
