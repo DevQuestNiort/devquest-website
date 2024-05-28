@@ -49,6 +49,8 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
     slot: slots.find((s) => s.key === session.slot),
   } as FullSession;
 
+  const DISPLAY_OPENFEEDBACK = false;
+
   return (
     <div className={styles.container}>
       <h1>{myFullSession.title}</h1>
@@ -101,6 +103,9 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
         </ReactMarkdown>
         <span className="material-symbols-outlined">format_quote</span>
       </p>
+      {DISPLAY_OPENFEEDBACK && <iframe
+          src={`https://openfeedback.io/YUkT8ETZnqhBSbABGUtS/0/${session.id}?hideHeader=true&forceColorScheme=dark`}
+          className={styles.iframeOpenfeedback}></iframe>}
     </div>
   );
 };
