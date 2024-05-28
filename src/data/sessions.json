@@ -324,14 +324,29 @@
     },
     {
         "id": "S33SsGd-tremplin",
-        "title": "Tremplin Speaker",
-        "abstract": "Ce talk sera choisit lors de la soirée tremplin du 27 Mai à Niort Tech",
+        "title": "🐋 Simplifiez la conteneurisation de vos idées !",
+        "abstract": "En tant que Dev(Op)s vous galérez à écrire vos Dockerfiles 😩 ? Vous perdez du temps lors de vos builds ⏱️ ? Et vous ne connaissez pas les standards de sécurité que l'on vous demande d'implémenter 💣 ?\n\nPassons le cap ensemble et créons aisément une image Docker en intégrant automatiquement toutes ces bonnes pratiques. Pour cela, essayons avec Dofigen !\n\nDofigen est un outil en ligne de commande Open Source qui utilise une description simplifiée au format YAML ou JSON, et qui vous permet de générer des Dockerfile de manière simple et rapide 🚀.\n\nNous verrons ensemble en live coding comment cet outil vous permet de créer vos images Docker basées sur les bonnes pratiques en vous faisant gagner du temps au quotidien ⚡.",
         "speakers": [
+            {
+                "name": "Thomas Da Rocha",
+                "id": "tremplin",
+                "photo": "https://avatars.githubusercontent.com/u/8969556?v=4",
+                "company": "Lenra",
+                "bio": "Passionné d'informatique depuis le lycée, tous les sujets liés au développement m'intriguent. Le développement est pour moi aussi créatif que la musique et une excellente solution pour la résolution de problèmes au quotidien.\n\nCette passion m'a permis de toucher à tous types de sujets lié au développement et me permet aujourd'hui d'être aussi à l'aise sur des sujets de développement front-end, back-end et Ops.\n\nJ'ai créé l'entreprise Lenra en 2015 avec pour but de déporter les puissances de calcul côté serveur, et c'est comme ça que nous avons lancé la plateforme Lenra en octobre 2023 après plusieurs refonte et années de développement.",
+                "social": [
+                    {
+                        "x": "taorepoara",
+                        "github": "taorepoara"
+                    }
+                ]
+            }
         ],
         "format": "Quickie",
-        "categorie": "Méthode & Architecture",
+        "categorie": "Quêtes secondaires",
         "room": "Petite salle",
-        "tags": ["tremplin"],
+        "tags": [
+            "tremplin"
+        ],
         "slot": "day-1-conference-3-ps",
         "slug": "tremplin-speaker",
         "cancelled": false
