@@ -1,5 +1,45 @@
 [
     {
+        "id": "Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt",
+        "title": "Level up ta conf : 12 ans d'aventure au DevFest Nantes",
+        "abstract": "Préparez-vous à plonger dans une quête remplie de défis et de récompenses retraçant l’histoire légendaire du DevFest Nantes !\nÀ chaque niveau, vous gagnerez de l’XP et débloquerez des compétences clés en matière d’organisation de conférence.\nMais attention, le chemin sera semé d’embûches !\nSeuls les personnages les plus courageux et les plus déterminés parviendront à organiser un événement inoubliable.\nEnsemble, étudions les ingrédients magiques qui permettront de faire grandir votre communauté\nAlors, êtes-vous prêts à relever le défi ?\n\n",
+        "speakers": [
+            {
+                "name": "Julien Landuré",
+                "id": "julien-landure",
+                "photo": "https://lh5.googleusercontent.com/-BrUtXil2gXA/AAAAAAAAAAI/AAAAAAAArDA/X8QWXTZ-ZrA/photo.jpg",
+                "company": "Zenika",
+                "bio": "CTO de Zenika Nantes, Julien est aussi Google Developer Expert Cloud. Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes.",
+                "social": [
+                    {
+                        "x": "https://twitter.com/jlandure",
+                        "github": "https://github.com/jlandure"
+                    }
+                ]
+            },
+            {
+                "name": "Annabelle Koster",
+                "id": "annabelle-koster",
+                "photo": "https://media.licdn.com/dms/image/D5603AQE6zBLvOY9Gmw/profile-displayphoto-shrink_800_800/0/1701266237656?e=1722470400&v=beta&t=cgnUeQ8CSnBMkU-hjplcTTCw9V4j4u2vpKNULEAPSCY",
+                "company": "Sfeir",
+                "bio": null,
+                "social": [
+                    {
+                        "x": "https://twitter.com/AnnabelleKoster",
+                        "github": null
+                    }
+                ]
+            }
+        ],
+        "format": "Keynote",
+        "categorie": "Keynote",
+        "tags": ["keynote"],
+        "room": "La Forge",
+        "slot": "day-1-keynote-open",
+        "slug": "level-up-ta-conf-12-ans-daventure-au-devfest-nantes",
+        "cancelled": false
+    },
+    {
         "id": "XTt5AjfH18vpgIg3HC1j",
         "title": "Chrome dev tools from zero to hero",
         "abstract": "Depuis longtemps, en front on a pris l'habitude de debuguer à coup de `console.log` ?\n\nAussi, combien de fois avez-nous été confronté à des problèmes d'accessibilités sans les comprendre réellement ?\n\nEt si je vous disais qu'il existe de nombreuses autres façon de debuguer votre front et que de nombreuses astuces autour de votre navigateur peuvent vous aider tous les jours ?\n\nEn 20 minutes nous aborderont différentes aspects de vos chrome dev tools pour que vous ne soyez plus démunis face à un front récalcitrant et pour vous faire gagner en expérience développeur.",
@@ -34,7 +74,7 @@
         "format": "Quickie",
         "categorie": "Frontend",
         "tags": ["frontend"],
-        "room": "Petite salle",
+        "room": "L'astrarium",
         "slot": "day-1-conference-7-ps",
         "slug": "chrome-dev-tools-from-zero-to-hero",
         "cancelled": false
@@ -61,7 +101,7 @@
         "format": "Conférence",
         "categorie": "Frontend",
         "tags": ["frontend"],
-        "room": "Petite salle",
+        "room": "L'astrarium",
         "slot": "day-1-conference-1-ps",
         "slug": "dessine-moi-un-graphique-en-CSS",
         "cancelled": false
@@ -88,7 +128,7 @@
         "format": "Conférence",
         "categorie": "Méthode & Architecture",
         "tags": ["architecture"],
-        "room": "Grande salle",
+        "room": "La Forge",
         "slot": "day-1-conference-4-gs",
         "slug": "ne-jouez-plus-solo",
         "cancelled": false
@@ -115,8 +155,8 @@
         "format": "Conférence",
         "categorie": "Quêtes secondaires",
         "tags": ["discovery"],
-        "room": "Petite salle",
-        "slot": "day-1-conference-6-ps",
+        "room": "La Forge",
+        "slot": "day-1-conference-6-gs",
         "slug": "3615-twitch",
         "cancelled": false
     },
@@ -141,7 +181,7 @@
         ],
         "format": "Conférence",
         "categorie": "Quêtes secondaires",
-        "room": "Petite salle",
+        "room": "L'astrarium",
         "tags": ["discovery"],
         "slot": "day-1-conference-5-ps",
         "slug": "j-ai-beaucoup-de-taf",
@@ -182,7 +222,7 @@
         "format": "Workshop",
         "categorie": "Frontend",
         "tags": ["frontend"],
-        "room": "Code Lab",
+        "room": "Le Laboratoire",
         "slot": "day-1-codelab-1",
         "slug": "arretons-de-de-tester-nos-applications",
         "cancelled": false
@@ -209,7 +249,7 @@
         "format": "Quickie",
         "categorie": "Cloud & DevSecOps",
         "tags": ["cloud_devops"],
-        "room": "Grande salle",
+        "room": "La Forge",
         "slot": "day-1-conference-8-gs",
         "slug": "c-est-l-heure-du-check-up-de-vos-pipelines-ci-cd",
         "cancelled": false
@@ -236,7 +276,7 @@
         "format": "Conférence",
         "categorie": "Quêtes secondaires",
         "tags": ["discovery"],
-        "room": "Grande salle",
+        "room": "La Forge",
         "slot": "day-1-conference-5-gs",
         "slug": "au-secours-mon-manager-me-demande-des-kpis",
         "cancelled": false
@@ -263,7 +303,7 @@
         "format": "Conférence",
         "categorie": "Méthode & Architecture",
         "tags": ["architecture"],
-        "room": "Grande salle",
+        "room": "La Forge",
         "slot": "day-1-conference-1-gs",
         "slug": "le-produit-entre-la-qualite-et-l-over-engineering",
         "cancelled": false
@@ -290,7 +330,7 @@
         "format": "Quickie",
         "categorie": "Backend",
         "tags": ["backend"],
-        "room": "Grande salle",
+        "room": "La Forge",
         "slot": "day-1-conference-7-gs",
         "slug": "les-flux-de-reactor-expliques",
         "cancelled": false
@@ -316,7 +356,7 @@
         ],
         "format": "Quickie",
         "categorie": "Méthode & Architecture",
-        "room": "Grande salle",
+        "room": "La Forge",
         "tags": ["architecture"],
         "slot": "day-1-conference-3-gs",
         "slug": "mister-wip-miss-vsm-in-factory-town",
@@ -324,14 +364,29 @@
     },
     {
         "id": "S33SsGd-tremplin",
-        "title": "Tremplin Speaker",
-        "abstract": "Ce talk sera choisit lors de la soirée tremplin du 27 Mai à Niort Tech",
+        "title": "🐋 Simplifiez la conteneurisation de vos idées !",
+        "abstract": "En tant que Dev(Op)s vous galérez à écrire vos Dockerfiles 😩 ? Vous perdez du temps lors de vos builds ⏱️ ? Et vous ne connaissez pas les standards de sécurité que l'on vous demande d'implémenter 💣 ?\n\nPassons le cap ensemble et créons aisément une image Docker en intégrant automatiquement toutes ces bonnes pratiques. Pour cela, essayons avec Dofigen !\n\nDofigen est un outil en ligne de commande Open Source qui utilise une description simplifiée au format YAML ou JSON, et qui vous permet de générer des Dockerfile de manière simple et rapide 🚀.\n\nNous verrons ensemble en live coding comment cet outil vous permet de créer vos images Docker basées sur les bonnes pratiques en vous faisant gagner du temps au quotidien ⚡.",
         "speakers": [
+            {
+                "name": "Thomas Da Rocha",
+                "id": "tremplin",
+                "photo": "https://avatars.githubusercontent.com/u/8969556?v=4",
+                "company": "Lenra",
+                "bio": "Passionné d'informatique depuis le lycée, tous les sujets liés au développement m'intriguent. Le développement est pour moi aussi créatif que la musique et une excellente solution pour la résolution de problèmes au quotidien.\n\nCette passion m'a permis de toucher à tous types de sujets lié au développement et me permet aujourd'hui d'être aussi à l'aise sur des sujets de développement front-end, back-end et Ops.\n\nJ'ai créé l'entreprise Lenra en 2015 avec pour but de déporter les puissances de calcul côté serveur, et c'est comme ça que nous avons lancé la plateforme Lenra en octobre 2023 après plusieurs refonte et années de développement.",
+                "social": [
+                    {
+                        "x": "taorepoara",
+                        "github": "taorepoara"
+                    }
+                ]
+            }
         ],
         "format": "Quickie",
-        "categorie": "Méthode & Architecture",
-        "room": "Petite salle",
-        "tags": ["tremplin"],
+        "categorie": "Quêtes secondaires",
+        "room": "L'astrarium",
+        "tags": [
+            "tremplin"
+        ],
         "slot": "day-1-conference-3-ps",
         "slug": "tremplin-speaker",
         "cancelled": false
@@ -358,7 +413,7 @@
         "format": "Conférence",
         "categorie": "Cloud & DevSecOps",
         "tags": ["cloud_devops"],
-        "room": "Petite salle",
+        "room": "L'astrarium",
         "slot": "day-1-conference-4-ps",
         "slug": "ppentelemetry-vous-ne-pourrez-plus-vous-passer-de-monitoring-en-prod",
         "cancelled": false
@@ -385,8 +440,8 @@
         "format": "Conférence",
         "tags": ["cloud_devops"],
         "categorie": "Cloud & DevSecOps",
-        "room": "Grande salle",
-        "slot": "day-1-conference-6-gs",
+        "room": "L'astrarium",
+        "slot": "day-1-conference-6-ps",
         "slug": "securite-automatisee-regardez-vos-failles-en-face",
         "cancelled": false
     },
@@ -425,7 +480,7 @@
         "format": "Quickie",
         "categorie": "Design & UX",
         "tags": ["ux_ui"],
-        "room": "Petite salle",
+        "room": "L'astrarium",
         "slot": "day-1-conference-8-ps",
         "slug": "dedramatisons-l-accessibilite",
         "cancelled": false
@@ -452,7 +507,7 @@
         "format": "Conférence",
         "categorie": "Méthode & Architecture",
         "tags": ["architecture"],
-        "room": "Petite salle",
+        "room": "L'astrarium",
         "slot": "day-1-conference-2-ps",
         "slug": "les-feature-flags-le-couteau-suisse-de-votre-flow-de-developpement",
         "cancelled": false
@@ -479,7 +534,7 @@
         "format": "Conférence",
         "categorie": "Frontend",
         "tags": ["frontend"],
-        "room": "Grande salle",
+        "room": "La Forge",
         "slot": "day-1-conference-2-gs",
         "slug": "la-clean-archi-ca-marche-aussi-dans-le-front",
         "cancelled": false
@@ -505,7 +560,7 @@
         ],
         "format": "Workshop",
         "categorie": "Backend",
-        "room": "Code Lab",
+        "room": "Le Laboratoire",
         "tags": ["backend"],
         "slot": "day-1-codelab-2",
         "slug": "programmation-reactive-avec-quarkus",

@@ -34,6 +34,10 @@ export const tagLabels = {
         label: "UX / UI",
         icon: <span className="material-symbols-outlined">brush</span>,
     },
+    keynote: {
+        label: "Keynote",
+        icon: <span className="material-symbols-outlined">celebration</span>,
+    },
 };
 
 
