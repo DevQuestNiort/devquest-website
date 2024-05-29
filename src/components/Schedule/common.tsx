@@ -4,7 +4,7 @@ import classNames from "classnames";
 import styles from "./common.module.scss";
 import { Chip, tagLabels } from "../Chip";
 
-export const rooms = ["Grande salle", "Petite salle", "Code Lab"];
+export const rooms = ["La Forge", "L'astrarium", "Le Laboratoire"];
 
 export const Tags = ({ tags }: { tags: TagsModel[] }) => {
   return (
