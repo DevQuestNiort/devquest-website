@@ -190,7 +190,7 @@
     {
         "id": "yRdKlGPKyggIvbVMJd45",
         "title": "Arrêtons de (dé)tester nos applications",
-        "abstract": "\"Faire des tests E2E c'est compliqué\", \"Maintenir des tests E2E coûte cher\", \"L'accessibilité? on n'a plus de budget\". Ces phrases témoignent qu'encore de nos jours, les utilisateurs dépendants de l'accessibilité numérique sont délaissés et la vérification automatique des scénarios métiers nécessite une certaine expertise.\n\nAu cours de cette conférence, nous déterminerons si ces idées reçues sont justifiées et nous verrons, quelle est la meilleure approche pour résoudre en même temps ces problématiques.\n\nSi vous aussi, vous vous intéressez aux problématiques de tests automatisés et d'accessibilité alors cette conférence est faite pour vous.",
+        "abstract": "\"Faire des tests E2E c'est compliqué\", \"Maintenir des tests E2E coûte cher\", \"L'accessibilité? on n'a plus de budget\". Ces phrases témoignent qu'encore de nos jours, les utilisateurs dépendants de l'accessibilité numérique sont délaissés et la vérification automatique des scénarios métiers nécessite une certaine expertise.\n\nAu cours de cette conférence, nous déterminerons si ces idées reçues sont justifiées et nous verrons, quelle est la meilleure approche pour résoudre en même temps ces problématiques.\n\nSi vous aussi, vous vous intéressez aux problématiques de tests automatisés et d'accessibilité alors cette conférence est faite pour vous.\n\nPrérequis :\n\n \n\n- Avoir un poste de développement ou travailler en binôme\n\n- Avoir un IDE : vscode ou IntelliJ\n\n- NodeJS version 20+ (https://nodejs.org/en/download)\n\n- Npm version 10+",
         "speakers": [
             {
                 "name": "Curacao",
