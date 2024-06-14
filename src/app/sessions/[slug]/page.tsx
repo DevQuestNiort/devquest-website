@@ -49,7 +49,7 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
     slot: slots.find((s) => s.key === session.slot),
   } as FullSession;
 
-  const DISPLAY_OPENFEEDBACK = false;
+  const DISPLAY_OPENFEEDBACK = true;
 
   return (
     <div className={styles.container}>
