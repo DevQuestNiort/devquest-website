@@ -51,17 +51,20 @@ export default function HomeView({
           <br />
           dev niortais
         </h1>
-        <div className={styles.row}>
-          <LinkButton
-            theme="Primary"
-            href="https://www.billetweb.fr/devquest-niort-2024"
-          >
-            Réserver mes places
-          </LinkButton>
-          <LinkButton theme="Secondary" href="/schedule">
-            Voir le programme
-          </LinkButton>
-        </div>
+        <Card>Aidé et accompagné
+          Le Devquest , première édition, c&apos;est fini !! <br /> Merci @ tous
+          pour cette première aventure... <br /> Nous tenions à remercier
+          l&apos;ensemble de nos partenaires, speakeuses et speakeurs,
+          bénévoles, maîtres et maîtresse de conférence pour nous avoir aidé et 
+          accompagné dans cette aventure. Cette journée fut tellement intense
+          et riche pour l&apos;ensemble de la team.. Mille mercis.
+          <br />
+          Suivez nous pour ne pas manquer les futures quêtes !
+          <br />
+          <br />
+          Alice, Alex, Alex, Florent, Guillaume, Nicolas, Samuel, Susan,
+          Vincent, Xavier.
+        </Card>
       </Section>
       <Section theme="Dark">
         <h2>
