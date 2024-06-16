@@ -51,7 +51,7 @@ export default function HomeView({
           <br />
           dev niortais
         </h1>
-        <Card>Aidé et accompagné
+        <Card>
           Le Devquest , première édition, c&apos;est fini !! <br /> Merci @ tous
           pour cette première aventure... <br /> Nous tenions à remercier
           l&apos;ensemble de nos partenaires, speakeuses et speakeurs,
