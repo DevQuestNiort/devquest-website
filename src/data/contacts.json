@@ -12,6 +12,12 @@
     "link": "https://www.linkedin.com/company/devquest-niort/"
   },
   {
+    "name": "Youtube DevQuest",
+    "asset": "social/logo-youtube.png",
+    "type": "RS",
+    "link": "https://www.youtube.com/channel/UCDFfMunDvS5yfZ9TaZfEq8w"
+  },
+  {
     "name": "Mail",
     "icon": "icon-mail",
     "type": "MAIL",

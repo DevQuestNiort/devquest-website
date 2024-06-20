@@ -8,7 +8,7 @@ import { Theme } from "@/model/Theme";
 import { MoyensContact } from "@/model/MoyensContact";
 import { Contact } from "@/components/Contact";
 import { Section } from "@/components/Section";
-import backgroundImage from "../../../public/devquest-fond-min.jpg";
+import backgroundImage from "../../../public/devquest-fond-min.png";
 import backgroundMapImage from "../../../public/devquest-bg-map.jpg";
 import { Card } from "@/components/Card";
 import { LinkButton } from "../../components/LinkButton";
@@ -31,31 +31,42 @@ export default function HomeView({
   return (
     <div className={styles.main}>
       <Section
-        id={styles.heroSection}
-        style={{
-          backgroundImage: `url(${backgroundImage.src})`,
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
+          id={styles.heroSection}
+          style={{
+            backgroundImage: `url(${backgroundImage.src})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+          }}
       >
         <Image
-          id={styles.logo}
-          src="/logo-date-lieu.svg"
-          alt="DevQuest"
-          priority
-          width={240}
-          height={270}
+            id={styles.logo}
+            src="/logo-date-lieu.svg"
+            alt="DevQuest"
+            priority
+            width={240}
+            height={270}
         />
-        <h1 id={styles.mainTitle}>
-          Le premier rassemblement
-          <br />
-          dev niortais
-        </h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HJrr43Jssoo?si=810pPSVCaYihn0YO&rel=0&autoplay=1&mute=1"
+                title="Vidéo d'introduction du DevQuest" frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <div className={styles.row}>
+          <LinkButton theme="Secondary" href="https://photos.app.goo.gl/Uuv8qEwvxUkxnBoVA" target="_blank">Voir les
+            photos</LinkButton>
+          <LinkButton theme="Primary" href="https://www.youtube.com/channel/UCDFfMunDvS5yfZ9TaZfEq8w" target="_blank">Accéder
+            au replays</LinkButton>
+        </div>
+      </Section>
+      <Section theme="Dark">
+        <h2>
+          Le DevQuest, première édition, c&apos;est fini !!
+        </h2>
+
         <Card>
-          Le Devquest , première édition, c&apos;est fini !! <br /> Merci @ tous
-          pour cette première aventure... <br /> Nous tenions à remercier
+          Merci @tous
+          pour cette première aventure... <br/> Nous tenions à remercier
           l&apos;ensemble de nos partenaires, speakeuses et speakeurs,
-          bénévoles, maîtres et maîtresse de conférence pour nous avoir aidé et 
+          bénévoles, maîtres et maîtresse de conférence pour nous avoir aidé et
           accompagné dans cette aventure. Cette journée fut tellement intense
           et riche pour l&apos;ensemble de la team.. Mille mercis.
           <br />
@@ -64,19 +75,6 @@ export default function HomeView({
           <br />
           Alice, Alex, Alex, Florent, Guillaume, Nicolas, Samuel, Susan,
           Vincent, Xavier.
-        </Card>
-      </Section>
-      <Section theme="Dark">
-        <h2>
-          Des conférences.
-          <br />
-          Des sangliers. De la cervoise.
-        </h2>
-
-        <Card>
-          L&apos;été prochain, ne manquez pas le premier événement
-          ludico-professionnel niortais dédié aux développeurs. Améliorez vos
-          compétences et surtout… Profitez de l&apos;aventure&nbsp;!
         </Card>
 
         <div id={styles.rows}>
