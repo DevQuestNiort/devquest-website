@@ -9,17 +9,8 @@ interface ContactProperties {
 }
 
 export default function Contact({ asset, name, link, icon }: ContactProperties) {
-  if (icon) {
-    return (
-      <a className={styles.rs} href={link} aria-label={name}>
-        <span className={icon} />
-      </a>
-    );
-  } else if (asset) {
-    return (
-      <a className={styles.rs} href={link} aria-label={name}>
-        <Image height="32" width="32" src={asset} alt="" aria-hidden="true" />
-      </a>
-    );
-  }
+  return <a className={styles.rs} href={link} aria-label={name} target="_blank">
+    {icon && <span className={icon}/>}
+    {asset && <Image height="32" width="32" src={asset} alt={name} aria-hidden="true"/>}
+  </a>
 }
