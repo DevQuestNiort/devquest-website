@@ -61,6 +61,21 @@ const VersionLarge = ({ pathname }: MenuProps) => {
 
         <span className={styles.separator}>|</span>
 
+        <Link
+          href="/plan"
+          className={styles.otherHeaderBrand}
+          style={{
+            fontWeight:
+              isActive("/plan") || pathname.includes("/plan")
+                ? "bold"
+                : "normal",
+          }}
+        >
+          Plan
+        </Link>
+
+        <span className={styles.separator}>|</span>
+
         <Link href={config.kitPartenaires} className={styles.otherHeaderBrand}>
           Kit partenaires
         </Link>

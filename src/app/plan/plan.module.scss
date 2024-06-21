@@ -1,0 +1,32 @@
+$spacing: 4rem;
+
+.main {
+  background-color: var(--sable);
+  padding: $spacing;
+  min-height: 80vh;
+
+
+  h1 {
+    text-align: center;
+    padding-bottom: $spacing;
+  }
+}
+
+.imageContainer {
+  display: flex;
+
+  img {
+    margin: auto;
+    max-width: 100%;
+  }
+
+}
+
+.dlBtn {
+  display: flex;
+
+  a {
+    margin: 4rem auto auto;
+
+  }
+}
