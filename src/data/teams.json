@@ -21,29 +21,16 @@
     "linkedin": "guillaume-lefloch"
   },
   {
-    "img": "/teams/gouadon.jpeg",
-    "name": "Vincent Gouadon",
-    "role": "#Dev",
-    "linkedin": "vincent-gouadon-14099851",
-    "github": "nayosis"
+    "img": "/teams/remi.jpeg",
+    "name": "Rémi Dudragne",
+    "role": "#UX",
+    "linkedin": "rémi-dudragne"
   },
   {
     "img": "/teams/lecouls.jpeg",
     "name": "Xavier Lecouls",
     "role": "#ProductOwner",
     "linkedin": "xavier-lecouls-53867b1"
-  },
-  {
-    "img": "/teams/cozien.jpeg",
-    "name": "Alice Cozien",
-    "role": "#UX",
-    "linkedin": "cozienalice"
-  },
-  {
-    "img": "/teams/duvivier.jpeg",
-    "name": "Nicolas Duvivier",
-    "role": "#UX",
-    "linkedin": "nduvivier"
   },
   {
     "img": "/teams/fremont.jpeg",

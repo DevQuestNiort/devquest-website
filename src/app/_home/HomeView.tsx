@@ -14,6 +14,7 @@ import { Card } from "@/components/Card";
 import { LinkButton } from "../../components/LinkButton";
 import { LogoPartenaire } from "@/components/LogoPartenaire";
 import { Partenaire } from "@/model/Partenaire";
+import config from "../../data/config.json";
 
 interface HomeViewProperties {
   readonly themes: Theme[];
@@ -46,35 +47,35 @@ export default function HomeView({
             width={240}
             height={270}
         />
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/HJrr43Jssoo?si=810pPSVCaYihn0YO&rel=0&autoplay=1&mute=1"
+        
+        <LinkButton theme="Primary" href={config.shop} target="_blank">Accéder
+            Billeterie</LinkButton>
+        
+        {/*<iframe width="560" height="315" src="https://www.youtube.com/embed/HJrr43Jssoo?si=810pPSVCaYihn0YO&rel=0&autoplay=1&mute=1"
                 title="Vidéo d'introduction du DevQuest" frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-        <div className={styles.row}>
+                referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe><div className={styles.row}>
           <LinkButton theme="Secondary" href="https://photos.app.goo.gl/Uuv8qEwvxUkxnBoVA" target="_blank">Voir les
             photos</LinkButton>
           <LinkButton theme="Primary" href="https://www.youtube.com/channel/UCDFfMunDvS5yfZ9TaZfEq8w" target="_blank">Accéder
             au replays</LinkButton>
-        </div>
+        </div>*/}
       </Section>
       <Section theme="Dark">
         <h2>
-          Le DevQuest, première édition, c&apos;est fini !!
+        DevQuest revient pour une 2ème édition !
         </h2>
 
         <Card>
-          Merci @tous
-          pour cette première aventure... <br/> Nous tenions à remercier
-          l&apos;ensemble de nos partenaires, speakeuses et speakeurs,
-          bénévoles, maîtres et maîtresse de conférence pour nous avoir aidé et
-          accompagné dans cette aventure. Cette journée fut tellement intense
-          et riche pour l&apos;ensemble de la team.. Mille mercis.
-          <br />
+          En juin 2025, DevQuest revient à Noron pour vous proposer toujours plus de conférences et d'aventure !
+          <br/> 
+          📢 Nouveauté cette année, l'événément de déroulera sur 2 jours !
+          
+          <br /><br />
           Suivez nous pour ne pas manquer les futures quêtes !
           <br />
           <br />
-          Alice, Alex, Alex, Florent, Guillaume, Nicolas, Samuel, Susan,
-          Vincent, Xavier.
+          Alex P., Alex G., Alexis, Florent, Guillaume, Pauline, Rémi, Susan, Xavier.
         </Card>
 
         <div id={styles.rows}>
@@ -104,8 +105,8 @@ export default function HomeView({
               aria-hidden="true"
             />
             <p className={styles.eventSpecText}>
-              1<br />
-              journée
+              2<br />
+              journées
             </p>
           </div>
           <div>
@@ -117,9 +118,9 @@ export default function HomeView({
               aria-hidden="true"
             />
             <p className={styles.eventSpecText}>
-              500
+              600
               <br />
-              spectateurs
+              spectateurs / jour
             </p>
           </div>
           <div>
@@ -131,7 +132,7 @@ export default function HomeView({
               aria-hidden="true"
             />
             <p className={styles.eventSpecText}>
-              19
+              20
               <br />
               partenaires
             </p>
@@ -150,7 +151,7 @@ export default function HomeView({
               src="/icons-rp/potion.png"
               aria-hidden="true"
             />
-            <p className={styles.eventSpecText}>10 conférences</p>
+            <p className={styles.eventSpecText}>20 conférences</p>
           </div>
           <div>
             <Image
@@ -160,7 +161,7 @@ export default function HomeView({
               src="/icons-rp/potion-tr.png"
               aria-hidden="true"
             />
-            <p className={styles.eventSpecText}>6 quick conferences</p>
+            <p className={styles.eventSpecText}>12 quick conferences</p>
           </div>
           <div>
             <Image
@@ -170,7 +171,7 @@ export default function HomeView({
               src="/icons-rp/forgeron.png"
               aria-hidden="true"
             />
-            <p className={styles.eventSpecText}>2 workshops</p>
+            <p className={styles.eventSpecText}>4 workshops</p>
           </div>
           <div>
             <Image
@@ -316,11 +317,11 @@ export default function HomeView({
               src="/icons-rp/uniquesword.png"
               aria-hidden="true"
             />
-            <span>Unique</span>
+            <span>Légendaire</span>
           </h3>
           <div className={styles.soloImage}>
             {partenaires
-              .filter((p) => p.level === "UNIQUE")
+              .filter((p) => p.level === "LEGENDAIRE")
               .map((p, i) => (
                 <LogoPartenaire
                   key={i}
@@ -334,9 +335,7 @@ export default function HomeView({
               ))}
             <div>
               <p>
-                Wekey, le cabinet de transformation digitale qui accompagne les
-                entreprises dans le développement de leurs projets et les
-                freelances dans leur épanouissement professionnel.
+                <strong>Toujours  assureur, plus que jamais militant.</strong> Avec vous et auprès de vous, MAIF réaffirme ses engagements et contribue à la construction d'une société, plus humaine, plus solidaire et plus responsable.
               </p>
             </div>
           </div>

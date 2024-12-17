@@ -46,7 +46,7 @@ const VersionLarge = ({ pathname }: MenuProps) => {
 
         <span className={styles.separator}>|</span>
 
-        <Link
+        {/*<Link
           href="/schedule"
           className={styles.otherHeaderBrand}
           style={{
@@ -59,7 +59,7 @@ const VersionLarge = ({ pathname }: MenuProps) => {
           Programme
         </Link>
 
-        <span className={styles.separator}>|</span>
+        <span className={styles.separator}>|</span>*/}
 
         <Link href={config.kitPartenaires} className={styles.otherHeaderBrand}>
           Kit partenaires
