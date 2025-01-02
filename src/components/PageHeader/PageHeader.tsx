@@ -75,7 +75,6 @@ const VersionLarge = ({ pathname }: MenuProps) => {
           {!isActive("/") && (
             <LinkButton
               theme="Primary"
-              classes={styles.reserverMaPlace}
               href={config.shop}
             >
               Réserver mes places

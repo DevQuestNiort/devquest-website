@@ -47,9 +47,12 @@ export default function HomeView({
             width={240}
             height={270}
         />
-        
-        <LinkButton theme="Primary" href={config.shop} target="_blank">Accéder
+        <Card theme="Light" id="heroCard">
+          <h1>Le premier rassemblement de niortais</h1>
+            <LinkButton theme="Primary" href={config.shop} target="_blank">Accéder
             Billeterie</LinkButton>
+        </Card>
+        
         
         {/*<iframe width="560" height="315" src="https://www.youtube.com/embed/HJrr43Jssoo?si=810pPSVCaYihn0YO&rel=0&autoplay=1&mute=1"
                 title="Vidéo d'introduction du DevQuest" frameBorder="0"
@@ -247,7 +250,7 @@ export default function HomeView({
           ))}
         </div>
       </Section>
-      <Section theme="Light">
+      <Section theme="Dark">
         <div
           id={styles.mapContainer}
           style={{
@@ -294,7 +297,7 @@ export default function HomeView({
       </Section>
       <Section theme={"Dark"}>
         <h2>La tribu complète</h2>
-        <Card>
+        <Card theme="Light">
           <p>
             Car l&apos;aventure c&apos;est bien, mais avec des compagnons de
             route, c&apos;est mieux!

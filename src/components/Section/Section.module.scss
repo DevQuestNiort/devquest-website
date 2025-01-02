@@ -7,14 +7,10 @@
   &Light {
     background-color: var(--sable);
     color: black;
-
-    h2 {
-      color: var(--vert)
-    }
   }
 
   &Dark {
-    background-color: var(--marron);
+    background-color: var(--primary-color);
     color: white;
   }
 }

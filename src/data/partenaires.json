@@ -93,14 +93,6 @@
     "consolidated": true
   },
   {
-    "name": "NiortAgglo",
-    "asset": "niortaglo.webp",
-    "site": "https://www.niortagglo.fr/index.html",
-    "level": "AUTRE",
-    "actif": true,
-    "consolidated": true
-  },
-  {
     "name": "Digital Associates",
     "asset": "digitalassociates.png",
     "site": "https://www.digital-associates.fr/",
