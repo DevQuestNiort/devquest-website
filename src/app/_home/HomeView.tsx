@@ -296,11 +296,7 @@ export default function HomeView({
         </Galery>
       </Section>
 
-      <Section theme={"Dark"} style={{
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'center'
-      }}>
+      <Section theme={"Dark"}>
 
         <Image src={'gallery/devquest-team-2024.JPG'}
           sizes="100vw"
@@ -312,8 +308,7 @@ export default function HomeView({
           height={300}
           alt="" />
 
-
-        <div style={{ padding: '2rem' }}>
+        <div style={{ padding: '1rem', width: '100%' }}>
           <h2>C'était l'année dernière</h2>
 
           <p>Un grand merci à nos partenaires qui ont permis cette grande première à Niort.</p>
