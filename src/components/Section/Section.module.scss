@@ -12,5 +12,10 @@
   &Dark {
     background-color: var(--primary-color);
     color: white;
+
+    &:has(+ .sectionDark) {
+      background-color: var(--secondary-color); 
+    }
   }
+
 }

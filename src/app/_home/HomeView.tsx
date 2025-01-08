@@ -32,28 +32,28 @@ export default function HomeView({
   return (
     <div className={styles.main}>
       <Section
-          id={styles.heroSection}
-          style={{
-            backgroundImage: `url(${backgroundImage.src})`,
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-          }}
+        id={styles.heroSection}
+        style={{
+          backgroundImage: `url(${backgroundImage.src})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}
       >
         <Image
-            id={styles.logo}
-            src="/logo-date-lieu.svg"
-            alt="DevQuest"
-            priority
-            width={240}
-            height={270}
+          id={styles.logo}
+          src="/logo-date-lieu.svg"
+          alt="DevQuest"
+          priority
+          width={240}
+          height={270}
         />
         <Card theme="Light" id="heroCard">
           <h1>Le premier rassemblement de niortais</h1>
-            <LinkButton theme="Primary" href={config.shop} target="_blank">Accéder
-            Billeterie</LinkButton>
+          <h3>Tu veux être speaker ?</h3>
+          <LinkButton theme="Primary" href={config.cfp} target="_blank">Proposer un sujet</LinkButton>
         </Card>
-        
-        
+
+
         {/*<iframe width="560" height="315" src="https://www.youtube.com/embed/HJrr43Jssoo?si=810pPSVCaYihn0YO&rel=0&autoplay=1&mute=1"
                 title="Vidéo d'introduction du DevQuest" frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -66,14 +66,14 @@ export default function HomeView({
       </Section>
       <Section theme="Dark">
         <h2>
-        DevQuest revient pour une 2ème édition !
+          DevQuest revient pour une 2ème édition !
         </h2>
 
         <Card>
           En juin 2025, DevQuest revient à Noron pour vous proposer toujours plus de conférences et d'aventure !
-          <br/> 
+          <br />
           📢 Nouveauté cette année, l'événément de déroulera sur 2 jours !
-          
+
           <br /><br />
           Suivez nous pour ne pas manquer les futures quêtes !
           <br />
@@ -295,6 +295,35 @@ export default function HomeView({
             ))}
         </Galery>
       </Section>
+
+      <Section theme={"Dark"} style={{
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center'
+      }}>
+
+        <Image src={'gallery/devquest-team-2024.JPG'}
+          sizes="100vw"
+          style={{
+            width: '50%',
+            height: 'auto',
+          }}
+          width={500}
+          height={300}
+          alt="" />
+
+
+        <div style={{ padding: '2rem' }}>
+          <h2>C'était l'année dernière</h2>
+
+          <p>Un grand merci à nos partenaires qui ont permis cette grande première à Niort.</p>
+          <p>Rendez-vous si dessous pour découvrir ou revenir sur l’événement de 2024 !</p>
+          <LinkButton theme="Primary" href={config.gallery} target="_blank">Voir l'événement 2024</LinkButton>
+        </div>
+
+      </Section>
+
+
       <Section theme={"Dark"}>
         <h2>La tribu complète</h2>
         <Card theme="Light">
