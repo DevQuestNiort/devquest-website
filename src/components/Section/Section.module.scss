@@ -1,6 +1,7 @@
 .section {
   padding: 2rem;
   display: flex;
+  height: 100%;
   flex-direction: column;
   align-items: center;
 
@@ -12,10 +13,10 @@
   &Dark {
     background-color: var(--primary-color);
     color: white;
-
-    &:has(+ .sectionDark) {
-      background-color: var(--secondary-color); 
-    }
   }
 
+  &Secondary {
+    background-color: var(--secondary-color); 
+    color: white;
+  }
 }

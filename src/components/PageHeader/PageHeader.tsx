@@ -108,7 +108,7 @@ const VersionMobile = ({ pathname }: MenuProps) => {
           Accueil
         </Link>
 
-        <span className={styles.separator}>|</span>
+       {/*< <span className={styles.separator}>|</span>
 
         <Link
           href="/schedule"
@@ -121,7 +121,7 @@ const VersionMobile = ({ pathname }: MenuProps) => {
           }}
         >
           Programme
-        </Link>
+        </Link>*/}
       </div>
     </nav>
   );

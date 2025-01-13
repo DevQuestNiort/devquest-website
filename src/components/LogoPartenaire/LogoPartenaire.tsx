@@ -7,7 +7,7 @@ interface LogoPartenaireProperties {
   showName?: boolean;
   asset?: string;
   website?: string;
-  level: "RARE" | "COMMUN" | "LEGENDAIRE" | "AUTRE";
+  level: "RARE" | "COMMUN" | "LEGENDAIRE" | "AUTRE" | "EPIQUE";
   actif: boolean;
   as?: ElementType;
 }

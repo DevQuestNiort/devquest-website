@@ -6,11 +6,40 @@
 #heroSection {
   height: 100%;
   margin: 0 auto;
+  justify-content: end;
   color: var(--secondary-color);
   background-color: var(--sable);
 
   @media(width>900px) {
-    padding-bottom: 20rem;
+      min-height: 800px;
+  }
+
+}
+.heroCard {
+  max-width: 418px !important;
+  padding: 1.5rem 2rem !important;
+
+  @media (max-width: 600px) {
+    max-width: 100% !important;
+  }
+  h1 {
+    font-size: 56px;
+    line-height: 55px;  
+  }
+  p {
+    font-family: var(--font-teko), sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+  }
+}
+
+.accroche {
+  h2 {
+    font-size: 56px;
+  }
+  .accrocheCard {
+    font-size: 24px;
+    padding: 2rem 3rem;
   }
 }
 
@@ -48,6 +77,8 @@
 
 #rows {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -84,9 +115,27 @@
     row-gap: 1rem;
   }
 }
+.lastYear {
+flex-direction: row !important;
+justify-content: center !important;
+gap: 5rem;
+
+.imageLastYear {
+  @media (max-width: 640px) {
+    display: none;
+  }
+  }
+
+.lastYearText {
+  max-width: 600px;
+  line-height: 36px;
+  font-family: var(--font-teko), sans-serif;
+  font-size: 32px;
+}
+}
+
 
 .partnerSection {
-
   h3 {
     margin: 1.5rem 0;
 

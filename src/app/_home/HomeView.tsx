@@ -32,53 +32,40 @@ export default function HomeView({
   return (
     <div className={styles.main}>
       <Section
-        id={styles.heroSection}
-        style={{
-          backgroundImage: `url(${backgroundImage.src})`,
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
+          id={styles.heroSection}
+          style={{
+            backgroundImage: `url(${backgroundImage.src})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover"
+          }}
       >
         <Image
-          id={styles.logo}
-          src="/logo-date-lieu.svg"
-          alt="DevQuest"
-          priority
-          width={240}
-          height={270}
+            id={styles.logo}
+            src="/logo-date-lieu.svg"
+            alt="DevQuest"
+            priority
+            width={255}
+            height={262}
         />
-        <Card theme="Light" id="heroCard">
+        <Card theme="Light" className={styles.heroCard}
+        >
           <h1>Le premier rassemblement de niortais</h1>
-          <h3>Tu veux être speaker ?</h3>
-          <LinkButton theme="Primary" href={config.cfp} target="_blank">Proposer un sujet</LinkButton>
+          <p>Tu veux être speaker?</p>
+            <LinkButton theme="Primary" href={config.cfp} target="_blank">Proposer une sujet</LinkButton> 
         </Card>
-
-
-        {/*<iframe width="560" height="315" src="https://www.youtube.com/embed/HJrr43Jssoo?si=810pPSVCaYihn0YO&rel=0&autoplay=1&mute=1"
-                title="Vidéo d'introduction du DevQuest" frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe><div className={styles.row}>
-          <LinkButton theme="Secondary" href="https://photos.app.goo.gl/Uuv8qEwvxUkxnBoVA" target="_blank">Voir les
-            photos</LinkButton>
-          <LinkButton theme="Primary" href="https://www.youtube.com/channel/UCDFfMunDvS5yfZ9TaZfEq8w" target="_blank">Accéder
-            au replays</LinkButton>
-        </div>*/}
       </Section>
-      <Section theme="Dark">
+      <Section theme="Dark" className={styles.accroche}>
         <h2>
           DevQuest revient pour une 2ème édition !
         </h2>
 
-        <Card>
+        <Card className={styles.accrocheCard}>
           En juin 2025, DevQuest revient à Noron pour vous proposer toujours plus de conférences et d'aventure !
           <br />
-          📢 Nouveauté cette année, l'événément de déroulera sur 2 jours !
+          📢&nbsp;&nbsp;Nouveauté cette année, l'événément de déroulera sur 2 jours !
 
           <br /><br />
           Suivez nous pour ne pas manquer les futures quêtes !
-          <br />
-          <br />
-          Alex P., Alex G., Alexis, Florent, Guillaume, Pauline, Rémi, Susan, Xavier.
         </Card>
 
         <div id={styles.rows}>
@@ -263,13 +250,13 @@ export default function HomeView({
             <h2>Le lieu</h2>
             <h3>Parc des expositions, Niort</h3>
             <p>
-              Pour cette première quête, voulant recevoir les aventuriers dans
-              les meilleures conditions, nous vous attendons dans ce lieu bien
-              connu de tous qu&apos;est le Dôme du Parc des expositions de
+              Vous avez tous adoré vous retrouver sous ce Dôme l'année dernière.
+              Cette année nous continuons donc nos aventures au Parc des expositions de
               Niort.
             </p>
             <LinkButton
               theme="Primary"
+              target="_blank"
               href="https://www.google.com/maps/dir/?api=1&destination=46.3306968,-0.4906424"
             >
               C&apos;est parti&nbsp;!
@@ -296,19 +283,13 @@ export default function HomeView({
         </Galery>
       </Section>
 
-      <Section theme={"Dark"}>
-
-        <Image src={'gallery/devquest-team-2024.JPG'}
-          sizes="100vw"
-          style={{
-            width: '50%',
-            height: 'auto',
-          }}
-          width={500}
-          height={300}
+      <Section className={styles.lastYear} theme={"Secondary"}>
+        <Image className={styles.imageLastYear} src={'gallery/devquest-team-2024.JPG'}
+          width={600}
+          height={450}
           alt="" />
 
-        <div style={{ padding: '1rem', width: '100%' }}>
+        <div className={styles.lastYearText}>
           <h2>C'était l'année dernière</h2>
 
           <p>Un grand merci à nos partenaires qui ont permis cette grande première à Niort.</p>
@@ -319,7 +300,7 @@ export default function HomeView({
       </Section>
 
 
-      <Section theme={"Dark"}>
+     {/* < <Section theme={"Dark"}>
         <h2>La tribu complète</h2>
         <Card theme="Light">
           <p>
@@ -366,6 +347,31 @@ export default function HomeView({
               </p>
             </div>
           </div>
+          <h3>
+            <Image
+              height={32}
+              width={32}
+              alt=""
+              src="/icons-rp/raresword.png"
+              aria-hidden="true"
+            />
+            <span>EPIIIIQQUUUEEEE METTRE UNE AUTRE EPEE</span>
+          </h3>
+          <Galery>
+            {partenaires
+              .filter((p) => p.level === "EPIQUE")
+              .sort(() => (Math.random() > 0.5 ? 1 : -1))
+              .map((p, i) => (
+                <LogoPartenaire
+                  key={i}
+                  name={p.name}
+                  level={p.level}
+                  asset={p.asset}
+                  website={p.site}
+                  actif={p.actif}
+                />
+              ))}
+          </Galery>
           <h3>
             <Image
               height={32}
@@ -442,7 +448,7 @@ export default function HomeView({
               ))}
           </div>
         </div>
-      </Section>
+      </Section> */}
     </div>
   );
 }

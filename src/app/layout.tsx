@@ -8,7 +8,7 @@ import {PageHeader} from "@/components/PageHeader/PageHeader";
 import {Footer} from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
-  title: "DEVQUEST - 14 juin (Niort)",
+  title: "DEVQUEST - 5-6 juin (Niort)",
   description:
     "Vous êtes développeur ? Ne ratez pas le premier évènement dédié avec des morceaux d'aventure dedans !",
   keywords: ["devquest", "dev", "quest", "niort", "devs", "conférences"],
