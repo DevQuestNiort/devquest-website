@@ -60,9 +60,9 @@ export default function HomeView({
         </h2>
 
         <Card className={styles.accrocheCard}>
-          En juin 2025, DevQuest revient à Noron pour vous proposer toujours plus de conférences et d'aventure !
+          En juin 2025, DevQuest revient à Noron pour vous proposer toujours plus de conférences et d&apos;aventure !
           <br />
-          📢&nbsp;&nbsp;Nouveauté cette année, l'événément de déroulera sur 2 jours !
+          📢&nbsp;&nbsp;Nouveauté cette année, l&apos;événément de déroulera sur 2 jours !
 
           <br /><br />
           Suivez nous pour ne pas manquer les futures quêtes !
@@ -85,7 +85,7 @@ export default function HomeView({
           Diantre, DevQuest dîtes-vous&nbsp;? <br />
           Qu&apos;est-ce donc que cela&nbsp;?
         </h2>
-        <div id={styles.eventspec}>
+        <div id={styles.eventspec}> 
           <div>
             <Image
               height={96}
@@ -250,7 +250,7 @@ export default function HomeView({
             <h2>Le lieu</h2>
             <h3>Parc des expositions, Niort</h3>
             <p>
-              Vous avez tous adoré vous retrouver sous ce Dôme l'année dernière.
+              Vous avez tous adoré vous retrouver sous ce Dôme l&apos;année dernière.
               Cette année nous continuons donc nos aventures au Parc des expositions de
               Niort.
             </p>
@@ -290,11 +290,11 @@ export default function HomeView({
           alt="" />
 
         <div className={styles.lastYearText}>
-          <h2>C'était l'année dernière</h2>
+          <h2>C&apos;était l&apos;année dernière</h2>
 
           <p>Un grand merci à nos partenaires qui ont permis cette grande première à Niort.</p>
           <p>Rendez-vous si dessous pour découvrir ou revenir sur l’événement de 2024 !</p>
-          <LinkButton theme="Primary" href={config.gallery} target="_blank">Voir l'événement 2024</LinkButton>
+          <LinkButton theme="Primary" href={config.gallery} target="_blank">Voir l&apos;événement 2024</LinkButton>
         </div>
 
       </Section>
