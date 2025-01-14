@@ -49,23 +49,23 @@ export default function HomeView({
         />
         <Card theme="Light" className={styles.heroCard}
         >
-          <h1>Le premier rassemblement de niortais</h1>
+          <h1>Le premier rassemblement des devs Niortais</h1>
           <p>Tu veux être speaker?</p>
-            <LinkButton theme="Primary" href={config.cfp} target="_blank">Proposer une sujet</LinkButton> 
+            <LinkButton theme="Primary" href={config.cfp} target="_blank">Propose une sujet</LinkButton> 
         </Card>
       </Section>
       <Section theme="Dark" className={styles.accroche}>
         <h2>
-          DevQuest revient pour une 2ème édition !
+          Le DevQuest revient pour une 2ème édition !
         </h2>
 
         <Card className={styles.accrocheCard}>
-          En juin 2025, DevQuest revient à Noron pour vous proposer toujours plus de conférences et d&apos;aventure !
+          En juin 2025, le DevQuest revient à Noron pour vous proposer toujours plus de conférences et d&apos;aventures !
           <br />
           📢&nbsp;&nbsp;Nouveauté cette année, l&apos;événément de déroulera sur 2 jours !
 
           <br /><br />
-          Suivez nous pour ne pas manquer les futures quêtes !
+          Suivez-nous pour ne pas manquer les futures quêtes !
         </Card>
 
         <div id={styles.rows}>
@@ -82,7 +82,7 @@ export default function HomeView({
       </Section>
       <Section theme="Light">
         <h2>
-          Diantre, DevQuest dîtes-vous&nbsp;? <br />
+          Diantre, le DevQuest dîtes-vous&nbsp;? <br />
           Qu&apos;est-ce donc que cela&nbsp;?
         </h2>
         <div id={styles.eventspec}> 
@@ -293,8 +293,8 @@ export default function HomeView({
           <h2>C&apos;était l&apos;année dernière</h2>
 
           <p>Un grand merci à nos partenaires qui ont permis cette grande première à Niort.</p>
-          <p>Rendez-vous si dessous pour découvrir ou revenir sur l’événement de 2024 !</p>
-          <LinkButton theme="Primary" href={config.gallery} target="_blank">Voir l&apos;événement 2024</LinkButton>
+          <p>Rendez-vous ci-dessous pour découvrir ou revenir sur l’événement de 2024 !</p>
+          <LinkButton theme="Primary" href={config.gallery} target="_blank">Découvrir l&apos;événement 2024</LinkButton>
         </div>
 
       </Section>
