@@ -1,7 +1,8 @@
 "use client";
 
 export default function QuestExplorateur() {
-  console.log(`
+  // @TODO après l'ouverture de la billeterie 2025
+  /*console.log(`
     Félicitations explorateur !
     
     Malheureusement, tu arrives trop tard, le lapin garou a déjà été découvert. 
@@ -10,7 +11,7 @@ export default function QuestExplorateur() {
     sur la billeterie: https://www.billetweb.fr/devquest-niort-2024
     
     A bientôt !
-  `)
+  `)*/
 
   return <></>;
 }
