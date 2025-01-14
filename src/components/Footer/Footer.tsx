@@ -13,7 +13,7 @@ export const Footer = () => (
     <Link href={config.kitPartenaires}>Kit partenaires</Link>
     {" - "}
     <Link href={config.kitMedia}>Kit Média</Link>
-    {/*{" - "}
-    <Link href={'editions/2024'}>Editions 2024</Link>*/}
+    {" - "}
+    <Link href={'editions/2024'}>Editions 2024</Link>
   </footer>
 );
