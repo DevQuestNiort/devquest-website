@@ -6,6 +6,7 @@ const __dirname = path.dirname(__filename);
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    basePath: process.env.BASE_PATH || '',
     output: "export",
     images: {
         unoptimized: true,
