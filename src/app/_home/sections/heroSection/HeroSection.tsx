@@ -23,8 +23,8 @@ export function HeroSection() {
           src="/logo-date-lieu.svg"
           alt="DevQuest"
           priority
-          width={255}
-          height={262}
+          width={350}
+          height={320}
       />
       <Card theme="Light" className={styles.heroCard}
       >
