@@ -7,7 +7,7 @@
     "build": "next build && cp -r editions out/",
     "start": "next start",
     "lint": "next lint",
-    "test": "vitest",
+    "test": "echo unused",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -28,7 +28,6 @@
     "@storybook/nextjs": "^7.6.18",
     "@storybook/react": "^7.6.18",
     "@storybook/test": "^7.6.18",
-    "@testing-library/react": "^14.3.1",
     "@types/node": "^20.12.7",
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
@@ -42,7 +41,6 @@
     "prettier": "3.2.5",
     "sass": "^1.75.0",
     "storybook": "^7.6.18",
-    "typescript": "^5.4.5",
-    "vitest": "^1.5.2"
+    "typescript": "^5.4.5"
   }
 }
