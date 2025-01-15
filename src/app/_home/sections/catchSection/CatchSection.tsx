@@ -17,7 +17,7 @@ export function CatchSection({contacts}: CatchSectionProperties) {
         <Card className={styles.catchCard}>
           En juin 2025, le DevQuest revient à Noron pour vous proposer toujours plus de conférences et d&apos;aventures !
           <br />
-          📢&nbsp;&nbsp;Nouveauté cette année, l&apos;événément de déroulera sur 2 jours !
+          📢&nbsp;&nbsp;Nouveauté cette année, l&apos;événément se déroulera sur 2 jours !
 
           <br /><br />
           Suivez-nous pour ne pas manquer les futures quêtes !
