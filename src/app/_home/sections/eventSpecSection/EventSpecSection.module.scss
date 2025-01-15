@@ -1,0 +1,19 @@
+#eventspec {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    max-width: 800px;
+    margin: 2rem auto 0 auto;
+  
+    > * {
+      width: 175px;
+    }
+  }
+
+  .eventSpecText {
+    font-size: 1.6rem;
+    font-family: var(--font-teko), sans-serif;
+    line-height: 1.6rem;
+    margin: 1rem 0 0 0;
+  }

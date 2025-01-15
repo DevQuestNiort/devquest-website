@@ -1,0 +1,24 @@
+#mapContainer {
+    height: 586px;
+    max-width: 1200px;
+    display: flex;
+    align-items: flex-end;
+  
+    #cardMap {
+      max-width: 40%;
+      text-align: left;
+      align-items: flex-start;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    #mapContainer {
+        height: fit-content;
+    
+        #cardMap {
+          max-width: 100%;
+          margin: 0;
+        }
+      }
+}
+
