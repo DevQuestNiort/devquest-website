@@ -8,7 +8,7 @@ import {PageHeader} from "@/components/PageHeader/PageHeader";
 import {Footer} from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
-  title: "DEVQUEST - 14 juin (Niort)",
+  title: "DEVQUEST - 5-6 juin (Niort)",
   description:
     "Vous êtes développeur ? Ne ratez pas le premier évènement dédié avec des morceaux d'aventure dedans !",
   keywords: ["devquest", "dev", "quest", "niort", "devs", "conférences"],
@@ -28,12 +28,6 @@ export const metadata: Metadata = {
       type: "image/png",
       url: "/favicon/favicon-32x32.png",
       sizes: "32x32",
-    },
-    {
-      rel: "icon",
-      type: "image/png",
-      url: "/favicon/mstile-150x150.png",
-      sizes: "150x150",
     },
     {
       rel: "apple-touch-icon",

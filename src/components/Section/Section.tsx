@@ -2,7 +2,7 @@ import styles from "./Section.module.scss";
 
 interface SectionProperties extends React.ComponentPropsWithoutRef<"section"> {
   readonly children: React.ReactNode;
-  readonly theme?: "Light" | "Dark";
+  readonly theme?: "Light" | "Dark" | "Secondary";
 }
 
 export default function Section({

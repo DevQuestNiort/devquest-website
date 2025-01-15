@@ -8,9 +8,10 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid white;
 
     padding: 0.5rem 0;
-    background-color: var(--sable);
+    background-color: var(--primary-color);
 
     .containerFluid {
       display: flex;
@@ -29,7 +30,7 @@
       text-decoration: none;
       font-size:2rem;
 
-      color: var(--vert);
+      color: white;
       font-family: var(--font-teko), sans-serif;
     }
     .headerBrand{
@@ -37,18 +38,15 @@
     }
 
     .separator{
+      color: white;
       font-size:2rem;
-    }
-
-    .reserverMaPlace{
-
     }
 
     .mainBtnContainer{
       flex:1;
       display: flex;
-      align-items: end;
-      justify-content: end;
+      align-items: flex-end;
+      justify-content: flex-end;
     }
   }
 }
@@ -64,7 +62,7 @@
     justify-content: space-between;
 
     padding: 0.5rem 0;
-    background-color: var(--sable);
+    background-color: var(--primary-color);
 
     .containerFluid {
       display: flex;
@@ -82,7 +80,7 @@
       text-decoration: none;
       font-size:2rem;
 
-      color: var(--vert);
+      color: white;
       font-family: var(--font-teko), sans-serif;
     }
     .headerBrand{
@@ -90,6 +88,7 @@
     }
 
     .separator{
+      color: white;
       font-size:2rem;
     }
 

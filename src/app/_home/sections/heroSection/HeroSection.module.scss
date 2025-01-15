@@ -1,0 +1,38 @@
+#heroSection {
+    height: 100%;
+    margin: 0 auto;
+    justify-content: end;
+    color: var(--secondary-color);
+    background-color: var(--sable);
+  
+    @media(width>900px) {
+        min-height: 800px;
+    }
+  
+  }
+  .heroCard {
+    max-width: 418px !important;
+    padding: 1.5rem 2rem !important;
+  
+    @media (max-width: 600px) {
+      max-width: 100% !important;
+    }
+    h1 {
+      font-size: 56px;
+      line-height: 55px;  
+    }
+    p {
+      font-family: var(--font-teko), sans-serif;
+      font-size: 28px;
+      font-weight: bold;
+    }
+  }
+  
+#logo {
+    margin-bottom: 1rem;
+    user-select: none;
+    -webkit-user-drag: none;
+    @media (max-width: 640px) {
+          max-width: 90vw;
+    }
+  }
