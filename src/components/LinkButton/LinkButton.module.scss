@@ -1,6 +1,5 @@
 .btn {
   padding: 0.25em 1em;
-  border: solid 2px var(--sable);
   font-family: var(--font-teko), sans-serif;
   font-weight: bold;
   font-size: 1.75rem;
@@ -8,13 +7,15 @@
   transition: 0.25s;
 
   &Primary {
-    background-color: var(--vert);
-    color: var(--sable);
+    border: solid 2px var(--tertiary-color);
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
   }
 
   &Secondary {
-    background-color: var(--sable);
-    color: var(--vert);
+    border: solid 2px var(--primary-color);
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
   }
 
   &:hover {

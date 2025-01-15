@@ -1,0 +1,32 @@
+.partnerSection {
+    h3 {
+      margin: 1.5rem 0;
+  
+    }
+  
+    h2, h3 {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+  
+    .soloImage {
+      max-width: 1200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 3rem auto;
+      column-gap: 4rem;
+      flex-wrap: wrap;
+      text-align: start;
+  
+      p {
+        max-width: 500px;
+        font-size: 1.5rem;
+      }
+  
+      @media (max-width: 640px) {
+        text-align: center;
+      }
+    }
+  }

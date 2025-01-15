@@ -46,7 +46,7 @@ const VersionLarge = ({ pathname }: MenuProps) => {
 
         <span className={styles.separator}>|</span>
 
-        <Link
+        {/*<Link
           href="/schedule"
           className={styles.otherHeaderBrand}
           style={{
@@ -59,7 +59,7 @@ const VersionLarge = ({ pathname }: MenuProps) => {
           Programme
         </Link>
 
-        <span className={styles.separator}>|</span>
+        <span className={styles.separator}>|</span>*/}
 
         <Link href={config.kitPartenaires} className={styles.otherHeaderBrand}>
           Kit partenaires
@@ -75,7 +75,6 @@ const VersionLarge = ({ pathname }: MenuProps) => {
           {!isActive("/") && (
             <LinkButton
               theme="Primary"
-              classes={styles.reserverMaPlace}
               href={config.shop}
             >
               Réserver mes places
@@ -109,7 +108,7 @@ const VersionMobile = ({ pathname }: MenuProps) => {
           Accueil
         </Link>
 
-        <span className={styles.separator}>|</span>
+       {/*< <span className={styles.separator}>|</span>
 
         <Link
           href="/schedule"
@@ -122,7 +121,7 @@ const VersionMobile = ({ pathname }: MenuProps) => {
           }}
         >
           Programme
-        </Link>
+        </Link>*/}
       </div>
     </nav>
   );
