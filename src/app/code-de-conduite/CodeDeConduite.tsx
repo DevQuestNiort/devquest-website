@@ -8,7 +8,7 @@ export function CodeDeConduite() {
       <div className={styles.cdc}>
         <Card style={{ margin: "auto" }}>
           <p>
-            L&apos;association Devquest (organisateurs du DevQuest) est fier
+            L&apos;association Devquest (organisateurs du DevQuest) est fière
             d&apos;être une communauté ouverte, respectueuse des différences et
             de la diversité. Nous voulons que tous les participants et
             participantes (participants, conférenciers,…) vivent une expérience

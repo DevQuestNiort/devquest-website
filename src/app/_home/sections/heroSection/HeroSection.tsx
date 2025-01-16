@@ -30,7 +30,7 @@ export function HeroSection() {
       >
         <h1>Le premier rassemblement des devs Niortais</h1>
         <p>Tu veux être speaker?</p>
-          <LinkButton theme="Primary" href={config.cfp} target="_blank">Propose une sujet</LinkButton> 
+          <LinkButton theme="Primary" href={config.cfp} target="_blank">Proposer un sujet</LinkButton> 
       </Card>
     </Section>)
 }

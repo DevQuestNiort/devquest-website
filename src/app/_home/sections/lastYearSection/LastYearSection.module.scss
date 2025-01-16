@@ -1,18 +1,24 @@
 .lastYear {
-    flex-direction: row !important;
-    justify-content: center !important;
-    gap: 5rem;
-    
-    .imageLastYear {
-      @media (max-width: 640px) {
-        display: none;
-      }
-      }
-    
-    .lastYearText {
-      max-width: 600px;
-      line-height: 36px;
-      font-family: var(--font-teko), sans-serif;
-      font-size: 32px;
+  flex-direction: row !important;
+  justify-content: center !important;
+  gap: 5rem;
+
+  .imageLastYear {
+    @media (max-width: 640px) {
+      display: none;
     }
+  }
+
+  .lastYearText {
+    max-width: 600px;
+    line-height: 36px;
+    font-family: var(--font-teko), sans-serif;
+    font-size: 32px;
+  }
+
+  .gotoGallery {
+    @media (max-width: 640px) {
+      font-size: 1.4rem;
     }
+  }
+}

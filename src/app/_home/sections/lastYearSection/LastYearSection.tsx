@@ -17,7 +17,7 @@ export function LastYearSection() {
 
           <p>Un grand merci à nos partenaires qui ont permis cette grande première à Niort.</p>
           <p>Rendez-vous ci-dessous pour découvrir ou revenir sur l’événement de 2024 !</p>
-          <LinkButton theme="Primary" href={config.gallery} target="_blank">Découvrir l&apos;événement 2024</LinkButton>
+          <LinkButton classes={styles.gotoGallery} theme="Primary" href={config.gallery} target="_blank">Découvrir l&apos;événement 2024</LinkButton>
         </div>
 
       </Section>
