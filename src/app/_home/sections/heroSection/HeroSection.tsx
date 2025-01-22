@@ -29,8 +29,10 @@ export function HeroSection() {
       <Card theme="Light" className={styles.heroCard}
       >
         <h1>Le premier rassemblement des devs Niortais</h1>
-        <p>Tu veux être speaker?</p>
+        <p>Tu veux être speaker ou participant ?</p>
           <LinkButton theme="Primary" href={config.cfp} target="_blank">Proposer un sujet</LinkButton> 
+        
+          <LinkButton theme="Secondary" style={{ marginTop:'0.5rem'}} href={config.shop} target="_blank">Réserver mes places</LinkButton> 
       </Card>
     </Section>)
 }

@@ -29,7 +29,7 @@ const VersionLarge = ({ pathname }: MenuProps) => {
       <div className={styles.containerFluid}>
         <Link href="/">
           <Image
-            src={`/devquest-color.svg`}
+            src={`/devquest-color-2025.svg`}
             alt={"logo devquest"}
             width={64}
             height={64}
@@ -93,7 +93,7 @@ const VersionMobile = ({ pathname }: MenuProps) => {
       <div className={styles.containerFluid}>
         <Link href="/">
           <Image
-            src={`/devquest-color.svg`}
+            src={`/devquest-color-2025.svg`}
             alt={"logo devquest"}
             width={32}
             height={32}
