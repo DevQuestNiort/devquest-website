@@ -69,7 +69,7 @@ export function PartnersSection({partenaires}: PartnersSectionProperties) {
             />
             <span>EPIIIIQQUUUEEEE METTRE UNE AUTRE EPEE</span>
           </h3>
-          <Galery>
+          {/*<Galery>
             {partenaires
               .filter((p) => p.level === "EPIQUE")
               .sort(() => (Math.random() > 0.5 ? 1 : -1))
@@ -83,7 +83,7 @@ export function PartnersSection({partenaires}: PartnersSectionProperties) {
                   actif={p.actif}
                 />
               ))}
-          </Galery>
+          </Galery>*/}
           <h3>
             <Image
               height={32}
