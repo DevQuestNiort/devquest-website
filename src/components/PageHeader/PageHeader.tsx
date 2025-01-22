@@ -72,7 +72,7 @@ const VersionLarge = ({ pathname }: MenuProps) => {
         </Link>
 
         <div className={styles.mainBtnContainer}>
-          {!isActive("/") && config.shop && (
+          { config.shop && (
             <LinkButton
               theme="Primary"
               href={config.shop}
