@@ -6,6 +6,10 @@
   width: 100%;
   z-index: 1;
 
+  .slotRoom, .slot{
+    color: var(--primary-color);
+  }
+
   @media (max-width: 959px) {
     display: none !important;
   }
@@ -25,6 +29,9 @@
 
   .slotRoom {
     align-items: center;
+    color: var(--dark);
+    display: flex;
+    flex-direction: column;
   }
 
   .slot {
@@ -36,23 +43,17 @@
     padding: 10px;
     text-align: center;
     z-index: 1;
+    color: var(--dark);
 
-    &.opening,
-    &.break,
-    &.closing,
-    &.keynote,
-    &.lunch {
-      border: 1px solid white;
-    }
     &.fixed {
       align-items: center;
+      background-color: var(--tertiary-color);
     }
   }
 
-
   .slotSession {
-    background-color: var(--sable);
-    color: var(--vert);
+    background-color: var(--secondary-color);
+    color: var(--blanc);
   }
 
   .slotSessionInfo {
@@ -70,7 +71,7 @@
     margin-bottom: 10px;
     text-align: left;
 
-    color: var(--vert);
+    color: var(--blanc);
   }
 
   .slotSessionInfoBottom {

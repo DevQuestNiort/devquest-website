@@ -1,6 +1,7 @@
 [
   {
     "key": "day-1-open",
+    "day": "day-1",
     "start": "08:30",
     "type": "opening",
     "display": {
@@ -10,6 +11,7 @@
   },
   {
     "key": "day-1-keynote-open",
+    "day": "day-1",
     "start": "09:00",
     "type": "conference",
     "display": {
@@ -20,6 +22,7 @@
   {
     "key": "day-1-pause-1",
     "start": "09:30",
+    "day": "day-1",
     "type": "break",
     "display": {
       "row": 4,
@@ -28,6 +31,7 @@
   },
   {
     "key": "day-1-conference-1-gs",
+    "day": "day-1",
     "start": "10:00",
     "type": "conference",
     "display": {
@@ -37,6 +41,7 @@
   },
   {
     "key": "day-1-conference-1-ps",
+    "day": "day-1",
     "start": "10:00",
     "type": "conference",
     "display": {
@@ -46,6 +51,7 @@
   },
   {
     "key": "day-1-codelab-1",
+    "day": "day-1",
     "start": "10:00",
     "type": "codelab",
     "display": {
@@ -55,6 +61,7 @@
   },
   {
     "key": "day-1-pause-2",
+    "day": "day-1",
     "start": "10:50",
     "type": "break",
     "display": {
@@ -65,6 +72,7 @@
   },
   {
     "key": "day-1-conference-2-gs",
+    "day": "day-1",
     "start": "11:10",
     "type": "conference",
     "display": {
@@ -74,6 +82,7 @@
   },
   {
     "key": "day-1-conference-2-ps",
+    "day": "day-1",
     "start": "11:10",
     "type": "conference",
     "display": {
@@ -83,6 +92,7 @@
   },
   {
     "key": "day-1-launch",
+    "day": "day-1",
     "start": "12:00",
     "type": "lunch",
     "display": {
@@ -92,14 +102,17 @@
   },
   {
     "key": "day-1-conference-3-gs",
+    "day": "day-1",
     "start": "13:30",
     "type": "quickie",
     "display": {
       "row": 9,
       "size": 1
     }
-  },{
+  },
+  {
     "key": "day-1-conference-3-ps",
+    "day": "day-1",
     "start": "13:30",
     "type": "quickie",
     "display": {
@@ -109,6 +122,7 @@
   },
   {
     "key": "day-1-pause-3",
+    "day": "day-1",
     "start": "13:50",
     "type": "break",
     "display": {
@@ -118,6 +132,7 @@
   },
   {
     "key": "day-1-conference-4-gs",
+    "day": "day-1",
     "start": "14:00",
     "type": "conference",
     "display": {
@@ -127,6 +142,7 @@
   },
   {
     "key": "day-1-conference-4-ps",
+    "day": "day-1",
     "start": "14:00",
     "type": "conference",
     "display": {
@@ -136,6 +152,7 @@
   },
   {
     "key": "day-1-codelab-2",
+    "day": "day-1",
     "start": "14:00",
     "type": "codelab",
     "display": {
@@ -145,6 +162,7 @@
   },
   {
     "key": "day-1-pause-4",
+    "day": "day-1",
     "start": "14:50",
     "type": "break",
     "display": {
@@ -155,6 +173,7 @@
   },
   {
     "key": "day-1-conference-5-gs",
+    "day": "day-1",
     "start": "15:00",
     "type": "conference",
     "display": {
@@ -164,6 +183,7 @@
   },
   {
     "key": "day-1-conference-5-ps",
+    "day": "day-1",
     "start": "15:00",
     "type": "conference",
     "display": {
@@ -173,6 +193,7 @@
   },
   {
     "key": "day-1-pause-5",
+    "day": "day-1",
     "start": "15:50",
     "type": "break",
     "display": {
@@ -182,6 +203,7 @@
   },
   {
     "key": "day-1-conference-6-gs",
+    "day": "day-1",
     "start": "16:10",
     "type": "conference",
     "display": {
@@ -191,6 +213,7 @@
   },
   {
     "key": "day-1-conference-6-ps",
+    "day": "day-1",
     "start": "16:10",
     "type": "conference",
     "display": {
@@ -200,6 +223,7 @@
   },
   {
     "key": "day-1-pause-6",
+    "day": "day-1",
     "start": "17:00",
     "type": "break",
     "display": {
@@ -209,6 +233,7 @@
   },
   {
     "key": "day-1-conference-7-gs",
+    "day": "day-1",
     "start": "17:10",
     "type": "quickie",
     "display": {
@@ -218,6 +243,7 @@
   },
   {
     "key": "day-1-conference-7-ps",
+    "day": "day-1",
     "start": "17:10",
     "type": "quickie",
     "display": {
@@ -227,6 +253,7 @@
   },
   {
     "key": "day-1-pause-7",
+    "day": "day-1",
     "start": "17:30",
     "type": "break",
     "display": {
@@ -236,6 +263,7 @@
   },
   {
     "key": "day-1-conference-8-gs",
+    "day": "day-1",
     "start": "17:40",
     "type": "quickie",
     "display": {
@@ -245,6 +273,7 @@
   },
   {
     "key": "day-1-conference-8-ps",
+    "day": "day-1",
     "start": "17:40",
     "type": "quickie",
     "display": {
@@ -254,6 +283,7 @@
   },
   {
     "key": "day-1-closing-1",
+    "day": "day-1",
     "start": "18:00",
     "type": "closing",
     "display": {
