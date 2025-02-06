@@ -1,0 +1,22 @@
+[
+  {
+    "uuid": "0001",
+    "question": "En tant qu'entreprise, __je voudrais prendre des places pour mes collaborateurs__, comment puis je procéder ?",
+    "reponse": "Contacter nous par mail avec le nombre de place que vous désirez. Nous vous ferons un devis, puis une facture. Nous vous enverrons bien sur notre RIB et notre __'récépissé de déclaration Création'__ (en tant qu'association pas de K-BIS) "
+  },
+  {
+    "uuid": "0002",
+    "question": "En tant qu'entreprise exposante, Quand sera t il possible de __réserver nos places inclus__ dans le pack sponsor ?",
+    "reponse": "Pour l'instant les billets des packs n'ont pas encore été générés. Vous aurez accès à la gestion de vos places directement depuis le site https://www.devquest.fr. Nous vous préviendrons dès que tout sera disponible."
+  },
+  {
+    "uuid": "0003",
+    "question": "En tant qu'entreprise exposante,  est-il possible de découper les passes en demi-journée, afin que le maximum de nos collaborateurs puisse en bénéficier ? ",
+    "reponse": "Vous pourrez __découper les billets à la journée__, mais pas à la demi-journée.  "
+  },
+  {
+    "uuid": "0004",
+    "question": "En tant qu'entreprise exposante, pouvons nous emmener des cracheurs de feu et de vrais licornes ?",
+    "reponse": "Malheureusement pas, pour deux raisons, le feu c'est trop dangereux pour les jeunes aventuriers, et Vincent est allergique aux licornes, sans compter qu'Alex , les fera certainement rôtir... "
+  }
+]
