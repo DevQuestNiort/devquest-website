@@ -29,7 +29,6 @@ export default function HomeView({
     <div className={styles.main}>
       <HeroSection />
       <CatchSection contacts={contacts} />
-
       <TremplinSection />
       <EventSpecSection />
       <EventThemesSection themes={themes} />

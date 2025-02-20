@@ -19,10 +19,13 @@ export function TremplinSection() {
         </span>
         <span>
           Rejoignez cette quête épique et préparez votre premier talk avec
-          l’aide de mentors aguerris, prêts à vous guider dans l’art oratoire.
-          Une fois votre sujet affûté comme une lame elfique, vous monterez sur
-          scène lors de la soirée Tremplin et présenterez votre talk devant une
-          assemblée bienveillante.
+          l’aide de mentors aguerris et accompagné par{" "}
+          <a target="_blank" href="https://craftsrecords.org/">
+            Craft Records
+          </a>
+          , prêts à vous guider dans l’art oratoire. Une fois votre sujet affûté
+          comme une lame elfique, vous monterez sur scène lors de la soirée
+          Tremplin et présenterez votre talk devant une assemblée bienveillante.
         </span>
         <span>
           🏆 À la clé ? Les deux meilleurs orateurs seront invités à reprendre
@@ -33,7 +36,7 @@ export function TremplinSection() {
           ⚔️ Lancez-vous dans l’aventure et inscrivez-vous dès maintenant !
         </span>
         <LinkButton theme="Primary" href={config.cfpTremplin} target="_blank">
-          inscrivez-vous
+          Inscrivez-vous
         </LinkButton>
       </Card>
     </Section>
