@@ -1,8 +1,15 @@
 import styles from "@/app/faq/faq.module.scss";
 import Image from "next/image";
 import Markdown from "react-markdown";
+import { QuestionReponse } from "@/model/QuestionReponse";
 
-const BulleQuestionReponse = ({ questionReponse }) => {
+interface QuestionReponseProperties
+  extends React.ComponentPropsWithoutRef<"a"> {
+  readonly questionReponse: QuestionReponse;
+}
+const BulleQuestionReponse = ({
+  questionReponse,
+}: QuestionReponseProperties) => {
   return (
     <div className={styles.faqQR}>
       <span className={styles.emphaseleft}>L&apos;aventurier dit :</span>
