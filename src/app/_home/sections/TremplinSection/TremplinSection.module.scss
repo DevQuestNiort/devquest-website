@@ -1,0 +1,22 @@
+.tremplin {
+    h2 {
+      font-size: 56px;
+    }
+    .tremplinCard {
+      font-size: 24px;
+      padding: 2rem 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      span{
+
+      }
+    }
+
+    #rows {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+      }
+  }

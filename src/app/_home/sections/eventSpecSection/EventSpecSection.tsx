@@ -4,14 +4,14 @@ import Image from "next/image";
 import styles from "./EventSpecSection.module.scss";
 
 export function EventSpecSection() {
-    return (
+  return (
     <>
-    <Section theme="Light">
+      <Section theme="Dark">
         <h2>
           Diantre, le DevQuest dîtes-vous&nbsp;? <br />
           Qu&apos;est-ce donc que cela&nbsp;?
         </h2>
-        <div id={styles.eventspec}> 
+        <div id={styles.eventspec}>
           <div>
             <Image
               height={96}
@@ -55,7 +55,7 @@ export function EventSpecSection() {
           </div>
         </div>
       </Section>
-      <Section theme="Light">
+      <Section theme="Dark">
         <h2>Avec votre billet</h2>
         <p className={styles.eventSpecText}>Vous aurez accès à</p>
         <div id={styles.eventspec}>
@@ -150,5 +150,6 @@ export function EventSpecSection() {
           </div>
         </div>
       </Section>
-      </>);
+    </>
+  );
 }
