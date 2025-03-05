@@ -4,5 +4,5 @@ export interface Partenaire {
   site?: string;
   actif: boolean;
   consolidated: boolean;
-  level: 'RARE' | 'COMMUN' | 'LEGENDAIRE' | 'AUTRE';
+  level:  'LEGENDAIRE' | 'EPIQUE'| 'RARE' | 'COMMUN' | 'AUTRE' ;
 }
