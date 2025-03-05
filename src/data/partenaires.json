@@ -1,5 +1,45 @@
 [
   {
+    "asset": "altapyx.webp",
+    "name": "Altapyx",
+    "site": "https://altapyx.com/",
+    "level": "EPIQUE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "asset": "clever-cloud.png",
+    "name": "Clever Cloud",
+    "site": "https://www.clever-cloud.com/fr/",
+    "level": "EPIQUE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "asset": "darva.webp",
+    "name": "Darva",
+    "site": "https://www.darva.com/fr/",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "asset": "catamania.png",
+    "name": "Catamania",
+    "site": "https://www.catamania.com/",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
+    "asset": "apside.png",
+    "name": "Apside",
+    "site": "https://www.apside.com/fr/",
+    "level": "RARE",
+    "actif": true,
+    "consolidated": true
+  },
+  {
     "asset": "wekey.webp",
     "name": "Wekey",
     "site": "https://wekey.fr/",

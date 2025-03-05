@@ -64,12 +64,12 @@ export function PartnersSection({partenaires}: PartnersSectionProperties) {
               height={32}
               width={32}
               alt=""
-              src="/icons-rp/raresword.png"
+              src="/icons-rp/epicsword.png"
               aria-hidden="true"
             />
-            <span>EPIIIIQQUUUEEEE METTRE UNE AUTRE EPEE</span>
+            <span>Épiques</span>
           </h3>
-          {/*<Galery>
+          <Galery>
             {partenaires
               .filter((p) => p.level === "EPIQUE")
               .sort(() => (Math.random() > 0.5 ? 1 : -1))
@@ -83,7 +83,7 @@ export function PartnersSection({partenaires}: PartnersSectionProperties) {
                   actif={p.actif}
                 />
               ))}
-          </Galery>*/}
+          </Galery>
           <h3>
             <Image
               height={32}
@@ -134,7 +134,7 @@ export function PartnersSection({partenaires}: PartnersSectionProperties) {
                 />
               ))}
           </div>
-          <h2>
+          {/* <h2>
             <Image
               height={32}
               width={32}
@@ -158,7 +158,7 @@ export function PartnersSection({partenaires}: PartnersSectionProperties) {
                   actif={p.actif}
                 />
               ))}
-          </div>
+          </div> */}
         </div>
       </Section>
     );
