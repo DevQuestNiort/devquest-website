@@ -29,7 +29,7 @@ const VersionLarge = ({ pathname }: MenuProps) => {
       <div className={styles.containerFluid}>
         <Link href="/">
           <Image
-            src={`/devquest-color.svg`}
+            src={`/devquest-color-2025.svg`}
             alt={"logo devquest"}
             width={64}
             height={64}
@@ -61,6 +61,11 @@ const VersionLarge = ({ pathname }: MenuProps) => {
 
         <span className={styles.separator}>|</span>*/}
 
+        <Link href="/faq" className={styles.otherHeaderBrand}>
+          FAQ
+        </Link>
+
+        <span className={styles.separator}>|</span>
         <Link href={config.kitPartenaires} className={styles.otherHeaderBrand}>
           Kit partenaires
         </Link>
@@ -72,11 +77,8 @@ const VersionLarge = ({ pathname }: MenuProps) => {
         </Link>
 
         <div className={styles.mainBtnContainer}>
-          { config.shop && (
-            <LinkButton
-              theme="Primary"
-              href={config.shop}
-            >
+          {config.shop && (
+            <LinkButton theme="Primary" href={config.shop}>
               Réserver mes places
             </LinkButton>
           )}
@@ -93,7 +95,7 @@ const VersionMobile = ({ pathname }: MenuProps) => {
       <div className={styles.containerFluid}>
         <Link href="/">
           <Image
-            src={`/devquest-color.svg`}
+            src={`/devquest-color-2025.svg`}
             alt={"logo devquest"}
             width={32}
             height={32}
@@ -108,7 +110,7 @@ const VersionMobile = ({ pathname }: MenuProps) => {
           Accueil
         </Link>
 
-       {/*< <span className={styles.separator}>|</span>
+        {/*< <span className={styles.separator}>|</span>
 
         <Link
           href="/schedule"
