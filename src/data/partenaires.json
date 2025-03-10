@@ -1,159 +1,146 @@
 [
   {
+    "asset": "macif.webp",
+    "name": "Macif",
+    "site": "https://www.macif.fr/",
+    "level": "EPIQUE",
+    "actif": true
+    },
+  {
     "asset": "altapyx.webp",
     "name": "Altapyx",
     "site": "https://altapyx.com/",
     "level": "EPIQUE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "asset": "clever-cloud.png",
     "name": "Clever Cloud",
     "site": "https://www.clever-cloud.com/fr/",
     "level": "EPIQUE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "asset": "darva.webp",
     "name": "Darva",
     "site": "https://www.darva.com/fr/",
     "level": "RARE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "asset": "catamania.png",
     "name": "Catamania",
     "site": "https://www.catamania.com/",
     "level": "RARE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "asset": "apside.png",
     "name": "Apside",
     "site": "https://www.apside.com/fr/",
     "level": "RARE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "asset": "wekey.webp",
     "name": "Wekey",
     "site": "https://wekey.fr/",
     "level": "EPIQUE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "name": "Zenika",
     "asset": "zenika.webp",
     "site": "https://zenika.com/",
     "level": "EPIQUE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "name": "NeoSoft",
     "asset": "neosoft.webp",
     "site": "https://www.neosoft.fr/",
     "level": "RARE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "name": "Maif",
     "asset": "maif.webp",
     "site": "https://www.maif.fr/",
     "level": "LEGENDAIRE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "name": "AllTech",
     "asset": "alltech.webp",
     "site": "https://www.alltechconsulting.fr/",
     "level": "EPIQUE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "name": "IMA",
     "asset": "ima.webp",
     "site": "https://ima.eu/fr/index.php",
     "level": "RARE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },{
     "name": "Elastic",
     "asset": "elastic.png",
     "site": "http://elastic.co/fr",
     "level": "RARE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "name": "Serli",
     "asset": "serli.webp",
     "site": "https://www.serli.com/",
     "level": "RARE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "name": "Acensi",
     "asset": "acensi.webp",
     "site": "https://acensi.fr/page/accueil/fr_fr",
     "level": "COMMUN",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "name": "SII",
     "asset": "sii.webp",
     "site": "https://sii-group.com/fr-FR",
     "level": "RARE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },{
     "name": "Lunatech",
     "asset": "lunatech.jpeg",
     "site": "https://lunatech.fr",
     "level": "EPIQUE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },{
     "name": "Gedivote",
     "asset": "gedivote.jpeg",
     "site": "https://gedivote.fr",
     "level": "EPIQUE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "name": "Digital Associates",
     "asset": "digitalassociates.png",
     "site": "https://www.digital-associates.fr/",
     "level": "RARE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "name": "Chollet Traiteur",
     "asset": "chollet-traiteur.jpg",
     "site": "https://www.chollet-traiteur.com",
     "level": "AUTRE",
-    "actif": true,
-    "consolidated": true
+    "actif": true
   },
   {
     "name": "SPI Informatique",
     "asset": "spi-informatique.jpg",
     "site": "https://www.spi-informatique.fr",
     "level": "COMMUN", 
-    "actif": true,
-    "consolidated": true
+    "actif": true
   }
 ]
