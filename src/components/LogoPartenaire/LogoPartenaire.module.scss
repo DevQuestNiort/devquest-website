@@ -20,30 +20,31 @@
 
     img {
       height: auto;
+      width: 100%;
     }
 
-    &UNIQUE, &AUTRE {
+    &LEGENDAIRE {
       width: 176px;
       height: 176px;
 
       img {
-        width: 160px;
+        width: 100%;
       }
+    }
+
+    &EPIQUE {
+      width: 140px;
+      height: 140px;
     }
 
     &RARE {
-      width: 128px;
-      height: 128px;
+      width: 132px;
+      height: 132px;
     }
 
-    &COMMUN {
-      width: 100px;
-      height: 100px;
-
-      img {
-        width: 100px;
-      }
-
+    &COMMUN, &AUTRE {
+      width: 128px;
+      height: 128px;
     }
   }
 

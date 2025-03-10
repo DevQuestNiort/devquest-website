@@ -78,7 +78,7 @@ const VersionLarge = ({ pathname }: MenuProps) => {
 
         <div className={styles.mainBtnContainer}>
           {config.shop && (
-            <LinkButton theme="Primary" href={config.shop}>
+            <LinkButton theme="Primary" href={config.shop} target="_blank">
               Réserver mes places
             </LinkButton>
           )}
