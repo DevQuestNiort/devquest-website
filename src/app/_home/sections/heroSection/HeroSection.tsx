@@ -7,32 +7,36 @@ import config from "../../../../data/config.json";
 
 import backgroundImage from "/public/devquest-fond-min.png";
 
-
 export function HeroSection() {
-    return (
+  return (
     <Section
-        id={styles.heroSection}
-        style={{
-          backgroundImage: `url(${backgroundImage.src})`,
-          backgroundPosition: "center",
-          backgroundSize: "cover"
-        }}
+      id={styles.heroSection}
+      style={{
+        backgroundImage: `url(${backgroundImage.src})`,
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
     >
       <Image
-          id={styles.logo}
-          src="logo-date-lieu-2025.svg"
-          alt="DevQuest"
-          priority
-          width={350}
-          height={320}
+        id={styles.logo}
+        src="logo-date-lieu-2025.svg"
+        alt="DevQuest"
+        priority
+        width={350}
+        height={320}
       />
-      <Card theme="Light" className={styles.heroCard}
-      >
+      <Card theme="Light" className={styles.heroCard}>
         <h1>Le premier rassemblement des devs Niortais</h1>
-        <p>Tu veux être speaker ou participant ?</p>
-          <LinkButton theme="Primary" href={config.cfp} target="_blank">Proposer un sujet</LinkButton> 
-        
-          <LinkButton theme="Secondary" style={{ marginTop:'0.5rem'}} href={config.shop} target="_blank">Réserver mes places</LinkButton> 
+        <p>Tu veux participer ?</p>
+        <LinkButton
+          theme="Primary"
+          style={{ marginTop: "0.5rem" }}
+          href={config.shop}
+          target="_blank"
+        >
+          Réserver mes places
+        </LinkButton>
       </Card>
-    </Section>)
+    </Section>
+  );
 }
