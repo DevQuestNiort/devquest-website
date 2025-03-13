@@ -6,7 +6,7 @@ import styles from "./EventSpecSection.module.scss";
 export function EventSpecSection() {
   return (
     <>
-      <Section theme="Dark">
+      <Section theme="Light">
         <h2>
           Diantre, le DevQuest dîtes-vous&nbsp;? <br />
           Qu&apos;est-ce donc que cela&nbsp;?
