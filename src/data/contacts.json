@@ -18,6 +18,12 @@
     "link": "https://www.instagram.com/devquest_niort"
   },
   {
+    "name": "Facebook DevQuest",
+    "asset": "social/Facebook_icon.svg",
+    "type": "RS",
+    "link": "https://www.facebook.com/profile.php?id=61571745361976"
+  },
+  {
     "name": "Discord DevQuest",
     "asset": "social/discord.svg",
     "type": "RS",
