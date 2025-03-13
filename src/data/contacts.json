@@ -6,16 +6,22 @@
     "link": "https://www.linkedin.com/company/devquest-niort/"
   },
   {
-    "name": "X DevQuest",
-    "asset": "social/logo-x.png",
-    "type": "RS",
-    "link": "https://twitter.com/DevQuestNiort"
-  },
-  {
     "name": "Youtube DevQuest",
     "asset": "social/logo-youtube.png",
     "type": "RS",
     "link": "https://www.youtube.com/channel/UCDFfMunDvS5yfZ9TaZfEq8w"
+  },
+  {
+    "name": "Instagram DevQuest",
+    "asset": "social/logo-Instagram.png",
+    "type": "RS",
+    "link": "https://www.instagram.com/devquest_niort"
+  },
+  {
+    "name": "Discord DevQuest",
+    "asset": "social/discord.svg",
+    "type": "RS",
+    "link": "https://discord.gg/Gx8rmjZh2J"
   },
   {
     "name": "Mail",
