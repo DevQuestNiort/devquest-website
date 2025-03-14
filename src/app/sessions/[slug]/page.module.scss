@@ -1,7 +1,23 @@
 
+@media (max-width: 960px) {
+    .container{
+        .informations{
+            .infoUtile{
+                flex-direction: column;
+            }
+        }
+
+        .speakers{
+            .speaker{
+                flex-direction: column;
+            }
+        }
+    }
+}
+
 .container{
-    background: var(--marron);
-    color:white;
+    background: var(--sable);
+    color:var(--dark);
     padding: 2rem 10vw;
     min-height: calc(100vh - 235px);
 
@@ -10,6 +26,22 @@
             margin: 1rem 0;
             display: flex;
             gap: 0.3rem;
+        }
+
+        .infoUtile{
+            display: flex;
+            gap:1rem;
+            margin-top:2rem;
+
+            > *{
+                border: 1px solid var(--dark);
+                padding: 0.3rem 1.5rem;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
         }
     }
 }
@@ -23,17 +55,35 @@
 
 .chip{
     border-color: white;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.abstract{
+    background-color: white;
+    color: var(--dark);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    .quotes{
+        color: var(--secondary-color);
+    }
+    & > *:last-child{
+        text-align: right;
+    }
 }
 
 .speakers{
     gap: 1rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     
     .speaker{
         display: flex;
         gap:1rem;
-        background-color: var(--marron-clair);
+        background-color: var(--secondary-color);
+        color: white;
         border-radius: 5px;
         padding: 0.5rem 2rem;
         img{

@@ -8,6 +8,10 @@ import { Slot, SlotTypeLabel } from "@/model/Slot";
 import { Chip, tagLabels } from "@/components/Chip";
 import { FullSession } from "@/model/FullSession";
 import { Avatar } from "@/components/Avatar";
+import Image from "next/image";
+import React from "react";
+import { rooms } from "@/components/Schedule/common";
+import classNames from "classnames";
 
 type SessionProps = {
   params: {
@@ -28,7 +32,6 @@ const getSlots = async () =>
 
 export async function generateStaticParams() {
   const sessions = await getSessions();
-  const slots = await getSlots();
 
   return sessions.map((session) => ({
     title: session.title,
@@ -56,22 +59,43 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
       <h1>{myFullSession.title}</h1>
 
       <div className={styles.informations}>
-        <h2 className={styles.headingTree}>{SlotTypeLabel[myFullSession.slot.type]}</h2>
-        <div className={styles.tags}>
-          {session?.tags?.map((tag: TagsModel) => (
-            <Chip
-              icon={tagLabels[tag].icon}
-              key={tag}
-              label={tagLabels[tag].label}
-              classes={styles.chip}
+        <div className={styles.infoUtile}>
+          <div>
+            <h2 className={styles.headingTree}>
+              {SlotTypeLabel[myFullSession.slot.type]}
+            </h2>
+            <div className={styles.tags}>
+              {session?.tags?.map((tag: TagsModel) => (
+                <Chip
+                  icon={tagLabels[tag].icon}
+                  key={tag}
+                  label={tagLabels[tag].label}
+                  classes={styles.chip}
+                />
+              ))}
+            </div>
+          </div>
+          <div>
+            <Image
+              src={`/icons-rp/horloge.png`}
+              alt=""
+              width={32}
+              height={42}
             />
-          ))}
+            <h3>{myFullSession.slot.start}</h3>
+          </div>
+          <div>
+            <Image
+              src={`/icons-rp/${rooms.find((r) => r.name === myFullSession.room)?.image}`}
+              alt=""
+              width={32}
+              height={40}
+            />
+            <h3>{myFullSession.room}</h3>
+          </div>
         </div>
 
-        <div className={styles.time}>
-          <span className="material-symbols-outlined">schedule</span>{" "}
-          {myFullSession.slot.start} {myFullSession.room}
-        </div>
+        <div className={styles.time}></div>
 
         <div className={styles.speakers}>
           {myFullSession.speakers.map((speaker) => (
@@ -94,18 +118,31 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
           ))}
         </div>
       </div>
-      <p>
-        <span className="material-symbols-outlined">format_quote</span>
-        <ReactMarkdown
-          rehypePlugins={[rehypeRaw]}
+      <p className={styles.abstract}>
+        <span
+          className={classNames(["material-symbols-outlined", styles.quotes])}
         >
+          format_quote
+        </span>
+        <ReactMarkdown rehypePlugins={[rehypeRaw]}>
           {session?.abstract}
         </ReactMarkdown>
-        <span className="material-symbols-outlined">format_quote</span>
+        <span
+          className={classNames([
+            "material-symbols-outlined",
+            styles.quotes,
+            styles.quotesEnd,
+          ])}
+        >
+          format_quote
+        </span>
       </p>
-      {DISPLAY_OPENFEEDBACK && <iframe
+      {DISPLAY_OPENFEEDBACK && (
+        <iframe
           src={`https://openfeedback.io/YUkT8ETZnqhBSbABGUtS/2024-06-14/${session.id}?hideHeader=true&forceColorScheme=dark`}
-          className={styles.iframeOpenfeedback}></iframe>}
+          className={styles.iframeOpenfeedback}
+        ></iframe>
+      )}
     </div>
   );
 };

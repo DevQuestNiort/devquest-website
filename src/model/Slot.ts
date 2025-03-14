@@ -1,7 +1,8 @@
 export interface Slot {
   key: string;
   start: string;
-  type: keyof typeof  SlotTypeLabel;
+  day: string;
+  type: keyof typeof SlotTypeLabel;
   display: {
     row: number;
     size: number;
@@ -15,8 +16,8 @@ export enum SlotTypeLabel {
   break = "Pause",
   lunch = "Déjeuner & Café",
   party = "After Party",
-  quickie= 'Quickie',
-  conference= 'Conférence',
-  codelab = 'CodeLab',
-  closing = 'Fermeture'
+  quickie = "Quickie",
+  conference = "Conférence",
+  codelab = "CodeLab",
+  closing = "Fermeture",
 }

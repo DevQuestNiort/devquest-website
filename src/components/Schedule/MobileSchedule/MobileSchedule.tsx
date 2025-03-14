@@ -27,7 +27,7 @@ export const MobileSchedule = ({
   hours.forEach((hour) => {
     sessionsByHours[hour] = sessions
       .filter((s) => s.slot.start === hour)
-      .sort((s1, s2) => rooms.indexOf(s1.room) - rooms.indexOf(s2.room));
+      .sort((s1, s2) => rooms.map(r => r.name).indexOf(s1.room) - rooms.map(r => r.name).indexOf(s2.room));
     fixedSlotsByHours[hour] = fixedSlots.filter((s) => s.start === hour);
   });
 
