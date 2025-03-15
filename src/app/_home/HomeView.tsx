@@ -10,7 +10,6 @@ import { EventThemesSection } from "./sections/eventThemesSection/EventThemesSec
 import { MapSection } from "./sections/MapSection/MapSection";
 import { DungeonMastersSection } from "./sections/dungeonMastersSection/DungeonMastersSection";
 import { LastYearSection } from "./sections/lastYearSection/LastYearSection";
-import { TremplinSection } from "@/app/_home/sections/TremplinSection/TremplinSection";
 import { PartnersSection } from "./sections/partnersSection/PartnersSection";
 
 interface HomeViewProperties {
@@ -30,13 +29,12 @@ export default function HomeView({
     <div className={styles.main}>
       <HeroSection />
       <CatchSection contacts={contacts} />
-      <TremplinSection />
       <EventSpecSection />
       <EventThemesSection themes={themes} />
       <MapSection />
       <DungeonMastersSection membres={membres} />
       <LastYearSection />
-      < PartnersSection partenaires={partenaires} />
+      <PartnersSection partenaires={partenaires} />
     </div>
   );
 }
