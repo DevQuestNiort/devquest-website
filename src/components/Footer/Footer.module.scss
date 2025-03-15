@@ -8,4 +8,11 @@
   a {
     color: var(--sable);
   }
+
+  #hack {
+    color: var(--violet-fonce);
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+  }
 }
