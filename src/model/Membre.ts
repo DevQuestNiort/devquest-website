@@ -1,5 +1,5 @@
 export interface Membre {
-  img: string;
+  picture: string;
   name: string;
   role: string;
   github?: string;
