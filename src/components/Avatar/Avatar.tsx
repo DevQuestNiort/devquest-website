@@ -13,6 +13,7 @@ interface AvartarProperties {
     main?: string,
     icon?: string
   }
+  withSocials?: boolean,
 }
 
 export default function Avatar({
@@ -24,6 +25,7 @@ export default function Avatar({
   linkedin,
   x,
   classes,
+  withSocials = true,
 }: AvartarProperties) {
   return (
     <div className={classes?.main ?? ''}>
@@ -40,7 +42,7 @@ export default function Avatar({
       {role && <p className={style.role}>{role}</p>}
       {company && <p className={style.role}>{company}</p>}
 
-      <div className={style.infos}>
+      {withSocials && <div className={style.infos}>
         {github && (
           <a target="_blank" aria-label={`Github de ${name}`} href={github}>
             <span className="icon-github" style={{ color: "black" }}></span>
@@ -56,7 +58,7 @@ export default function Avatar({
             <span className="icon-x" style={{ color: "black" }}></span>
           </a>
         )}
-      </div>
+      </div>}
     </div>
   );
 }

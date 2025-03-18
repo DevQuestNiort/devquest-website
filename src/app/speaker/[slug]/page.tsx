@@ -4,6 +4,7 @@ import { promises as fs } from "fs";
 import styles from "./page.module.scss";
 import { Avatar } from "@/components/Avatar";
 import { Card } from "@/components/Card";
+import Link from "next/link";
 
 
 const getSpeakers = async () =>
@@ -47,9 +48,21 @@ const Speaker = async ({
             linkedin={speaker.social?.linkedin}
             x={speaker.social?.x}
         />
-        {speaker.bio && <Card>{speaker.bio}</Card>}
-        {speakerSessions.map(session => <div><Card>{JSON.stringify(session)}</Card></div>)}
-        {JSON.stringify(speakerSessions)}
+        {speaker.bio && <Card className={styles.bioCardSpeaker}>{speaker.bio}</Card>}
+        {speakerSessions.map((session) => (
+                <Link href={`/session/${session.slug}`} className={styles.disableLinkStyle}>
+                    <Card key={session.id} className={styles.confCardSpeaker}>
+                        <p>{session.title}</p>
+                        <div className={styles.sessionInformations}>
+                            {/*TODO: intégrer les mini cards faites dans le descriptif des conf pour la salle, jour et heure,
+                            tout sur une ligne */}
+                            <div>{session.categorie}</div>
+                            <div>JOUR</div>
+                            <div>{session.room}</div>
+                        </div>
+                    </Card>
+                </Link>            
+))}
     </div>
     )
 }

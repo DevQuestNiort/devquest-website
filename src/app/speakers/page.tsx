@@ -13,7 +13,8 @@ const getSpeakers = async () => JSON.parse(await fs.readFile(
 
 const Speakers = async () => {
   const speakers = (await getSpeakers());
-  return <main>
+  return (
+  <main>
     <Section theme="Light">
       <h2>Les orateurs</h2>
       <Galery>
@@ -21,7 +22,7 @@ const Speakers = async () => {
           .sort(() => (Math.random() > 0.5 ? 1 : -1))
           .map((speaker, i) => (
             <Link
-              key={i}
+              key={speaker.id}
               href={"/speaker/" + speaker.id} className={styles.disableLinkStyle}>
               <Avatar
                 img={speaker.picture || "/icons-rp/role-playing.png"}
@@ -30,11 +31,12 @@ const Speakers = async () => {
                 github={speaker.social?.github}
                 linkedin={speaker.social?.linkedin}
                 x={speaker.social?.x}
+                withSocials={false}
               />
             </Link>
           ))}
       </Galery>
     </Section>
-  </main>;
+  </main>);
 }
 export default Speakers;

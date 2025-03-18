@@ -1,7 +1,34 @@
 .speakerContainer {
+padding-top: 1rem;
 display: flex;
 flex-direction: column;
-justify-content: center;
 align-items: center;
 background-color: var(--sable);
+}
+
+.disableLinkStyle{
+    text-decoration: none;
+    color: inherit;
+}
+
+.bioCardSpeaker, .confCardSpeaker {
+    width: 80vw;
+}
+
+.bioCardSpeaker {
+    border: 2px var(--tertiary-color) solid;
+
+}
+
+.confCardSpeaker {
+    border: 2px var(--secondary-color) solid;
+    > p {
+        margin-top: 0;
+    }
+}
+
+.sessionInformations {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
