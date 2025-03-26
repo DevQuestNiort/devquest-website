@@ -142,5 +142,12 @@
     "site": "https://www.spi-informatique.fr",
     "level": "COMMUN", 
     "actif": true
+  },
+  {
+    "name": "Socram Banque",
+    "asset": "socram.webp",
+    "site": "https://www.socram-banque.fr/",
+    "level": "COMMUN", 
+    "actif": true
   }
 ]
