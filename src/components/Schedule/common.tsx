@@ -3,9 +3,13 @@ import Image from "next/image";
 import classNames from "classnames";
 import styles from "./common.module.scss";
 import { Chip, tagLabels } from "../Chip";
+import { Salle } from "@/model/Salle";
 import { Speaker } from "@/model/Speaker";
 
-export const rooms = ["La Forge", "L'astrarium", "Le Laboratoire"];
+export const rooms: Salle[] = [
+  {name:"La Forge", image: 'forge.png'},
+  {name:"L'astrarium", image: 'astrarium.png'},
+  {name:"Le Laboratoire", image: 'laboratoire.png'}];
 
 export const Tags = ({ tags }: { tags: TagsModel[] }) => {
   return (

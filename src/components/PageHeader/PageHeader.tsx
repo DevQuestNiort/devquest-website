@@ -47,7 +47,7 @@ const VersionLarge = ({ pathname }: MenuProps) => {
         <span className={styles.separator}>|</span>
 
         <Link
-          href="/schedule"
+          href="/schedule/day-1"
           className={styles.otherHeaderBrand}
           style={{
             fontWeight:
