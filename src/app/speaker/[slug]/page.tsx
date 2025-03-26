@@ -50,7 +50,7 @@ const Speaker = async ({
         />
         {speaker.bio && <Card className={styles.bioCardSpeaker}>{speaker.bio}</Card>}
         {speakerSessions.map((session) => (
-                <Link href={`/session/${session.slug}`} className={styles.disableLinkStyle}>
+                <Link href={`/sessions/${session.slug}`} className={styles.disableLinkStyle}>
                     <Card key={session.id} className={styles.confCardSpeaker}>
                         <p>{session.title}</p>
                         <div className={styles.sessionInformations}>

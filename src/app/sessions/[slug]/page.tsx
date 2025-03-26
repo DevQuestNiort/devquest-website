@@ -13,6 +13,7 @@ import React from "react";
 import { rooms } from "@/components/Schedule/common";
 import classNames from "classnames";
 import { Speaker } from "@/model/Speaker";
+import Link from "next/link";
 
 type SessionProps = {
   params: {
@@ -108,22 +109,24 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
 
         <div className={styles.speakers}>
           {myFullSession.speakers.map((speaker) => (
+            
             <div key={speaker.id} className={styles.speaker}>
-              <Avatar
-                classes={{
-                  main: styles.avatar,
-                  icon: styles.icon,
-                }}
-                name={speaker.name}
-                img={speaker.picture || "/icons-rp/role-playing.png"}
-                github={speaker.social?.github}
-                linkedin={speaker.social?.linkedin}
-              />
+              <Link
+            href={"/speaker/" + speaker.id} className={styles.disableLinkStyle}>
+                <Avatar
+                  classes={{
+                    main: styles.avatar,
+                  }}
+                  name={speaker.name}
+                  img={speaker.picture || "/icons-rp/role-playing.png"}
+                  withSocials={false}
+                />
 
-              <p className={styles.bio}>
-                {speaker.bio ?? `Rejoins-moi à ${myFullSession.slot.start}`}
-              </p>
-            </div>
+                <p className={styles.bio}>
+                  {speaker.bio ?? `Rejoins-moi à ${myFullSession.slot.start}`}
+                </p>
+              </Link>
+            </div> 
           ))}
         </div>
       </div>

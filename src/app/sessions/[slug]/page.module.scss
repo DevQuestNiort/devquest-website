@@ -8,7 +8,8 @@
         }
 
         .speakers{
-            .speaker{
+            .speaker>a{
+                padding-top: 1rem;
                 flex-direction: column;
             }
         }
@@ -80,12 +81,17 @@
     flex-direction: row;
     
     .speaker{
-        display: flex;
-        gap:1rem;
+        width: 100%;
+        a{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
         background-color: var(--secondary-color);
         color: white;
         border-radius: 5px;
         padding: 0.5rem 2rem;
+        
         img{
             width:64px;
             height:64px;
@@ -95,10 +101,6 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-
-            .icon{
-                color:white;
-            }
         }
         .bio{
             flex:1;
@@ -117,4 +119,9 @@
     overflow: hidden;
     padding: 16px 0;
     width: 100%;
+}
+
+.disableLinkStyle{
+    text-decoration: none;
+    color: inherit;
 }

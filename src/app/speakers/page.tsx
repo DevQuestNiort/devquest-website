@@ -28,9 +28,6 @@ const Speakers = async () => {
                 img={speaker.picture || "/icons-rp/role-playing.png"}
                 name={speaker.name}
                 company={speaker?.company}
-                github={speaker.social?.github}
-                linkedin={speaker.social?.linkedin}
-                x={speaker.social?.x}
                 withSocials={false}
               />
             </Link>
