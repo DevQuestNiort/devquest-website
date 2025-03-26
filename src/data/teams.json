@@ -1,58 +1,58 @@
 [
   {
-    "img": "/teams/pacaud.jpeg",
+    "picture": "/teams/pacaud.jpeg",
     "name": "Alexandre Pacaud",
     "role": "#Dev",
-    "linkedin": "alexandre-pacaud-78266210a",
-    "github": "Lithyon"
+    "linkedin": "https://www.linkedin.com/in/alexandre-pacaud-78266210a",
+    "github": "https://github.com/Lithyon"
   },
   {
-    "img": "/teams/guerin.jpeg",
+    "picture": "/teams/guerin.jpeg",
     "name": "Alexandre Guérin",
     "role": "#Dev",
-    "linkedin": "alexandre-guerin",
-    "github": "Ithrandil"
+    "linkedin": "https://www.linkedin.com/in/alexandre-guerin",
+    "github": "https://github.com/Ithrandil"
   },
   {
-    "img": "/teams/lefloch.jpeg",
+    "picture": "/teams/lefloch.jpeg",
     "name": "Guillaume Le Floch",
     "role": "#Dev",
-    "github": "glefloch",
-    "linkedin": "guillaume-lefloch"
+    "github": "https://github.com/glefloch",
+    "linkedin": "https://www.linkedin.com/in/guillaume-lefloch"
   },
   {
-    "img": "/teams/pauline.png",
+    "picture": "/teams/pauline.png",
     "name": "Pauline Druet",
     "role": "#Com",
-    "linkedin": "pauline-druet-a8733917b"
+    "linkedin": "https://www.linkedin.com/in/pauline-druet-a8733917b"
   },
   {
-    "img": "/teams/remi.jpeg",
+    "picture": "/teams/remi.jpeg",
     "name": "Rémi Dudragne",
     "role": "#UX",
-    "linkedin": "rémi-dudragne"
+    "linkedin": "https://www.linkedin.com/in/rémi-dudragne"
   },{
-    "img": "/teams/alexis-biard.jpeg",
+    "picture": "/teams/alexis-biard.jpeg",
     "name": "Alexis Briard",
     "role": "#Dev",
-    "linkedin": "briardalexis"
+    "linkedin": "https://www.linkedin.com/in/briardalexis"
   },
   {
-    "img": "/teams/lecouls.jpeg",
+    "picture": "/teams/lecouls.jpeg",
     "name": "Xavier Lecouls",
     "role": "#ProductOwner",
-    "linkedin": "xavier-lecouls-53867b1"
+    "linkedin": "https://www.linkedin.com/in/xavier-lecouls-53867b1"
   },
   {
-    "img": "/teams/fremont.jpeg",
+    "picture": "/teams/fremont.jpeg",
     "name": "Florent Frémont",
     "role": "#Dev",
-    "linkedin": "florent-frémont-b2a943a9"
+    "linkedin": "https://www.linkedin.com/in/florent-frémont-b2a943a9"
   },
   {
-    "img": "/teams/riou.jpeg",
+    "picture": "/teams/riou.jpeg",
     "name": "Susan Riou",
     "role": "#Ops",
-    "linkedin": "susan-riou-5a7a4a139"
+    "linkedin": "https://www.linkedin.com/in/susan-riou-5a7a4a139"
   }
 ]

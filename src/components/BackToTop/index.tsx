@@ -1,15 +1,12 @@
 'use client'
 import styles from './BackToTop.module.scss';
+import Image from "next/image";
 
 const BackToTop = () => {
   const scrollToTop = () => document.documentElement.scrollIntoView({ behavior: 'smooth' });
 
   return (
-    <>
-      <div id={styles.backToTop} onClick={scrollToTop}>
-        <span className="icon-up-big"></span>
-      </div>
-    </>
+        <Image id={styles.backToTop} onClick={scrollToTop} height="48" width="48" src="back-to-top.svg" alt="Retour en ahut de la page" aria-hidden="true"/>
   );
 };
 

@@ -5,26 +5,11 @@ export interface Session  {
     format: Format,
     categorie: string,
     abstract: string,
-    room: '',
-    speakers: Speaker[],
+    room: string,
+    speakersId: string[],
     tags: Tags[],
     cancelled: boolean,
     slot: string
-}
-
-export interface Speaker{
-    name: string,
-    id: string,
-    photo: string,
-    company: string,
-    bio?:string,
-    social?: {
-        x: string,
-        linkedin: string,
-        github: string,
-        instagram: string,
-        website: string
-    }
 }
 
 export type Format = "Workshop" | "Quickie" | "Workshop";

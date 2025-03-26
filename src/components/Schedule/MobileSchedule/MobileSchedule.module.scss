@@ -20,6 +20,23 @@
     width: 100%;
   }
 
+  .slot, .hour{
+    color: var(--dark);
+
+    &.fixed {
+      background-color: var(--tertiary-color);
+    }
+
+    &.slotSession {
+      background-color: var(--secondary-color);
+      color: var(--blanc);
+    }
+  }
+
+  .sessionLink{
+    text-decoration-color: var(--vert);
+  }
+
   .slot {
     word-wrap: break-word;
     border-radius: 5px;
@@ -30,20 +47,8 @@
     text-align: center;
     z-index: 1;
 
-    &.opening,
-    &.break,
-    &.lunch {
-      border: 1px solid white;
-    }
-
-    &.slotSession {
-      background-color: var(--sable);
-      color: var(--vert);
-    }
-
     .sessionTitle {
       text-align: left;
-      color: var(--vert);
     }
 
     .sessionInfoMiddle {
@@ -56,9 +61,7 @@
     }
   }
 
-  .sessionLink{
-    text-decoration-color: var(--vert);
-  }
+
 
   .cancelled {
     opacity: 50%;

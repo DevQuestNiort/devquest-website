@@ -19,7 +19,7 @@
   },
   {
     "name": "Mail",
-    "icon": "icon-mail",
+    "asset": "social/logo-mail.svg",
     "type": "MAIL",
     "link": "mailto:bureau@devquest.fr"
   }
