@@ -18,7 +18,7 @@
         "id": "ioc2x2nW4KV5zrt69ZQm",
         "title": "Dessine moi un graphique (en CSS)",
         "abstract": "Les rutilantes nouveautés de CSS des dernières années permettent d’envisager de plus en plus sereinement l’abandon du JS pour créer des graphiques de données — en partant d’un tableau HTML sémantique et accessible, tant qu’à faire. Le CSS évolue à vitesse grand V, et vous verrez qu’on peut aller bien plus loin que vous ne l’auriez imaginé !\n\n",
-        "speakersId": ["Gaël Poupard"
+        "speakersId": ["gael-poupard"
         ],
         "format": "Conférence",
         "categorie": "Frontend",

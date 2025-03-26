@@ -32,94 +32,7 @@
     },
     {
         "name": "Gaël Poupard",
-        "id": "YtwBB1tQOvPPUtv5kF729IErT4A2",
-        "picture": "https://avatars.githubusercontent.com/u/2890570?v=4",
-        "company": "ONEPOINT",
-        "bio": "Lead tech front et accessibilité à Nantes, je profite du soleil pendant les conf’ et dis des âneries régulièrement. Les jeux de mots sont notre avenir, ne nous économisons pas.",
-        "social": 
-                {"x": null,
-                "github": "https://github.com/ffoodd"}
-        ,
-        "sessionsId": ["ioc2x2nW4KV5zrt69ZQm"]
-
-    },
-    {
-        "name": "Julien Landuré",
-        "id": "julien-landure",
-        "picture": "https://lh5.googleusercontent.com/-BrUtXil2gXA/AAAAAAAAAAI/AAAAAAAArDA/X8QWXTZ-ZrA/picture.jpg",
-        "company": "Zenika",
-        "bio": "CTO de Zenika Nantes, Julien est aussi Google Developer Expert Cloud. Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes.",
-        "social": 
-            {
-                "x": "https://twitter.com/jlandure",
-                "github": "https://github.com/jlandure",
-                "linkedin": "fefefe"
-            }
-        ,
-        "sessionsId": ["Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt"
-
-        ]
-    },
-    
-    {
-        "name": "Annabelle Koster",
-        "id": "annabelle-koster",
-        "picture": null,
-        "company": "Sfeir",
-        "bio": "Ancienne Recruteuse IT, désormais Ambassadrice des communautés SFEIR. Je suis membre du GDG Nantes et organisatrice du DevFest Nantes depuis 2016, et présidente depuis 2020 ! Passionnée de l'univers IT, de mon métier et fan des Spice Girls !",
-        "social": {
-                "x": "https://twitter.com/AnnabelleKoster",
-                "github": null}
-        ,
-        "sessionsId": ["Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt"]
-
-    },
-    {
-        "name": "Gaël Poupard",
-        "id": "YtwBB1tQOvPPUtv5kF729IErT4A2",
-        "picture": "https://avatars.githubusercontent.com/u/2890570?v=4",
-        "company": "ONEPOINT",
-        "bio": "Lead tech front et accessibilité à Nantes, je profite du soleil pendant les conf’ et dis des âneries régulièrement. Les jeux de mots sont notre avenir, ne nous économisons pas.",
-        "social": 
-                {"x": null,
-                "github": "https://github.com/ffoodd"}
-        ,
-        "sessionsId": ["ioc2x2nW4KV5zrt69ZQm"]
-
-    },{
-        "name": "Julien Landuré",
-        "id": "julien-landure",
-        "picture": "https://lh5.googleusercontent.com/-BrUtXil2gXA/AAAAAAAAAAI/AAAAAAAArDA/X8QWXTZ-ZrA/picture.jpg",
-        "company": "Zenika",
-        "bio": "CTO de Zenika Nantes, Julien est aussi Google Developer Expert Cloud. Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes.",
-        "social": 
-            {
-                "x": "https://twitter.com/jlandure",
-                "github": "https://github.com/jlandure",
-                "linkedin": "fefefe"
-            }
-        ,
-        "sessionsId": ["Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt"
-
-        ]
-    },
-    
-    {
-        "name": "Annabelle Koster",
-        "id": "annabelle-koster",
-        "picture": null,
-        "company": "Sfeir",
-        "bio": "Ancienne Recruteuse IT, désormais Ambassadrice des communautés SFEIR. Je suis membre du GDG Nantes et organisatrice du DevFest Nantes depuis 2016, et présidente depuis 2020 ! Passionnée de l'univers IT, de mon métier et fan des Spice Girls !",
-        "social": {
-                "x": "https://twitter.com/AnnabelleKoster",
-                "github": null}
-        ,
-        "sessionsId": ["Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt"]
-
-    },
-    {
-        "name": "Gaël Poupard",
-        "id": "YtwBB1tQOvPPUtv5kF729IErT4A2",
+        "id": "gael-poupard",
         "picture": "https://avatars.githubusercontent.com/u/2890570?v=4",
         "company": "ONEPOINT",
         "bio": "Lead tech front et accessibilité à Nantes, je profite du soleil pendant les conf’ et dis des âneries régulièrement. Les jeux de mots sont notre avenir, ne nous économisons pas.",
@@ -130,5 +43,4 @@
         "sessionsId": ["ioc2x2nW4KV5zrt69ZQm"]
 
     }
-
 ]

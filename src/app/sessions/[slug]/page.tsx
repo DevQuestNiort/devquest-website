@@ -12,6 +12,7 @@ import Image from "next/image";
 import React from "react";
 import { rooms } from "@/components/Schedule/common";
 import classNames from "classnames";
+import { Speaker } from "@/model/Speaker";
 
 type SessionProps = {
   params: {
@@ -30,6 +31,11 @@ const getSlots = async () =>
     await fs.readFile(process.cwd() + "/src/data/slots.json", "utf8"),
   ) as Slot[];
 
+const getSpeakers = async () => JSON.parse(await fs.readFile(
+  process.cwd() + "/src/data/speakers.json",
+  "utf8",
+)) as Speaker[];
+
 export async function generateStaticParams() {
   const sessions = await getSessions();
 
@@ -47,9 +53,12 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
   if (!session) {
     throw new Error("Session introuvable");
   }
+
+  const speakers = await getSpeakers();
   const myFullSession = {
     ...session,
     slot: slots.find((s) => s.key === session.slot),
+    speakers: session.speakersId.map(speakerId => speakers.find((s) => s.id === speakerId)) 
   } as FullSession;
 
   const DISPLAY_OPENFEEDBACK = true;
@@ -106,7 +115,7 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
                   icon: styles.icon,
                 }}
                 name={speaker.name}
-                img={speaker.photo || "/icons-rp/role-playing.png"}
+                img={speaker.picture || "/icons-rp/role-playing.png"}
                 github={speaker.social?.github}
                 linkedin={speaker.social?.linkedin}
               />
