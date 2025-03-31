@@ -166,7 +166,7 @@
   },
   {
     "name": "Jérémy BERNARD",
-    "id": "jérémy-bernard",
+    "id": "jeremy-bernard",
     "picture": "https://lh3.googleusercontent.com/a/ACg8ocIZHlEUOpiKIkEhnd3LNO4nSyp_odsYNcWQ703PgrRCDnWzWQ=s96-c",
     "company": null,
     "bio": "Nom : Maître du Code, le Forgeur de Performances\nRace : Humain\nClasse : Archimage du Développement (Spécialisation : Java & Performance)\nAlignement : Loyal Neutre (car l’optimisation et la rigueur priment sur le chaos du code mal conçu)\nCompétences : TDD mystique, Invocation de microservices, Enchantement de pipelines DevOps, Élixir de performance extrême\n\nDans les royaumes brumeux du Développement, un héros s’est levé il y a plus d’une décennie. Armé de sa plume de code et de son grimoire d’optimisations, il a traversé les donjons labyrinthiques des projets legacy, dompté les dragons des performances médiocres et repoussé les hordes d’exceptions runtime.\n\nAu fil des années, il a façonné son art, maîtrisant le Test-Driven Development comme un moine perfectionnant ses katas, jusqu’à atteindre la sagesse du classicisme. Dans les terres austères de l’Assurance, il a forgé son armure de résilience, bâtissant des citadelles de code robuste et scalable, inébranlables face aux tempêtes du changement.\n\nMais son périple ne s’arrête pas là. Habité par une passion ardente pour le DevOps, il érige des passerelles entre le royaume des Développeurs et celui des Opérations, sculptant des pipelines de CI/CD aussi fluides que la magie la plus pure.\n\nEt tandis que l’aube d’un nouveau projet pointe à l’horizon, le Maître du Code se tient prêt, son IDE en main, ses tests unitaires invoqués, prêt à écrire une nouvelle légende dans le grand Codex du Développement.",
@@ -196,7 +196,7 @@
   },
   {
     "name": "Stéphane Philippart",
-    "id": "stéphane-philippart",
+    "id": "stephane-philippart",
     "picture": "https://avatars0.githubusercontent.com/u/26224751?v=4",
     "company": "OVHcloud",
     "bio": "Durant plus de 20 ans dans le métier \"d'informaticien\" j'ai pu me confronter à beaucoup de technologies différentes. Et c'est cette diversité qui me fait continuer à autant aimer notre métier.\n\nDepuis maintenant 3 ans j'ai la chance d'évoluer au sein d'OVHcloud en tant que developer advocate. Cette position me permet de découvrir de nouvelles technologies ou disciplines comme l’Intelligence Artificielle ou le \"cloud native\" par exemple.\n\nMais mon cœur de vieux développeur Java ne peut pas trop s'éloigner de cette technologie qui est le fil rouge de mes nombreuses années de développeur.\n\nC'est avec humilité que je partage cette expérience mais aussi les nouveautés de notre écosystème à travers mes conférences et le meetup TADx co-créé à Tours.",
@@ -301,7 +301,7 @@
   },
   {
     "name": "Julien Landuré",
-    "id": "julien-landuré",
+    "id": "julien-landure",
     "picture": "https://lh5.googleusercontent.com/-BrUtXil2gXA/AAAAAAAAAAI/AAAAAAAArDA/X8QWXTZ-ZrA/photo.jpg",
     "company": "TechTown",
     "bio": "CTO, Julien est aussi Google Developer Expert Cloud. Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes. Julien organise également une nouvelle conférence appelée TechReady.",
@@ -331,7 +331,7 @@
   },
   {
     "name": "craft Softwr & Music",
-    "id": "craft-softwr-&-music",
+    "id": "craft-softwr-music",
     "picture": "https://pbs.twimg.com/profile_images/1432834656693628931/5UY9g_2i_normal.jpg",
     "company": "ITER organisation",
     "bio": "I wrote my first lines of code at the age of 11 on a ZX81.\nA bit later, I loved to code in ADA and Pascal \nSince then,  I've been a software craftsman for 30 years, a student of Laurent Bossavit, Jonathan Peret, and Olivier Azeau. \nI have also been a software architect, project manager, and team leader. I have worked for various IT services companies and software publishers, including 10 years at Varian Medical Systems and more recently at ITER org.\nI'm a C# and JS coder from the beginning, I have recently delved into Kotlin with delight. I believe that good development consists of 70% discussion, 20% testing, and 10% coding.",
@@ -361,7 +361,7 @@
   },
   {
     "name": "Mélissa PINON",
-    "id": "mélissa-pinon",
+    "id": "melissa-pinon",
     "picture": "https://lh3.googleusercontent.com/a/ACg8ocLmFq2fLGJ8MUtbKOCHo-Rt7LydRSzbtspggxQb01wrzzKQ1A=s96-c",
     "company": "Sopra Steria",
     "bio": "Ingénieur DevOps/SRE depuis 3 ans. Je travaille avec mon équipe sur l'industrialisation de multiples projets pour Sopra Steria.\nNous fournissons et maintenons des outils, gérons la partie Gitlab CI/CD et administrons les clusters Kubernetes.\nEt lorsque nous en avons l'occasion, nous testons de nouveaux outils !\n \nUne passion: automatiser ce qui peut l'être 🔨\nUne addiction: la caféine ☕",
@@ -481,7 +481,7 @@
   },
   {
     "name": "Noëlie Roux",
-    "id": "noëlie-roux",
+    "id": "noelie-roux",
     "picture": "https://pbs.twimg.com/profile_images/1505789594029203457/bmgDRuvp_400x400.jpg",
     "company": "Jaji",
     "bio": "Noëlie est une experte en ingénierie et en accessibilité numérique, passionnée par la création d’expériences inclusives. Également intervenante, elle forme la nouvelle génération de développeurs et développeuses à intégrer l’accessibilité dès la conception de leurs projets.\n\nEn parallèle, Noëlie œuvre en tant que bénévole chez Game'Her, où elle promeut la diversité dans l'esport , le jeu vidéo et le streaming, tout en sensibilisant à l'accessibilité des jeux vidéo.\n\nAu travers de toutes ces actions, elle s’engage à rendre le numérique, qu’il s’agisse de jeux ou d’applications web, accessible à tous.",
@@ -555,23 +555,8 @@
     ]
   },
   {
-    "name": "Fabien Vauchelles",
-    "id": "fabien-vauchelles",
-    "picture": "https://www.dropbox.com/scl/fi/2uyahtg8xypny4r6iq791/fabienvauchelles2.jpeg?rlkey=94jpwqsprgnnv1csw9ksujtld&dl=1",
-    "company": "Scrapoxy",
-    "bio": "Fabien Vauchelles est expert Anti-Ban. Avec plus de 10 ans d’expérience dans le Web Scraping, il analyse et construit des solutions pour contourner les solutions anti-bots. Il est aussi le créateur de Scrapoxy, un agrégateur de proxy open source dédié au Web Scraping.\n\nIl a eu l’opportunité de parler à des conférences comme Devoxx, PyCon, Voxxed Days, API Days, PyData, …",
-    "social": {
-      "x": "https://x.com/fabienv",
-      "github": "https://github.com/fabienvauchelles",
-      "linkedin": ""
-    },
-    "sessionsId": [
-      "cm6f1emjd00o0qy3miw78fslj"
-    ]
-  },
-  {
     "name": "Dorian Lamandé",
-    "id": "dorian-lamandé",
+    "id": "dorian-lamande",
     "picture": "https://sessionize.com/image/860d-200o200o2-af67621f-91b1-453a-8f1d-d0a857a71aee.jpg",
     "company": null,
     "bio": "Dorian, à la fois formateur et leader d'équipe partage avec enthousiasme ses compétences humaines et techniques pour inspirer et guider chacun vers l'exploitation totale de leurs capacités.",
@@ -631,7 +616,7 @@
   },
   {
     "name": "Sébastien Ferrer",
-    "id": "sébastien-ferrer",
+    "id": "sebastien-ferrer",
     "picture": "https://sebferrer.fr/1666729566238.png",
     "company": "OVHcloud",
     "bio": "Sébastien est ingénieur logiciel chez OVHcloud à Nantes, dans l'équipe SIA (Service Integration & Automation). Exerçant ce métier depuis maintenant plus de 12 ans, il a toujours aimé vulgariser et partager ses connaissances en public.\nAyant animé de nombreuses présentations illustrées par des démonstrations dans le domaine des Intelligences Artificielles lors de son précédent travail à Nokia, il anime actuellement des conférences autour de la cybersécurité et de la gestion d'incidents.\n\nLes conférences qu'il effectue actuellement traitent de la confiance dans le monde numérique (la confiance dans le web), de la fédération d'identité, de la gestion d'incidents / troubleshooting et des choix de carrière dans le monde de la tech. Elles sont accessibles pour tout public.\n\nIl est passionné par le théâtre, ayant joué 10 ans dans une troupe en région parisienne.",
@@ -706,7 +691,7 @@
   },
   {
     "name": "François-Xavier Lair",
-    "id": "françois-xavier-lair",
+    "id": "francois-xavier-lair",
     "picture": "https://gravatar.com/avatar/104f6c81f962a3525317dfcb58648d3e",
     "company": "onepoint",
     "bio": "Après plus d'une dizaine d'année de Devfront j'interviens à présent sur les projets en tant qu'expert accessibilité et  qualité. Expert BBQ (Bike, Beer and QualityWeb), quand je ne bosse pas sur la qualité Web j'adore bricoler des vélos ou brasser de la bière.",
@@ -721,7 +706,7 @@
   },
   {
     "name": "Loïc Broquet",
-    "id": "loïc-broquet",
+    "id": "loic-broquet",
     "picture": "https://avatars.githubusercontent.com/u/555864?v=4",
     "company": "Theodo.FinTech",
     "bio": "Enthusiast software crafter\n\nPlaying around with Java since 2003\n\nSince 2019 I also enjoy experimenting with Domain Driven Design and how to persist business knowledge in a project in a way that resists turnover and product evolution",
@@ -736,7 +721,7 @@
   },
   {
     "name": "Gaël Poupard",
-    "id": "gaël-poupard",
+    "id": "gael-poupard",
     "picture": "https://avatars.githubusercontent.com/u/2890570?v=4",
     "company": "Onepoint",
     "bio": "Lead tech front et référent accessibilité chez Onepoint à Nantes, je profite du soleil pendant les conf’ et dis des âneries régulièrement. Les jeux de mots sont notre avenir, ne nous économisons pas.",
@@ -751,7 +736,7 @@
   },
   {
     "name": "Jean Paliès",
-    "id": "jean-paliès",
+    "id": "jean-palies",
     "picture": "https://avatars0.githubusercontent.com/u/98090?v=4",
     "company": "Freelance",
     "bio": null,
@@ -766,7 +751,7 @@
   },
   {
     "name": "Cécilia Bossard",
-    "id": "cécilia-bossard",
+    "id": "cecilia-bossard",
     "picture": "https://sessionize.com/image/30d6-200o200o2-fJ9u5e5fzQ7xPMRkdvht4N.jpeg",
     "company": null,
     "bio": "Développeuse depuis près de 20 ans, je m'intéresse à beaucoup de sujets et aime partager avec les différentes communautés. \n\nJe fais partie de la communauté des Duchess et je suis aussi organisatrice de meetups et de conférences (Software Crafters Nantes, Coding goûters, Devoxx4kids, Nantes Craft)\n\nEt si je ne suis pas derrière mon clavier, c'est probablement que je suis dehors en train de m'occuper de mes abeilles :)",
@@ -796,7 +781,7 @@
   },
   {
     "name": "Grégory Bersegeay",
-    "id": "grégory-bersegeay",
+    "id": "gregory-bersegeay",
     "picture": "https://avatars2.githubusercontent.com/u/24611720?v=4",
     "company": null,
     "bio": "Developpeur Fullstack à la MAIF\nMVP Embarcadero Delphi",

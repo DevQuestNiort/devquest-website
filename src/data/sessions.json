@@ -39,7 +39,7 @@
     "title": "Succès débloqué : rendre son jeu vidéo accessible",
     "abstract": "Avec près de 400 millions de joueurs et de joueuses en situation de handicap, rendre les jeux vidéo accessibles n’est pas seulement une nécessité sociale, mais aussi une opportunité de toucher un public plus large. Cette conférence explore des exemples concrets et des solutions pratiques, comme les contrôleurs adaptés, les filtres visuels et les ajustements cognitifs, tout en montrant comment dépasser les barrières involontaires pour créer des expériences inclusives.  Au-delà des outils, l’accessibilité est une philosophie de design qui améliore l’expérience pour tous et toutes, qu’il s’agisse de joueurs et joueuses en situation de handicap, novices ou casual. En intégrant ces principes dès la conception, les équipes de développement enrichissent non seulement leurs jeux, mais aussi la diversité et leur communauté.",
     "speakersId": [
-      "noëlie-roux",
+      "noelie-roux",
       "yasmine-messaoudi"
     ],
     "format": "Conférence",
@@ -58,7 +58,7 @@
     "title": "1h50min pour créer une App Front avec la Clean Archigonale ©️",
     "abstract": "**Tout le monde pense que la \"Clean Architecture / Architecture Hexagonale\" se fait uniquement côté Back.**   Dans ce **live coding**, je vais vous montrer que cela fonctionne également **côté Front**.  Et oui, Redux n'est pas le Silver Bullet des applications front-end.   Et oui, Les Stores ne sont pas toujours obligatoires, mais ceci est une autre histoire !  On va coder ensemble une petit App Front pour voir comment mettre en place cela.  **Take away :**  Architecture   Stratégie de Tests",
     "speakersId": [
-      "dorian-lamandé",
+      "dorian-lamande",
       "guillaume-chauvet"
     ],
     "format": "Workshop",
@@ -242,7 +242,7 @@
     "title": "Vers une Métrique DDD Continue : Dépasser les Limites de l'Event Storming",
     "abstract": "Le monde du développement logiciel oscille entre précision de la conception et rapidité d'itérations. Depuis quelques années, le DDD est revenu à la mode et pousse les équipes à bien identifier les bounded contexts et leurs langages ubiquitaires en collaborant de plus en plus avec les métiers. Mais que se passe-t'il quand le projet est lancé ? La routine des sprints prend le dessus avec une base de code qui diverge de plus en plus des bonnes intentions initiales. Dans ce talk je vous présenterai une innovation qui permet de suivre en continu avec une métrique et une courbe la qualité du langage ubiquitaire dans le code avec: - Mettre en place et maintenir un lexique métier par bounded context - S'outiller avec de l'AST afin d'extraire un score DDD d'une base de code - Se servir du management visuel pour impliquer et négocier avec les métiers  L'outil est actuellement déployé au sein de la Banque Publique d'Investissement et permet de prioriser les efforts de conception entre une douzaine d'équipes.",
     "speakersId": [
-      "loïc-broquet"
+      "loic-broquet"
     ],
     "format": "Conférence",
     "categorie": "Méthodo & Architecture",
@@ -335,8 +335,8 @@
     "title": "\"Mais qu'est ce qu'on va devenir ?\" - Le métier de dev passé au crible des scénarios de l'ADEME",
     "abstract": "Il est désormais acté que le numérique est une source non négligeable du dérèglement climatique actuel. Et lorsque l'on commence à creuser ce sujet, on finit souvent par se demander si nos métiers ont encore un avenir.  Dans son exercice de projection \"Transitions 2050\", l'ADEME a défini 4 scénarios pour atteindre la neutralité carbone d'ici à 2050. De la génération frugale au pari réparateur, venez découvrir ces différents scénarios et vous projeter dans chacun d'entre eux pour imaginer avec nous l'évolution de nos métiers et les adaptations qui seront nécessaires pour atteindre cet objectif.   Après avoir réfléchi en petits groupes sur les différents scénarios, nous effectuerons une mise en commun des conclusions. Et nous terminerons par un petit débat pour que chacun se positionne sur le ou les futurs qui lui semblent les plus désirables.",
     "speakersId": [
-      "jean-paliès",
-      "cécilia-bossard"
+      "jean-palies",
+      "cecilia-bossard"
     ],
     "format": "Workshop",
     "categorie": "Quêtes Secondaires",
@@ -354,7 +354,7 @@
     "title": "Une identité pour les fédérer toutes !",
     "abstract": "Dans un monde numérique où nos identités sont sollicitées à chaque clic, une question se pose : faut-il vraiment créer un compte à chaque fois que l’on accède à une nouvelle application ?  De FranceConnect aux boutons “Se connecter avec…” que vous croisez partout, ces solutions simplifient nos vies numériques. Mais avez-vous déjà réfléchi à ce qui se passe en coulisses ? Pourquoi pouvez-vous naviguer entre les outils de votre entreprise sans vous réauthentifier ? Et surtout, comment tout cela reste-t-il sécurisé ?  Dans ce talk, je vous propose de découvrir les principes de l’identité fédérée et du Single Sign-On (SSO), ces outils qui rendent votre navigation plus fluide. Nous parlerons des bases qui rendent ce système universel et fiable, tout en évoquant brièvement les protocoles qui le soutiennent, comme SAML et OIDC, pour satisfaire votre curiosité technique, sans jamais vous noyer dans les détails.  Que vous soyez un utilisateur intrigué ou un développeur souhaitant explorer ces concepts, vous découvrirez un univers où simplicité et sécurité s’entrelacent pour créer des expériences numériques à la fois puissantes et élégantes.",
     "speakersId": [
-      "sébastien-ferrer"
+      "sebastien-ferrer"
     ],
     "format": "Quickie",
     "categorie": "Cloud & DevSecOps",
@@ -422,23 +422,6 @@
     "cancelled": false
   },
   {
-    "id": "Y2lZpK9WwGOtlJAClHuT4KJWDddf1ClKnt",
-    "title": "TODO",
-    "abstract": "TODO",
-    "speakersId": [
-      "geoffrey-graveaud"
-    ],
-    "format": "Keynote",
-    "categorie": "Keynote",
-    "tags": [
-      "keynote"
-    ],
-    "room": "La Forge",
-    "slot": "day-2-keynote-open",
-    "slug": "keynote-day-2",
-    "cancelled": false
-  },
-  {
     "id": "cm63ldyyb049mqy3m34x4qx89",
     "title": "Le dilemme du code legacy : on maintient ou on réécrit ?",
     "abstract": "Avez-vous déjà été confronté à l'anxiété de travailler dans une base de code legacy, craignant que même un changement mineur ne provoque des erreurs en cascade ? Évitez-vous de toucher à certaines parties du code parce que les tests vous semblent être des obstacles fragiles plutôt que des filets de sécurité ? Vous n'êtes pas seul.  Le code legacy n'est souvent pas accompagné de tests propres, et lorsque des tests sont présents, ils peuvent être fragiles, incomplets ou trop complexes. Comment retrouver la confiance et rompre ce cycle de prudence et de confusion ? Comment transformer les tests en un outil d’automatisation plutôt qu'en une source de frustration ?  Dans cette conférence, je partagerai avec vous quelques techniques concrètes pour identifier les zones à risque et rendre le code existant plus robuste et plus clair grâce à des stratégies de refonte et de test ciblées.  Le tout en live coding !",
@@ -498,7 +481,7 @@
     "title": "Cloud Run... tout ce qu'il faut sans K8S",
     "abstract": "Docker est arrivé en 2016 en France permettant de packager nos applications facilement. Il a fallu maîtriser les concepts de Docker : commandes, isolation, optimisation des layers etc.  Ensuite, la solution leader d'orchestration Kubernetes est arrivée permettant de scaler ces containers. Pour permettre à K8S de gérer correctement un nom de domaine en TLS, livrer de façon transparente en production, faire du test A/B, il faut là encore retrousser les manches.  Basé sur le projet Open Source Knative, Cloud Run est LA solution parfaite pour déployer des conteneurs et permet de gérer tout ça : autoscaling, gestion du traffic et bien d'autres fonctionnalités !  Faisons un tour des petits plus de cette solution : nous y trouvons la majorité des features d'un Kubernetes sans Kubernetes. Je vous partagerai mon expérience et essaierai de montrer pourquoi les solutions Serverless & Cloud Run sont l'avenir.",
     "speakersId": [
-      "julien-landuré"
+      "julien-landure"
     ],
     "format": "Conférence",
     "categorie": "Cloud & DevSecOps",
@@ -517,7 +500,7 @@
     "abstract": "Vous avez entendu parler de DDD, d'architecture hexagonale ? De la pyramide des tests? Vous en avez marre de ces conférences théoriques sur le sujet et vous aimeriez enfin coder avec ces paradigmes?  Vous auriez tant voulu appliquer le TDD, mais il vous fait peur; ou bien \"vous n'avez pas le temps\" pour le faire en prod? Vous aimeriez savoir comment écrire ET tester des entités métier ?   Vous avez entendu parler des ports/adapteurs, comment les utiliser ?  Vous voudriez savoir si c'est  vraiment incontournable d'utiliser les \"mocks\"? Et ces fameux TestContainers, sont-ils vos amis ou vos ennemis ?  Et si en plus, vous pouviez faire le 1er (ou pas) mob programming de votre vie??  Tout cela en quelques heures par la pratique ?  Alors, cet atelier est complètement fait pour vous !   ### Bénéfices attendus  - Construire une application autour d'un cas métier concret  - Introduire pas à pas les bases du DDD et de l'architecture Hexagonale  - Comprendre les tests unitaires et le besoin de doublures dans un début d’architecture hexagonale;   - Appréhender quand ces doublures de tests sont légitimes dans leurs usages.  - Démystifier ce qu’est un dummy, un stub, un spy, un fake, un mock. - Jouer avec les  TestContainers  - En produisant (en TDD, toujours) un code empreint de contraintes techniques réelles : dialogue avec une base de données, un service web...  - Apprendre en s’amusant, en collaborant afin de produire, tous ensemble, le code.  Mob programiming en  Kotlin",
     "speakersId": [
       "anthony-cassaigne",
-      "craft-softwr-&-music"
+      "craft-softwr-music"
     ],
     "format": "Workshop",
     "categorie": "Backend",
@@ -554,7 +537,7 @@
     "title": "L’invasion du HTML mutant",
     "abstract": "Notre héros développeur se lève un matin et fait `F12` pour inspecter sa page web. Tout semble tranquille… Mais ! Quelque chose vient de bouger, de l’autre côté du HTML !? Que se passe-t-il ? Aucun script n’a été exécuté par le héros, pourtant ! Oh la la… mais ce nouveau HTML est une aberration ! Et c’est quoi ces styles horribles ?  Suivez l’aventure d’un développeur perdu dans un HTML gangrené par des scripts tiers malvenus, et sa découverte des _Mutation Observers_ pour endiguer l’invasion du HTML mutant !",
     "speakersId": [
-      "gaël-poupard"
+      "gael-poupard"
     ],
     "format": "Conférence",
     "categorie": "Frontend",
@@ -590,7 +573,7 @@
     "title": "JBang, un fichier Java pour les gouverner tous ?",
     "abstract": "Dans le monde Java, nous sommes habitués à initialiser un projet avec de nombreux fichiers et répertoires. A tel point que des CLI ont vu le jour pour nous aider à créer les projets SpringBoot ou Quarkus par exemple. Vient ensuite le choix du \"package manager\" : Maven ou Gradle ? Et c'est seulement à partir de là que l'on peut commencer à développer puis exécuter son code 😅.  Toutes ces étapes fastidieuses expliquent pourquoi, lorsque que l'on a besoin de faire un développement rapide de quelques lignes pour automatiser une action, on préfère d'autres langages à Java : Python par exemple.  Et si je vous disais, qu'avec JBang, vous allez pouvoir rester avec votre langage préféré, Java, et développer une classe toute simple (avec des dépendances externes) en quelques secondes !  C'est le pari (spoiler : réussi) de JBang que je vous propose de découvrir durant une session de live coding.  A vous les joies du scripting en Java !",
     "speakersId": [
-      "stéphane-philippart"
+      "stephane-philippart"
     ],
     "format": "Quickie",
     "categorie": "Backend",
@@ -644,7 +627,7 @@
     "abstract": "Vos développeurs se plaignent continuellement que leurs **PCs** sont des **toasters** ?  Que les **environnements de développements** ne sont pas **homogènes** ?  Vos **managers** râlent sur les temps d'**installation de postes** ?  Venez donc découvrir les **Cloud Development Environments** : des environnements de développement distants tout en un, disposant de tous les outils nécessaire à vos développeurs.  Nous utiliserons **Coder** pour **orchestrer nos environnements**. Il fonctionne avec les IDE **Jetbrains** et **VSCode** et pourrait vous aider à atténuer ces points de douleurs. Et par dessus tout ... c'est **Open Source** et **gratuit** !  Nous verrons comment créer un environnement dans **Kubernetes**, en s'appuyant sur **Terraform**, et comment l'utiliser, en se mettant dans la peau d'un développeur.",
     "speakersId": [
       "paul-vulliemin",
-      "mélissa-pinon"
+      "melissa-pinon"
     ],
     "format": "Conférence",
     "categorie": "Cloud & DevSecOps",
@@ -734,7 +717,7 @@
     "title": "Réaliser un jeu vidéo de A à Z",
     "abstract": "Les développeurs pensent souvent que le développement de jeux vidéo est réservé aujourd'hui à des studios importants utilisant des moteurs de jeux tels que Unity, Unreal, Godot et autres. L'époque où une seule personne pouvait sortir un jeu vidéo semble ancienne et révolue pour beaucoup. Et bien non, il existe de nombreuses petites équipes (d'une à quelques personnes) qui sortent des jeux magnifiques avec peu de moyen. La scène indépendante et les succès des gamejams le démontrent chaque jour !  Je vous propose dans ce talk de voir comment on peut réaliser un jeu vidéo de A à Z sans utiliser de moteur de jeu du marché. Ce que je trouve intéressant en tant que dev, c'est de comprendre comment ça se passe sous le capot. Comme le dit David Mekersa (Gamecodeur), si on utilise un moteur déjà tout fait : - on est dépendant du moteur (on voit bien ce que ça donne avec Unity ces derniers temps); - on ne fait qu'assembler des briques toutes faites sans bien comprendre ce qu'il se passe; - on peut être limité par les fonctionnalités du moteur.  Beaucoup de développeuses/développeurs sont tombé(e)s dans la programmation via les jeux vidéo. Dépassez vos préjugés et laissez exploser votre créativité (chose qu'on ne fait pas dans forcément tous les jours dans l'informatique de gestion) en créant des jeux 2D ou 3D multiplateformes !",
     "speakersId": [
-      "grégory-bersegeay"
+      "gregory-bersegeay"
     ],
     "format": "Conférence",
     "categorie": "Quêtes Secondaires",
@@ -753,7 +736,7 @@
     "title": "Vous pouvez venir à ce talk les yeux fermés",
     "abstract": "La navigation sur les sites internet à l'aide d'un lecteur d'écran comment ça marche ?  Comment \"voit-on\" un site sans le voir ?  Quels sont les problèmes rencontrés par les utilisateurs de lecteurs d'écrans et surtout, comment faciliter cette navigation et éviter de faire un site inutilisable pour certains.  Durant ce talk, on écouteras des sites web, on parlera de sémantique, d'accès rapide, de landmarks, d'alternatives aux images, de formulaires, de liens et de boutons (spoiler : un div n'est pas un bouton).  On écouteras aussi comment Aria peut améliorer cela.  On parlera aussi un peu de SEO : l'aveugle le plus célèbre au monde n'est il pas Google ?  Un talk a écouter les yeux fermés.",
     "speakersId": [
-      "françois-xavier-lair"
+      "francois-xavier-lair"
     ],
     "format": "Conférence",
     "categorie": "Frontend",
@@ -826,7 +809,7 @@
     "abstract": "# L’Appel de l’Aventure  Il y a bien longtemps, dans le royaume des Développeurs, un empire prospérait sous l’égide du Grand Pipeline de CI/CD.  Les commits coulaient comme le vin, les releases arrivaient en temps et en heure, et la production connaissait une paix éternelle.  Mais les ténèbres s’épaississent…    Les Bugs de l’Ombre, créatures perfides surgies du Chaos des Merges non testés, se multiplient.   Des applications tombent, des utilisateurs fuient, les rollbacks sont légion.  Le Conseil des Lead Tech a convoqué les Gardiens du Code.    Vous, nobles chevaliers du Testing, élus pour défendre la production contre la régression, voici votre quête :  ## Maîtriser les Artefacts du Testing et renforcer la forteresse CI/CD avant l’invasion finale.",
     "speakersId": [
       "mehdi-chilla",
-      "jérémy-bernard"
+      "jeremy-bernard"
     ],
     "format": "Quickie",
     "categorie": "Cloud & DevSecOps",
