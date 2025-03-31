@@ -1,31 +1,19 @@
 [
-    {
-        "id": "Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt",
-        "title": "Level up ta conf : 12 ans d'aventure au DevFest Nantes",
-        "abstract": "Préparez-vous à plonger dans une quête remplie de défis et de récompenses retraçant l’histoire légendaire du DevFest Nantes !\nÀ chaque niveau, vous gagnerez de l’XP et débloquerez des compétences clés en matière d’organisation de conférence.\nMais attention, le chemin sera semé d’embûches !\nSeuls les personnages les plus courageux et les plus déterminés parviendront à organiser un événement inoubliable.\nEnsemble, étudions les ingrédients magiques qui permettront de faire grandir votre communauté\nAlors, êtes-vous prêts à relever le défi ?\n\n",
-        "speakersId": [
-             "julien-landure", "annabelle-koster"
-        ],
-        "format": "Keynote",
-        "categorie": "Keynote",
-        "tags": ["keynote"],
-        "room": "La Forge",
-        "slot": "day-1-keynote-open",
-        "slug": "level-up-ta-conf-12-ans-daventure-au-devfest-nantes",
-        "cancelled": false
-    },
-    {
-        "id": "ioc2x2nW4KV5zrt69ZQm",
-        "title": "Dessine moi un graphique (en CSS)",
-        "abstract": "Les rutilantes nouveautés de CSS des dernières années permettent d’envisager de plus en plus sereinement l’abandon du JS pour créer des graphiques de données — en partant d’un tableau HTML sémantique et accessible, tant qu’à faire. Le CSS évolue à vitesse grand V, et vous verrez qu’on peut aller bien plus loin que vous ne l’auriez imaginé !\n\n",
-        "speakersId": ["gael-poupard"
-        ],
-        "format": "Conférence",
-        "categorie": "Frontend",
-        "tags": ["frontend"],
-        "room": "L'astrarium",
-        "slot": "day-1-conference-1-ps",
-        "slug": "dessine-moi-un-graphique-en-CSS",
-        "cancelled": false
-    }
+  {
+    "id": "Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt",
+    "title": "TODO",
+    "abstract": "TODO",
+    "speakersId": [
+      "geoffrey-graveaud"
+    ],
+    "format": "Keynote",
+    "categorie": "Keynote",
+    "tags": [
+      "keynote"
+    ],
+    "room": "La Forge",
+    "slot": "day-1-keynote-open",
+    "slug": "keynote-day-1",
+    "cancelled": false
+  }
 ]
