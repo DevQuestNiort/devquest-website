@@ -15,5 +15,410 @@
     "slot": "day-1-keynote-open",
     "slug": "keynote-day-1",
     "cancelled": false
+  },
+  {
+    "id": "cm8bvayuq09vypr3net3sw0g3",
+    "title": "Pair et mob programming : ensemble, on va plus loin",
+    "abstract": "Le pair et le mob programming sont parfois perçus comme une perte de temps. Vous avez peut-être déjà entendu des phrases tel que : \"Pas de pair chez nous, on veut aller vite\" ou \"On ira plus vite en codant chacun de notre côté\". Pourtant, ces méthodes de travail permettent en réalité d’accélérer le développement et d’améliorer la qualité du code.  Ce talk vous propose d’explorer ces pratiques, avec des retours d’expérience concrets et des conseils applicables en entreprise.  Nous verrons comment structurer une session, quels outils utiliser et comment surmonter les résistances pour en tirer le maximum de bénéfices.",
+    "speakersId": [
+      "alan-duchene"
+    ],
+    "format": "Conférence",
+    "categorie": "Backend",
+    "tags": [
+      "backend"
+    ],
+    "room": "La Forge",
+    "day": "day-1",
+    "slot": "day-1-conference-1-gs",
+    "slug": "pair-et-mob-programming--ensemble-on-va-plus-loin",
+    "cancelled": false
+  },
+  {
+    "id": "cm6hn7y2y01i5qy3mwl7ihzwe",
+    "title": "Succès débloqué : rendre son jeu vidéo accessible",
+    "abstract": "Avec près de 400 millions de joueurs et de joueuses en situation de handicap, rendre les jeux vidéo accessibles n’est pas seulement une nécessité sociale, mais aussi une opportunité de toucher un public plus large. Cette conférence explore des exemples concrets et des solutions pratiques, comme les contrôleurs adaptés, les filtres visuels et les ajustements cognitifs, tout en montrant comment dépasser les barrières involontaires pour créer des expériences inclusives.  Au-delà des outils, l’accessibilité est une philosophie de design qui améliore l’expérience pour tous et toutes, qu’il s’agisse de joueurs et joueuses en situation de handicap, novices ou casual. En intégrant ces principes dès la conception, les équipes de développement enrichissent non seulement leurs jeux, mais aussi la diversité et leur communauté.",
+    "speakersId": [
+      "noëlie-roux",
+      "yasmine-messaoudi"
+    ],
+    "format": "Conférence",
+    "categorie": "Backend",
+    "tags": [
+      "backend"
+    ],
+    "room": "L'astrarium",
+    "day": "day-1",
+    "slot": "day-1-conference-1-ps",
+    "slug": "succs-dbloqu--rendre-son-jeu-vido-accessible",
+    "cancelled": false
+  },
+  {
+    "id": "cm6esinq900ijqy3mknikw534",
+    "title": "1h50min pour créer une App Front avec la Clean Archigonale ©️",
+    "abstract": "**Tout le monde pense que la \"Clean Architecture / Architecture Hexagonale\" se fait uniquement côté Back.**   Dans ce **live coding**, je vais vous montrer que cela fonctionne également **côté Front**.  Et oui, Redux n'est pas le Silver Bullet des applications front-end.   Et oui, Les Stores ne sont pas toujours obligatoires, mais ceci est une autre histoire !  On va coder ensemble une petit App Front pour voir comment mettre en place cela.  **Take away :**  Architecture   Stratégie de Tests",
+    "speakersId": [
+      "dorian-lamandé",
+      "guillaume-chauvet"
+    ],
+    "format": "Workshop",
+    "categorie": "Frontend",
+    "tags": [
+      "frontend",
+      "architecture"
+    ],
+    "room": "Le Laboratoire",
+    "day": "day-1",
+    "slot": "day-1-codelab-1",
+    "slug": "1h50min-pour-crer-une-app-front-avec-la-clean-archigonale-",
+    "cancelled": false
+  },
+  {
+    "id": "cm8cw8rmb0agupr3npza3rxax",
+    "title": "AWS GameDay sur l'optimisation des coûts - Frugality Festival",
+    "abstract": "Vous êtes-vous déjà demandé comment les entreprises tech gèrent leurs factures cloud pendant leur croissance rapide ? Vous voulez découvrir les secrets de l'optimisation des coûts cloud à travers des scénarios réels ? Rejoignez-nous pour l'AWS GameDay : Frugality Festival !  Glissez-vous dans la peau d'un architecte cloud chez Unicorn.Rentals, une startup en plein essor qui vient d'acquérir son concurrent, RentMyUnicorns. Il y a juste un hic – leurs coûts cloud sont en train d'exploser ! Votre mission : optimiser leur infrastructure, réduire les coûts et maintenir l'activité sans accroc. Pas de pression, n'est-ce pas ?  Durant ce défi de 2 heures, vous allez : - Travailler sur un véritable environnement AWS (totalement gratuit !) - Faire équipe avec d'autres passionnés de tech - Traquer les inefficacités coûteuses - Mettre en place des solutions d'économie - Concourir pour gagner de superbes prix AWS - Apprendre les bonnes pratiques applicables à vos propres projets  Que vous soyez novice ou architecte chevronné, vous acquerrez une expérience pratique des outils et techniques d'optimisation des coûts AWS, inestimables dans le monde actuel orienté cloud.  Ne manquez pas cette opportunité d'améliorer votre expertise cloud tout en vous amusant ! Apportez votre ordinateur portable, vos compétences en résolution de problèmes et votre esprit de compétition. Nous nous occupons du reste – y compris des snacks pour alimenter votre quête d'optimisation ! 🚀  Prérequis : Connaissance basique des services AWS (mais pas d'inquiétude – nous fournirons des ressources d'apprentissage avant l'événement pour vous mettre à niveau !)",
+    "speakersId": [
+      "charles-rapp"
+    ],
+    "format": "Workshop",
+    "categorie": "Cloud & DevSecOps",
+    "tags": [
+      "cloud_devops"
+    ],
+    "room": "Le Scriptorium",
+    "day": "day-1",
+    "slot": "day-1-codelab-2",
+    "slug": "aws-gameday-sur-loptimisation-des-cots---frugality-festival",
+    "cancelled": false
+  },
+  {
+    "id": "cm6dqrrlv00e1qy3moij8sixq",
+    "title": "🎶 \"Vois sur ton chemin, Aventuriers égarés, ...\" 🎶 Y'a-t-il un GPS dans le donjon ?",
+    "abstract": "Il est fini le temps où l'on planifiait notre parcours de vacances sur les atlas routiers.  Maintenant il nous est quasi impossible d'aller d'un point A à un point B sans utiliser des outils comme GoogleMaps, ou Plans, ou d'autres alternatives.  Aidons TomTom et Nanar à comprendre comment fonctionnent ces outils.  A*, Djisktra, ... Pathfinding n'auront plus de secrets pour vous.  Quelle magie est présente dans ces algorithmes ?  Chers Aventuriers, plus besoin d'un magicien dans votre équipe pour vous déplacer.  Vous aurez tout en main pour traverser votre prochain Donjon et optimiser votre trajet vers le prochain Boss.",
+    "speakersId": [
+      "sylvain-gougouzian",
+      "brice"
+    ],
+    "format": "Conférence",
+    "categorie": "Quêtes Secondaires",
+    "tags": [
+      "discovery"
+    ],
+    "room": "La Forge",
+    "day": "day-1",
+    "slot": "day-1-conference-2-gs",
+    "slug": "-vois-sur-ton-chemin-aventuriers-gars---ya-t-il-un-gps-dans-le-donjon-",
+    "cancelled": false
+  },
+  {
+    "id": "cm6fn1gm600wgqy3m6raun1qn",
+    "title": "Adieu RxJS ! Vive les Signals ! Oh wait…",
+    "abstract": "On a commencé à voir les Signals en version 16, l’API est stable depuis la version 17, les Signals viennent radicalement changer la manière de penser la réactivité en Angular, surtout avec l’approche des Signal Inputs et de la promesse qui commence à vraiment émerger de faire disparaître Zone.js. Il reste encore une brique qui embête beaucoup de gens et qui semble devoir être supprimée aussi : RxJS !   Est-ce qu’on veut vraiment que RxJS soit entièrement remplacé par les Signals ?",
+    "speakersId": [
+      "anthony-pena"
+    ],
+    "format": "Conférence",
+    "categorie": "Frontend",
+    "tags": [
+      "frontend"
+    ],
+    "room": "L'astrarium",
+    "day": "day-1",
+    "slot": "day-1-conference-2-ps",
+    "slug": "adieu-rxjs--vive-les-signals--oh-wait",
+    "cancelled": false
+  },
+  {
+    "id": "cm6j6kywd01uoqy3m8798ojax",
+    "title": "Vous ne connaissez pas le S de Solid !",
+    "abstract": "\"Comment ça je ne connais pas le S des principes SOLID ?  Bien sûr que si ! C'est le principe de responsabilité unique (Single responsibility principle - SRP) !\"  D'accord, mais le sens profond du SRP est souvent mal compris ! Celui donné par Uncle Bob (Robert C. Martin) en personne !  Au cours de mes échanges avec de nombreux développeurs (juniors comme expérimentés), j'ai pu me rendre compte que ce principe était souvent mal compris. Même ChatGPT m'en a donné une définition erronnée !  Lors de cette conférence, j'éclaircirai la signification de ce principe puissant qui vous donnera les clés pour des refactos efficaces et vous guidera tel un fil d'ariane hors des griffes de l'overengeneering ! Tel est son super pouvoir.",
+    "speakersId": [
+      "julien-libert"
+    ],
+    "format": "Quickie",
+    "categorie": "Méthodo & Architecture",
+    "tags": [
+      "architecture"
+    ],
+    "room": "La Forge",
+    "day": "day-1",
+    "slot": "day-1-quickie-3-gs",
+    "slug": "vous-ne-connaissez-pas-le-s-de-solid-",
+    "cancelled": false
+  },
+  {
+    "id": "cm6j6kywd01uoqyzz8798ojax",
+    "title": "Tremplin DevQuest",
+    "abstract": "Surprise !",
+    "speakersId": [
+    ],
+    "format": "Quickie",
+    "categorie": "Tremplin",
+    "tags": [
+      "tremplin"
+    ],
+    "room": "L'astrarium",
+    "day": "day-1",
+    "slot": "day-1-quickie-3-ps",
+    "slug": "tremplin-1",
+    "cancelled": false
+  },
+  {
+    "id": "cm6gwmltt01etqy3mhj7z575d",
+    "title": "Les coulisses de JavaScript : ce qu’on utilise sans comprendre 🎭",
+    "abstract": "Bienvenue dans les coulisses d’un des plus grand spectacle du développement web : **JavaScript 🪄** Sur scène, tout semble magique : les animations captivent, les promesses sont tenues, et tout s’exécute sans accroc. Mais derrière le rideau, une véritable troupe travaille sans relâche pour donner vie à ce spectacle.  Dans cette visite guidée, nous vous invitons à lever le rideau sur la mécanique de JavaScript : son engine, les closures, son incontournable event loop, les contextes d’exécution, et bien sûr, ses fameuses promesses. Ces concepts vous sont peut-être familiers, mais n’est-il pas temps d’un peu mieux les comprendre ?  Prenez vos billets et plongez avec nous dans les rouages fascinants de JavaScript 🎟️",
+    "speakersId": [
+      "mickael-alves",
+      "etienne-idoux"
+    ],
+    "format": "Conférence",
+    "categorie": "Frontend",
+    "tags": [
+      "frontend"
+    ],
+    "room": "La Forge",
+    "day": "day-1",
+    "slot": "day-1-conference-4-gs",
+    "slug": "les-coulisses-de-javascript--ce-quon-utilise-sans-comprendre-",
+    "cancelled": false
+  },
+  {
+    "id": "cm6aymuvz0006qy3mibu4gx6b",
+    "title": "Cartographier pour mieux naviguer",
+    "abstract": "Vous faites face à de l'incertitude ? Votre équipe est devant un carrefour et ne sait pas quel(s) chemin(s) explorer ? Votre organisation a (vaguement) entendu parlé de l'IA, mais vous ne savez pas quels bénéfices en espérer ?  La cartographie estuarienne est une nouvelle méthode créée par Dave Snowden. Elle aide une ou plusieurs équipes à faire face à une situation complexe et à la dérisquer. Elle invite les équipes à décrire le système dans lequel elles évoluent, à le décomposer en éléments avec un granularité fine, puis à les placer sur une carte. Cette visualisation facilite l'initiation de changements cohérents dans le système pour générer des apprentissages et éviter les résistances.  Venez découvrir comment je me suis servi de cette méthode avec différentes équipes. J'expliquerai quand et comment l'utiliser dans vos contextes, ainsi que certains de ses fondements scientifiques.",
+    "speakersId": [
+      "william-bartlett"
+    ],
+    "format": "Conférence",
+    "categorie": "Méthodo & Architecture",
+    "tags": [
+      "architecture"
+    ],
+    "room": "L'astrarium",
+    "day": "day-1",
+    "slot": "day-1-conference-4-ps",
+    "slug": "cartographier-pour-mieux-naviguer",
+    "cancelled": false
+  },
+  {
+    "id": "cm84q0or8073apr3nqe2bm6d8",
+    "title": "Playwright : tester vos applications devient un jeu d'enfant",
+    "abstract": "Tester unitairement ses composants graphiques c'est bien, tester le bon fonctionnement de toute son application via un navigateur pilotable programmatiquement c'est mieux !  C'est ce que propose Playwright, un outil de tests end to end qui, en plus de très bonne performances, propose une excellent expérience développeur.  Je vous propose au cours de ce hand's on de découvrir par la pratique cet outil et de voir comment il peut vous permettre d'écrire des tests simples, maintenables et résilients.",
+    "speakersId": [
+      "benjamin-cavy"
+    ],
+    "format": "Workshop",
+    "categorie": "Frontend",
+    "tags": [
+      "frontend"
+    ],
+    "room": "Le Laboratoire",
+    "day": "day-1",
+    "slot": "day-1-codelab-3",
+    "slug": "playwright--tester-vos-applications-devient-un-jeu-denfant",
+    "cancelled": false
+  },
+  {
+    "id": "cm6qmd7x300q8ms3mut7zlj4w",
+    "title": "Hands on HTMX et Web Components : un combo parfait pour le développement web",
+    "abstract": "Cet atelier explore htmx 2.0 à travers une approche pratique pour simplifier le développement frontend. Vous découvrirez ses nouvelles fonctionnalités grâce à du live coding et des exercices interactifs, en commençant par une introduction rapide à ses concepts clés et ses mises à jour. Des exemples concrets et des extraits de code vous montreront comment htmx facilite les tâches courantes du frontend.  Ensuite, vous apprendrez à créer des Web Components réutilisables avec la bibliothèque Lit, en suivant un exercice guidé pour concevoir un élément simple et l’intégrer dans un projet.  Dans la seconde partie, nous verrons comment htmx et les Web Components Lit peuvent être combinés efficacement. À l’aide d’exemples progressifs, vous apprendrez à construire des composants modulaires et maintenables avec un minimum de JavaScript. À la fin, vous comprendrez comment ces outils se complètent et aurez la confiance nécessaire pour les utiliser dans vos propres projets.",
+    "speakersId": [
+      "horacio-gonzalez-(lostinbrittany)"
+    ],
+    "format": "Workshop",
+    "categorie": "Frontend & Backend",
+    "tags": [
+      "backend",
+      "frontend"
+    ],
+    "room": "Le Scriptorium",
+    "day": "day-1",
+    "slot": "day-1-codelab-4",
+    "slug": "hands-on-htmx-et-web-components--un-combo-parfait-pour-le-dveloppement-web",
+    "cancelled": false
+  },
+  {
+    "id": "cm694u038054fqy3m0jntoqbg",
+    "title": "Vers une Métrique DDD Continue : Dépasser les Limites de l'Event Storming",
+    "abstract": "Le monde du développement logiciel oscille entre précision de la conception et rapidité d'itérations. Depuis quelques années, le DDD est revenu à la mode et pousse les équipes à bien identifier les bounded contexts et leurs langages ubiquitaires en collaborant de plus en plus avec les métiers. Mais que se passe-t'il quand le projet est lancé ? La routine des sprints prend le dessus avec une base de code qui diverge de plus en plus des bonnes intentions initiales. Dans ce talk je vous présenterai une innovation qui permet de suivre en continu avec une métrique et une courbe la qualité du langage ubiquitaire dans le code avec: - Mettre en place et maintenir un lexique métier par bounded context - S'outiller avec de l'AST afin d'extraire un score DDD d'une base de code - Se servir du management visuel pour impliquer et négocier avec les métiers  L'outil est actuellement déployé au sein de la Banque Publique d'Investissement et permet de prioriser les efforts de conception entre une douzaine d'équipes.",
+    "speakersId": [
+      "loïc-broquet"
+    ],
+    "format": "Conférence",
+    "categorie": "Méthodo & Architecture",
+    "tags": [
+      "architecture"
+    ],
+    "room": "La Forge",
+    "day": "day-1",
+    "slot": "day-1-conference-5-gs",
+    "slug": "vers-une-mtrique-ddd-continue--dpasser-les-limites-de-levent-storming",
+    "cancelled": false
+  },
+  {
+    "id": "cm7t8u3tr0145p53me4jc32yk",
+    "title": "Un Pixel, puis un autre : Comment faire tourner DOOM sur une liseuse électronique 🕹️",
+    "abstract": "DOOM est un jeu culte qui a été porté des milliers de fois sur toutes sortes de supports, alors pourquoi ne pas essayer de le faire tourner sur ma liseuse électronique Kindle ?  Je n’ai absolument aucune expérience en portage de jeux mais j’ai décidé de tenter l’expérience, un peu par curiosité, un peu pour le défi ! Je vous propose de suivre mon périple, un pixel après l’autre, pour jouer à DOOM avec de l’encre électronique.  Ca sera l'occasion de parler d'écrans 8 bits, d'architecture processeur et de bricolage technique pour faire marcher tout ca et bien sûr d'une démo de DOOM en encre électronique 🚀",
+    "speakersId": [
+      "moustapha-agack"
+    ],
+    "format": "Conférence",
+    "categorie": "Quêtes Secondaires",
+    "tags": [
+      "backend"
+    ],
+    "room": "L'astrarium",
+    "day": "day-1",
+    "slot": "day-1-conference-5-ps",
+    "slug": "un-pixel-puis-un-autre--comment-faire-tourner-doom-sur-une-liseuse-lectronique-",
+    "cancelled": false
+  },
+  {
+    "id": "cm7nu1o5f01klob3nv0l8etv8",
+    "title": "Rafraîchi ta prod avec Kro",
+    "abstract": "Les équipes chargées des plateformes s'efforcent de fournir des services rationalisés et normalisés aux développeurs d'applications. Déployer et gérer manuellement les dépendances entre ressources peut prendre du temps et est souvent source d’erreurs. Kube Resource Orchestrator (kro) offre une approche pour y parvenir en permettant la création de blueprints de ressources réutilisables. Ce talk explorera comment kro permet aux équipes en charge des plateformes de définir des déploiements Kubernetes complexes en tant qu'unités composables, simplifiant ainsi l'onboarding des applications et réduisant la charge cognitive des développeurs. Nous allons parcourir ce qu’est un ResourceGraphDefinition, examiner comment kro gère les dépendances des ressources et discuter des best practices pour intégrer kro dans les workflows Kubernetes existants. Enfin, nous présenterons des exemples pratiques d'utilisation de kro pour construire des plateformes en libre-service et améliorer l'expérience des développeurs.",
+    "speakersId": [
+      "laurent-grangeau",
+      "tony-jarriault"
+    ],
+    "format": "Conférence",
+    "categorie": "Cloud & DevSecOps",
+    "tags": [
+      "cloud_devops"
+    ],
+    "room": "La Forge",
+    "day": "day-1",
+    "slot": "day-1-conference-6-gs",
+    "slug": "rafrachi-ta-prod-avec-kro",
+    "cancelled": false
+  },
+  {
+    "id": "cm6asu4v705fuqy3myteyguxq",
+    "title": "Dark Mode : analyse et conception",
+    "abstract": "👓 Pourquoi un thème sombre ? Du Minitel à SNCF Connect: ses avantages, ses inconvénients et les études scientifiques associées.  🌜 Comment concevoir un thème sombre à partir d’un thème clair ?  Les astuces de design et les pièges à éviter expliqués avec un exemple concret.  🤝 Comment définir un langage commun entre designers et développeurs ?  Faciliter son implémentation et sa maintenabilité, introduction aux design tokens.",
+    "speakersId": [
+      "antoine-candy",
+      "simon-mercier"
+    ],
+    "format": "Conférence",
+    "categorie": "Design & UX",
+    "tags": [
+      "ux_ui"
+    ],
+    "room": "L'astrarium",
+    "day": "day-1",
+    "slot": "day-1-conference-6-ps",
+    "slug": "dark-mode--analyse-et-conception",
+    "cancelled": false
+  },
+  {
+    "id": "cm63d63xg0491qy3m7wmw7d55",
+    "title": "Really inaccessible",
+    "abstract": "Bienvenue dans \"Rea11y Inaccessible\", un escape game inédit où tu seras confronté(e) aux défis de l'accessibilité. Ce jeu te plongera dans une société où la norme est bien différente de celle que tu connais. Aujourd'hui, tu vas vivre une aventure immersive qui te mettra dans la peau de personnes vivant avec divers handicaps (visuels, auditifs, moteurs et cognitifs).  Munis-toi de ton ordinateur et de ton casque audio préféré pour une immersion plus totale.",
+    "speakersId": [
+      "louis-fredice-njako-molom",
+      "stanley-servical"
+    ],
+    "format": "Workshop",
+    "categorie": "Quêtes Secondaires",
+    "tags": [
+      "discovery"
+    ],
+    "room": "Le Laboratoire",
+    "day": "day-1",
+    "slot": "day-1-codelab-5",
+    "slug": "really-inaccessible",
+    "cancelled": false
+  },
+  {
+    "id": "cm6599nze04kzqy3myrrg8ion",
+    "title": "\"Mais qu'est ce qu'on va devenir ?\" - Le métier de dev passé au crible des scénarios de l'ADEME",
+    "abstract": "Il est désormais acté que le numérique est une source non négligeable du dérèglement climatique actuel. Et lorsque l'on commence à creuser ce sujet, on finit souvent par se demander si nos métiers ont encore un avenir.  Dans son exercice de projection \"Transitions 2050\", l'ADEME a défini 4 scénarios pour atteindre la neutralité carbone d'ici à 2050. De la génération frugale au pari réparateur, venez découvrir ces différents scénarios et vous projeter dans chacun d'entre eux pour imaginer avec nous l'évolution de nos métiers et les adaptations qui seront nécessaires pour atteindre cet objectif.   Après avoir réfléchi en petits groupes sur les différents scénarios, nous effectuerons une mise en commun des conclusions. Et nous terminerons par un petit débat pour que chacun se positionne sur le ou les futurs qui lui semblent les plus désirables.",
+    "speakersId": [
+      "jean-paliès",
+      "cécilia-bossard"
+    ],
+    "format": "Workshop",
+    "categorie": "Quêtes Secondaires",
+    "tags": [
+      "keynote"
+    ],
+    "room": "Le Scriptorium",
+    "day": "day-1",
+    "slot": "day-1-codelab-6",
+    "slug": "mais-quest-ce-quon-va-devenir----le-mtier-de-dev-pass-au-crible-des-scnarios-de-lademe",
+    "cancelled": false
+  },
+  {
+    "id": "cm6chlau0007yqy3m47s4r9o4",
+    "title": "Une identité pour les fédérer toutes !",
+    "abstract": "Dans un monde numérique où nos identités sont sollicitées à chaque clic, une question se pose : faut-il vraiment créer un compte à chaque fois que l’on accède à une nouvelle application ?  De FranceConnect aux boutons “Se connecter avec…” que vous croisez partout, ces solutions simplifient nos vies numériques. Mais avez-vous déjà réfléchi à ce qui se passe en coulisses ? Pourquoi pouvez-vous naviguer entre les outils de votre entreprise sans vous réauthentifier ? Et surtout, comment tout cela reste-t-il sécurisé ?  Dans ce talk, je vous propose de découvrir les principes de l’identité fédérée et du Single Sign-On (SSO), ces outils qui rendent votre navigation plus fluide. Nous parlerons des bases qui rendent ce système universel et fiable, tout en évoquant brièvement les protocoles qui le soutiennent, comme SAML et OIDC, pour satisfaire votre curiosité technique, sans jamais vous noyer dans les détails.  Que vous soyez un utilisateur intrigué ou un développeur souhaitant explorer ces concepts, vous découvrirez un univers où simplicité et sécurité s’entrelacent pour créer des expériences numériques à la fois puissantes et élégantes.",
+    "speakersId": [
+      "sébastien-ferrer"
+    ],
+    "format": "Quickie",
+    "categorie": "Cloud & DevSecOps",
+    "tags": [
+      "cloud_devops"
+    ],
+    "room": "La Forge",
+    "day": "day-1",
+    "slot": "day-1-quickie-7-gs",
+    "slug": "une-identit-pour-les-fdrer-toutes-",
+    "cancelled": false
+  },
+  {
+    "id": "cm7ptd0oq02kbob3n1ujqut1r",
+    "title": "\"Parse don't validate\" en java ou comment éviter les bugs dès la compilation",
+    "abstract": "Avec l'arrivée du jdk 17 et notamment des sealed class et des record, java nous propose de nouvelles fonctionnalités pour utiliser encore plus le système de type et donc le compilateur.   L'approche \"parse, don't validate\" propose de créer des types riches pour représenter les données plutôt que d'utiliser les types primitifs comme `String`, `Boolean` etc et ainsi rendre impossible les états incohérents.  Dans le cas d'une API, une fois le payload d'une requête parsé, c'est le compilateur qui reprend la main et valide le code pour vous.   Dans ce talk, l'approche vous sera présentée à travers une application de démo et des exemples concrets de code.",
+    "speakersId": [
+      "delegue-alexandre"
+    ],
+    "format": "Quickie",
+    "categorie": "Backend",
+    "tags": [
+      "backend"
+    ],
+    "room": "L'astrarium",
+    "day": "day-1",
+    "slot": "day-1-quickie-7-ps",
+    "slug": "parse-dont-validate-en-java-ou-comment-viter-les-bugs-ds-la-compilation",
+    "cancelled": false
+  },
+  {
+    "id": "cm8bv1ymp09vbpr3nyd3wxb5w",
+    "title": "OSINT : L’art de trouver ce qui ne devrait pas être trouvé",
+    "abstract": "Dans un monde où l’information est partout, savoir chercher est un pouvoir. L’OSINT (Open Source Intelligence) permet de collecter et d’exploiter des informations publiquement accessibles pour découvrir et croiser des faits .  Dans ce talk vous allez découvrir les bases de l'OSINT en explorant des techniques et outils pour exploiter des données publiques de manière stratégiques. Et enfin nous mettrons ces techniques en pratique lors d'une étude de cas.",
+    "speakersId": [
+      "marie-viley"
+    ],
+    "format": "Quickie",
+    "categorie": "Quêtes Secondaires",
+    "tags": [
+      "backend"
+    ],
+    "room": "La Forge",
+    "day": "day-1",
+    "slot": "day-1-quickie-8-gs",
+    "slug": "osint--lart-de-trouver-ce-qui-ne-devrait-pas-tre-trouv",
+    "cancelled": false
+  },
+  {
+    "id": "cm85swij307bxpr3nlhmzosxm",
+    "title": "Mes trains Jouef passent au numérique, avec des Raspberry et TinyGo !",
+    "abstract": "Dans les années 1970/1980, de nombreux enfants ont eu la chance de grandir avec des petits trains électriques, au format HO (1:87). Le principe était simple : on pose des rails, qu'on alimente en 18V, et les trains circulent sur les rails.  Un demi-siècle plus tard, mon grand-père de 85 ans et moi-même nous sommes lancés dans le projet un peu fou de faire passer au numérique ses trains électriques de cette époque. Bienvenue dans ce retour d'expérience, avec du matériel, et des humains, qui ont traversé les générations.  Au menu : de l'électronique (pas trop, promis !), des Raspberry, du TinyGo... et des petits trains, bien entendu.",
+    "speakersId": [
+      "florian-forestier"
+    ],
+    "format": "Quickie",
+    "categorie": "Quêtes Secondaires",
+    "tags": [
+      "discovery"
+    ],
+    "room": "L'astrarium",
+    "day": "day-1",
+    "slot": "day-1-quickie-8-ps",
+    "slug": "mes-trains-jouef-passent-au-numrique-avec-des-raspberry-et-tinygo-",
+    "cancelled": false
   }
 ]
