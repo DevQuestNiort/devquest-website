@@ -10,6 +10,8 @@ export interface Session {
   tags: Tags[];
   cancelled: boolean;
   slot: string;
+  day: string;
+  hour?: string;
 }
 
 export type Format = "Workshop" | "Quickie" | "Workshop";

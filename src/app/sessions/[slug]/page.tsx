@@ -98,7 +98,7 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
             <Image
               src={`/icons-rp/${rooms.find((r) => r.name === myFullSession.room)?.image}`}
               alt=""
-              width={32}
+              width={40}
               height={40}
             />
             <h3>{myFullSession.room}</h3>
