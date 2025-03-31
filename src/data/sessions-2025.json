@@ -13,8 +13,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "hands-on-gen-ai-on-aws",
     "cancelled": false
   },
@@ -31,8 +31,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "quarkus-philosophie-pragmatisme-et-innovation",
     "cancelled": false
   },
@@ -49,8 +49,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "aws-gameday-sur-loptimisation-des-cots---frugality-festival",
     "cancelled": false
   },
@@ -67,8 +67,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "pair-et-mob-programming--ensemble-on-va-plus-loin",
     "cancelled": false
   },
@@ -85,8 +85,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "osint--lart-de-trouver-ce-qui-ne-devrait-pas-tre-trouv",
     "cancelled": false
   },
@@ -103,8 +103,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "comment-garantir-la-scurit-des-applications-mobiles-bancaires-",
     "cancelled": false
   },
@@ -121,8 +121,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "le-quantique--c-est-pique-",
     "cancelled": false
   },
@@ -139,8 +139,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "-le-code-dont-vous-tes-le-hros-ou-lhrone--5-en-agilit-10-en-fun-",
     "cancelled": false
   },
@@ -158,8 +158,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "-testing-quest-la-lgende-des-gardiens-du-code-",
     "cancelled": false
   },
@@ -176,8 +176,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "mes-trains-jouef-passent-au-numrique-avec-des-raspberry-et-tinygo-",
     "cancelled": false
   },
@@ -194,8 +194,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "jbang-un-fichier-java-pour-les-gouverner-tous-",
     "cancelled": false
   },
@@ -212,8 +212,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "playwright--tester-vos-applications-devient-un-jeu-denfant",
     "cancelled": false
   },
@@ -230,8 +230,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "comment-jai-presque-arrt-de-faire-des-tests-automatiss-",
     "cancelled": false
   },
@@ -248,8 +248,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "un-pixel-puis-un-autre--comment-faire-tourner-doom-sur-une-liseuse-lectronique-",
     "cancelled": false
   },
@@ -266,8 +266,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "parse-dont-validate-en-java-ou-comment-viter-les-bugs-ds-la-compilation",
     "cancelled": false
   },
@@ -285,8 +285,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "rafrachi-ta-prod-avec-kro",
     "cancelled": false
   },
@@ -303,8 +303,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "cloud-run-tout-ce-quil-faut-sans-k8s",
     "cancelled": false
   },
@@ -322,8 +322,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "tester-dans-lhexagone-du-mob-du-ddd-du-tdd-des-doublures-et-les-testcontainers-",
     "cancelled": false
   },
@@ -341,8 +341,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "dveloppe-sur-un-toaster-grce--coder",
     "cancelled": false
   },
@@ -359,8 +359,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "le-grimoire-perdu--la-renaissance-de-lcriture-sacre-avec-mkdocs",
     "cancelled": false
   },
@@ -378,8 +378,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "immersion-dans-les-situations-de-handicap--participez--un-panorama-interactif",
     "cancelled": false
   },
@@ -396,8 +396,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "guide-de-survie-du-jedi-dveloppeur-quand-la-lgislation-sintresse--lintelligence-artificielle",
     "cancelled": false
   },
@@ -414,8 +414,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "comment-merger-sa-pr-en-10-secondes--rex-mob-code-review",
     "cancelled": false
   },
@@ -432,8 +432,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "hands-on-htmx-et-web-components--un-combo-parfait-pour-le-dveloppement-web",
     "cancelled": false
   },
@@ -450,8 +450,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "vous-ne-connaissez-pas-le-s-de-solid-",
     "cancelled": false
   },
@@ -469,8 +469,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "succs-dbloqu--rendre-son-jeu-vido-accessible",
     "cancelled": false
   },
@@ -488,8 +488,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "les-coulisses-de-javascript--ce-quon-utilise-sans-comprendre-",
     "cancelled": false
   },
@@ -506,8 +506,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "adieu-rxjs--vive-les-signals--oh-wait",
     "cancelled": false
   },
@@ -524,8 +524,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "workshop-devenez-un-expert-en-anti-ban-et-web-scraping-en-2h",
     "cancelled": false
   },
@@ -543,8 +543,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "1h50min-pour-crer-une-app-front-avec-la-clean-archigonale-",
     "cancelled": false
   },
@@ -562,8 +562,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "-vois-sur-ton-chemin-aventuriers-gars---ya-t-il-un-gps-dans-le-donjon-",
     "cancelled": false
   },
@@ -580,8 +580,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "une-identit-pour-les-fdrer-toutes-",
     "cancelled": false
   },
@@ -598,8 +598,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "je-malmne-ton-llm-en-direct-avec-10-failles-de-scurits",
     "cancelled": false
   },
@@ -616,8 +616,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "cartographier-pour-mieux-naviguer",
     "cancelled": false
   },
@@ -635,8 +635,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "dark-mode--analyse-et-conception",
     "cancelled": false
   },
@@ -653,8 +653,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "vous-pouvez-venir--ce-talk-les-yeux-ferms",
     "cancelled": false
   },
@@ -671,8 +671,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "vers-une-mtrique-ddd-continue--dpasser-les-limites-de-levent-storming",
     "cancelled": false
   },
@@ -689,8 +689,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "linvasion-du-html-mutant",
     "cancelled": false
   },
@@ -708,8 +708,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "mais-quest-ce-quon-va-devenir----le-mtier-de-dev-pass-au-crible-des-scnarios-de-lademe",
     "cancelled": false
   },
@@ -726,8 +726,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "le-dilemme-du-code-legacy--on-maintient-ou-on-rcrit-",
     "cancelled": false
   },
@@ -744,8 +744,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "raliser-un-jeu-vido-de-a--z",
     "cancelled": false
   },
@@ -763,8 +763,8 @@
       "keynote"
     ],
     "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-keynote-open",
+    "day": "day-2",
+    "slot": "day-2-keynote-open",
     "slug": "really-inaccessible",
     "cancelled": false
   }

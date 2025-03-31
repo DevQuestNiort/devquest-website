@@ -344,9 +344,19 @@
     }
   },
   {
-    "key": "day-2-keynote-open",
+    "key": "day-2-conference-1-gs",
     "day": "day-2",
-    "start": "09:00",
+    "start": "08:50",
+    "type": "conference",
+    "display": {
+      "row": 2,
+      "size": 1
+    }
+  },
+  {
+    "key": "day-2-conference-1-ps",
+    "day": "day-2",
+    "start": "08:50",
     "type": "conference",
     "display": {
       "row": 2,
@@ -355,7 +365,7 @@
   },
   {
     "key": "day-2-pause-1",
-    "start": "09:30",
+    "start": "09:40",
     "day": "day-2",
     "type": "break",
     "display": {
@@ -364,7 +374,7 @@
     }
   },
   {
-    "key": "day-2-conference-1-gs",
+    "key": "day-2-conference-2-gs",
     "day": "day-2",
     "start": "10:00",
     "type": "conference",
@@ -374,7 +384,7 @@
     }
   },
   {
-    "key": "day-2-conference-1-ps",
+    "key": "day-2-conference-2-ps",
     "day": "day-2",
     "start": "10:00",
     "type": "conference",
@@ -409,13 +419,13 @@
     "start": "10:50",
     "type": "break",
     "display": {
-      "row": 3,
+      "row": 5,
       "size": 1,
       "notForCodelab": true
     }
   },
   {
-    "key": "day-2-conference-2-gs",
+    "key": "day-2-conference-3-gs",
     "day": "day-2",
     "start": "11:10",
     "type": "conference",
@@ -425,7 +435,7 @@
     }
   },
   {
-    "key": "day-2-conference-2-ps",
+    "key": "day-2-conference-3-ps",
     "day": "day-2",
     "start": "11:10",
     "type": "conference",
@@ -445,7 +455,7 @@
     }
   },
   {
-    "key": "day-2-conference-3-gs",
+    "key": "day-2-quickie-4-gs",
     "day": "day-2",
     "start": "13:30",
     "type": "quickie",
@@ -455,7 +465,7 @@
     }
   },
   {
-    "key": "day-2-conference-3-ps",
+    "key": "day-2-quickie-4-ps",
     "day": "day-2",
     "start": "13:30",
     "type": "quickie",
@@ -475,7 +485,7 @@
     }
   },
   {
-    "key": "day-2-conference-4-gs",
+    "key": "day-2-conference-5-gs",
     "day": "day-2",
     "start": "14:00",
     "type": "conference",
@@ -485,7 +495,7 @@
     }
   },
   {
-    "key": "day-2-conference-4-ps",
+    "key": "day-2-conference-5-ps",
     "day": "day-2",
     "start": "14:00",
     "type": "conference",
@@ -526,7 +536,7 @@
     }
   },
   {
-    "key": "day-2-conference-5-gs",
+    "key": "day-2-conference-6-gs",
     "day": "day-2",
     "start": "15:00",
     "type": "conference",
@@ -536,7 +546,7 @@
     }
   },
   {
-    "key": "day-2-conference-5-ps",
+    "key": "day-2-conference-6-ps",
     "day": "day-2",
     "start": "15:00",
     "type": "conference",
@@ -556,7 +566,7 @@
     }
   },
   {
-    "key": "day-2-conference-6-gs",
+    "key": "day-2-conference-7-gs",
     "day": "day-2",
     "start": "16:10",
     "type": "conference",
@@ -566,7 +576,7 @@
     }
   },
   {
-    "key": "day-2-conference-6-ps",
+    "key": "day-2-conference-7-ps",
     "day": "day-2",
     "start": "16:10",
     "type": "conference",
@@ -587,7 +597,7 @@
     }
   },
   {
-    "key": "day-2-conference-7-gs",
+    "key": "day-2-quickie-8-gs",
     "day": "day-2",
     "start": "17:10",
     "type": "quickie",
@@ -597,7 +607,7 @@
     }
   },
   {
-    "key": "day-2-conference-7-ps",
+    "key": "day-2-quickie-8-ps",
     "day": "day-2",
     "start": "17:10",
     "type": "quickie",
@@ -618,7 +628,7 @@
     }
   },
   {
-    "key": "day-2-conference-8-gs",
+    "key": "day-2-quickie-9-gs",
     "day": "day-2",
     "start": "17:40",
     "type": "quickie",
@@ -628,7 +638,7 @@
     }
   },
   {
-    "key": "day-2-conference-8-ps",
+    "key": "day-2-quickie-9-ps",
     "day": "day-2",
     "start": "17:40",
     "type": "quickie",
