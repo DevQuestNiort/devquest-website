@@ -7,9 +7,11 @@ import { Salle } from "@/model/Salle";
 import { Speaker } from "@/model/Speaker";
 
 export const rooms: Salle[] = [
-  {name:"La Forge", image: 'forge.png'},
-  {name:"L'astrarium", image: 'astrarium.png'},
-  {name:"Le Laboratoire", image: 'laboratoire.png'}];
+  { name: "La Forge", image: "forge.png" },
+  { name: "L'astrarium", image: "astrarium.png" },
+  { name: "Le Laboratoire", image: "laboratoire.png" },
+  { name: "Le Scriptorium", image: "quest.png" },
+];
 
 export const Tags = ({ tags }: { tags: TagsModel[] }) => {
   return (
