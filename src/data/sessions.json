@@ -22,9 +22,9 @@
       "alan-duchene"
     ],
     "format": "Conférence",
-    "categorie": "Backend",
+    "categorie": "Méthodo & Architecture",
     "tags": [
-      "backend"
+      "achitecture"
     ],
     "room": "La Forge",
     "day": "day-1",
@@ -43,7 +43,7 @@
     "format": "Conférence",
     "categorie": "Backend",
     "tags": [
-      "backend"
+      "ux_ui"
     ],
     "room": "L'astrarium",
     "day": "day-1",
@@ -261,7 +261,7 @@
     "format": "Conférence",
     "categorie": "Quêtes Secondaires",
     "tags": [
-      "backend"
+      "discovery"
     ],
     "room": "L'astrarium",
     "day": "day-1",
@@ -391,7 +391,7 @@
     "format": "Quickie",
     "categorie": "Quêtes Secondaires",
     "tags": [
-      "backend"
+      "discovery"
     ],
     "room": "La Forge",
     "day": "day-1",
@@ -718,8 +718,7 @@
     "format": "Conférence",
     "categorie": "Quêtes Secondaires",
     "tags": [
-      "backend",
-      "frontend"
+      "discovery"
     ],
     "room": "La Forge",
     "day": "day-2",
@@ -791,7 +790,7 @@
     "format": "Quickie",
     "categorie": "Quêtes Secondaires",
     "tags": [
-      "frontend"
+      "discovery"
     ],
     "room": "La Forge",
     "day": "day-2",
