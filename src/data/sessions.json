@@ -65,8 +65,8 @@
       "frontend"
     ],
     "room": "Le Laboratoire",
-    "day": "day-1",
-    "slot": "day-1-codelab-1",
+    "day": "day-2",
+    "slot": "day-2-codelab-1",
     "slug": "1h50min-pour-crer-une-app-front-avec-la-clean-archigonale-",
     "cancelled": false
   },
@@ -375,9 +375,9 @@
     "tags": [
       "backend"
     ],
-    "room": "L'astrarium",
-    "day": "day-1",
-    "slot": "day-1-quickie-7-ps",
+    "room": "La Forge",
+    "day": "day-2",
+    "slot": "day-2-quickie-8-ps",
     "slug": "parse-dont-validate-en-java-ou-comment-viter-les-bugs-ds-la-compilation",
     "cancelled": false
   },
@@ -427,7 +427,7 @@
     "format": "Conférence",
     "categorie": "Méthodo & Architecture",
     "tags": [
-      "backend"
+      "architecture"
     ],
     "room": "La Forge",
     "day": "day-2",
@@ -445,7 +445,7 @@
     "format": "Conférence",
     "categorie": "Backend",
     "tags": [
-      "backend"
+      "architecture"
     ],
     "room": "L'astrarium",
     "day": "day-2",
@@ -463,7 +463,7 @@
     "format": "Conférence",
     "categorie": "Cloud & DevSecOps",
     "tags": [
-      "cloud_devops"
+      "architecture"
     ],
     "room": "La Forge",
     "day": "day-2",
@@ -500,11 +500,11 @@
     "format": "Workshop",
     "categorie": "Backend",
     "tags": [
-      "backend"
+      "architecture"
     ],
     "room": "Le Laboratoire",
-    "day": "day-2",
-    "slot": "day-2-codelab-1",
+    "day": "day-1",
+    "slot": "day-1-codelab-1",
     "slug": "tester-dans-lhexagone-du-mob-du-ddd-du-tdd-des-doublures-et-les-testcontainers-",
     "cancelled": false
   },
@@ -555,7 +555,7 @@
     "format": "Conférence",
     "categorie": "Backend",
     "tags": [
-      "backend"
+      "architecture"
     ],
     "room": "L'astrarium",
     "day": "day-2",
@@ -638,7 +638,7 @@
   {
     "id": "cm8db0z580ax0pr3n18889i8i",
     "title": "Hands-on Gen AI On AWS",
-    "abstract": "# Plongez dans l'Univers de l'IA Générative avec Amazon Bedrock ! Êtes-vous prêt à explorer le futur de l'intelligence artificielle ? Rejoignez-nous pour un hands-on captivant qui vous plongera au cœur des modèles de langage (LLM) et vous permettra de déployer une infrastructure innovante grâce à Amazon Bedrock ! ## Ce que vous allez découvrir : ### Initiation aux LLM Démarrez votre voyage par une introduction passionnante aux modèles de langage et à leur impact révolutionnaire sur divers secteurs. ### Maîtrise d'Amazon Bedrock Apprenez à naviguer dans cette plateforme puissante qui simplifie l'accès à des modèles de fondation avancés. Découvrez comment tirer parti de l'API unique de Bedrock pour transformer vos idées en réalité. ### Création d'une Base de Connaissances Développez une base de connaissances robuste qui enrichira vos applications et optimisera les interactions avec vos utilisateurs. ### Prompt Engineering  Plongez dans l'art du prompt engineering pour maximiser la performance des LLM. Apprenez à formuler des requêtes efficaces qui produisent des résultats pertinents et précis. ### Déploiement de RAG  Mettez en place un système de Retrieval-Augmented Generation (RAG) sans serveur, alliant puissance et flexibilité pour des réponses contextualisées et enrichies.",
+    "abstract": "Plongez dans l'Univers de l'IA Générative avec Amazon Bedrock ! Êtes-vous prêt à explorer le futur de l'intelligence artificielle ? Rejoignez-nous pour un hands-on captivant qui vous plongera au cœur des modèles de langage (LLM) et vous permettra de déployer une infrastructure innovante grâce à Amazon Bedrock ! ## Ce que vous allez découvrir : ### Initiation aux LLM Démarrez votre voyage par une introduction passionnante aux modèles de langage et à leur impact révolutionnaire sur divers secteurs. ### Maîtrise d'Amazon Bedrock Apprenez à naviguer dans cette plateforme puissante qui simplifie l'accès à des modèles de fondation avancés. Découvrez comment tirer parti de l'API unique de Bedrock pour transformer vos idées en réalité. ### Création d'une Base de Connaissances Développez une base de connaissances robuste qui enrichira vos applications et optimisera les interactions avec vos utilisateurs. ### Prompt Engineering  Plongez dans l'art du prompt engineering pour maximiser la performance des LLM. Apprenez à formuler des requêtes efficaces qui produisent des résultats pertinents et précis. ### Déploiement de RAG  Mettez en place un système de Retrieval-Augmented Generation (RAG) sans serveur, alliant puissance et flexibilité pour des réponses contextualisées et enrichies.",
     "speakersId": [
       "julien-furiga",
       "thomas-cornec"
@@ -682,7 +682,7 @@
     "format": "Conférence",
     "categorie": "Backend",
     "tags": [
-      "backend"
+      "architecture"
     ],
     "room": "La Forge",
     "day": "day-2",
@@ -754,11 +754,11 @@
     "format": "Quickie",
     "categorie": "Méthodo & Architecture",
     "tags": [
-      "backend"
+      "architecture"
     ],
     "room": "La Forge",
     "day": "day-2",
-    "slot": "day-2-quickie-8-gs",
+    "slot": "day-2-quickie-9-gs",
     "slug": "comment-merger-sa-pr-en-10-secondes--rex-mob-code-review",
     "cancelled": false
   },
@@ -792,9 +792,9 @@
     "tags": [
       "discovery"
     ],
-    "room": "La Forge",
-    "day": "day-2",
-    "slot": "day-2-quickie-9-gs",
+    "room": "L'astrarium",
+    "day": "day-1",
+    "slot": "day-1-quickie-7-ps",
     "slug": "le-grimoire-perdu--la-renaissance-de-lcriture-sacre-avec-mkdocs",
     "cancelled": false
   },
