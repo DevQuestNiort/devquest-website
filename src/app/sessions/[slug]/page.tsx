@@ -62,7 +62,7 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
     speakers: session.speakersId.map(speakerId => speakers.find((s) => s.id === speakerId)) 
   } as FullSession;
 
-  const DISPLAY_OPENFEEDBACK = true;
+  const DISPLAY_OPENFEEDBACK = false;
 
   return (
     <div className={styles.container}>
@@ -121,10 +121,6 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
                   img={speaker.picture || "/icons-rp/role-playing.png"}
                   withSocials={false}
                 />
-
-                <p className={styles.bio}>
-                  {speaker.bio ?? `Rejoins-moi à ${myFullSession.slot.start}`}
-                </p>
               </Link>
             </div> 
           ))}

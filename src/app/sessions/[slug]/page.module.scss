@@ -102,10 +102,6 @@
             align-items: center;
             justify-content: center;
         }
-        .bio{
-            flex:1;
-            text-align: justify;
-        }
     }
 }
 
@@ -124,4 +120,7 @@
 .disableLinkStyle{
     text-decoration: none;
     color: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
