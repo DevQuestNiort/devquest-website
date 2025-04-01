@@ -1,11 +1,9 @@
 [
   {
     "id": "Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt",
-    "title": "TODO",
-    "abstract": "TODO",
-    "speakersId": [
-      "geoffrey-graveaud"
-    ],
+    "title": "🗓️ Keynote à venir prochainement",
+    "abstract": "Soyez patient, l'abstract de la keynote va arriver 🧘",
+    "speakersId": [],
     "format": "Keynote",
     "categorie": "Keynote",
     "tags": [
@@ -64,8 +62,7 @@
     "format": "Workshop",
     "categorie": "Frontend",
     "tags": [
-      "frontend",
-      "architecture"
+      "frontend"
     ],
     "room": "Le Laboratoire",
     "day": "day-1",
@@ -226,9 +223,8 @@
       "horacio-gonzalez-(lostinbrittany)"
     ],
     "format": "Workshop",
-    "categorie": "Frontend & Backend",
+    "categorie": "Frontend",
     "tags": [
-      "backend",
       "frontend"
     ],
     "room": "Le Scriptorium",
@@ -341,7 +337,7 @@
     "format": "Workshop",
     "categorie": "Quêtes Secondaires",
     "tags": [
-      "keynote"
+      "discovery"
     ],
     "room": "Le Scriptorium",
     "day": "day-1",
@@ -431,8 +427,7 @@
     "format": "Conférence",
     "categorie": "Méthodo & Architecture",
     "tags": [
-      "backend",
-      "frontend"
+      "backend"
     ],
     "room": "La Forge",
     "day": "day-2",
@@ -466,9 +461,9 @@
       "gaetan-eleouet"
     ],
     "format": "Conférence",
-    "categorie": "IA",
+    "categorie": "Cloud & DevSecOps",
     "tags": [
-      "ia"
+      "cloud_devops"
     ],
     "room": "La Forge",
     "day": "day-2",
@@ -651,8 +646,7 @@
     "format": "Workshop",
     "categorie": "Cloud & DevSecOps",
     "tags": [
-      "cloud_devops",
-      "ia"
+      "cloud_devops"
     ],
     "room": "Le Laboratoire",
     "day": "day-2",
@@ -661,14 +655,16 @@
     "cancelled": false
   },
   {
-    "id": "cm8db0z580ax0pr3n18889i1i",
-    "title": "TODO - À vous de jouer : l’Agilité sur plateau !\n",
-    "abstract": "TODO",
+    "id": "cm8db0z580ax0pr3aa8889i1i",
+    "title": "À vous de jouer : l’Agilité sur plateau !",
+    "abstract": "Un point de départ, quatre points d'arrivée, et une multitude de possibilités au milieu : bienvenue à Camping Paradigme ! Le jeu de société où l'organisation de vacances n'est pas de tout repos.\nLes participants seront répartis en équipes et devront établir une stratégie, afin de traverser le plateau de jeu en passant par quatre étapes essentielles : transports, activités, repas et logement. Quatre défis et des cases \"galère\" pendant le parcours afin de développer son état d'esprit Agile ; collaborer, communiquer, s'adapter et vivre concrètement les valeurs et principes du Manifeste Agile (tout en souhaitant retourner bosser au plus vite pour se reposer enfin !).\n\nAprès le jeu, nous reviendrons sur le parcours et les stratégies de chaque équipe afin de comprendre en quoi l'Agilité permet d'améliorer la gestion de projet, et quel framework Agile aurait pu améliorer les performances de chaque équipe. Le but étant de tordre le cou aux préjugés et revenir à l'essentiel : prendre plaisir à créer pour répondre aux besoins de futurs utilisateurs. Pour de vrai.",
     "speakersId": [
+      "laurie-coquillat"
     ],
     "format": "Workshop",
     "categorie": "Agilité",
     "tags": [
+      "architecture"
     ],
     "room": "Le Scriptorium",
     "day": "day-2",
