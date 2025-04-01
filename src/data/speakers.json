@@ -1,16 +1,8 @@
 [
   {
-    "name": "Geoffrey Graveaud",
+    "name": "X",
     "id": "geoffrey-graveaud",
-    "picture": "/speakers/graveaud.jpeg",
-    "company": "ARIANE GROUP",
-    "bio": "Devops Lead & Acculturation at Ariane Group (SpaceEnabler)\nI'm like a Swiss army knife : DevOps, agility, accelerate(DORA metrics), coaching, etc.\nI am a speaker and I train on public speaking",
-    "social": [
-      {
-        "x": "@GraveaudG",
-        "github": null
-      }
-    ],
+    "bio": "",
     "sessionsId": [
       "Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt"
     ]
