@@ -1,9 +1,9 @@
 [
   {
     "id": "Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt",
-    "title": "🗓️ Keynote à venir prochainement",
-    "abstract": "Soyez patient, l'abstract de la keynote va arriver 🧘",
-    "speakersId": [],
+    "title": "🗓️ A venir très prochainement...",
+    "abstract": "Soyez patient et vous ne serez pas déçus! 🧘",
+    "speakersId": ["keynote-speaker"],
     "format": "Keynote",
     "categorie": "Keynote",
     "tags": [
@@ -72,20 +72,18 @@
   },
   {
     "id": "cm8cw8rmb0agupr3npza3rxax",
-    "title": "AWS GameDay sur l'optimisation des coûts - Frugality Festival",
-    "abstract": "Vous êtes-vous déjà demandé comment les entreprises tech gèrent leurs factures cloud pendant leur croissance rapide ? Vous voulez découvrir les secrets de l'optimisation des coûts cloud à travers des scénarios réels ? Rejoignez-nous pour l'AWS GameDay : Frugality Festival !  Glissez-vous dans la peau d'un architecte cloud chez Unicorn.Rentals, une startup en plein essor qui vient d'acquérir son concurrent, RentMyUnicorns. Il y a juste un hic – leurs coûts cloud sont en train d'exploser ! Votre mission : optimiser leur infrastructure, réduire les coûts et maintenir l'activité sans accroc. Pas de pression, n'est-ce pas ?  Durant ce défi de 2 heures, vous allez : - Travailler sur un véritable environnement AWS (totalement gratuit !) - Faire équipe avec d'autres passionnés de tech - Traquer les inefficacités coûteuses - Mettre en place des solutions d'économie - Concourir pour gagner de superbes prix AWS - Apprendre les bonnes pratiques applicables à vos propres projets  Que vous soyez novice ou architecte chevronné, vous acquerrez une expérience pratique des outils et techniques d'optimisation des coûts AWS, inestimables dans le monde actuel orienté cloud.  Ne manquez pas cette opportunité d'améliorer votre expertise cloud tout en vous amusant ! Apportez votre ordinateur portable, vos compétences en résolution de problèmes et votre esprit de compétition. Nous nous occupons du reste – y compris des snacks pour alimenter votre quête d'optimisation ! 🚀  Prérequis : Connaissance basique des services AWS (mais pas d'inquiétude – nous fournirons des ressources d'apprentissage avant l'événement pour vous mettre à niveau !)",
+    "title": "A venir...",
+    "abstract": "...très prochainement",
     "speakersId": [
-      "charles-rapp"
+      "john-doe-1"
+    ],
+    "tags": [
     ],
     "format": "Workshop",
-    "categorie": "Cloud & DevSecOps",
-    "tags": [
-      "cloud_devops"
-    ],
     "room": "Le Scriptorium",
     "day": "day-1",
     "slot": "day-1-codelab-2",
-    "slug": "aws-gameday-sur-loptimisation-des-cots---frugality-festival",
+    "slug": "workshop-empty-slot-1",
     "cancelled": false
   },
   {
@@ -781,21 +779,19 @@
     "cancelled": false
   },
   {
-    "id": "cm72crin70118ml3mahys8aee",
-    "title": "Le Grimoire Perdu : La Renaissance de l’Écriture Sacrée avec mkdocs",
-    "abstract": "Ecrire des parchemins de savoir, rares sont les âmes courageuses qui s’y adonnent de bon cœur. C’est une tâche ardue, souvent terne, reléguée aux oubliettes des bibliothèques de quelques mages farfelus. Ainsi, nombre de manuscrits ne furent jamais terminés, engloutis par la paresse et l’indifférence.  Pourtant, il fut un temps où moi-même, humble scribe, trouvais un certain plaisir à graver des runes de connaissance. Mais hélas ! Mes écrits étaient aussi fades qu’une soupe de crapauds de la vieille sorcière du village, si bien que nul aventurier ne daignait les consulter. 😅  Puis, un jour, tel un artefact légendaire surgissant des brumes du destin, je découvris MkDocs. Ce puissant outil, doté d’un écosystème riche et enchanteur, raviva la flamme de l’écriture en moi. Grâce à lui, écrire des grimoires élégants, structurés et d’une clarté cristalline devint un jeu d’enfant.  Rejoignez-moi dans cette quête ! Ensemble, nous explorerons les arcanes fondamentaux de MkDocs. Et peut-être, comme moi, retrouverez-vous le plaisir, jusque là inavouable, de noircir des parchemins de savoir dignes des plus grandes bibliothèques enchantées. 📜✨",
+    "id": "empty-quickie-slot-1",
+    "title": "A venir...",
+    "abstract": "...très prochainement",
     "speakersId": [
-      "matthieu-vincent"
+      "john-doe-2"
     ],
     "format": "Quickie",
-    "categorie": "Quêtes Secondaires",
     "tags": [
-      "discovery"
     ],
     "room": "L'astrarium",
     "day": "day-1",
     "slot": "day-1-quickie-7-ps",
-    "slug": "le-grimoire-perdu--la-renaissance-de-lcriture-sacre-avec-mkdocs",
+    "slug": "empty-quickie-slot-1",
     "cancelled": false
   },
   {

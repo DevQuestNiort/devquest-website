@@ -72,8 +72,8 @@ const Speaker = async ({ params }: { params: Promise<{ slug: string }> }) => {
               <div className={styles.talkInfos}>
                 <Chip  
                 classes={styles.chip}                 
-                icon={tagLabels[session.tags[0]].icon}
-                 label={tagLabels[session.tags[0]].label}/>
+                icon={tagLabels[session.tags[0]]?.icon}
+                 label={tagLabels[session.tags[0]]?.label}/>
                  </div>
                  <div className={styles.talkInfos}>
 

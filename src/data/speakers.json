@@ -1,7 +1,7 @@
 [
   {
-    "name": "X",
-    "id": "geoffrey-graveaud",
+    "name": "",
+    "id": "keynote-speaker",
     "bio": "",
     "sessionsId": [
       "Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt"
@@ -52,16 +52,7 @@
     ]
   },
   {
-    "name": "Charles Rapp",
-    "id": "charles-rapp",
-    "picture": "/speakers/rapp.png",
-    "company": "Amazon Web Services",
-    "bio": "Charles Rapp is a Senior Solutions Architect at Amazon Web Services (AWS) with over 15 years of experience in the tech industry. Based in Strasbourg, France, Charles specializes in designing and implementing cloud-based solutions that help clients achieve their business goals.\n\nAt AWS, Charles focuses on assisting customers from the Consumer Packaged Goods (CPG), Retail, and Hospitality industries in their cloud journey, from migration to modernization. He leads the Modern App/Serverless and Retail/CPG community in France and has trained over 300 people through technical workshops on various AWS topics.\n\nPrior to joining AWS, Charles founded and managed his own company, LCMH, for over 12 years, where he developed websites, e-commerce platforms, and iOS applications. He also spent nearly 6 years at Pernod Ricard in various IT roles, including IT Solutions Architect and Tech Lead for Digital, Sales & Marketing.\n\nCharles is 8x AWS Certified and has contributed to the AWS blog. He is fluent in French and English, with working knowledge of German. His expertise spans cloud computing, solution architecture, and mentoring, making him a valuable resource in the field of cloud technologies and digital transformation.",
-    "social": {
-      "x": "https://x.com/charlesrapp",
-      "github": "https://github.com/charlesrapp",
-      "linkedin": ""
-    },
+    "id": "john-doe-1",
     "sessionsId": [
       "cm8cw8rmb0agupr3npza3rxax"
     ]
@@ -366,18 +357,9 @@
     ]
   },
   {
-    "name": "Matthieu Vincent",
-    "id": "matthieu-vincent",
-    "picture": "/speakers/vincent.jpg",
-    "company": "Sopra Steria",
-    "bio": "I'm working at Sopra Steria as TechAdvocate and Engineering Platform leader.\nIn my spare time, I'm the co-founder of Volcamp and of the meetup GreenTechAuvergne, also a GitLab Hero & a R2DevOps ambassador. I love coding and opensource, I'm the owner of 3 littles assets : svn2git, gitlab-emoji and heimdall (https://github.com/yodamad)\n\nAll my contributions are available at https://me.yodamad.fr, I'm speaking in conferences and rewriting blog articles since 2022.",
-    "social": {
-      "x": "https://x.com/yodamad03",
-      "github": "https://github.com/yodamad",
-      "linkedin": ""
-    },
+    "id": "john-doe-2",
     "sessionsId": [
-      "cm72crin70118ml3mahys8aee"
+      "empty-quickie-slot-1"
     ]
   },
   {
