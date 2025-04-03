@@ -11,10 +11,12 @@ import { MapSection } from "./sections/MapSection/MapSection";
 import { DungeonMastersSection } from "./sections/dungeonMastersSection/DungeonMastersSection";
 import { LastYearSection } from "./sections/lastYearSection/LastYearSection";
 import { PartnersSection } from "./sections/partnersSection/PartnersSection";
+import { CompagnonsSection } from "./sections/compagnonsSection/CompagnonsSection";
 
 interface HomeViewProperties {
   readonly themes: Theme[];
   readonly membres: Membre[];
+  readonly compagnons: Membre[];
   readonly contacts: MoyensContact[];
   readonly partenaires: Partenaire[];
 }
@@ -22,6 +24,7 @@ interface HomeViewProperties {
 export default function HomeView({
   contacts,
   membres,
+  compagnons,
   themes,
   partenaires,
 }: HomeViewProperties) {
@@ -33,6 +36,7 @@ export default function HomeView({
       <EventThemesSection themes={themes} />
       <MapSection />
       <DungeonMastersSection membres={membres} />
+      <CompagnonsSection membres={compagnons} />
       <LastYearSection />
       <PartnersSection partenaires={partenaires} />
     </div>

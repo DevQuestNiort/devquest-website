@@ -10,6 +10,10 @@ export default async function Home() {
     process.cwd() + "/src/data/teams.json",
     "utf8",
   );
+  const compagnonsFile = await fs.readFile(
+    process.cwd() + "/src/data/compagnons.json",
+    "utf8",
+  );
   const themesFile = await fs.readFile(
     process.cwd() + "/src/data/themes.json",
     "utf8",
@@ -26,6 +30,7 @@ export default async function Home() {
   const contacts: MoyensContact[] = JSON.parse(contactsFile);
   const themes: Theme[] = JSON.parse(themesFile);
   const membres: Membre[] = JSON.parse(teamsFile);
+  const compagnons: Membre[] = JSON.parse(compagnonsFile);
   const partenaires: Partenaire[] = JSON.parse(partenairesFile);
 
   return (
@@ -33,6 +38,7 @@ export default async function Home() {
       contacts={contacts}
       themes={themes}
       membres={membres}
+      compagnons={compagnons}
       partenaires={partenaires}
     />
   );

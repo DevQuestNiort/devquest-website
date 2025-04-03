@@ -1,0 +1,68 @@
+[
+    {
+        "img": "/teams/gougouzian.jpeg",
+        "name": "Sylvain Gougouzian",
+        "role": "#Dev",
+        "linkedin": "gouz"
+    },
+    {
+        "img": "/teams/boinot.jpeg",
+        "name": "Emmanuelle Boinot",
+        "role": "#Dev",
+        "linkedin": "emmanuelle-boinot"
+    },
+    {
+        "img": "/teams/chotadon.jpeg",
+        "name": "Vanessa Chotadon",
+        "role": "#Dev",
+        "linkedin": "vanessa-chodaton-42959076"
+    },
+    {
+        "img": "/teams/prunier.jpeg",
+        "name": "Sébastien Prunier",
+        "role": "#Dev",
+        "linkedin": "sebastien-prunier"
+    },
+    {
+        "img": "/teams/joffre.jpeg",
+        "name": "Jean-Baptiste Joffre",
+        "role": "#Dev",
+        "linkedin": "jean-baptiste-joffre-459808122"
+    },
+    {
+        "img": "/teams/soilih.jpeg",
+        "name": "Nastasia Soilih",
+        "role": "#AgileMaster",
+        "linkedin": "nnsoilih"
+    },
+    {
+        "img": "/teams/pacaudm.jpeg",
+        "name": "Mathilde Pacaud",
+        "role": "#OPS",
+        "linkedin": "mathilde-pacaud-86b553227"
+    },
+    {
+        "img": "/teams/loya.jpeg",
+        "name": "Dylan Loya",
+        "role": "#Dev",
+        "linkedin": "dylan-loya-993711196"
+    },
+    {
+        "img": "/teams/mathieut.jpeg",
+        "name": "Théo Mathieu",
+        "role": "#Dev",
+        "linkedin": "mathieu-theo"
+    },
+    {
+        "img": "/teams/rambolatahiana.jpeg",
+        "name": "Tsinjoaribenja Mario Rambolatahiana",
+        "role": "#Dev",
+        "linkedin": "mario-rambolatahiana-700431253"
+    },
+    {
+        "img": "/teams/rambolatahiana.jpeg",
+        "name": "Mazen Natour",
+        "role": "#Dev",
+        "linkedin": "mazen-natour-"
+    }
+] 
