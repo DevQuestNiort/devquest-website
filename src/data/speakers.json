@@ -357,9 +357,18 @@
     ]
   },
   {
-    "id": "john-doe-2",
+    "name": "Maximillien Gilet",
+    "id": "maximillien-gilet",
+    "picture": "/speakers/gilet.png",
+    "company": "Alltech",
+    "bio": "Développeur frontend senior, passionné de claviers mécaniques, de terminal et de code pragmatique.",
+    "social": {
+      "x": "",
+      "github": "https://github.com/maximilienGilet/",
+      "linkedin": ""
+    },
     "sessionsId": [
-      "empty-quickie-slot-1"
+      "bt5ze6t1ec9tbr3v8vz31vre51"
     ]
   },
   {

@@ -779,19 +779,21 @@
     "cancelled": false
   },
   {
-    "id": "empty-quickie-slot-1",
-    "title": "A venir...",
-    "abstract": "...très prochainement",
+    "id": "bt5ze6t1ec9tbr3v8vz31vre51",
+    "title": "Astro, vers l'infini et au delà",
+    "abstract": "Découvrez Astro, l'étoile montante des meta-frameworks. De moteur de sites statiques à meta-framework ultra complet et aux performances stellaires, je vous invite à explorer les confins de la performance avec un confort de dev 5 étoiles.",
     "speakersId": [
-      "john-doe-2"
+      "maximillien-gilet"
     ],
     "format": "Quickie",
+    "categorie": "Frontend",
     "tags": [
+      "frontend"
     ],
     "room": "L'astrarium",
     "day": "day-1",
     "slot": "day-1-quickie-7-ps",
-    "slug": "empty-quickie-slot-1",
+    "slug": "astro-vers-l-infini-et-au-dela",
     "cancelled": false
   },
   {
