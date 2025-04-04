@@ -2,6 +2,7 @@ import { Section } from "@/components/Section";
 import { Avatar } from "@/components/Avatar";
 import { Galery } from "@/components/Galery";
 import { Membre } from "@/model/Membre";
+import { Chip } from "@/components/Chip";
 
 
 interface CompagnonsSectionProperties {
@@ -9,6 +10,7 @@ interface CompagnonsSectionProperties {
 }
 
 export function CompagnonsSection({membres}:CompagnonsSectionProperties) {
+
     return (
         <Section theme="Light">
         <h2>Les compagnons de l'aventure</h2>
@@ -25,6 +27,7 @@ export function CompagnonsSection({membres}:CompagnonsSectionProperties) {
                 color={defineColor(m.role)}
                 github={m.github}
                 linkedin={m.linkedin}
+                facebook={m.facebook}
               />
             ))}
         </Galery>
@@ -36,7 +39,7 @@ export function CompagnonsSection({membres}:CompagnonsSectionProperties) {
 function defineColor (role: String){
   switch (role){
     case "BENEVOLE" : return "RED";
-    case "VIP" : return "YELLOW";
+    case "HELPER" : return "YELLOW";
     case "MC" : return "BLUE";
     default : return "NONE"
   }

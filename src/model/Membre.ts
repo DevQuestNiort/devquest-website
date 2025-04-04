@@ -4,5 +4,6 @@ export interface Membre {
   metier: string;
   github?: string;
   linkedin?: string;
-  role: 'MEMBRE' | 'BENEVOLE'| 'MC' | 'VIP' ;
+  facebook?: string;
+  role: 'MEMBRE' | 'BENEVOLE'| 'MC' | 'HELPER' ;
 }

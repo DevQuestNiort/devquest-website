@@ -7,6 +7,7 @@ interface AvartarProperties {
   readonly metier?: string;
   readonly github?: string;
   readonly linkedin?: string;
+  readonly facebook?: string;
   readonly color?: 'YELLOW' |'BLUE' | 'RED'| "NONE" ;
   readonly classes?: {
     main?: string,
@@ -23,6 +24,7 @@ export default function Avatar({
   metier,
   github,
   linkedin,
+  facebook,
   x,
   color,
   classes,
@@ -72,6 +74,12 @@ switch(color){
           </a>
         )}
       </div>}
+          {facebook && (
+          <a target="_blank" aria-label={`Facebook de ${name}`} href={`https://www.facebook.com/${facebook}`}>
+            <span className="icon-mail" style={{ color: "black" }}></span>
+          </a>
+        )}
+      </div>
     </div>
   );
 }

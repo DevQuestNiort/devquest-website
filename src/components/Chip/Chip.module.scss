@@ -8,7 +8,10 @@
   border-width: 1px;
   border-style: solid;
   padding-left: 2px;
-
+  & .blue{
+    color: blue;
+    border-color: blue;
+  }
   .chipLabel {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -17,3 +20,5 @@
     white-space: nowrap;
   }
 }
+
+
