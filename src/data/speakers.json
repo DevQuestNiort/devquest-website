@@ -1,0 +1,824 @@
+[
+  {
+    "name": "",
+    "id": "keynote-speaker",
+    "bio": "",
+    "sessionsId": [
+      "Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt"
+    ]
+  },
+  {
+    "name": "Julien Furiga",
+    "id": "julien-furiga",
+    "company": "Devoteam",
+    "bio": "Julien Furiga, consultant cloud Data et ML basé a Nantes. \nAprès une reconversion de la cuisine vers le dev, j'ai finalement trouvé ma voie dans la data et plus particulièrement le déploiement d'infrastructure dédiées au déploiement de modèle de machine learning. Afin d'épancher ma soif de curiosité, je me suis ensuite plongé dans l'univers de la data, de la GenAI et de l'iot.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm8db0z580ax0pr3n18889i8i"
+    ]
+  },
+  {
+    "name": "Thomas CORNEC",
+    "id": "thomas-cornec",
+    "picture": "/speakers/cornec.jpeg",
+    "company": null,
+    "bio": "Je suis consultant en transformation cloud depuis 4 ans. Dans le cadre de cette fonction, je réalise de nombreuses prestations sur de l'architecture, de l'expertise DevSecOps, du finOps et de la transformation de modèle opérationnel.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm8db0z580ax0pr3n18889i8i"
+    ]
+  },
+  {
+    "name": "Emmanuel Bernard",
+    "id": "emmanuel-bernard",
+    "picture": "/speakers/bernard.jpeg",
+    "company": "Red Hat",
+    "bio": "Emmanuel est Java Champion, Senior Distinguished Engineer et Chief Architect Application Services et Middleware chez Red Hat. Son travail est Open Source. Il est connu pour ses contributions et sa direction des projets Quarkus, Hibernate ainsi qu’à ses contributions aux standards Java.\n\nIl parle régulièrement dans des conférences et JUGs notamment JavaOne, Red Hat Summit et Devoxx. Il est l’hôte de plusieurs podcasts et notamment Les Cast Codeurs.\n\nVous pouvez le suivre sur sur BlueSky à @emmanuelbernard.com et sur X à @emmanuelbernard.\n\n#kafka #quarkus #debezium #infinispan #hibernate-orm #hibernate-search #hibernate-validator #hibernate-ogm #ceylon #JPA #bean-validation #lescastcodeurs",
+    "social": {
+      "x": "https://x.com/emmanuelbernard",
+      "github": "https://github.com/emmanuelbernard",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm8d8l0qs0awmpr3nhs5tp5sy"
+    ]
+  },
+  {
+    "id": "john-doe-1",
+    "sessionsId": [
+      "cm8cw8rmb0agupr3npza3rxax"
+    ]
+  },
+  {
+    "name": "Alan DUCHENE",
+    "id": "alan-duchene",
+    "picture": "/speakers/duchene.jpeg",
+    "company": "Zenika",
+    "bio": "Développeur un peu touche à tout depuis maintenant 10 ans, je possède une appétence pour le front et les interfaces élégantes et intuitives, même si construire un bon backend fait toujours plaisir.\n\nVéritable technophile dans une esprit craftsman et agile, j'aime à ce que l'amélioration continue, la qualité et le partage ne soient pas que des mots.\n\nJe m'intéresse beaucoup au clean code et aux méthodes comme le TDD, le BDD et le DDD même s'il me reste énormément de chemin à parcourir sur ces sujets.",
+    "social": {
+      "x": "",
+      "github": "https://github.com/aland404",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm8bvayuq09vypr3net3sw0g3"
+    ]
+  },
+  {
+    "name": "Marie Viley",
+    "id": "marie-viley",
+    "picture": "/speakers/viley.jpg",
+    "company": "Zenika",
+    "bio": "Directrice d'agence chez Zenika, je suis passionnée par la détection des fake news et de la désinformation, l'OSINT et les chats.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm8bv1ymp09vbpr3nyd3wxb5w"
+    ]
+  },
+  {
+    "name": "Thibault Goudouneix",
+    "id": "thibault-goudouneix",
+    "picture": "/speakers/thibault-goudouneix.png",
+    "company": "ASI",
+    "bio": "Rôliste passionné, véritable geek et développeur web et mobile enthousiaste, j'ai pratiqué le théâtre pendant 4 ans et le Quidditch moldu pendant la même durée. \n\nJe code essentiellement en JavaScript et TypeScript sur des projets en React.js, React Native, Ionic, Angular et Svelte.js (mon coup de coeur du moment !).\n\nAujourd'hui au sein d'ASI, je cherche à perfectionner ma technique, à évangéliser les enjeux environnementaux et sociaux et à devenir un passeur de savoir à travers des articles et des conférences. Je fais par ailleurs partie de la Team RSE d'ASI depuis sa création car je crois en l'impact positif que je peux apporter autour de moi et car cela me permet d'apprendre et d'améliorer ma prise de conscience climatique.",
+    "social": {
+      "x": "https://x.com/nilmanduil",
+      "github": "https://github.com/Nilmanduil",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm88zazuy08rnpr3n1ymsjesu"
+    ]
+  },
+  {
+    "name": "Damien HACKETT",
+    "id": "damien-hackett",
+    "company": "SII",
+    "bio": "Développeur logiciel embarqué depuis 2013 (oui je suis Level 12).\nJ ai travaillé dans différents domaines de l embarqué : Linux embarqué, OS temps réel, baremétal, environnements normés... même sur FPGA et en co-design électronique.\n\n-Epée affutée et regard perçant pour dénicher les gobelins et autres orcs cachés dans la pénombre.\n-De nombreux points de compétences en C/C++.\n-A commencé l exploration du \"Donjon Rustique\" gardé par les crustacéens.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm88deamo08lqpr3nf0fgq4sy"
+    ]
+  },
+  {
+    "name": "Paul ROYE",
+    "id": "paul-roye",
+    "picture": "/speakers/roye.jpeg",
+    "company": "SII",
+    "bio": "Je suis Lead Tech Backend et coordinateur de nos missions d'expertise à SII Atlantique (Nantes)\n\nJe suis aussi (et surtout !) un joueur au sens large : jeux de société, jeu de rôle (maitre du jeu depuis mes 15 ans), membre fondateur d'une association de création de jeux de société et d'animations ludiques, joueur et collectionneur de cartes à jouer..",
+    "social": {
+      "x": "https://x.com/Paulo_Del_Rey",
+      "github": "https://github.com/paul-roye",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm88149gr08lgpr3nvfg4eu9j"
+    ]
+  },
+  {
+    "name": "Mehdi CHILLA",
+    "id": "mehdi-chilla",
+    "picture": "/speakers/chilla.jpeg",
+    "company": "IMA",
+    "bio": "# Mehdi, Passionné du Code et Artisan du Développement\n\nDepuis plus de dix ans, Mehdi œuvre dans le développement logiciel, maîtrisant les langages Java, Go et JavaScript. Tech Lead expérimenté, il participe activement à la conception de systèmes robustes et évolutifs, en visant à garantir performance et qualité dans chaque projet.\n\nAu sein d’une alliance de mutuelles et d’assurances, il veille à appliquer des normes solides et à favoriser les meilleures pratiques. Sous sa direction, les artefacts numériques prennent forme, adaptés pour relever les défis technologiques à venir. Expert des infrastructures modernes, il s’illustre dans l’utilisation de Kubernetes et des environnements cloud pour construire des solutions résilientes.\n\nToujours curieux et en quête d’innovation, il explore les nouvelles possibilités offertes par l’intelligence artificielle, cherchant constamment à se perfectionner dans son domaine. Mais sa quête d’amélioration ne se limite pas au code : conscient que l’équilibre passe par l’ensemble de la personne, il met aussi un point d’honneur à renforcer son corps et son esprit avec la même rigueur.\n\nMéthodique, ambitieux, et tourné vers l’avenir, Mehdi continue de bâtir, d’optimiser et d’accompagner ses équipes vers de nouveaux défis.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm86krnta0892pr3nwk8hr0lw"
+    ]
+  },
+  {
+    "name": "Jérémy BERNARD",
+    "id": "jeremy-bernard",
+    "picture": "/speakers/bernard.jpeg",
+    "company": null,
+    "bio": "Nom : Maître du Code, le Forgeur de Performances\nRace : Humain\nClasse : Archimage du Développement (Spécialisation : Java & Performance)\nAlignement : Loyal Neutre (car l’optimisation et la rigueur priment sur le chaos du code mal conçu)\nCompétences : TDD mystique, Invocation de microservices, Enchantement de pipelines DevOps, Élixir de performance extrême\n\nDans les royaumes brumeux du Développement, un héros s’est levé il y a plus d’une décennie. Armé de sa plume de code et de son grimoire d’optimisations, il a traversé les donjons labyrinthiques des projets legacy, dompté les dragons des performances médiocres et repoussé les hordes d’exceptions runtime.\n\nAu fil des années, il a façonné son art, maîtrisant le Test-Driven Development comme un moine perfectionnant ses katas, jusqu’à atteindre la sagesse du classicisme. Dans les terres austères de l’Assurance, il a forgé son armure de résilience, bâtissant des citadelles de code robuste et scalable, inébranlables face aux tempêtes du changement.\n\nMais son périple ne s’arrête pas là. Habité par une passion ardente pour le DevOps, il érige des passerelles entre le royaume des Développeurs et celui des Opérations, sculptant des pipelines de CI/CD aussi fluides que la magie la plus pure.\n\nEt tandis que l’aube d’un nouveau projet pointe à l’horizon, le Maître du Code se tient prêt, son IDE en main, ses tests unitaires invoqués, prêt à écrire une nouvelle légende dans le grand Codex du Développement.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm86krnta0892pr3nwk8hr0lw"
+    ]
+  },
+  {
+    "name": "Florian Forestier",
+    "id": "florian-forestier",
+    "picture": "/speakers/forestier.jpg",
+    "company": null,
+    "bio": "Consultant pour Zenika, je suis un passionné d'informatique depuis mes 11 ans, et ait effectué mes études au cœur de l'Auvergne, à l'Université Clermont-Auvergne. Curieux de l'ensemble des champs d'application de l'informatique, j'ai profité d'une expérience de 6 ans chez BeYs Cloud pour développer mes compétences notamment liées aux infrastructures cloud, l'écosystème Golang, et à la philosophie et méthodologies DevOps. \n\nEn dehors de tout ça, je suis également enseignant à l'Université Clermont-Auvergne (sur des sujets variés allant du Génie Logiciel au Cloud Computing) ; et membre du bureau de Clermont'ech, association locale Clermontoise promouvant la tech au sens général.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm85swij307bxpr3nlhmzosxm"
+    ]
+  },
+  {
+    "name": "Stéphane Philippart",
+    "id": "stephane-philippart",
+    "picture": "/speakers/philippart.png",
+    "company": "OVHcloud",
+    "bio": "Durant plus de 20 ans dans le métier \"d'informaticien\" j'ai pu me confronter à beaucoup de technologies différentes. Et c'est cette diversité qui me fait continuer à autant aimer notre métier.\n\nDepuis maintenant 3 ans j'ai la chance d'évoluer au sein d'OVHcloud en tant que developer advocate. Cette position me permet de découvrir de nouvelles technologies ou disciplines comme l’Intelligence Artificielle ou le \"cloud native\" par exemple.\n\nMais mon cœur de vieux développeur Java ne peut pas trop s'éloigner de cette technologie qui est le fil rouge de mes nombreuses années de développeur.\n\nC'est avec humilité que je partage cette expérience mais aussi les nouveautés de notre écosystème à travers mes conférences et le meetup TADx co-créé à Tours.",
+    "social": {
+      "x": "https://x.com/wildagsx",
+      "github": "https://github.com/philippart-s",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm85mm6db0783pr3n9g5gf6k2"
+    ]
+  },
+  {
+    "name": "Benjamin Cavy",
+    "id": "benjamin-cavy",
+    "picture": "/speakers/cavy.png",
+    "company": "MAIF",
+    "bio": "Lead dev à la MAIF, je m'intéresse en ce moment particulièrement aux tests et à ce qu'ils peuvent apporter dans le processus de développement logiciel.",
+    "social": {
+      "x": "https://x.com/benjamin_cavy",
+      "github": "https://github.com/ptitFicus",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm84q0or8073apr3nqe2bm6d8"
+    ]
+  },
+  {
+    "name": "Antoine Mazure",
+    "id": "antoine-mazure",
+    "picture": "/speakers/antoine-mazure.jpeg",
+    "company": null,
+    "bio": "Leader de la R&D Software Engineering chez OCTO Technology, Antoine suit des principes de \"Start Finishing\" ou de \"Less is more\". Il a récemment crée la refcard sur le Domain Driven Design Stratégique ainsi que l’OCTO Magazine (c'est gratuit, demandez-le !).\n\nFort de son expertise à la fois technique et stratégique, Antoine est tech lead sur une application mobile citoyenne gratuite qui permet de poser des questions au Gouvernement et de répondre à des Consultations publiques pour orienter les lois. Il conseille également des urbanistes SI sur leur stratégie d’APIsation : comment faire des APIs dans leur système d’information (gouvernance, sécurité, design & architecture).\n\nOriginaire du Nord, il allie franc-parler et tenacité mais saura se laisser convaincre moyennant une bonne carbonnade flamande.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm82vobp905glpr3n2ru6c1gh"
+    ]
+  },
+  {
+    "name": "Moustapha Agack",
+    "id": "moustapha-agack",
+    "picture": "/speakers/agack.jpg",
+    "company": "Zenika",
+    "bio": "Smash my keyboard for a living—results vary, but sometimes cool stuff happens",
+    "social": {
+      "x": "https://x.com/mousstoh",
+      "github": "https://github.com/Moussto",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm7t8u3tr0145p53me4jc32yk"
+    ]
+  },
+  {
+    "name": "Delegue Alexandre",
+    "id": "delegue-alexandre",
+    "picture": "/speakers/delegue.jpeg",
+    "company": "MAIF",
+    "bio": "Java, Scala, Kotlin, Javascript, pain au levain",
+    "social": {
+      "x": "https://x.com/chanksleroux",
+      "github": "https://github.com/larousso",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm7ptd0oq02kbob3n1ujqut1r"
+    ]
+  },
+  {
+    "name": "Laurent Grangeau",
+    "id": "laurent-grangeau",
+    "picture": "/speakers/grangeau.jpeg",
+    "company": "Google",
+    "bio": "Laurent Grangeau is a Cloud Solution Architect with more than 10+ years of experience. Former Java developer, he has since developed in .NET, with Agile and DevOps mindsets. He has been experimenting with cloud providers for more than 5+ years. Docker enthusiast from the beginning, he has experienced with building microservices and distributed systems. He loves to automate things and run distributed applications at scale.",
+    "social": {
+      "x": "https://x.com/laurentgrangeau",
+      "github": "https://github.com/laurentgrangeau",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm7nu1o5f01klob3nv0l8etv8"
+    ]
+  },
+  {
+    "name": "Tony Jarriault",
+    "id": "tony-jarriault",
+    "picture": "/speakers/jarriault.jpeg",
+    "company": "CAPGEMINI",
+    "bio": "Depuis mes premier pas en informatique, j'ai toujours été fasciné par les enjeux liés à la sécurité numérique, je suis également cloud addict. Le cloud nous apporte une très grande agilité, pour nous donner accès à l’innovation !\n\nJ'ai été responsable technique pour le build et le run de plate forme infogérée. J'ai participé au coaching des équipes sur le volet technique.\nJ’accompagne nos clients dans la définition de leur besoin et de la mise en œuvre des solutions.",
+    "social": {
+      "x": "https://x.com/JarriaultTony",
+      "github": "https://github.com/TJarriault",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm7nu1o5f01klob3nv0l8etv8"
+    ]
+  },
+  {
+    "name": "Julien Landuré",
+    "id": "julien-landure",
+    "picture": "/speakers/landure.png",
+    "company": "TechTown",
+    "bio": "CTO, Julien est aussi Google Developer Expert Cloud. Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes. Julien organise également une nouvelle conférence appelée TechReady.",
+    "social": {
+      "x": "https://x.com/jlandure",
+      "github": "https://github.com/jlandure",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm7d3soxt012dnz3mida7eluu"
+    ]
+  },
+  {
+    "name": "Anthony Cassaigne",
+    "id": "anthony-cassaigne",
+    "picture": "/speakers/anthony-cassaigne.jpeg",
+    "company": null,
+    "bio": "Je suis développeur depuis 1997, je me suis impliqué dans la communauté Agile Toulouse en 2010. J'ai été coach Agile de 2011 à 2014 puis retour à la programmation par passion. Développeur et accompagnateur d'équipes pour le développement de logiciel, j'aide les équipes à progresser dans l'art de développer. \nJe pratique pour l'essentiel l'Ensemble Programming. Je me suis intéressé très tôt au mob/ensemble programming dès 2011. \nJ'ai pu me former auprès de Woody Zuill (créateur du mob programming) et accompagner des équipes à cette pratique.",
+    "social": {
+      "x": "https://x.com/acassaigne",
+      "github": "https://github.com/acassaigne",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm79bosgy003pnz3m4tnjdc0u"
+    ]
+  },
+  {
+    "name": "craft Softwr & Music",
+    "id": "craft-softwr-music",
+    "picture": "/speakers/craftsoftware.jpg",
+    "company": "ITER organisation",
+    "bio": "I wrote my first lines of code at the age of 11 on a ZX81.\nA bit later, I loved to code in ADA and Pascal \nSince then,  I've been a software craftsman for 30 years, a student of Laurent Bossavit, Jonathan Peret, and Olivier Azeau. \nI have also been a software architect, project manager, and team leader. I have worked for various IT services companies and software publishers, including 10 years at Varian Medical Systems and more recently at ITER org.\nI'm a C# and JS coder from the beginning, I have recently delved into Kotlin with delight. I believe that good development consists of 70% discussion, 20% testing, and 10% coding.",
+    "social": {
+      "x": "https://x.com/guillaume_agile",
+      "github": "https://github.com/guillaumeagile",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm79bosgy003pnz3m4tnjdc0u"
+    ]
+  },
+  {
+    "name": "Paul Vulliemin",
+    "id": "paul-vulliemin",
+    "picture": "/speakers/vulliemin.jpg",
+    "company": "SOPRA STERIA",
+    "bio": "Ingénieur plateforme chez Sopra Steria, je suis un profil touche à tout/couteau suisse, passionné par tous les sujets techniques liés à l'IT.\n\nJ'aime apprendre et découvrir de nouveaux sujets techniques, et j'aime par dessus résoudre des problèmes.\n\nJ'ai commencé par le développements d'applications et maintenant je travaille principalement sur des sujets liés à l'industrialisation et à l'administration de systèmes : CI/CD, Kubernetes, Docker, Ansible, Terraform, etc. Tout en intervenant toujours ponctuellement sur d'autres sujets techniques.\n\n*Mes péchés mignons ce sont les PoC, et ma kryptonite, la doc.*",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm733xtk00121ml3mdkfbg91v"
+    ]
+  },
+  {
+    "name": "Mélissa PINON",
+    "id": "melissa-pinon",
+    "picture": "/speakers/pinon.jpeg",
+    "company": "Sopra Steria",
+    "bio": "Ingénieur DevOps/SRE depuis 3 ans. Je travaille avec mon équipe sur l'industrialisation de multiples projets pour Sopra Steria.\nNous fournissons et maintenons des outils, gérons la partie Gitlab CI/CD et administrons les clusters Kubernetes.\nEt lorsque nous en avons l'occasion, nous testons de nouveaux outils !\n \nUne passion: automatiser ce qui peut l'être 🔨\nUne addiction: la caféine ☕",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm733xtk00121ml3mdkfbg91v"
+    ]
+  },
+  {
+    "name": "Maximillien Gilet",
+    "id": "maximillien-gilet",
+    "picture": "/speakers/gilet.png",
+    "company": "Alltech",
+    "bio": "Développeur frontend senior, passionné de claviers mécaniques, de terminal et de code pragmatique.",
+    "social": {
+      "x": "",
+      "github": "https://github.com/maximilienGilet/",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "bt5ze6t1ec9tbr3v8vz31vre51"
+    ]
+  },
+  {
+    "name": "Emmanuelle ABOAF",
+    "id": "emmanuelle-aboaf",
+    "picture": "/speakers/aboaf.jpeg",
+    "company": null,
+    "bio": "Sourde de naissance, bionique (deux implants cochléaires) et surtout développeuse Fullstack Angular .NET chez Shodo, je lutte chaque jour pour l’accessibilité. Dans mon monde idéal, tout doit être accessible aussi bien dans la vraie vie que sur le Web.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm71ryvfd00w0ml3mtlbzbk19"
+    ]
+  },
+  {
+    "name": "Angi ❄️Guyard",
+    "id": "angi-guyard",
+    "picture": "/speakers/anguy-guiard.jpeg",
+    "company": "Shodo",
+    "bio": "Après une reconversion réussie grâce à l’école 42, je suis aujourd’hui développeuse et militante pour un numérique plus inclusif et une société équitable. Passionnée par les enjeux d’accessibilité numérique, de neurodiversité, de diversité dans la tech et d’égalité, je m’engage à sensibiliser et partager des bonnes pratiques pour construire un monde où chaque personne a sa place, avec ses besoins et ses particularités.\nCe qui m’anime, c’est de rendre les choses accessibles à toustes, que ce soit à travers mon vécu, mes conférences ou mes actions concrètes. L’inclusion, ce n’est pas un concept abstrait : c’est une démarche à la portée de toustes, capable de transformer nos environnements et de rapprocher les individus. Mon ambition ? Poser les bases d’un monde plus juste, un projet collectif qui commence par des actes simples mais significatifs.\n\nRêve de participer à rendre le monde plus accessible avec équité.",
+    "social": {
+      "x": "https://x.com/angig29",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm71ryvfd00w0ml3mtlbzbk19"
+    ]
+  },
+  {
+    "name": "Thanh Lan DOUBLIER",
+    "id": "thanh-lan-doublier",
+    "picture": "/speakers/doublier.jpeg",
+    "company": "Second brain",
+    "bio": "Après des études de droits, je suis tombée dans le développement web . Après quelques années en tant que développeuse  free-lance  RoR, mon état de sante s’est dégradée, ce qui m’a forcée à m’arrêter de coder pendant environ deux ans.\n\nAprès une formation orientée data science et une  alternance  chez Axa France, je suis actuellement Data engineer Mlops chez Second Brain une start-up  qui développe des solutions qui accompagnent les industriels pharmaceutiques dans leur processus de vente.\n\nLe code est un des éléments clef qui m’a aidé à accepter et avancer avec la maladie. C’est pour moi, un peu comme une baguette magique où tout peut devenir possible. Mais comme un grand pouvoir implique de grandes responsabilités,  il est parfois utile en tant que développeuse ou développeur de se questionner  sur nos pratiques et déconstruire nos biais.\n\nJe fais partie de l’organisation de Cloud Nord ( une conférence  orientée cloud à Lille ) , des Chtitedev ( un collectif de femmes de la tech) et je suis vice présidente de Compositech une association militante pour les droits des femmes et des personnes non binaires dans la tech",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm70y678900r8ml3mrc6a3p0y"
+    ]
+  },
+  {
+    "name": "ThibautCantet",
+    "id": "thibautcantet",
+    "picture": null,
+    "company": "Néosoft",
+    "bio": "18 ans de développement, crafter, architecte et DDD addict",
+    "social": {
+      "x": "https://x.com/thibautcantet",
+      "github": "https://github.com/thibautcantet",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6tg1z1b01a0ms3m95u4nwjn"
+    ]
+  },
+  {
+    "name": "Horacio Gonzalez (LostInBrittany)",
+    "id": "horacio-gonzalez-(lostinbrittany)",
+    "picture": "/speakers/gonsalez.jpg",
+    "company": "Clever Cloud",
+    "bio": "Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a plus d'une vingtaine d'années. Passionné d'informatique, dans laquelle il est tombé depuis tout petit, il a découvert le développement web en 1997 et depuis il n'a pas arrêté de bosser autour.\n\nAprès quelques années comme Directeur de Developer Relations chez [OVHcloud](https://twitter.com/OVHcloud), Horacio travaille actuellement comme Head of DevRel chez [Clever Cloud](https://www.clever-cloud.com/). Il est cofondateur du  [@FinistDevs](https://twitter.com/finistdevs/), et des [@RdvSpeakers](https://twitter.com/RdvSpeakers).\n\nPassionné par le développement web et tout ce qui gravite autour des composants web et des standards web, Horacio aime aussi discuter de Kubernetes, AI et le cloud en général. Il est [Google Developer Expert (GDE)](https://developers.google.com/experts/people/horacio-gonzalez)  en Web Technologies and Flutter.",
+    "social": {
+      "x": "https://x.com/LostInBrittany",
+      "github": "https://github.com/LostInBrittany",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6qmd7x300q8ms3mut7zlj4w"
+    ]
+  },
+  {
+    "name": "Julien Libert",
+    "id": "julien-libert",
+    "picture": "/speakers/libert.png",
+    "company": "Evoliz",
+    "bio": "Développeur Web depuis plus de 15 ans, j’aime coder, gérer des équipes et faire en sorte de garder une bonne cohérence dans mon code et une architecture de projet élaborée. \nJe passe la majorité de mon quotidien à jongler entre du Laravel, du VueJS, mais aussi de bons gros morceaux de code legacy (PHP, jQuery…). \n\nAprès une formation en informatique générale, c’est toujours le web et ses technos qui m’ont attirées. La véritable révélation s'est faite avec l’arrivée des frameworks (CSS, PHP, JS) qui ont commencé à structurer et donner des lignes directrices pour des projets plus ou moins complexes. Malgré les reproches qu’on peut parfois leur faire, ils permettent aux équipes de développement d’accélérer la production, d’éviter la redite de tâches laborieuses et ainsi se concentrer sur du code à forte valeur ajoutée pour les utilisateurs.\n\nActuellement Lead développeur chez Evoliz, j'ai dû aborder un framework dans un autre domaine : l’agilité dans la réalisation de projets, avec SCRUM. Notre philosophie : on essaie, on échoue, on améliore, on réussit, on améliore encore… Après 6 ans à leurs côtés, je me dis qu’on a tenté pas mal de choses, réussi sur certaines, échoué sur d’autres, et surtout acquis une modeste expérience sur divers sujets. C’est donc tout naturellement que me vient l’envie de partager tout cela avec d’autres.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6j6kywd01uoqy3m8798ojax"
+    ]
+  },
+  {
+    "name": "Noëlie Roux",
+    "id": "noelie-roux",
+    "picture": "/speakers/roux.jpg",
+    "company": "Jaji",
+    "bio": "Noëlie est une experte en ingénierie et en accessibilité numérique, passionnée par la création d’expériences inclusives. Également intervenante, elle forme la nouvelle génération de développeurs et développeuses à intégrer l’accessibilité dès la conception de leurs projets.\n\nEn parallèle, Noëlie œuvre en tant que bénévole chez Game'Her, où elle promeut la diversité dans l'esport , le jeu vidéo et le streaming, tout en sensibilisant à l'accessibilité des jeux vidéo.\n\nAu travers de toutes ces actions, elle s’engage à rendre le numérique, qu’il s’agisse de jeux ou d’applications web, accessible à tous.",
+    "social": {
+      "x": "https://x.com/noelie_roux",
+      "github": "https://github.com/Noelierx",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6hn7y2y01i5qy3mwl7ihzwe"
+    ]
+  },
+  {
+    "name": "Yasmine Messaoudi",
+    "id": "yasmine-messaoudi",
+    "picture": "/speakers/messaoudi.jpeg",
+    "company": "Atipik SA",
+    "bio": "L'inclusion et l'accessibilité sont des enjeux majeurs du futur du numérique ! Yasmine a une formation d'ingénieure couplée à un master en innovation et conception (design d'interactions), qu'elle met aujourd'hui à profit autour des problématiques utilisateurs et d'accessibilité dans le cadre de son travail de Product owner.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6hn7y2y01i5qy3mwl7ihzwe"
+    ]
+  },
+  {
+    "name": "Mickael Alves",
+    "id": "mickael-alves",
+    "picture": "/speakers/alves.png",
+    "company": "Zenika",
+    "bio": "👋🏼 Web Maker, application builder, and passionate speaker on web development, design, computing, and new technologies! 👨🏻‍💻\n\nCurrently a web consultant at @Zenika 🔴, DX Engineer at @BedrockStreaming 📺 , I also enjoy sharing my knowledge through teaching and speaking at conferences. I’m a co-founder of @DevFestLyon and a co-organizer of @LyonJS 🦁, an @Appwrite Hero 🦸🏼‍♂️, and a @Remotion Expert 🎬",
+    "social": {
+      "x": "https://x.com/CruuzAzul",
+      "github": "https://github.com/CruuzAzul",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6gwmltt01etqy3mhj7z575d"
+    ]
+  },
+  {
+    "name": "Etienne IDOUX",
+    "id": "etienne-idoux",
+    "picture": "/speakers/idoux.jpeg",
+    "company": "Zenika",
+    "bio": "💁‍♂️ Jeune développeur animé par sa passion, Etienne IDOUX se présente comme un consultant web travaillant à Zenika 🔴. Entrain de parfaire ses armes en tant que Développeur Frontend 🖼️ à Bedrock ⚫, il pimente son temps libre de toute sorte de projet. Il aime se rendre à des conférences afin d'apprendre et de faire apprendre à travers des talks variés !",
+    "social": {
+      "x": "https://x.com/PopsIDX",
+      "github": "https://github.com/PopsIDX",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6gwmltt01etqy3mhj7z575d"
+    ]
+  },
+  {
+    "name": "Anthony Pena",
+    "id": "anthony-pena",
+    "picture": "/speakers/pena.jpeg",
+    "company": "SFEIR",
+    "bio": "Codeur et blogueur le jour et dévoreur de manga la nuit, vous me verrez souvent parler de Java, JavaScript, Typescript, Rust ou de test, parfois un peu (beaucoup) de jeux-vidéos ou de bricolage de console.",
+    "social": {
+      "x": "https://x.com/_Anthony_Pena",
+      "github": "https://github.com/kuroidoruido",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6fn1gm600wgqy3m6raun1qn"
+    ]
+  },
+  {
+    "name": "Dorian Lamandé",
+    "id": "dorian-lamande",
+    "picture": "/speakers/lamande.jpg",
+    "company": null,
+    "bio": "Dorian, à la fois formateur et leader d'équipe partage avec enthousiasme ses compétences humaines et techniques pour inspirer et guider chacun vers l'exploitation totale de leurs capacités.",
+    "social": {
+      "x": "",
+      "github": "https://github.com/dlamande",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6esinq900ijqy3mknikw534"
+    ]
+  },
+  {
+    "name": "Guillaume Chauvet",
+    "id": "guillaume-chauvet",
+    "picture": "/speakers/guillaume-chauvet.jpg",
+    "company": null,
+    "bio": null,
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6esinq900ijqy3mknikw534"
+    ]
+  },
+  {
+    "name": "Sylvain Gougouzian",
+    "id": "sylvain-gougouzian",
+    "picture": "/speakers/gougouzian.jpg",
+    "company": "Dev'in",
+    "bio": "Dev / Formateur GreenIT\nSpeaker,\nChef d'orchestre,\n(Retro)Gamer,\nPapa geek,\nEleveur de GNUs\nCo-créateur de https://green-tech-auvergne.fr\n\nPlus d'infos sur https://gouz.dev",
+    "social": {
+      "x": "",
+      "github": "https://github.com/gouz",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6dqrrlv00e1qy3moij8sixq"
+    ]
+  },
+  {
+    "name": "Brice",
+    "id": "brice",
+    "picture": "/speakers/brice.jpg",
+    "company": null,
+    "bio": null,
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6dqrrlv00e1qy3moij8sixq"
+    ]
+  },
+  {
+    "name": "Sébastien Ferrer",
+    "id": "sebastien-ferrer",
+    "picture": "/speakers/ferrer.png",
+    "company": "OVHcloud",
+    "bio": "Sébastien est ingénieur logiciel chez OVHcloud à Nantes, dans l'équipe SIA (Service Integration & Automation). Exerçant ce métier depuis maintenant plus de 12 ans, il a toujours aimé vulgariser et partager ses connaissances en public.\nAyant animé de nombreuses présentations illustrées par des démonstrations dans le domaine des Intelligences Artificielles lors de son précédent travail à Nokia, il anime actuellement des conférences autour de la cybersécurité et de la gestion d'incidents.\n\nLes conférences qu'il effectue actuellement traitent de la confiance dans le monde numérique (la confiance dans le web), de la fédération d'identité, de la gestion d'incidents / troubleshooting et des choix de carrière dans le monde de la tech. Elles sont accessibles pour tout public.\n\nIl est passionné par le théâtre, ayant joué 10 ans dans une troupe en région parisienne.",
+    "social": {
+      "x": "",
+      "github": "https://github.com/sebferrer",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6chlau0007yqy3m47s4r9o4"
+    ]
+  },
+  {
+    "name": "Laurie Coquillat",
+    "id": "laurie-coquillat",
+    "picture": "/speakers/coquillat.jpg",
+    "company": "Lunatech",
+    "bio": "Dans le domaine professionnel on peut dire que j'ai eu deux vies. Après des études littéraires, passionnée par la transmission et le contact humain, j'ai passé plus de huit ans dans le domaine du tourisme, en tant que responsable animation, pédagogie et expérience client. Mon métier ? Créer des contenus à la fois ludiques et pédagogiques à destination de familles et d'enfants de tous âges, afin de faire découvrir la biodiversité marine et l'importance de sa préservation. J'avais aussi en charge de former et accompagner les équipes de conférenciers et d'animateurs, et améliorer chaque jour la qualité et l'offre de service en fonction des retours client.\n\nSur mon temps libre, j'ai très tôt commencé à bidouiller des sites Internet, aller voir sous le capot comment fonctionnaient les forums... Si bien qu'un jour j'ai décidé de sauter le pas et de faire une reconversion de Concepteur Développeur Informatique.\n\nAprès l'obtention de mon diplôme en 2018, je me suis définitivement lancée en tant que développeuse Java (puis Scala) et très vite je suis tombée dans l'Agilité. Mes expériences passées en terme d'organisation et d'accompagnement d'équipe ont très vite été mis à contribution dans les projets qui ont jalonnés depuis mon parcours de développeuse. Scrum master puis Product Owner certifiée, j'ai pu mettre en pratique la théorie pour des clients français et internationaux. Je suis depuis janvier 2021 \"Agile and Product Delivery Lead\" au sein de Lunatech France. Je me consacre aujourd'hui à gagner en expérience dans le domaine de l'Agilité et du Scrum plus particulièrement. Je suis actuellement product owner pour un constructeur automobile international.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm8db0z580ax0pr3aa8889i1i"
+    ]
+  },
+  {
+    "name": "Gaëtan Eleouet",
+    "id": "gaetan-eleouet",
+    "picture": "/speakers/gaetan-eleouet.png",
+    "company": "meritis",
+    "bio": "Dans mes jeunes années être geek n’était pas un métier et pourtant je suis aujourd’hui développeur depuis 15 ans. \nAnimé par des convictions fortes sur l’impact des développeurs sur le monde, je transmets et j’enseigne dans le cadre d’atelier de code et en vacation en école d’ingénieur. \nAu-delà de mon métier, c’est aussi une passion : je code pour le plaisir dans des projets personnels et lors de compétition de programmation.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6ccrrc8006oqy3mrjk3rlew"
+    ]
+  },
+  {
+    "name": "William Bartlett",
+    "id": "william-bartlett",
+    "picture": "/speakers/bartlett.jpg",
+    "company": "Zenika",
+    "bio": "Développeur de deuxième génération, William a eu son premier compte e-mail en 1990 et il est tombé dans l'informatique à l'âge de 10 ans. Son périple dans l'univers de la programmation est passé par les pays superpuissants du procédural et de l'orienté objet où l'on parle le C, le Python ou le Java. Il a aussi parcouru les contrées plus exotiques du monde fonctionnel armé seulement d'un lambda et de parenthèses. L'entrainement dans l'agilité lui a été imposé comme une évidence et a permis de s'adapter à toutes circonstances sans se blesser.\nSon familier est le pingouin et sa devise « le bon outil au bon moment ».",
+    "social": {
+      "x": "",
+      "github": "https://github.com/punkstarman",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6aymuvz0006qy3mibu4gx6b"
+    ]
+  },
+  {
+    "name": "Antoine CANDY",
+    "id": "antoine-candy",
+    "picture": "/speakers/antoine-candy.jpeg",
+    "company": "Worldline",
+    "bio": "S’électrocuter en tentant de brancher un petit moteur 12V d’un jouet Happy Meal sur du 220V.\n\nPimper tous les PC de la famille en les démontant pièce par pièce.\n\nObliger son petit frère à tourner des vidéos de combat de sabre laser pour YouTube.\n\nCréer toute la communication visuelle et les affiches pour ses associations.\n\nAutant d’expériences qui m’ont naturellement conduit à me tourner vers l’électronique et l’informatique. Geek, curieux et passionné, j’ai évolué du développement web au design d’interface (UX/UI) en passant par le démontage, la programmation, le montage vidéo et l’infographie.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6asu4v705fuqy3myteyguxq"
+    ]
+  },
+  {
+    "name": "Simon Mercier",
+    "id": "simon-mercier",
+    "picture": "/speakers/mercier.png",
+    "company": "Worldline",
+    "bio": "Ingénieur informatique de formation, je me suis spécialisé dans la conception d'applications mobiles. Je me suis ensuite passionné pour la conception d'interface graphique et d'expérience utilisateur, c'est pourquoi je travaille maintenant en tant que designer UX/UI.\n\nConnaissant à la fois le monde du développement et le monde du design, j'aime vulgariser mes connaissances d'un côté et de l'autre, essayant de faciliter la collaboration entre les différentes parties prenantes du projet.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6asu4v705fuqy3myteyguxq"
+    ]
+  },
+  {
+    "name": "François-Xavier Lair",
+    "id": "francois-xavier-lair",
+    "picture": "/speakers/lair.jpeg",
+    "company": "onepoint",
+    "bio": "Après plus d'une dizaine d'année de Devfront j'interviens à présent sur les projets en tant qu'expert accessibilité et  qualité. Expert BBQ (Bike, Beer and QualityWeb), quand je ne bosse pas sur la qualité Web j'adore bricoler des vélos ou brasser de la bière.",
+    "social": {
+      "x": "https://x.com/lair_net",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6akgkbx05baqy3mo3xy94ez"
+    ]
+  },
+  {
+    "name": "Loïc Broquet",
+    "id": "loic-broquet",
+    "picture": "/speakers/loic-broquet.jpeg",
+    "company": "Theodo.FinTech",
+    "bio": "Enthusiast software crafter\n\nPlaying around with Java since 2003\n\nSince 2019 I also enjoy experimenting with Domain Driven Design and how to persist business knowledge in a project in a way that resists turnover and product evolution",
+    "social": {
+      "x": "https://x.com/lbroquet",
+      "github": "https://github.com/lolo101",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm694u038054fqy3m0jntoqbg"
+    ]
+  },
+  {
+    "name": "Gaël Poupard",
+    "id": "gael-poupard",
+    "picture": "/speakers/gael-poupard.jpeg",
+    "company": "Onepoint",
+    "bio": "Lead tech front et référent accessibilité chez Onepoint à Nantes, je profite du soleil pendant les conf’ et dis des âneries régulièrement. Les jeux de mots sont notre avenir, ne nous économisons pas.",
+    "social": {
+      "x": "",
+      "github": "https://github.com/ffoodd",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm66b68be04m4qy3mkpgy9owq"
+    ]
+  },
+  {
+    "name": "Jean Paliès",
+    "id": "jean-palies",
+    "picture": "/speakers/paliès.png",
+    "company": "Freelance",
+    "bio": null,
+    "social": {
+      "x": "https://x.com/jpalies",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6599nze04kzqy3myrrg8ion"
+    ]
+  },
+  {
+    "name": "Cécilia Bossard",
+    "id": "cecilia-bossard",
+    "picture": "/speakers/bossard.jpeg",
+    "company": null,
+    "bio": "Développeuse depuis près de 20 ans, je m'intéresse à beaucoup de sujets et aime partager avec les différentes communautés. \n\nJe fais partie de la communauté des Duchess et je suis aussi organisatrice de meetups et de conférences (Software Crafters Nantes, Coding goûters, Devoxx4kids, Nantes Craft)\n\nEt si je ne suis pas derrière mon clavier, c'est probablement que je suis dehors en train de m'occuper de mes abeilles :)",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm6599nze04kzqy3myrrg8ion"
+    ]
+  },
+  {
+    "name": "Valentin DUMAS",
+    "id": "valentin-dumas",
+    "picture": "/speakers/valentin-dumas.jpeg",
+    "company": null,
+    "bio": "Craftsman chez Takima le jour, Développeur-Gourmand le soir, Valentin jongle avec les langages de programmation comme un chef cuisinier avec ses épices.\n\nExpert enquêteur, s'il n'est pas au fourneau du logiciel, c'est qu'il est en train d'analyser la quantité de caféine consommée au Starbucks aux heures de pointe !\n\nDétenteur d'un double diplôme Fullstack Java et d’explorateur Data, Valentin aime découvrir des pépites cachées. Il saura vous accompagner pour révéler des trésors insoupçonnés qui enrichiront vos projets.",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm63ldyyb049mqy3m34x4qx89"
+    ]
+  },
+  {
+    "name": "Grégory Bersegeay",
+    "id": "gregory-bersegeay",
+    "picture": "/speakers/bersegeay.jpeg",
+    "company": null,
+    "bio": "Developpeur Fullstack à la MAIF\nMVP Embarcadero Delphi",
+    "social": {
+      "x": "https://x.com/GBESoft",
+      "github": "https://github.com/gbegreg/",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm63giaf60495qy3mpdnljodt"
+    ]
+  },
+  {
+    "name": "Louis Fredice NJAKO MOLOM",
+    "id": "louis-fredice-njako-molom",
+    "picture": "/speakers/molom.png",
+    "company": null,
+    "bio": "I’m currently working at Make It Soft as Software architect and software craftsmanship coach\n\nA true software development enthusiast, I currently work as a Software Architect on Backend, Frontend and DevOps development projects.\n\nSoftware Quality is a subject that's particularly close to my heart, which is why I'm part of the Software Craftsmanship movement on a daily basis.\n\nI enjoy discovering new technologies, concepts and people, sharing my experience where relevant (I'm a regular Craft coach) and contributing to open source projects that I find interesting.\n\nCo-author of a End to End User-centric Opensource Solution UUV",
+    "social": {
+      "x": "",
+      "github": "",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm63d63xg0491qy3m7wmw7d55"
+    ]
+  },
+  {
+    "name": "Stanley Servical",
+    "id": "stanley-servical",
+    "picture": "/speakers/servical.png",
+    "company": "Nobltech consulting",
+    "bio": "I'm a passionate advocate for the sustainable quality of digital services.\nAs an agnostic software architect, I firmly believe that an application can be built with respect for the environment and people.\nOn a daily basis, I work to maintain my own curiosity and that of others through acculturation, software craftsmanship and by approaching topics with an 'out of the box' mindset.\nIn my spare time I contribute to open source projects and play video games.",
+    "social": {
+      "x": "https://x.com/2setech",
+      "github": "https://github.com/stanlee974",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "cm63d63xg0491qy3m7wmw7d55"
+    ]
+  }
+]

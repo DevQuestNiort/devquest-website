@@ -18,7 +18,7 @@ export function DungeonMastersSection({membres}:DungeonMastersSectionProperties)
             .map((m, i) => (
               <Avatar
                 key={i}
-                img={m.img}
+                img={m.picture}
                 name={m.name}
                 role={m.role}
                 github={m.github}

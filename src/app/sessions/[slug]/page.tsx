@@ -8,6 +8,12 @@ import { Slot, SlotTypeLabel } from "@/model/Slot";
 import { Chip, tagLabels } from "@/components/Chip";
 import { FullSession } from "@/model/FullSession";
 import { Avatar } from "@/components/Avatar";
+import Image from "next/image";
+import React from "react";
+import { rooms } from "@/components/Schedule/common";
+import classNames from "classnames";
+import { Speaker } from "@/model/Speaker";
+import Link from "next/link";
 
 type SessionProps = {
   params: {
@@ -26,9 +32,13 @@ const getSlots = async () =>
     await fs.readFile(process.cwd() + "/src/data/slots.json", "utf8"),
   ) as Slot[];
 
+const getSpeakers = async () => JSON.parse(await fs.readFile(
+  process.cwd() + "/src/data/speakers.json",
+  "utf8",
+)) as Speaker[];
+
 export async function generateStaticParams() {
   const sessions = await getSessions();
-  const slots = await getSlots();
 
   return sessions.map((session) => ({
     title: session.title,
@@ -44,68 +54,103 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
   if (!session) {
     throw new Error("Session introuvable");
   }
+
+  const speakers = await getSpeakers();
   const myFullSession = {
     ...session,
     slot: slots.find((s) => s.key === session.slot),
+    speakers: session.speakersId.map(speakerId => speakers.find((s) => s.id === speakerId)) 
   } as FullSession;
 
-  const DISPLAY_OPENFEEDBACK = true;
+  const DISPLAY_OPENFEEDBACK = false;
 
   return (
     <div className={styles.container}>
       <h1>{myFullSession.title}</h1>
 
       <div className={styles.informations}>
-        <h2 className={styles.headingTree}>{SlotTypeLabel[myFullSession.slot.type]}</h2>
-        <div className={styles.tags}>
-          {session?.tags?.map((tag: TagsModel) => (
-            <Chip
-              icon={tagLabels[tag].icon}
-              key={tag}
-              label={tagLabels[tag].label}
-              classes={styles.chip}
+        <div className={styles.infoUtile}>
+          <div>
+            <h2 className={styles.headingTree}>
+              {SlotTypeLabel[myFullSession.slot.type]}
+            </h2>
+            <div className={styles.tags}>
+              {session?.tags?.map((tag: TagsModel) => (
+                <Chip
+                  icon={tagLabels[tag].icon}
+                  key={tag}
+                  label={tagLabels[tag].label}
+                  classes={styles.chip}
+                />
+              ))}
+            </div>
+          </div>
+          <div>
+            <Image
+              src={`/icons-rp/horloge.png`}
+              alt=""
+              width={32}
+              height={42}
             />
-          ))}
+            <h3>{myFullSession.slot.start}</h3>
+          </div>
+          <div>
+            <Image
+              src={`/icons-rp/${rooms.find((r) => r.name === myFullSession.room)?.image}`}
+              alt=""
+              width={40}
+              height={40}
+            />
+            <h3>{myFullSession.room}</h3>
+          </div>
         </div>
 
-        <div className={styles.time}>
-          <span className="material-symbols-outlined">schedule</span>{" "}
-          {myFullSession.slot.start} {myFullSession.room}
-        </div>
+        <div className={styles.time}></div>
 
         <div className={styles.speakers}>
           {myFullSession.speakers.map((speaker) => (
+            
             <div key={speaker.id} className={styles.speaker}>
-              <Avatar
-                classes={{
-                  main: styles.avatar,
-                  icon: styles.icon,
-                }}
-                name={speaker.name}
-                img={speaker.photo || "/icons-rp/role-playing.png"}
-                github={speaker.social?.github}
-                linkedin={speaker.social?.linkedin}
-              />
-
-              <p className={styles.bio}>
-                {speaker.bio ?? `Rejoins-moi à ${myFullSession.slot.start}`}
-              </p>
-            </div>
+              <Link
+            href={"/speaker/" + speaker.id} className={styles.disableLinkStyle}>
+                <Avatar
+                  classes={{
+                    main: styles.avatar,
+                  }}
+                  name={speaker.name}
+                  img={speaker.picture || "/icons-rp/role-playing.png"}
+                  withSocials={false}
+                />
+              </Link>
+            </div> 
           ))}
         </div>
       </div>
-      <p>
-        <span className="material-symbols-outlined">format_quote</span>
-        <ReactMarkdown
-          rehypePlugins={[rehypeRaw]}
+      <p className={styles.abstract}>
+        <span
+          className={classNames(["material-symbols-outlined", styles.quotes])}
         >
+          format_quote
+        </span>
+        <ReactMarkdown rehypePlugins={[rehypeRaw]}>
           {session?.abstract}
         </ReactMarkdown>
-        <span className="material-symbols-outlined">format_quote</span>
+        <span
+          className={classNames([
+            "material-symbols-outlined",
+            styles.quotes,
+            styles.quotesEnd,
+          ])}
+        >
+          format_quote
+        </span>
       </p>
-      {DISPLAY_OPENFEEDBACK && <iframe
+      {DISPLAY_OPENFEEDBACK && (
+        <iframe
           src={`https://openfeedback.io/YUkT8ETZnqhBSbABGUtS/2024-06-14/${session.id}?hideHeader=true&forceColorScheme=dark`}
-          className={styles.iframeOpenfeedback}></iframe>}
+          className={styles.iframeOpenfeedback}
+        ></iframe>
+      )}
     </div>
   );
 };

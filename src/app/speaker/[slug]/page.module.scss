@@ -1,0 +1,62 @@
+.speakerContainer {
+padding-top: 1rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: var(--sable);
+}
+
+.disableLinkStyle{
+    text-decoration: none;
+    color: inherit;
+}
+
+.bioCardSpeaker, .confCardSpeaker {
+    width: 80vw;
+}
+
+.bioCardSpeaker {
+    background-color: var(--secondary-color) !important;
+    color: white !important;
+    border: 2px var(--tertiary-color) solid;
+
+}
+
+.confCardSpeaker {
+    border: 2px var(--secondary-color) solid;
+    > p {
+        margin-top: 0;
+    }
+}
+
+.sessionInformations {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    width: 100%;
+    @media (min-width: 500px) {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+    }
+
+    .talkInfos {
+        padding: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        border-radius: 8px;
+        border: solid black 1px;
+        background-color: var(--tertiary-color);
+    }
+    
+}
+
+.chip{
+    border-color: var(--secondary-color);
+    background-color: white;
+}

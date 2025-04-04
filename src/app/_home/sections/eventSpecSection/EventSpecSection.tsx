@@ -67,7 +67,7 @@ export function EventSpecSection() {
               src="/icons-rp/potion.png"
               aria-hidden="true"
             />
-            <p className={styles.eventSpecText}>20 conférences</p>
+            <p className={styles.eventSpecText}>23 conférences</p>
           </div>
           <div>
             <Image
@@ -87,7 +87,7 @@ export function EventSpecSection() {
               src="/icons-rp/forgeron.png"
               aria-hidden="true"
             />
-            <p className={styles.eventSpecText}>4 workshops</p>
+            <p className={styles.eventSpecText}>10 workshops</p>
           </div>
           <div>
             <Image
