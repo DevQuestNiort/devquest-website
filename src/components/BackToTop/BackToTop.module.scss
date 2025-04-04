@@ -1,8 +1,9 @@
 #backToTop {
   z-index: 200;
   --width: 3rem;
-  --offset: 4rem;
+  --offset: 3rem;
   background: var(--sable);
+  padding: 1px;
   aspect-ratio: 1;
   width: var(--width);
   border-radius: var(--width);

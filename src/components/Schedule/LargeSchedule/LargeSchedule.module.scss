@@ -2,9 +2,13 @@
   grid-gap: 10px;
   display: grid;
   grid-auto-rows: minmax(75px, auto);
-  grid-template-columns: 0.5fr repeat(3, 1fr);
+  grid-template-columns: 0.5fr repeat(4, 1fr);
   width: 100%;
   z-index: 1;
+
+  .slotRoom, .slot {
+    color: var(--primary-color);
+  }
 
   @media (max-width: 959px) {
     display: none !important;
@@ -18,6 +22,7 @@
 
   .cancelled {
     opacity: 50%;
+
     .sessionTitle {
       text-decoration: line-through;
     }
@@ -25,6 +30,9 @@
 
   .slotRoom {
     align-items: center;
+    color: var(--dark);
+    display: flex;
+    flex-direction: column;
   }
 
   .slot {
@@ -36,23 +44,17 @@
     padding: 10px;
     text-align: center;
     z-index: 1;
+    color: var(--dark);
 
-    &.opening,
-    &.break,
-    &.closing,
-    &.keynote,
-    &.lunch {
-      border: 1px solid white;
-    }
     &.fixed {
       align-items: center;
+      background-color: var(--tertiary-color);
     }
   }
 
-
   .slotSession {
-    background-color: var(--sable);
-    color: var(--vert);
+    background-color: var(--secondary-color);
+    color: var(--blanc);
   }
 
   .slotSessionInfo {
@@ -70,7 +72,7 @@
     margin-bottom: 10px;
     text-align: left;
 
-    color: var(--vert);
+    color: var(--blanc);
   }
 
   .slotSessionInfoBottom {
@@ -83,7 +85,7 @@
     width: 100%;
   }
 
-  .disableLinkStyle{
+  .disableLinkStyle {
     text-decoration: none;
     color: inherit;
   }

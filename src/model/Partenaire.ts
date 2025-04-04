@@ -3,5 +3,6 @@ export interface Partenaire {
   asset: string;
   site?: string;
   actif: boolean;
+  consolidated: boolean;
   level:  'LEGENDAIRE' | 'EPIQUE'| 'RARE' | 'COMMUN' | 'AUTRE' ;
 }

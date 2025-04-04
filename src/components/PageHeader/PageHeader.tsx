@@ -46,8 +46,8 @@ const VersionLarge = ({ pathname }: MenuProps) => {
 
         <span className={styles.separator}>|</span>
 
-        {/*<Link
-          href="/schedule"
+        <Link
+          href="/schedule/day-1"
           className={styles.otherHeaderBrand}
           style={{
             fontWeight:
@@ -59,7 +59,22 @@ const VersionLarge = ({ pathname }: MenuProps) => {
           Programme
         </Link>
 
-        <span className={styles.separator}>|</span>*/}
+        <span className={styles.separator}>|</span>
+
+        <Link
+          href="/speakers"
+          className={styles.otherHeaderBrand}
+          style={{
+            fontWeight:
+              isActive("/speakers") || pathname.includes("/speaker")
+                ? "bold"
+                : "normal",
+          }}
+        >
+          Orateurs
+        </Link>
+
+        <span className={styles.separator}>|</span>
 
         <Link href="/faq" className={styles.otherHeaderBrand}>
           FAQ
@@ -110,7 +125,7 @@ const VersionMobile = ({ pathname }: MenuProps) => {
           Accueil
         </Link>
 
-        {/*< <span className={styles.separator}>|</span>
+         <span className={styles.separator}>|</span>
 
         <Link
           href="/schedule"
@@ -123,7 +138,7 @@ const VersionMobile = ({ pathname }: MenuProps) => {
           }}
         >
           Programme
-        </Link>*/}
+        </Link>
       </div>
     </nav>
   );

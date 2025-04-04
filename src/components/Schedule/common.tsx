@@ -1,10 +1,17 @@
-import { Speaker, Tags as TagsModel } from "@/model/Session";
+import { Tags as TagsModel } from "@/model/Session";
 import Image from "next/image";
 import classNames from "classnames";
 import styles from "./common.module.scss";
 import { Chip, tagLabels } from "../Chip";
+import { Salle } from "@/model/Salle";
+import { Speaker } from "@/model/Speaker";
 
-export const rooms = ["La Forge", "L'astrarium", "Le Laboratoire"];
+export const rooms: Salle[] = [
+  { name: "La Forge", image: "forge.png" },
+  { name: "L'astrarium", image: "astrarium.png" },
+  { name: "Le Laboratoire", image: "laboratoire.png" },
+  { name: "Le Scriptorium", image: "quest.png" },
+];
 
 export const Tags = ({ tags }: { tags: TagsModel[] }) => {
   return (
@@ -40,14 +47,14 @@ export const Speakers = ({ speakers }: { speakers: Speaker[] }) => {
   );
 };
 
-export type PartialSpeaker = Pick<Speaker, "id" | "name" | "photo">;
+export type PartialSpeaker = Pick<Speaker, "id" | "name" | "picture">;
 export const AvatarSpeaker: React.FC<{
   speaker: PartialSpeaker;
 }> = ({ speaker }) => {
   return (
     <Avatar
       name={speaker.name}
-      src={speaker.photo || "/icons-rp/role-playing.png"}
+      src={speaker.picture || "/icons-rp/role-playing.png"}
     />
   );
 };

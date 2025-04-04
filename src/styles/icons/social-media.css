@@ -1,0 +1,76 @@
+/*
+If like me you are not a genius and you don't understand shit of what is hapenning here and 
+you don't want to lose too much time (like me ffs), here is an explanation.
+- A new custom font is defined here using font-face : https://developer.mozilla.org/fr/docs/Web/CSS/@font-face
+    - Be carefull with the "format". It is not just the end of the file, proper names are in mozilla font face page (link just above)
+- The custom font is just a list of social media icons taken here : https://www.dafont.com/social-media-circled.charmap
+- Then css is done to use this special font when a specific class is called 
+  and it is injecting a specific character using this font (with :before)
+For example : char D (0044) for the X logo
+
+If you need to add special icons : 
+- if it is a social media not in the list (like mamot or I don't know what) : 
+  - add the font in the folder public/font
+  - create the font here with font-face
+  - add the font after the existing ones in font-family
+- if it is not a social media think if it is not better to duplicate file
+- if it is an icon already available on this font (ie link above) : 
+  Just add the CSS with the social network name and the appropriate char ex : .icon-PH:before { content: '\0051'; } 
+
+
+Be carefull if you add another font to this file that it will not conflict with the exisiting one (like two icons between R char)
+
+Please don't forget not everybody have the same level of knowledge...
+
+Ithrandil
+
+PS: Ain't nobody got time fo'dat
+*/
+
+
+@font-face {
+  font-family: 'socialMediaIcons';
+  src: url('../../../public/font/socialmediaicons.ttf?26021086') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "socialMediaIcons";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-github:before { content: '\0029'; } /* '' */
+.icon-linkedin:before { content: '\0043'; } /* '' */
+.icon-x:before { content: '\00F9'; } /* '' */
+.icon-facebook:before { content: '\0045'; } /* '' */
