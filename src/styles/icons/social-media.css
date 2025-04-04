@@ -14,6 +14,9 @@ If you need to add special icons :
   - create the font here with font-face
   - add the font after the existing ones in font-family
 - if it is not a social media think if it is not better to duplicate file
+- if it is an icon already available on this font (ie link above) : 
+  Just add the CSS with the social network name and the appropriate char ex : .icon-PH:before { content: '\0051'; } 
+
 
 Be carefull if you add another font to this file that it will not conflict with the exisiting one (like two icons between R char)
 
@@ -70,3 +73,4 @@ PS: Ain't nobody got time fo'dat
 .icon-github:before { content: '\0029'; } /* '' */
 .icon-linkedin:before { content: '\0043'; } /* '' */
 .icon-x:before { content: '\00F9'; } /* '' */
+.icon-facebook:before { content: '\0045'; } /* '' */
