@@ -1,114 +1,114 @@
 [
      
     {
-        "img": "/teams/gougouzian.jpeg",
+        "picture": "/teams/gougouzian.jpeg",
         "name": "Sylvain Gougouzian",
         "metier": "#Dev",
-        "linkedin": "gouz",
+        "linkedin": "https://www.linkedin.com/in/gouz",
         "role": "HELPER"
     },  {
-        "img": "/teams/oencouleur.png",
+        "picture": "/teams/oencouleur.png",
         "name": "Ô en couleur",
         "metier": "#Artisanat",
-        "facebook": "oencouleur.couture",
+        "facebook": "https://www.facebook.com/oencouleur.couture",
         "role": "HELPER"
     },
     {
-        "img": "/teams/boinot.jpeg",
+        "picture": "/teams/boinot.jpeg",
         "name": "Emmanuelle Boinot",
         "metier": "#Dev",
-        "linkedin": "emmanuelle-boinot",
+        "linkedin": "https://www.linkedin.com/in/emmanuelle-boinot",
         "role": "BENEVOLE"
     },
     {
-        "img": "/teams/chotadon.jpeg",
+        "picture": "/teams/chotadon.jpeg",
         "name": "Vanessa Chotadon",
         "metier": "#Dev",
-        "linkedin": "vanessa-chodaton-42959076",
+        "linkedin": "https://www.linkedin.com/in/vanessa-chodaton-42959076",
         "role": "MC"
     },
     {
-        "img": "/teams/prunier.jpeg",
+        "picture": "/teams/prunier.jpeg",
         "name": "Sébastien Prunier",
         "metier": "#Dev",
-        "linkedin": "sebastien-prunier",
+        "linkedin": "https://www.linkedin.com/in/sebastien-prunier",
         "role": "MC"
     },
     {
-        "img": "/teams/joffre.jpeg",
+        "picture": "/teams/joffre.jpeg",
         "name": "Jean-Baptiste Joffre",
         "metier": "#Dev",
-        "linkedin": "jean-baptiste-joffre-459808122",
+        "linkedin": "https://www.linkedin.com/in/jean-baptiste-joffre-459808122",
         "role": "BENEVOLE"
     },
     {
-        "img": "/teams/soilih.jpeg",
+        "picture": "/teams/soilih.jpeg",
         "name": "Nastasia Soilih",
         "metier": "#AgileMaster",
-        "linkedin": "nnsoilih",
+        "linkedin": "https://www.linkedin.com/in/nnsoilih",
         "role": "MC"
     },
     {
-        "img": "/teams/pacaudm.jpeg",
+        "picture": "/teams/pacaudm.jpeg",
         "name": "Mathilde Pacaud",
         "metier": "#OPS",
-        "linkedin": "mathilde-pacaud-86b553227",
+        "linkedin": "https://www.linkedin.com/in/mathilde-pacaud-86b553227",
         "role": "BENEVOLE"
     },
     {
-        "img": "/teams/loya.jpeg",
+        "picture": "/teams/loya.jpeg",
         "name": "Dylan Loya",
         "metier": "#Dev",
-        "linkedin": "dylan-loya-993711196",
+        "linkedin": "https://www.linkedin.com/in/dylan-loya-993711196",
         "role": "BENEVOLE"
     },
     {
-        "img": "/teams/mathieut.jpeg",
+        "picture": "/teams/mathieut.jpeg",
         "name": "Théo Mathieu",
         "metier": "#Dev",
-        "linkedin": "mathieu-theo",
+        "linkedin": "https://www.linkedin.com/in/mathieu-theo",
         "role": "BENEVOLE"
     },
     {
-        "img": "/teams/rambolatahiana.jpeg",
+        "picture": "/teams/rambolatahiana.jpeg",
         "name": "Tsinjoaribenja Mario Rambolatahiana",
         "metier": "#Dev",
-        "linkedin": "mario-rambolatahiana-700431253",
+        "linkedin": "https://www.linkedin.com/in/mario-rambolatahiana-700431253",
         "role": "BENEVOLE"
     },
     {
-        "img": "/teams/rambolatahiana.jpeg",
+        "picture": "/teams/natour.jpeg",
         "name": "Mazen Natour",
         "metier": "#Dev",
-        "linkedin": "mazen-natour-",
+        "linkedin": "https://www.linkedin.com/in/mazen-natour-",
         "role": "BENEVOLE"
     },
     {
-        "img": "/teams/archimbaud.jpeg",
+        "picture": "/teams/archimbaud.jpeg",
         "name": "Josselin Archimbaud",
         "metier": "#Tech",
-        "linkedin": "josselin-archimbaud",
+        "linkedin": "https://www.linkedin.com/in/josselin-archimbaud",
         "role": "BENEVOLE"
     },
     {
-        "img": "/teams/riout.jpeg",
+        "picture": "/teams/riout.jpeg",
         "name": "Thomas Riou",
         "metier": "#",
-        "linkedin": "thomas-riou-b93939341r",
+        "linkedin": "https://www.linkedin.com/in/thomas-riou-b93939341r",
         "role": "BENEVOLE"
     },
     {
-        "img": "/teams/raud.jpeg",
+        "picture": "/teams/raud.jpeg",
         "name": "Jean-Philippe Raud",
         "metier": "#Archi",
-        "linkedin": "jeanphilippe-raud",
+        "linkedin": "https://www.linkedin.com/in/jeanphilippe-raud",
         "role": "BENEVOLE"
     },
     {
-        "img": "/teams/cohignac.jpeg",
+        "picture": "/teams/cohignac.jpeg",
         "name": "Camille Cohignac",
         "metier": "#CEO",
-        "linkedin": "camillecohignac",
+        "linkedin": "https://www.linkedin.com/in/camillecohignac",
         "role": "MC"
     }
 ]

@@ -21,7 +21,7 @@ export function CompagnonsSection({membres}:CompagnonsSectionProperties) {
             .map((m, i) => (
               <Avatar
                 key={i}
-                img={m.img}
+                img={m.picture}
                 name={m.name}
                 metier={m.metier}
                 color={defineColor(m.role)}

@@ -5,9 +5,12 @@ interface AvartarProperties {
   readonly img: string;
   readonly name: string;
   readonly metier?: string;
+  readonly company?: string;
+  readonly role?: string;
   readonly github?: string;
   readonly linkedin?: string;
   readonly facebook?: string;
+  readonly x?: string;
   readonly color?: 'YELLOW' |'BLUE' | 'RED'| "NONE" ;
   readonly classes?: {
     main?: string,
@@ -73,13 +76,14 @@ switch(color){
             <span className="icon-x" style={{ color: "black" }}></span>
           </a>
         )}
-      </div>}
-          {facebook && (
-          <a target="_blank" aria-label={`Facebook de ${name}`} href={`https://www.facebook.com/${facebook}`}>
-            <span className="icon-mail" style={{ color: "black" }}></span>
+         {facebook && (
+          <a target="_blank" aria-label={`Facebook de ${name}`} href={`${facebook}`}>
+            <span className="icon-facebook" style={{ color: "black" }}></span>
           </a>
         )}
-      </div>
+      </div>}
+         
+
     </div>
   );
 }
