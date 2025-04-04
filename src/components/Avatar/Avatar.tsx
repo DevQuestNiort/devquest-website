@@ -4,11 +4,10 @@ import Image from "next/image";
 interface AvartarProperties {
   readonly img: string;
   readonly name: string;
-  readonly role?: string;
-  readonly company? :string;
+  readonly metier?: string;
   readonly github?: string;
   readonly linkedin?: string;
-  readonly x?: string;
+  readonly color?: 'YELLOW' |'BLUE' | 'RED'| "NONE" ;
   readonly classes?: {
     main?: string,
     icon?: string
@@ -21,16 +20,29 @@ export default function Avatar({
   name,
   role,
   company,
+  metier,
   github,
   linkedin,
   x,
+  color,
   classes,
   withSocials = true,
 }: AvartarProperties) {
+  
+  let avatarStyle = style.avatar 
+switch(color){
+  case "BLUE": avatarStyle =  style.blueavatar; break;
+  case "RED": avatarStyle =  style.redavatar ; break;
+  case "YELLOW": avatarStyle =  style.yellowavatar ; break;
+  default : style.avatar
+}
+
+
   return (
     <div className={classes?.main ?? ''}>
+      
       <Image
-        className={style.avatar}
+        className={avatarStyle}
         height="128"
         width="128"
         src={img}
@@ -39,10 +51,11 @@ export default function Avatar({
       <p className={style.name}>
         {name}
       </p>
-      {role && <p className={style.role}>{role}</p>}
+        {metier && <p className={style.metier}>{metier}</p>}
       {company && <p className={style.role}>{company}</p>}
 
       {withSocials && <div className={style.infos}>
+    
         {github && (
           <a target="_blank" aria-label={`Github de ${name}`} href={github}>
             <span className="icon-github" style={{ color: "black" }}></span>

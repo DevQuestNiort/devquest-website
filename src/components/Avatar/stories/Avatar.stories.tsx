@@ -15,6 +15,6 @@ export const Default: Story = {
     name: "Alexandre Pacaud",
     github: "fake.url",
     linkedin: "fake.url",
-    role: "#Dev",
+    metier: "#Dev",
   },
 };

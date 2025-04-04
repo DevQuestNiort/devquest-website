@@ -1,8 +1,24 @@
 .avatar {
   border-radius: 50%;
+
+
 }
 
-.role {
+.redavatar {
+  border-radius: 50%;
+  border: 5px solid #991414;
+}
+
+.blueavatar {
+  border-radius: 50%;
+  border: 5px solid #105987;
+}
+.yellowavatar{
+  border-radius: 50%;
+  border: 5px solid #ecb900;
+}
+
+.metier {
   margin: 0;
   text-align: center;
 

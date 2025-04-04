@@ -20,7 +20,7 @@ export function DungeonMastersSection({membres}:DungeonMastersSectionProperties)
                 key={i}
                 img={m.picture}
                 name={m.name}
-                role={m.role}
+                metier={m.metier}
                 github={m.github}
                 linkedin={m.linkedin}
               />

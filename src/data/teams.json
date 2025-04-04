@@ -2,63 +2,73 @@
   {
     "picture": "/teams/pacaud.jpeg",
     "name": "Alexandre Pacaud",
-    "role": "#Dev",
     "linkedin": "https://www.linkedin.com/in/alexandre-pacaud-78266210a",
     "github": "https://github.com/Lithyon"
+    "metier": "#Dev",
+    "role":"membre"
   },
   {
     "picture": "/teams/guerin.jpeg",
     "name": "Alexandre Guérin",
-    "role": "#Dev",
     "linkedin": "https://www.linkedin.com/in/alexandre-guerin",
     "github": "https://github.com/Ithrandil"
+    "metier": "#Dev",
+    "role":"membre"
   },
   {
     "picture": "/teams/lefloch.jpeg",
     "name": "Guillaume Le Floch",
-    "role": "#Dev",
     "github": "https://github.com/glefloch",
     "linkedin": "https://www.linkedin.com/in/guillaume-lefloch"
+    "role":"membre"
+    "metier": "#Dev",
   },
   {
     "picture": "/teams/pauline.png",
     "name": "Pauline Druet",
-    "role": "#Com",
     "linkedin": "https://www.linkedin.com/in/pauline-druet-a8733917b"
+    "role":"membre"
+    "metier": "#Com",
   },
   {
     "picture": "/teams/remi.jpeg",
     "name": "Rémi Dudragne",
-    "role": "#UX",
     "linkedin": "https://www.linkedin.com/in/rémi-dudragne"
+    "role":"membre"
+    "metier": "#UX",
   },{
     "picture": "/teams/alexis-biard.jpeg",
     "name": "Alexis Briard",
-    "role": "#Dev",
     "linkedin": "https://www.linkedin.com/in/briardalexis"
+    "role":"membre"
+    "metier": "#Dev",
   },
   {
     "picture": "/teams/lecouls.jpeg",
     "name": "Xavier Lecouls",
-    "role": "#ProductOwner",
     "linkedin": "https://www.linkedin.com/in/xavier-lecouls-53867b1"
+    "role":"membre"
+    "metier": "#ProductOwner",
   },
   {
     "picture": "/teams/fremont.jpeg",
     "name": "Florent Frémont",
-    "role": "#Dev",
     "linkedin": "https://www.linkedin.com/in/florent-frémont-b2a943a9"
+    "role":"membre"
+    "metier": "#Dev",
   },
   {
     "picture": "/teams/riou.jpeg",
     "name": "Susan Riou",
-    "role": "#Ops",
     "linkedin": "https://www.linkedin.com/in/susan-riou-5a7a4a139"
+    "role":"membre"
+    "metier": "#Ops",
   },
   {
     "img": "/teams/gouadon.jpeg",
     "name": "Vincent Gouadon",
-    "role": "#Dev",
-    "linkedin": "vincent-gouadon-14099851"
+    "metier": "#Dev",
+    "linkedin": "vincent-gouadon-14099851",
+    "role":"membre"
   }
 ]

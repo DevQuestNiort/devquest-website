@@ -2,67 +2,106 @@
     {
         "img": "/teams/gougouzian.jpeg",
         "name": "Sylvain Gougouzian",
-        "role": "#Dev",
-        "linkedin": "gouz"
+        "metier": "#Dev",
+        "linkedin": "gouz",
+        "role": "VIP"
     },
     {
         "img": "/teams/boinot.jpeg",
         "name": "Emmanuelle Boinot",
-        "role": "#Dev",
-        "linkedin": "emmanuelle-boinot"
+        "metier": "#Dev",
+        "linkedin": "emmanuelle-boinot",
+        "role": "BENEVOLE"
     },
     {
         "img": "/teams/chotadon.jpeg",
         "name": "Vanessa Chotadon",
-        "role": "#Dev",
-        "linkedin": "vanessa-chodaton-42959076"
+        "metier": "#Dev",
+        "linkedin": "vanessa-chodaton-42959076",
+        "role": "MC"
     },
     {
         "img": "/teams/prunier.jpeg",
         "name": "Sébastien Prunier",
-        "role": "#Dev",
-        "linkedin": "sebastien-prunier"
+        "metier": "#Dev",
+        "linkedin": "sebastien-prunier",
+        "role": "MC"
     },
     {
         "img": "/teams/joffre.jpeg",
         "name": "Jean-Baptiste Joffre",
-        "role": "#Dev",
-        "linkedin": "jean-baptiste-joffre-459808122"
+        "metier": "#Dev",
+        "linkedin": "jean-baptiste-joffre-459808122",
+        "role": "BENEVOLE"
     },
     {
         "img": "/teams/soilih.jpeg",
         "name": "Nastasia Soilih",
-        "role": "#AgileMaster",
-        "linkedin": "nnsoilih"
+        "metier": "#AgileMaster",
+        "linkedin": "nnsoilih",
+        "role": "MC"
     },
     {
         "img": "/teams/pacaudm.jpeg",
         "name": "Mathilde Pacaud",
-        "role": "#OPS",
-        "linkedin": "mathilde-pacaud-86b553227"
+        "metier": "#OPS",
+        "linkedin": "mathilde-pacaud-86b553227",
+        "role": "BENEVOLE"
     },
     {
         "img": "/teams/loya.jpeg",
         "name": "Dylan Loya",
-        "role": "#Dev",
-        "linkedin": "dylan-loya-993711196"
+        "metier": "#Dev",
+        "linkedin": "dylan-loya-993711196",
+        "role": "BENEVOLE"
     },
     {
         "img": "/teams/mathieut.jpeg",
         "name": "Théo Mathieu",
-        "role": "#Dev",
-        "linkedin": "mathieu-theo"
+        "metier": "#Dev",
+        "linkedin": "mathieu-theo",
+        "role": "BENEVOLE"
     },
     {
         "img": "/teams/rambolatahiana.jpeg",
         "name": "Tsinjoaribenja Mario Rambolatahiana",
-        "role": "#Dev",
-        "linkedin": "mario-rambolatahiana-700431253"
+        "metier": "#Dev",
+        "linkedin": "mario-rambolatahiana-700431253",
+        "role": "BENEVOLE"
     },
     {
         "img": "/teams/rambolatahiana.jpeg",
         "name": "Mazen Natour",
-        "role": "#Dev",
-        "linkedin": "mazen-natour-"
+        "metier": "#Dev",
+        "linkedin": "mazen-natour-",
+        "role": "BENEVOLE"
+    },
+    {
+        "img": "/teams/archimbaud.jpeg",
+        "name": "Josselin Archimbaud",
+        "metier": "#Tech",
+        "linkedin": "josselin-archimbaud",
+        "role": "BENEVOLE"
+    },
+    {
+        "img": "/teams/riout.jpeg",
+        "name": "Thomas Riou",
+        "metier": "#",
+        "linkedin": "thomas-riou-b93939341r",
+        "role": "BENEVOLE"
+    },
+    {
+        "img": "/teams/raud.jpeg",
+        "name": "Jean-Philippe Raud",
+        "metier": "#Archi",
+        "linkedin": "jeanphilippe-raud",
+        "role": "BENEVOLE"
+    },
+    {
+        "img": "/teams/cohignac.jpeg",
+        "name": "Camille Cohignac",
+        "metier": "#CEO",
+        "linkedin": "camillecohignac",
+        "role": "MC"
     }
-] 
+]
