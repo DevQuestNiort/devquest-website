@@ -248,7 +248,7 @@
       "linkedin": ""
     },
     "sessionsId": [
-      "cm7ptd0oq02kbob3n1ujqut1r"
+      "cm8cw8rmb0agupr3npza3rxax"
     ]
   },
   {
@@ -368,7 +368,7 @@
       "linkedin": ""
     },
     "sessionsId": [
-      "bt5ze6t1ec9tbr3v8vz31vre51"
+      "cm7ptd0oq02kbob3n1ujqut1r"
     ]
   },
   {
@@ -470,21 +470,6 @@
     "social": {
       "x": "https://x.com/noelie_roux",
       "github": "https://github.com/Noelierx",
-      "linkedin": ""
-    },
-    "sessionsId": [
-      "cm6hn7y2y01i5qy3mwl7ihzwe"
-    ]
-  },
-  {
-    "name": "Yasmine Messaoudi",
-    "id": "yasmine-messaoudi",
-    "picture": "/speakers/messaoudi.jpeg",
-    "company": "Atipik SA",
-    "bio": "L'inclusion et l'accessibilité sont des enjeux majeurs du futur du numérique ! Yasmine a une formation d'ingénieure couplée à un master en innovation et conception (design d'interactions), qu'elle met aujourd'hui à profit autour des problématiques utilisateurs et d'accessibilité dans le cadre de son travail de Product owner.",
-    "social": {
-      "x": "",
-      "github": "",
       "linkedin": ""
     },
     "sessionsId": [
@@ -819,6 +804,21 @@
     },
     "sessionsId": [
       "cm63d63xg0491qy3m7wmw7d55"
+    ]
+  },
+  {
+    "name": "Matthieu Vincent",
+    "id": "matthieu-vincent",
+    "picture": "/speakers/matthieu-vincent.jpg",
+    "company": "",
+    "bio": "I'm working at Sopra Steria as TechAdvocate and Engineering Platform leader.\nIn my spare time, I'm the co-founder of Volcamp and of the meetup GreenTechAuvergne, also a GitLab Hero & a R2DevOps ambassador. I love coding and opensource, I'm the owner of 3 littles assets : svn2git, gitlab-emoji and heimdall (https://github.com/yodamad)\n\nAll my contributions are available at https://me.yodamad.fr, I'm speaking in conferences and rewriting blog articles since 2022.",
+    "social": {
+      "x": "https://x.com/@yodamad03",
+      "github": "https://github.com/@yodamad",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "bt5ze6t1ec9tbr3v8vz31vre51"
     ]
   }
 ]

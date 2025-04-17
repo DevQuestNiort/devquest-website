@@ -39,8 +39,7 @@
     "title": "Succès débloqué : rendre son jeu vidéo accessible",
     "abstract": "Avec près de 400 millions de joueurs et de joueuses en situation de handicap, rendre les jeux vidéo accessibles n’est pas seulement une nécessité sociale, mais aussi une opportunité de toucher un public plus large. Cette conférence explore des exemples concrets et des solutions pratiques, comme les contrôleurs adaptés, les filtres visuels et les ajustements cognitifs, tout en montrant comment dépasser les barrières involontaires pour créer des expériences inclusives.  Au-delà des outils, l’accessibilité est une philosophie de design qui améliore l’expérience pour tous et toutes, qu’il s’agisse de joueurs et joueuses en situation de handicap, novices ou casual. En intégrant ces principes dès la conception, les équipes de développement enrichissent non seulement leurs jeux, mais aussi la diversité et leur communauté.",
     "speakersId": [
-      "noelie-roux",
-      "yasmine-messaoudi"
+      "noelie-roux"
     ],
     "format": "Conférence",
     "categorie": "Backend",
@@ -74,12 +73,14 @@
   },
   {
     "id": "cm8cw8rmb0agupr3npza3rxax",
-    "title": "A venir...",
-    "abstract": "...très prochainement",
+    "title": "Les nouveautés du jdk 21+ par la pratique",
+    "abstract": "Le langage java évolue à vitesse grand V en ce moment et chaque version apporte son lot de nouveautés.\n\nDepuis la version 17 sont arrivés les records, les sealed class / interfaces, le pattern matching, des évolutions du switch etc. Ces évolutions du langage peuvent impacter la façon d'écrire du code et le rendre plus robuste.\n\nDans ce hands on, nous allons refactorer une application java \"classique\" afin d'utiliser au mieux les nouveautés de java. Un certain nombre de pattern d'utilisation seront présentés et mis en œuvre pour rendre votre code plus robuste et utiliser au maximum les dernières fonctionnalités de java.",
     "speakersId": [
-      "john-doe-1"
+      "delegue-alexandre"
     ],
+    "categorie": "Backend",
     "tags": [
+      "backend"
     ],
     "format": "Workshop",
     "room": "La porte Alchimique",
@@ -365,15 +366,15 @@
   },
   {
     "id": "cm7ptd0oq02kbob3n1ujqut1r",
-    "title": "\"Parse don't validate\" en java ou comment éviter les bugs dès la compilation",
-    "abstract": "Avec l'arrivée du jdk 17 et notamment des sealed class et des record, java nous propose de nouvelles fonctionnalités pour utiliser encore plus le système de type et donc le compilateur.   L'approche \"parse, don't validate\" propose de créer des types riches pour représenter les données plutôt que d'utiliser les types primitifs comme `String`, `Boolean` etc et ainsi rendre impossible les états incohérents.  Dans le cas d'une API, une fois le payload d'une requête parsé, c'est le compilateur qui reprend la main et valide le code pour vous.   Dans ce talk, l'approche vous sera présentée à travers une application de démo et des exemples concrets de code.",
+    "title": "Astro, vers l'infini et au delà\n",
+    "abstract": "Découvrez Astro, l'étoile montante des meta-frameworks.\n\nDe moteur de sites statiques à meta-framework ultra complet et aux performances stellaires, je vous invite à explorer les confins de la performance avec un confort de dev 5 étoiles.",
     "speakersId": [
-      "delegue-alexandre"
+      "maximillien-gilet"
     ],
     "format": "Quickie",
-    "categorie": "Backend",
+    "categorie": "Frontend",
     "tags": [
-      "backend"
+      "frontend"
     ],
     "room": "La Forge",
     "day": "day-2",
@@ -782,10 +783,10 @@
   },
   {
     "id": "bt5ze6t1ec9tbr3v8vz31vre51",
-    "title": "Astro, vers l'infini et au delà",
-    "abstract": "Découvrez Astro, l'étoile montante des meta-frameworks. De moteur de sites statiques à meta-framework ultra complet et aux performances stellaires, je vous invite à explorer les confins de la performance avec un confort de dev 5 étoiles.",
+    "title": "Le Grimoire Perdu : La Renaissance de l’Écriture Sacrée avec mkdocs",
+    "abstract": "Ecrire des parchemins de savoir, rares sont les âmes courageuses qui s’y adonnent de bon cœur. C’est une tâche ardue, souvent terne, reléguée aux oubliettes des bibliothèques de quelques mages farfelus. Ainsi, nombre de manuscrits ne furent jamais terminés, engloutis par la paresse et l’indifférence.\n\nPourtant, il fut un temps où moi-même, humble scribe, trouvais un certain plaisir à graver des runes de connaissance. Mais hélas ! Mes écrits étaient aussi fades qu’une soupe de crapauds de la vieille sorcière du village, si bien que nul aventurier ne daignait les consulter. \uD83D\uDE05\n\nPuis, un jour, tel un artefact légendaire surgissant des brumes du destin, je découvris MkDocs. Ce puissant outil, doté d’un écosystème riche et enchanteur, raviva la flamme de l’écriture en moi. Grâce à lui, écrire des grimoires élégants, structurés et d’une clarté cristalline devint un jeu d’enfant.\n\nRejoignez-moi dans cette quête ! Ensemble, nous explorerons les arcanes fondamentaux de MkDocs. Et peut-être, comme moi, retrouverez-vous le plaisir, jusque là inavouable, de noircir des parchemins de savoir dignes des plus grandes bibliothèques enchantées. \uD83D\uDCDC✨",
     "speakersId": [
-      "maximillien-gilet"
+      "matthieu-vincent"
     ],
     "format": "Quickie",
     "categorie": "Frontend",
