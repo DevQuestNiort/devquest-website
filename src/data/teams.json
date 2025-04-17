@@ -54,5 +54,11 @@
     "name": "Susan Riou",
     "role": "#Ops",
     "linkedin": "https://www.linkedin.com/in/susan-riou-5a7a4a139"
+  },
+  {
+    "picture": "/teams/gouadon.jpeg",
+    "name": "Vincent Gouadon",
+    "role": "#Dev",
+    "linkedin": "vincent-gouadon-14099851"
   }
 ]

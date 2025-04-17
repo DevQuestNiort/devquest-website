@@ -17,5 +17,6 @@ export const Footer = () => (
     <Link href={config.kitMedia}>Kit Média</Link>
     {" - "}
     <Link href={"editions/2024"}>Edition 2024</Link>
+    <a href="https://devquestniort.github.io/dq-game/" id={styles.hack}>Je suis un hacker</a>
   </footer>
 );

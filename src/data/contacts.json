@@ -18,6 +18,24 @@
     "link": "https://www.youtube.com/channel/UCDFfMunDvS5yfZ9TaZfEq8w"
   },
   {
+    "name": "Instagram DevQuest",
+    "asset": "social/logo-Instagram.png",
+    "type": "RS",
+    "link": "https://www.instagram.com/devquest_niort"
+  },
+  {
+    "name": "Facebook DevQuest",
+    "asset": "social/Facebook_icon.svg",
+    "type": "RS",
+    "link": "https://www.facebook.com/profile.php?id=61571745361976"
+  },
+  {
+    "name": "Discord DevQuest",
+    "asset": "social/discord.svg",
+    "type": "RS",
+    "link": "https://discord.gg/Gx8rmjZh2J"
+  },
+  {
     "name": "Mail",
     "asset": "social/logo-mail.svg",
     "type": "MAIL",

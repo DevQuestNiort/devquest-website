@@ -3,7 +3,7 @@
     "asset": "devoteam-logo.png",
     "name": "Devoteam",
     "site": "https://www.devoteam.com/fr/",
-    "level": "RARE",
+    "level": "EPIQUE",
     "actif": true
     },
   {
@@ -147,7 +147,7 @@
     "name": "Socram Banque",
     "asset": "socram.webp",
     "site": "https://www.socram-banque.fr/",
-    "level": "COMMUN", 
+    "level": "COMMUN",
     "actif": true
   }
 ]
