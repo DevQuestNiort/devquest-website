@@ -10,6 +10,7 @@
   {
     "name": "Julien Furiga",
     "id": "julien-furiga",
+    "picture": "/speakers/julien-furiga.jpg",
     "company": "Devoteam",
     "bio": "Julien Furiga, consultant cloud Data et ML basé a Nantes. \nAprès une reconversion de la cuisine vers le dev, j'ai finalement trouvé ma voie dans la data et plus particulièrement le déploiement d'infrastructure dédiées au déploiement de modèle de machine learning. Afin d'épancher ma soif de curiosité, je me suis ensuite plongé dans l'univers de la data, de la GenAI et de l'iot.",
     "social": {
@@ -39,7 +40,7 @@
   {
     "name": "Emmanuel Bernard",
     "id": "emmanuel-bernard",
-    "picture": "/speakers/bernard.jpeg",
+    "picture": "/speakers/emmanuel-bernard.jpg",
     "company": "Red Hat",
     "bio": "Emmanuel est Java Champion, Senior Distinguished Engineer et Chief Architect Application Services et Middleware chez Red Hat. Son travail est Open Source. Il est connu pour ses contributions et sa direction des projets Quarkus, Hibernate ainsi qu’à ses contributions aux standards Java.\n\nIl parle régulièrement dans des conférences et JUGs notamment JavaOne, Red Hat Summit et Devoxx. Il est l’hôte de plusieurs podcasts et notamment Les Cast Codeurs.\n\nVous pouvez le suivre sur sur BlueSky à @emmanuelbernard.com et sur X à @emmanuelbernard.\n\n#kafka #quarkus #debezium #infinispan #hibernate-orm #hibernate-search #hibernate-validator #hibernate-ogm #ceylon #JPA #bean-validation #lescastcodeurs",
     "social": {
@@ -105,6 +106,7 @@
   {
     "name": "Damien HACKETT",
     "id": "damien-hackett",
+    "picture": "/speakers/damien-hackett.jpg",
     "company": "SII",
     "bio": "Développeur logiciel embarqué depuis 2013 (oui je suis Level 12).\nJ ai travaillé dans différents domaines de l embarqué : Linux embarqué, OS temps réel, baremétal, environnements normés... même sur FPGA et en co-design électronique.\n\n-Epée affutée et regard perçant pour dénicher les gobelins et autres orcs cachés dans la pénombre.\n-De nombreux points de compétences en C/C++.\n-A commencé l exploration du \"Donjon Rustique\" gardé par les crustacéens.",
     "social": {
@@ -248,7 +250,7 @@
       "linkedin": ""
     },
     "sessionsId": [
-      "cm7ptd0oq02kbob3n1ujqut1r"
+      "cm8cw8rmb0agupr3npza3rxax"
     ]
   },
   {
@@ -368,7 +370,7 @@
       "linkedin": ""
     },
     "sessionsId": [
-      "bt5ze6t1ec9tbr3v8vz31vre51"
+      "cm7ptd0oq02kbob3n1ujqut1r"
     ]
   },
   {
@@ -417,7 +419,7 @@
     ]
   },
   {
-    "name": "ThibautCantet",
+    "name": "Thibaut Cantet",
     "id": "thibautcantet",
     "picture": null,
     "company": "Néosoft",
@@ -470,21 +472,6 @@
     "social": {
       "x": "https://x.com/noelie_roux",
       "github": "https://github.com/Noelierx",
-      "linkedin": ""
-    },
-    "sessionsId": [
-      "cm6hn7y2y01i5qy3mwl7ihzwe"
-    ]
-  },
-  {
-    "name": "Yasmine Messaoudi",
-    "id": "yasmine-messaoudi",
-    "picture": "/speakers/messaoudi.jpeg",
-    "company": "Atipik SA",
-    "bio": "L'inclusion et l'accessibilité sont des enjeux majeurs du futur du numérique ! Yasmine a une formation d'ingénieure couplée à un master en innovation et conception (design d'interactions), qu'elle met aujourd'hui à profit autour des problématiques utilisateurs et d'accessibilité dans le cadre de son travail de Product owner.",
-    "social": {
-      "x": "",
-      "github": "",
       "linkedin": ""
     },
     "sessionsId": [
@@ -819,6 +806,21 @@
     },
     "sessionsId": [
       "cm63d63xg0491qy3m7wmw7d55"
+    ]
+  },
+  {
+    "name": "Matthieu Vincent",
+    "id": "matthieu-vincent",
+    "picture": "/speakers/matthieu-vincent.jpg",
+    "company": "",
+    "bio": "I'm working at Sopra Steria as TechAdvocate and Engineering Platform leader.\nIn my spare time, I'm the co-founder of Volcamp and of the meetup GreenTechAuvergne, also a GitLab Hero & a R2DevOps ambassador. I love coding and opensource, I'm the owner of 3 littles assets : svn2git, gitlab-emoji and heimdall (https://github.com/yodamad)\n\nAll my contributions are available at https://me.yodamad.fr, I'm speaking in conferences and rewriting blog articles since 2022.",
+    "social": {
+      "x": "https://x.com/@yodamad03",
+      "github": "https://github.com/@yodamad",
+      "linkedin": ""
+    },
+    "sessionsId": [
+      "bt5ze6t1ec9tbr3v8vz31vre51"
     ]
   }
 ]
