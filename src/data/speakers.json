@@ -10,6 +10,7 @@
   {
     "name": "Julien Furiga",
     "id": "julien-furiga",
+    "picture": "/speakers/julien-furiga.jpg",
     "company": "Devoteam",
     "bio": "Julien Furiga, consultant cloud Data et ML basé a Nantes. \nAprès une reconversion de la cuisine vers le dev, j'ai finalement trouvé ma voie dans la data et plus particulièrement le déploiement d'infrastructure dédiées au déploiement de modèle de machine learning. Afin d'épancher ma soif de curiosité, je me suis ensuite plongé dans l'univers de la data, de la GenAI et de l'iot.",
     "social": {
@@ -39,7 +40,7 @@
   {
     "name": "Emmanuel Bernard",
     "id": "emmanuel-bernard",
-    "picture": "/speakers/bernard.jpeg",
+    "picture": "/speakers/emmanuel-bernard.jpg",
     "company": "Red Hat",
     "bio": "Emmanuel est Java Champion, Senior Distinguished Engineer et Chief Architect Application Services et Middleware chez Red Hat. Son travail est Open Source. Il est connu pour ses contributions et sa direction des projets Quarkus, Hibernate ainsi qu’à ses contributions aux standards Java.\n\nIl parle régulièrement dans des conférences et JUGs notamment JavaOne, Red Hat Summit et Devoxx. Il est l’hôte de plusieurs podcasts et notamment Les Cast Codeurs.\n\nVous pouvez le suivre sur sur BlueSky à @emmanuelbernard.com et sur X à @emmanuelbernard.\n\n#kafka #quarkus #debezium #infinispan #hibernate-orm #hibernate-search #hibernate-validator #hibernate-ogm #ceylon #JPA #bean-validation #lescastcodeurs",
     "social": {
@@ -105,6 +106,7 @@
   {
     "name": "Damien HACKETT",
     "id": "damien-hackett",
+    "picture": "/speakers/damien-hackett.jpg",
     "company": "SII",
     "bio": "Développeur logiciel embarqué depuis 2013 (oui je suis Level 12).\nJ ai travaillé dans différents domaines de l embarqué : Linux embarqué, OS temps réel, baremétal, environnements normés... même sur FPGA et en co-design électronique.\n\n-Epée affutée et regard perçant pour dénicher les gobelins et autres orcs cachés dans la pénombre.\n-De nombreux points de compétences en C/C++.\n-A commencé l exploration du \"Donjon Rustique\" gardé par les crustacéens.",
     "social": {
@@ -417,7 +419,7 @@
     ]
   },
   {
-    "name": "ThibautCantet",
+    "name": "Thibaut Cantet",
     "id": "thibautcantet",
     "picture": null,
     "company": "Néosoft",
