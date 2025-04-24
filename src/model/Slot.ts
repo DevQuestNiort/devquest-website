@@ -6,7 +6,7 @@ export interface Slot {
   display: {
     row: number;
     size: number;
-    notForCodelab?: boolean;
+    gridColumn?: string;
   };
 }
 
