@@ -511,21 +511,20 @@
   },
   {
     "id": "cm71ryvfd00w0ml3mtlbzbk19",
-    "title": "Immersion dans les Situations de Handicap : Participez à un Panorama Interactif",
-    "abstract": "Plongez au cœur des situations de handicap avec notre atelier interactif. À travers un panorama dynamique, vous serez activement engagé dans l'exploration des défis que rencontrent certaines personnes au quotidien. En naviguant ensemble à travers ces situations, nous allons collaborativement approfondir chaque cas pour identifier des solutions pratiques pour favoriser l'inclusion.  L'objectif principal est de sensibiliser au handicap en se concentrant sur les situations concrètes. À la fin de cet atelier, vous développerez un nouveau regard sur votre quotidien, cherchant à le rendre plus inclusif, que ce soit dans la vie quotidienne ou au travail. En sortant de cet atelier, vous serez mieux équipé pour créer un environnement plus accueillant et accessible pour vous et vos collègues.",
+    "title": "Forger votre application CLI en 2h avec Bun (TypeScript)",
+    "abstract": "Apprenez à forger votre toute première application grâce à Bun, un nouveau prétendant au trône de Node et de Deno, doté de pouvoirs innombrables dès sa naissance !\n\nEnsemble, nous dévoilerons le secret de la création, en deux petites heures seulement, d'une application CLI, parée d'une configuration en mode toile et munie d'une API fortifiée contre les attaques grâce à la magie d'Elysia.\n\nNous ferons appel à une panoplie d'outils enchantés tels que Clipse, Inquirer, Chalk, Cli-Progress... et au langage de TypeScript, langue des érudits.\n\nIl est requis de posséder quelques rudiments de TypeScript ou de JavaScript. Toutefois, Bun et les grimoires javascript vous seront expliqués avec diligence.\n\nPréparez vos machines en installant Bun, soit par un sort jeté avec curl -fsSL https://bun.sh/install | bash, soit par une incantation murmurée à l'aide de powershell -c \"irm bun.sh/install.ps1 | iex\".\n\nVous constaterez alors la simplicité avec laquelle vous pourrez créer et partager votre œuvre en l'espace de deux heures !\n\nVotre application vous permettra de gérer des PJs (Personnages Joueurs) pour des statistiques de lancement de dés.\n\n",
     "speakersId": [
-      "emmanuelle-aboaf",
-      "angi-guyard"
+      "sylvain-gougouzian"
     ],
     "format": "Workshop",
-    "categorie": "Quêtes Secondaires",
+    "categorie": "Backend",
     "tags": [
-      "discovery"
+      "backend"
     ],
     "room": "La porte Alchimique",
     "day": "day-2",
     "slot": "day-2-codelab-2",
-    "slug": "immersion-dans-les-situations-de-handicap--participez--un-panorama-interactif",
+    "slug": "forger-votre-application-cli-en-2h-avec-bun--typescript",
     "cancelled": false
   },
   {
