@@ -51,7 +51,7 @@ const VersionLarge = ({ pathname }: MenuProps) => {
           className={styles.otherHeaderBrand}
           style={{
             fontWeight:
-              isActive("/schedule") || pathname.includes("/sessions")
+              pathname.includes("/schedule") || pathname.includes("/sessions")
                 ? "bold"
                 : "normal",
           }}
@@ -76,18 +76,32 @@ const VersionLarge = ({ pathname }: MenuProps) => {
 
         <span className={styles.separator}>|</span>
 
-        <Link href="/faq" className={styles.otherHeaderBrand}>
+        <Link
+          href="/faq"
+          className={styles.otherHeaderBrand}
+          style={{
+            fontWeight: isActive("/faq") ? "bold" : "normal",
+          }}
+        >
           FAQ
         </Link>
 
         <span className={styles.separator}>|</span>
-        <Link href={config.kitPartenaires} className={styles.otherHeaderBrand}>
+        <Link
+          target="_blank"
+          href={config.kitPartenaires}
+          className={styles.otherHeaderBrand}
+        >
           Kit partenaires
         </Link>
 
         <span className={styles.separator}>|</span>
 
-        <Link href={config.kitMedia} className={styles.otherHeaderBrand}>
+        <Link
+          target="_blank"
+          href={config.kitMedia}
+          className={styles.otherHeaderBrand}
+        >
           Kit Média
         </Link>
 
@@ -125,7 +139,7 @@ const VersionMobile = ({ pathname }: MenuProps) => {
           Accueil
         </Link>
 
-         <span className={styles.separator}>|</span>
+        <span className={styles.separator}>|</span>
 
         <Link
           href="/schedule/day-1"
