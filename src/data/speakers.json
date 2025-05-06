@@ -248,6 +248,20 @@
     ]
   },
   {
+    "name": "Yohan Alard",
+    "id": "yohan-alard",
+    "picture": "/speakers/yohan-alard.jpg",
+    "company": "MAIF",
+    "bio": "",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/yohan-alard-5b0a3167/"
+    },
+    "sessionsId": [
+      "cm8cw8rmb0agupr3npza3rxax"
+    ]
+  },
+
+  {
     "name": "Laurent Grangeau",
     "id": "laurent-grangeau",
     "picture": "/speakers/grangeau.jpeg",

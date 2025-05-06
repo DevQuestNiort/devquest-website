@@ -76,7 +76,8 @@
     "title": "Les nouveautés du jdk 21+ par la pratique",
     "abstract": "Le langage java évolue à vitesse grand V en ce moment et chaque version apporte son lot de nouveautés.\n\nDepuis la version 17 sont arrivés les records, les sealed class / interfaces, le pattern matching, des évolutions du switch etc. Ces évolutions du langage peuvent impacter la façon d'écrire du code et le rendre plus robuste.\n\nDans ce hands on, nous allons refactorer une application java \"classique\" afin d'utiliser au mieux les nouveautés de java. Un certain nombre de pattern d'utilisation seront présentés et mis en œuvre pour rendre votre code plus robuste et utiliser au maximum les dernières fonctionnalités de java.",
     "speakersId": [
-      "delegue-alexandre"
+      "delegue-alexandre",
+      "yohan-alard"
     ],
     "categorie": "Backend",
     "tags": [
