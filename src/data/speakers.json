@@ -56,7 +56,7 @@
     "name": "Alan DUCHENE",
     "id": "alan-duchene",
     "picture": "/speakers/duchene.jpeg",
-    "company": "Zenika",
+    "company": "Freelance",
     "bio": "Développeur un peu touche à tout depuis maintenant 10 ans, je possède une appétence pour le front et les interfaces élégantes et intuitives, même si construire un bon backend fait toujours plaisir.\n\nVéritable technophile dans une esprit craftsman et agile, j'aime à ce que l'amélioration continue, la qualité et le partage ne soient pas que des mots.\n\nJe m'intéresse beaucoup au clean code et aux méthodes comme le TDD, le BDD et le DDD même s'il me reste énormément de chemin à parcourir sur ces sujets.",
     "social": {
       "x": "",
@@ -247,6 +247,20 @@
       "cm8cw8rmb0agupr3npza3rxax"
     ]
   },
+  {
+    "name": "Yohan Alard",
+    "id": "yohan-alard",
+    "picture": "/speakers/yohan-alard.jpg",
+    "company": "MAIF",
+    "bio": "",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/yohan-alard-5b0a3167/"
+    },
+    "sessionsId": [
+      "cm8cw8rmb0agupr3npza3rxax"
+    ]
+  },
+
   {
     "name": "Laurent Grangeau",
     "id": "laurent-grangeau",
@@ -536,7 +550,7 @@
   {
     "name": "Brice Aramini",
     "id": "brice",
-    "picture": "/speakers/brice.jpg",
+    "picture": "/speakers/brice.png",
     "company": null,
     "bio": null,
     "social": {
@@ -690,7 +704,7 @@
     "company": "Freelance",
     "bio": null,
     "social": {
-      "x": "https://x.com/jpalies",
+      "x": "",
       "github": "",
       "linkedin": ""
     },

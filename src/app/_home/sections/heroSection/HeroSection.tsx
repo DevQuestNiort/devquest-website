@@ -19,7 +19,7 @@ export function HeroSection() {
     >
       <Image
         id={styles.logo}
-        src="logo-date-lieu-2025.svg"
+        src="/logo-date-lieu-2025.svg"
         alt="DevQuest"
         priority
         width={350}

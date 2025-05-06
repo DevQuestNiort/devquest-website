@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import "../styles/main.scss";
 import { Source_Sans_3, Teko } from "next/font/google";
-import { QuestExplorateur } from "@/components/QuestExplorateur";
 import { GoogleAnalytics } from "@next/third-parties/google";
-import BackToTop from '@/components/BackToTop';
-import {PageHeader} from "@/components/PageHeader/PageHeader";
-import {Footer} from "@/components/Footer/Footer";
+import BackToTop from "@/components/BackToTop";
+import { PageHeader } from "@/components/PageHeader/PageHeader";
+import { Footer } from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "DEVQUEST - 5-6 juin (Niort)",
@@ -15,11 +14,11 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: '/logo-date-lieu.svg',
+        url: "/logo-date-lieu.svg",
         width: 240,
         height: 270,
-      }
-    ]
+      },
+    ],
   },
   icons: [
     { rel: "icon", url: "/favicon/favicon.ico", sizes: "any" },
@@ -59,16 +58,18 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0&display=swap" rel="stylesheet"/>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body className={`${teko.variable} ${sourceSansPro.variable}`}>
-          <GoogleAnalytics gaId="G-MR3XKZY9PM" />
-          <QuestExplorateur />
-          <PageHeader />
-          {children}
+        <GoogleAnalytics gaId="G-MR3XKZY9PM" />
+        <PageHeader />
+        {children}
 
-          <BackToTop/>
-          <Footer/>
+        <BackToTop />
+        <Footer />
       </body>
     </html>
   );
