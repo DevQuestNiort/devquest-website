@@ -12,8 +12,9 @@ export function CodeDeConduite() {
             d&apos;être une communauté ouverte, respectueuse des différences et
             de la diversité. Nous voulons que tous les participants et
             participantes (participants, conférenciers,…) vivent une expérience
-            agréable et enrichissante. Cela implique que tous les participants, participantes, orateurs, oratrices, sponsors et bénévoles
-            respectent ce code de conduite.
+            agréable et enrichissante. Cela implique que tous les participants,
+            participantes, orateurs, oratrices, sponsors et bénévoles respectent
+            ce code de conduite.
           </p>
         </Card>
 
@@ -40,11 +41,12 @@ export function CodeDeConduite() {
         <p>
           Nous ne tolérons aucune forme de harcèlement des participants et
           participantes à la conférence. Le langage et les images sexuels ne
-          sont pas appropriés pour le DevQuest. Cela comprend également les contenus de talks,
-          et codelabs, les animations, les soirées ainsi que les réseaux sociaux. Les
-          participants et participantes de la conférence qui enfreignent ces
-          règles peuvent être sanctionnés ou expulsés de la conférence sans
-          remboursements, à la discrétion des organisateurs de la conférence.
+          sont pas appropriés pour le DevQuest. Cela comprend également les
+          contenus de talks, et codelabs, les animations, les soirées ainsi que
+          les réseaux sociaux. Les participants et participantes de la
+          conférence qui enfreignent ces règles peuvent être sanctionnés ou
+          expulsés de la conférence sans remboursements, à la discrétion des
+          organisateurs de la conférence.
         </p>
 
         <h2>Version plus longue</h2>
@@ -67,12 +69,13 @@ export function CodeDeConduite() {
         </ul>
         <p>
           Nous ne tolérons aucune forme de harcèlement des participants et
-participantes à la conférence. Le langage et les images sexuels ne
-          sont pas appropriés pour le DevQuest. Cela comprend également les contenus de talks,
-          et codelabs, les animations, les soirées ainsi que les réseaux sociaux. Les
-          participants et participantes à la conférence qui enfreignent ces
-          règles peuvent être sanctionnés ou expulsés de la conférence sans
-          remboursements, à la discrétion des organisateurs de la conférence.
+          participantes à la conférence. Le langage et les images sexuels ne
+          sont pas appropriés pour le DevQuest. Cela comprend également les
+          contenus de talks, et codelabs, les animations, les soirées ainsi que
+          les réseaux sociaux. Les participants et participantes à la conférence
+          qui enfreignent ces règles peuvent être sanctionnés ou expulsés de la
+          conférence sans remboursements, à la discrétion des organisateurs de
+          la conférence.
         </p>
         <p>Le harcèlement comprend, sans toutefois s’y limiter:</p>
         <ul>
@@ -118,9 +121,9 @@ participantes à la conférence. Le langage et les images sexuels ne
         </p>
         <p>
           Les organisateurs d&apos;événements peuvent prendre des mesures pour
-          remédier à tout ce qui peut perturber l’événement ou avoir
-          un impact, rendant l’environnement hostile pour les
-          participants et participantes.
+          remédier à tout ce qui peut perturber l’événement ou avoir un impact,
+          rendant l’environnement hostile pour les participants et
+          participantes.
         </p>
         <p>
           Nous nous attendons à ce que les participants et participantes suivent
@@ -129,6 +132,57 @@ participantes à la conférence. Le langage et les images sexuels ne
           pensons que les gens devraient également suivre ces règles en dehors
           des activités de l&apos;événement !
         </p>
+
+        <h3>Une extension dédiée à l’émission DevQuest</h3>
+        <p>
+          L’émission spéciale organisée dans le cadre du DevQuest s’inscrit dans
+          l’esprit de ce code de conduite. Elle y ajoute des règles spécifiques,
+          afin de garantir un échange sain, respectueux et motivant entre les
+          invités et les animateurs.
+        </p>
+        <h3>Un espace d’expression responsable</h3>
+        <p>
+          Les invités sont considérés comme des intervenants à part entière. À
+          ce titre, ils sont invités à partager leurs expériences de façon
+          honnête, mais aussi respectueuse.
+        </p>
+        <ul>
+          <li>
+            Il n’est pas autorisé de nommer explicitement des entreprises,
+            équipes ou projets si cela peut leur nuire.
+          </li>
+          <li>
+            Les critiques directes, les règlements de compte ou les propos
+            dénigrants n’ont pas leur place dans l’émission.
+          </li>
+          <li>
+            Il est bien sûr possible d’évoquer des situations passées, des
+            difficultés vécues, ou des apprentissages personnels, mais avec du
+            recul, sans attaque ni stigmatisation.
+          </li>
+        </ul>
+        <p>
+          Nous valorisons les échanges constructifs, bienveillants, et
+          inspirants : l’objectif est de faire grandir la communauté, pas de
+          diviser.
+        </p>
+
+        <h3>Respect mutuel entre animateurs et invités</h3>
+        <p>
+          Durant l’émission, un climat de confiance et d’écoute est essentiel.
+          Chacun s’engage à :
+        </p>
+        <ul>
+          <li>respecter les temps de parole de l’autre,</li>
+          <li>éviter les interruptions ou remarques blessantes,</li>
+          <li>maintenir un ton poli, courtois, et ouvert.</li>
+        </ul>
+        <p>
+          Les animateurs ne sont pas des juges, les invités ne sont pas en
+          audition : nous construisons ensemble un moment d’échange
+          enrichissant, pour le plaisir de partager.
+        </p>
+
         <h3>Besoin de signaler</h3>
         <p>
           Si quelqu&apos;un vous dérange de quelque manière que ce soit, nous
