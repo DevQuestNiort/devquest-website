@@ -90,6 +90,23 @@
     "cancelled": false
   },
   {
+    "id": "cm8cw8rmb0agupr3npza3rxaa",
+    "title": "Les coulisses du DevQuest",
+    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt nisl sed tortor eleifend mattis. Sed bibendum non nisl vel fermentum. Sed euismod iaculis enim quis euismod. Aenean ex sem, maximus nec feugiat quis, gravida ac lorem. Suspendisse maximus sed dolor vitae laoreet. Mauris vel erat risus. Vestibulum posuere tincidunt leo euismod tincidunt. Donec tincidunt maximus sapien et lacinia. Aliquam erat volutpat.",
+    "speakersId": [
+    ],
+    "categorie": "Quêtes Secondaires",
+    "tags": [
+      "discovery"
+    ],
+    "format": "Conférence",
+    "room": "La Forge",
+    "day": "day-1",
+    "slot": "day-1-emission",
+    "slug": "emission-1",
+    "cancelled": false
+  },
+  {
     "id": "cm6dqrrlv00e1qy3moij8sixq",
     "title": "🎶 \"Vois sur ton chemin, Aventuriers égarés, ...\" 🎶 Y'a-t-il un GPS dans le donjon ?",
     "abstract": "Il est fini le temps où l'on planifiait notre parcours de vacances sur les atlas routiers.  Maintenant il nous est quasi impossible d'aller d'un point A à un point B sans utiliser des outils comme GoogleMaps, ou Plans, ou d'autres alternatives.  Aidons TomTom et Nanar à comprendre comment fonctionnent ces outils.  A*, Djisktra, ... Pathfinding n'auront plus de secrets pour vous.  Quelle magie est présente dans ces algorithmes ?  Chers Aventuriers, plus besoin d'un magicien dans votre équipe pour vous déplacer.  Vous aurez tout en main pour traverser votre prochain Donjon et optimiser votre trajet vers le prochain Boss.",
