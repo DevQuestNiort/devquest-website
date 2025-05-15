@@ -147,7 +147,7 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
       </p>
       {DISPLAY_OPENFEEDBACK && (
         <iframe
-          src={`https://openfeedback.io/YUkT8ETZnqhBSbABGUtS/2024-06-14/${session.id}?hideHeader=true&forceColorScheme=dark`}
+          src={`https://openfeedback.io/OJqVszngc4TGDPAR6VYK/undefined/${session.id}?hideHeader=true&forceColorScheme=dark`}
           className={styles.iframeOpenfeedback}
         ></iframe>
       )}
