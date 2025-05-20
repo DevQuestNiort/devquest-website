@@ -1,19 +1,12 @@
 [
   {
-    "name": "",
-    "id": "keynote-speaker",
-    "bio": "",
-    "sessionsId": [
-      "Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt"
-    ]
-  },
-  {
     "name": "Geoffrey Graveaud",
     "id": "geoffrey-graveaud",
     "picture": "/speakers/geoffrey-graveaud.jpeg",
     "bio": "Coach Devops / Accelerate / Craft et Speaker. Avec plus de 15 ans d'expérience dans une trentaine d'organisations, Geoffrey est aujourd’hui conférencier reconnu et coach en prise de parole, notamment pour des keynotes, TEDx et concours d’éloquence.",
     "sessionsId": [
-      "cm8cw8rmb0agupr3npza3rxaa"
+      "cm8cw8rmb0agupr3npza3rxaa",
+      "Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt"
     ],
     "social": {
       "linkedin": "https://www.linkedin.com/in/geoffrey-graveaud-033319b0/"
