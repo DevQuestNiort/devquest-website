@@ -1,10 +1,10 @@
 [
   {
     "id": "Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt",
-    "title": "🗓️ A venir très prochainement...",
-    "abstract": "Soyez patient et vous ne serez pas déçus! 🧘",
+    "title": "Le bien-être: le nouvel enjeu du software development ?",
+    "abstract": "Le bien-être au travail devient un sujet de plus en plus évoqué dans les entreprises.\nDu code à la mise en production, quels sont les impacts de nos pratiques actuelles sur notre\nbien-être ? Quels constats pouvons-nous faire en 2025 ?\nPrenons conscience des conséquences de notre quotidien de travail sur notre charge\ncognitive. Mais également, sur notre motivation ou sur nos capacités de concentration.\nConstatons ensemble les impacts positifs de la maintenance de code sur votre charge mentale.\nObservons comment votre contexte de travail et le leadership peuvent influencer votre capacité de\nconcentration et votre productivité. Et voyons si des opportunités de 2025, comme la GenIA\nou le DevEx, ont réellement leur place pour donner les moyens à une organisation de\nsoutenir et soulager les équipes. Le tout agrémenté de sources et d’études pour argumenter\nla mise en œuvre de ces pratiques.\nLe bien-être devient une nécessité pour les entreprises, et non plus une option.",
     "speakersId": [
-      "keynote-speaker"
+      "geoffrey-graveaud"
     ],
     "format": "Keynote",
     "categorie": "Keynote",
@@ -91,6 +91,26 @@
     "cancelled": false
   },
   {
+    "id": "cm8cw8rmb0agupr3npza3rxaa",
+    "title": "Les coulisses du DevQuest, DevEx : levier ou mirage de la performance ?",
+    "abstract": "Et si prendre soin de l\u2019exp\u00E9rience des d\u00E9veloppeurs, c\u2019\u00E9tait la cl\u00E9 pour des \u00E9quipes plus efficaces, engag\u00E9es et durables ?\r\n\r\nEn 30 minutes, on vous propose une discussion sinc\u00E8re, sans bullshit, avec celles et ceux qui vivent et transforment la DevEx au quotidien.\r\n\r\nAvec : Alexandre Pacaud (fondateur de DevQuest) & Florent Fr\u00E9mont (LeadDev chez MAIF)\r\n Et trois invit\u00E9s passionn\u00E9s \u2764\uFE0F  :\n\r \uD83D\uDC49 Geoffrey Graveaud \u2013 Coach Devops \/ Accelerate \/ Craft et Speaker. Avec plus de 15 ans d'exp\u00E9rience dans une trentaine d'organisations, Geoffrey est aujourd\u2019hui conf\u00E9rencier reconnu et coach en prise de parole, notamment pour des keynotes, TEDx et concours d\u2019\u00E9loquence.\r\n\r\n\uD83D\uDC49 Arthur Magne \u2013 CPO et cofondateur de Packmind. Passionn\u00E9 par la qualit\u00E9 logicielle et les pratiques collaboratives, Arthur a co-cr\u00E9\u00E9 une plateforme pour aider les \u00E9quipes \u00E0 partager leurs bonnes pratiques de code et faire \u00E9merger l\u2019excellence technique.\r\n\r\n\uD83D\uDC49  Yuriy Tyukhnin \u2013 CEO de DevEx Consulting. Fort de 20 ans de carri\u00E8re dans le d\u00E9veloppement et le management tech, Yuriy accompagne aujourd\u2019hui les entreprises pour am\u00E9liorer l\u2019exp\u00E9rience d\u00E9veloppeur, avec un focus particulier sur l\u2019int\u00E9gration des outils IA et la qualit\u00E9 de vie au travail.\r\n\r\n\r\n\uD83D\uDCC3 Au programme :\r\n * Pourquoi la DevEx, ce n\u2019est pas juste un mot \u00E0 la mode\r\n * Comment la mesurer vraiment, au-del\u00E0 des KPIs\r\n * Des outils, des pratiques et des id\u00E9es \u00E0 tester dans vos \u00E9quipes\r\n\r\nEt ce qu\u2019il vaut mieux \u00E9viter\u2026\r\n\uD83C\uDFAF \u00C0 \u00E9couter si vous pensez que bien coder, c\u2019est aussi bien travailler ensemble.",
+    "speakersId": [
+      "geoffrey-graveaud",
+      "arthur-magne",
+      "yuriy-tyukhnin"
+    ],
+    "categorie": "Quêtes Secondaires",
+    "tags": [
+      "discovery"
+    ],
+    "format": "Conférence",
+    "room": "La Forge",
+    "day": "day-1",
+    "slot": "day-1-emission",
+    "slug": "emission-1",
+    "cancelled": false
+  },
+  {
     "id": "cm6dqrrlv00e1qy3moij8sixq",
     "title": "🎶 \"Vois sur ton chemin, Aventuriers égarés, ...\" 🎶 Y'a-t-il un GPS dans le donjon ?",
     "abstract": "Il est fini le temps où l'on planifiait notre parcours de vacances sur les atlas routiers.  Maintenant il nous est quasi impossible d'aller d'un point A à un point B sans utiliser des outils comme GoogleMaps, ou Plans, ou d'autres alternatives.  Aidons TomTom et Nanar à comprendre comment fonctionnent ces outils.  A*, Djisktra, ... Pathfinding n'auront plus de secrets pour vous.  Quelle magie est présente dans ces algorithmes ?  Chers Aventuriers, plus besoin d'un magicien dans votre équipe pour vous déplacer.  Vous aurez tout en main pour traverser votre prochain Donjon et optimiser votre trajet vers le prochain Boss.",
@@ -147,9 +167,10 @@
   },
   {
     "id": "cm6j6kywd01uoqyzz8798ojax",
-    "title": "Tremplin DevQuest",
-    "abstract": "Surprise !",
+    "title": "S’augmenter sans se déposséder: la convivialité d’Illich face aux assistants d’IA.",
+    "abstract": "Au travail, quand est-ce qu’un outil passe d’une aide à une contrainte? D’une extension des capacités à une restriction? Avec sa notion de convivialité le philosophe Ivan Illich donne un référentiel pour répondre à ces questions. Mort en 2002 il n'a jamais pu demander la recette de la tarte aux pommes à ChatGPT ou Mistral, ni réfléchir à l’arrivée de l’IA générative dans le monde du travail. Pourrait-on, avec la convivialité en ligne de mire, trouver un entre-deux pragmatique entre enthousiasme effréné (#vibecoding) et refus catégorique? L'objectif de cette quête : voir comment la convivialité s’applique aux assistants de codage et vous fournir des pistes pour éviter que l'IA ne devienne un artefact dominant et dans les ténèbres toutes et tous nous lie.",
     "speakersId": [
+      "nina-petard"
     ],
     "format": "Quickie",
     "categorie": "Tremplin",
@@ -497,7 +518,7 @@
     "abstract": "Vous avez entendu parler de DDD, d'architecture hexagonale ? De la pyramide des tests? Vous en avez marre de ces conférences théoriques sur le sujet et vous aimeriez enfin coder avec ces paradigmes?  Vous auriez tant voulu appliquer le TDD, mais il vous fait peur; ou bien \"vous n'avez pas le temps\" pour le faire en prod? Vous aimeriez savoir comment écrire ET tester des entités métier ?   Vous avez entendu parler des ports/adapteurs, comment les utiliser ?  Vous voudriez savoir si c'est  vraiment incontournable d'utiliser les \"mocks\"? Et ces fameux TestContainers, sont-ils vos amis ou vos ennemis ?  Et si en plus, vous pouviez faire le 1er (ou pas) mob programming de votre vie??  Tout cela en quelques heures par la pratique ?  Alors, cet atelier est complètement fait pour vous !   ### Bénéfices attendus  - Construire une application autour d'un cas métier concret  - Introduire pas à pas les bases du DDD et de l'architecture Hexagonale  - Comprendre les tests unitaires et le besoin de doublures dans un début d’architecture hexagonale;   - Appréhender quand ces doublures de tests sont légitimes dans leurs usages.  - Démystifier ce qu’est un dummy, un stub, un spy, un fake, un mock. - Jouer avec les  TestContainers  - En produisant (en TDD, toujours) un code empreint de contraintes techniques réelles : dialogue avec une base de données, un service web...  - Apprendre en s’amusant, en collaborant afin de produire, tous ensemble, le code.  Mob programiming en  Kotlin",
     "speakersId": [
       "anthony-cassaigne",
-      "craft-softwr-music"
+      "guillaume-saint-etienne"
     ],
     "format": "Workshop",
     "categorie": "Backend",
@@ -584,9 +605,10 @@
   },
   {
     "id": "cm85mm6db0783pr3n9g5rf6k2",
-    "title": "Tremplin DevQuest",
-    "abstract": "Surprise",
+    "title": "Au secours, de la data dans mon projet ! Streamlit à la rescousse...",
+    "abstract": "L'importance croissante de la donnée en fait un facteur déterminant pour le succès de vos projets… mais qui n'a jamais galéré à tester rapidement une idée sans devoir construire tout un environnement technique, à rendre un rapport data interactif, ou à expliquer comment des données pourraient s'intégrer au projet.\n\nC'est là qu’entre en jeu Streamlit, un framework Python permettant de réaliser des interfaces web en quelques lignes seulement à l'aide de composants graphiques tels que des charts elements, différents types de médias, tout type d'inputs... Particulièrement utile et approprié pour exploiter des problématiques liées à la donnée, Streamlit peut également être utilisé pour d'autres nombreux autres cas d'usage.\n\nDurant cette présentation, nous verrons au travers d'un cas concret comment prendre en main Streamlit et confectionner une interface simple et efficace, et ainsi vous saurez comment cet outil a le potentiel de vous aider à concrétiser de nombreux POCs ou supports d'expérimentations qui peuvent ouvrir la voie à de nouvelles applications.",
     "speakersId": [
+      "nicolas-foussard"
     ],
     "format": "Quickie",
     "categorie": "Tremplin",
@@ -765,7 +787,7 @@
   },
   {
     "id": "cm88deamo08lqpr3nf0fgq4sy",
-    "title": "Le quantique : c est épique !!!",
+    "title": "Le quantique : c'est épique !!!",
     "abstract": "Imaginez pouvoir explorer plusieurs donjons en même temps, pouvoir vous téléporter directement dans la salle du trésor ou si vous rêvez de faire des expériences sur des chats enfermés dans des boîtes (ou des elfes, ça doit marcher aussi), ce talk est fait pour vous !!! En plus, on jettera 2D6 (non fournis) à chaque slide, comme ça vous ne serez pas perdu.  On y découvrera les aspects intriguants du quantique, ses applications possibles et les différents guildes qui tentent de s emparer de la suprématie quantique.",
     "speakersId": [
       "damien-hackett"
