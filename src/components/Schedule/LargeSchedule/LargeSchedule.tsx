@@ -80,9 +80,7 @@ const Session = ({ session }: { session: FullSession }) => {
 const FixedSlot = ({ slot }: { slot: Slot }) => {
   const gridColumn = slot.type.startsWith("keynote")
     ? "2 / 2"
-    : slot.display.notForCodelab
-      ? "2 / span 2"
-      : "2 / -1";
+    : slot.display.gridColumn ?? "2 / -1";
   return (
     <div
       className={classNames(styles.slot, styles.fixed, styles[slot.type])}

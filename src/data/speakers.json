@@ -8,6 +8,51 @@
     ]
   },
   {
+    "name": "Geoffrey Graveaud",
+    "id": "geoffrey-graveaud",
+    "picture": "/speakers/geoffrey-graveaud.jpeg",
+    "bio": "Coach Devops / Accelerate / Craft et Speaker. Avec plus de 15 ans d'expérience dans une trentaine d'organisations, Geoffrey est aujourd’hui conférencier reconnu et coach en prise de parole, notamment pour des keynotes, TEDx et concours d’éloquence.",
+    "sessionsId": [
+      "cm8cw8rmb0agupr3npza3rxaa"
+    ]
+  },
+  {
+    "name": "Arthur Magne",
+    "id": "arthur-magne",
+    "picture": "/speakers/arthur-magne.jpeg",
+    "bio": "CPO et cofondateur de Packmind. Passionné par la qualité logicielle et les pratiques collaboratives, Arthur a co-créé une plateforme pour aider les équipes à partager leurs bonnes pratiques de code et faire émerger l’excellence technique.",
+    "sessionsId": [
+      "cm8cw8rmb0agupr3npza3rxaa"
+    ]
+  },
+  {
+    "name": "Yuriy Tyukhnin",
+    "id": "yuriy-tyukhnin",
+    "picture": "/speakers/Yuriy_Tyukhnin.png",
+    "bio": "CEO de DevEx Consulting. Fort de 20 ans de carrière dans le développement et le management tech, Yuriy accompagne aujourd’hui les entreprises pour améliorer l’expérience développeur, avec un focus particulier sur l’intégration des outils IA et la qualité de vie au travail.",
+    "sessionsId": [
+      "cm8cw8rmb0agupr3npza3rxaa"
+    ]
+  },
+  {
+    "name": "Nicolas Foussard",
+    "id": "nicolas-foussard",
+    "picture": "/speakers/nicolas-foussard.jpg",
+    "bio": "Étudiant à l'IUT de La Rochelle et Alternant au sein du groupe Covéa, je suis passionné d'informatique depuis le lycée. Je m'intéresse tout particulièrement à la Data et l'IA depuis 2 ans maintenant, mais je reste curieux de tout ce qui existe et j'apprécie toujours explorer et partager mes découvertes !",
+    "sessionsId": [
+      "cm85mm6db0783pr3n9g5rf6k2"
+    ]
+  },
+  {
+    "name": "Nina Pétard",
+    "id": "nina-petard",
+    "picture": "/speakers/nina-petard.jpeg",
+    "bio": "Après un départ par les statistiques, je suis passée dans différentes entreprises par les cases développeuse, data scientist, ML engineer, et me voilà désormais product owner à la MAIF sur les sujets de socles communs d'IA générative. Et parce que j'aime construire des outils pour les autres professionnels de la tech, j'aime réfléchir à notre rapport au numérique et à l'IA.",
+    "sessionsId": [
+      "cm6j6kywd01uoqyzz8798ojax"
+    ]
+  },
+  {
     "name": "Julien Furiga",
     "id": "julien-furiga",
     "picture": "/speakers/julien-furiga.jpg",
@@ -260,7 +305,6 @@
       "cm8cw8rmb0agupr3npza3rxax"
     ]
   },
-
   {
     "name": "Laurent Grangeau",
     "id": "laurent-grangeau",
@@ -322,8 +366,8 @@
     ]
   },
   {
-    "name": "craft Softwr & Music",
-    "id": "craft-softwr-music",
+    "name": "Guillaume Saint Etienne",
+    "id": "guillaume-saint-etienne",
     "picture": "/speakers/craftsoftware.jpg",
     "company": "ITER organisation",
     "bio": "I wrote my first lines of code at the age of 11 on a ZX81.\nA bit later, I loved to code in ADA and Pascal \nSince then,  I've been a software craftsman for 30 years, a student of Laurent Bossavit, Jonathan Peret, and Olivier Azeau. \nI have also been a software architect, project manager, and team leader. I have worked for various IT services companies and software publishers, including 10 years at Varian Medical Systems and more recently at ITER org.\nI'm a C# and JS coder from the beginning, I have recently delved into Kotlin with delight. I believe that good development consists of 70% discussion, 20% testing, and 10% coding.",
@@ -382,14 +426,14 @@
     ]
   },
   {
-    "name": "Thanh Lan DOUBLIER",
-    "id": "thanh-lan-doublier",
-    "picture": "/speakers/doublier.jpeg",
-    "company": "Second brain",
-    "bio": "Après des études de droits, je suis tombée dans le développement web . Après quelques années en tant que développeuse  free-lance  RoR, mon état de sante s’est dégradée, ce qui m’a forcée à m’arrêter de coder pendant environ deux ans.\n\nAprès une formation orientée data science et une  alternance  chez Axa France, je suis actuellement Data engineer Mlops chez Second Brain une start-up  qui développe des solutions qui accompagnent les industriels pharmaceutiques dans leur processus de vente.\n\nLe code est un des éléments clef qui m’a aidé à accepter et avancer avec la maladie. C’est pour moi, un peu comme une baguette magique où tout peut devenir possible. Mais comme un grand pouvoir implique de grandes responsabilités,  il est parfois utile en tant que développeuse ou développeur de se questionner  sur nos pratiques et déconstruire nos biais.\n\nJe fais partie de l’organisation de Cloud Nord ( une conférence  orientée cloud à Lille ) , des Chtitedev ( un collectif de femmes de la tech) et je suis vice présidente de Compositech une association militante pour les droits des femmes et des personnes non binaires dans la tech",
+    "name": "David Pilato",
+    "id": "david-pilato",
+    "picture": "/speakers/pilato.jpg",
+    "company": "Elasticsearch",
+    "bio": "Depuis 2013, David Pilato est développeur et évangéliste chez elastic.co, après avoir passé les deux années précédentes à promouvoir le projet open-source Elasticsearch. Il en anime la communauté française et organise des BBLs au sein des entreprises. Egalement auteur du projet FSCrawler qui permet d'indexer des documents pdf, open office, etc. dans elasticsearch en utilisant Apache Tika.\n\n",
     "social": {
-      "x": "",
-      "github": "",
+      "x": "https://x.com/dadoonet",
+      "github": "https://github.com/dadoonet",
       "linkedin": ""
     },
     "sessionsId": [

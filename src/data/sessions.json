@@ -91,6 +91,26 @@
     "cancelled": false
   },
   {
+    "id": "cm8cw8rmb0agupr3npza3rxaa",
+    "title": "Les coulisses du DevQuest, DevEx : levier ou mirage de la performance ?",
+    "abstract": "Et si prendre soin de l\u2019exp\u00E9rience des d\u00E9veloppeurs, c\u2019\u00E9tait la cl\u00E9 pour des \u00E9quipes plus efficaces, engag\u00E9es et durables ?\r\n\r\nEn 30 minutes, on vous propose une discussion sinc\u00E8re, sans bullshit, avec celles et ceux qui vivent et transforment la DevEx au quotidien.\r\n\r\nAvec : Alexandre Pacaud (fondateur de DevQuest) & Florent Fr\u00E9mont (LeadDev chez MAIF)\r\n Et trois invit\u00E9s passionn\u00E9s \u2764\uFE0F  :\n\r \uD83D\uDC49 Geoffrey Graveaud \u2013 Coach Devops \/ Accelerate \/ Craft et Speaker. Avec plus de 15 ans d'exp\u00E9rience dans une trentaine d'organisations, Geoffrey est aujourd\u2019hui conf\u00E9rencier reconnu et coach en prise de parole, notamment pour des keynotes, TEDx et concours d\u2019\u00E9loquence.\r\n\r\n\uD83D\uDC49 Arthur Magne \u2013 CPO et cofondateur de Packmind. Passionn\u00E9 par la qualit\u00E9 logicielle et les pratiques collaboratives, Arthur a co-cr\u00E9\u00E9 une plateforme pour aider les \u00E9quipes \u00E0 partager leurs bonnes pratiques de code et faire \u00E9merger l\u2019excellence technique.\r\n\r\n\uD83D\uDC49  Yuriy Tyukhnin \u2013 CEO de DevEx Consulting. Fort de 20 ans de carri\u00E8re dans le d\u00E9veloppement et le management tech, Yuriy accompagne aujourd\u2019hui les entreprises pour am\u00E9liorer l\u2019exp\u00E9rience d\u00E9veloppeur, avec un focus particulier sur l\u2019int\u00E9gration des outils IA et la qualit\u00E9 de vie au travail.\r\n\r\n\r\n\uD83D\uDCC3 Au programme :\r\n * Pourquoi la DevEx, ce n\u2019est pas juste un mot \u00E0 la mode\r\n * Comment la mesurer vraiment, au-del\u00E0 des KPIs\r\n * Des outils, des pratiques et des id\u00E9es \u00E0 tester dans vos \u00E9quipes\r\n\r\nEt ce qu\u2019il vaut mieux \u00E9viter\u2026\r\n\uD83C\uDFAF \u00C0 \u00E9couter si vous pensez que bien coder, c\u2019est aussi bien travailler ensemble.",
+    "speakersId": [
+      "geoffrey-graveaud",
+      "arthur-magne",
+      "yuriy-tyukhnin"
+    ],
+    "categorie": "Quêtes Secondaires",
+    "tags": [
+      "discovery"
+    ],
+    "format": "Conférence",
+    "room": "La Forge",
+    "day": "day-1",
+    "slot": "day-1-emission",
+    "slug": "emission-1",
+    "cancelled": false
+  },
+  {
     "id": "cm6dqrrlv00e1qy3moij8sixq",
     "title": "🎶 \"Vois sur ton chemin, Aventuriers égarés, ...\" 🎶 Y'a-t-il un GPS dans le donjon ?",
     "abstract": "Il est fini le temps où l'on planifiait notre parcours de vacances sur les atlas routiers.  Maintenant il nous est quasi impossible d'aller d'un point A à un point B sans utiliser des outils comme GoogleMaps, ou Plans, ou d'autres alternatives.  Aidons TomTom et Nanar à comprendre comment fonctionnent ces outils.  A*, Djisktra, ... Pathfinding n'auront plus de secrets pour vous.  Quelle magie est présente dans ces algorithmes ?  Chers Aventuriers, plus besoin d'un magicien dans votre équipe pour vous déplacer.  Vous aurez tout en main pour traverser votre prochain Donjon et optimiser votre trajet vers le prochain Boss.",
@@ -147,9 +167,10 @@
   },
   {
     "id": "cm6j6kywd01uoqyzz8798ojax",
-    "title": "Tremplin DevQuest",
-    "abstract": "Surprise !",
+    "title": "S’augmenter sans se déposséder: la convivialité d’Illich face aux assistants d’IA.",
+    "abstract": "Au travail, quand est-ce qu’un outil passe d’une aide à une contrainte? D’une extension des capacités à une restriction? Avec sa notion de convivialité le philosophe Ivan Illich donne un référentiel pour répondre à ces questions. Mort en 2002 il n'a jamais pu demander la recette de la tarte aux pommes à ChatGPT ou Mistral, ni réfléchir à l’arrivée de l’IA générative dans le monde du travail. Pourrait-on, avec la convivialité en ligne de mire, trouver un entre-deux pragmatique entre enthousiasme effréné (#vibecoding) et refus catégorique? L'objectif de cette quête : voir comment la convivialité s’applique aux assistants de codage et vous fournir des pistes pour éviter que l'IA ne devienne un artefact dominant et dans les ténèbres toutes et tous nous lie.",
     "speakersId": [
+      "nina-petard"
     ],
     "format": "Quickie",
     "categorie": "Tremplin",
@@ -497,7 +518,7 @@
     "abstract": "Vous avez entendu parler de DDD, d'architecture hexagonale ? De la pyramide des tests? Vous en avez marre de ces conférences théoriques sur le sujet et vous aimeriez enfin coder avec ces paradigmes?  Vous auriez tant voulu appliquer le TDD, mais il vous fait peur; ou bien \"vous n'avez pas le temps\" pour le faire en prod? Vous aimeriez savoir comment écrire ET tester des entités métier ?   Vous avez entendu parler des ports/adapteurs, comment les utiliser ?  Vous voudriez savoir si c'est  vraiment incontournable d'utiliser les \"mocks\"? Et ces fameux TestContainers, sont-ils vos amis ou vos ennemis ?  Et si en plus, vous pouviez faire le 1er (ou pas) mob programming de votre vie??  Tout cela en quelques heures par la pratique ?  Alors, cet atelier est complètement fait pour vous !   ### Bénéfices attendus  - Construire une application autour d'un cas métier concret  - Introduire pas à pas les bases du DDD et de l'architecture Hexagonale  - Comprendre les tests unitaires et le besoin de doublures dans un début d’architecture hexagonale;   - Appréhender quand ces doublures de tests sont légitimes dans leurs usages.  - Démystifier ce qu’est un dummy, un stub, un spy, un fake, un mock. - Jouer avec les  TestContainers  - En produisant (en TDD, toujours) un code empreint de contraintes techniques réelles : dialogue avec une base de données, un service web...  - Apprendre en s’amusant, en collaborant afin de produire, tous ensemble, le code.  Mob programiming en  Kotlin",
     "speakersId": [
       "anthony-cassaigne",
-      "craft-softwr-music"
+      "guillaume-saint-etienne"
     ],
     "format": "Workshop",
     "categorie": "Backend",
@@ -584,9 +605,10 @@
   },
   {
     "id": "cm85mm6db0783pr3n9g5rf6k2",
-    "title": "Tremplin DevQuest",
-    "abstract": "Surprise",
+    "title": "Au secours, de la data dans mon projet ! Streamlit à la rescousse...",
+    "abstract": "L'importance croissante de la donnée en fait un facteur déterminant pour le succès de vos projets… mais qui n'a jamais galéré à tester rapidement une idée sans devoir construire tout un environnement technique, à rendre un rapport data interactif, ou à expliquer comment des données pourraient s'intégrer au projet.\n\nC'est là qu’entre en jeu Streamlit, un framework Python permettant de réaliser des interfaces web en quelques lignes seulement à l'aide de composants graphiques tels que des charts elements, différents types de médias, tout type d'inputs... Particulièrement utile et approprié pour exploiter des problématiques liées à la donnée, Streamlit peut également être utilisé pour d'autres nombreux autres cas d'usage.\n\nDurant cette présentation, nous verrons au travers d'un cas concret comment prendre en main Streamlit et confectionner une interface simple et efficace, et ainsi vous saurez comment cet outil a le potentiel de vous aider à concrétiser de nombreux POCs ou supports d'expérimentations qui peuvent ouvrir la voie à de nouvelles applications.",
     "speakersId": [
+      "nicolas-foussard"
     ],
     "format": "Quickie",
     "categorie": "Tremplin",
@@ -693,10 +715,10 @@
   },
   {
     "id": "cm70y678900r8ml3mrc6a3p0y",
-    "title": "Guide de survie du Jedi  développeur quand la législation s'intéresse à l'intelligence artificielle",
-    "abstract": "Ces derniers temps, la galaxie est troublée par la mise en lumière de l’intelligence artificielle. Bien que présente depuis de nombreuse années et intégrée dans le quotidien de toutes et tous, la populatité ChatGPT et l’IA générative ont fait prendre conscience au grand public et aux législateurs les possibilités mais aussi les risques qui existent avec ce type de technologies. Nous explorerons les réglementations existantes ( comme le RGPD) ou nouvelles (l’IA Act) qui gouvernent l'utilisation de l'intelligence artificielle. De la protection des données, à la transparence algorithmique, cette conférence vous guidera à travers les étoiles juridiques avec la sagesse d'un maître Jedi.  Consilier progrès technique et légalité voir moralité dur dilemme.  Que la Force de la Conformité soit avec vous, car cette présentation vise à armer les rebelles du code avec les connaissances nécessaires pour traverser le champ de mines juridiques tout en gardant leurs projets dans la voie lumineuse de la légalité.",
+    "title": "La recherche à l'ère de l'IA\n",
+    "abstract": "La recherche ne se contente plus de l'approche maintenant traditionnelle basée sur la fréquence des termes (TF/IDF ou BM25) mais plus sur la tendance actuelle du machine learning où les nouveaux modèles ont ouvert une nouvelle dimension pour la recherche.\n\nCette conférence donne un aperçu de :\n\n* La recherche \"Classique\" et ses limitations\n* Qu'est qu'un modèle de machine learning et comment vous pouvez l'utiliser\n* Comment utiliser la recherche vectorielle ou la recherche hybride dans Elasticsearch\n* Comment ChatGPT d'OpenAI ou les \"large language models\" (LLMs) similaires viennent jouer naturellement avec Elastic\n\nLa démo principale montre comment générer des embeddings à partir de musiques puis comment trouver la musique qui s'approche le plus d'une musique que nous fredonnons \uD83C\uDFB6\uD83C\uDFB8\uD83C\uDFBB.",
     "speakersId": [
-      "thanh-lan-doublier"
+      "david-pilato"
     ],
     "format": "Conférence",
     "categorie": "Cloud & DevSecOps",
@@ -706,7 +728,7 @@
     "room": "Le planétarium",
     "day": "day-2",
     "slot": "day-2-conference-6-ps",
-    "slug": "guide-de-survie-du-jedi-dveloppeur-quand-la-lgislation-sintresse--lintelligence-artificielle",
+    "slug": "la-recherche-a-lere-de-lia",
     "cancelled": false
   },
   {
@@ -765,7 +787,7 @@
   },
   {
     "id": "cm88deamo08lqpr3nf0fgq4sy",
-    "title": "Le quantique : c est épique !!!",
+    "title": "Le quantique : c'est épique !!!",
     "abstract": "Imaginez pouvoir explorer plusieurs donjons en même temps, pouvoir vous téléporter directement dans la salle du trésor ou si vous rêvez de faire des expériences sur des chats enfermés dans des boîtes (ou des elfes, ça doit marcher aussi), ce talk est fait pour vous !!! En plus, on jettera 2D6 (non fournis) à chaque slide, comme ça vous ne serez pas perdu.  On y découvrera les aspects intriguants du quantique, ses applications possibles et les différents guildes qui tentent de s emparer de la suprématie quantique.",
     "speakersId": [
       "damien-hackett"
