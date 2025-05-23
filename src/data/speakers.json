@@ -426,14 +426,14 @@
     ]
   },
   {
-    "name": "Thanh Lan DOUBLIER",
-    "id": "thanh-lan-doublier",
-    "picture": "/speakers/doublier.jpeg",
-    "company": "Second brain",
-    "bio": "Après des études de droits, je suis tombée dans le développement web . Après quelques années en tant que développeuse  free-lance  RoR, mon état de sante s’est dégradée, ce qui m’a forcée à m’arrêter de coder pendant environ deux ans.\n\nAprès une formation orientée data science et une  alternance  chez Axa France, je suis actuellement Data engineer Mlops chez Second Brain une start-up  qui développe des solutions qui accompagnent les industriels pharmaceutiques dans leur processus de vente.\n\nLe code est un des éléments clef qui m’a aidé à accepter et avancer avec la maladie. C’est pour moi, un peu comme une baguette magique où tout peut devenir possible. Mais comme un grand pouvoir implique de grandes responsabilités,  il est parfois utile en tant que développeuse ou développeur de se questionner  sur nos pratiques et déconstruire nos biais.\n\nJe fais partie de l’organisation de Cloud Nord ( une conférence  orientée cloud à Lille ) , des Chtitedev ( un collectif de femmes de la tech) et je suis vice présidente de Compositech une association militante pour les droits des femmes et des personnes non binaires dans la tech",
+    "name": "David Pilato",
+    "id": "david-pilato",
+    "picture": "/speakers/pilato.jpg",
+    "company": "Elasticsearch",
+    "bio": "Depuis 2013, David Pilato est développeur et évangéliste chez elastic.co, après avoir passé les deux années précédentes à promouvoir le projet open-source Elasticsearch. Il en anime la communauté française et organise des BBLs au sein des entreprises. Egalement auteur du projet FSCrawler qui permet d'indexer des documents pdf, open office, etc. dans elasticsearch en utilisant Apache Tika.\n\n",
     "social": {
-      "x": "",
-      "github": "",
+      "x": "https://x.com/dadoonet",
+      "github": "https://github.com/dadoonet",
       "linkedin": ""
     },
     "sessionsId": [

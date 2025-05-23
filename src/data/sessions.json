@@ -715,10 +715,10 @@
   },
   {
     "id": "cm70y678900r8ml3mrc6a3p0y",
-    "title": "Guide de survie du Jedi  développeur quand la législation s'intéresse à l'intelligence artificielle",
-    "abstract": "Ces derniers temps, la galaxie est troublée par la mise en lumière de l’intelligence artificielle. Bien que présente depuis de nombreuse années et intégrée dans le quotidien de toutes et tous, la populatité ChatGPT et l’IA générative ont fait prendre conscience au grand public et aux législateurs les possibilités mais aussi les risques qui existent avec ce type de technologies. Nous explorerons les réglementations existantes ( comme le RGPD) ou nouvelles (l’IA Act) qui gouvernent l'utilisation de l'intelligence artificielle. De la protection des données, à la transparence algorithmique, cette conférence vous guidera à travers les étoiles juridiques avec la sagesse d'un maître Jedi.  Consilier progrès technique et légalité voir moralité dur dilemme.  Que la Force de la Conformité soit avec vous, car cette présentation vise à armer les rebelles du code avec les connaissances nécessaires pour traverser le champ de mines juridiques tout en gardant leurs projets dans la voie lumineuse de la légalité.",
+    "title": "La recherche à l'ère de l'IA\n",
+    "abstract": "La recherche ne se contente plus de l'approche maintenant traditionnelle basée sur la fréquence des termes (TF/IDF ou BM25) mais plus sur la tendance actuelle du machine learning où les nouveaux modèles ont ouvert une nouvelle dimension pour la recherche.\n\nCette conférence donne un aperçu de :\n\n* La recherche \"Classique\" et ses limitations\n* Qu'est qu'un modèle de machine learning et comment vous pouvez l'utiliser\n* Comment utiliser la recherche vectorielle ou la recherche hybride dans Elasticsearch\n* Comment ChatGPT d'OpenAI ou les \"large language models\" (LLMs) similaires viennent jouer naturellement avec Elastic\n\nLa démo principale montre comment générer des embeddings à partir de musiques puis comment trouver la musique qui s'approche le plus d'une musique que nous fredonnons \uD83C\uDFB6\uD83C\uDFB8\uD83C\uDFBB.",
     "speakersId": [
-      "thanh-lan-doublier"
+      "david-pilato"
     ],
     "format": "Conférence",
     "categorie": "Cloud & DevSecOps",
@@ -728,7 +728,7 @@
     "room": "Le planétarium",
     "day": "day-2",
     "slot": "day-2-conference-6-ps",
-    "slug": "guide-de-survie-du-jedi-dveloppeur-quand-la-lgislation-sintresse--lintelligence-artificielle",
+    "slug": "la-recherche-a-lere-de-lia",
     "cancelled": false
   },
   {
