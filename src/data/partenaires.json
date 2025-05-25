@@ -149,5 +149,33 @@
     "site": "https://www.socram-banque.fr/",
     "level": "COMMUN",
     "actif": true
+  },
+  {
+    "name": "Niort Agglo",
+    "asset": "niortaglo.webp",
+    "site": "https://www.niortagglo.fr/",
+    "level": "AUTRE",
+    "actif": true
+  },
+  {
+    "name": "Sortilèges",
+    "asset": "sortileges.jpg",
+    "site": "https://sortileges.fr/niort/",
+    "level": "AUTRE",
+    "actif": true
+  },
+  {
+    "name": "Retrogameboys86",
+    "asset": "retrogameboys86.jpg",
+    "site": "https://www.instagram.com/retrogameboys86/",
+    "level": "AUTRE",
+    "actif": true
+  },
+  {
+    "name": "EI Alexis Briard",
+    "asset": "shield.png",
+    "site": "https://www.linkedin.com/in/briardalexis/",
+    "level": "AUTRE",
+    "actif": true
   }
 ]
