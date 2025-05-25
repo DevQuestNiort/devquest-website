@@ -36,6 +36,12 @@
     "link": "https://discord.gg/Gx8rmjZh2J"
   },
   {
+    "name": "Github DevQuest",
+    "asset": "social/github.svg",
+    "type": "RS",
+    "link": "https://github.com/DevQuestNiort"
+  },
+  {
     "name": "Mail",
     "asset": "social/logo-mail.svg",
     "type": "MAIL",

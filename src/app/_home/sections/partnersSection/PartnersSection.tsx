@@ -134,7 +134,7 @@ export function PartnersSection({partenaires}: PartnersSectionProperties) {
                 />
               ))}
           </div>
-          {/* <h2>
+          <h2>
             <Image
               height={32}
               width={32}
@@ -158,7 +158,7 @@ export function PartnersSection({partenaires}: PartnersSectionProperties) {
                   actif={p.actif}
                 />
               ))}
-          </div> */}
+          </div>
         </div>
       </Section>
     );

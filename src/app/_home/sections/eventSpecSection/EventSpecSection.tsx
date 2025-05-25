@@ -34,7 +34,7 @@ export function EventSpecSection() {
               aria-hidden="true"
             />
             <p className={styles.eventSpecText}>
-              600
+              500
               <br />
               spectateurs / jour
             </p>
