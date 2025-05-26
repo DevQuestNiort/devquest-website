@@ -111,6 +111,24 @@
     "cancelled": false
   },
   {
+    "id": "cm9cw8rmb0agupr3npza3rxaa",
+    "title": "Les coulisses du DevQuest, la souveraineté numérique en France",
+    "abstract": "Et si reprendre le contrôle de notre infrastructure numérique était l’un des grands défis de notre temps ?\n\nDans cet épisode de DevQuest, on vous propose un échange direct, sans filtre, autour d’un sujet central mais souvent sous-estimé : la souveraineté numérique en France.\n\n\uD83C\uDF99\uFE0F Avec : Quentin Adam – CEO de Clever Cloud, entrepreneur engagé, expert reconnu de l’hébergement cloud, et fervent défenseur de l’indépendance technologique européenne.\n\n\uD83D\uDCAC Ensemble, nous faisons un état des lieux lucide du numérique français : dépendance aux GAFAM, manque d’alternatives locales, enjeux d’infrastructure, choix stratégiques à opérer. Quentin partage sa vision et des pistes concrètes pour agir, que l’on soit dev, CTO ou décideur : cloud souverain, open source, coopérations locales, rôle des communautés tech…\n\n\uD83D\uDCC3 Au programme :\n\nPourquoi la souveraineté numérique nous concerne tous\n\nCe que les entreprises peuvent faire, dès aujourd’hui\n\nLe rôle clé des développeurs dans la reconquête technologique\n\nEt comment éviter l’inaction par fatalisme\n\n\uD83C\uDFAF Un épisode pour celles et ceux qui veulent comprendre, agir, et contribuer à bâtir un numérique plus résilient, plus libre, et plus ancré localement.",
+    "speakersId": [
+      "quentin-adam"
+    ],
+    "categorie": "Quêtes Secondaires",
+    "tags": [
+      "discovery"
+    ],
+    "format": "Conférence",
+    "room": "La Forge",
+    "day": "day-2",
+    "slot": "day-2-emission",
+    "slug": "emission-2",
+    "cancelled": false
+  },
+  {
     "id": "cm6dqrrlv00e1qy3moij8sixq",
     "title": "🎶 \"Vois sur ton chemin, Aventuriers égarés, ...\" 🎶 Y'a-t-il un GPS dans le donjon ?",
     "abstract": "Il est fini le temps où l'on planifiait notre parcours de vacances sur les atlas routiers.  Maintenant il nous est quasi impossible d'aller d'un point A à un point B sans utiliser des outils comme GoogleMaps, ou Plans, ou d'autres alternatives.  Aidons TomTom et Nanar à comprendre comment fonctionnent ces outils.  A*, Djisktra, ... Pathfinding n'auront plus de secrets pour vous.  Quelle magie est présente dans ces algorithmes ?  Chers Aventuriers, plus besoin d'un magicien dans votre équipe pour vous déplacer.  Vous aurez tout en main pour traverser votre prochain Donjon et optimiser votre trajet vers le prochain Boss.",
