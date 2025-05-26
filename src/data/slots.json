@@ -466,12 +466,33 @@
     }
   },
   {
+    "key": "day-2-emission",
+    "day": "day-2",
+    "start": "12:00",
+    "type": "conference",
+    "display": {
+      "row": 7,
+      "size": 1
+    }
+  },
+  {
     "key": "day-2-launch",
     "day": "day-2",
     "start": "12:00",
     "type": "lunch",
     "display": {
       "row": 7,
+      "size": 1,
+      "gridColumn": "3 / -1"
+    }
+  },
+  {
+    "key": "day-2-launch",
+    "day": "day-2",
+    "start": "12:40",
+    "type": "lunch",
+    "display": {
+      "row": 8,
       "size": 1
     }
   },
@@ -481,7 +502,7 @@
     "start": "13:30",
     "type": "quickie",
     "display": {
-      "row": 8,
+      "row": 9,
       "size": 1
     }
   },
@@ -491,7 +512,7 @@
     "start": "13:30",
     "type": "quickie",
     "display": {
-      "row": 8,
+      "row": 9,
       "size": 1
     }
   },
@@ -501,7 +522,7 @@
     "start": "13:50",
     "type": "break",
     "display": {
-      "row": 9,
+      "row": 10,
       "size": 1
     }
   },
@@ -511,7 +532,7 @@
     "start": "14:00",
     "type": "conference",
     "display": {
-      "row": 10,
+      "row": 11,
       "size": 1
     }
   },
@@ -521,7 +542,7 @@
     "start": "14:00",
     "type": "conference",
     "display": {
-      "row": 10,
+      "row": 11,
       "size": 1
     }
   },
@@ -531,7 +552,7 @@
     "start": "14:00",
     "type": "codelab",
     "display": {
-      "row": 10,
+      "row": 11,
       "size": 3
     }
   },
@@ -541,7 +562,7 @@
     "start": "14:00",
     "type": "codelab",
     "display": {
-      "row": 10,
+      "row": 11,
       "size": 3
     }
   },
@@ -551,7 +572,7 @@
     "start": "14:50",
     "type": "break",
     "display": {
-      "row": 11,
+      "row": 12,
       "size": 1,
       "gridColumn": "2 / span 2"
     }
@@ -562,7 +583,7 @@
     "start": "15:00",
     "type": "conference",
     "display": {
-      "row": 12,
+      "row": 13,
       "size": 1
     }
   },
@@ -572,7 +593,7 @@
     "start": "15:00",
     "type": "conference",
     "display": {
-      "row": 12,
+      "row": 13,
       "size": 1
     }
   },
@@ -582,7 +603,7 @@
     "start": "15:50",
     "type": "break",
     "display": {
-      "row": 13,
+      "row": 14,
       "size": 1
     }
   },
@@ -592,7 +613,7 @@
     "start": "16:10",
     "type": "conference",
     "display": {
-      "row": 14,
+      "row": 15,
       "size": 1
     }
   },
@@ -602,7 +623,7 @@
     "start": "16:10",
     "type": "conference",
     "display": {
-      "row": 14,
+      "row": 15,
       "size": 1
     }
   },
@@ -612,7 +633,7 @@
     "start": "17:00",
     "type": "break",
     "display": {
-      "row": 15,
+      "row": 16,
       "size": 1,
       "gridColumn": "2 / span 2"
     }
@@ -623,7 +644,7 @@
     "start": "17:10",
     "type": "quickie",
     "display": {
-      "row": 16,
+      "row": 17,
       "size": 1
     }
   },
@@ -633,7 +654,7 @@
     "start": "17:10",
     "type": "quickie",
     "display": {
-      "row": 16,
+      "row": 17,
       "size": 1
     }
   },
@@ -643,7 +664,7 @@
     "start": "17:30",
     "type": "break",
     "display": {
-      "row": 17,
+      "row": 18,
       "size": 1,
       "gridColumn": "2 / span 2"
     }
@@ -654,7 +675,7 @@
     "start": "17:40",
     "type": "quickie",
     "display": {
-      "row": 18,
+      "row": 19,
       "size": 1
     }
   },
@@ -664,7 +685,7 @@
     "start": "17:40",
     "type": "quickie",
     "display": {
-      "row": 18,
+      "row": 19,
       "size": 1
     }
   },
@@ -674,7 +695,7 @@
     "start": "18:00",
     "type": "closing",
     "display": {
-      "row": 19,
+      "row": 20,
       "size": 1
     }
   }

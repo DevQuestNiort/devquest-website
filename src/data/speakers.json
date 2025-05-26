@@ -14,7 +14,22 @@
     "bio": "Coach Devops / Accelerate / Craft et Speaker. Avec plus de 15 ans d'expérience dans une trentaine d'organisations, Geoffrey est aujourd’hui conférencier reconnu et coach en prise de parole, notamment pour des keynotes, TEDx et concours d’éloquence.",
     "sessionsId": [
       "cm8cw8rmb0agupr3npza3rxaa"
-    ]
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/geoffrey-graveaud-033319b0/"
+    }
+  },
+  {
+    "name": "Quentin Adam",
+    "id": "quentin-adam",
+    "picture": "/speakers/quentin-adam.jpeg",
+    "bio": "Wants to be efficient and happy about developer and hosting? Sure, give a try to http:\/\/www.clever-cloud.com\/ :-)\r\n\r\nClever Cloud is an IT Automation company focused on developer productivity and hosting quality. The Clever Cloud platform allow people to push some code (node, java, python, ruby, docker, go, scala, javascript, php...) and manage all the deployment and ops process: auto monitoring, auto healing, auto backups, auto scalability, no downtime redeploy, security updates applied automatically... All the hosting problem is solved.\r\n\r\nGoals are simple :\r\n- increase developer productivity\r\n- Create developer happiness (they use technology they want)\r\n- Allow to manage a real continuous delivery process\r\n- Enhance hosting reliability, uptime & security\r\n- Focus on real company added value\r\n\r\nClever Cloud can be use online, in our public cloud computing platform (setup account in 1 minute, free trial), or in customers infrastructures with Clever Cloud on premise.",
+    "sessionsId": [
+      "cm9cw8rmb0agupr3npza3rxaa"
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/waxzce"
+    }
   },
   {
     "name": "Arthur Magne",
@@ -23,7 +38,10 @@
     "bio": "CPO et cofondateur de Packmind. Passionné par la qualité logicielle et les pratiques collaboratives, Arthur a co-créé une plateforme pour aider les équipes à partager leurs bonnes pratiques de code et faire émerger l’excellence technique.",
     "sessionsId": [
       "cm8cw8rmb0agupr3npza3rxaa"
-    ]
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/arthur-magne/"
+    }
   },
   {
     "name": "Yuriy Tyukhnin",
@@ -32,7 +50,10 @@
     "bio": "CEO de DevEx Consulting. Fort de 20 ans de carrière dans le développement et le management tech, Yuriy accompagne aujourd’hui les entreprises pour améliorer l’expérience développeur, avec un focus particulier sur l’intégration des outils IA et la qualité de vie au travail.",
     "sessionsId": [
       "cm8cw8rmb0agupr3npza3rxaa"
-    ]
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/ytyukhnin/"
+    }
   },
   {
     "name": "Nicolas Foussard",
@@ -41,7 +62,10 @@
     "bio": "Étudiant à l'IUT de La Rochelle et Alternant au sein du groupe Covéa, je suis passionné d'informatique depuis le lycée. Je m'intéresse tout particulièrement à la Data et l'IA depuis 2 ans maintenant, mais je reste curieux de tout ce qui existe et j'apprécie toujours explorer et partager mes découvertes !",
     "sessionsId": [
       "cm85mm6db0783pr3n9g5rf6k2"
-    ]
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/nicolas-foussard-b60613229/"
+    }
   },
   {
     "name": "Nina Pétard",
@@ -50,7 +74,10 @@
     "bio": "Après un départ par les statistiques, je suis passée dans différentes entreprises par les cases développeuse, data scientist, ML engineer, et me voilà désormais product owner à la MAIF sur les sujets de socles communs d'IA générative. Et parce que j'aime construire des outils pour les autres professionnels de la tech, j'aime réfléchir à notre rapport au numérique et à l'IA.",
     "sessionsId": [
       "cm6j6kywd01uoqyzz8798ojax"
-    ]
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/nina-p%C3%A9tard-133ab0127/"
+    }
   },
   {
     "name": "Julien Furiga",
