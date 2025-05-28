@@ -3,8 +3,9 @@ import { Slot, SlotTypeLabel } from "@/model/Slot";
 import { rooms, Speakers, Tags } from "../common";
 import classNames from "classnames";
 import Link from "next/link";
-import { Fragment, PropsWithChildren } from "react";
+import React, { Fragment, PropsWithChildren } from "react";
 import styles from "./MobileSchedule.module.scss";
+import AfterPartySlot from "@/components/afterparty/AfterPartySlot";
 
 type MobileScheduleProps = {
   sessions: FullSession[];
@@ -27,7 +28,11 @@ export const MobileSchedule = ({
   hours.forEach((hour) => {
     sessionsByHours[hour] = sessions
       .filter((s) => s.slot.start === hour)
-      .sort((s1, s2) => rooms.map(r => r.name).indexOf(s1.room) - rooms.map(r => r.name).indexOf(s2.room));
+      .sort(
+        (s1, s2) =>
+          rooms.map((r) => r.name).indexOf(s1.room) -
+          rooms.map((r) => r.name).indexOf(s2.room),
+      );
     fixedSlotsByHours[hour] = fixedSlots.filter((s) => s.start === hour);
   });
 
@@ -84,7 +89,11 @@ const Hour = ({ hour }: { hour: string }) => (
 const FixedSlot = ({ slot }: { slot: Slot }) => {
   return (
     <div className={classNames(styles.slot, styles.fixed, styles[slot.type])}>
-      <h3>{SlotTypeLabel[slot.type]}</h3>
+      {slot.type === "party" ? (
+        <AfterPartySlot />
+      ) : (
+        <h3>{SlotTypeLabel[slot.type]}</h3>
+      )}
     </div>
   );
 };

@@ -7,6 +7,7 @@ import styles from "./LargeSchedule.module.scss";
 import { FullSession } from "@/model/FullSession";
 import Image from "next/image";
 import { Salle } from "@/model/Salle";
+import AfterPartySlot from "@/components/afterparty/AfterPartySlot";
 
 const Room = ({ name, image }: Salle) => {
   const gridColumn = columnFromRoom(name);
@@ -90,7 +91,11 @@ const FixedSlot = ({ slot }: { slot: Slot }) => {
         zIndex: 0,
       }}
     >
-      <h3>{SlotTypeLabel[slot.type]}</h3>
+      {slot.type === "party" ? (
+        <AfterPartySlot />
+      ) : (
+        <h3>{SlotTypeLabel[slot.type]}</h3>
+      )}
     </div>
   );
 };

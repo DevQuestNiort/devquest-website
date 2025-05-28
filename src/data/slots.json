@@ -348,9 +348,19 @@
     "key": "day-1-closing-1",
     "day": "day-1",
     "start": "18:00",
-    "type": "closing",
+    "type": "party",
     "display": {
       "row": 20,
+      "size": 6
+    }
+  },
+  {
+    "key": "day-1-closing-1",
+    "day": "day-1",
+    "start": "23:00",
+    "type": "closing",
+    "display": {
+      "row": 26,
       "size": 1
     }
   },
