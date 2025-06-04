@@ -32,10 +32,10 @@ const getSlots = async () =>
     await fs.readFile(process.cwd() + "/src/data/slots.json", "utf8"),
   ) as Slot[];
 
-const getSpeakers = async () => JSON.parse(await fs.readFile(
-  process.cwd() + "/src/data/speakers.json",
-  "utf8",
-)) as Speaker[];
+const getSpeakers = async () =>
+  JSON.parse(
+    await fs.readFile(process.cwd() + "/src/data/speakers.json", "utf8"),
+  ) as Speaker[];
 
 export async function generateStaticParams() {
   const sessions = await getSessions();
@@ -59,10 +59,12 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
   const myFullSession = {
     ...session,
     slot: slots.find((s) => s.key === session.slot),
-    speakers: session.speakersId.map(speakerId => speakers.find((s) => s.id === speakerId)) 
+    speakers: session.speakersId.map((speakerId) =>
+      speakers.find((s) => s.id === speakerId),
+    ),
   } as FullSession;
 
-  const DISPLAY_OPENFEEDBACK = false;
+  const DISPLAY_OPENFEEDBACK = true;
 
   return (
     <div className={styles.container}>
@@ -109,10 +111,11 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
 
         <div className={styles.speakers}>
           {myFullSession.speakers.map((speaker) => (
-            
             <div key={speaker.id} className={styles.speaker}>
               <Link
-            href={"/speaker/" + speaker.id} className={styles.disableLinkStyle}>
+                href={"/speaker/" + speaker.id}
+                className={styles.disableLinkStyle}
+              >
                 <Avatar
                   classes={{
                     main: styles.avatar,
@@ -122,7 +125,7 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
                   withSocials={false}
                 />
               </Link>
-            </div> 
+            </div>
           ))}
         </div>
       </div>
