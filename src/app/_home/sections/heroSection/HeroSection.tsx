@@ -27,14 +27,14 @@ export function HeroSection() {
       />
       <Card theme="Light" className={styles.heroCard}>
         <h1>Le premier rassemblement des devs Niortais</h1>
-        <p>Tu veux participer ?</p>
+        <p>Tu veux nous voir en live ?</p>
         <LinkButton
           theme="Primary"
           style={{ marginTop: "0.5rem" }}
-          href={config.shop}
+          href={config.urlTwitch}
           target="_blank"
         >
-          Réserver mes places
+          Regarder sur Twitch
         </LinkButton>
       </Card>
     </Section>
