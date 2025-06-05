@@ -39,6 +39,15 @@ export function HeroSection() {
         <LinkButton
           theme="Secondary"
           style={{ marginTop: "0.5rem" }}
+          href={"https://companion.devquest.fr/"}
+          target="_blank"
+        >
+         Devquest Compagnon
+        </LinkButton>
+        
+        <LinkButton
+          theme="Secondary"
+          style={{ marginTop: "0.5rem" }}
           href={config.shop}
           target="_blank"
         >
