@@ -36,6 +36,14 @@ export function HeroSection() {
         >
           Regarder sur Twitch
         </LinkButton>
+        <LinkButton
+          theme="Secondary"
+          style={{ marginTop: "0.5rem" }}
+          href={config.shop}
+          target="_blank"
+        >
+          Acheter un billet
+        </LinkButton>
       </Card>
     </Section>
   );
