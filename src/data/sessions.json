@@ -857,5 +857,23 @@
     "slot": "day-2-quickie-9-ps",
     "slug": "-testing-quest-la-lgende-des-gardiens-du-code-",
     "cancelled": false
+  },
+  {
+    "id": "oifgjofurhorudhgouhfohgouihg",
+    "title": "Mes trains Jouef passent au numérique, avec des Raspberry et TinyGo !",
+    "abstract": "Dans les années 1970/1980, de nombreux enfants ont eu la chance de grandir avec des petits trains électriques, au format HO (1:87). Le principe était simple : on pose des rails, qu'on alimente en 18V, et les trains circulent sur les rails.  Un demi-siècle plus tard, mon grand-père de 85 ans et moi-même nous sommes lancés dans le projet un peu fou de faire passer au numérique ses trains électriques de cette époque. Bienvenue dans ce retour d'expérience, avec du matériel, et des humains, qui ont traversé les générations.  Au menu : de l'électronique (pas trop, promis !), des Raspberry, du TinyGo... et des petits trains, bien entendu.",
+    "speakersId": [
+      "florian-forestier"
+    ],
+    "format": "Quickie",
+    "categorie": "Quêtes Secondaires",
+    "tags": [
+      "discovery"
+    ],
+    "room": "Le planétarium",
+    "day": "day-1",
+    "slot": "day-2-conference-bonus-ps",
+    "slug": "mes-trains-jouef-passent-au-numrique-avec-des-raspberry-et-tinygo-",
+    "cancelled": false
   }
 ]

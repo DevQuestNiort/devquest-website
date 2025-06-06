@@ -486,6 +486,16 @@
     }
   },
   {
+    "key": "day-2-conference-bonus-ps",
+    "day": "day-2",
+    "start": "12:00",
+    "type": "quickie",
+    "display": {
+      "row": 7,
+      "size": 1
+    }
+  },
+  {
     "key": "day-2-launch",
     "day": "day-2",
     "start": "12:00",
@@ -493,7 +503,7 @@
     "display": {
       "row": 7,
       "size": 1,
-      "gridColumn": "3 / -1"
+      "gridColumn": "4 / -1"
     }
   },
   {
