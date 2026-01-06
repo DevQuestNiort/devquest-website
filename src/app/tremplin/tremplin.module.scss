@@ -1,9 +1,12 @@
 .tremplinContainer {
   h1 {
+    font-family: var(--font-teko), sans-serif;
     margin-bottom: 2rem;
   }
 
-  p {
+  p, ul {
+    font-size: 20px;
+    font-family: var(--font-source-sans-pro), sans-serif;
     max-width: 1200px;
   }
 }
