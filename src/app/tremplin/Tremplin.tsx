@@ -130,7 +130,7 @@ export async function Tremplin() {
         </p>
         <div className={styles.imageTremplinContainer}>
           <Image
-            src={"gallery/tremplin-2025-1.JPG"}
+            src={"gallery/tremplin-2025-1.jpg"}
             width={450}
             height={338}
             alt=""
