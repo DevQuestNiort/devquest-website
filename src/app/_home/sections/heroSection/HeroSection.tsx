@@ -5,7 +5,7 @@ import { Card } from "@/components/Card";
 import { LinkButton } from "@/components/LinkButton";
 import config from "../../../../data/config.json";
 
-import backgroundImage from "/public/devquest-fond-min.png";
+import backgroundImage from "/public/fond_site_26.png";
 
 export function HeroSection() {
   return (
@@ -27,24 +27,24 @@ export function HeroSection() {
       />
       <Card theme="Light" className={styles.heroCard}>
         <h1>Le premier rassemblement des devs Niortais</h1>
-        <p>Tu veux nous voir en live ?</p>
+        <p>Tu veux participer en tant que speaker?</p>
         <LinkButton
           theme="Primary"
           style={{ marginTop: "0.5rem" }}
-          href={config.urlTwitch}
+          href={config.cfp}
           target="_blank"
         >
-          Regarder sur Twitch
+          Soumets ton talk
         </LinkButton>
-        <LinkButton
+        {/*<LinkButton
           theme="Secondary"
           style={{ marginTop: "0.5rem" }}
           href={"https://companion.devquest.fr/"}
           target="_blank"
         >
-         Devquest Compagnon
+          Devquest Compagnon
         </LinkButton>
-        
+
         <LinkButton
           theme="Secondary"
           style={{ marginTop: "0.5rem" }}
@@ -52,7 +52,7 @@ export function HeroSection() {
           target="_blank"
         >
           Acheter un billet
-        </LinkButton>
+        </LinkButton>*/}
       </Card>
     </Section>
   );

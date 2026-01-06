@@ -3,7 +3,6 @@ import Image from "next/image";
 import styles from "./PageHeader.module.scss";
 import config from "../../data/config.json";
 import Link from "next/link";
-import { LinkButton } from "../LinkButton";
 import { usePathname } from "next/navigation";
 import classNames from "classnames";
 
@@ -45,8 +44,17 @@ const VersionLarge = ({ pathname }: MenuProps) => {
         </Link>
 
         <span className={styles.separator}>|</span>
-
         <Link
+          href="/tremplin"
+          className={styles.otherHeaderBrand}
+          style={{ fontWeight: isActive("/tremplin") ? "bold" : "normal" }}
+        >
+          Tremplin
+        </Link>
+
+        <span className={styles.separator}>|</span>
+
+        {/*        <Link
           href="/schedule/day-1"
           className={styles.otherHeaderBrand}
           style={{
@@ -59,9 +67,9 @@ const VersionLarge = ({ pathname }: MenuProps) => {
           Programme
         </Link>
 
-        <span className={styles.separator}>|</span>
+        <span className={styles.separator}>|</span>*/}
 
-        <Link
+        {/*<Link
           href="/speakers"
           className={styles.otherHeaderBrand}
           style={{
@@ -74,7 +82,7 @@ const VersionLarge = ({ pathname }: MenuProps) => {
           Orateurs
         </Link>
 
-        <span className={styles.separator}>|</span>
+        <span className={styles.separator}>|</span>*/}
 
         <Link
           href="/faq"
@@ -95,22 +103,24 @@ const VersionLarge = ({ pathname }: MenuProps) => {
           Kit partenaires
         </Link>
 
+        {/*
         <span className={styles.separator}>|</span>
+*/}
 
-        <Link
+        {/*    <Link
           target="_blank"
           href={config.kitMedia}
           className={styles.otherHeaderBrand}
         >
           Kit Média
-        </Link>
+        </Link>*/}
 
         <div className={styles.mainBtnContainer}>
-          {config.shop && (
+          {/*{config.shop && (
             <LinkButton theme="Primary" href={config.shop} target="_blank">
               Réserver mes places
             </LinkButton>
-          )}
+          )}*/}
         </div>
       </div>
     </nav>
@@ -138,8 +148,16 @@ const VersionMobile = ({ pathname }: MenuProps) => {
         >
           Accueil
         </Link>
-
         <span className={styles.separator}>|</span>
+        <Link
+          href="/tremplin"
+          className={styles.otherHeaderBrand}
+          style={{ fontWeight: isActive("/tremplin") ? "bold" : "normal" }}
+        >
+          Tremplin
+        </Link>
+
+        {/*   <span className={styles.separator}>|</span>
 
         <Link
           href="/schedule/day-1"
@@ -152,7 +170,7 @@ const VersionMobile = ({ pathname }: MenuProps) => {
           }}
         >
           Programme
-        </Link>
+        </Link>*/}
       </div>
     </nav>
   );

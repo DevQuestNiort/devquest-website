@@ -14,12 +14,17 @@
   max-width: 700px;
 
   &Light {
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: var(--sable);
+    color: black;
   }
 
   &Dark {
     background-color: var(--primary-color);
+    color: white;
+  }
+
+  &Secondary {
+    background-color: var(--secondary-color);
     color: white;
   }
 
