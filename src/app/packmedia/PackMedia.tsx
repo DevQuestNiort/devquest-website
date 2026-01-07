@@ -83,12 +83,65 @@ const mediaGroups = {
       },
     },
   },
+  longAvecDate: {
+    title: "Logos longs avec date",
+    variants: {
+      couleur: {
+        title: "Version Couleur",
+        files: [
+          "DQ2026-LongAvecDate-Couleur.png",
+          "DQ2026-LongAvecDate-Couleur.svg",
+        ],
+      },
+      couleurInverse: {
+        title: "Version Couleur Inverse",
+        files: [
+          "DQ2026-LongAvecDate-CouleurInverse.png",
+          "DQ2026-LongAvecDate-CouleurInverse.svg",
+        ],
+      },
+      noirEtBlanc: {
+        title: "Version Noir et Blanc",
+        files: [
+          "DQ2026-LongAvecDate-NoirEtBlanc.png",
+          "DQ2026-LongAvecDate-NoirEtBlanc.svg",
+        ],
+      },
+    },
+  },
+  longSansDate: {
+    title: "Logos longs sans date",
+    variants: {
+      couleur: {
+        title: "Version Couleur",
+        files: [
+          "DQ2026-LongSansDate-Couleur.png",
+          "DQ2026-LongSansDate-Couleur.svg",
+        ],
+      },
+      couleurInverse: {
+        title: "Version Couleur Inverse",
+        files: [
+          "DQ2026-LongSansDate-CouleurInverse.png",
+          "DQ2026-LongSansDate-CouleurInverse.svg",
+        ],
+      },
+      noirEtBlanc: {
+        title: "Version Noir et Blanc",
+        files: [
+          "DQ2026-LongSansDate-NoirEtBlanc.png",
+          "DQ2026-LongSansDate-NoirEtBlanc.svg",
+        ],
+      },
+    },
+  },
 };
 
 export function PackMedia() {
   const [bgColor, setBgColor] = useState<
     "gray" | "white" | "black" | "sable" | "rouge"
   >("gray");
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const getBgColorClass = () => {
     switch (bgColor) {
@@ -103,6 +156,14 @@ export function PackMedia() {
       default:
         return styles.bgGray;
     }
+  };
+
+  const openModal = (imageSrc: string) => {
+    setSelectedImage(imageSrc);
+  };
+
+  const closeModal = () => {
+    setSelectedImage(null);
   };
 
   return (
@@ -166,6 +227,8 @@ export function PackMedia() {
                               width={80}
                               height={80}
                               className={styles.mediaImage}
+                              style={{ cursor: "pointer" }}
+                              onClick={() => openModal(file)}
                             />
                           </div>
                           <div>
@@ -191,6 +254,32 @@ export function PackMedia() {
             </div>
           ))}
         </div>
+
+        {selectedImage && (
+          <div className={styles.modal} onClick={closeModal}>
+            <div
+              className={styles.modalContent}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button className={styles.closeButton} onClick={closeModal}>
+                ×
+              </button>
+              <div
+                className={`${styles.modalImageContainer} ${getBgColorClass()}`}
+              >
+                <Image
+                  src={`logo/${selectedImage}`}
+                  alt="DevQuest Logo"
+                  priority
+                  width={400}
+                  height={400}
+                  className={styles.modalImage}
+                />
+              </div>
+              <p className={styles.modalImageName}>{selectedImage}</p>
+            </div>
+          </div>
+        )}
       </div>
     </Section>
   );
