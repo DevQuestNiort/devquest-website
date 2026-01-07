@@ -34,7 +34,7 @@ export async function Tremplin() {
           <li>13 mars : annonce des candidates et candidats sélectionnés</li>
           <li>de mars jusqu&apos;au jour J : accompagnement</li>
           <li>
-            A venir : soirée tremplin et sélection des 2 gagnants-gagnantes
+            28 mai : soirée tremplin et sélection des 2 gagnants-gagnantes
           </li>
         </ul>
         <ul className={styles.frise}>
@@ -59,7 +59,7 @@ export async function Tremplin() {
             <p>Accompagnement</p>
           </li>
           <li>
-            <time dateTime="2018-07-07">A venir</time>
+            <time dateTime="28/05/2026">28 mai 2026</time>
             <span></span>
             <p>Soirée Tremplin</p>
           </li>
