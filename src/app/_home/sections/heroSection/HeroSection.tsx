@@ -19,8 +19,8 @@ export function HeroSection() {
     >
       <Image
         id={styles.logo}
-        src="/logo-date-lieu-2025.svg"
-        alt="DevQuest"
+        src="/logo/DQ2026-AvecDate-Couleur.svg"
+        alt="DevQuest 2026"
         priority
         width={350}
         height={320}
