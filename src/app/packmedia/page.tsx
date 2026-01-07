@@ -1,3 +1,7 @@
 import { PackMedia } from "./PackMedia";
 
-export default PackMedia;
+export const dynamic = "force-static";
+
+export default function Page() {
+  return <PackMedia />;
+}
