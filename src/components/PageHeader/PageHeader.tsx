@@ -5,6 +5,7 @@ import config from "../../data/config.json";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import classNames from "classnames";
+import { LinkButton } from "@/components/LinkButton";
 
 type MenuProps = {
   pathname: string;
@@ -116,11 +117,11 @@ const VersionLarge = ({ pathname }: MenuProps) => {
         </Link>*/}
 
         <div className={styles.mainBtnContainer}>
-          {/*{config.shop && (
+          {config.shop && (
             <LinkButton theme="Primary" href={config.shop} target="_blank">
               Réserver mes places
             </LinkButton>
-          )}*/}
+          )}
         </div>
       </div>
     </nav>

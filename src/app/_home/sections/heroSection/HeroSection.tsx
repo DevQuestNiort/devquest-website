@@ -44,7 +44,7 @@ export function HeroSection() {
         >
           Devquest Compagnon
         </LinkButton>
-
+*/}
         <LinkButton
           theme="Secondary"
           style={{ marginTop: "0.5rem" }}
@@ -52,7 +52,7 @@ export function HeroSection() {
           target="_blank"
         >
           Acheter un billet
-        </LinkButton>*/}
+        </LinkButton>
       </Card>
     </Section>
   );
