@@ -1,0 +1,241 @@
+.conseilDesMagesContainer {
+  .heroSection {
+    position: relative;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 3rem 0;
+
+    @media (max-width: 768px) {
+      min-height: 300px;
+      padding: 2rem 0;
+    }
+  }
+
+
+  p, ul {
+    font-size: 20px;
+    font-family: var(--font-source-sans-pro), sans-serif;
+    max-width: 1200px;
+  }
+ h1 {
+   padding-bottom: 1.5rem;
+ }
+  ul {
+    list-style: disc;
+    padding-left: 2rem;
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  table {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-family: var(--font-source-sans-pro), sans-serif;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+
+    thead {
+      background: var(--primary-color);
+      color: white;
+
+      tr th {
+        padding: 1rem;
+        text-align: left;
+        font-weight: bold;
+        font-size: 1.1em;
+
+        @media (max-width: 768px) {
+          padding: 0.75rem 0.5rem;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        transition: background-color 0.2s ease;
+
+        &:hover {
+          background-color: rgba(var(--primary-color-rgb, 0, 0, 0), 0.05);
+        }
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        td {
+          padding: 1rem;
+          vertical-align: top;
+
+          @media (max-width: 768px) {
+            padding: 0.75rem 0.5rem;
+          }
+
+          &:first-child {
+            font-size: 1.2em;
+            text-align: center;
+            width: 60px;
+
+            @media (max-width: 768px) {
+              width: 40px;
+            }
+          }
+
+          &:nth-child(2) {
+            font-weight: 600;
+            color: var(--primary-color);
+          }
+
+          &:nth-child(3) {
+            color: #666;
+            font-style: italic;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 600px) {
+      thead {
+        display: none;
+      }
+
+      tbody tr {
+        display: block;
+        margin-bottom: 1.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 0.5rem;
+
+        td {
+          display: block;
+          text-align: left;
+          padding: 0.5rem;
+          border-bottom: none;
+
+          &:first-child {
+            font-size: 1.5em;
+            text-align: left;
+            width: 100%;
+            border-bottom: 2px solid var(--primary-color);
+            margin-bottom: 0.5rem;
+          }
+
+          &:nth-child(2) {
+            font-size: 1.1em;
+            margin-bottom: 0.25rem;
+          }
+
+          &:nth-child(3) {
+            font-size: 0.95em;
+          }
+
+          &::before {
+            content: attr(data-label);
+            font-weight: bold;
+            display: inline-block;
+            margin-right: 0.5rem;
+          }
+
+          &:first-child::before {
+            content: "";
+          }
+        }
+      }
+    }
+  }
+
+  .magesGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 0;
+    max-width: 1400px;
+    @media (max-width: 1400px) {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+
+  .mageCard {
+    background: var(--sable);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+
+    &:hover {
+      transform: translateY(-5px);
+      border-color: var(--primary-color);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 768px) {
+      padding: 1.5rem;
+    }
+  }
+
+  .mageAvatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .mageName {
+    font-family: var(--font-teko), sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-weight: bold;
+  }
+
+  .mageCitation {
+    font-family: var(--font-source-sans-pro), sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    font-style: italic;
+    color: black;
+    margin: 0;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    white-space: pre-wrap;
+    word-break: break-word;
+
+    @media (max-width: 768px) {
+      font-size: 0.9rem;
+      padding: 0.75rem;
+    }
+  }
+}
