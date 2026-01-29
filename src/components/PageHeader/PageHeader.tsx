@@ -103,7 +103,14 @@ const VersionLarge = ({ pathname }: MenuProps) => {
         >
           Kit partenaires
         </Link>
-
+        <span className={styles.separator}>|</span>
+        <Link
+            href="/conseil-des-mages"
+            className={styles.otherHeaderBrand}
+            style={{ fontWeight: isActive("/conseil-des-mages") ? "bold" : "normal" }}
+        >
+          Conseil des Mages
+        </Link>
         {/*
         <span className={styles.separator}>|</span>
 */}
