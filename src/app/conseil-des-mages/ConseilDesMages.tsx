@@ -3,13 +3,12 @@ import {Section} from "@/components/Section";
 import {promises as fs} from "fs";
 import Image from "next/image";
 import {Card} from "@/components/Card";
-import {LinkButton} from "@/components/LinkButton";
-import config from "@/data/config.json";
 
 import backgroundImage from "/public/avatar/conseilDeMage.png";
 
 interface Mage {
     id: string;
+    nomDeMage:string;
     nom: string;
     avatar: string;
     citation: string;
@@ -56,38 +55,30 @@ export async function ConseilDesMages() {
                     <tbody>
                     <tr>
                         <td>1️⃣</td>
-                        <td>Pas de vote pour son propre talk</td>
-                        <td>Évite les conflits d’intérêts.</td>
+                        <td>Les mages ne peuvent émettre un avis sur leur propre parchemin, ou sur des parchemins de proches et ce, bien que les parchemins soient anonymes
+                            <br/></td>
+                        <td>Évite les conflits d&apos;intérêts.</td>
                     </tr>
                     <tr>
                         <td>2️⃣</td>
-                        <td>Auteur d’un talk déjà publié ≠ membre du conseil</td>
-                        <td>Assure la neutralité.</td>
-                    </tr>
-                    <tr>
-                        <td>3️⃣</td>
-                        <td>Confidentialité des abstracts non publiés</td>
+                        <td>Les mages s&apos;engagent à garder leur lecture secrète, ainsi que les avis du conseil jusqu&apos;à la publication officielle du programme dans les grimoires</td>
                         <td>Protège le contenu avant décision officielle.</td>
                     </tr>
                     <tr>
+                        <td>3️⃣</td>
+                        <td>Les mages s&apos;engagent à évaluer de façon personnelle et avec leur propre sensibilité, les parchemins soumis par les aventuriers</td>
+                        <td>Sincérité et diversité</td>
+                    </tr>
+                    <tr>
                         <td>4️⃣</td>
-                        <td>Évaluation selon critères objectifs</td>
-                        <td>Uniformise le jugement.</td>
+                        <td>Les mages s&apos;engagent à déclarer tout conflit d&apos;intérêt, comme leur propre soumission de talk.</td>
+                        <td>Transparence totale.</td>
+
                     </tr>
                     <tr>
                         <td>5️⃣</td>
-                        <td>Déclaration de tout conflit d’intérêt</td>
-                        <td>Transparence totale.</td>
-                    </tr>
-                    <tr>
-                        <td>6️⃣</td>
-                        <td>Notation partagée (1‑5 ★)</td>
+                        <td>Les mages s&apos;engagent à utiliser une notation partagée (1&ndash;5 ★)</td>
                         <td>Facilite la comparaison.</td>
-                    </tr>
-                    <tr>
-                        <td>7️⃣</td>
-                        <td>Respect mutuel & communication constructive</td>
-                        <td>Climat de travail agréable.</td>
                     </tr>
                     </tbody>
                 </table>
@@ -98,7 +89,7 @@ export async function ConseilDesMages() {
                 <p>
                     Nous avons recruté un panel de sages pour mener cette mission.
                     Découvrez les sages qui composent notre Conseil des Mages à travers leurs citations
-                    légendaires. Pour leur sécurité ( et parceque nous n&apos;avons pas leurs consentements), ils resteront anonymes.
+                    légendaires.
                 </p>
                 <div className={styles.magesGrid}>
                     {mages.map((mage) => (
@@ -112,6 +103,7 @@ export async function ConseilDesMages() {
                                 />
                             </div>
                             <h3 className={styles.mageName}>{mage.nom}</h3>
+                            <h3 className={styles.mageName}>{mage.nomDeMage}</h3>
                             <blockquote className={styles.mageCitation}>
                                 {mage.citation}
                             </blockquote>
