@@ -1,50 +1,72 @@
 [
   {
     "id": "mage-1",
-    "nom": "Mage des Chaussettes Enchantées",
-    "avatar": "/avatar/img_3.png",
+    "nomDeMage": "Mage des Chaussettes Enchantées",
+    "nom": "test",
+    "avatar": "/avatar/img_1.png",
     "citation": "<nain> Chaussette !!\n<nain> ...\n<nain> mais j'ai dit Chaussette !!!!\n\nsinon plus sérieusement, je vous souhaite encore une belle réussite. comme on dit, jamais 2 sans 3. et comme les précédentes étaient sublimes, cela ne peut que s'améliorer.\nbises"
   },
   {
     "id": "mage-2",
-    "nom": "Mage du Courage",
-    "avatar": "/avatar/img_7.png",
+    "nomDeMage": "Mage du Courage",
+    "nom": "",
+    "avatar": "/avatar/img_2.png",
     "citation": "Courage pour l'organisation 😁"
   },
   {
     "id": "mage-3",
-    "nom": "Mage des Dents de Requin",
-    "avatar": "/avatar/img_11.png",
+    "nomDeMage": "Mage des Dents de Requin",
+    "nom": "",
+    "avatar": "/avatar/img_3.png",
     "citation": "Une seconde ! Manipuler une dent de requin ou une dent de furet, c'est pas tout à fait la même chose !"
   },
   {
     "id": "mage-4",
-    "nom": "Mage du Localhost",
-    "avatar": "/avatar/img_5.png",
+    "nomDeMage": "Mage du Localhost",
+    "nom": "",
+    "avatar": "/avatar/img_4.png",
     "citation": "There's No Place Like 127.0.0.1"
   },
   {
     "id": "mage-5",
-    "nom": "Mage de la Résilience",
-    "avatar": "/avatar/img_9.png",
+    "nomDeMage": "Mage de la Résilience",
+    "nom": "",
+    "avatar": "/avatar/img_5.png",
     "citation": "Je supporte Vincent dans mon équipe depuis plus d'un an.. ça en dit beaucoup sur ma résilience et ma capacité d'adaptation <3 !"
   },
   {
     "id": "mage-6",
-    "nom": "Mage de Poudlard",
-    "avatar": "/avatar/img_2.png",
+    "nomDeMage": "Mage de Poudlard",
+    "nom": "",
+    "avatar": "/avatar/img_6.png",
     "citation": "**Concentration intence en levant sa baguette** Riddiculus !!!"
   },
   {
     "id": "mage-7",
-    "nom": "Mage Van Damme",
-    "avatar": "/avatar/img_12.png",
+    "nomDeMage": "Mage Van Damme",
+    "nom": "",
+    "avatar": "/avatar/img_7.png",
     "citation": "Félicitation pour la concrétisation de cette idée, un peu folle, d'organiser un évènement comme le DevQuest dans le bassin Niortais.\nEt je ne connais pas de citation de mage, alors je vous laisse avec une citation de Jean-Claude Van Damme, on a les références qu'on a ^^ : \"Je crois au moment. S'il n'y a pas le moment, à ce moment-là, il faut arriver à ce moment-là, au moment qu'on veut\""
   },
   {
     "id": "mage-8",
-    "nom": "Mage de la Moria",
-    "avatar": "/avatar/img_1.png",
+    "nomDeMage": "Mage de la Moria",
+    "nom": "",
+    "avatar": "/avatar/img_8.png",
     "citation": "Baruk khazâd !"
+  },
+  {
+    "id": "mage-9",
+    "nomDeMage": "Mage de Perciflette",
+    "nom": "",
+    "avatar": "/avatar/img_9.png",
+    "citation": "De toute façon, ce qui compte, c'est les valeurs \uD83E\uDD37\u200D♀\uFE0F"
+  },
+  {
+    "id": "mage-10",
+    "nomDeMage": "Mage du silence",
+    "nom": "",
+    "avatar": "/avatar/img_10.png",
+    "citation": "Chuuuuuut !"
   }
 ]
