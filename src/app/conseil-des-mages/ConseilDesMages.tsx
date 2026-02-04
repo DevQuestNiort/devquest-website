@@ -31,10 +31,7 @@ export async function ConseilDesMages() {
             <Section theme="Dark">
                 <h2>📜 Leurs missions</h2>
                 <p>
-                    Les Mages du DevQuest ont pour mission de parcourir l&apos;ensemble des parchemins envoyés par les
-                    aventuriers afin de donner leur avis éclairé sur les propositions de conférences et de guider les
-                    membres de la guilde DevQuest à
-                    effectuer les bons choix.
+                    Les Mages du DevQuest ont pour mission de parcourir l&apos;ensemble des parchemins envoyés par les aventuriers afin de donner leur avis éclairé sur les propositions de conférences pour guider les membres de la guilde DevQuest dans leurs choix.
                 </p>
                 <ul>
                     <li>📖 Lire avec attention les parchemins</li>
