@@ -3,6 +3,7 @@ import { Card } from "@/components/Card";
 
 import styles from "./TremplinSection.module.scss";
 import { LinkButton } from "@/components/LinkButton";
+import config from "../../../../data/config.json";
 
 export function TremplinSection() {
   return (
@@ -38,9 +39,9 @@ export function TremplinSection() {
           <LinkButton theme="Secondary" href="https://www.devquest.fr/tremplin">
             En savoir plus
           </LinkButton>
-          {/* <LinkButton theme="Primary" href={config.cfpTremplin} target="_blank">
+          <LinkButton theme="Primary" href={config.cfpTremplin} target="_blank">
             Inscrivez-vous
-          </LinkButton>*/}
+          </LinkButton>
         </div>
       </Card>
     </Section>

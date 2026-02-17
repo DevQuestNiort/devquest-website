@@ -27,7 +27,7 @@ export function HeroSection() {
       />
       <Card theme="Light" className={styles.heroCard}>
         <h1>Le premier rassemblement des devs Niortais</h1>
-        <p>Tu veux participer en tant que speaker?</p>
+        <p>Tu veux participer en tant que speaker? </p>
         <LinkButton
           theme="Primary"
           style={{ marginTop: "0.5rem" }}
@@ -36,6 +36,7 @@ export function HeroSection() {
         >
           Soumets ton talk
         </LinkButton>
+
         {/*<LinkButton
           theme="Secondary"
           style={{ marginTop: "0.5rem" }}

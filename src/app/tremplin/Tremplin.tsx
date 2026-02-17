@@ -2,6 +2,8 @@ import styles from "./tremplin.module.scss";
 import { Section } from "@/components/Section";
 import Image from "next/image";
 
+import config from "../../data/config.json";
+import {LinkButton} from "@/components/LinkButton";
 export async function Tremplin() {
   return (
     <div className={styles.tremplinContainer}>
@@ -22,11 +24,15 @@ export async function Tremplin() {
           comme une lame elfique, vous monterez sur scène lors de la soirée
           Tremplin et présenterez votre talk devant une assemblée bienveillante.
         </p>
+        <LinkButton theme="Primary" href={config.cfpTremplin} target="_blank">
+          Inscrivez-vous
+        </LinkButton>
         <p>
           🏆 À la clé ? Les deux meilleurs orateurs seront invités à reprendre
           leur conférence lors de l’événement principal, devant toute la guilde
           des développeurs réunis !
         </p>
+
         <h2>Temporalité</h2>
         <ul>
           <li>10 février : ouverture du CFP</li>
@@ -142,13 +148,7 @@ export async function Tremplin() {
             alt=""
           />
         </div>
-        <p>
-          Les inscriptions ouvrent le 10 février ! Marquez le dans vos grimoires
-          !
-        </p>
-        {/*<LinkButton theme="Primary" href={config.cfpTremplin} target="_blank">
-          Inscrivez-vous
-        </LinkButton>*/}
+
       </Section>
     </div>
   );
