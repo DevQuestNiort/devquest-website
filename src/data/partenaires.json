@@ -1,12 +1,5 @@
 [
   {
-    "asset": "devoteam-logo.png",
-    "name": "Devoteam",
-    "site": "https://www.devoteam.com/fr/",
-    "level": "EPIQUE",
-    "actif": true
-    },
-  {
     "asset": "altapyx.webp",
     "name": "Altapyx",
     "site": "https://altapyx.com/",
@@ -14,8 +7,8 @@
     "actif": true
   },
   {
+    "name": "Clever Cloud SAS",
     "asset": "clever-cloud.png",
-    "name": "Clever Cloud",
     "site": "https://www.clever-cloud.com/fr/",
     "level": "EPIQUE",
     "actif": true
@@ -24,42 +17,42 @@
     "asset": "darva.webp",
     "name": "Darva",
     "site": "https://www.darva.com/fr/",
-    "level": "RARE",
+    "level": "COMMUN",
     "actif": true
   },
   {
     "asset": "catamania.png",
     "name": "Catamania",
     "site": "https://www.catamania.com/",
-    "level": "RARE",
-    "actif": true
-  },
-  {
-    "asset": "apside.png",
-    "name": "Apside",
-    "site": "https://www.apside.com/fr/",
-    "level": "RARE",
+    "level": "EPIQUE",
     "actif": true
   },
   {
     "asset": "wekey.webp",
     "name": "Wekey",
     "site": "https://wekey.fr/",
-    "level": "EPIQUE",
+    "level": "RARE",
     "actif": true
   },
   {
     "name": "Zenika",
     "asset": "zenika.webp",
     "site": "https://zenika.com/",
-    "level": "EPIQUE",
+    "level": "RARE",
+    "actif": true
+  },
+  {
+    "name": "SFEIR",
+    "asset": "SFEIR.webp",
+    "site": "https://sfeir.com",
+    "level": "RARE",
     "actif": true
   },
   {
     "name": "NeoSoft",
     "asset": "neosoft.webp",
     "site": "https://www.neosoft.fr/",
-    "level": "RARE",
+    "level": "EPIQUE",
     "actif": true
   },
   {
@@ -70,7 +63,7 @@
     "actif": true
   },
   {
-    "name": "AllTech",
+    "name": "Alltech Consulting",
     "asset": "alltech.webp",
     "site": "https://www.alltechconsulting.fr/",
     "level": "EPIQUE",
@@ -80,13 +73,7 @@
     "name": "IMA",
     "asset": "ima.webp",
     "site": "https://ima.eu/fr/index.php",
-    "level": "RARE",
-    "actif": true
-  },{
-    "name": "Elastic",
-    "asset": "elastic.png",
-    "site": "http://elastic.co/fr",
-    "level": "RARE",
+    "level": "EPIQUE",
     "actif": true
   },
   {
@@ -97,37 +84,46 @@
     "actif": true
   },
   {
-    "name": "Acensi",
-    "asset": "acensi.webp",
-    "site": "https://acensi.fr/page/accueil/fr_fr",
-    "level": "COMMUN",
-    "actif": true
-  },
-  {
     "name": "SII",
     "asset": "sii.webp",
     "site": "https://sii-group.com/fr-FR",
     "level": "RARE",
     "actif": true
-  },{
+  },
+  {
+    "name": "Socram Banque",
+    "asset": "socram.webp",
+    "site": "https://www.socram-banque.fr/",
+    "level": "COMMUN",
+    "actif": true
+  },
+  {
     "name": "Lunatech",
     "asset": "lunatech.jpeg",
     "site": "https://lunatech.fr",
     "level": "EPIQUE",
-    "actif": true
-  },{
+    "actif": false
+  },
+  {
+    "name": "Acensi",
+    "asset": "acensi.webp",
+    "site": "https://acensi.fr/page/accueil/fr_fr",
+    "level": "COMMUN",
+    "actif": false
+  },
+  {
     "name": "Gedivote",
     "asset": "gedivote.jpeg",
     "site": "https://gedivote.fr",
     "level": "EPIQUE",
-    "actif": true
+    "actif": false
   },
   {
     "name": "Digital Associates",
     "asset": "digitalassociates.png",
     "site": "https://www.digital-associates.fr/",
     "level": "RARE",
-    "actif": true
+    "actif": false
   },
   {
     "name": "Chollet Traiteur",
@@ -140,15 +136,8 @@
     "name": "SPI Informatique",
     "asset": "spi-informatique.jpg",
     "site": "https://www.spi-informatique.fr",
-    "level": "COMMUN", 
-    "actif": true
-  },
-  {
-    "name": "Socram Banque",
-    "asset": "socram.webp",
-    "site": "https://www.socram-banque.fr/",
     "level": "COMMUN",
-    "actif": true
+    "actif": false
   },
   {
     "name": "Niort Agglo",
@@ -176,6 +165,13 @@
     "asset": "shield.png",
     "site": "https://www.linkedin.com/in/briardalexis/",
     "level": "AUTRE",
-    "actif": true
+    "actif": false
+  },
+  {
+    "name": "Elastic",
+    "asset": "elastic.png",
+    "site": "http://elastic.co/fr",
+    "level": "RARE",
+    "actif": false
   }
 ]

@@ -11,6 +11,7 @@ import { MapSection } from "./sections/MapSection/MapSection";
 import { DungeonMastersSection } from "./sections/dungeonMastersSection/DungeonMastersSection";
 import { LastYearSection } from "./sections/lastYearSection/LastYearSection";
 import { TremplinSection } from "@/app/_home/sections/TremplinSection/TremplinSection";
+import {PartnersSection} from "@/app/_home/sections/partnersSection/PartnersSection";
 
 interface HomeViewProperties {
   readonly themes: Theme[];
@@ -33,11 +34,10 @@ export default function HomeView({
       <EventSpecSection />
       <EventThemesSection themes={themes} />
       <MapSection />
-      <DungeonMastersSection membres={membres} />
-      <LastYearSection />
-      {/*
       <PartnersSection partenaires={partenaires} />
-*/}
+      <LastYearSection />
+      <DungeonMastersSection membres={membres} />
+
     </div>
   );
 }
