@@ -1,15 +1,11 @@
-import { promises as fs } from "fs";
 import { Section } from "@/components/Section";
 import { Galery } from "@/components/Galery";
 import { Avatar } from "@/components/Avatar";
-import { Speaker } from "@/model/Speaker";
 import styles from "./page.module.scss";
 import Link from "next/link";
+import { getAllAdaptedSpeakers } from "@/data/scheduleAdapter";
 
-const getSpeakers = async () => JSON.parse(await fs.readFile(
-  process.cwd() + "/src/data/speakers.json",
-  "utf8",
-)) as Speaker[];
+const getSpeakers = async () => getAllAdaptedSpeakers();
 
 const Speakers = async () => {
   const speakers = (await getSpeakers());
