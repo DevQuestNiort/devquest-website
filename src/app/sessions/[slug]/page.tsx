@@ -1,18 +1,15 @@
-import { promises as fs } from "fs";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
-import * as model from "@/model/Session";
 import { Tags as TagsModel } from "@/model/Session";
 import styles from "./page.module.scss";
-import { Slot, SlotTypeLabel } from "@/model/Slot";
+import { SlotTypeLabel } from "@/model/Slot";
 import { Chip, tagLabels } from "@/components/Chip";
 import { FullSession } from "@/model/FullSession";
 import { Avatar } from "@/components/Avatar";
 import Image from "next/image";
-import React from "react";
 import { rooms } from "@/components/Schedule/common";
 import classNames from "classnames";
-import { Speaker } from "@/model/Speaker";
+import { getAllAdaptedSessions } from "@/data/scheduleAdapter";
 import Link from "next/link";
 
 type SessionProps = {
@@ -22,20 +19,7 @@ type SessionProps = {
   };
 };
 
-const getSessions = async () =>
-  JSON.parse(
-    await fs.readFile(process.cwd() + "/src/data/sessions.json", "utf8"),
-  ) as model.Session[];
-
-const getSlots = async () =>
-  JSON.parse(
-    await fs.readFile(process.cwd() + "/src/data/slots.json", "utf8"),
-  ) as Slot[];
-
-const getSpeakers = async () =>
-  JSON.parse(
-    await fs.readFile(process.cwd() + "/src/data/speakers.json", "utf8"),
-  ) as Speaker[];
+const getSessions = async () => getAllAdaptedSessions();
 
 export async function generateStaticParams() {
   const sessions = await getSessions();
@@ -46,23 +30,12 @@ export async function generateStaticParams() {
   }));
 }
 
-const Session = async ({ params: { slug, title } }: SessionProps) => {
-  const session = (await getSessions()).find(
-    (session) => slug === session.slug,
-  );
-  const slots = await getSlots();
-  if (!session) {
+const Session = async ({ params: { slug } }: SessionProps) => {
+  const session = (await getSessions()).find((candidate) => slug === candidate.slug);
+  if (!session?.slot) {
     throw new Error("Session introuvable");
   }
-
-  const speakers = await getSpeakers();
-  const myFullSession = {
-    ...session,
-    slot: slots.find((s) => s.key === session.slot),
-    speakers: session.speakersId.map((speakerId) =>
-      speakers.find((s) => s.id === speakerId),
-    ),
-  } as FullSession;
+  const myFullSession = session as FullSession;
 
   const DISPLAY_OPENFEEDBACK = true;
 
@@ -79,9 +52,9 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
             <div className={styles.tags}>
               {session?.tags?.map((tag: TagsModel) => (
                 <Chip
-                  icon={tagLabels[tag].icon}
+                  icon={(tagLabels[tag] ?? tagLabels.discovery).icon}
                   key={tag}
-                  label={tagLabels[tag].label}
+                  label={(tagLabels[tag] ?? tagLabels.discovery).label}
                   classes={styles.chip}
                 />
               ))}
@@ -129,14 +102,14 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
           ))}
         </div>
       </div>
-      <p className={styles.abstract}>
+      <div className={styles.abstract}>
         <span
           className={classNames(["material-symbols-outlined", styles.quotes])}
         >
           format_quote
         </span>
         <ReactMarkdown rehypePlugins={[rehypeRaw]}>
-          {session?.abstract}
+          {myFullSession.abstract}
         </ReactMarkdown>
         <span
           className={classNames([
@@ -147,7 +120,7 @@ const Session = async ({ params: { slug, title } }: SessionProps) => {
         >
           format_quote
         </span>
-      </p>
+      </div>
       {DISPLAY_OPENFEEDBACK && (
         <iframe
           src={`https://openfeedback.io/OJqVszngc4TGDPAR6VYK/undefined/${session.id}?hideHeader=true&forceColorScheme=dark`}
