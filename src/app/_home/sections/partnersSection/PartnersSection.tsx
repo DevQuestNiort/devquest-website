@@ -11,9 +11,9 @@ interface PartnersSectionProperties {
 }
 export function PartnersSection({ partenaires }: PartnersSectionProperties) {
   return (
-    <Section theme={"Dark"}>
+    <Section theme={"Light"}>
       <h2>La tribu complète</h2>
-      <Card theme="Secondary">
+      <Card theme="Primary">
         <p>
           Car l&apos;aventure c&apos;est bien, mais avec des compagnons de
           route, c&apos;est mieux!

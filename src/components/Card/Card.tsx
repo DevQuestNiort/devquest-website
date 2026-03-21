@@ -2,7 +2,7 @@ import styles from "./Card.module.scss";
 
 interface CardProperties extends React.ComponentPropsWithoutRef<"div"> {
   readonly children: React.ReactNode;
-  readonly theme?: "Light" | "Dark" | "Secondary";
+  readonly theme?: "Light" | "Dark" | "Secondary"| "Primary";
 }
 
 export default function Card({
