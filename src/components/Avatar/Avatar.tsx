@@ -1,8 +1,11 @@
+"use client";
+
 import style from "./Avatar.module.scss";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 interface AvartarProperties {
-  readonly img: string;
+  readonly img?: string;
   readonly name: string;
   readonly role?: string;
   readonly company? :string;
@@ -16,6 +19,8 @@ interface AvartarProperties {
   withSocials?: boolean,
 }
 
+const DEFAULT_AVATAR = "/icons-rp/role-playing.png";
+
 export default function Avatar({
   img,
   name,
@@ -27,14 +32,26 @@ export default function Avatar({
   classes,
   withSocials = true,
 }: AvartarProperties) {
+  const safeImg = img?.trim() ? img : DEFAULT_AVATAR;
+  const [resolvedSrc, setResolvedSrc] = useState(safeImg);
+
+  useEffect(() => {
+    setResolvedSrc(safeImg);
+  }, [safeImg]);
+
   return (
     <div className={classes?.main ?? ''}>
       <Image
         className={style.avatar}
         height="128"
         width="128"
-        src={img}
+        src={resolvedSrc}
         alt=""
+        onError={() => {
+          if (resolvedSrc !== DEFAULT_AVATAR) {
+            setResolvedSrc(DEFAULT_AVATAR);
+          }
+        }}
       />
       <p className={style.name}>
         {name}
