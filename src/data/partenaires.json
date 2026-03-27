@@ -119,6 +119,13 @@
     "actif": false
   },
   {
+    "name": "SPI Informatique",
+    "asset": "spi-informatique.jpg",
+    "site": "https://www.spi-informatique.fr",
+    "level": "COMMUN",
+    "actif": true
+  },
+  {
     "name": "Digital Associates",
     "asset": "digitalassociates.png",
     "site": "https://www.digital-associates.fr/",
@@ -133,11 +140,11 @@
     "actif": true
   },
   {
-    "name": "SPI Informatique",
-    "asset": "spi-informatique.jpg",
-    "site": "https://www.spi-informatique.fr",
-    "level": "COMMUN",
-    "actif": false
+    "name": "EI Alexis Briard",
+    "asset": "shield.png",
+    "site": "https://www.linkedin.com/in/briardalexis/",
+    "level": "AUTRE",
+    "actif": true
   },
   {
     "name": "Niort Agglo",
@@ -159,13 +166,6 @@
     "site": "https://www.instagram.com/retrogameboys86/",
     "level": "AUTRE",
     "actif": true
-  },
-  {
-    "name": "EI Alexis Briard",
-    "asset": "shield.png",
-    "site": "https://www.linkedin.com/in/briardalexis/",
-    "level": "AUTRE",
-    "actif": false
   },
   {
     "name": "Elastic",
