@@ -141,7 +141,7 @@ const detectSlotType = (session: RawScheduleSession): Slot["type"] => {
 };
 
 const getRoomDisplayOrder = (trackName: string) => {
-  const order = ["Grande Salle", "Petite Salle", "Workshop 01", "Workshop 02"];
+  const order = ["Forge" , "Laboratoire" , "Observatoire" , "Beffroi" ];
   const index = order.indexOf(trackName);
   return index === -1 ? 999 : index;
 };
