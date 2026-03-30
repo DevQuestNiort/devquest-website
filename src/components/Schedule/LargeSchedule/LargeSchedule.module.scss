@@ -1,7 +1,7 @@
 .scheduleLarge {
   grid-gap: 10px;
   display: grid;
-  grid-auto-rows: minmax(75px, auto);
+  grid-auto-rows: minmax(44px, auto);
   grid-template-columns: 0.5fr repeat(4, 1fr);
   width: 100%;
   z-index: 1;

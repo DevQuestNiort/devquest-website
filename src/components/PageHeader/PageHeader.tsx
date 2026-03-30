@@ -55,7 +55,7 @@ const VersionLarge = ({ pathname }: MenuProps) => {
 
         <span className={styles.separator}>|</span>
 
-        {/*        <Link
+        <Link
           href="/schedule/day-1"
           className={styles.otherHeaderBrand}
           style={{
@@ -68,7 +68,7 @@ const VersionLarge = ({ pathname }: MenuProps) => {
           Programme
         </Link>
 
-        <span className={styles.separator}>|</span>*/}
+        <span className={styles.separator}>|</span>
 
         {/*<Link
           href="/speakers"
@@ -165,20 +165,20 @@ const VersionMobile = ({ pathname }: MenuProps) => {
           Tremplin
         </Link>
 
-        {/*   <span className={styles.separator}>|</span>
+        <span className={styles.separator}>|</span>
 
         <Link
           href="/schedule/day-1"
           className={styles.otherHeaderBrand}
           style={{
             fontWeight:
-              isActive("/schedule") || pathname.includes("/sessions")
+              pathname.includes("/schedule") || pathname.includes("/sessions")
                 ? "bold"
                 : "normal",
           }}
         >
           Programme
-        </Link>*/}
+        </Link>
       </div>
     </nav>
   );

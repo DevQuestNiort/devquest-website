@@ -1,16 +1,16 @@
 import { Tags as TagsModel } from "@/model/Session";
-import Image from "next/image";
 import classNames from "classnames";
 import styles from "./common.module.scss";
 import { Chip, tagLabels } from "../Chip";
 import { Salle } from "@/model/Salle";
 import { Speaker } from "@/model/Speaker";
+import { SpeakerAvatarImage } from "./SpeakerAvatarImage";
 
 export const rooms: Salle[] = [
-  { name: "La Forge", image: "forge.png" },
-  { name: "Le planétarium", image: "astrarium.png" },
-  { name: "Le Laboratoire", image: "laboratoire.png" },
-  { name: "La porte Alchimique", image: "quest.png" },
+  { name: "Forge", image: "forge.png" },
+  { name: "Observatoire", image: "astrarium.png" },
+  { name: "Laboratoire", image: "laboratoire.png" },
+  { name: "Beffroi", image: "tower.png" },
 ];
 
 export const Tags = ({ tags }: { tags: TagsModel[] }) => {
@@ -30,7 +30,7 @@ export const Tags = ({ tags }: { tags: TagsModel[] }) => {
 
 const Avatar = ({ src, name }: { src: string; name: string }) => (
   <div className={classNames(styles.avatar, styles.avatarRound)}>
-    <Image src={src} alt={name} width={48} height={48} />
+    <SpeakerAvatarImage src={src} name={name} />
   </div>
 );
 
