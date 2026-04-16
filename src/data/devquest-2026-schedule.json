@@ -451,8 +451,32 @@
       "end": "2026-06-12T14:20:00.000Z",
       "track": "Forge",
       "title": "Object Calisthenics : simplifier le code pour retrouver le métier",
-      "language": null,
-      "proposal": null
+      "language": "fr",
+      "proposal": {
+      "id": "proposalManuelle",
+      "proposalNumber": 115,
+      "abstract": "Complexité qui s’accumule, évolutions douloureuses, métier qui se dilue : comment reprendre la main sur le code ? \n\nEt si un cadre simple devenait un levier de design ? \n\nLes Object Calisthenics, c’est une invitation à transformer la conception orientée objet en terrain de jeu : neuf règles, pas une de plus !\n En appliquant ces règles complémentaires sur des extraits de code avant/après refactoring, nous découvrirons comment :\n - apprivoiser la complexité\n - clarifier les responsabilités\n - faire émerger le métier \n\n Un quickie orienté pratique pour repartir avec des réflexes de conception applicables dès le lendemain et une grille de lecture concrète pour faire du code un support fidèle au métier.",
+      "level": "BEGINNER",
+      "formats": [
+        "Quickie"
+      ],
+      "categories": [
+        "Méthodo & Architecture"
+      ],
+      "speakers": [
+        {
+          "id": "cmll5eadh02lj01k2j31ikin6",
+          "name": "Jacqueline Rwanyindo",
+          "bio": "Senior Software Engineer, je cultive les valeurs et pratiques de l’eXtreme Programming avec pragmatisme. Organisant régulièrement des meetups, je contribue activement aux communautés tech lilloises.",
+          "picture": "https://lh3.googleusercontent.com/a/ACg8ocKE-ZiRQx8oPy-N7Q1Q4F213kWcyEAi2SpvqUNVY1QsRnvhL5w=s96-c",
+          "socialLinks": [
+            "https://www.linkedin.com/in/jacqueline-rwanyindo",
+            "https://github.com/Ja-R",
+            "https://bsky.app/profile/jacqueline-rwa.bsky.social"
+          ]
+        }
+      ]
+    }
     },
     {
       "id": "cmmci1my0026l01ns4wpdckr2",
