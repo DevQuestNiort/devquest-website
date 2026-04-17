@@ -1,0 +1,33 @@
+[
+  {
+    "id": "maitre-1",
+    "nom": "Sébastien Prunier",
+    "avatar": "/teams/prunier.png",
+    "citation": "Trois ans de DevQuest, trois ans qu'il nous accompagne dans cette mission..."
+  },
+  {
+    "id": "maitre-2",
+    "nom": "Florian Gagnard",
+    "avatar": "/teams/gagnard.png",
+    "citation": "Il était là l'année dernière. Il rempile pour accompagner les speaker·euses. Enjoy !"
+  },
+  {
+    "id": "maitre-3",
+    "nom": "Jean-Baptiste Joffre",
+    "avatar": "/teams/joffre.png",
+    "citation": "Participant la première année, bénévole la deuxième, et maintenant Maître de Conf. Il est partout..."
+  },
+  {
+    "id": "maitre-4",
+    "nom": "Jean-Philippe Raud",
+    "avatar": "/teams/img_4.png",
+    "citation": "Et de deux pour Jean-Philippe, il va bien choyer nos conférenciers·ères."
+  },
+  {
+    "id": "maitre-5",
+    "nom": "Anthony Maudry",
+    "avatar": "/teams/maudry.png",
+    "citation": "La route est longue, car il vient de loin, mais il revient pour la deuxième fois accompagner les speaker·euses. Merci Anthony !"
+  }
+]
+ 

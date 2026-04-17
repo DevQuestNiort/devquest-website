@@ -10,6 +10,8 @@ export const Footer = () => (
         {" - "}
         <Link href={"/conseil-des-mages"}>Conseil des Mages</Link>
         {" - "}
+        <Link href={"/maitres-de-conf"}>Maîtres de Conf</Link>
+        {" - "}
         <Link href={"/code-de-conduite"}>Code de conduite</Link>
         {" - "}
         <Link href={"/faq"}>FAQ</Link>

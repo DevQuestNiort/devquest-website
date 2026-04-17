@@ -111,9 +111,14 @@ const VersionLarge = ({ pathname }: MenuProps) => {
         >
           Conseil des Mages
         </Link>
-        {/*
         <span className={styles.separator}>|</span>
-*/}
+        <Link
+            href="/maitres-de-conf"
+            className={styles.otherHeaderBrand}
+            style={{ fontWeight: isActive("/maitres-de-conf") ? "bold" : "normal" }}
+        >
+          Maîtres de Conf
+        </Link>
 
         {/*    <Link
           target="_blank"
