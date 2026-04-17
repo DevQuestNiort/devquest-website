@@ -1,99 +1,253 @@
+// ─── Base ─────────────────────────────────────────────────────────────────────
+.header {
+  background-color: var(--primary-color);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
-.menuLarge{
+.inner {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0 1.5rem;
+  height: 64px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 1rem;
+}
+
+// ─── Desktop nav ──────────────────────────────────────────────────────────────
+.navDesktop {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+  flex: 1;
+
   @media (max-width: 959px) {
-    display: none !important;
-  }
-  &.header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid white;
-
-    padding: 0.5rem 0;
-    background-color: var(--primary-color);
-
-    .containerFluid {
-      display: flex;
-      flex-wrap: inherit;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 1.5rem;
-
-      flex: 1;
-      gap:1rem;
-    }
-
-    .headerBrand, .otherHeaderBrand{
-      display: flex;
-      align-items: center;
-      text-decoration: none;
-      font-size:2rem;
-
-      color: white;
-      font-family: var(--font-teko), sans-serif;
-    }
-    .headerBrand{
-      font-weight: bold;
-    }
-
-    .separator{
-      color: white;
-      font-size:2rem;
-    }
-
-    .mainBtnContainer{
-      flex:1;
-      display: flex;
-      align-items: flex-end;
-      justify-content: flex-end;
-    }
+    display: none;
   }
 }
 
-.menuMobile{
+.navLink {
+  font-family: var(--font-teko), sans-serif;
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+  padding: 0.15rem 0.6rem;
+  border-bottom: 2px solid transparent;
+  border-radius: 4px 4px 0 0;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  line-height: 1.4;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+.navLinkActive {
+  font-weight: bold;
+  border-bottom-color: white;
+}
+
+// ─── Dropdown ─────────────────────────────────────────────────────────────────
+.dropdown {
+  position: relative;
+
+  &:hover .dropdownPanel {
+    opacity: 1;
+    translate: -50% 0;
+    pointer-events: auto;
+  }
+
+  &:hover .chevron {
+    rotate: 180deg;
+  }
+}
+
+.chevron {
+  display: inline-block;
+  font-size: 1rem;
+  margin-left: 0.1rem;
+  transition: rotate 0.2s ease;
+}
+
+.dropdownPanel {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  translate: -50% -6px;
+  min-width: 220px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 10;
+  transition: opacity 0.2s ease, translate 0.2s ease;
+
+  background: var(--primary-color);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 0.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+
+  // Invisible bridge to prevent hover gap between trigger and panel
+  &::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 0;
+    right: 0;
+    height: 8px;
+  }
+}
+
+.dropdownItem {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-teko), sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  white-space: nowrap;
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+}
+
+.dropdownItemActive {
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+// ─── Desktop CTA ──────────────────────────────────────────────────────────────
+.desktopCta {
+  flex-shrink: 0;
+  margin-left: auto;
+
+  @media (max-width: 959px) {
+    display: none;
+  }
+}
+
+// ─── Hamburger ────────────────────────────────────────────────────────────────
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: auto;
+  flex-shrink: 0;
+
+  @media (max-width: 959px) {
+    display: flex;
+  }
+
+  span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: white;
+    border-radius: 2px;
+    transform-origin: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+}
+
+.hamburgerOpen {
+  span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  span:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+}
+
+// ─── Mobile drawer ────────────────────────────────────────────────────────────
+.drawer {
+  background: var(--primary-color);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.35s ease;
+
   @media (min-width: 960px) {
-    display: none !important;
-  }
-  &.header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-
-    padding: 0.5rem 0;
-    background-color: var(--primary-color);
-
-    .containerFluid {
-      display: flex;
-      flex-wrap: inherit;
-      align-items: center;
-      padding: 0 1.5rem;
-
-      flex: 1;
-      gap:1rem;
-    }
-
-    .headerBrand, .otherHeaderBrand{
-      display: flex;
-      align-items: center;
-      text-decoration: none;
-      font-size:2rem;
-
-      color: white;
-      font-family: var(--font-teko), sans-serif;
-    }
-    .headerBrand{
-      font-weight: bold;
-    }
-
-    .separator{
-      color: white;
-      font-size:2rem;
-    }
-
-
+    display: none;
   }
 }
 
-/**/
+.drawerOpen {
+  max-height: 700px;
+}
+
+.drawerItem {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-teko), sans-serif;
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  padding: 0.55rem 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  transition: background-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white;
+  }
+}
+
+.drawerItemActive {
+  font-weight: bold;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.drawerItemSub {
+  padding-left: 2.5rem;
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.drawerSectionLabel {
+  font-family: var(--font-source-sans-pro), sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 0.8rem 1.5rem 0.2rem;
+  margin: 0;
+}
+
+.drawerCta {
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: center;
+}
