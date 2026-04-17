@@ -15,7 +15,13 @@ export const PageHeader = () => {
   const isActive = (href: string) => pathname === href;
   const isGroup = (...hrefs: string[]) => hrefs.some((h) => pathname.startsWith(h));
 
-  const guildeActive = isGroup("/conseil-des-mages", "/maitres-de-conf");
+  const communauteActive = isGroup(
+    "/guilde",
+    "/conseil-des-mages",
+    "/maitres-de-conf",
+    "/benevoles",
+    "/artisans",
+  );
 
   return (
     <header className={styles.header}>
@@ -49,12 +55,18 @@ export const PageHeader = () => {
             FAQ
           </Link>
 
-          {/* Dropdown — La Guilde */}
+          {/* Dropdown — Communauté */}
           <div className={styles.dropdown}>
-            <span className={`${styles.navLink} ${guildeActive ? styles.navLinkActive : ""}`}>
-              La Guilde <span className={styles.chevron}>▾</span>
+            <span className={`${styles.navLink} ${communauteActive ? styles.navLinkActive : ""}`}>
+              Communauté <span className={styles.chevron}>▾</span>
             </span>
             <div className={styles.dropdownPanel}>
+              <Link
+                href="/guilde"
+                className={`${styles.dropdownItem} ${isActive("/guilde") ? styles.dropdownItemActive : ""}`}
+              >
+                ⚔️ La Guilde
+              </Link>
               <Link
                 href="/conseil-des-mages"
                 className={`${styles.dropdownItem} ${isActive("/conseil-des-mages") ? styles.dropdownItemActive : ""}`}
@@ -66,6 +78,18 @@ export const PageHeader = () => {
                 className={`${styles.dropdownItem} ${isActive("/maitres-de-conf") ? styles.dropdownItemActive : ""}`}
               >
                 🎙️ Maîtres de Conf
+              </Link>
+              <Link
+                href="/benevoles"
+                className={`${styles.dropdownItem} ${isActive("/benevoles") ? styles.dropdownItemActive : ""}`}
+              >
+                🧑‍🤝‍🧑 Bénévoles
+              </Link>
+              <Link
+                href="/artisans"
+                className={`${styles.dropdownItem} ${isActive("/artisans") ? styles.dropdownItemActive : ""}`}
+              >
+                🔨 Artisans
               </Link>
             </div>
           </div>
@@ -103,49 +127,34 @@ export const PageHeader = () => {
         aria-label="Navigation mobile"
         aria-hidden={!menuOpen}
       >
-        <Link
-          href="/"
-          className={`${styles.drawerItem} ${isActive("/") ? styles.drawerItemActive : ""}`}
-          onClick={close}
-        >
+        <Link href="/" className={`${styles.drawerItem} ${isActive("/") ? styles.drawerItemActive : ""}`} onClick={close}>
           Accueil
         </Link>
-        <Link
-          href="/schedule/day-1"
-          className={`${styles.drawerItem} ${isGroup("/schedule", "/sessions") ? styles.drawerItemActive : ""}`}
-          onClick={close}
-        >
+        <Link href="/schedule/day-1" className={`${styles.drawerItem} ${isGroup("/schedule", "/sessions") ? styles.drawerItemActive : ""}`} onClick={close}>
           Programme
         </Link>
-        <Link
-          href="/tremplin"
-          className={`${styles.drawerItem} ${isActive("/tremplin") ? styles.drawerItemActive : ""}`}
-          onClick={close}
-        >
+        <Link href="/tremplin" className={`${styles.drawerItem} ${isActive("/tremplin") ? styles.drawerItemActive : ""}`} onClick={close}>
           Tremplin
         </Link>
-        <Link
-          href="/faq"
-          className={`${styles.drawerItem} ${isActive("/faq") ? styles.drawerItemActive : ""}`}
-          onClick={close}
-        >
+        <Link href="/faq" className={`${styles.drawerItem} ${isActive("/faq") ? styles.drawerItemActive : ""}`} onClick={close}>
           FAQ
         </Link>
 
-        <p className={styles.drawerSectionLabel}>La Guilde</p>
-        <Link
-          href="/conseil-des-mages"
-          className={`${styles.drawerItem} ${styles.drawerItemSub} ${isActive("/conseil-des-mages") ? styles.drawerItemActive : ""}`}
-          onClick={close}
-        >
+        <p className={styles.drawerSectionLabel}>Communauté</p>
+        <Link href="/guilde" className={`${styles.drawerItem} ${styles.drawerItemSub} ${isActive("/guilde") ? styles.drawerItemActive : ""}`} onClick={close}>
+          ⚔️ La Guilde
+        </Link>
+        <Link href="/conseil-des-mages" className={`${styles.drawerItem} ${styles.drawerItemSub} ${isActive("/conseil-des-mages") ? styles.drawerItemActive : ""}`} onClick={close}>
           🔮 Conseil des Mages
         </Link>
-        <Link
-          href="/maitres-de-conf"
-          className={`${styles.drawerItem} ${styles.drawerItemSub} ${isActive("/maitres-de-conf") ? styles.drawerItemActive : ""}`}
-          onClick={close}
-        >
+        <Link href="/maitres-de-conf" className={`${styles.drawerItem} ${styles.drawerItemSub} ${isActive("/maitres-de-conf") ? styles.drawerItemActive : ""}`} onClick={close}>
           🎙️ Maîtres de Conf
+        </Link>
+        <Link href="/benevoles" className={`${styles.drawerItem} ${styles.drawerItemSub} ${isActive("/benevoles") ? styles.drawerItemActive : ""}`} onClick={close}>
+          🧑‍🤝‍🧑 Bénévoles
+        </Link>
+        <Link href="/artisans" className={`${styles.drawerItem} ${styles.drawerItemSub} ${isActive("/artisans") ? styles.drawerItemActive : ""}`} onClick={close}>
+          🔨 Artisans
         </Link>
 
         <Link href={config.kitPartenaires} target="_blank" className={styles.drawerItem} onClick={close}>

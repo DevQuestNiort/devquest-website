@@ -1,0 +1,35 @@
+.artisansContainer {
+  .heroSection {
+    position: relative;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 3rem 0;
+
+    @media (max-width: 768px) {
+      min-height: 300px;
+      padding: 2rem 0;
+    }
+  }
+
+  p, ul {
+    font-size: 20px;
+    font-family: var(--font-source-sans-pro), sans-serif;
+    max-width: 1200px;
+  }
+
+  h1 {
+    padding-bottom: 1.5rem;
+  }
+
+  ul {
+    list-style: disc;
+    padding-left: 2rem;
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+}

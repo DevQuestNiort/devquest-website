@@ -1,0 +1,20 @@
+[
+  {
+    "picture": "/teams/gougouzian.png",
+    "name": "Sylvain Gougouzian",
+    "role": "#Dev",
+    "linkedin": "https://www.linkedin.com/in/gouz/"
+  },
+  {
+    "picture": "/teams/remi.jpeg",
+    "name": "Rémi Dudragne",
+    "role": "#UX",
+    "linkedin": "https://www.linkedin.com/in/rémi-dudragne"
+  },
+  {
+    "picture": "/teams/fremont.jpeg",
+    "name": "Florent Frémont",
+    "role": "#Dev",
+    "linkedin": "https://www.linkedin.com/in/florent-frémont-b2a943a9"
+  }
+]

@@ -27,11 +27,6 @@
     "linkedin": "https://www.linkedin.com/in/pauline-druet-a8733917b"
   },
   {
-    "picture": "/teams/remi.jpeg",
-    "name": "Rémi Dudragne",
-    "role": "#UX",
-    "linkedin": "https://www.linkedin.com/in/rémi-dudragne"
-  },{
     "picture": "/teams/alexis-biard.jpeg",
     "name": "Alexis Briard",
     "role": "#Dev",
@@ -44,19 +39,13 @@
     "linkedin": "https://www.linkedin.com/in/xavier-lecouls-53867b1"
   },
   {
-    "picture": "/teams/fremont.jpeg",
-    "name": "Florent Frémont",
-    "role": "#Dev",
-    "linkedin": "https://www.linkedin.com/in/florent-frémont-b2a943a9"
-  },
-  {
     "picture": "/teams/riou.jpeg",
     "name": "Susan Riou",
     "role": "#Ops",
     "linkedin": "https://www.linkedin.com/in/susan-riou-5a7a4a139"
   },
   {
-    "picture": "/teams/gouadon.jpeg",
+    "picture": "/teams/gouadon.png",
     "name": "Vincent Gouadon",
     "role": "#Dev",
     "linkedin": "vincent-gouadon-14099851"

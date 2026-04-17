@@ -8,9 +8,15 @@ export const Footer = () => (
         {" - "}
         <Link href={"/mentions-legales"}>Mentions légales</Link>
         {" - "}
+        <Link href={"/guilde"}>La Guilde</Link>
+        {" - "}
         <Link href={"/conseil-des-mages"}>Conseil des Mages</Link>
         {" - "}
         <Link href={"/maitres-de-conf"}>Maîtres de Conf</Link>
+        {" - "}
+        <Link href={"/benevoles"}>Bénévoles</Link>
+        {" - "}
+        <Link href={"/artisans"}>Artisans</Link>
         {" - "}
         <Link href={"/code-de-conduite"}>Code de conduite</Link>
         {" - "}

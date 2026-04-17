@@ -2,14 +2,9 @@ import HomeView from "@/app/_home/HomeView";
 import { promises as fs } from "fs";
 import { MoyensContact } from "@/model/MoyensContact";
 import { Theme } from "@/model/Theme";
-import { Membre } from "@/model/Membre";
 import { Partenaire } from "@/model/Partenaire";
 
 export default async function Home() {
-  const teamsFile = await fs.readFile(
-    process.cwd() + "/src/data/teams.json",
-    "utf8",
-  );
   const themesFile = await fs.readFile(
     process.cwd() + "/src/data/themes.json",
     "utf8",
@@ -25,14 +20,12 @@ export default async function Home() {
 
   const contacts: MoyensContact[] = JSON.parse(contactsFile);
   const themes: Theme[] = JSON.parse(themesFile);
-  const membres: Membre[] = JSON.parse(teamsFile);
   const partenaires: Partenaire[] = JSON.parse(partenairesFile);
 
   return (
     <HomeView
       contacts={contacts}
       themes={themes}
-      membres={membres}
       partenaires={partenaires}
     />
   );
