@@ -24,9 +24,6 @@ export async function Tremplin() {
           comme une lame elfique, vous monterez sur scène lors de la soirée
           Tremplin et présenterez votre talk devant une assemblée bienveillante.
         </p>
-        <LinkButton theme="Primary" href={config.cfpTremplin} target="_blank">
-          Inscrivez-vous
-        </LinkButton>
         <p>
           🏆 À la clé ? Les deux meilleurs orateurs seront invités à reprendre
           leur conférence lors de l’événement principal, devant toute la guilde
