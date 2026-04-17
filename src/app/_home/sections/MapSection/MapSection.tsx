@@ -2,7 +2,7 @@ import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
 import { LinkButton } from "@/components/LinkButton";
 
-import backgroundMapImage from "/public/devquest-bg-map.jpg";
+import backgroundMapImage from "/public/devquest-bg-map.png";
 
 import styles from "./MapSection.module.scss";
 

@@ -4,7 +4,7 @@ import {promises as fs} from "fs";
 import Image from "next/image";
 import {Card} from "@/components/Card";
 
-import backgroundImage from "/public/avatar/conseilDeMage.png";
+import backgroundImage from "/public/avatar/MCview.png";
 
 interface MaitreDeConf {
     id: string;
