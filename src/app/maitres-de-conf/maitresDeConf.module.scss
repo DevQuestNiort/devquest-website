@@ -58,6 +58,7 @@
 
   .maitrCard {
     background: var(--sable);
+    color: black;
     border: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 16px;
     padding: 2rem;
@@ -79,28 +80,17 @@
     }
   }
 
-  .maitrAvatar {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-bottom: 1rem;
-    border: 3px solid var(--primary-color);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  .maitrAvatarWrapper {
+    width: 100%;
 
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    // Réserve la hauteur de la ligne des icônes sociales (dernier div = .infos d'Avatar)
+    // pour aligner toutes les cartes, qu'il y ait des RS ou non
+    > div:last-child {
+      min-height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-  }
-
-  .maitrName {
-    font-family: var(--font-teko), sans-serif;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: black;
-    font-weight: bold;
   }
 
   .maitrCitation {

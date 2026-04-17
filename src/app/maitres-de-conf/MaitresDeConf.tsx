@@ -1,8 +1,8 @@
 import styles from "./maitresDeConf.module.scss";
 import {Section} from "@/components/Section";
 import {promises as fs} from "fs";
-import Image from "next/image";
 import {Card} from "@/components/Card";
+import {Avatar} from "@/components/Avatar";
 
 import backgroundImage from "/public/avatar/MCview.png";
 
@@ -11,6 +11,9 @@ interface MaitreDeConf {
     nom: string;
     avatar: string;
     citation: string;
+    linkedin?: string;
+    github?: string;
+    x?: string;
 }
 
 const getMaitres = async () => JSON.parse(
@@ -53,15 +56,15 @@ export async function MaitresDeConf() {
                 <div className={styles.maitresGrid}>
                     {maitres.map((maitre) => (
                         <div key={maitre.id} className={styles.maitrCard}>
-                            <div className={styles.maitrAvatar}>
-                                <Image
-                                    src={maitre.avatar}
-                                    alt={maitre.nom}
-                                    width={120}
-                                    height={120}
-                                />
-                            </div>
-                            <h3 className={styles.maitrName}>{maitre.nom}</h3>
+                            <Avatar
+                                img={maitre.avatar}
+                                name={maitre.nom}
+                                linkedin={maitre.linkedin}
+                                github={maitre.github}
+                                x={maitre.x}
+                                withSocials={true}
+                                classes={{ main: styles.maitrAvatarWrapper }}
+                            />
                             <blockquote className={styles.maitrCitation}>
                                 {maitre.citation}
                             </blockquote>

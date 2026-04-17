@@ -11,7 +11,7 @@ interface DungeonMastersSectionProperties {
 export function DungeonMastersSection({membres}:DungeonMastersSectionProperties) {
     return (
         <Section theme="Light">
-        <h2>Les maîtres du donjon</h2>
+        <h2>La Guilde du Devquest</h2>
         <Galery>
           {membres
             .sort(() => (Math.random() > 0.5 ? 1 : -1))
