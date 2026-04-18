@@ -32,15 +32,10 @@ export function TremplinSection() {
           leur conférence lors de l’événement principal, devant toute la guilde
           des développeurs réunis !
         </span>
-        {/*  <span>
-          ⚔️ Lancez-vous dans l’aventure et inscrivez-vous dès maintenant !
-        </span>*/}
+
         <div id={styles.rows}>
           <LinkButton theme="Secondary" href="https://www.devquest.fr/tremplin">
             En savoir plus
-          </LinkButton>
-          <LinkButton theme="Primary" href={config.cfpTremplin} target="_blank">
-            Inscrivez-vous
           </LinkButton>
         </div>
       </Card>
