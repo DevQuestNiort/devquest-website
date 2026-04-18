@@ -1,37 +1,37 @@
 [
   {
-    "id": "maitre-1",
-    "nom": "Sébastien Prunier",
-    "avatar": "/teams/prunier.png",
+    "picture": "/teams/prunier.png",
+    "name": "Sébastien Prunier",
+    "role": "#Bénévole",
     "citation": "Trois ans de DevQuest, trois ans qu'il nous accompagne dans cette mission...",
     "linkedin": "https://www.linkedin.com/in/sebastien-prunier/"
   },
   {
-    "id": "maitre-2",
-    "nom": "Florian Gagnard",
-    "avatar": "/teams/gagnard.png",
+    "picture": "/teams/gagnard.png",
+    "name": "Florian Gagnard",
+    "role": "#Bénévole",
     "citation": "Il était là l'année dernière. Il rempile pour accompagner les speaker·euses. Enjoy !",
-    "linkedin":"https://www.linkedin.com/in/florian-gagnard/"
+    "linkedin": "https://www.linkedin.com/in/florian-gagnard/"
   },
   {
-    "id": "maitre-3",
-    "nom": "Jean-Baptiste Joffre",
-    "avatar": "/teams/joffre.png",
+    "picture": "/teams/joffre.png",
+    "name": "Jean-Baptiste Joffre",
+    "role": "#Bénévole",
     "citation": "Participant la première année, bénévole la deuxième, et maintenant Maître de Conf. Il est partout...",
-    "linkedin":"https://www.linkedin.com/in/jean-baptiste-joffre-459808122/"
+    "linkedin": "https://www.linkedin.com/in/jean-baptiste-joffre-459808122/"
   },
   {
-    "id": "maitre-4",
-    "nom": "Jean-Philippe Raud",
-    "avatar": "/teams/raud.png",
+    "picture": "/teams/raud.png",
+    "name": "Jean-Philippe Raud",
+    "role": "#Bénévole",
     "citation": "Et de deux pour Jean-Philippe, il va bien choyer nos conférenciers·ères.",
     "linkedin": "https://www.linkedin.com/in/jeanphilippe-raud/"
   },
   {
-    "id": "maitre-5",
-    "nom": "Anthony Maudry",
-    "avatar": "/teams/maudry.png",
+    "picture": "/teams/maudry.png",
+    "name": "Anthony Maudry",
+    "role": "#Bénévole",
     "citation": "La route est longue, car il vient de loin, mais il revient pour la deuxième fois accompagner les speaker·euses. Merci Anthony !",
-    "linkedin":"https://www.linkedin.com/in/a-maudry"
+    "linkedin": "https://www.linkedin.com/in/a-maudry"
   }
 ]

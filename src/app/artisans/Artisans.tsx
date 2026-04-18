@@ -1,7 +1,6 @@
 import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
 import { Avatar } from "@/components/Avatar";
-import { Galery } from "@/components/Galery";
 import { Membre } from "@/model/Membre";
 import { promises as fs } from "fs";
 import styles from "./Artisans.module.scss";
@@ -60,18 +59,27 @@ export async function Artisans() {
       {artisans.length > 0 && (
         <Section theme="Light">
           <h2>🔧 Nos artisans (édition 2026)</h2>
-          <Galery>
-            {artisans.map((a, i) => (
-              <Avatar
-                key={i}
-                img={a.picture}
-                name={a.name}
-                role={a.role}
-                github={a.github}
-                linkedin={a.linkedin}
-              />
+          <div className={styles.artisansGrid}>
+            {artisans.map((artisan) => (
+              <div key={artisan.name} className={styles.artisanCard}>
+                <Avatar
+                  img={artisan.picture}
+                  name={artisan.name}
+                  role={artisan.role}
+                  linkedin={artisan.linkedin}
+                  github={artisan.github}
+                  x={artisan.x}
+                  withSocials={!!(artisan.linkedin || artisan.github || artisan.x)}
+                  classes={{ main: styles.artisanAvatarWrapper }}
+                />
+                {artisan.citation && (
+                  <blockquote className={styles.artisanCitation}>
+                    {artisan.citation}
+                  </blockquote>
+                )}
+              </div>
             ))}
-          </Galery>
+          </div>
         </Section>
       )}
 
@@ -80,7 +88,8 @@ export async function Artisans() {
         <p>
           Tu as des compétences techniques ou créatives et tu veux les mettre au
           service du DevQuest ? Contacte-nous ! Tout au long de l&apos;année,
-          nous cherchons des mains supplémentaires pour construire l&apos;aventure.
+          nous cherchons des mains supplémentaires pour construire
+          l&apos;aventure.
         </p>
       </Section>
     </div>
