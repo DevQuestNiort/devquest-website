@@ -1,5 +1,5 @@
 .speakers {
-  background-color: var(--primary-color);
+  background-color: var(--tertiary-color);
   color: white;
   border: 1px solid var(--primary-color);
   border-radius: 5px;
@@ -12,12 +12,11 @@
 .speaker {
   align-items: center;
   display: flex;
-  font-size: 10px;
+  font-size: 15px;
   justify-content: space-evenly;
   padding: 0 10px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
-
 
 
 .avatar {
