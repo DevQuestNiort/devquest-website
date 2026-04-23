@@ -33,6 +33,8 @@
             display: flex;
             gap:1rem;
             margin-top:2rem;
+            margin-bottom:1rem;
+            flex-wrap: wrap;
 
             > *{
                 border: 1px solid var(--dark);
@@ -42,6 +44,23 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+            }
+        }
+
+        .calendarCard {
+            button {
+                border: none;
+                background: transparent;
+                padding: 0;
+                font-size: 0.95rem;
+                font-weight: 600;
+                color: var(--dark);
+                cursor: pointer;
+                white-space: nowrap;
+
+                &:hover {
+                    opacity: 0.7;
+                }
             }
         }
     }

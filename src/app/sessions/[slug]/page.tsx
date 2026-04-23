@@ -11,6 +11,7 @@ import { rooms } from "@/components/Schedule/common";
 import classNames from "classnames";
 import { getAllAdaptedSessions } from "@/data/scheduleAdapter";
 import Link from "next/link";
+import { AddToCalendarButton } from "@/components/AddToCalendarButton/AddToCalendarButton";
 
 type SessionProps = {
   params: {
@@ -78,9 +79,16 @@ const Session = async ({ params: { slug } }: SessionProps) => {
             />
             <h3>{myFullSession.room}</h3>
           </div>
+          <AddToCalendarButton
+            title={myFullSession.title}
+            startISO={myFullSession.startISO}
+            endISO={myFullSession.endISO}
+            location={`${myFullSession.room} — DevQuest 2026, Niort`}
+            description={`${myFullSession.speakers.map((s) => s.name).join(", ")} — DevQuest 2026\nhttps://devquest.fr/sessions/${myFullSession.slug}`}
+            slug={myFullSession.slug}
+            className={styles.calendarCard}
+          />
         </div>
-
-        <div className={styles.time}></div>
 
         <div className={styles.speakers}>
           {myFullSession.speakers.map((speaker) => (

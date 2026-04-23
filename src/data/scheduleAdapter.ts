@@ -269,6 +269,8 @@ export const getAdaptedScheduleForDay = async (
         format,
         categorie: proposal?.categories?.[0] ?? "",
         hour: toScheduleTime(session.start),
+        startISO: session.start,
+        endISO: session.end,
       };
     })
     .sort((a, b) => {
