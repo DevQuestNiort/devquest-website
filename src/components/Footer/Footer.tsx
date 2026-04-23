@@ -74,6 +74,7 @@ export const Footer = () => (
       <div className={styles.col}>
         <h3 className={styles.colTitle}>Ressources</h3>
         <ul className={styles.links}>
+           <li><Link href="/packmedia">Ressources graphiques</Link></li>
           <li>
             <Link href={config.kitPartenaires} target="_blank" rel="noopener noreferrer">
               Kit partenaires ↗
