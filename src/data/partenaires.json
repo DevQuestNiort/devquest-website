@@ -38,7 +38,7 @@
     "name": "Zenika",
     "asset": "zenika.webp",
     "site": "https://zenika.com/",
-    "level": "RARE",
+    "level": "COMMUN",
     "actif": true
   },
   {
@@ -158,14 +158,14 @@
     "asset": "sortileges.jpg",
     "site": "https://sortileges.fr/niort/",
     "level": "AUTRE",
-    "actif": true
+    "actif": false
   },
   {
     "name": "Retrogameboys86",
     "asset": "retrogameboys86.jpg",
     "site": "https://www.instagram.com/retrogameboys86/",
     "level": "AUTRE",
-    "actif": true
+    "actif": false
   },
   {
     "name": "Elastic",
