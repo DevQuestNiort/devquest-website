@@ -7,16 +7,19 @@ import { PageHeader } from "@/components/PageHeader/PageHeader";
 import { Footer } from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.devquest.fr"),
   title: "DEVQUEST - 11-12 juin (Niort)",
   description:
     "Vous êtes développeur ? Ne ratez pas le premier évènement dédié avec des morceaux d'aventure dedans !",
   keywords: ["devquest", "dev", "quest", "niort", "devs", "conférences"],
   openGraph: {
+    siteName: "DevQuest",
     images: [
       {
-        url: "/logo-date-lieu.svg",
-        width: 240,
-        height: 270,
+        url: "/fond_site_26.png",
+        width: 1200,
+        height: 630,
+        alt: "DevQuest 2026 — 11-12 juin, Niort",
       },
     ],
   },

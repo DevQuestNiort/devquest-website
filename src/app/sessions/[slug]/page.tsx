@@ -22,6 +22,34 @@ type SessionProps = {
 
 const getSessions = async () => getAllAdaptedSessions();
 
+export async function generateMetadata({ params: { slug } }: SessionProps) {
+  const session = (await getSessions()).find((s) => s.slug === slug);
+  if (!session) return {};
+
+  const speakerNames = session.speakers.map((s) => s.name).join(", ");
+  const description = session.abstract.replace(/[#*_`]/g, "").slice(0, 160).trimEnd() + "…";
+  const speakerPicture = session.speakers[0]?.picture;
+  const image = speakerPicture?.startsWith("http")
+    ? speakerPicture
+    : "/fond_site_26.png";
+
+  return {
+    title: `${session.title} — DevQuest 2026`,
+    description,
+    openGraph: {
+      title: `${session.title} — DevQuest 2026`,
+      description: `${speakerNames} · ${description}`,
+      images: [{ url: image, width: 400, height: 400 }],
+    },
+    twitter: {
+      card: "summary",
+      title: `${session.title} — DevQuest 2026`,
+      description: `${speakerNames} · ${description}`,
+      images: [image],
+    },
+  };
+}
+
 export async function generateStaticParams() {
   const sessions = await getSessions();
 
