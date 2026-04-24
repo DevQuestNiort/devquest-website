@@ -10,8 +10,7 @@ export const Footer = () => (
       {/* Colonne 1 — Identité */}
       <div className={styles.col}>
         <Link href="/" className={styles.brand}>
-          <Image src="/devquest-color-2025.svg" alt="logo devquest" width={48} height={48} />
-          <span>DevQuest</span>
+          <Image src="logo/DQ2026-SansDate-Blanc.svg" alt="logo devquest" width={96} height={96} />
         </Link>
         <p className={styles.tagline}>
           La conférence tech du bassin niortais.<br />

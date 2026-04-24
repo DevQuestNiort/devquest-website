@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "DevQuest",
     images: [
       {
-        url: "/fond_site_26.png",
+        url: "/fond_site_26logo.png",
         width: 1200,
         height: 630,
         alt: "DevQuest 2026 — 11-12 juin, Niort",
