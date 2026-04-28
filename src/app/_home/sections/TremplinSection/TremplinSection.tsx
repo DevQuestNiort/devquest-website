@@ -11,31 +11,33 @@ export function TremplinSection() {
       <h2>🏰 Soirée Tremplin des Orateurs ⚔️</h2>
 
       <Card className={styles.tremplinCard}>
-        <span>Oyez, oyez, nobles aventuriers du code !</span>
+        <span>Oyez, oyez, nobles membres de la guilde !</span>
 
         <span>
-          Vous avez toujours rêvé de partager votre savoir, mais vous n’avez
-          jamais osé franchir le pas ? La Soirée Tremplin est faite pour vous !
-        </span>
-        <span>
-          Rejoignez cette quête épique et préparez votre premier talk avec
-          l’aide de mentors aguerris et accompagné par{" "}
+          Les candidats de la Soirée Tremplin ont été sélectionnés et s’apprêtent
+          à monter sur scène pour défendre leur premier talk. Accompagnés par{" "}
           <a target="_blank" href="https://craftsrecords.org/">
             Craft Records
           </a>
-          , prêts à vous guider dans l’art oratoire. Une fois votre sujet affûté
-          comme une lame elfique, vous monterez sur scène lors de la soirée
-          Tremplin et présenterez votre talk devant une assemblée bienveillante.
+          , ils ont affûté leurs sujets, forgé leurs arguments — ils n’attendent
+          plus qu’une chose : votre soutien !
         </span>
         <span>
-          🏆 À la clé ? Les deux meilleurs orateurs seront invités à reprendre
-          leur conférence lors de l’événement principal, devant toute la guilde
-          des développeurs réunis !
+          Venez les encourager en tant que spectateur·ice lors de la soirée
+          Tremplin et participez au jury populaire. C’est vous, la guilde
+          assemblée, qui aiderez à désigner les deux grands vainqueurs — les
+          aventuriers qui remporteront le droit de reprendre leur conférence sur{" "}
+          <strong>les planches de DevQuest les 11 et 12 juin</strong>, devant
+          toute la communauté !
+        </span>
+        <span>
+          🏆 Rejoignez l’assemblée, encouragez les orateurs et contribuez à
+          écrire la prochaine page de l’épopée DevQuest !
         </span>
 
         <div id={styles.rows}>
-          <LinkButton theme="Secondary" href="https://www.devquest.fr/tremplin">
-            En savoir plus
+          <LinkButton theme="Secondary" href="https://www.linkedin.com/events/7447971060647534592?viewAsMember=true">
+            Je m’inscris comme spectateur·ice
           </LinkButton>
         </div>
       </Card>
