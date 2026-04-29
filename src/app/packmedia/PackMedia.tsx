@@ -137,11 +137,18 @@ const mediaGroups = {
   },
 };
 
-export function PackMedia() {
+type Props = {
+  visualFiles: string[];
+};
+
+export function PackMedia({ visualFiles }: Props) {
   const [bgColor, setBgColor] = useState<
     "gray" | "white" | "black" | "sable" | "rouge"
   >("gray");
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [selectedImage, setSelectedImage] = useState<{
+    src: string;
+    name: string;
+  } | null>(null);
 
   const getBgColorClass = () => {
     switch (bgColor) {
@@ -156,10 +163,6 @@ export function PackMedia() {
       default:
         return styles.bgGray;
     }
-  };
-
-  const openModal = (imageSrc: string) => {
-    setSelectedImage(imageSrc);
   };
 
   const closeModal = () => {
@@ -206,6 +209,7 @@ export function PackMedia() {
           </button>
         </div>
 
+        {/* Logos */}
         <div className={styles.mediaGroups}>
           {Object.entries(mediaGroups).map(([groupKey, group]) => (
             <div key={groupKey} className={styles.mediaGroup}>
@@ -228,7 +232,12 @@ export function PackMedia() {
                               height={80}
                               className={styles.mediaImage}
                               style={{ cursor: "pointer" }}
-                              onClick={() => openModal(file)}
+                              onClick={() =>
+                                setSelectedImage({
+                                  src: `logo/${file}`,
+                                  name: file,
+                                })
+                              }
                             />
                           </div>
                           <div>
@@ -255,6 +264,53 @@ export function PackMedia() {
           ))}
         </div>
 
+        {/* Visuels */}
+        {visualFiles.length > 0 && (
+          <>
+            <h2 className={styles.sectionTitle}>Visuels de communication</h2>
+            <p>
+              Visuels prêts à l&apos;emploi pour vos communications sur les
+              réseaux sociaux et vos supports.
+            </p>
+            <div className={styles.filesGrid}>
+              {visualFiles.map((file) => (
+                <div key={file} className={styles.mediaCard}>
+                  <div
+                    className={`${styles.mediaImageContainer} ${getBgColorClass()}`}
+                  >
+                    <Image
+                      src={`visual/${file}`}
+                      alt={file}
+                      priority
+                      width={80}
+                      height={80}
+                      className={styles.mediaImage}
+                      style={{ cursor: "pointer" }}
+                      onClick={() =>
+                        setSelectedImage({ src: `visual/${file}`, name: file })
+                      }
+                    />
+                  </div>
+                  <div>
+                    <p className={styles.mediaName}>{file}</p>
+                    <LinkButton
+                      theme="Primary"
+                      href={`visual/${file}`}
+                      download={file}
+                      style={{
+                        fontSize: "0.875rem",
+                        padding: "0.375rem 0.75rem",
+                      }}
+                    >
+                      Télécharger
+                    </LinkButton>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
+
         {selectedImage && (
           <div className={styles.modal} onClick={closeModal}>
             <div
@@ -268,15 +324,15 @@ export function PackMedia() {
                 className={`${styles.modalImageContainer} ${getBgColorClass()}`}
               >
                 <Image
-                  src={`logo/${selectedImage}`}
-                  alt="DevQuest Logo"
+                  src={selectedImage.src}
+                  alt="DevQuest"
                   priority
                   width={400}
                   height={400}
                   className={styles.modalImage}
                 />
               </div>
-              <p className={styles.modalImageName}>{selectedImage}</p>
+              <p className={styles.modalImageName}>{selectedImage.name}</p>
             </div>
           </div>
         )}
