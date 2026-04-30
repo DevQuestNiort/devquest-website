@@ -139,15 +139,17 @@ const mediaGroups = {
 
 type Props = {
   visualFiles: string[];
+  wallpaperFiles: string[];
 };
 
-export function PackMedia({ visualFiles }: Props) {
+export function PackMedia({ visualFiles, wallpaperFiles }: Props) {
   const [bgColor, setBgColor] = useState<
     "gray" | "white" | "black" | "sable" | "rouge"
   >("gray");
   const [selectedImage, setSelectedImage] = useState<{
     src: string;
     name: string;
+    size: "s" | "m" | "l";
   } | null>(null);
 
   const getBgColorClass = () => {
@@ -228,14 +230,14 @@ export function PackMedia({ visualFiles }: Props) {
                               src={`logo/${file}`}
                               alt="DevQuest"
                               priority
-                              width={80}
-                              height={80}
+                              fill
                               className={styles.mediaImage}
                               style={{ cursor: "pointer" }}
                               onClick={() =>
                                 setSelectedImage({
                                   src: `logo/${file}`,
                                   name: file,
+                                  size: "s",
                                 })
                               }
                             />
@@ -264,6 +266,56 @@ export function PackMedia({ visualFiles }: Props) {
           ))}
         </div>
 
+        {/* Fonds d'écran */}
+        {wallpaperFiles.length > 0 && (
+          <>
+            <h2 className={styles.sectionTitle}>Fonds d&apos;écran</h2>
+            <p>
+              Fonds d&apos;écran bureau, Microsoft Teams et Google Meet aux
+              couleurs du DevQuest.
+            </p>
+            <div className={styles.filesGrid}>
+              {wallpaperFiles.map((file) => (
+                <div key={file} className={styles.mediaCard}>
+                  <div
+                    className={`${styles.mediaImageContainer} ${getBgColorClass()}`}
+                  >
+                    <Image
+                      src={`wallpaper/${file}`}
+                      alt={file}
+                      priority
+                      fill
+                      className={styles.mediaImage}
+                      style={{ cursor: "pointer" }}
+                      onClick={() =>
+                        setSelectedImage({
+                          src: `wallpaper/${file}`,
+                          name: file,
+                          size: "l",
+                        })
+                      }
+                    />
+                  </div>
+                  <div>
+                    <p className={styles.mediaName}>{file}</p>
+                    <LinkButton
+                      theme="Primary"
+                      href={`wallpaper/${file}`}
+                      download={file}
+                      style={{
+                        fontSize: "0.875rem",
+                        padding: "0.375rem 0.75rem",
+                      }}
+                    >
+                      Télécharger
+                    </LinkButton>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
+
         {/* Visuels */}
         {visualFiles.length > 0 && (
           <>
@@ -282,12 +334,15 @@ export function PackMedia({ visualFiles }: Props) {
                       src={`visual/${file}`}
                       alt={file}
                       priority
-                      width={80}
-                      height={80}
+                      fill
                       className={styles.mediaImage}
                       style={{ cursor: "pointer" }}
                       onClick={() =>
-                        setSelectedImage({ src: `visual/${file}`, name: file })
+                        setSelectedImage({
+                          src: `visual/${file}`,
+                          name: file,
+                          size: "m",
+                        })
                       }
                     />
                   </div>
@@ -321,14 +376,14 @@ export function PackMedia({ visualFiles }: Props) {
                 ×
               </button>
               <div
-                className={`${styles.modalImageContainer} ${getBgColorClass()}`}
+                className={`${styles.modalImageContainer} ${getBgColorClass()} ${styles[`size_${selectedImage.size}`]}`}
               >
                 <Image
                   src={selectedImage.src}
                   alt="DevQuest"
                   priority
-                  width={400}
-                  height={400}
+                  width={1200}
+                  height={800}
                   className={styles.modalImage}
                 />
               </div>

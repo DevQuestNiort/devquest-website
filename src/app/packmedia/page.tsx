@@ -4,12 +4,16 @@ import { PackMedia } from "./PackMedia";
 
 export const dynamic = "force-static";
 
-export default function Page() {
-  const visualDir = path.join(process.cwd(), "public", "visual");
-  const visualFiles = fs
-    .readdirSync(visualDir)
+function readImageDir(dir: string): string[] {
+  return fs
+    .readdirSync(path.join(process.cwd(), "public", dir))
     .filter((f) => /\.(png|jpg|jpeg|svg|webp)$/i.test(f))
     .sort();
+}
 
-  return <PackMedia visualFiles={visualFiles} />;
+export default function Page() {
+  const visualFiles = readImageDir("visual");
+  const wallpaperFiles = readImageDir("wallpaper");
+
+  return <PackMedia visualFiles={visualFiles} wallpaperFiles={wallpaperFiles} />;
 }

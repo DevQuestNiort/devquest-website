@@ -66,7 +66,7 @@ const Session = async ({ params: { slug } }: SessionProps) => {
   }
   const myFullSession = session as FullSession;
 
-  const DISPLAY_OPENFEEDBACK = false;
+  const DISPLAY_OPENFEEDBACK = true;
 
   return (
     <div className={styles.container}>
@@ -159,7 +159,7 @@ const Session = async ({ params: { slug } }: SessionProps) => {
       </div>
       {DISPLAY_OPENFEEDBACK && (
         <iframe
-          src={`https://openfeedback.io/OJqVszngc4TGDPAR6VYK/undefined/${session.id}?hideHeader=true&forceColorScheme=dark`}
+          src={`https://openfeedback.io/X6Zd1NPDkMkDZHl003Yu/undefined/${session.id}?hideHeader=true&forceColorScheme=dark`}
           className={styles.iframeOpenfeedback}
         ></iframe>
       )}
