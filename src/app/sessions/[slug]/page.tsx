@@ -66,7 +66,7 @@ const Session = async ({ params: { slug } }: SessionProps) => {
   }
   const myFullSession = session as FullSession;
 
-  const DISPLAY_OPENFEEDBACK = true;
+  const DISPLAY_OPENFEEDBACK = false;
 
   return (
     <div className={styles.container}>
