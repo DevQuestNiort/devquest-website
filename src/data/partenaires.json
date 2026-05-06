@@ -91,6 +91,13 @@
     "actif": true
   },
   {
+    "name": "Macif",
+    "asset": "macif.webp",
+    "site": "https://www.macif.fr/",
+    "level": "COMMUN",
+    "actif": true
+  },
+  {
     "name": "Socram Banque",
     "asset": "socram.webp",
     "site": "https://www.socram-banque.fr/",
