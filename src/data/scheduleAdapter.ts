@@ -39,6 +39,15 @@ type RawScheduleFile = {
   sessions: RawScheduleSession[];
 };
 
+type RawBreak = {
+  key: string;
+  day: string;
+  startTime: string;
+  type: Slot["type"];
+  size?: number;
+  gridColumn?: string;
+};
+
 export type ScheduleDay = {
   slug: string;
   idDay: string;
@@ -154,6 +163,11 @@ export const loadScheduleFile = async (): Promise<RawScheduleFile> =>
     ),
   ) as RawScheduleFile;
 
+export const loadBreaksFile = async (): Promise<RawBreak[]> =>
+  JSON.parse(
+    await fs.readFile(process.cwd() + "/src/data/breaks.json", "utf8"),
+  ) as RawBreak[];
+
 export const getScheduleDays = async (): Promise<ScheduleDay[]> => {
   const schedule = await loadScheduleFile();
   return schedule.days.map((dayIso, index) => ({
@@ -171,10 +185,18 @@ export const getScheduleDays = async (): Promise<ScheduleDay[]> => {
   }));
 };
 
+const breakTimeToMinutes = (startTime: string) => {
+  const [h, m] = startTime.split(":").map(Number);
+  return h * 60 + m;
+};
+
 export const getAdaptedScheduleForDay = async (
   daySlug: string,
 ): Promise<AdaptedScheduleData> => {
-  const schedule = await loadScheduleFile();
+  const [schedule, allBreaks] = await Promise.all([
+    loadScheduleFile(),
+    loadBreaksFile(),
+  ]);
   const days = await getScheduleDays();
   const selectedDay = days.find((day) => day.slug === daySlug) ?? days[0];
 
@@ -182,16 +204,20 @@ export const getAdaptedScheduleForDay = async (
     .filter((session) => toScheduleDateKey(session.start) === selectedDay.dateKey)
     .sort((a, b) => new Date(a.start).getTime() - new Date(b.start).getTime());
 
+  const dayBreaks = allBreaks.filter((b) => b.day === selectedDay.idDay);
+
   const uniqueStarts = Array.from(
     new Set(daySessions.map((session) => session.start)),
   ).sort(
     (a, b) => new Date(a).getTime() - new Date(b).getTime(),
   );
+
   const firstStart = Math.min(
     ...uniqueStarts.map((start) => toScheduleMinutes(start)),
+    ...dayBreaks.map((b) => breakTimeToMinutes(b.startTime)),
   );
 
-  const allHoursSlots: Slot[] = uniqueStarts.map((startIso, index) => {
+  const sessionHourSlots: Slot[] = uniqueStarts.map((startIso, index) => {
     const row = Math.max(
       1,
       Math.floor((toScheduleMinutes(startIso) - firstStart) / GRID_STEP_MINUTES) + 1,
@@ -200,13 +226,40 @@ export const getAdaptedScheduleForDay = async (
       key: `${selectedDay.idDay}-hour-${index + 1}`,
       day: selectedDay.idDay,
       start: toScheduleTime(startIso),
-      type: "conference",
+      type: "conference" as Slot["type"],
       display: {
         row,
         size: 1,
       },
     };
   });
+
+  const breakSlots: Slot[] = dayBreaks.map((b) => {
+    const timeInMinutes = breakTimeToMinutes(b.startTime);
+    const row = Math.max(
+      1,
+      Math.floor((timeInMinutes - firstStart) / GRID_STEP_MINUTES) + 1,
+    );
+    return {
+      key: b.key,
+      day: selectedDay.idDay,
+      start: b.startTime,
+      type: b.type,
+      display: {
+        row,
+        size: b.size ?? 1,
+        ...(b.gridColumn ? { gridColumn: b.gridColumn } : {}),
+      },
+    };
+  });
+
+  const allHoursSlots: Slot[] = [...sessionHourSlots, ...breakSlots].sort(
+    (a, b) => {
+      const [ah, am] = a.start.split(":").map(Number);
+      const [bh, bm] = b.start.split(":").map(Number);
+      return ah * 60 + am - (bh * 60 + bm);
+    },
+  );
 
   const slotBySessionId: Record<string, Slot> = {};
   daySessions.forEach((session, index) => {
@@ -220,7 +273,10 @@ export const getAdaptedScheduleForDay = async (
         (new Date(session.end).getTime() - new Date(session.start).getTime()) / 60000,
       ),
     );
-    const size = Math.max(1, Math.ceil(durationMinutes / GRID_STEP_MINUTES));
+    // Sessions < 60 min occupy 1 grid unit so breaks don't overlap them
+    const size = durationMinutes >= 60
+      ? Math.max(1, Math.ceil(durationMinutes / GRID_STEP_MINUTES))
+      : 1;
 
     slotBySessionId[session.id] = {
       key: `${selectedDay.idDay}-session-${index + 1}`,
@@ -285,7 +341,7 @@ export const getAdaptedScheduleForDay = async (
     days,
     sessions,
     allHoursSlots,
-    fixedSlots: [],
+    fixedSlots: breakSlots,
   };
 };
 

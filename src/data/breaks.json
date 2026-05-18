@@ -1,0 +1,15 @@
+[
+  { "key": "day-1-opening",  "day": "day-1", "startTime": "08:30", "type": "opening" },
+  { "key": "day-1-break-1", "day": "day-1", "startTime": "09:50", "type": "break" },
+  { "key": "day-1-break-2", "day": "day-1", "startTime": "10:50", "type": "break", "gridColumn": "2 / span 2" },
+  { "key": "day-1-lunch",   "day": "day-1", "startTime": "12:00", "type": "lunch",  "size": 3 },
+  { "key": "day-1-break-3", "day": "day-1", "startTime": "15:50", "type": "break", "gridColumn": "2 / span 2" },
+  { "key": "day-1-party",   "day": "day-1", "startTime": "18:00", "type": "party",  "size": 2 },
+
+  { "key": "day-2-opening",  "day": "day-2", "startTime": "08:30", "type": "opening" },
+  { "key": "day-2-break-1", "day": "day-2", "startTime": "09:50", "type": "break" },
+  { "key": "day-2-break-2", "day": "day-2", "startTime": "10:50", "type": "break", "gridColumn": "2 / span 2" },
+  { "key": "day-2-lunch",   "day": "day-2", "startTime": "12:00", "type": "lunch",  "size": 3 },
+  { "key": "day-2-break-3", "day": "day-2", "startTime": "15:50", "type": "break", "gridColumn": "2 / span 2" },
+  { "key": "day-2-closing", "day": "day-2", "startTime": "17:00", "type": "closing" }
+]
