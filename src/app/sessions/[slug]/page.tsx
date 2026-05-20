@@ -12,6 +12,7 @@ import classNames from "classnames";
 import { getAllAdaptedSessions } from "@/data/scheduleAdapter";
 import Link from "next/link";
 import { AddToCalendarButton } from "@/components/AddToCalendarButton/AddToCalendarButton";
+import { OpenFeedback } from "@/components/OpenFeedback/OpenFeedback";
 
 type SessionProps = {
   params: {
@@ -65,8 +66,6 @@ const Session = async ({ params: { slug } }: SessionProps) => {
     throw new Error("Session introuvable");
   }
   const myFullSession = session as FullSession;
-
-  const DISPLAY_OPENFEEDBACK = false;
 
   return (
     <div className={styles.container}>
@@ -157,12 +156,7 @@ const Session = async ({ params: { slug } }: SessionProps) => {
           format_quote
         </span>
       </div>
-      {DISPLAY_OPENFEEDBACK && (
-        <iframe
-          src={`https://openfeedback.io/X6Zd1NPDkMkDZHl003Yu/undefined/${session.id}?hideHeader=true&forceColorScheme=dark`}
-          className={styles.iframeOpenfeedback}
-        ></iframe>
-      )}
+      <OpenFeedback sessionId={session.id} activeFrom="2026-06-11" />
     </div>
   );
 };
