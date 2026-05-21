@@ -48,27 +48,28 @@
     "picture": "/teams/gouadon.png",
     "name": "Vincent Gouadon",
     "role": "#Dev",
-    "linkedin": "vincent-gouadon-14099851"
+    "linkedin": "https://www.linkedin.com/in/vincent-gouadon-14099851"
   }
 ,
   {
     "picture": "/teams/gagnard.png",
     "name": "Florian Gagnard",
     "role": "#ProductOwner",
-    "linkedin": "florian-gagnard"
+    "linkedin": "https://www.linkedin.com/in/florian-gagnard"
   }
 ,
   {
     "picture": "/teams/gougouzian.png",
     "name": "Sylvain Gougouzian",
     "role": "#Dev",
-    "linkedin": "gouz"
+    "linkedin": "https://www.linkedin.com/in/gouz",
+    "github": "https://github.com/gouz"
   }
 ,
   {
     "picture": "/teams/tessier.jpg",
     "name": "Loic Tessier",
     "role": "#Dev",
-    "linkedin": "loic-tessier"
+    "linkedin": "https://www.linkedin.com/in/loic-tessier"
   }
 ]
