@@ -26,5 +26,13 @@
     "citation": "Loic vient nous aider dans l'organisation du DevQuest, sur la partie organisation bénévoles jour J",
     "role": "#Dev",
     "linkedin": "https://www.linkedin.com/in/loic-tessier/"
-  }
+  },
+  {
+        "name": "Adrien Corvisier",
+        "picture": "/teams/adrien.png",
+        "role": "#Dev",
+        "citation": "Adrien est un artisan novice qui répond à l'appel pour l'édition 2026. Il réalisera les quêtes qu'on lui confiera, même faire des cafés.",
+        "linkedin": "https://www.linkedin.com/in/adrien-corvisier/",
+        "github": "https://github.com/Crv113"
+    }
 ]

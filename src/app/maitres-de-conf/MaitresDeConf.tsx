@@ -2,10 +2,10 @@ import styles from "./maitresDeConf.module.scss";
 import { Section } from "@/components/Section";
 import { promises as fs } from "fs";
 import { Card } from "@/components/Card";
-import { Avatar } from "@/components/Avatar";
 import { Membre } from "@/model/Membre";
 
 import backgroundImage from "/public/avatar/MCview.png";
+import MembreCard from "@/components/MembreCard/MembreCard";
 
 const getMaitres = async () =>
   JSON.parse(
@@ -49,20 +49,7 @@ export async function MaitresDeConf() {
         </p>
         <div className={styles.maitresGrid}>
           {maitres.map((maitre) => (
-            <div key={maitre.name} className={styles.maitrCard}>
-              <Avatar
-                img={maitre.picture}
-                name={maitre.name}
-                linkedin={maitre.linkedin}
-                github={maitre.github}
-                x={maitre.x}
-                withSocials={!!(maitre.linkedin || maitre.github || maitre.x)}
-                classes={{ main: styles.maitrAvatarWrapper }}
-              />
-              <blockquote className={styles.maitrCitation}>
-                {maitre.citation}
-              </blockquote>
-            </div>
+            <MembreCard key={maitre.name} membre={maitre} />
           ))}
         </div>
       </Section>

@@ -1,0 +1,55 @@
+.membreCard {
+    background: var(--sable);
+    color: black;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+
+    &:hover {
+      transform: translateY(-5px);
+      border-color: var(--primary-color);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 768px) {
+      padding: 1.5rem;
+    }
+  }
+
+  .membreAvatarWrapper {
+    width: 100%;
+
+    // Réserve la hauteur de la ligne des icônes sociales (dernier div = .infos d'Avatar)
+    // pour aligner toutes les cartes, qu'il y ait des RS ou non
+    > div:last-child {
+      min-height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .membreCitation {
+    font-family: var(--font-source-sans-pro), sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    font-style: italic;
+    color: black;
+    margin: 0;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    white-space: pre-wrap;
+    word-break: break-word;
+
+    @media (max-width: 768px) {
+      font-size: 0.9rem;
+      padding: 0.75rem;
+    }
+  }
