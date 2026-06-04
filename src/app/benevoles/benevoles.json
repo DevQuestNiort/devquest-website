@@ -5,5 +5,20 @@
         "role": "#Dev",
         "citation": "Evann répond à l'appel le jour J, épée à la main, prêt à repousser les bugs et les imprévus.",
         "linkedin": "https://www.linkedin.com/in/evann-corvisier-999842372/"
+    },
+    {
+        "name": "Adrien Corvisier",
+        "picture": "/teams/adrien.png",
+        "role": "#Dev",
+        "citation": "Adrien est un artisan novice qui répond à l'appel pour l'édition 2026. Il réalisera les quêtes qu'on lui confiera, même faire des cafés.",
+        "linkedin": "https://www.linkedin.com/in/adrien-corvisier/",
+        "github": "https://github.com/Crv113"
+    },
+    {
+        "name": "Thomas Riou",
+        "picture": "/teams/riou-t.png",
+        "role": "#Dev",
+        "citation": "Thomas Reviens une deuxième année pour faire en sorte que le ravitaillement se passe bien. Une pièce essentielle au puzzle du Devquest!",
+        "linkedin": "https://www.linkedin.com/in/thomas-riou-westdev/"
     }
 ]
