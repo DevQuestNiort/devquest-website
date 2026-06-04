@@ -1,12 +1,11 @@
 import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
-import { Avatar } from "@/components/Avatar";
-import { Galery } from "@/components/Galery";
 import { Membre } from "@/model/Membre";
 import { promises as fs } from "fs";
 import styles from "./Benevoles.module.scss";
 
 import backgroundImage from "/public/avatar/conseilDeMage.png";
+import MembreCard from "@/components/MembreCard/MembreCard";
 
 const getBenevoles = async () =>
   JSON.parse(
@@ -59,18 +58,11 @@ export async function Benevoles() {
       {benevoles.length > 0 && (
         <Section theme="Light">
           <h2>🙌 Nos bénévoles (édition 2026)</h2>
-          <Galery>
-            {benevoles.map((b, i) => (
-              <Avatar
-                key={i}
-                img={b.picture}
-                name={b.name}
-                role={b.role}
-                github={b.github}
-                linkedin={b.linkedin}
-              />
+          <div className={styles.benevolesGrid}>
+            {benevoles.map((benevole) => (
+              <MembreCard key={benevole.name} membre={benevole} />
             ))}
-          </Galery>
+          </div>
         </Section>
       )}
 

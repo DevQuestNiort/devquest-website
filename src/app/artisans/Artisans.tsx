@@ -1,11 +1,11 @@
 import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
-import { Avatar } from "@/components/Avatar";
 import { Membre } from "@/model/Membre";
 import { promises as fs } from "fs";
 import styles from "./Artisans.module.scss";
 
 import backgroundImage from "/public/avatar/conseilDeMage.png";
+import MembreCard from "@/components/MembreCard/MembreCard";
 
 const getArtisans = async () =>
   JSON.parse(
@@ -61,23 +61,7 @@ export async function Artisans() {
           <h2>🔧 Nos artisans (édition 2026)</h2>
           <div className={styles.artisansGrid}>
             {artisans.map((artisan) => (
-              <div key={artisan.name} className={styles.artisanCard}>
-                <Avatar
-                  img={artisan.picture}
-                  name={artisan.name}
-                  role={artisan.role}
-                  linkedin={artisan.linkedin}
-                  github={artisan.github}
-                  x={artisan.x}
-                  withSocials={!!(artisan.linkedin || artisan.github || artisan.x)}
-                  classes={{ main: styles.artisanAvatarWrapper }}
-                />
-                {artisan.citation && (
-                  <blockquote className={styles.artisanCitation}>
-                    {artisan.citation}
-                  </blockquote>
-                )}
-              </div>
+              <MembreCard key={artisan.name} membre={artisan}/>
             ))}
           </div>
         </Section>
