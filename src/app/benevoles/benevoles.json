@@ -1,2 +1,14 @@
 [
+    {
+        "name": "Adrien Corvisier",
+        "picture": "/teams/adrien.png",
+        "role": "#Dev",
+        "linkedin": "https://www.linkedin.com/in/adrien-corvisier/"
+    },
+    {
+        "name": "Evann Corvisier",
+        "picture": "/teams/evann.jpg",
+        "role": "#Dev",
+        "linkedin": "https://www.linkedin.com/in/evann-corvisier-999842372/"
+    }
 ]
