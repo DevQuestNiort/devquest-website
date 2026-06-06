@@ -3,7 +3,6 @@ import { Card } from "@/components/Card";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./TremplinSection.module.scss";
-import { LinkButton } from "@/components/LinkButton";
 import { Chip, tagLabels } from "@/components/Chip";
 import { getAdaptedSpeakerById } from "@/data/scheduleAdapter";
 import { rooms } from "@/components/Schedule/common";
