@@ -16,4 +16,80 @@
         justify-content: center;
         gap: 2rem;
       }
+
+    .speakersRow {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .speakerCard {
+      text-decoration: none;
+      color: inherit;
+      background: var(--sable);
+      color: black;
+      border: 2px solid rgba(0, 0, 0, 0.08);
+      border-radius: 16px;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 0.75rem;
+      flex: 1;
+      min-width: 240px;
+      max-width: 320px;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
+
+      &:hover {
+        transform: translateY(-5px);
+        border-color: var(--primary-color);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+      }
+
+      @media (max-width: 768px) {
+        padding: 1.5rem;
+      }
+    }
+
+    .speakerPhoto {
+      border-radius: 50%;
+      object-fit: cover;
+      width: 96px;
+      height: 96px;
+    }
+
+    .speakerName {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .talkTitle {
+      font-size: 0.9rem;
+      font-style: italic;
+      margin: 0;
+      opacity: 0.85;
+    }
+
+    .categoryChip {
+      font-size: 0.75rem;
+    }
+
+    .sessionMeta {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      font-size: 0.85rem;
+      opacity: 0.75;
+    }
+
+    .sessionRoom {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.3rem;
+    }
   }
