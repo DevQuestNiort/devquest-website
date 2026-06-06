@@ -70,12 +70,6 @@ export async function TremplinSection() {
         <span>Ils défendront leur conférence les <strong>11 et 12 juin</strong>, devant toute la communauté, forgés au feu du Tremplin, prêts pour la grande scène !</span>
 
         <span>Rendez-vous au <strong>DevQuest</strong> pour les acclamer comme ils le méritent&nbsp;!</span>
-
-        <div id={styles.rows}>
-          <LinkButton theme="Secondary" href="https://www.linkedin.com/events/7447971060647534592?viewAsMember=true">
-            Je m'inscris comme spectateur·ice
-          </LinkButton>
-        </div>
       </Card>
     </Section>
   );
