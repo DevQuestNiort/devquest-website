@@ -1,16 +1,16 @@
 [
     {
         "name": "Evann Corvisier",
-        "picture": "/teams/evann.jpg",
+        "picture": "/teams/corvisier-e.jpg",
         "role": "#Dev",
         "citation": "Evann répond à l'appel le jour J, épée à la main, prêt à repousser les bugs et les imprévus.",
         "linkedin": "https://www.linkedin.com/in/evann-corvisier-999842372/"
     },
     {
         "name": "Adrien Corvisier",
-        "picture": "/teams/adrien.png",
+        "picture": "/teams/corvisier-a.png",
         "role": "#Dev",
-        "citation": "Adrien est un artisan novice qui répond à l'appel pour l'édition 2026. Il réalisera les quêtes qu'on lui confiera, même faire des cafés.",
+        "citation": "Adrien a répondu à l'appel du DevQuest sans trop savoir dans quoi il s'embarquait. Il le sait maintenant, et il est encore là.",
         "linkedin": "https://www.linkedin.com/in/adrien-corvisier/",
         "github": "https://github.com/Crv113"
     },
@@ -18,7 +18,43 @@
         "name": "Thomas Riou",
         "picture": "/teams/riou-t.png",
         "role": "#Dev",
-        "citation": "Thomas Reviens une deuxième année pour faire en sorte que le ravitaillement se passe bien. Une pièce essentielle au puzzle du Devquest!",
-        "linkedin": "https://www.linkedin.com/in/thomas-riou-westdev/"
+        "citation": "Ancien barman reconverti dans le dev. Quel que soit le métier : la pression on ne la subit toujours pas, on la boit.",
+        "linkedin": "https://www.linkedin.com/in/thomas-riou-westdev/",
+        "github": "https://github.com/thomasR35"
+    },
+    {
+        "name": "Baptiste Martin",
+        "picture": "/teams/martin-b.jpeg",
+        "role": "#Dev",
+        "citation": "Baptiste n'avait pas prévu de partir à l'aventure cette année.Puis le DevQuest a lancé son appel, et les héros ne refusent pas.",
+        "linkedin": "https://www.linkedin.com/in/bapmartin/",
+        "github": "https://github.com/vosketalor"
+    },
+    {
+        "name": "Loic Hamelin",
+        "picture": "/teams/hamelin.jpeg",
+        "role": "#Dev",
+        "citation": "Il grogne, il râle, il remet les pendules à l'heure. Sans lui, le DevQuest serait un chaos joyeux. Avec lui, c'est juste joyeux.",
+        "linkedin": "https://www.linkedin.com/in/loic-hamelin-04967371/"
+    },
+    {
+        "name": "Dominique Thomas",
+        "role": "#Commercial",
+        "citation": "Commercial en ESN, Dominique connecte les besoins métiers aux bonnes expertises — du dev à la cybersécurité. Sa conviction au DevQuest : en IT, la valeur ne se promet pas, elle se prouve.",
+        "linkedin": "https://www.linkedin.com/in/dominique-thomas-502901192/"
+    },
+    {
+        "name": "Amar Ghemmour",
+        "picture": "/teams/ghemmour.jpeg",
+        "role": "#Dev",
+        "citation": "Amar prétend ne pas savoir ce qu'il fait, mais il fait de son mieux pour savoir.",
+        "linkedin": "https://www.linkedin.com/in/amar-ghemmour/"
+    },
+    {
+        "name": "Arnaud Gaborit",
+        "picture": "/teams/gaborit.jpeg",
+        "role": "#Dev",
+        "citation": "Arnaud n'est pas venu au DevQuest par hasard. Les quêtes, ça se choisit, et il a choisi celle-ci.",
+        "linkedin": "https://www.linkedin.com/in/arnaud-gaborit-3a9697144/"
     }
 ]

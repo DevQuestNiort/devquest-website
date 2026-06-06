@@ -8,6 +8,7 @@ export default function MembreCard({ membre }: { membre: Membre }) {
               <Avatar
                 img={membre.picture}
                 name={membre.name}
+                role={membre.role}
                 linkedin={membre.linkedin}
                 github={membre.github}
                 x={membre.x}
