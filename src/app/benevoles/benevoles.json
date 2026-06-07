@@ -57,5 +57,12 @@
         "role": "#Dev",
         "citation": "Arnaud n'est pas venu au DevQuest par hasard. Les quêtes, ça se choisit, et il a choisi celle-ci.",
         "linkedin": "https://www.linkedin.com/in/arnaud-gaborit-3a9697144/"
+    },
+    {
+        "name": "Aurélie Boubée",
+        "picture": "/avatar/img_6-square.png",
+        "role": "#Scrum",
+        "citation": "Bergère qui guide vers l'autonomie des troupeaux sauvages ou égarés à ramener sur le chemin. Mon seul guide est l'étoile polaire qui définit ma voie à suivre.",
+        "linkedin": "https://www.linkedin.com/in/aurélie-boubée-971174bb"
     }
 ]
