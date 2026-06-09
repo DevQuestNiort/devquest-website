@@ -63,10 +63,19 @@
 
 
 
-  .cancelled {
-    opacity: 50%;
+  .slotSession.cancelled {
+    background: repeating-linear-gradient(
+      -45deg,
+      #c8c8c8,
+      #c8c8c8 8px,
+      #e0e0e0 8px,
+      #e0e0e0 16px
+    );
+    color: #555;
+
     .sessionTitle {
       text-decoration: line-through;
+      color: #555;
     }
   }
 

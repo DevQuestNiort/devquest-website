@@ -66,7 +66,7 @@ const Session = ({ session }: { session: FullSession }) => {
   return (
     <div
       key={session.title}
-      className={classNames(styles.slot, styles.slotSession)}
+      className={classNames(styles.slot, styles.slotSession, session.cancelled && styles.cancelled)}
       style={{
         gridColumn,
         gridRow: slotToRow(session.slot),

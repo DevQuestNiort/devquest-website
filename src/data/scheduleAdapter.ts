@@ -293,7 +293,9 @@ export const getAdaptedScheduleForDay = async (
   const sessions: FullSession[] = daySessions
     .map((session) => {
       const proposal = session.proposal ?? null;
-      const title = proposal?.title ?? session.title ?? "Session a venir";
+      const rawTitle = proposal?.title ?? session.title ?? "Session a venir";
+      const cancelled = rawTitle.startsWith("CANCELED -");
+      const title = cancelled ? rawTitle.replace(/^CANCELED\s*-\s*/, "") : rawTitle;
       const slug = `${toSlug(title)}-${session.id.slice(0, 8)}`;
 
       const speakers: Speaker[] = (proposal?.speakers ?? []).map((speaker) => ({
@@ -319,7 +321,7 @@ export const getAdaptedScheduleForDay = async (
         speakersId: speakers.map((speaker) => speaker.id),
         speakers,
         tags: toTags(proposal?.categories, title),
-        cancelled: false,
+        cancelled,
         day: selectedDay.idDay,
         slot: slotBySessionId[session.id],
         format,

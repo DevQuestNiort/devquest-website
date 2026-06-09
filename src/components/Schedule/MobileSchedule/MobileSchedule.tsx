@@ -101,7 +101,7 @@ const FixedSlot = ({ slot }: { slot: Slot }) => {
 const Session = ({ session }: { session: FullSession }) => {
   return (
     <div
-      className={classNames(styles.slot, styles.session, styles.slotSession)}
+      className={classNames(styles.slot, styles.session, styles.slotSession, session.cancelled && styles.cancelled)}
     >
       <SessionInfo session={session} />
     </div>

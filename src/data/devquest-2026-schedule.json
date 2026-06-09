@@ -201,27 +201,27 @@
       }
     },
     {
-      "id": "cmmchu2fw025m01ns3yz40v1k",
+      "id": "generatedByVGO100",
       "start": "2026-06-11T14:00:00.000Z",
       "end": "2026-06-11T14:20:00.000Z",
       "track": "Observatoire",
-      "title": "UX/UI s'il vous plaît, ne faites pas ça !",
+      "title": "Votre chatbot IA n'est pas sécurisé (Le notre non plus, au début)",
       "language": "fr",
       "proposal": {
         "id": "cmjb6d3v5006j01oa3goxue85",
         "proposalNumber": 12,
-        "abstract": "## 🎤 Pitch\n\nDans ce talk, on va vider notre sac !\nVous savez, ces moments où vous ouvrez Figma et que votre œil gauche commence à trembler ?  \nCes écrans où rien n’est aligné, ces parcours qui changent les règles à chaque clic ?  \nOui, on va parler de *ça*.\n\nParce qu’on les aime bien, nos UX/UI, mais parfois... ils nous testent. 😅  \nSi vous sentez que ça frotte un peu dans votre équipe, venez rire (et pleurer) ensemble !\n\n---\n\n## 🎯 Take away\n\n- Détecter les (très) mauvais patterns avant qu’ils n’atterrissent dans votre backlog  \n- Des idées concrètes pour transformer le facepalm en high five ✋",
+        "abstract": "Tout le monde veut son chatbot, mais personne ne veut finir en 'bad buzz' à cause d'une hallucination créative. Si les LLM brillent par leur éloquence, leur propension à inventer des faits est le principal frein à leur déploiement face aux clients.\n\n​Dans ce talk, je vous propose un retour d'expérience concret sur la sécurisation des agents conversationnels. Nous dépasserons le stade du simple 'système de prompt' pour explorer des solutions robustes : implémentation avancée du RAG (Retrieval-Augmented Generation), mise en place de garde-fous (guardrails), et stratégies de vérification factuelle.\n\n​L'objectif ? Repartir avec une boîte à outils éprouvée pour dompter l'imprévisibilité des modèles et garantir des réponses fiables à vos utilisateurs.",
         "level": "BEGINNER",
         "formats": ["Quickie"],
-        "categories": ["Design & UX"],
+        "categories": ["Quêtes Secondaires"],
         "speakers": [
           {
-            "id": "cmjb6d3uv006i01oauzf8sx4z",
-            "name": "Dorian Lamandé",
-            "bio": "À la fois formateur et leader d'équipe, Dorian partage avec enthousiasme ses compétences humaines et techniques pour inspirer et guider chacun vers l'exploitation totale de leurs capacités. Ces 10 dernières années, il a notamment travaillé, en tant que Tech Lead, à la formation des développeurs aux pratiques du software craftsmanship.",
-            "company": null,
-            "picture": "https://sessionize.com/image/860d-200o200o2-af67621f-91b1-453a-8f1d-d0a857a71aee.jpg",
-            "socialLinks": ["https://github.com/dlamande"]
+            "id": "generatedByVGO200",
+            "name": "Benjamin Marcheix",
+            "bio": "",
+            "company": "",
+            "picture": "",
+            "socialLinks": ["https://bsky.app/profile/klf37.bsky.social"]
           }
         ]
       }
@@ -354,7 +354,7 @@
       "proposal": {
         "id": "cmmozj3v001xz01nvhx4faskn",
         "proposalNumber": 167,
-        "abstract": "Dicefolk est un jeu vidéo indépendant sorti en 2024, après 4 ans de développement.\nLe jeu se forme autour d'une petite équipe et cette taille réduite devient un enjeu principal pour mener à bien ce projet.\nPaul Gerst est le programmeur de Dicefolk et il reviendra sur les outils mis en place dans ce contexte : \n - Comment structurer le code pour faciliter la reproductibilité des bugs ?\n - Comment faciliter l'accès aux rapports de bugs ?\n - Quels outils de visualisation pour diagnostiquer les problèmes ?",
+        "abstract": "Dicefolk est un jeu vidéo indépendant sorti en 2024, après 4 ans de développement.\n\nLe jeu se forme autour d'une petite équipe et cette taille réduite devient un enjeu principal pour mener à bien ce projet.\n\nPaul Gerst est le programmeur de Dicefolk et il reviendra sur les outils mis en place dans ce contexte : \n - Comment structurer le code pour faciliter la reproductibilité des bugs ?\n - Comment faciliter l'accès aux rapports de bugs ?\n - Quels outils de visualisation pour diagnostiquer les problèmes ?",
         "level": "INTERMEDIATE",
         "formats": ["Quickie"],
         "categories": ["Quêtes Secondaires"],
@@ -754,31 +754,37 @@
       "start": "2026-06-11T10:00:00.000Z",
       "end": "2026-06-11T12:00:00.000Z",
       "track": "Laboratoire",
-      "title": "OpenCodeQuest : un combat de héros et de villains !",
+      "title": "Workflows agentiques : passer du no-code à l’échelle industrielle avec MCP et Otoroshi-LLM",
       "language": "fr",
       "proposal": {
         "id": "cmkkyw871003o01s4qovmc3vo",
         "proposalNumber": 66,
-        "abstract": "Préparez-vous pour un workshop pas comme les autres ! Nous vous invitons à rejoindre notre workshop où l'innovation technologique rencontre le monde palpitant des Super-Héros et des Super-Vilains. \nVenez découvrir ce que Platform Engineering peut vous apporter en utilisant Quarkus, AI, Kubernetes tout en plongeant dans une aventure héroïque.\n\nObjectifs :\nPlongez dans les meilleures pratiques du Platform Engineering pour automatiser et sécuriser les processus de déploiement continu (CI/CD), garantissant ainsi une livraison rapide fiable et sécurisée des applications.\nDécouvrez comment Quarkus, le framework Java natif pour le cloud, peut accélérer le développement de vos applications et améliorer leur performance, tout en réduisant considérablement leur empreinte mémoire.\nDécouvrez enfin comment créer une application intelligente à partir d'un modèle LLM exposé et enrichi dans OpenShift AI.\n\nPour ce workshop, nous utiliserons OpenShift (la distribution Kubernetes d'entreprise de Red Hat) et tout se déroulera en utilisant le navigateur des participants.",
+        "abstract": " L'année écoulée a vu l'explosion des agents IA, portés par une multitude de frameworks (LangGraph, smolagents, OpenAI agents SDK...) et d'outils no-code (n8n, Flowise, LangFlow...). Pourtant, si la création d'un agent est devenue simple, son industrialisation reste un défi majeur : fiabilité, sécurité et passage à l'échelle sont souvent les parents pauvres de ces expérimentations.\n\n Contenu de l'atelier : cet atelier propose une immersion pratique pour transformer l'essai agentique en solution de production (construction visuelle d'une architecture robuste avec le moteur de workflow d'Otoroshi-LLM, conçu pour intégrer nativement les contraintes de sécurité et de pilotage).  ",
         "level": "INTERMEDIATE",
         "formats": ["Workshop"],
         "categories": ["Cloud & DevSecOps"],
         "speakers": [
-          {
-            "id": "cmkkyw85g003m01s4csll1btg",
-            "name": "Sebastien Lallemand",
-            "bio": "Sébastien joins Red Hat France 3 years ago as a Specialist Solution Architect focusing on Developer Experience and Security topics in OpenShift.\nHe's working in IT for 25 years in different companies but always with OpenSource technologies and Linux.",
-            "company": "Red Hat",
-            "picture": "https://lh3.googleusercontent.com/a/ACg8ocKYWCljR3Re2jIyWNIAbZ2rKF8ZsSkRDvO3YR8NyFL8vnEeohoN=s96-c",
-            "socialLinks": ["https://www.linkedin.com/in/sebastien-lallemand/"]
-          },
-          {
-            "id": "cmkkz5s7t003u01s4yg7bgoxt",
-            "name": "Guillaume Estrem",
-            "bio": null,
-            "company": null,
-            "picture": "https://lh3.googleusercontent.com/a/ACg8ocIFy1YJUqWZdSmLIGk1d2Hx-QT3ctJggDEApbg4DtqdhZs1QSb2=s96-c",
-            "socialLinks": []
+            {
+            "id": "generatedbumvgo20001",
+            "name": "Mathieu ANCELIN",
+            "bio": "CTO & Co-Founder @ Cloud APIM, dev @Serli, Open source enthusiast, I created Otoroshi, an opensource http reverse proxy and API Management plateform",
+            "company": "Cloud APIM & SERLI",
+            "picture": "https://avatars3.githubusercontent.com/u/277206?v=4",
+            "socialLinks": [
+              "https://github.com/mathieuancelin",
+              "https://x.com/TrevorReznik"
+            ]
+          },   {
+            "id": "generatedbumvgo20002",
+            "name": "Sébastien PRUNIER",
+            "bio": "Je suis Lead Developer chez SERLI à Poitiers. Depuis une vingtaine d'années, je conçois et développe des plateformes web et des APIs, avec une affection particulière pour les données géospatiales : PostGIS, tuiles vectorielles, standards OGC. J'ai notamment contribué à Aux Alentours par MAIF, plateforme de sensibilisation aux risques climatiques et technologiques, et au DICRIM Numérique, et je développe aujourd'hui Sanson, un serveur géospatial open source. Curieux insatiable de cloud, d'IA et de tout ce qui se passe dans la communauté tech, j'écris aussi sur mon blog.",
+            "company": "SERLI",
+            "picture": "https://avatars.githubusercontent.com/u/600458?v=4",
+            "socialLinks": [
+              "https://github.com/sebprunier",
+              "https://x.com/sebprunier",
+              "https://www.linkedin.com/in/sebastien-prunier/"
+            ]
           }
         ]
       }
@@ -1054,40 +1060,32 @@
       }
     },
     {
-      "id": "cmmchyekh025z01nseduuwik3",
+      "id": "generatedbyvgo0001",
       "start": "2026-06-12T09:00:00.000Z",
       "end": "2026-06-12T09:50:00.000Z",
       "track": "Forge",
-      "title": "Du frigo à l’assiette : ce que mijote vraiment votre bundler JavaScript 🧑🏼‍🍳",
+      "title": "Fatigués de la POO ? Passez à la DOP !",
       "language": "fr",
       "proposal": {
-        "id": "cml10o6y3012v01k29qby05bh",
+        "id": "generatedbyvgo0002",
         "proposalNumber": 85,
-        "abstract": "Pour faire un site aujourd’hui, il suffit théoriquement de trois ingrédients : de l’HTML, du CSS et du JavaScript. 🍳 La recette semble très simple… jusqu’à ce que l’on ouvre le frigo des technologies. Aujourd’hui, personne ne cuisine avec ces ingrédients \"bruts\", vous avez du TypeScript, du SCSS, des images, des polices, des JSON… et même parfois du code dont vous n’avez pas besoin ! 🥴\n\nC’est là qu’intervient le bundler 🧑🏼‍🍳 Comme un chef, il prend tous ces ingrédients éparpillés, les prépare, les assemble et les transforme en un plat prêt à être servi au navigateur. Au menu : transpilation, minification, tree-shaking et code splitting… autant d’étapes indispensables qui rendent votre application optimisée et performante.\n\nInstallez‑vous confortablement et mettez les pieds sous la table, dans ce talk nous lèverons le couvercle pour enfin comprendre l’intérieur de votre bundler 🥘",
+        "abstract": "Depuis Java 8 et l'introduction de d'une dose de programmation fonctionnelle, le langage a beaucoup évoluer.\n\nChaque release ou presque apporte son lot de nouveautés qui nous permettent de repenser nos applications, qui nous donnent de nouveaux outils.\n\nLa Programmation Orientée Données (Data Oriented Programming) représente un paradigme émergent qui privilégie la manipulation des données plutôt que l’encapsulation des comportements.\n\nCe guide pratique -sous forme de refactoring- explore les étapes clés pour transformer du code Java, d'une approche traditionnelle, orientés objet vers une approche orientée données.\n\n🏹 Armez vos arcs de nouvelles cordes et repartez avec un kata à faire en équipe.",
         "level": "BEGINNER",
         "formats": ["Conférence"],
-        "categories": ["Frontend"],
+        "categories": ["Backend"],
         "speakers": [
           {
-            "id": "cml10o6xg012u01k208if51v7",
-            "name": "Mickael Alves",
-            "bio": "👋🏼 Web Maker, application builder, and passionate speaker on web development, design, computing, and new technologies! 👨🏻‍💻\n\nTech Lead Frontend at @Zenika 🔴 & @BedrockStreaming 📺 , I also enjoy sharing my knowledge through teaching and speaking at conferences. I’m a co-founder of @DevFestLyon and a co-organizer of @LyonJS 🦁, an @Appwrite Hero 🦸🏼‍♂️, and a @Remotion Expert 🎬",
-            "company": "Zenika",
-            "picture": "https://github.com/user-attachments/assets/b08c2280-1a9c-4378-a65e-4e78e212b031",
+            "id": "cmm4kl32e004n01nsw1nsjjdd",
+            "name": "Jérôme Tama",
+            "bio": "Senior developpeur, Techlead, Architecte applicatif, en fonction des jours, de l'heure de la journée.\n\nJe vois mon travail comme celui d'un compagnon du devoir: \n\n* choisir la bonne technologie pour servir le but\n* faire bien\n* faire aimer le travail bien fait\n* former les autres à mon tour.\n\nJe me passionne particulièrement pour le java, l'environnement des conteneurs, le monde de l'open-source pour lequel j'essaie de ne pas être qu'un consommateur.",
+            "company": "Onepoint",
+            "picture": "https://1.gravatar.com/avatar/c2c112a09d72f8dc37e73a382da0bfafc2167b44f69e769ac4d0bae0d9675995?size=512",
             "socialLinks": [
-              "https://github.com/mickaelalvs",
-              "https://x.com/mickaelalvs",
-              "https://bsky.app/profile/mickaelalvs.dev",
-              "https://mickaelalvs.dev/"
+              "https://github.com/jtama",
+              "https://x.com/jtama_",
+              "https://bsky.app/profile/jtama.bsky.social",
+              "https://www.linkedin.com/in/j%C3%A9r%C3%B4me-tama-591699"
             ]
-          },
-          {
-            "id": "cmk34rtre00ds01p27rggrqov",
-            "name": "Etienne IDOUX",
-            "bio": "💁‍♂️ Jeune développeur animé par sa passion, Etienne IDOUX se présente comme un consultant web travaillant à Zenika 🔴. Entrain de parfaire ses armes en tant que Senior Développeur Frontend 🖼️ à Bedrock ⚫, il pimente son temps libre de toute sorte de projet. Il aime se rendre à des conférences afin d'apprendre et de faire apprendre à travers des talks variés !",
-            "company": "Zenika",
-            "picture": "https://lh3.googleusercontent.com/a-/AFdZucrL5kWEUXMLAnMhQM3DVsd44PrecTtc2ZbMC35vfw=s96-c",
-            "socialLinks": ["https://bsky.app/profile/eidoux.bsky.social"]
           }
         ]
       }
