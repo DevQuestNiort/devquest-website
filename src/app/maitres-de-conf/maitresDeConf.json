@@ -1,5 +1,6 @@
 [
   {
+    "uid":"f6c73fdb-1b56-43f2-b2ec-2489911582ed",
     "picture": "/teams/prunier.png",
     "name": "Sébastien Prunier",
     "role": "#Bénévole",
@@ -7,6 +8,7 @@
     "linkedin": "https://www.linkedin.com/in/sebastien-prunier/"
   },
   {
+    "uid":"f7136c44-6421-47bf-9e25-abf51d5d261c",
     "picture": "/teams/gagnard.png",
     "name": "Florian Gagnard",
     "role": "#Bénévole",
@@ -14,6 +16,7 @@
     "linkedin": "https://www.linkedin.com/in/florian-gagnard/"
   },
   {
+    "uid":"f7bf426f-ea75-4f99-94d3-e6d3e887a649",
     "picture": "/teams/joffre.png",
     "name": "Jean-Baptiste Joffre",
     "role": "#Bénévole",
@@ -21,6 +24,7 @@
     "linkedin": "https://www.linkedin.com/in/jean-baptiste-joffre-459808122/"
   },
   {
+    "uid":"1763c54d-5325-4594-abfc-1ebaea3f110d",
     "picture": "/teams/raud.png",
     "name": "Jean-Philippe Raud",
     "role": "#Bénévole",
@@ -28,6 +32,7 @@
     "linkedin": "https://www.linkedin.com/in/jeanphilippe-raud/"
   },
   {
+    "uid":"c4a237ef-26d9-4d25-ad3d-32f80ea99295",
     "picture": "/teams/maudry.png",
     "name": "Anthony Maudry",
     "role": "#Bénévole",

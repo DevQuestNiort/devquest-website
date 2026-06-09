@@ -128,6 +128,33 @@
     font-size:1.5rem;
 }
 
+.mcBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.75;
+    }
+}
+
+.mcAvatar {
+    border-radius: 50%;
+    border: 2px solid var(--secondary-color);
+}
+
+.mcLabel {
+    color: var(--dark);
+    font-style: italic;
+    text-align: center;
+    white-space: nowrap;
+}
+
 .iframeOpenfeedback {
     background-color: #303030;
     height: 520px;

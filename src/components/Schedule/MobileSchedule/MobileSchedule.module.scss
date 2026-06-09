@@ -79,6 +79,14 @@
     }
   }
 
+  .mcAvatar {
+    border-radius: 50%;
+    border: 2px solid var(--blanc);
+    opacity: 0.85;
+    flex-shrink: 0;
+    margin-left: auto;
+  }
+
   .disableLinkStyle{
     text-decoration: none;
     color: inherit;

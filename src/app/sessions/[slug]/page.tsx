@@ -115,6 +115,20 @@ const Session = async ({ params: { slug } }: SessionProps) => {
             slug={myFullSession.slug}
             className={styles.calendarCard}
           />
+          {myFullSession.maitreDeConf && (
+            <Link href="/maitres-de-conf" className={styles.mcBlock}>
+              <Image
+                src={myFullSession.maitreDeConf.picture}
+                alt={myFullSession.maitreDeConf.name}
+                width={36}
+                height={36}
+                className={styles.mcAvatar}
+              />
+              <span className={styles.mcLabel}>
+                MC : {myFullSession.maitreDeConf.name}
+              </span>
+            </Link>
+          )}
         </div>
 
         <div className={styles.speakers}>

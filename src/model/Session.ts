@@ -12,6 +12,7 @@ export interface Session {
   slot: string;
   day: string;
   hour?: string;
+  mc?: string;
 }
 
 export type Format = "Workshop" | "Quickie" | "Workshop";

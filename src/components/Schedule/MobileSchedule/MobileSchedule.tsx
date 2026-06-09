@@ -3,6 +3,7 @@ import { Slot, SlotTypeLabel } from "@/model/Slot";
 import { rooms, Speakers, Tags } from "../common";
 import classNames from "classnames";
 import Link from "next/link";
+import Image from "next/image";
 import React, { Fragment, PropsWithChildren } from "react";
 import styles from "./MobileSchedule.module.scss";
 import AfterPartySlot from "@/components/afterparty/AfterPartySlot";
@@ -122,6 +123,16 @@ const SessionInfo = ({ session }: { session: FullSession }) => {
       <Stack spacing={2} alignItems="center" direction="row">
         {session.tags && <Tags tags={session.tags} />}
         <span>{session.room}</span>
+        {session.maitreDeConf && (
+          <Image
+            src={session.maitreDeConf.picture}
+            alt={`MC : ${session.maitreDeConf.name}`}
+            title={`Maître de Conf : ${session.maitreDeConf.name}`}
+            width={28}
+            height={28}
+            className={styles.mcAvatar}
+          />
+        )}
       </Stack>
       {session.speakers.length != 0 && <Speakers speakers={session.speakers} />}
     </Link>

@@ -1,5 +1,5 @@
 import { promises as fs } from "fs";
-import { FullSession } from "@/model/FullSession";
+import { FullSession, MaitreDeConf } from "@/model/FullSession";
 import { Slot } from "@/model/Slot";
 import { Speaker } from "@/model/Speaker";
 import { Format, Tags } from "@/model/Session";
@@ -30,6 +30,7 @@ type RawScheduleSession = {
   title?: string | null;
   language?: string | null;
   proposal?: RawProposal | null;
+  mc?: string | null;
 };
 
 type RawScheduleFile = {
@@ -168,6 +169,14 @@ export const loadBreaksFile = async (): Promise<RawBreak[]> =>
     await fs.readFile(process.cwd() + "/src/data/breaks.json", "utf8"),
   ) as RawBreak[];
 
+export const loadMaitresDeConfFile = async (): Promise<MaitreDeConf[]> =>
+  JSON.parse(
+    await fs.readFile(
+      process.cwd() + "/src/app/maitres-de-conf/maitresDeConf.json",
+      "utf8",
+    ),
+  ) as MaitreDeConf[];
+
 export const getScheduleDays = async (): Promise<ScheduleDay[]> => {
   const schedule = await loadScheduleFile();
   return schedule.days.map((dayIso, index) => ({
@@ -193,10 +202,12 @@ const breakTimeToMinutes = (startTime: string) => {
 export const getAdaptedScheduleForDay = async (
   daySlug: string,
 ): Promise<AdaptedScheduleData> => {
-  const [schedule, allBreaks] = await Promise.all([
+  const [schedule, allBreaks, maitres] = await Promise.all([
     loadScheduleFile(),
     loadBreaksFile(),
+    loadMaitresDeConfFile(),
   ]);
+  const maitresByUid = new Map(maitres.map((m) => [m.uid, m]));
   const days = await getScheduleDays();
   const selectedDay = days.find((day) => day.slug === daySlug) ?? days[0];
 
@@ -324,6 +335,7 @@ export const getAdaptedScheduleForDay = async (
         cancelled,
         day: selectedDay.idDay,
         slot: slotBySessionId[session.id],
+        maitreDeConf: session.mc ? maitresByUid.get(session.mc) : undefined,
         format,
         categorie: proposal?.categories?.[0] ?? "",
         hour: toScheduleTime(session.start),

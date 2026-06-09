@@ -10,6 +10,7 @@
       "track": "Beffroi",
       "title": "Vous croyez connaître Git ? Challenge Accepted",
       "language": "fr",
+      "mc":"",
       "proposal": {
         "id": "cml71hiqn01ww01k26q5luag7",
         "proposalNumber": 93,
@@ -47,6 +48,7 @@
       "track": "Forge",
       "title": "🚀 La forge logicielle comme produit interne : pourquoi vos devs sont vos vrais clients",
       "language": "fr",
+      "mc":"1763c54d-5325-4594-abfc-1ebaea3f110d",
       "proposal": {
         "id": "cml87sqao029001k236kc0ksx",
         "proposalNumber": 99,
@@ -73,6 +75,7 @@
       "track": "Observatoire",
       "title": "Catch me if you can : Comment j'ai volé ma moto aux voleurs (deux fois)",
       "language": "fr",
+      "mc":"f6c73fdb-1b56-43f2-b2ec-2489911582ed",
       "proposal": {
         "id": "cmlvfj47b01bl01phltmzknxm",
         "proposalNumber": 131,
@@ -103,6 +106,7 @@
       "track": "Observatoire",
       "title": "Faire évoluer une bibliothèque React interne : entre cohérence, flexibilité et contraintes du réel",
       "language": "fr",
+      "mc":"f7136c44-6421-47bf-9e25-abf51d5d261c",
       "proposal": {
         "id": "cmkcdwts800ck01qqj1yydpdr",
         "proposalNumber": 55,
@@ -129,6 +133,7 @@
       "track": "Observatoire",
       "title": "Les rouages de l’auto-complétion",
       "language": "fr",
+      "mc":"c4a237ef-26d9-4d25-ad3d-32f80ea99295",
       "proposal": {
         "id": "cmmp2pe70026e01nvud5xdy3p",
         "proposalNumber": 169,
@@ -155,6 +160,7 @@
       "track": "Observatoire",
       "title": "Ce que les développeurs \"haut niveau\" peuvent (re)apprendre des dev embarqués",
       "language": "fr",
+      "mc":"f6c73fdb-1b56-43f2-b2ec-2489911582ed",
       "proposal": {
         "id": "cml81mja2024501k2m0w49a32",
         "proposalNumber": 95,
@@ -181,6 +187,7 @@
       "track": "Observatoire",
       "title": "Le code change, la doc suit : trois skills en relais",
       "language": "fr",
+      "mc":"c4a237ef-26d9-4d25-ad3d-32f80ea99295",
       "proposal": {
         "id": "cmmchzr70026801ns34wu2lxp",
         "formats": ["Quickie"],
@@ -207,6 +214,7 @@
       "track": "Observatoire",
       "title": "Votre chatbot IA n'est pas sécurisé (Le notre non plus, au début)",
       "language": "fr",
+      "mc":"c4a237ef-26d9-4d25-ad3d-32f80ea99295",
       "proposal": {
         "id": "cmjb6d3v5006j01oa3goxue85",
         "proposalNumber": 12,
@@ -233,6 +241,7 @@
       "track": "Forge",
       "title": "404 - Happiness not found!",
       "language": "fr",
+      "mc":"f7bf426f-ea75-4f99-94d3-e6d3e887a649",
       "proposal": {
         "id": "cmjqzx99l000b01l4oun1qeu9",
         "proposalNumber": 35,
@@ -259,6 +268,7 @@
       "track": "Forge",
       "title": "Hacker-Proof : Renforcez la Sécurité de Votre Code en 15 Minutes",
       "language": "fr",
+      "mc":"f6c73fdb-1b56-43f2-b2ec-2489911582ed",
       "proposal": {
         "id": "cmm4o2ms3005x01nswbqv4ieo",
         "proposalNumber": 143,
@@ -285,6 +295,7 @@
       "track": "Beffroi",
       "title": "Atelier : 10 tests simples pour améliorer l'accessibilité de votre site",
       "language": "fr",
+      "mc":"",
       "proposal": {
         "id": "cmj9tog9i004y01oa5kz7bcqd",
         "proposalNumber": 8,
@@ -322,6 +333,7 @@
       "track": "Observatoire",
       "title": "L’ampoule qui en savait trop : voyage au cœur de la sécurité des objets connectés",
       "language": "fr",
+      "mc":"f6c73fdb-1b56-43f2-b2ec-2489911582ed",
       "proposal": {
         "id": "cmm0yqmf300hf01ql9xtgstxd",
         "proposalNumber": 137,
@@ -351,6 +363,7 @@
       "track": "Forge",
       "title": "Dicefolk : retour d'expérience de la programmation d'un jeu vidéo indépendant",
       "language": "fr",
+      "mc":"1763c54d-5325-4594-abfc-1ebaea3f110d",
       "proposal": {
         "id": "cmmozj3v001xz01nvhx4faskn",
         "proposalNumber": 167,
@@ -377,6 +390,7 @@
       "track": "Observatoire",
       "title": "Ce que les devs peuvent attendre d'un chef de projet",
       "language": "fr",
+      "mc":"f6c73fdb-1b56-43f2-b2ec-2489911582ed",
       "proposal": {
         "id": "cmm1wwbdq00mh01ql169r2ul0",
         "proposalNumber": 138,
@@ -403,6 +417,7 @@
       "track": "Forge",
       "title": "Object Calisthenics : simplifier le code pour retrouver le métier",
       "language": "fr",
+      "mc":"f7bf426f-ea75-4f99-94d3-e6d3e887a649",
       "proposal": {
         "id": "proposalManuelle",
         "proposalNumber": 115,
@@ -432,6 +447,7 @@
       "track": "Laboratoire",
       "title": "Développer un agent IA : Ce qu'on ne te montre jamais dans les démos",
       "language": "fr",
+      "mc":"",
       "proposal": {
         "id": "cmk8t0veg002a01qqe03jelfv",
         "proposalNumber": 50,
@@ -469,6 +485,7 @@
       "track": "Observatoire",
       "title": "Le bug n'est pas dans le code ! J'ai enfin compris pourquoi 50% des femmes quittent la tech avant 35 ans",
       "language": "fr",
+      "mc":"f7136c44-6421-47bf-9e25-abf51d5d261c",
       "proposal": {
         "id": "cmmfbgq5a03fc01ns6n3fm6zn",
         "proposalNumber": 160,
@@ -495,6 +512,7 @@
       "track": "Forge",
       "title": "Quel avenir pour les devs à l'ère de la GenAI ?",
       "language": "fr",
+      "mc":"f7bf426f-ea75-4f99-94d3-e6d3e887a649",
       "proposal": {
         "id": "cmkawn83l006e01qqfo7rmac6",
         "proposalNumber": 52,
@@ -524,6 +542,7 @@
       "track": "Forge",
       "title": "Chip-8 : Le projet idéal pour maîtriser les bases de l’émulation rétro-gaming",
       "language": "fr",
+      "mc":"f6c73fdb-1b56-43f2-b2ec-2489911582ed",
       "proposal": {
         "id": "cmj6u23yu000s01oa14ggsima",
         "proposalNumber": 1,
@@ -552,6 +571,7 @@
       "track": "Observatoire",
       "title": "L’animation web responsable : faire bouger sans alourdir",
       "language": "fr",
+      "mc":"c4a237ef-26d9-4d25-ad3d-32f80ea99295",
       "proposal": {
         "id": "cmlm9wvif02v401k2kw505zob",
         "proposalNumber": 120,
@@ -581,6 +601,7 @@
       "track": "Observatoire",
       "title": "Optimisation de performance bénéfice ou sacrifice ?",
       "language": "fr",
+      "mc":"c4a237ef-26d9-4d25-ad3d-32f80ea99295",
       "proposal": {
         "id": "cmjblh8k9007x01oaeustsop8",
         "proposalNumber": 18,
@@ -607,6 +628,7 @@
       "track": "Observatoire",
       "title": "Relation toxique avec sa base de données : 6 comportements à éviter",
       "language": "fr",
+      "mc":"c4a237ef-26d9-4d25-ad3d-32f80ea99295",
       "proposal": {
         "id": "cmm9k1jre015801ns4wtdq1vr",
         "proposalNumber": 154,
@@ -633,6 +655,7 @@
       "track": "Laboratoire",
       "title": "Specification Driven Development : Développer à l'ère des LLM",
       "language": "fr",
+      "mc":"",
       "proposal": {
         "id": "cmlm0e9e302pn01k2cbp64xds",
         "proposalNumber": 117,
@@ -669,6 +692,7 @@
       "track": "Beffroi",
       "title": "La recette secrète : lancez la création de votre produit !",
       "language": "fr",
+      "mc":"",
       "proposal": {
         "id": "cml0mxg6e00xx01k215ohj2in",
         "proposalNumber": 84,
@@ -695,6 +719,7 @@
       "track": "Forge",
       "title": "Keynote",
       "language": null,
+      "mc":"",
       "proposal": null
     },
     {
@@ -704,6 +729,7 @@
       "track": "Observatoire",
       "title": "Ma Quête du Lead : 10 conseils d'expert·es pour réussir et faire réussir",
       "language": "fr",
+      "mc":"c4a237ef-26d9-4d25-ad3d-32f80ea99295",
       "proposal": {
         "id": "cmmchua2u025q01ns2l6vogsp",
         "categories": ["Méthodo & Architecture"],
@@ -730,6 +756,7 @@
       "track": "Observatoire",
       "title": "CQRS & Event Sourcing : La revanche des micro-services",
       "language": "fr",
+      "mc":"c4a237ef-26d9-4d25-ad3d-32f80ea99295",
       "proposal": {
         "id": "cmjqzygwy000d01l4dj400l3y",
         "proposalNumber": 36,
@@ -756,6 +783,7 @@
       "track": "Laboratoire",
       "title": "Workflows agentiques : passer du no-code à l’échelle industrielle avec MCP et Otoroshi-LLM",
       "language": "fr",
+      "mc":"",
       "proposal": {
         "id": "cmkkyw871003o01s4qovmc3vo",
         "proposalNumber": 66,
@@ -796,6 +824,7 @@
       "track": "Forge",
       "title": "OpenRewrite: Refactor as code",
       "language": "fr",
+      "mc":"f7136c44-6421-47bf-9e25-abf51d5d261c",
       "proposal": {
         "id": "cmm4kmlcb004q01ns0ve319nn",
         "proposalNumber": 141,
@@ -827,6 +856,7 @@
       "track": "Observatoire",
       "title": "L'art d'être MANIAC",
       "language": "fr",
+      "mc":"f7136c44-6421-47bf-9e25-abf51d5d261c",
       "proposal": {
         "id": "cmm6f44d600ho01nsb556z6xz",
         "proposalNumber": 146,
@@ -853,6 +883,7 @@
       "track": "Laboratoire",
       "title": "Ajouter de l'IA à nos applications : et si c'était aussi simple qu'ajouter une librairie ?",
       "language": "fr",
+      "mc":"",
       "proposal": {
         "id": "cmke49yxt00ni01qqhsjmooz7",
         "proposalNumber": 59,
@@ -884,6 +915,7 @@
       "track": "Forge",
       "title": "Le seigneur du legacy, la communauté du code",
       "language": "fr",
+      "mc":"f7bf426f-ea75-4f99-94d3-e6d3e887a649",
       "proposal": {
         "id": "cmlp6p1oj008f01phnukqa8zw",
         "proposalNumber": 125,
@@ -910,6 +942,7 @@
       "track": "Forge",
       "title": "Comprendre Kubernetes de manière visuelle",
       "language": "fr",
+      "mc":"1763c54d-5325-4594-abfc-1ebaea3f110d",
       "proposal": {
         "id": "cmlp2034n007o01phsjd07hj9",
         "proposalNumber": 124,
@@ -939,6 +972,7 @@
       "track": "Forge",
       "title": "TechLeads : arrêtez de répondre. Commencez à questionner !",
       "language": "fr",
+      "mc":"f7136c44-6421-47bf-9e25-abf51d5d261c",
       "proposal": {
         "id": "cmman4p9y01j101ns2d91sy0t",
         "proposalNumber": 156,
@@ -970,6 +1004,7 @@
       "track": "Forge",
       "title": "État des Lieux de la Souveraineté du Cloud : Des Clouds Publics aux Clouds Confidentiels",
       "language": "fr",
+      "mc":"1763c54d-5325-4594-abfc-1ebaea3f110d",
       "proposal": {
         "id": "cml9myrij005w01k23yprf3v3",
         "proposalNumber": 104,
@@ -996,6 +1031,7 @@
       "track": "Forge",
       "title": "Votre guide de survie à l’IA dans le développement logiciel",
       "language": "fr",
+      "mc":"f7136c44-6421-47bf-9e25-abf51d5d261c",
       "proposal": {
         "id": "cml49sik001f101k22bq1vzzi",
         "proposalNumber": 88,
@@ -1022,6 +1058,7 @@
       "track": "Observatoire",
       "title": "Un donjon, deux donjons, trois donjons... Et si on automatisait la génération ?",
       "language": "fr",
+      "mc":"f7136c44-6421-47bf-9e25-abf51d5d261c",
       "proposal": {
         "id": "cmjpky8i0000601l4zcito3a7",
         "proposalNumber": 34,
@@ -1066,6 +1103,7 @@
       "track": "Forge",
       "title": "Fatigués de la POO ? Passez à la DOP !",
       "language": "fr",
+      "mc":"f6c73fdb-1b56-43f2-b2ec-2489911582ed",
       "proposal": {
         "id": "generatedbyvgo0002",
         "proposalNumber": 85,
@@ -1097,6 +1135,7 @@
       "track": "Forge",
       "title": "GitHub Copilot en 2026 : l'ère des agents autonomes",
       "language": "fr",
+      "mc":"f6c73fdb-1b56-43f2-b2ec-2489911582ed",
       "proposal": {
         "id": "cmloz9rno006i01phd20brdb8",
         "proposalNumber": 121,
@@ -1123,6 +1162,7 @@
       "track": "Beffroi",
       "title": "Arrêtez de miser sur vos Tests Unitaires !",
       "language": "fr",
+      "mc":"",
       "proposal": {
         "id": "cml2de2qb017c01k2elu1cqdc",
         "proposalNumber": 86,
@@ -1152,6 +1192,7 @@
       "track": "Forge",
       "title": "Server-Sent Events : quand l'API murmure à l’oreille de votre navigateur",
       "language": "fr",
+      "mc":"f7136c44-6421-47bf-9e25-abf51d5d261c",
       "proposal": {
         "id": "cmkqnoawx012901s4xuy0l16r",
         "proposalNumber": 75,

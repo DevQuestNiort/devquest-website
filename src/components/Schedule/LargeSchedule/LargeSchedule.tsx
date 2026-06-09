@@ -52,6 +52,16 @@ const SessionInfo = ({ session }: { session: FullSession }) => {
       <div className={styles.slotSessionInfoBottom}>
         <div className={styles.stackSession}>
           {session.tags && <Tags tags={session.tags} />}
+          {session.maitreDeConf && (
+            <Image
+              src={session.maitreDeConf.picture}
+              alt={`MC : ${session.maitreDeConf.name}`}
+              title={`Maître de Conf : ${session.maitreDeConf.name}`}
+              width={28}
+              height={28}
+              className={styles.mcAvatar}
+            />
+          )}
         </div>
         {session.speakers.length != 0 && (
           <Speakers speakers={session.speakers} />
