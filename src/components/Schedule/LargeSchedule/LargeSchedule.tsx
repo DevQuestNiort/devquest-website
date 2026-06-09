@@ -71,12 +71,12 @@ const SessionInfo = ({ session }: { session: FullSession }) => {
   );
 };
 
-const Session = ({ session }: { session: FullSession }) => {
+const Session = ({ session, dimmed }: { session: FullSession; dimmed?: boolean }) => {
   const gridColumn = columnFromRoom(session.room);
   return (
     <div
       key={session.title}
-      className={classNames(styles.slot, styles.slotSession, session.cancelled && styles.cancelled)}
+      className={classNames(styles.slot, styles.slotSession, session.cancelled && styles.cancelled, dimmed && styles.dimmed)}
       style={{
         gridColumn,
         gridRow: slotToRow(session.slot),
@@ -114,10 +114,12 @@ const FixedSlot = ({ slot }: { slot: Slot }) => {
 export const LargeSchedule = ({
   sessions,
   allHoursSlots,
+  highlightMcUid,
 }: {
   sessions: FullSession[];
   allHoursSlots: Slot[];
   fixedSlots: Slot[];
+  highlightMcUid?: string;
 }) => {
   const fixedSlots: Slot[] = allHoursSlots.filter((s) =>
     ["opening", "lunch", "break", "keynote", "party", "closing"].includes(
@@ -160,7 +162,11 @@ export const LargeSchedule = ({
                 <FixedSlot slot={slot} key={slot.key} />
               ))}
               {sessionsByHours[hourSlot.start].map((session) => (
-                <Session session={session} key={session.id} />
+                <Session
+                  session={session}
+                  key={session.id}
+                  dimmed={!!highlightMcUid && session.maitreDeConf?.uid !== highlightMcUid}
+                />
               ))}
             </React.Fragment>
           );

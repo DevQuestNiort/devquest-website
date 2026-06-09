@@ -1,4 +1,5 @@
 export interface Membre {
+  uid?: string;
   picture: string;
   name: string;
   role: string;

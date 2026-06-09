@@ -33,6 +33,28 @@
     }
   }
 
+  .planningLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 8px;
+    background: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: opacity 0.2s;
+
+    span {
+      font-size: 1.1rem;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
   .maitresGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

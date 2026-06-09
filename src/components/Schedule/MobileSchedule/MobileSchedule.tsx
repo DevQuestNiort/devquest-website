@@ -12,12 +12,14 @@ type MobileScheduleProps = {
   sessions: FullSession[];
   allHoursSlots: Slot[];
   fixedSlots: Slot[];
+  highlightMcUid?: string;
 };
 
 export const MobileSchedule = ({
   sessions,
   allHoursSlots,
   fixedSlots,
+  highlightMcUid,
 }: MobileScheduleProps) => {
   const hours = allHoursSlots
     .map((slot) => slot.start) //
@@ -44,7 +46,11 @@ export const MobileSchedule = ({
           <Fragment key={hour}>
             <Hour hour={hour} />
             {sessionsByHours[hour].map((session) => (
-              <Session session={session} key={session.slug} />
+              <Session
+                session={session}
+                key={session.slug}
+                dimmed={!!highlightMcUid && session.maitreDeConf?.uid !== highlightMcUid}
+              />
             ))}
             {fixedSlotsByHours[hour].map((slot) => (
               <FixedSlot slot={slot} key={slot.key} />
@@ -99,10 +105,10 @@ const FixedSlot = ({ slot }: { slot: Slot }) => {
   );
 };
 
-const Session = ({ session }: { session: FullSession }) => {
+const Session = ({ session, dimmed }: { session: FullSession; dimmed?: boolean }) => {
   return (
     <div
-      className={classNames(styles.slot, styles.session, styles.slotSession, session.cancelled && styles.cancelled)}
+      className={classNames(styles.slot, styles.session, styles.slotSession, session.cancelled && styles.cancelled, dimmed && styles.dimmed)}
     >
       <SessionInfo session={session} />
     </div>

@@ -63,6 +63,11 @@
 
 
 
+  .slotSession.dimmed {
+    opacity: 0.2;
+    filter: grayscale(1);
+  }
+
   .slotSession.cancelled {
     background: repeating-linear-gradient(
       -45deg,

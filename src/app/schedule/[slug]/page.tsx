@@ -1,6 +1,7 @@
 import styles from "./page.module.scss";
-import { LargeSchedule, MobileSchedule } from "@/components/Schedule";
-import { LinkButton } from "@/components/LinkButton";
+import { Suspense } from "react";
+import { ScheduleWithFilter } from "@/components/Schedule/ScheduleWithFilter";
+import { DaySwitcher } from "@/components/Schedule/DaySwitcher";
 import {
   getAdaptedScheduleForDay,
   getScheduleDays,
@@ -24,28 +25,19 @@ const ScheduleDay = async ({ params: { slug } }: ScheduleDayProps) => {
   return (
     <main className={styles.main}>
       <div className={styles.btnDays}>
-        {days.map((day) => (
-          <LinkButton
-            key={day.idDay}
-            theme={currentDay?.idDay === day.idDay ? "Primary" : "Secondary"}
-            href={`/schedule/${day.slug}`}
-          >
-            {day.label}
-          </LinkButton>
-        ))}
+        <Suspense>
+          <DaySwitcher days={days} currentDayId={currentDay?.idDay ?? days[0].idDay} />
+        </Suspense>
       </div>
 
       <div className={"header-rooms"}></div>
-      <LargeSchedule
-        sessions={sessions}
-        allHoursSlots={allHoursSlots}
-        fixedSlots={fixedSlots}
-      />
-      <MobileSchedule
-        sessions={sessions}
-        allHoursSlots={allHoursSlots}
-        fixedSlots={fixedSlots}
-      />
+      <Suspense>
+        <ScheduleWithFilter
+          sessions={sessions}
+          allHoursSlots={allHoursSlots}
+          fixedSlots={fixedSlots}
+        />
+      </Suspense>
     </main>
   );
 };

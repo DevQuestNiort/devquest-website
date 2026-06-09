@@ -3,6 +3,7 @@ import { Section } from "@/components/Section";
 import { promises as fs } from "fs";
 import { Card } from "@/components/Card";
 import { Membre } from "@/model/Membre";
+import Link from "next/link";
 
 import backgroundImage from "/public/avatar/MCview.png";
 import MembreCard from "@/components/MembreCard/MembreCard";
@@ -49,7 +50,16 @@ export async function MaitresDeConf() {
         </p>
         <div className={styles.maitresGrid}>
           {maitres.map((maitre) => (
-            <MembreCard key={maitre.name} membre={maitre} />
+            <MembreCard
+              key={maitre.name}
+              membre={maitre}
+              buttons={maitre.uid && (
+                <Link href={`/schedule/day-1?mc=${maitre.uid}`} className={styles.planningLink}>
+                  <span className="material-symbols-outlined">calendar_view_week</span>
+                  Voir le planning
+                </Link>
+              )}
+            />
           ))}
         </div>
       </Section>

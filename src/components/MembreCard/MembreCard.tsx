@@ -1,8 +1,14 @@
 import { Membre } from "@/model/Membre";
 import { Avatar } from "@/components/Avatar";
+import { ReactNode } from "react";
 import styles from "./MembreCard.module.scss";
 
-export default function MembreCard({ membre }: { membre: Membre }) {
+type Props = {
+  membre: Membre;
+  buttons?: ReactNode;
+};
+
+export default function MembreCard({ membre, buttons }: Props) {
 
     return <div className={styles.membreCard}>
               <Avatar
@@ -20,5 +26,6 @@ export default function MembreCard({ membre }: { membre: Membre }) {
                   {membre.citation}
                 </blockquote>
               )}
+              {buttons && <div className={styles.membreButtons}>{buttons}</div>}
         </div>
 }

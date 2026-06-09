@@ -35,6 +35,14 @@
     }
   }
 
+  .membreButtons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
   .membreCitation {
     font-family: var(--font-source-sans-pro), sans-serif;
     font-size: 0.95rem;
