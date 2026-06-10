@@ -622,28 +622,31 @@
       }
     },
     {
-      "id": "cmmchvfyy025s01nsxz3d1euy",
+      "id": "GenratedVGO2811",
       "start": "2026-06-11T11:10:00.000Z",
       "end": "2026-06-11T12:00:00.000Z",
       "track": "Observatoire",
-      "title": "Relation toxique avec sa base de données : 6 comportements à éviter",
+      "title": "J'ai packagé mon application en image Docker, et maintenant ?",
       "language": "fr",
       "mc":"c4a237ef-26d9-4d25-ad3d-32f80ea99295",
       "proposal": {
-        "id": "cmm9k1jre015801ns4wtdq1vr",
+        "id": "genreatedvgo2311",
         "proposalNumber": 154,
-        "abstract": "On parle beaucoup de relations toxiques ces derniers temps. Mais rarement de la plus silencieuse d’entre elles :celle que nous entretenons avec notre base de données.\n\nEn tant que développeurs — souvent front, parfois back — nous accusons facilement “la DB” quand ça ralentit.\nPourtant, dans la majorité des cas, la base fait exactement ce qu’on lui demande… et c’est précisément le problème.\n\nDans ce talk accessible et concret, je vous propose de décortiquer 6 comportements très courants qui épuisent inutilement une base de données :\n\n- Le chaos permanent\n- La surcharge mentale\n- L’emprise transactionnelle\n- La pénurie organisée\n- Le voyage inutile\n- L’éloignement toxique\n\nÀ travers des métaphores simples, des exemples concrets et des situations vécues, nous verrons comment reconnaître ces “red flags” \net développer une intuition claire des mécanismes physiques qui gouvernent la performance d’un système. Et chacun repartira avec une check-list thérapeutique pour soigner les choses… avant qu’il ne soit trop tard !!",
-        "level": "INTERMEDIATE",
+        "abstract": "Vous avez réussi à packager/builder votre application en image de conteneur, avec Docker ou Podman, et à la pusher dans un registre d’images/d’artefacts ? Félicitations… mais le travail n’est pas terminé \uD83D\uDE42. Maintenant il est temps de mettre en place les bonnes pratiques de la Software Supply Chain Security !\n\nPourquoi et comment signer une image ?\n\n - Pourquoi et comment générer l’inventaire de mon image ? \n\n - Mon image a-t-elle des vulnérabilités ? Sont-elles exploitables ?\n\n - Les attestations ça sert à quoi ?\n\n - Comment automatiser tout cela ?\n\nDans ce talk, étape par étapes, avec un mélange de slides et de live démos, nous verrons tout cela, et bien plus encore.\n\nVous saurez comment mettre en place ces bonnes pratiques, en local et même dans vos pipelines CI/CD.\n\nEt bonus track, après ce talk des termes comme “cosign”, “sbom”, “vex”, “in-toto”… n’auront plus de secret pour vous !",
+        "level": "BEGINNER",
         "formats": ["Conférence"],
-        "categories": ["Frontend"],
+        "categories": ["Cloud & DevOps"],
         "speakers": [
           {
-            "id": "cmm9k1jr1015701nsg6c2xoa5",
-            "name": "Léo Jacquemin",
-            "bio": "Initialement destiné à devenir chercheur en physique quantique, Léo découvre par accident le développement web et n'en est plus jamais revenu. Après 10 années d'expérience en tant que développeur tout-terrain, il revient désormais à ses premiers amours : le frontend, l'UX, et milite régulièrement pour un web plus sobre, inclusif... mais swag' quand même, entre deux meetup React Nord, qu'il a anime depuis 2024.",
-            "company": "OCTO Technology",
-            "picture": "https://lh3.googleusercontent.com/a/ACg8ocKVUqS4beEpUiIK1r6_E5zqHU0zv7PyJysfLM8s1PKsHWfOSP_d=s96-c",
-            "socialLinks": ["https://www.linkedin.com/in/ljacquemin/"]
+            "id": "cmlp1t54s007l01phc4q7tyl5",
+            "name": "Aurélie Vache",
+            "bio": "Aurélie Vache is a Developer Advocate at OVHcloud in Toulouse, France.\n\nShe is recognized as a Docker Captain, a CNCF ambassador, a Google Cloud Developer Expert & a Women techmarkers Ambassador.\n\nShe has been working as a Developer and Ops for over 20 years. Cloud enthusiast and advocates DevOps/Cloud/Golang best practices.\n\nTechnical writer (dev.to/aurelievache), a book author & reviewer, a sketchnoter and a speaker at international conferences.\n\nCreator and maintainer of https://developers.events/, a collaborative, open-source platform that aggregates & list developer/tech-focused conferences/events and call-for-papers (CFP) opportunities worldwide, helping speakers, organizers, sponsors and attendees.\n\nShe created a new visual way for people to learn and understand Cloud technologies: \"Understanding Kubernetes/Istio/Docker/Kyverno in a visual way\" in sketchnotes, books and videos.\n\nBlog: https://dev.to/aurelievache/\nYouTube: https://www.youtube.com/c/AurelieVache",
+            "company": "OVHcloud",
+            "picture": "https://lh5.googleusercontent.com/-Jx8n2dYA8Ss/AAAAAAAAAAI/AAAAAAAAYLA/oDqXfvM9CfY/photo.jpg",
+            "socialLinks": [
+              "https://github.com/scraly",
+              "https://x.com/aurelievache"
+            ]
           }
         ]
       }
