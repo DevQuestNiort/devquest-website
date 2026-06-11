@@ -1169,7 +1169,7 @@
       "proposal": {
         "id": "cml2de2qb017c01k2elu1cqdc",
         "proposalNumber": 86,
-        "abstract": "Vous en avez assez de voir vos Tests Unitaires passer... alors que votre application plante en production ?\nFatigué de devoir adapter des dizaines de mocks à chaque refactorisation ?\nIl est temps de passer aux Tests d'Intégration !\nDans ce codelab, nous explorerons comment tester efficacement une application Spring Boot en simulant les dépendances externes :\n* WireMock pour simuler vos appels API,\n* Testcontainers pour tester une vraie base de données dans un environnement isolé,\n* LocalStack pour reproduire vos intégrations AWS.\nRepartez avec une application plus robuste, des tests plus fiables… et moins de surprises en production !",
+        "abstract": "Vous en avez assez de voir vos Tests Unitaires passer... alors que votre application plante en production ?\nFatigué de devoir adapter des dizaines de mocks à chaque refactorisation ?\nIl est temps de passer aux Tests d'Intégration !\nDans ce codelab, nous explorerons comment tester efficacement une application Spring Boot en simulant les dépendances externes :\n* WireMock pour simuler vos appels API,\n* Testcontainers pour tester une vraie base de données dans un environnement isolé,\n* LocalStack pour reproduire vos intégrations AWS.\nRepartez avec une application plus robuste, des tests plus fiables… et moins de surprises en production ! \n\n\n __prerequis__ :\n\n\n - Docker\n - Java 25",
         "level": "INTERMEDIATE",
         "formats": ["Workshop"],
         "categories": ["Backend"],
