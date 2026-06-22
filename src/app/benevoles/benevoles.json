@@ -64,5 +64,13 @@
         "role": "#Scrum",
         "citation": "Bergère qui guide vers l'autonomie des troupeaux sauvages ou égarés à ramener sur le chemin. Mon seul guide est l'étoile polaire qui définit ma voie à suivre.",
         "linkedin": "https://www.linkedin.com/in/aurélie-boubée-971174bb"
+    },
+    {
+        "name": "Baptiste Poupet",
+        "picture": "/avatar/img_1-square.png",
+        "role": "#Dev",
+        "citation": "Baptiste avance sans bruit, mais jamais sans solution. Au DevQuest, ce sont souvent les plus discrets qui terrassent les plus gros dragons.",
+        "linkedin": "https://www.linkedin.com/in/baptiste-poupet-b39b63225/"
     }
+
 ]
