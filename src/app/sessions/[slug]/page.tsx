@@ -13,6 +13,7 @@ import { getAllAdaptedSessions } from "@/data/scheduleAdapter";
 import Link from "next/link";
 import { AddToCalendarButton } from "@/components/AddToCalendarButton/AddToCalendarButton";
 import { OpenFeedback } from "@/components/OpenFeedback/OpenFeedback";
+import { toYoutubeEmbedUrl } from "@/lib/youtube";
 
 type SessionProps = {
   params: {
@@ -66,6 +67,7 @@ const Session = async ({ params: { slug } }: SessionProps) => {
     throw new Error("Session introuvable");
   }
   const myFullSession = session as FullSession;
+  const videoEmbedUrl = toYoutubeEmbedUrl(myFullSession.videoLinkYoutube);
 
   return (
     <div className={styles.container}>
@@ -170,6 +172,16 @@ const Session = async ({ params: { slug } }: SessionProps) => {
           format_quote
         </span>
       </div>
+      {videoEmbedUrl && (
+        <div className={styles.videoEmbed}>
+          <iframe
+            src={videoEmbedUrl}
+            title={`Vidéo — ${myFullSession.title}`}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      )}
       <OpenFeedback sessionId={session.id} activeFrom="2026-06-11" />
     </div>
   );

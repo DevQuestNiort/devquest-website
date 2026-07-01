@@ -1,6 +1,6 @@
 import { FullSession } from "@/model/FullSession";
 import { Slot, SlotTypeLabel } from "@/model/Slot";
-import { rooms, Speakers, Tags } from "../common";
+import { rooms, Speakers, Tags, VideoLink } from "../common";
 import classNames from "classnames";
 import Link from "next/link";
 import Image from "next/image";
@@ -126,6 +126,7 @@ const SessionInfo = ({ session }: { session: FullSession }) => {
       )}
     >
       <span className={styles.sessionTitle}>{session.title}</span>
+      {session.videoLinkYoutube && <VideoLink url={session.videoLinkYoutube} />}
       <Stack spacing={2} alignItems="center" direction="row">
         {session.tags && <Tags tags={session.tags} />}
         <span>{session.room}</span>

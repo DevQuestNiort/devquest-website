@@ -31,6 +31,7 @@ type RawScheduleSession = {
   language?: string | null;
   proposal?: RawProposal | null;
   mc?: string | null;
+  videoLinkYoutube?: string | null;
 };
 
 type RawScheduleFile = {
@@ -341,6 +342,7 @@ export const getAdaptedScheduleForDay = async (
         hour: toScheduleTime(session.start),
         startISO: session.start,
         endISO: session.end,
+        videoLinkYoutube: session.videoLinkYoutube ?? undefined,
       };
     })
     .sort((a, b) => {

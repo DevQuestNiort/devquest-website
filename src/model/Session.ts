@@ -13,6 +13,7 @@ export interface Session {
   day: string;
   hour?: string;
   mc?: string;
+  videoLinkYoutube?: string;
 }
 
 export type Format = "Workshop" | "Quickie" | "Workshop";
