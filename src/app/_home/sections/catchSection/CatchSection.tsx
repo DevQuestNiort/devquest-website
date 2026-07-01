@@ -14,11 +14,11 @@ export function CatchSection({ contacts }: CatchSectionProperties) {
       <h2>Jamais deux sans trois !</h2>
 
       <Card className={styles.catchCard}>
-        Les 11 et 12 juin 2026, le DevQuest revient à Noron pour vous proposer
+        Les 11 et 12 juin 2026, le DevQuest était à Noron pour vous proposer
         toujours plus de conférences et d&apos;aventures !
         <br />
         <br />
-        Suivez-nous pour ne pas manquer les futures quêtes !
+        Cette édition est maintenant terminée. Merci à tous nos sponsors 
       </Card>
 
       <div id={styles.rows}>

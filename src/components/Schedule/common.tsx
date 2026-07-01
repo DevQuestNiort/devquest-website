@@ -13,35 +13,6 @@ export const rooms: Salle[] = [
   { name: "Beffroi", image: "tower.png" },
 ];
 
-export const VideoLink = ({ url }: { url: string }) => {
-  const openVideo = (
-    event: React.MouseEvent | React.KeyboardEvent,
-  ) => {
-    event.preventDefault();
-    event.stopPropagation();
-    window.open(url, "_blank", "noopener,noreferrer");
-  };
-
-  return (
-    <span
-      className={styles.videoLink}
-      role="link"
-      tabIndex={0}
-      onClick={openVideo}
-      onKeyDown={(event) => {
-        if (event.key === "Enter" || event.key === " ") {
-          openVideo(event);
-        }
-      }}
-    >
-      <span className="material-symbols-outlined" aria-hidden>
-        smart_display
-      </span>
-      Voir la vidéo
-    </span>
-  );
-};
-
 export const Tags = ({ tags }: { tags: TagsModel[] }) => {
   return (
     <div className={styles.tags}>

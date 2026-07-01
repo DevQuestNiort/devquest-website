@@ -27,13 +27,13 @@ export function HeroSection() {
       />
       <Card theme="Light" className={styles.heroCard}>
         <h1>Le premier rassemblement des devs Niortais</h1>
-        <p>Le programme est disponible :  </p>
+        <p>Les Vidéo sont disponible sur le programme :  </p>
         <LinkButton
           theme="Primary"
           style={{ marginTop: "0.5rem" }}
           href={"/schedule/day-1"}
         >
-          Voir le programme
+          Voir le programme/ les vidéos
         </LinkButton>
 
         {/*<LinkButton
@@ -45,14 +45,7 @@ export function HeroSection() {
           Devquest Compagnon
         </LinkButton>
 */}
-        <LinkButton
-          theme="Secondary"
-          style={{ marginTop: "0.5rem" }}
-          href={config.shop}
-          target="_blank"
-        >
-          Acheter un billet
-        </LinkButton>
+     
       </Card>
     </Section>
   );

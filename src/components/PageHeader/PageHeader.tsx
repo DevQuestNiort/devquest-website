@@ -100,13 +100,13 @@ export const PageHeader = () => {
         </nav>
 
         {/* CTA desktop */}
-        <div className={styles.desktopCta}>
+        {/* <div className={styles.desktopCta}>
           {config.shop && (
             <LinkButton theme="Primary" href={config.shop} target="_blank">
               Réserver mes places
             </LinkButton>
           )}
-        </div>
+        </div> */}
 
         {/* Hamburger */}
         <button
@@ -161,13 +161,13 @@ export const PageHeader = () => {
           Kit partenaires ↗
         </Link>
 
-        {config.shop && (
+        {/* {config.shop && (
           <div className={styles.drawerCta}>
             <LinkButton theme="Primary" href={config.shop} target="_blank">
               Réserver mes places
             </LinkButton>
           </div>
-        )}
+        )} */}
       </nav>
     </header>
   );

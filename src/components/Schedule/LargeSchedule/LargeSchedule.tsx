@@ -1,5 +1,5 @@
 import { Slot, SlotTypeLabel } from "@/model/Slot";
-import { rooms, Speakers, Tags, VideoLink } from "../common";
+import { rooms, Speakers, Tags } from "../common";
 import classNames from "classnames";
 import React from "react";
 import Link from "next/link";
@@ -39,36 +39,50 @@ const Hour = ({ slot }: { slot: Slot }) => (
 
 const SessionInfo = ({ session }: { session: FullSession }) => {
   return (
-    <Link
-      href={"/sessions/" + session.slug}
-      className={classNames(
-        styles.disableLinkStyle,
-        styles.slotSessionInfo,
-        session.cancelled && styles.cancelled,
-      )}
-    >
-      <span className={styles.slotSessionTitle}>{session.title}</span>
-      {session.videoLinkYoutube && <VideoLink url={session.videoLinkYoutube} />}
-      <span className="sr-only">Salle {session.room}</span>
-      <div className={styles.slotSessionInfoBottom}>
-        <div className={styles.stackSession}>
-          {session.tags && <Tags tags={session.tags} />}
-          {session.maitreDeConf && (
-            <Image
-              src={session.maitreDeConf.picture}
-              alt={`MC : ${session.maitreDeConf.name}`}
-              title={`Maître de Conf : ${session.maitreDeConf.name}`}
-              width={28}
-              height={28}
-              className={styles.mcAvatar}
-            />
+    <div className={styles.slotSessionCard}>
+      <Link
+        href={"/sessions/" + session.slug}
+        className={classNames(
+          styles.disableLinkStyle,
+          styles.slotSessionInfo,
+          session.cancelled && styles.cancelled,
+        )}
+      >
+        <span className={styles.slotSessionTitle}>{session.title}</span>
+        <span className="sr-only">Salle {session.room}</span>
+        <div className={styles.slotSessionInfoBottom}>
+          <div className={styles.stackSession}>
+            {session.tags && <Tags tags={session.tags} />}
+            {session.maitreDeConf && (
+              <Image
+                src={session.maitreDeConf.picture}
+                alt={`MC : ${session.maitreDeConf.name}`}
+                title={`Maître de Conf : ${session.maitreDeConf.name}`}
+                width={28}
+                height={28}
+                className={styles.mcAvatar}
+              />
+            )}
+          </div>
+          {session.speakers.length != 0 && (
+            <Speakers speakers={session.speakers} />
           )}
         </div>
-        {session.speakers.length != 0 && (
-          <Speakers speakers={session.speakers} />
-        )}
-      </div>
-    </Link>
+      </Link>
+      {session.videoLinkYoutube && (
+        <a
+          href={session.videoLinkYoutube}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.videoFooter}
+        >
+          <span className="material-symbols-outlined" aria-hidden>
+            smart_display
+          </span>
+          Voir la vidéo
+        </a>
+      )}
+    </div>
   );
 };
 
