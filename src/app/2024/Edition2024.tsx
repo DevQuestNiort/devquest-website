@@ -1,8 +1,13 @@
+import { Card } from "@/components/Card";
+import { Galery } from "@/components/Galery";
 import { SponsorsByLevel } from "@/components/Partenaire/ListPartenaire/ListPartenaire";
 import { Section } from "@/components/Section";
+import { CardListSession } from "@/components/sessions/CardListSession/CardListSession";
 import { LevelPartenaire } from "@/model/LevelPartenaire";
 import { Partenaire } from "@/model/Partenaire";
+import { Speaker } from "@/model/Speaker";
 import { promises as fs } from "fs";
+import { Session } from "@/model/Session";
 export default async function Edition2024() {
   const partenairesFile = await fs.readFile(
     process.cwd() + "/src/data/2024/partenaires.json",
@@ -12,32 +17,51 @@ export default async function Edition2024() {
     process.cwd() + "/src/data/config/levelpartenaires.json",
     "utf8",
   );
+  const sessionsFile = await fs.readFile(
+    process.cwd() + "/src/data/2024/sessions.json",
+    "utf8",
+  );
+  const SpeakersFile = await fs.readFile(
+    process.cwd() + "/src/data/2024/speakers.json",
+    "utf8",
+  );
 
 
   const partenaires: Partenaire[] = JSON.parse(partenairesFile);
   const levelpartenaires: LevelPartenaire[] = JSON.parse(LevelsPartenaireFile);
-
+  const sessions: Session[] = JSON.parse(sessionsFile);
+  const speakers: Speaker[] = JSON.parse(SpeakersFile);
 
 
 
   return (
     <div>
-      <Section theme="Light" >
+      <div>
+        <Section theme="Light" >
 
-        <h2>La premiere Edition  </h2>
-       
-<p> Nous somme en cours de rédaction de cette archive</p>
+          <h2>La troisième édition du dev quest c'est : </h2>
+          <Galery>
+            <Card>350 participants</Card>
+            <Card>{partenaires.length} Partenaires</Card>
+            <Card>800 repas</Card>
+            <Card>{speakers.length} speakers</Card>
+          </Galery>
+        </Section>
+        <Section theme="Dark" >
+          <h2> Les Menestrels  </h2>
+          <CardListSession sessions={sessions} speakers={speakers} columns={3} />
+        </Section>
+        <Section theme="Light" >
+          <h2>Les guildes presentent cette année la </h2>
+          <SponsorsByLevel
+            levelpartenaires={levelpartenaires}
+            partenaires={partenaires}
+          />
 
-      </Section>
- <Section theme="Light" >
-        <h2>Les guildes presentent cette année la </h2>
-        <SponsorsByLevel
-          levelpartenaires={levelpartenaires}
-          partenaires={partenaires}
-        />
 
+        </Section>
 
-      </Section>
+      </div>
     </div>
   );
 }
