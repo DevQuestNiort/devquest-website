@@ -62,7 +62,7 @@ export default async function Edition2026() {
         </Card>
       </Section>
       <Section theme="Light" >
-        <h2>La troisième édition du dev quest c'est : </h2>
+        <h2>La troisième édition du dev quest c&apos;est : </h2>
         <Galery>
           <Card>350 participants</Card>
           <Card>{partenaires.length} Partenaires</Card>

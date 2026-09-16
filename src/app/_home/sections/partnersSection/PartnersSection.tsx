@@ -18,7 +18,7 @@ export function PartnersSection({ partenaires, levelpartenaires }: PartnersSecti
       <h2>La tribu complète</h2>
       <Card theme="Primary">
         <p>
-            Voici les guildes qui été présent lors ce troisième chapitre de l'histoire Devquest 
+            Voici les guildes qui été présent lors ce troisième chapitre de l&apos;histoire Devquest
         </p>
       </Card>
       <div className={styles.partnerSection}>

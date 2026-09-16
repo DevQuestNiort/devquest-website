@@ -22,10 +22,10 @@ export default function HomeView({
     <div className={styles.main}>
       <HeroSection />
       <Section theme="Dark" className={styles.catch}>
-      <h2>L'aventure continue</h2>
+      <h2>L&apos;aventure continue</h2>
 
       <Card theme="Light" className={styles.catchCard}>
-        <p> Les compagnons du Devquest repartent à l'aventure, pour préparer ce quatrième chapitre. </p>
+        <p> Les compagnons du Devquest repartent à l&apos;aventure, pour préparer ce quatrième chapitre. </p>
       </Card>
 
     

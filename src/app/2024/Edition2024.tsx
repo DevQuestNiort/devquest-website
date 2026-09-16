@@ -59,7 +59,7 @@ export default async function Edition2024() {
           />
           <Card>
             <p>Merci @tous pour cette première aventure...
-              Nous tenions à remercier l'ensemble de nos partenaires, speakeuses et speakeurs, bénévoles, maîtres et maîtresse de conférence pour nous avoir aidé et accompagné dans cette aventure. Cette journée fut tellement intense et riche pour l'ensemble de la team.. Mille mercis.
+              Nous tenions à remercier l&apos;ensemble de nos partenaires, speakeuses et speakeurs, bénévoles, maîtres et maîtresse de conférence pour nous avoir aidé et accompagné dans cette aventure. Cette journée fut tellement intense et riche pour l&apos;ensemble de la team.. Mille mercis.
               Suivez nous pour ne pas manquer les futures quêtes !</p>
 
             <p>Alice, Alex, Alex, Florent, Guillaume, Nicolas, Samuel, Susan, Vincent, Xavier.
