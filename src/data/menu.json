@@ -1,0 +1,26 @@
+{
+  "items": [
+    { "label": "Accueil", "href": "/" },
+    {
+      "label": "Programme",
+      "href": "/schedule/day-1",
+      "activeMatch": ["/schedule", "/sessions"]
+    },
+    { "label": "Tremplin", "href": "/tremplin" },
+    { "label": "FAQ", "href": "/faq" },
+    {
+      "label": "Communauté",
+      "children": [
+        { "label": "⚔️ La Guilde", "href": "/guilde" },
+        { "label": "🔮 Conseil des Mages", "href": "/conseil-des-mages" },
+        { "label": "🎙️ Maîtres de Conf", "href": "/maitres-de-conf" },
+        { "label": "🧑‍🤝‍🧑 Bénévoles", "href": "/benevoles" },
+        { "label": "🔨 Artisans", "href": "/artisans" }
+      ]
+    },
+    {
+      "label": "Kit partenaires ↗",
+      "href": "https://drive.google.com/drive/folders/1Fb5xMkGeXH5w6W3CUQCd53FcOUXuP0rq"
+    }
+  ]
+}

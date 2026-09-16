@@ -1,27 +1,37 @@
 "use client";
 import Image from "next/image";
 import styles from "./PageHeader.module.scss";
-import config from "../../data/config.json";
+import menu from "../../data/menu.json";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { LinkButton } from "@/components/LinkButton";
 import { useState } from "react";
 
+type NavChild = { label: string; href: string };
+type NavItem = {
+  label: string;
+  href?: string;
+  activeMatch?: string[];
+  children?: NavChild[];
+};
+
+const isExternal = (href: string) => href.startsWith("http");
+
+const isItemActive = (item: NavItem, pathname: string): boolean => {
+  if (item.children) {
+    return item.children.some((child) => pathname.startsWith(child.href));
+  }
+  if (!item.href) return false;
+  if (item.activeMatch) {
+    return item.activeMatch.some((path) => pathname.startsWith(path));
+  }
+  return pathname === item.href;
+};
+
 export const PageHeader = () => {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const close = () => setMenuOpen(false);
-
-  const isActive = (href: string) => pathname === href;
-  const isGroup = (...hrefs: string[]) => hrefs.some((h) => pathname.startsWith(h));
-
-  const communauteActive = isGroup(
-    "/guilde",
-    "/conseil-des-mages",
-    "/maitres-de-conf",
-    "/benevoles",
-    "/artisans",
-  );
 
   return (
     <header className={styles.header}>
@@ -33,70 +43,38 @@ export const PageHeader = () => {
 
         {/* Desktop navigation */}
         <nav className={styles.navDesktop} aria-label="Navigation principale">
-          <Link href="/" className={`${styles.navLink} ${isActive("/") ? styles.navLinkActive : ""}`}>
-            Accueil
-          </Link>
-          <Link
-            href="/schedule/day-1"
-            className={`${styles.navLink} ${isGroup("/schedule", "/sessions") ? styles.navLinkActive : ""}`}
-          >
-            Programme
-          </Link>
-          <Link
-            href="/tremplin"
-            className={`${styles.navLink} ${isActive("/tremplin") ? styles.navLinkActive : ""}`}
-          >
-            Tremplin
-          </Link>
-          <Link
-            href="/faq"
-            className={`${styles.navLink} ${isActive("/faq") ? styles.navLinkActive : ""}`}
-          >
-            FAQ
-          </Link>
-
-          {/* Dropdown — Communauté */}
-          <div className={styles.dropdown}>
-            <span className={`${styles.navLink} ${communauteActive ? styles.navLinkActive : ""}`}>
-              Communauté <span className={styles.chevron}>▾</span>
-            </span>
-            <div className={styles.dropdownPanel}>
+          {menu.items.map((item: NavItem) =>
+            item.children ? (
+              <div className={styles.dropdown} key={item.label}>
+                <span
+                  className={`${styles.navLink} ${isItemActive(item, pathname) ? styles.navLinkActive : ""}`}
+                >
+                  {item.label} <span className={styles.chevron}>▾</span>
+                </span>
+                <div className={styles.dropdownPanel}>
+                  {item.children.map((child) => (
+                    <Link
+                      key={child.href}
+                      href={child.href}
+                      className={`${styles.dropdownItem} ${pathname === child.href ? styles.dropdownItemActive : ""}`}
+                    >
+                      {child.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ) : (
               <Link
-                href="/guilde"
-                className={`${styles.dropdownItem} ${isActive("/guilde") ? styles.dropdownItemActive : ""}`}
+                key={item.href}
+                href={item.href!}
+                target={isExternal(item.href!) ? "_blank" : undefined}
+                rel={isExternal(item.href!) ? "noopener noreferrer" : undefined}
+                className={`${styles.navLink} ${isItemActive(item, pathname) ? styles.navLinkActive : ""}`}
               >
-                ⚔️ La Guilde
+                {item.label}
               </Link>
-              <Link
-                href="/conseil-des-mages"
-                className={`${styles.dropdownItem} ${isActive("/conseil-des-mages") ? styles.dropdownItemActive : ""}`}
-              >
-                🔮 Conseil des Mages
-              </Link>
-              <Link
-                href="/maitres-de-conf"
-                className={`${styles.dropdownItem} ${isActive("/maitres-de-conf") ? styles.dropdownItemActive : ""}`}
-              >
-                🎙️ Maîtres de Conf
-              </Link>
-              <Link
-                href="/benevoles"
-                className={`${styles.dropdownItem} ${isActive("/benevoles") ? styles.dropdownItemActive : ""}`}
-              >
-                🧑‍🤝‍🧑 Bénévoles
-              </Link>
-              <Link
-                href="/artisans"
-                className={`${styles.dropdownItem} ${isActive("/artisans") ? styles.dropdownItemActive : ""}`}
-              >
-                🔨 Artisans
-              </Link>
-            </div>
-          </div>
-
-          <Link href={config.kitPartenaires} target="_blank" className={styles.navLink}>
-            Kit partenaires ↗
-          </Link>
+            ),
+          )}
         </nav>
 
         {/* CTA desktop */}
@@ -127,39 +105,34 @@ export const PageHeader = () => {
         aria-label="Navigation mobile"
         aria-hidden={!menuOpen}
       >
-        <Link href="/" className={`${styles.drawerItem} ${isActive("/") ? styles.drawerItemActive : ""}`} onClick={close}>
-          Accueil
-        </Link>
-        <Link href="/schedule/day-1" className={`${styles.drawerItem} ${isGroup("/schedule", "/sessions") ? styles.drawerItemActive : ""}`} onClick={close}>
-          Programme
-        </Link>
-        <Link href="/tremplin" className={`${styles.drawerItem} ${isActive("/tremplin") ? styles.drawerItemActive : ""}`} onClick={close}>
-          Tremplin
-        </Link>
-        <Link href="/faq" className={`${styles.drawerItem} ${isActive("/faq") ? styles.drawerItemActive : ""}`} onClick={close}>
-          FAQ
-        </Link>
-
-        <p className={styles.drawerSectionLabel}>Communauté</p>
-        <Link href="/guilde" className={`${styles.drawerItem} ${styles.drawerItemSub} ${isActive("/guilde") ? styles.drawerItemActive : ""}`} onClick={close}>
-          ⚔️ La Guilde
-        </Link>
-        <Link href="/conseil-des-mages" className={`${styles.drawerItem} ${styles.drawerItemSub} ${isActive("/conseil-des-mages") ? styles.drawerItemActive : ""}`} onClick={close}>
-          🔮 Conseil des Mages
-        </Link>
-        <Link href="/maitres-de-conf" className={`${styles.drawerItem} ${styles.drawerItemSub} ${isActive("/maitres-de-conf") ? styles.drawerItemActive : ""}`} onClick={close}>
-          🎙️ Maîtres de Conf
-        </Link>
-        <Link href="/benevoles" className={`${styles.drawerItem} ${styles.drawerItemSub} ${isActive("/benevoles") ? styles.drawerItemActive : ""}`} onClick={close}>
-          🧑‍🤝‍🧑 Bénévoles
-        </Link>
-        <Link href="/artisans" className={`${styles.drawerItem} ${styles.drawerItemSub} ${isActive("/artisans") ? styles.drawerItemActive : ""}`} onClick={close}>
-          🔨 Artisans
-        </Link>
-
-        <Link href={config.kitPartenaires} target="_blank" className={styles.drawerItem} onClick={close}>
-          Kit partenaires ↗
-        </Link>
+        {menu.items.map((item: NavItem) =>
+          item.children ? (
+            <div key={item.label}>
+              <p className={styles.drawerSectionLabel}>{item.label}</p>
+              {item.children.map((child) => (
+                <Link
+                  key={child.href}
+                  href={child.href}
+                  className={`${styles.drawerItem} ${styles.drawerItemSub} ${pathname === child.href ? styles.drawerItemActive : ""}`}
+                  onClick={close}
+                >
+                  {child.label}
+                </Link>
+              ))}
+            </div>
+          ) : (
+            <Link
+              key={item.href}
+              href={item.href!}
+              target={isExternal(item.href!) ? "_blank" : undefined}
+              rel={isExternal(item.href!) ? "noopener noreferrer" : undefined}
+              className={`${styles.drawerItem} ${isItemActive(item, pathname) ? styles.drawerItemActive : ""}`}
+              onClick={close}
+            >
+              {item.label}
+            </Link>
+          ),
+        )}
 
         {/* {config.shop && (
           <div className={styles.drawerCta}>
