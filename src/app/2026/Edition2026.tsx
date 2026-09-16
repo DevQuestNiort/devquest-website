@@ -40,31 +40,28 @@ export default async function Edition2026() {
 
   return (
     <div>
-       <Section
+      <Section
 
-          style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.10), rgba(0,0,0,0.10)), url(${backgroundImage.src})`,
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-          }}
-        >
-          <Image
-            // id={styles.logo}
-            src="/logo/2026/DQ2026-SansDate-Couleur.svg"
-            alt="DevQuest 2026"
-            priority
-            width={350}
-            height={320}
-          />
-          <Card>
-            <p> Troisième chapitre du devquest cloturé. Cette année a té particulièrement dur pour les orgas. Mais aufinal, vous avez fait de cet évènement, un instant magique.. Donc on repart pour une quatrième. </p>
-
-           <p> Alex, Alex, Alexis, Loic,  Guillaume, Susan, Sylvain,  Vincent, Xavier.</p>
-            
-          </Card>
-        </Section>
+        style={{
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.10), rgba(0,0,0,0.10)), url(${backgroundImage.src})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}
+      >
+        <Image
+          // id={styles.logo}
+          src="/logo/2026/DQ2026-SansDate-Couleur.svg"
+          alt="DevQuest 2026"
+          priority
+          width={350}
+          height={320}
+        />
+        <Card>
+          <p> Troisième chapitre du devquest cloturé. Cette année a té particulièrement dur pour les orgas. Mais aufinal, vous avez fait de cet évènement, un instant magique.. Donc on repart pour une quatrième. </p>
+          <p> Alex, Alex, Alexis, Loic,  Guillaume, Susan, Sylvain,  Vincent, Xavier.</p>
+        </Card>
+      </Section>
       <Section theme="Light" >
-
         <h2>La troisième édition du dev quest c'est : </h2>
         <Galery>
           <Card>350 participants</Card>

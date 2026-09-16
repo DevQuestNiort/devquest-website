@@ -3,6 +3,7 @@ import { LogoPartenaire } from "@/components/LogoPartenaire";
 import { LevelPartenaire } from "@/model/LevelPartenaire";
 import { Partenaire } from "@/model/Partenaire";
 import Image from "next/image";
+import { Fragment } from "react";
 
 interface PartnersListProperties {
     readonly partenaires: Partenaire[];
@@ -26,15 +27,13 @@ export default function ListPartenaire(
     }
     )
 
-
 }
 
 export function SponsorsByLevel({ partenaires, levelpartenaires }
     : PartnersListProperties) {
     return <>
-
-        {levelpartenaires?.toSorted((l1, l2) => l1.order - l2.order).map((level, index) => {
-            return <> <h3>
+        {levelpartenaires?.toSorted((l1, l2) => l1.order - l2.order).map((level) => {
+            return <Fragment key={level.code}> <h3>
                 <Image
                     height={32}
                     width={32}
@@ -61,7 +60,7 @@ export function SponsorsByLevel({ partenaires, levelpartenaires }
                             />
                         ))}
                 </Galery>
-            </>
+            </Fragment>
         })}
     </>
 }
