@@ -15,16 +15,8 @@ export function PartnersSection({ partenaires }: PartnersSectionProperties) {
       <h2>La tribu complète</h2>
       <Card theme="Primary">
         <p>
-          Car l&apos;aventure c&apos;est bien, mais avec des compagnons de
-          route, c&apos;est mieux!
+            Voici les guildes qui été présent lors ce troisième chapitre de l'histoire Devquest 
         </p>
-        <Image
-          height={96}
-          width={96}
-          alt=""
-          src="/icons-rp/shield.png"
-          aria-hidden="true"
-        />
       </Card>
       <div className={styles.partnerSection}>
         <h2>Les guildes</h2>
@@ -44,7 +36,9 @@ export function PartnersSection({ partenaires }: PartnersSectionProperties) {
             .map((p, i) => (
               <LogoPartenaire
                 key={i}
+                layus={p.layus}
                 showName={false}
+                showLayus={true}
                 name={p.name}
                 level={p.level}
                 asset={p.asset}
@@ -52,14 +46,7 @@ export function PartnersSection({ partenaires }: PartnersSectionProperties) {
                 actif={p.actif}
               />
             ))}
-          <div>
-            <p>
-              <strong>Toujours assureur, plus que jamais militant.</strong> Avec
-              vous et auprès de vous, MAIF réaffirme ses engagements et
-              contribue à la construction d&apos;une société, plus humaine, plus
-              solidaire et plus responsable.
-            </p>
-          </div>
+         
         </div>
         <h3>
           <Image
@@ -121,7 +108,7 @@ export function PartnersSection({ partenaires }: PartnersSectionProperties) {
           />
           <span>Communs</span>
         </h3>
-        <div className={styles.soloImage}>
+          <Galery>
           {partenaires
             .filter((p) => p.level === "COMMUN")
             .sort(() => (Math.random() > 0.5 ? 1 : -1))
@@ -135,7 +122,7 @@ export function PartnersSection({ partenaires }: PartnersSectionProperties) {
                 actif={p.actif}
               />
             ))}
-        </div>
+        </Galery>
         <h2>
           <Image
             height={32}
@@ -146,7 +133,7 @@ export function PartnersSection({ partenaires }: PartnersSectionProperties) {
           />
           <span>Nos compagnons d&apos;aventure</span>
         </h2>
-        <div className={styles.soloImage}>
+        <Galery >
           {partenaires
             .filter((p) => p.level === "AUTRE")
             .sort(() => (Math.random() > 0.5 ? 1 : -1))
@@ -160,7 +147,7 @@ export function PartnersSection({ partenaires }: PartnersSectionProperties) {
                 actif={p.actif}
               />
             ))}
-        </div>
+        </Galery>
       </div>
     </Section>
   );

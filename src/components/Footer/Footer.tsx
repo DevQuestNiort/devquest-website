@@ -85,18 +85,12 @@ export const Footer = () => (
         <p className={styles.copy}>© 2026 DevQuest</p>
       </div>
 
-      {/* Colonne 2 — L'Événement */}
+      {/* Colonne 2 — L'Édition */}
       <div className={styles.col}>
-        <h3 className={styles.colTitle}>L&apos;Événement</h3>
+        <h3 className={styles.colTitle}>L&apos;Édition 2026</h3>
         <ul className={styles.links}>
           <li>
             <Link href="/schedule/day-1">Programme</Link>
-          </li>
-          <li>
-            <Link href="/tremplin">Tremplin</Link>
-          </li>
-          <li>
-            <Link href="/faq">FAQ</Link>
           </li>
           <li>
             <Link href="/code-de-conduite">Code de conduite</Link>
@@ -107,35 +101,10 @@ export const Footer = () => (
         </ul>
       </div>
 
-      {/* Colonne 3 — La Communauté */}
-      <div className={styles.col}>
-        <h3 className={styles.colTitle}>La Communauté</h3>
-        <ul className={styles.links}>
-          <li>
-            <Link href="/guilde">⚔️ La Guilde</Link>
-          </li>
-          <li>
-            <Link href="/conseil-des-mages">🔮 Conseil des Mages</Link>
-          </li>
-          <li>
-            <Link href="/maitres-de-conf">🎙️ Maîtres de Conf</Link>
-          </li>
-          <li>
-            <Link href="/benevoles">🧑‍🤝‍🧑 Bénévoles</Link>
-          </li>
-          <li>
-            <Link href="/artisans">🔨 Artisans</Link>
-          </li>
-        </ul>
-      </div>
-
-      {/* Colonne 4 — Ressources */}
+      {/* Colonne 3 — Ressources */}
       <div className={styles.col}>
         <h3 className={styles.colTitle}>Ressources</h3>
         <ul className={styles.links}>
-          <li>
-            <Link href="/packmedia">Ressources graphiques</Link>
-          </li>
           <li>
             <Link
               href={config.kitPartenaires}

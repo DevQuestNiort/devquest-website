@@ -1,11 +1,9 @@
 import Image from "next/image";
 import styles from "./HeroSection.module.scss";
 import { Section } from "@/components/Section";
-import { Card } from "@/components/Card";
-import { LinkButton } from "@/components/LinkButton";
-import config from "../../../../data/config.json";
 
 import backgroundImage from "/public/fond_site_26.png";
+import { Card } from "@/components/Card";
 
 export function HeroSection() {
   return (
@@ -25,27 +23,9 @@ export function HeroSection() {
         width={350}
         height={320}
       />
-      <Card theme="Light" className={styles.heroCard}>
-        <h1>Le premier rassemblement des devs Niortais</h1>
-        <p>Les Vidéo sont disponible sur le programme :  </p>
-        <LinkButton
-          theme="Primary"
-          style={{ marginTop: "0.5rem" }}
-          href={"/schedule/day-1"}
-        >
-          Voir le programme/ les vidéos
-        </LinkButton>
-
-        {/*<LinkButton
-          theme="Secondary"
-          style={{ marginTop: "0.5rem" }}
-          href={"https://companion.devquest.fr/"}
-          target="_blank"
-        >
-          Devquest Compagnon
-        </LinkButton>
-*/}
-     
+     <Card theme="Dark" className={styles.heroCard}>
+        <h1>Le rassemblement des devs Niortais</h1>
+        <p>Vous vous trouvez sur les pages d'archives de la troisième édition du Devquest</p>        
       </Card>
     </Section>
   );

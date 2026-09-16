@@ -1,5 +1,6 @@
 export interface Partenaire {
   name: string;
+  layus?: string;
   asset: string;
   site?: string;
   actif: boolean;

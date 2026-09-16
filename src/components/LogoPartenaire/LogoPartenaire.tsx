@@ -4,7 +4,9 @@ import { Component, ElementType } from "react";
 
 interface LogoPartenaireProperties {
   name: string;
+  layus?: string;
   showName?: boolean;
+  showLayus?: boolean;
   asset?: string;
   website?: string;
   level: "RARE" | "COMMUN" | "LEGENDAIRE" | "AUTRE" | "EPIQUE";
@@ -14,7 +16,9 @@ interface LogoPartenaireProperties {
 
 export default function LogoPartenaire({
   name,
+  layus,
   showName = true,
+  showLayus = false,
   asset,
   website,
   actif,
@@ -29,6 +33,7 @@ export default function LogoPartenaire({
   }
 
   return actif ? (
+    <div className={styles.cardpartenaire} >
     <Component href={website} target={target} className={styles.partenaire}>
       <div
         className={`${styles.logoPartenaireContainer} ${styles[`logoPartenaireContainer${level}`]}`}
@@ -46,6 +51,13 @@ export default function LogoPartenaire({
         )}
       </div>
       {showName && <p>{name}</p>}
+      
     </Component>
+     {showLayus && layus && <div>
+                <p>
+                  {layus}
+                </p>
+              </div>}
+    </div>
   ) : null;
 }
