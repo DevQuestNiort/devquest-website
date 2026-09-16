@@ -1,0 +1,17 @@
+[
+  {
+    "picture": "/teams/remi.jpeg",
+    "name": "Rémi Dudragne",
+    "citation": "Rémi nous aide sur le site Web. en gros il voit, ce que nous, developpeur faisons sur le site, puis pleure et enfin nous dit comment faire mieux ^^",
+    "role": "#UX",
+    "linkedin": "https://www.linkedin.com/in/rémi-dudragne"
+  },
+  {
+    "name": "Adrien Corvisier",
+    "picture": "/teams/corvisier-a.png",
+    "role": "#Dev",
+    "citation": "Adrien a répondu à l'appel du DevQuest sans trop savoir dans quoi il s'embarquait. Il le sait maintenant, et il est encore là.",
+    "linkedin": "https://www.linkedin.com/in/adrien-corvisier/",
+    "github": "https://github.com/Crv113"
+  }
+]

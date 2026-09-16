@@ -1,6 +1,13 @@
 {
   "items": [
     { "label": "Accueil", "href": "/" },
+    {
+      "label": "Communauté",
+      "children": [
+        { "label": "⚔️ La Guilde", "href": "/guilde" },        
+        { "label": "🔨 Artisans", "href": "/artisans" }
+      ]
+    },
      {
       "label": "Chapitre",
       "children": [
