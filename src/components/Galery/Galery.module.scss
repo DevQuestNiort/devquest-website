@@ -1,18 +1,13 @@
 .galery {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(var(--galery-columns, 4), 1fr);
+  justify-items: center;
   gap: 4rem;
-  justify-content: center;
   max-width: 1200px;
   margin: 3rem auto;
 
-  > * {
-    width: 150px;
-  }
-
   @media (max-width: 640px) {
-    column-gap: 0;
-    row-gap: 2rem;
-    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
 }
