@@ -21,7 +21,7 @@ export default function HomeView({
   return (
     <div className={styles.main}>
       <HeroSection />
-      <Section theme="Light" className={styles.catch}>
+      <Section theme="Light">
         <h2>Section Light</h2>
 
         <Card theme="Light">
@@ -47,7 +47,7 @@ export default function HomeView({
 
 
       </Section>
-      <Section theme="Dark" className={styles.catch}>
+      <Section theme="Dark">
         <h2>L&apos;aventure continue Dark</h2>
 
 
@@ -74,7 +74,7 @@ export default function HomeView({
 
 
       </Section>
-      <Section theme="Primary" className={styles.catch}>
+      <Section theme="Primary">
         <h2>L&apos;aventure continue Primary</h2>
 
 
@@ -100,7 +100,7 @@ export default function HomeView({
         </Card>
 
       </Section>
-      <Section theme="Secondary" className={styles.catch}>
+      <Section theme="Secondary">
         <h2>L&apos;aventure continue Secondary</h2>
 
 
@@ -127,7 +127,7 @@ export default function HomeView({
 
 
       </Section>
-      <Section theme="Tertiary" className={styles.catch}>
+      <Section theme="Tertiary">
         <h2>L&apos;aventure continue Tertiary</h2>
 
 

@@ -8,7 +8,7 @@
   --dark: #000000;
   --blanc: #FFFFFF;
 
-  
+
   --marron: #594848;
   --marron-clair: #7d6969d1;
 
@@ -40,21 +40,31 @@
   --bleu-fonce: #056071;
   --bleu: #09B6D3; //
   --bleu-clair: #4addf7; //
-  
+
   // Thème actif par défaut : 2027
   --primary-color: var(--bleu);
   --secondary-color: var(--bleu-fonce);
   --tertiary-color: var(--bleu-clair);
-  --dark-color:var(--bleu-fonce);
-  --ligth-color:var(--sable);
+  --dark-color: var(--bleu-fonce);
+  --ligth-color: var(--sable);
+  --primary-font-color: black;
+  --secondary-font-color: white;
+  --tertiary-font-color: var(--bleu-fonce);
+  --dark-font-color: white;
+  --ligth-font-color: black;
 }
 
 [data-theme="2024"] {
   --primary-color: var(--vert);
   --secondary-color: var(--marron);
   --tertiary-color: var(--orange-clair);
-  --dark-color:var(--marron);
-  --ligth-color:var(--sable);
+  --dark-color: var(--marron);
+  --ligth-color: var(--sable);
+  --primary-font-color: white;
+  --secondary-font-color: white;
+  --tertiary-font-color: black;
+  --dark-font-color: white;
+  --ligth-font-color: black;
 
 }
 
@@ -62,22 +72,37 @@
   --primary-color: var(--violet);
   --secondary-color: var(--violet-fonce);
   --tertiary-color: var(--violet-clair);
-  --dark-color:var(--violet-fonce);
-  --ligth-color:var(--sable);
+  --dark-color: var(--violet-fonce);
+  --ligth-color: var(--sable);
+  --primary-font-color: white;
+  --secondary-font-color: white;
+  --tertiary-font-color: white;
+  --dark-font-color: white;
+  --ligth-font-color: black;
 }
 
 [data-theme="2026"] {
   --primary-color: var(--rouge);
   --secondary-color: var(--rouge-fonce);
   --tertiary-color: var(--rouge-clair);
-  --dark-color:var(--rouge-fonce);
-  --ligth-color:var(--sable);
+  --dark-color: var(--rouge-fonce);
+  --ligth-color: var(--sable);
+  --primary-font-color: white;
+  --secondary-font-color: white;
+  --tertiary-font-color: black;
+  --dark-font-color: white;
+  --ligth-font-color: black;
 }
 
 [data-theme="2027"] {
   --primary-color: var(--bleu);
   --secondary-color: var(--bleu-fonce);
   --tertiary-color: var(--bleu-clair);
-  --dark-color:var(--bleu-fonce);
-  --ligth-color:var(--sable);
+  --dark-color: var(--bleu-fonce);
+  --ligth-color: var(--sable);
+  --primary-font-color: black;
+  --secondary-font-color: white;
+  --tertiary-font-color: var(--bleu-fonce);
+  --dark-font-color: white;
+  --ligth-font-color: black;
 }
