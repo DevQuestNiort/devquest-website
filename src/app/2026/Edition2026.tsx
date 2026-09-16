@@ -70,7 +70,7 @@ export default async function Edition2026() {
           <Card>{speakers.length} speakers</Card>
         </Galery>
       </Section>
-      <Section theme="Dark" >
+      <Section theme="Primary" >
         <h2> Les Menestrels  </h2>
         <CardListSession sessions={sessions} speakers={speakers} columns={3} />
       </Section>

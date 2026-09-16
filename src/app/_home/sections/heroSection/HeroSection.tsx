@@ -24,7 +24,7 @@ export function HeroSection() {
         width={350}
         height={320}
       />
-      <Card theme="Secondary" className={styles.heroCard}>
+      <Card theme="Primary" className={styles.heroCard}>
         <h1>Le premier rassemblement des devs Niortais Revient bientôt</h1>
       </Card>
     </Section>

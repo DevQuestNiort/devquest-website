@@ -11,14 +11,20 @@
   font-size: 1.25rem;
   font-weight: bold;
   text-align: center;
+  min-width: 150px;
   max-width: 700px;
 
   &Light {
-    background-color: var(--sable);
+    background-color: var(--ligth-color);
     color: black;
   }
 
   &Dark {
+    background-color: var(--dark-color);
+    color: white;
+  }
+
+  &Primary {
     background-color: var(--primary-color);
     color: white;
   }
@@ -27,6 +33,12 @@
     background-color: var(--secondary-color);
     color: white;
   }
+
+  &Tertiary {
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+  }
+
 
   &Fluid {
     width: 100%;

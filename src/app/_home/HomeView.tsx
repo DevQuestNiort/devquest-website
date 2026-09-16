@@ -21,15 +21,139 @@ export default function HomeView({
   return (
     <div className={styles.main}>
       <HeroSection />
+      <Section theme="Light" className={styles.catch}>
+        <h2>Section Light</h2>
+
+        <Card theme="Light">
+          <h3> Card Ligth  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Dark">
+          <h3> Card Dark  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Primary">
+          <h3> Card Primary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Secondary">
+          <h3> Card Secondary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Tertiary">
+          <h3> Card Tertiary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+
+
+      </Section>
       <Section theme="Dark" className={styles.catch}>
-      <h2>L&apos;aventure continue</h2>
+        <h2>L&apos;aventure continue Dark</h2>
 
-      <Card theme="Light" className={styles.catchCard}>
-        <p> Les compagnons du Devquest repartent à l&apos;aventure, pour préparer ce quatrième chapitre. </p>
-      </Card>
 
-    
-    </Section>
+              <Card theme="Light">
+          <h3> Card Ligth  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Dark">
+          <h3> Card Dark  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Primary">
+          <h3> Card Primary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Secondary">
+          <h3> Card Secondary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Tertiary">
+          <h3> Card Tertiary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+
+
+      </Section>
+      <Section theme="Primary" className={styles.catch}>
+        <h2>L&apos;aventure continue Primary</h2>
+
+
+               <Card theme="Light">
+          <h3> Card Ligth  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Dark">
+          <h3> Card Dark  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Primary">
+          <h3> Card Primary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Secondary">
+          <h3> Card Secondary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Tertiary">
+          <h3> Card Tertiary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+
+      </Section>
+      <Section theme="Secondary" className={styles.catch}>
+        <h2>L&apos;aventure continue Secondary</h2>
+
+
+               <Card theme="Light">
+          <h3> Card Ligth  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Dark">
+          <h3> Card Dark  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Primary">
+          <h3> Card Primary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Secondary">
+          <h3> Card Secondary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Tertiary">
+          <h3> Card Tertiary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+
+
+      </Section>
+      <Section theme="Tertiary" className={styles.catch}>
+        <h2>L&apos;aventure continue Tertiary</h2>
+
+
+               <Card theme="Light">
+          <h3> Card Ligth  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Dark">
+          <h3> Card Dark  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Primary">
+          <h3> Card Primary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Secondary">
+          <h3> Card Secondary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card theme="Tertiary">
+          <h3> Card Tertiary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+
+
+      </Section>
     </div>
   );
 }

@@ -6,17 +6,27 @@
   align-items: center;
 
   &Light {
-    background-color: var(--sable);
+    background-color: var(--ligth-color);
     color: black;
   }
 
   &Dark {
+    background-color: var(--dark-color);
+    color: white;
+  }
+
+  &Primary {
     background-color: var(--primary-color);
     color: white;
   }
 
   &Secondary {
-    background-color: var(--secondary-color); 
+    background-color: var(--secondary-color);
     color: white;
+  }
+
+  &Tertiary {
+    background-color: var(--tertiary-color);
+    color:  var(--secondary-color);
   }
 }

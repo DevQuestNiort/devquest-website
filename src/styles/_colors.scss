@@ -25,40 +25,59 @@
   --violet-clair: #551B7E;
   --rose: #EFBFB7;
 
+
   // Palette 2026
+  --rouge-clair: #EFBFB7;
   --rouge: #800016;
-  --rouge-fonce: #802A00;
+  --rouge-fonce: #3d000a;
+
 
   // Palette 2027
-  --bleu: #09B6D3; //
-  --bleu-fonce: #14A0B7;
+  // --bleu-fonce: #0aaac7;
+  // --bleu: #41daf5; //
+  // --bleu-clair: #a3edfa; //
 
-  // Thème actif par défaut : 2026
-  --primary-color: var(--rouge);
-  --secondary-color: var(--rouge-fonce);
-  --tertiary-color: var(--rose);
+  --bleu-fonce: #056071;
+  --bleu: #09B6D3; //
+  --bleu-clair: #4addf7; //
+  
+  // Thème actif par défaut : 2027
+  --primary-color: var(--bleu);
+  --secondary-color: var(--bleu-fonce);
+  --tertiary-color: var(--bleu-clair);
+  --dark-color:var(--bleu-fonce);
+  --ligth-color:var(--sable);
 }
 
 [data-theme="2024"] {
   --primary-color: var(--vert);
   --secondary-color: var(--marron);
   --tertiary-color: var(--orange-clair);
+  --dark-color:var(--marron);
+  --ligth-color:var(--sable);
+
 }
 
 [data-theme="2025"] {
   --primary-color: var(--violet);
-  --secondary-color: var(--violet-clair);
-  --tertiary-color: var(--rose);
+  --secondary-color: var(--violet-fonce);
+  --tertiary-color: var(--violet-clair);
+  --dark-color:var(--violet-fonce);
+  --ligth-color:var(--sable);
 }
 
 [data-theme="2026"] {
   --primary-color: var(--rouge);
   --secondary-color: var(--rouge-fonce);
-  --tertiary-color: var(--rose);
+  --tertiary-color: var(--rouge-clair);
+  --dark-color:var(--rouge-fonce);
+  --ligth-color:var(--sable);
 }
 
 [data-theme="2027"] {
   --primary-color: var(--bleu);
   --secondary-color: var(--bleu-fonce);
-  --tertiary-color: var(--rose);
+  --tertiary-color: var(--bleu-clair);
+  --dark-color:var(--bleu-fonce);
+  --ligth-color:var(--sable);
 }
