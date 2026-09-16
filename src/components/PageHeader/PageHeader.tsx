@@ -4,7 +4,6 @@ import styles from "./PageHeader.module.scss";
 import menu from "../../data/menu.json";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LinkButton } from "@/components/LinkButton";
 import { useState } from "react";
 
 type NavChild = { label: string; href: string };
@@ -76,15 +75,6 @@ export const PageHeader = () => {
             ),
           )}
         </nav>
-
-        {/* CTA desktop */}
-        {/* <div className={styles.desktopCta}>
-          {config.shop && (
-            <LinkButton theme="Primary" href={config.shop} target="_blank">
-              Réserver mes places
-            </LinkButton>
-          )}
-        </div> */}
 
         {/* Hamburger */}
         <button

@@ -57,6 +57,7 @@
   },
   {
     "name": "Maif",
+    "layus": "*Toujours assureur, plus que jamais militant.* Avec vous et auprès de vous, MAIF réaffirme ses engagements et contribue à la construction d&apos;une société, plus humaine, plus solidaire et plus responsable.",
     "asset": "maif.webp",
     "site": "https://www.maif.fr/",
     "level": "LEGENDAIRE",
@@ -64,6 +65,7 @@
   },
   {
     "name": "Alltech Consulting",
+    "layus": "Chez Alltech, la réussite technologique commence toujours par l'humain",
     "asset": "alltech.webp",
     "site": "https://www.alltechconsulting.fr/",
     "level": "EPIQUE",

@@ -52,6 +52,7 @@ export function SponsorsByLevel({ partenaires, levelpartenaires }
                             <LogoPartenaire
                                 key={i}
                                 showName={true}
+                                showLayus={true}
                                 name={p.name}
                                 level={p.level}
                                 asset={p.asset}

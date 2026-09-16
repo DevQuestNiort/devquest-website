@@ -5,8 +5,8 @@
       "label": "Chapitre",
       "children": [
         { "label": "Devquest 2026", "href": "/2026" },
-        { "label": "Devquest 2025", "href": "/e" },
-        { "label": "Devquest 2024", "href": "/v" }
+        { "label": "Devquest 2025", "href": "/2025" },
+        { "label": "Devquest 2024", "href": "/2024" }
       ]
     }
   ]

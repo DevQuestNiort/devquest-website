@@ -1,17 +1,13 @@
 import styles from "./Home.module.scss";
-import { Theme } from "@/model/Theme";
 import { MoyensContact } from "@/model/MoyensContact";
 import { Partenaire } from "@/model/Partenaire";
 import { HeroSection } from "./sections/heroSection/HeroSection";
-import { CatchSection } from "./sections/catchSection/CatchSection";
-import { LastYearSection } from "./sections/lastYearSection/LastYearSection";
 import { PartnersSection } from "@/app/_home/sections/partnersSection/PartnersSection";
 import { LevelPartenaire } from "@/model/LevelPartenaire";
 import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
 
 interface HomeViewProperties {
-  readonly themes: Theme[];
   readonly contacts: MoyensContact[];
   readonly partenaires: Partenaire[];
   readonly levelpartenaires: LevelPartenaire[];
@@ -19,7 +15,6 @@ interface HomeViewProperties {
 
 export default function HomeView({
   contacts,
-  themes,
   partenaires,
   levelpartenaires,
 }: HomeViewProperties) {
@@ -38,3 +33,19 @@ export default function HomeView({
     </div>
   );
 }
+
+
+
+/**
+ *  <Card theme="Light" className={styles.heroCard}>
+        <h1>Le rassemblement des devs Niortais</h1>
+        <p>Les vidéos des conférences sont disponibles sur le programme :</p>
+        <LinkButton
+          theme="Primary"
+          style={{ marginTop: "0.5rem" }}
+          href={"/schedule/day-1"}
+        >
+          Voir le programme / les vidéos
+        </LinkButton>
+      </Card>
+ */
