@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "../styles/main.scss";
 import { Source_Sans_3, Teko } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
-import BackToTop from "@/components/BackToTop";
 import { PageHeader } from "@/components/PageHeader/PageHeader";
 import { Footer } from "@/components/Footer/Footer";
+import { RouteTheme } from "@/components/RouteTheme/RouteTheme";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.devquest.fr"),
-  title: "DEVQUEST - 11-12 juin (Niort)",
+  title: "DEVQUEST -  (Niort)",
   description:
     "Vous êtes développeur ? Ne ratez pas le premier évènement dédié avec des morceaux d'aventure dedans !",
   keywords: ["devquest", "dev", "quest", "niort", "devs", "conférences"],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         url: "/fond_site_26logo.png",
         width: 1200,
         height: 630,
-        alt: "DevQuest 2026 — 11-12 juin, Niort",
+        alt: "DevQuest —  Niort",
       },
     ],
   },
@@ -59,7 +59,7 @@ export default function RootLayout({
 }>) {
   // FIXME : pas ouf le head comme ça pour les icones...
   return (
-    <html lang="fr">
+    <html lang="fr" data-theme="2027">
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0&display=swap"
@@ -68,10 +68,9 @@ export default function RootLayout({
       </head>
       <body className={`${teko.variable} ${sourceSansPro.variable}`}>
         <GoogleAnalytics gaId="G-MR3XKZY9PM" />
+        <RouteTheme />
         <PageHeader />
         {children}
-
-        <BackToTop />
         <Footer />
       </body>
     </html>

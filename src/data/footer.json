@@ -47,9 +47,6 @@
       "title": "L'Événement",
       "links": [
         { "label": "Programme", "href": "/schedule/day-1" },
-        { "label": "Tremplin", "href": "/tremplin" },
-        { "label": "FAQ", "href": "/faq" },
-        { "label": "Code de conduite", "href": "/code-de-conduite" },
         { "label": "Mentions légales", "href": "/mentions-legales" }
       ]
     },

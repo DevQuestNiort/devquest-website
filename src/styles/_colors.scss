@@ -1,21 +1,64 @@
+// Système de thème par année : --primary/secondary/tertiary-color sont les seuls
+// tokens que les composants doivent utiliser. :root fixe le thème actif (2026).
+// Un data-theme="2024|2025|2026|2027" sur un ancêtre permet de forcer le rendu d'une
+// autre édition (ex. page d'archives) sans dupliquer le CSS des composants.
 :root {
+  // Constantes, invariables d'une année à l'autre
   --sable: #F1DDB6;
+  --dark: #000000;
+  --blanc: #FFFFFF;
+
+  
+  --marron: #594848;
+  --marron-clair: #7d6969d1;
+
+  // Palette 2024
   --vert: #192811;
   --vert-clair: #A69B02;
-  --marron: #594848;
   --bleu-clair: #96CBD9;
   --orange-clair: #F2AA6B;
   --orange: #F29543;
-  --marron-clair: #7d6969d1;
+
+  // Palette 2025
   --violet-fonce: #260742;
   --violet: #360362;
   --violet-clair: #551B7E;
   --rose: #EFBFB7;
-  --dark: #000000;
+
+  // Palette 2026
   --rouge: #800016;
+  --rouge-fonce: #802A00;
 
+  // Palette 2027
+  --bleu: #09B6D3; //
+  --bleu-fonce: #14A0B7;
+
+  // Thème actif par défaut : 2026
   --primary-color: var(--rouge);
-  --secondary-color: #802A00;
+  --secondary-color: var(--rouge-fonce);
   --tertiary-color: var(--rose);
+}
 
+[data-theme="2024"] {
+  --primary-color: var(--vert);
+  --secondary-color: var(--marron);
+  --tertiary-color: var(--orange-clair);
+}
+
+[data-theme="2025"] {
+  --primary-color: var(--violet);
+  --secondary-color: var(--violet-clair);
+  --tertiary-color: var(--rose);
+}
+
+[data-theme="2026"] {
+  --primary-color: var(--rouge);
+  --secondary-color: var(--rouge-fonce);
+  --tertiary-color: var(--rose);
+}
+
+[data-theme="2027"] {
+  --primary-color: var(--bleu);
+  --secondary-color: var(--bleu-fonce);
+  --tertiary-color: var(--rose);
 }

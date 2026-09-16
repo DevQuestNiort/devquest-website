@@ -38,7 +38,7 @@ export const PageHeader = () => {
       <div className={styles.inner}>
         {/* Logo */}
         <Link href="/" className={styles.logo} onClick={close}>
-          <Image src="/devquest-color-2025.svg" alt="logo devquest" width={48} height={48} />
+          <Image src="logo/2027/DQ2027-SansDate-Blanc.svg" alt="logo devquest" width={48} height={48} />
         </Link>
 
         {/* Desktop navigation */}

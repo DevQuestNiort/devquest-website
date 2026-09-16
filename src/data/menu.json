@@ -1,26 +1,13 @@
 {
   "items": [
     { "label": "Accueil", "href": "/" },
-    {
-      "label": "Programme",
-      "href": "/schedule/day-1",
-      "activeMatch": ["/schedule", "/sessions"]
-    },
-    { "label": "Tremplin", "href": "/tremplin" },
-    { "label": "FAQ", "href": "/faq" },
-    {
-      "label": "Communauté",
+     {
+      "label": "Chapitre",
       "children": [
-        { "label": "⚔️ La Guilde", "href": "/guilde" },
-        { "label": "🔮 Conseil des Mages", "href": "/conseil-des-mages" },
-        { "label": "🎙️ Maîtres de Conf", "href": "/maitres-de-conf" },
-        { "label": "🧑‍🤝‍🧑 Bénévoles", "href": "/benevoles" },
-        { "label": "🔨 Artisans", "href": "/artisans" }
+        { "label": "Devquest 2026", "href": "/2026" },
+        { "label": "Devquest 2025", "href": "/e" },
+        { "label": "Devquest 2024", "href": "/v" }
       ]
-    },
-    {
-      "label": "Kit partenaires ↗",
-      "href": "https://drive.google.com/drive/folders/1Fb5xMkGeXH5w6W3CUQCd53FcOUXuP0rq"
     }
   ]
 }

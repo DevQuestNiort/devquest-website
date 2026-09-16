@@ -2,50 +2,30 @@ import Image from "next/image";
 import styles from "./HeroSection.module.scss";
 import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
-import { LinkButton } from "@/components/LinkButton";
-import config from "../../../../data/config.json";
 
-import backgroundImage from "/public/fond_site_26.png";
+
+import backgroundImage from "/public/img/2027/2027-hero-3.png";
 
 export function HeroSection() {
   return (
     <Section
       id={styles.heroSection}
       style={{
-        backgroundImage: `url(${backgroundImage.src})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url(${backgroundImage.src})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
       }}
     >
       <Image
         id={styles.logo}
-        src="/logo/DQ2026-AvecDate-Couleur.svg"
+        src="/logo/2027/DQ2027-SansDate-Couleur.svg"
         alt="DevQuest 2026"
         priority
         width={350}
         height={320}
       />
-      <Card theme="Light" className={styles.heroCard}>
-        <h1>Le premier rassemblement des devs Niortais</h1>
-        <p>Les Vidéo sont disponible sur le programme :  </p>
-        <LinkButton
-          theme="Primary"
-          style={{ marginTop: "0.5rem" }}
-          href={"/schedule/day-1"}
-        >
-          Voir le programme/ les vidéos
-        </LinkButton>
-
-        {/*<LinkButton
-          theme="Secondary"
-          style={{ marginTop: "0.5rem" }}
-          href={"https://companion.devquest.fr/"}
-          target="_blank"
-        >
-          Devquest Compagnon
-        </LinkButton>
-*/}
-     
+      <Card theme="Secondary" className={styles.heroCard}>
+        <h1>Le premier rassemblement des devs Niortais Revient bientôt</h1>
       </Card>
     </Section>
   );

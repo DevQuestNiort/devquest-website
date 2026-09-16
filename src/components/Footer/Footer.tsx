@@ -32,7 +32,7 @@ export const Footer = () => (
       <div className={styles.col}>
         <Link href="/" className={styles.brand}>
           <Image
-            src="/logo/DQ2026-SansDate-Blanc.svg"
+            src="/logo/2026/DQ2026-SansDate-Blanc.svg"
             alt="logo devquest"
             width={96}
             height={96}
