@@ -1,0 +1,75 @@
+{
+  "tagline": "La conférence tech du bassin niortais.\nPar la communauté, pour la communauté.",
+  "socials": [
+    {
+      "icon": "linkedin",
+      "href": "https://www.linkedin.com/company/devquest-niort/",
+      "label": "LinkedIn DevQuest"
+    },
+    {
+      "icon": "github",
+      "href": "https://github.com/DevQuestNiort",
+      "label": "GitHub DevQuest"
+    },
+    {
+      "icon": "youtube",
+      "href": "https://www.youtube.com/channel/UCDFfMunDvS5yfZ9TaZfEq8w",
+      "label": "YouTube DevQuest"
+    },
+    {
+      "icon": "twitch",
+      "href": "https://www.twitch.tv/devquestniort",
+      "label": "Twitch DevQuest"
+    },
+    {
+      "icon": "discord",
+      "href": "https://discord.gg/Gx8rmjZh2J",
+      "label": "Discord DevQuest"
+    },
+    {
+      "icon": "instagram",
+      "href": "https://www.instagram.com/devquest_niort",
+      "label": "Instagram DevQuest"
+    },
+    {
+      "icon": "facebook",
+      "href": "https://www.facebook.com/profile.php?id=61571745361976",
+      "label": "Facebook DevQuest"
+    },
+    {
+      "icon": "email",
+      "href": "mailto:bureau@devquest.fr",
+      "label": "Email DevQuest"
+    }
+  ],
+  "columns": [
+    {
+      "title": "L'Événement",
+      "links": [
+        { "label": "Programme", "href": "/schedule/day-1" },
+        { "label": "Tremplin", "href": "/tremplin" },
+        { "label": "FAQ", "href": "/faq" },
+        { "label": "Code de conduite", "href": "/code-de-conduite" },
+        { "label": "Mentions légales", "href": "/mentions-legales" }
+      ]
+    },
+    {
+      "title": "La Communauté",
+      "links": [
+        { "label": "⚔️ La Guilde", "href": "/guilde" },
+        { "label": "🔮 Conseil des Mages", "href": "/conseil-des-mages" },
+        { "label": "🎙️ Maîtres de Conf", "href": "/maitres-de-conf" },
+        { "label": "🧑‍🤝‍🧑 Bénévoles", "href": "/benevoles" },
+        { "label": "🔨 Artisans", "href": "/artisans" }
+      ]
+    },
+    {
+      "title": "Ressources",
+      "links": [
+        { "label": "Ressources graphiques", "href": "/packmedia" },
+        { "label": "Kit partenaires ↗", "href": "https://drive.google.com/drive/folders/1Fb5xMkGeXH5w6W3CUQCd53FcOUXuP0rq" },
+        { "label": "Le jeu DevQuest 2025 ↗", "href": "https://devquestniort.github.io/dq-game/" }
+      ]
+    }
+  ]
+}

@@ -75,8 +75,9 @@
       opacity: 1;
     }
 
-    span[class^="icon-"] {
-      font-size: 1rem;
+    svg {
+      width: 1rem;
+      height: 1rem;
     }
   }
 }
