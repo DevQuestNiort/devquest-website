@@ -6,7 +6,7 @@ import { Membre } from "@/model/Membre";
 import { promises as fs } from "fs";
 import styles from "./Guilde.module.scss";
 
-import backgroundImage from "/public/avatar/conseilDeMage.png";
+import backgroundImage from "/public/img/2027/2027-guilde-hero.png";
 import MembreCard from "@/components/MembreCard/MembreCard";
 
 const getMembres = async () =>
@@ -22,7 +22,7 @@ export async function Guilde() {
       <Section
         className={styles.heroSection}
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 63, 145, 0.58), rgba(0, 63, 145, 0.58)), url(${backgroundImage.src})`,
+          backgroundImage: `linear-gradient(rgba(0, 63, 145, 0.2), rgba(0, 63, 145, 0.58)), url(${backgroundImage.src})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
