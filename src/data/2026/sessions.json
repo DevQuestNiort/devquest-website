@@ -1,879 +1,788 @@
 [
   {
-    "id": "Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt",
-    "title": "Le bien-être: le nouvel enjeu du software development ?",
-    "abstract": "Le bien-être au travail devient un sujet de plus en plus évoqué dans les entreprises.\nDu code à la mise en production, quels sont les impacts de nos pratiques actuelles sur notre\nbien-être ? Quels constats pouvons-nous faire en 2025 ?\nPrenons conscience des conséquences de notre quotidien de travail sur notre charge\ncognitive. Mais également, sur notre motivation ou sur nos capacités de concentration.\nConstatons ensemble les impacts positifs de la maintenance de code sur votre charge mentale.\nObservons comment votre contexte de travail et le leadership peuvent influencer votre capacité de\nconcentration et votre productivité. Et voyons si des opportunités de 2025, comme la GenIA\nou le DevEx, ont réellement leur place pour donner les moyens à une organisation de\nsoutenir et soulager les équipes. Le tout agrémenté de sources et d’études pour argumenter\nla mise en œuvre de ces pratiques.\nLe bien-être devient une nécessité pour les entreprises, et non plus une option.",
+    "id": "cmmchvm9r025t01nsz63hviaa",
+    "title": "Vous croyez connaître Git ? Challenge Accepted",
+    "abstract": "Vous pensiez maîtriser Git parce que vous savez faire un git commit -m \"fix\" ? Attendez de découvrir ce qui se cache dans les méandres de cet outil que tout le monde utilise... mais que personne ne comprend vraiment.\n\nAu programme :\n- Apprendre à travailler sur 3 features en même temps sans devenir fou\n- Retrouver CE commit que vous avez supprimé par erreur (et que vous juriez avoir perdu à jamais)\n- Débusquer le bug introduit il y a 47 commits sans lire tout l'historique comme un roman policier raté\n- Comprendre les différents workflows et quand les utiliser : Gitflow, GitHub Flow...\n\nTout ça sur un vrai projet, avec de vrais bugs, de vrais conflits, et de vraies solutions (pas juste des slides Powerpoint soporifiques).\n\nRepartez avec :\n- Une boîte à outils qui vous fera gagner des heures chaque semaine\n- Des bonnes pratiques qui éviteront à votre équipe de vous détester\n- La satisfaction d'enfin comprendre ce que fait git rebase (et de pouvoir l'expliquer à votre petit frère)\n- Accessoirement, le respect éternel de vos pairs\n\n⚠️ Attention : Ce workshop contient des révélations qui risquent de bouleverser votre vision de Git. Effets secondaires connus : addiction aux commits propres, refus catégorique de merger sans rebase, et tendance à évangéliser vos collègues sur git worktree.\n\nPrérequis : savoir ce qu'est un commit (si vous tapez encore git add . les yeux fermés en priant, c'est parfait, on est là pour ça).",
     "speakersId": [
-      "geoffrey-graveaud"
+      "anthony-pena",
+      "yann-thomas-le-moigne"
     ],
-    "format": "Keynote",
-    "categorie": "Keynote",
-    "tags": [
-      "keynote"
-    ],
-    "room": "La Forge",
-    "slot": "day-1-keynote-open",
-    "slug": "keynote-day-1",
-    "cancelled": false
-  },
-  {
-    "id": "cm8bvayuq09vypr3net3sw0g3",
-    "title": "Pair et mob programming : ensemble, on va plus loin",
-    "abstract": "Le pair et le mob programming sont parfois perçus comme une perte de temps. Vous avez peut-être déjà entendu des phrases tel que : \"Pas de pair chez nous, on veut aller vite\" ou \"On ira plus vite en codant chacun de notre côté\". Pourtant, ces méthodes de travail permettent en réalité d’accélérer le développement et d’améliorer la qualité du code.  Ce talk vous propose d’explorer ces pratiques, avec des retours d’expérience concrets et des conseils applicables en entreprise.  Nous verrons comment structurer une session, quels outils utiliser et comment surmonter les résistances pour en tirer le maximum de bénéfices.",
-    "speakersId": [
-      "alan-duchene"
-    ],
-    "format": "Conférence",
+    "format": "Workshop",
     "categorie": "Méthodo & Architecture",
     "tags": [
       "architecture"
     ],
-    "room": "La Forge",
+    "room": "",
+    "slot": "",
     "day": "day-1",
-    "slot": "day-1-conference-1-gs",
-    "slug": "pair-et-mob-programming--ensemble-on-va-plus-loin",
+    "slug": "vous-croyez-connatre-git--challenge-accepted",
     "cancelled": false
   },
   {
-    "id": "cm6hn7y2y01i5qy3mwl7ihzwe",
-    "title": "Succès débloqué : rendre son jeu vidéo accessible",
-    "abstract": "Avec près de 400 millions de joueurs et de joueuses en situation de handicap, rendre les jeux vidéo accessibles n’est pas seulement une nécessité sociale, mais aussi une opportunité de toucher un public plus large. Cette conférence explore des exemples concrets et des solutions pratiques, comme les contrôleurs adaptés, les filtres visuels et les ajustements cognitifs, tout en montrant comment dépasser les barrières involontaires pour créer des expériences inclusives.  Au-delà des outils, l’accessibilité est une philosophie de design qui améliore l’expérience pour tous et toutes, qu’il s’agisse de joueurs et joueuses en situation de handicap, novices ou casual. En intégrant ces principes dès la conception, les équipes de développement enrichissent non seulement leurs jeux, mais aussi la diversité et leur communauté.",
+    "id": "cmmchsndn025f01ns17e7fwn5",
+    "title": "🚀 La forge logicielle comme produit interne : pourquoi vos devs sont vos vrais clients",
+    "abstract": "Dans beaucoup d’organisations, la forge logicielle est vue comme un socle technique :\nGit, CI/CD, registry, sécurité, Kubernetes… et débrouillez-vous avec ça.\n\nRésultat ?\n- des pipelines contournés,\n- des outils sous-utilisés,\n- des équipes frustrées,\n- et une plateforme qui évolue au rythme des incidents, pas des besoins.\n\nEt si le problème n’était pas technique ?\n\nCe talk propose un changement de perspective :  \n**et si la forge logicielle était un produit interne**, avec :\n- des utilisateurs (les développeurs),\n- une roadmap,\n- des choix UX,\n- et des arbitrages assumés.\n\nÀ travers des retours d’expérience concrets, nous verrons comment appliquer une vraie approche produit à une forge logicielle pour créer une plateforme utile, adoptée… et aimée (ou au moins respectée).",
     "speakersId": [
-      "noelie-roux"
-    ],
-    "format": "Conférence",
-    "categorie": "Backend",
-    "tags": [
-      "discovery"
-    ],
-    "room": "Le planétarium",
-    "day": "day-1",
-    "slot": "day-1-conference-1-ps",
-    "slug": "succs-dbloqu--rendre-son-jeu-vido-accessible",
-    "cancelled": false
-  },
-  {
-    "id": "cm6esinq900ijqy3mknikw534",
-    "title": "1h50min pour créer une App Front avec la Clean Archigonale ©️",
-    "abstract": "**Tout le monde pense que la \"Clean Architecture / Architecture Hexagonale\" se fait uniquement côté Back.**   Dans ce **live coding**, je vais vous montrer que cela fonctionne également **côté Front**.  Et oui, Redux n'est pas le Silver Bullet des applications front-end.   Et oui, Les Stores ne sont pas toujours obligatoires, mais ceci est une autre histoire !  On va coder ensemble une petit App Front pour voir comment mettre en place cela.  **Take away :**  Architecture   Stratégie de Tests",
-    "speakersId": [
-      "dorian-lamande",
-      "guillaume-chauvet"
-    ],
-    "format": "Workshop",
-    "categorie": "Frontend",
-    "tags": [
-      "frontend"
-    ],
-    "room": "Le Laboratoire",
-    "day": "day-2",
-    "slot": "day-2-codelab-1",
-    "slug": "1h50min-pour-crer-une-app-front-avec-la-clean-archigonale-",
-    "cancelled": false
-  },
-  {
-    "id": "cm8cw8rmb0agupr3npza3rxax",
-    "title": "Les nouveautés du jdk 21+ par la pratique",
-    "abstract": "Le langage java évolue à vitesse grand V en ce moment et chaque version apporte son lot de nouveautés.\n\nDepuis la version 17 sont arrivés les records, les sealed class / interfaces, le pattern matching, des évolutions du switch etc. Ces évolutions du langage peuvent impacter la façon d'écrire du code et le rendre plus robuste.\n\nDans ce hands on, nous allons refactorer une application java \"classique\" afin d'utiliser au mieux les nouveautés de java. Un certain nombre de pattern d'utilisation seront présentés et mis en œuvre pour rendre votre code plus robuste et utiliser au maximum les dernières fonctionnalités de java.\n\n Forgerons et forgeronnes, si vous tombez sur ce post, nous vous encourageons [à cloner ce repository](https://github.com/MAIF/codelab-pattern-jdk21-et-plus), l'ouvrir dans intellij et le tester en lançant :\n`./mvnw spring-boot:run` \n\nLes pré-requis pour participer sont : \n* un jdk 21 ou plus \n* un IDE",
-    "speakersId": [
-      "delegue-alexandre",
-      "yohan-alard"
-    ],
-    "categorie": "Backend",
-    "tags": [
-      "backend"
-    ],
-    "format": "Workshop",
-    "room": "La porte Alchimique",
-    "day": "day-1",
-    "slot": "day-1-codelab-2",
-    "slug": "workshop-empty-slot-1",
-    "cancelled": false
-  },
-  {
-    "id": "cm8cw8rmb0agupr3npza3rxaa",
-    "title": "Les coulisses du DevQuest, DevEx : levier ou mirage de la performance ?",
-    "abstract": "Et si prendre soin de l\u2019exp\u00E9rience des d\u00E9veloppeurs, c\u2019\u00E9tait la cl\u00E9 pour des \u00E9quipes plus efficaces, engag\u00E9es et durables ?\r\n\r\nEn 30 minutes, on vous propose une discussion sinc\u00E8re, sans bullshit, avec celles et ceux qui vivent et transforment la DevEx au quotidien.\r\n\r\nAvec : Alexandre Pacaud (fondateur de DevQuest) & Florent Fr\u00E9mont (LeadDev chez MAIF)\r\n Et trois invit\u00E9s passionn\u00E9s \u2764\uFE0F  :\n\r \uD83D\uDC49 Geoffrey Graveaud \u2013 Coach Devops \/ Accelerate \/ Craft et Speaker. Avec plus de 15 ans d'exp\u00E9rience dans une trentaine d'organisations, Geoffrey est aujourd\u2019hui conf\u00E9rencier reconnu et coach en prise de parole, notamment pour des keynotes, TEDx et concours d\u2019\u00E9loquence.\r\n\r\n\uD83D\uDC49 Arthur Magne \u2013 CPO et cofondateur de Packmind. Passionn\u00E9 par la qualit\u00E9 logicielle et les pratiques collaboratives, Arthur a co-cr\u00E9\u00E9 une plateforme pour aider les \u00E9quipes \u00E0 partager leurs bonnes pratiques de code et faire \u00E9merger l\u2019excellence technique.\r\n\r\n\uD83D\uDC49  Yuriy Tyukhnin \u2013 CEO de DevEx Consulting. Fort de 20 ans de carri\u00E8re dans le d\u00E9veloppement et le management tech, Yuriy accompagne aujourd\u2019hui les entreprises pour am\u00E9liorer l\u2019exp\u00E9rience d\u00E9veloppeur, avec un focus particulier sur l\u2019int\u00E9gration des outils IA et la qualit\u00E9 de vie au travail.\r\n\r\n\r\n\uD83D\uDCC3 Au programme :\r\n * Pourquoi la DevEx, ce n\u2019est pas juste un mot \u00E0 la mode\r\n * Comment la mesurer vraiment, au-del\u00E0 des KPIs\r\n * Des outils, des pratiques et des id\u00E9es \u00E0 tester dans vos \u00E9quipes\r\n\r\nEt ce qu\u2019il vaut mieux \u00E9viter\u2026\r\n\uD83C\uDFAF \u00C0 \u00E9couter si vous pensez que bien coder, c\u2019est aussi bien travailler ensemble.",
-    "speakersId": [
-      "geoffrey-graveaud",
-      "arthur-magne",
-      "yuriy-tyukhnin"
-    ],
-    "categorie": "Quêtes Secondaires",
-    "tags": [
-      "discovery"
-    ],
-    "format": "Conférence",
-    "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-emission",
-    "slug": "emission-1",
-    "cancelled": false
-  },
-  {
-    "id": "cm9cw8rmb0agupr3npza3rxaa",
-    "title": "Les coulisses du DevQuest, la souveraineté numérique en France",
-    "abstract": "Et si reprendre le contrôle de notre infrastructure numérique était l’un des grands défis de notre temps ?\n\nDans cet épisode de DevQuest, on vous propose un échange direct, sans filtre, autour d’un sujet central mais souvent sous-estimé : la souveraineté numérique en France.\n\n\uD83C\uDF99\uFE0F Avec : Quentin Adam – CEO de Clever Cloud, entrepreneur engagé, expert reconnu de l’hébergement cloud, et fervent défenseur de l’indépendance technologique européenne.\n\n\uD83D\uDCAC Ensemble, nous faisons un état des lieux lucide du numérique français : dépendance aux GAFAM, manque d’alternatives locales, enjeux d’infrastructure, choix stratégiques à opérer. Quentin partage sa vision et des pistes concrètes pour agir, que l’on soit dev, CTO ou décideur : cloud souverain, open source, coopérations locales, rôle des communautés tech…\n\n\uD83D\uDCC3 Au programme :\n\nPourquoi la souveraineté numérique nous concerne tous\n\nCe que les entreprises peuvent faire, dès aujourd’hui\n\nLe rôle clé des développeurs dans la reconquête technologique\n\nEt comment éviter l’inaction par fatalisme\n\n\uD83C\uDFAF Un épisode pour celles et ceux qui veulent comprendre, agir, et contribuer à bâtir un numérique plus résilient, plus libre, et plus ancré localement.",
-    "speakersId": [
-      "quentin-adam"
-    ],
-    "categorie": "Quêtes Secondaires",
-    "tags": [
-      "discovery"
-    ],
-    "format": "Conférence",
-    "room": "La Forge",
-    "day": "day-2",
-    "slot": "day-2-emission",
-    "slug": "emission-2",
-    "cancelled": false
-  },
-  {
-    "id": "cm6dqrrlv00e1qy3moij8sixq",
-    "title": "🎶 \"Vois sur ton chemin, Aventuriers égarés, ...\" 🎶 Y'a-t-il un GPS dans le donjon ?",
-    "abstract": "Il est fini le temps où l'on planifiait notre parcours de vacances sur les atlas routiers.  Maintenant il nous est quasi impossible d'aller d'un point A à un point B sans utiliser des outils comme GoogleMaps, ou Plans, ou d'autres alternatives.  Aidons TomTom et Nanar à comprendre comment fonctionnent ces outils.  A*, Djisktra, ... Pathfinding n'auront plus de secrets pour vous.  Quelle magie est présente dans ces algorithmes ?  Chers Aventuriers, plus besoin d'un magicien dans votre équipe pour vous déplacer.  Vous aurez tout en main pour traverser votre prochain Donjon et optimiser votre trajet vers le prochain Boss.",
-    "speakersId": [
-      "sylvain-gougouzian",
-      "brice"
-    ],
-    "format": "Conférence",
-    "categorie": "Quêtes Secondaires",
-    "tags": [
-      "discovery"
-    ],
-    "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-conference-2-gs",
-    "slug": "-vois-sur-ton-chemin-aventuriers-gars---ya-t-il-un-gps-dans-le-donjon-",
-    "cancelled": false
-  },
-  {
-    "id": "cm6fn1gm600wgqy3m6raun1qn",
-    "title": "Adieu RxJS ! Vive les Signals ! Oh wait…",
-    "abstract": "On a commencé à voir les Signals en version 16, l’API est stable depuis la version 17, les Signals viennent radicalement changer la manière de penser la réactivité en Angular, surtout avec l’approche des Signal Inputs et de la promesse qui commence à vraiment émerger de faire disparaître Zone.js. Il reste encore une brique qui embête beaucoup de gens et qui semble devoir être supprimée aussi : RxJS !   Est-ce qu’on veut vraiment que RxJS soit entièrement remplacé par les Signals ?",
-    "speakersId": [
-      "anthony-pena"
-    ],
-    "format": "Conférence",
-    "categorie": "Frontend",
-    "tags": [
-      "frontend"
-    ],
-    "room": "Le planétarium",
-    "day": "day-1",
-    "slot": "day-1-conference-2-ps",
-    "slug": "adieu-rxjs--vive-les-signals--oh-wait",
-    "cancelled": false
-  },
-  {
-    "id": "cm6j6kywd01uoqy3m8798ojax",
-    "title": "Vous ne connaissez pas le S de Solid !",
-    "abstract": "\"Comment ça je ne connais pas le S des principes SOLID ?  Bien sûr que si ! C'est le principe de responsabilité unique (Single responsibility principle - SRP) !\"  D'accord, mais le sens profond du SRP est souvent mal compris ! Celui donné par Uncle Bob (Robert C. Martin) en personne !  Au cours de mes échanges avec de nombreux développeurs (juniors comme expérimentés), j'ai pu me rendre compte que ce principe était souvent mal compris. Même ChatGPT m'en a donné une définition erronnée !  Lors de cette conférence, j'éclaircirai la signification de ce principe puissant qui vous donnera les clés pour des refactos efficaces et vous guidera tel un fil d'ariane hors des griffes de l'overengeneering ! Tel est son super pouvoir.",
-    "speakersId": [
-      "julien-libert"
-    ],
-    "format": "Quickie",
-    "categorie": "Méthodo & Architecture",
-    "tags": [
-      "architecture"
-    ],
-    "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-quickie-3-gs",
-    "slug": "vous-ne-connaissez-pas-le-s-de-solid-",
-    "cancelled": false
-  },
-  {
-    "id": "cm6j6kywd01uoqyzz8798ojax",
-    "title": "S’augmenter sans se déposséder: la convivialité d’Illich face aux assistants d’IA.",
-    "abstract": "Au travail, quand est-ce qu’un outil passe d’une aide à une contrainte? D’une extension des capacités à une restriction? Avec sa notion de convivialité le philosophe Ivan Illich donne un référentiel pour répondre à ces questions. Mort en 2002 il n'a jamais pu demander la recette de la tarte aux pommes à ChatGPT ou Mistral, ni réfléchir à l’arrivée de l’IA générative dans le monde du travail. Pourrait-on, avec la convivialité en ligne de mire, trouver un entre-deux pragmatique entre enthousiasme effréné (#vibecoding) et refus catégorique? L'objectif de cette quête : voir comment la convivialité s’applique aux assistants de codage et vous fournir des pistes pour éviter que l'IA ne devienne un artefact dominant et dans les ténèbres toutes et tous nous lie.",
-    "speakersId": [
-      "nina-petard"
-    ],
-    "format": "Quickie",
-    "categorie": "Tremplin",
-    "tags": [
-      "tremplin"
-    ],
-    "room": "Le planétarium",
-    "day": "day-1",
-    "slot": "day-1-quickie-3-ps",
-    "slug": "tremplin-1",
-    "cancelled": false
-  },
-  {
-    "id": "cm6gwmltt01etqy3mhj7z575d",
-    "title": "Les coulisses de JavaScript : ce qu’on utilise sans comprendre 🎭",
-    "abstract": "Bienvenue dans les coulisses d’un des plus grand spectacle du développement web : **JavaScript 🪄** Sur scène, tout semble magique : les animations captivent, les promesses sont tenues, et tout s’exécute sans accroc. Mais derrière le rideau, une véritable troupe travaille sans relâche pour donner vie à ce spectacle.  Dans cette visite guidée, nous vous invitons à lever le rideau sur la mécanique de JavaScript : son engine, les closures, son incontournable event loop, les contextes d’exécution, et bien sûr, ses fameuses promesses. Ces concepts vous sont peut-être familiers, mais n’est-il pas temps d’un peu mieux les comprendre ?  Prenez vos billets et plongez avec nous dans les rouages fascinants de JavaScript 🎟️",
-    "speakersId": [
-      "mickael-alves",
-      "etienne-idoux"
-    ],
-    "format": "Conférence",
-    "categorie": "Frontend",
-    "tags": [
-      "frontend"
-    ],
-    "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-conference-4-gs",
-    "slug": "les-coulisses-de-javascript--ce-quon-utilise-sans-comprendre-",
-    "cancelled": false
-  },
-  {
-    "id": "cm6aymuvz0006qy3mibu4gx6b",
-    "title": "Cartographier pour mieux naviguer",
-    "abstract": "Vous faites face à de l'incertitude ? Votre équipe est devant un carrefour et ne sait pas quel(s) chemin(s) explorer ? Votre organisation a (vaguement) entendu parlé de l'IA, mais vous ne savez pas quels bénéfices en espérer ?  La cartographie estuarienne est une nouvelle méthode créée par Dave Snowden. Elle aide une ou plusieurs équipes à faire face à une situation complexe et à la dérisquer. Elle invite les équipes à décrire le système dans lequel elles évoluent, à le décomposer en éléments avec un granularité fine, puis à les placer sur une carte. Cette visualisation facilite l'initiation de changements cohérents dans le système pour générer des apprentissages et éviter les résistances.  Venez découvrir comment je me suis servi de cette méthode avec différentes équipes. J'expliquerai quand et comment l'utiliser dans vos contextes, ainsi que certains de ses fondements scientifiques.",
-    "speakersId": [
-      "william-bartlett"
-    ],
-    "format": "Conférence",
-    "categorie": "Méthodo & Architecture",
-    "tags": [
-      "architecture"
-    ],
-    "room": "Le planétarium",
-    "day": "day-1",
-    "slot": "day-1-conference-4-ps",
-    "slug": "cartographier-pour-mieux-naviguer",
-    "cancelled": false
-  },
-  {
-    "id": "cm84q0or8073apr3nqe2bm6d8",
-    "title": "Playwright : tester vos applications devient un jeu d'enfant",
-    "abstract": "Tester unitairement ses composants graphiques c'est bien, tester le bon fonctionnement de toute son application via un navigateur pilotable programmatiquement c'est mieux !  C'est ce que propose Playwright, un outil de tests end to end qui, en plus de très bonne performances, propose une excellent expérience développeur.  Je vous propose au cours de ce hand's on de découvrir par la pratique cet outil et de voir comment il peut vous permettre d'écrire des tests simples, maintenables et résilients.",
-    "speakersId": [
-      "benjamin-cavy"
-    ],
-    "format": "Workshop",
-    "categorie": "Frontend",
-    "tags": [
-      "frontend"
-    ],
-    "room": "Le Laboratoire",
-    "day": "day-1",
-    "slot": "day-1-codelab-3",
-    "slug": "playwright--tester-vos-applications-devient-un-jeu-denfant",
-    "cancelled": false
-  },
-  {
-    "id": "cm6qmd7x300q8ms3mut7zlj4w",
-    "title": "Hands on HTMX et Web Components : un combo parfait pour le développement web",
-    "abstract": "Cet atelier explore htmx 2.0 à travers une approche pratique pour simplifier le développement frontend. Vous découvrirez ses nouvelles fonctionnalités grâce à du live coding et des exercices interactifs, en commençant par une introduction rapide à ses concepts clés et ses mises à jour. Des exemples concrets et des extraits de code vous montreront comment htmx facilite les tâches courantes du frontend.  Ensuite, vous apprendrez à créer des Web Components réutilisables avec la bibliothèque Lit, en suivant un exercice guidé pour concevoir un élément simple et l’intégrer dans un projet.  Dans la seconde partie, nous verrons comment htmx et les Web Components Lit peuvent être combinés efficacement. À l’aide d’exemples progressifs, vous apprendrez à construire des composants modulaires et maintenables avec un minimum de JavaScript. À la fin, vous comprendrez comment ces outils se complètent et aurez la confiance nécessaire pour les utiliser dans vos propres projets.",
-    "speakersId": [
-      "horacio-gonzalez-(lostinbrittany)"
-    ],
-    "format": "Workshop",
-    "categorie": "Frontend",
-    "tags": [
-      "frontend"
-    ],
-    "room": "La porte Alchimique",
-    "day": "day-1",
-    "slot": "day-1-codelab-4",
-    "slug": "hands-on-htmx-et-web-components--un-combo-parfait-pour-le-dveloppement-web",
-    "cancelled": false
-  },
-  {
-    "id": "cm694u038054fqy3m0jntoqbg",
-    "title": "Vers une Métrique DDD Continue : Dépasser les Limites de l'Event Storming",
-    "abstract": "Le monde du développement logiciel oscille entre précision de la conception et rapidité d'itérations. Depuis quelques années, le DDD est revenu à la mode et pousse les équipes à bien identifier les bounded contexts et leurs langages ubiquitaires en collaborant de plus en plus avec les métiers. Mais que se passe-t'il quand le projet est lancé ? La routine des sprints prend le dessus avec une base de code qui diverge de plus en plus des bonnes intentions initiales. Dans ce talk je vous présenterai une innovation qui permet de suivre en continu avec une métrique et une courbe la qualité du langage ubiquitaire dans le code avec: - Mettre en place et maintenir un lexique métier par bounded context - S'outiller avec de l'AST afin d'extraire un score DDD d'une base de code - Se servir du management visuel pour impliquer et négocier avec les métiers  L'outil est actuellement déployé au sein de la Banque Publique d'Investissement et permet de prioriser les efforts de conception entre une douzaine d'équipes.",
-    "speakersId": [
-      "loic-broquet"
-    ],
-    "format": "Conférence",
-    "categorie": "Méthodo & Architecture",
-    "tags": [
-      "architecture"
-    ],
-    "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-conference-5-gs",
-    "slug": "vers-une-mtrique-ddd-continue--dpasser-les-limites-de-levent-storming",
-    "cancelled": false
-  },
-  {
-    "id": "cm7t8u3tr0145p53me4jc32yk",
-    "title": "Un Pixel, puis un autre : Comment faire tourner DOOM sur une liseuse électronique 🕹️",
-    "abstract": "DOOM est un jeu culte qui a été porté des milliers de fois sur toutes sortes de supports, alors pourquoi ne pas essayer de le faire tourner sur ma liseuse électronique Kindle ?  Je n’ai absolument aucune expérience en portage de jeux mais j’ai décidé de tenter l’expérience, un peu par curiosité, un peu pour le défi ! Je vous propose de suivre mon périple, un pixel après l’autre, pour jouer à DOOM avec de l’encre électronique.  Ca sera l'occasion de parler d'écrans 8 bits, d'architecture processeur et de bricolage technique pour faire marcher tout ca et bien sûr d'une démo de DOOM en encre électronique 🚀",
-    "speakersId": [
-      "moustapha-agack"
-    ],
-    "format": "Conférence",
-    "categorie": "Quêtes Secondaires",
-    "tags": [
-      "discovery"
-    ],
-    "room": "Le planétarium",
-    "day": "day-1",
-    "slot": "day-1-conference-5-ps",
-    "slug": "un-pixel-puis-un-autre--comment-faire-tourner-doom-sur-une-liseuse-lectronique-",
-    "cancelled": false
-  },
-  {
-    "id": "cm7nu1o5f01klob3nv0l8etv8",
-    "title": "Rafraîchi ta prod avec Kro",
-    "abstract": "Les équipes chargées des plateformes s'efforcent de fournir des services rationalisés et normalisés aux développeurs d'applications. Déployer et gérer manuellement les dépendances entre ressources peut prendre du temps et est souvent source d’erreurs. Kube Resource Orchestrator (kro) offre une approche pour y parvenir en permettant la création de blueprints de ressources réutilisables. Ce talk explorera comment kro permet aux équipes en charge des plateformes de définir des déploiements Kubernetes complexes en tant qu'unités composables, simplifiant ainsi l'onboarding des applications et réduisant la charge cognitive des développeurs. Nous allons parcourir ce qu’est un ResourceGraphDefinition, examiner comment kro gère les dépendances des ressources et discuter des best practices pour intégrer kro dans les workflows Kubernetes existants. Enfin, nous présenterons des exemples pratiques d'utilisation de kro pour construire des plateformes en libre-service et améliorer l'expérience des développeurs.",
-    "speakersId": [
-      "laurent-grangeau",
-      "tony-jarriault"
+      "mehdi-chilla"
     ],
     "format": "Conférence",
     "categorie": "Cloud & DevSecOps",
     "tags": [
       "cloud_devops"
     ],
-    "room": "La Forge",
+    "room": "",
+    "slot": "",
     "day": "day-1",
-    "slot": "day-1-conference-6-gs",
-    "slug": "rafrachi-ta-prod-avec-kro",
-    "cancelled": false
+    "slug": "-la-forge-logicielle-comme-produit-interne--pourquoi-vos-devs-sont-vos-vrais-clients",
+    "cancelled": false,
+    "mc": "1763c54d-5325-4594-abfc-1ebaea3f110d",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=6mtFG8i2cm4"
   },
   {
-    "id": "cm6asu4v705fuqy3myteyguxq",
-    "title": "Dark Mode : analyse et conception",
-    "abstract": "👓 Pourquoi un thème sombre ? Du Minitel à SNCF Connect: ses avantages, ses inconvénients et les études scientifiques associées.  🌜 Comment concevoir un thème sombre à partir d’un thème clair ?  Les astuces de design et les pièges à éviter expliqués avec un exemple concret.  🤝 Comment définir un langage commun entre designers et développeurs ?  Faciliter son implémentation et sa maintenabilité, introduction aux design tokens.",
+    "id": "cmmchu8ms025p01nsyt35tz82",
+    "title": "Catch me if you can : Comment j'ai volé ma moto aux voleurs (deux fois)",
+    "abstract": "Tout motard redoute ce moment : arriver à l'emplacement de sa moto et ne trouver que… le vide.\n\nCette mésaventure m'est arrivée non pas une mais deux fois ! Et chaque fois, la fin a été différente du scénario habituel. Pas de déclaration de vol sans espoir (ou presque), mais une chasse… à la machine.\n\nLa dernière fois ? C'était pendant le DevFest 2024. Entre deux conférences, je me suis retrouvé embarqué avec la BAC de nuit pour récupérer mon bien.\n\nMais comment \"traque\"-t-on réellement un véhicule en milieu urbain ? Dans ce talk, je vous propose un retour d'expérience sans filtre sur l'efficacité réelle des traceurs GPS. Nous ouvrirons le capot de ces petites boîtes noires pour comprendre la technologie qui les anime. Du hardware à l'application mobile, en passant par les réseaux cellulaires, découvrez comment la tech peut transformer une victime en enquêteur... et comment j'ai fini par voler ma moto aux voleurs !",
     "speakersId": [
-      "antoine-candy",
-      "simon-mercier"
+      "julien-haumont"
     ],
     "format": "Conférence",
-    "categorie": "Design & UX",
-    "tags": [
-      "ux_ui"
-    ],
-    "room": "Le planétarium",
-    "day": "day-1",
-    "slot": "day-1-conference-6-ps",
-    "slug": "dark-mode--analyse-et-conception",
-    "cancelled": false
-  },
-  {
-    "id": "cm63d63xg0491qy3m7wmw7d55",
-    "title": "Really inaccessible",
-    "abstract": "Bienvenue dans \"Rea11y Inaccessible\", un escape game inédit où tu seras confronté(e) aux défis de l'accessibilité. Ce jeu te plongera dans une société où la norme est bien différente de celle que tu connais. Aujourd'hui, tu vas vivre une aventure immersive qui te mettra dans la peau de personnes vivant avec divers handicaps (visuels, auditifs, moteurs et cognitifs).  Munis-toi de ton ordinateur et de ton casque audio préféré pour une immersion plus totale.",
-    "speakersId": [
-      "louis-fredice-njako-molom",
-      "stanley-servical"
-    ],
-    "format": "Workshop",
     "categorie": "Quêtes Secondaires",
-    "tags": [
-      "discovery"
-    ],
-    "room": "Le Laboratoire",
+    "tags": [],
+    "room": "",
+    "slot": "",
     "day": "day-1",
-    "slot": "day-1-codelab-5",
-    "slug": "really-inaccessible",
-    "cancelled": false
+    "slug": "catch-me-if-you-can--comment-jai-vol-ma-moto-aux-voleurs-deux-fois",
+    "cancelled": false,
+    "mc": "f6c73fdb-1b56-43f2-b2ec-2489911582ed",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=hL4HZH9z-G8"
   },
   {
-    "id": "cm6599nze04kzqy3myrrg8ion",
-    "title": "\"Mais qu'est ce qu'on va devenir ?\" - Le métier de dev passé au crible des scénarios de l'ADEME",
-    "abstract": "Il est désormais acté que le numérique est une source non négligeable du dérèglement climatique actuel. Et lorsque l'on commence à creuser ce sujet, on finit souvent par se demander si nos métiers ont encore un avenir.  Dans son exercice de projection \"Transitions 2050\", l'ADEME a défini 4 scénarios pour atteindre la neutralité carbone d'ici à 2050. De la génération frugale au pari réparateur, venez découvrir ces différents scénarios et vous projeter dans chacun d'entre eux pour imaginer avec nous l'évolution de nos métiers et les adaptations qui seront nécessaires pour atteindre cet objectif.   Après avoir réfléchi en petits groupes sur les différents scénarios, nous effectuerons une mise en commun des conclusions. Et nous terminerons par un petit débat pour que chacun se positionne sur le ou les futurs qui lui semblent les plus désirables.",
+    "id": "cmmci0kzi026e01nsypcw2zfg",
+    "title": "Faire évoluer une bibliothèque React interne : entre cohérence, flexibilité et contraintes du réel",
+    "abstract": "Dans le milieu du developement web frontend, on parle souvent des design systems, des UI kits open source et des bibliothèques ultra léchés comme shadcn/ui ou Material UI.\n Mais dans **la vraie vie**, les projets ont leurs propres contraintes : un design system maison, plusieurs équipes, des besoins métiers qui changent sans prévenir… et aucune solution \"magique\" pour tout aligner.\nCette conférence partage mon expérience de mainteneur d’une bibliothèque React interne : standardiser sans brider, accélérer sans casser, et surtout, rester utile aux équipes.\nUn **retour d’expérience** concret et honnête sur la réalité technique et humaine du terrain: les choix qui fonctionnent, ceux qu’on regrette un peu, et tout ce qu’on apprend en essayant de garder une librairie vivante dans un environnement qui bouge tout le temps.",
     "speakersId": [
-      "jean-palies",
-      "cecilia-bossard"
-    ],
-    "format": "Workshop",
-    "categorie": "Quêtes Secondaires",
-    "tags": [
-      "discovery"
-    ],
-    "room": "La porte Alchimique",
-    "day": "day-2",
-    "slot": "day-2-codelab-2",
-    "slug": "mais-quest-ce-quon-va-devenir----le-mtier-de-dev-pass-au-crible-des-scnarios-de-lademe",
-    "cancelled": false
-  },
-  {
-    "id": "cm6chlau0007yqy3m47s4r9o4",
-    "title": "Une identité pour les fédérer toutes !",
-    "abstract": "Dans un monde numérique où nos identités sont sollicitées à chaque clic, une question se pose : faut-il vraiment créer un compte à chaque fois que l’on accède à une nouvelle application ?  De FranceConnect aux boutons “Se connecter avec…” que vous croisez partout, ces solutions simplifient nos vies numériques. Mais avez-vous déjà réfléchi à ce qui se passe en coulisses ? Pourquoi pouvez-vous naviguer entre les outils de votre entreprise sans vous réauthentifier ? Et surtout, comment tout cela reste-t-il sécurisé ?  Dans ce talk, je vous propose de découvrir les principes de l’identité fédérée et du Single Sign-On (SSO), ces outils qui rendent votre navigation plus fluide. Nous parlerons des bases qui rendent ce système universel et fiable, tout en évoquant brièvement les protocoles qui le soutiennent, comme SAML et OIDC, pour satisfaire votre curiosité technique, sans jamais vous noyer dans les détails.  Que vous soyez un utilisateur intrigué ou un développeur souhaitant explorer ces concepts, vous découvrirez un univers où simplicité et sécurité s’entrelacent pour créer des expériences numériques à la fois puissantes et élégantes.",
-    "speakersId": [
-      "sebastien-ferrer"
-    ],
-    "format": "Quickie",
-    "categorie": "Cloud & DevSecOps",
-    "tags": [
-      "cloud_devops"
-    ],
-    "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-quickie-7-gs",
-    "slug": "une-identit-pour-les-fdrer-toutes-",
-    "cancelled": false
-  },
-  {
-    "id": "cm7ptd0oq02kbob3n1ujqut1r",
-    "title": "Astro, vers l'infini et au delà",
-    "abstract": "Découvrez Astro, l'étoile montante des meta-frameworks.\n\nDe moteur de sites statiques à meta-framework ultra complet et aux performances stellaires, je vous invite à explorer les confins de la performance avec un confort de dev 5 étoiles.",
-    "speakersId": [
-      "maximillien-gilet"
-    ],
-    "format": "Quickie",
-    "categorie": "Frontend",
-    "tags": [
-      "frontend"
-    ],
-    "room": "La Forge",
-    "day": "day-2",
-    "slot": "day-2-quickie-8-ps",
-    "slug": "parse-dont-validate-en-java-ou-comment-viter-les-bugs-ds-la-compilation",
-    "cancelled": false
-  },
-  {
-    "id": "cm8bv1ymp09vbpr3nyd3wxb5w",
-    "title": "OSINT : L’art de trouver ce qui ne devrait pas être trouvé",
-    "abstract": "Dans un monde où l’information est partout, savoir chercher est un pouvoir. L’OSINT (Open Source Intelligence) permet de collecter et d’exploiter des informations publiquement accessibles pour découvrir et croiser des faits .  Dans ce talk vous allez découvrir les bases de l'OSINT en explorant des techniques et outils pour exploiter des données publiques de manière stratégiques. Et enfin nous mettrons ces techniques en pratique lors d'une étude de cas.",
-    "speakersId": [
-      "marie-viley"
-    ],
-    "format": "Quickie",
-    "categorie": "Quêtes Secondaires",
-    "tags": [
-      "discovery"
-    ],
-    "room": "La Forge",
-    "day": "day-1",
-    "slot": "day-1-quickie-8-gs",
-    "slug": "osint--lart-de-trouver-ce-qui-ne-devrait-pas-tre-trouv",
-    "cancelled": false
-  },
-  {
-    "id": "cm85swij307bxpr3nlhmzosxm",
-    "title": "Mes trains Jouef passent au numérique, avec des Raspberry et TinyGo !",
-    "abstract": "Dans les années 1970/1980, de nombreux enfants ont eu la chance de grandir avec des petits trains électriques, au format HO (1:87). Le principe était simple : on pose des rails, qu'on alimente en 18V, et les trains circulent sur les rails.  Un demi-siècle plus tard, mon grand-père de 85 ans et moi-même nous sommes lancés dans le projet un peu fou de faire passer au numérique ses trains électriques de cette époque. Bienvenue dans ce retour d'expérience, avec du matériel, et des humains, qui ont traversé les générations.  Au menu : de l'électronique (pas trop, promis !), des Raspberry, du TinyGo... et des petits trains, bien entendu.",
-    "speakersId": [
-      "florian-forestier"
-    ],
-    "format": "Quickie",
-    "categorie": "Quêtes Secondaires",
-    "tags": [
-      "discovery"
-    ],
-    "room": "Le planétarium",
-    "day": "day-1",
-    "slot": "day-1-quickie-8-ps",
-    "slug": "mes-trains-jouef-passent-au-numrique-avec-des-raspberry-et-tinygo-",
-    "cancelled": false
-  },
-  {
-    "id": "cm63ldyyb049mqy3m34x4qx89",
-    "title": "Le dilemme du code legacy : on maintient ou on réécrit ?",
-    "abstract": "Avez-vous déjà été confronté à l'anxiété de travailler dans une base de code legacy, craignant que même un changement mineur ne provoque des erreurs en cascade ? Évitez-vous de toucher à certaines parties du code parce que les tests vous semblent être des obstacles fragiles plutôt que des filets de sécurité ? Vous n'êtes pas seul.  Le code legacy n'est souvent pas accompagné de tests propres, et lorsque des tests sont présents, ils peuvent être fragiles, incomplets ou trop complexes. Comment retrouver la confiance et rompre ce cycle de prudence et de confusion ? Comment transformer les tests en un outil d’automatisation plutôt qu'en une source de frustration ?  Dans cette conférence, je partagerai avec vous quelques techniques concrètes pour identifier les zones à risque et rendre le code existant plus robuste et plus clair grâce à des stratégies de refonte et de test ciblées.  Le tout en live coding !",
-    "speakersId": [
-      "valentin-dumas"
-    ],
-    "format": "Conférence",
-    "categorie": "Méthodo & Architecture",
-    "tags": [
-      "architecture"
-    ],
-    "room": "La Forge",
-    "day": "day-2",
-    "slot": "day-2-conference-1-gs",
-    "slug": "le-dilemme-du-code-legacy--on-maintient-ou-on-rcrit-",
-    "cancelled": false
-  },
-  {
-    "id": "cm82vobp905glpr3n2ru6c1gh",
-    "title": "Comment j'ai (presque) arrêté de faire des tests automatisés ?",
-    "abstract": "Les tests automatisés sont essentiels pour assurer la stabilité du code. Mais en abuser peut devenir un frein, verrouillant le développement et limitant les évolutions du code. Alors comment trouver le juste équilibre entre couverture et flexibilité ?   À travers trois projets concrets, Antoine nous partagera les succès, les erreurs et les enseignements qui l’ont conduit à repenser les stratégies de test et leur mise en œuvre. Vous découvrirez des exemples réels, des pièges à éviter, et des solutions pragmatiques applicables à vos projets.   Vous repartirez avec une méthode pour définir une stratégie de test équilibrée, des critères pour identifier ce qui fait un “bon” test, et des idées pour optimiser vos pratiques sans compromettre la qualité.",
-    "speakersId": [
-      "antoine-mazure"
-    ],
-    "format": "Conférence",
-    "categorie": "Backend",
-    "tags": [
-      "architecture"
-    ],
-    "room": "Le planétarium",
-    "day": "day-2",
-    "slot": "day-2-conference-1-ps",
-    "slug": "comment-jai-presque-arrt-de-faire-des-tests-automatiss-",
-    "cancelled": false
-  },
-  {
-    "id": "cm6ccrrc8006oqy3mrjk3rlew",
-    "title": "Je malmène ton LLM en direct avec 10 failles de sécurités",
-    "abstract": "Les LLM sont à la mode, et soulèvent eux aussi des problèmes de sécurité.  Nous en avons pourtant mis dans nos applications, sans nous sentir concernés.  Notre code est pourtant souvent à l'origine de nombreuses failles que nous ignorons. Allons les découvrir et les exploiter ensemble, en live sur une application existante. En sortant de cette session, vous serez à même de répondre à ces questions : - Qu'est-ce que qu'une faille de sécurité pour un LLM ? - Quel est le rôle du dev dans la sécurité ? - Quelles sont les bonnes pratiques à appliquer ?  Soyez prêts, tous les coups seront permis !",
-    "speakersId": [
-      "gaetan-eleouet"
-    ],
-    "format": "Conférence",
-    "categorie": "Cloud & DevSecOps",
-    "tags": [
-      "architecture"
-    ],
-    "room": "La Forge",
-    "day": "day-2",
-    "slot": "day-2-conference-2-gs",
-    "slug": "je-malmne-ton-llm-en-direct-avec-10-failles-de-scurits",
-    "cancelled": false
-  },
-  {
-    "id": "cm7d3soxt012dnz3mida7eluu",
-    "title": "Cloud Run... tout ce qu'il faut sans K8S",
-    "abstract": "Docker est arrivé en 2016 en France permettant de packager nos applications facilement. Il a fallu maîtriser les concepts de Docker : commandes, isolation, optimisation des layers etc.  Ensuite, la solution leader d'orchestration Kubernetes est arrivée permettant de scaler ces containers. Pour permettre à K8S de gérer correctement un nom de domaine en TLS, livrer de façon transparente en production, faire du test A/B, il faut là encore retrousser les manches.  Basé sur le projet Open Source Knative, Cloud Run est LA solution parfaite pour déployer des conteneurs et permet de gérer tout ça : autoscaling, gestion du traffic et bien d'autres fonctionnalités !  Faisons un tour des petits plus de cette solution : nous y trouvons la majorité des features d'un Kubernetes sans Kubernetes. Je vous partagerai mon expérience et essaierai de montrer pourquoi les solutions Serverless & Cloud Run sont l'avenir.",
-    "speakersId": [
-      "julien-landure"
-    ],
-    "format": "Conférence",
-    "categorie": "Cloud & DevSecOps",
-    "tags": [
-      "cloud_devops"
-    ],
-    "room": "Le planétarium",
-    "day": "day-2",
-    "slot": "day-2-conference-2-ps",
-    "slug": "cloud-run-tout-ce-quil-faut-sans-k8s",
-    "cancelled": false
-  },
-  {
-    "id": "cm79bosgy003pnz3m4tnjdc0u",
-    "title": "Tester dans l'Hexagone: du Mob, du DDD, du TDD,  des Doublures et les TestContainers !",
-    "abstract": "Vous avez entendu parler de DDD, d'architecture hexagonale ? De la pyramide des tests? Vous en avez marre de ces conférences théoriques sur le sujet et vous aimeriez enfin coder avec ces paradigmes?  Vous auriez tant voulu appliquer le TDD, mais il vous fait peur; ou bien \"vous n'avez pas le temps\" pour le faire en prod? Vous aimeriez savoir comment écrire ET tester des entités métier ?   Vous avez entendu parler des ports/adapteurs, comment les utiliser ?  Vous voudriez savoir si c'est  vraiment incontournable d'utiliser les \"mocks\"? Et ces fameux TestContainers, sont-ils vos amis ou vos ennemis ?  Et si en plus, vous pouviez faire le 1er (ou pas) mob programming de votre vie??  Tout cela en quelques heures par la pratique ?  Alors, cet atelier est complètement fait pour vous !   ### Bénéfices attendus  - Construire une application autour d'un cas métier concret  - Introduire pas à pas les bases du DDD et de l'architecture Hexagonale  - Comprendre les tests unitaires et le besoin de doublures dans un début d’architecture hexagonale;   - Appréhender quand ces doublures de tests sont légitimes dans leurs usages.  - Démystifier ce qu’est un dummy, un stub, un spy, un fake, un mock. - Jouer avec les  TestContainers  - En produisant (en TDD, toujours) un code empreint de contraintes techniques réelles : dialogue avec une base de données, un service web...  - Apprendre en s’amusant, en collaborant afin de produire, tous ensemble, le code.  Mob programiming en  Kotlin",
-    "speakersId": [
-      "anthony-cassaigne",
-      "guillaume-saint-etienne"
-    ],
-    "format": "Workshop",
-    "categorie": "Backend",
-    "tags": [
-      "architecture"
-    ],
-    "room": "Le Laboratoire",
-    "day": "day-1",
-    "slot": "day-1-codelab-1",
-    "slug": "tester-dans-lhexagone-du-mob-du-ddd-du-tdd-des-doublures-et-les-testcontainers-",
-    "cancelled": false
-  },
-  {
-    "id": "cm71ryvfd00w0ml3mtlbzbk19",
-    "title": "Forger votre application CLI en 2h avec Bun (TypeScript)",
-    "abstract": "Apprenez à forger votre toute première application grâce à Bun, un nouveau prétendant au trône de Node et de Deno, doté de pouvoirs innombrables dès sa naissance !\n\nEnsemble, nous dévoilerons le secret de la création, en deux petites heures seulement, d'une application CLI, parée d'une configuration en mode toile et munie d'une API fortifiée contre les attaques grâce à la magie d'Elysia.\n\nNous ferons appel à une panoplie d'outils enchantés tels que Clipse, Inquirer, Chalk, Cli-Progress... et au langage de TypeScript, langue des érudits.\n\nIl est requis de posséder quelques rudiments de TypeScript ou de JavaScript. Toutefois, Bun et les grimoires javascript vous seront expliqués avec diligence.\n\nPréparez vos machines en installant Bun, soit par un sort jeté avec curl -fsSL https://bun.sh/install | bash, soit par une incantation murmurée à l'aide de powershell -c \"irm bun.sh/install.ps1 | iex\".\n\nVous constaterez alors la simplicité avec laquelle vous pourrez créer et partager votre œuvre en l'espace de deux heures !\n\nVotre application vous permettra de gérer des PJs (Personnages Joueurs) pour des statistiques de lancement de dés.\n\n",
-    "speakersId": [
-      "sylvain-gougouzian"
-    ],
-    "format": "Workshop",
-    "categorie": "Backend",
-    "tags": [
-      "backend"
-    ],
-    "room": "La porte Alchimique",
-    "day": "day-1",
-    "slot": "day-1-codelab-6",
-    "slug": "forger-votre-application-cli-en-2h-avec-bun--typescript",
-    "cancelled": false
-  },
-  {
-    "id": "cm66b68be04m4qy3mkpgy9owq",
-    "title": "L’invasion du HTML mutant",
-    "abstract": "Notre héros développeur se lève un matin et fait `F12` pour inspecter sa page web. Tout semble tranquille… Mais ! Quelque chose vient de bouger, de l’autre côté du HTML !? Que se passe-t-il ? Aucun script n’a été exécuté par le héros, pourtant ! Oh la la… mais ce nouveau HTML est une aberration ! Et c’est quoi ces styles horribles ?  Suivez l’aventure d’un développeur perdu dans un HTML gangrené par des scripts tiers malvenus, et sa découverte des _Mutation Observers_ pour endiguer l’invasion du HTML mutant !",
-    "speakersId": [
-      "gael-poupard"
+      "no-tatoud"
     ],
     "format": "Conférence",
     "categorie": "Frontend",
     "tags": [
       "frontend"
     ],
-    "room": "La Forge",
+    "room": "",
+    "slot": "",
     "day": "day-2",
-    "slot": "day-2-conference-3-gs",
-    "slug": "linvasion-du-html-mutant",
-    "cancelled": false
+    "slug": "faire-voluer-une-bibliothque-react-interne--entre-cohrence-flexibilit-et-contraintes-du-rel",
+    "cancelled": false,
+    "mc": "c4a237ef-26d9-4d25-ad3d-32f80ea99295",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=cNpWbTyizbI"
   },
   {
-    "id": "cm88zazuy08rnpr3n1ymsjesu",
-    "title": "Comment garantir la sécurité des applications mobiles bancaires ?",
-    "abstract": "_\"Oyez, oyez, aventuriers ! Moi, mage-artificier et développeur de la Grande Banque des Gobelins, je vais vous présenter comment notre noble établissement (ainsi que ses vils concurrents) peut vous garantir à vous que vos pièces d'or restent bien au chaud et à votre nom dans les coffres, en particulier à travers les tablettes magiques intelligentes qui vous permettent de gérer vos fonds à distance, et que nul oeil malveillant ne saura accéder à vos informations. Avec un tel arsenal défensif, nul roublard ne pourra vous dérober... du moins, pas à distance.\", Nilmanduil, mage-artificier niveau 33 de la troupe ASI._  A l'heure où de plus en plus de réglementations européennes nous protègent numériquement, comment peut-on dire que les applications mobiles de nos banques sont réellement sécurisées et que nos fonds et nos données personnelles restent à l'abri des menaces ? Je vous apporte ici quelques éléments sous l'angle d'un développeur front, à l'aide de l'OWASP et surtout de concepts, méthodes et outils. Mon défi sera de vous rassurer, et je l'espère, peut-être aussi de vous donner envie d'en savoir plus ?",
+    "id": "cmmd2h7hg028g01ns6k6f93ti",
+    "title": "Les rouages de l’auto-complétion",
+    "abstract": "L’auto-complétion est omniprésente sur le web et dans nos IDE, mais nous en savons souvent peu sur son fonctionnement.\n\nComment une boutique en ligne devine-t’elle qu’on cherche des bonbons quand on tape « tactac » ou « quindeur » ? Comment s’y prend un moteur de recherche pour corriger mes fautes d’orthographe ? Par quelle magie une appli de cartographie parvient-elle à comprendre l’adresse (très) approximative que je lui donne après une réunion professionnelle à la Cervoiserie ?\n\nPour répondre à ces questions, nous partirons à la découverte des principaux algorithmes d’auto-complétion et discuterons de leur efficacité, de leur complexité et de leur facilité d’implémentation.",
     "speakersId": [
-      "thibault-goudouneix"
-    ],
-    "format": "Conférence",
-    "categorie": "Backend",
-    "tags": [
-      "architecture"
-    ],
-    "room": "Le planétarium",
-    "day": "day-2",
-    "slot": "day-2-conference-3-ps",
-    "slug": "comment-garantir-la-scurit-des-applications-mobiles-bancaires-",
-    "cancelled": false
-  },
-  {
-    "id": "cm85mm6db0783pr3n9g5gf6k2",
-    "title": "JBang, un fichier Java pour les gouverner tous ?",
-    "abstract": "Dans le monde Java, nous sommes habitués à initialiser un projet avec de nombreux fichiers et répertoires. A tel point que des CLI ont vu le jour pour nous aider à créer les projets SpringBoot ou Quarkus par exemple. Vient ensuite le choix du \"package manager\" : Maven ou Gradle ? Et c'est seulement à partir de là que l'on peut commencer à développer puis exécuter son code 😅.  Toutes ces étapes fastidieuses expliquent pourquoi, lorsque que l'on a besoin de faire un développement rapide de quelques lignes pour automatiser une action, on préfère d'autres langages à Java : Python par exemple.  Et si je vous disais, qu'avec JBang, vous allez pouvoir rester avec votre langage préféré, Java, et développer une classe toute simple (avec des dépendances externes) en quelques secondes !  C'est le pari (spoiler : réussi) de JBang que je vous propose de découvrir durant une session de live coding.  A vous les joies du scripting en Java !",
-    "speakersId": [
-      "stephane-philippart"
-    ],
-    "format": "Quickie",
-    "categorie": "Backend",
-    "tags": [
-      "backend"
-    ],
-    "room": "La Forge",
-    "day": "day-2",
-    "slot": "day-2-quickie-4-gs",
-    "slug": "jbang-un-fichier-java-pour-les-gouverner-tous-",
-    "cancelled": false
-  },
-  {
-    "id": "cm85mm6db0783pr3n9g5rf6k2",
-    "title": "Au secours, de la data dans mon projet ! Streamlit à la rescousse...",
-    "abstract": "L'importance croissante de la donnée en fait un facteur déterminant pour le succès de vos projets… mais qui n'a jamais galéré à tester rapidement une idée sans devoir construire tout un environnement technique, à rendre un rapport data interactif, ou à expliquer comment des données pourraient s'intégrer au projet.\n\nC'est là qu’entre en jeu Streamlit, un framework Python permettant de réaliser des interfaces web en quelques lignes seulement à l'aide de composants graphiques tels que des charts elements, différents types de médias, tout type d'inputs... Particulièrement utile et approprié pour exploiter des problématiques liées à la donnée, Streamlit peut également être utilisé pour d'autres nombreux autres cas d'usage.\n\nDurant cette présentation, nous verrons au travers d'un cas concret comment prendre en main Streamlit et confectionner une interface simple et efficace, et ainsi vous saurez comment cet outil a le potentiel de vous aider à concrétiser de nombreux POCs ou supports d'expérimentations qui peuvent ouvrir la voie à de nouvelles applications.",
-    "speakersId": [
-      "nicolas-foussard"
-    ],
-    "format": "Quickie",
-    "categorie": "Tremplin",
-    "tags": [
-      "tremplin"
-    ],
-    "room": "Le planétarium",
-    "day": "day-2",
-    "slot": "day-2-quickie-4-ps",
-    "slug": "tremplin-2",
-    "cancelled": false
-  },
-  {
-    "id": "cm8d8l0qs0awmpr3nhs5tp5sy",
-    "title": "Quarkus: philosophie, pragmatisme et innovation",
-    "abstract": "Emmanuel Bernard, co-lead du projet Quarkus, vous présentera les dernières évolutions et futures innovations de Quarkus. Après une brève description de la philosophie et des principes fondamentaux qui guident ce framework, nous explorerons les avancées récentes et la manière dont ces innovations émergent.  Nous aborderons des sujets clés tels que :  * Le nouveau modèle d’exécution avec les threads virtuels * L’intégration de l’intelligence artificielle dans les applications * Les évolutions en matière d’observabilité * Les améliorations de l’expérience développeur  Cette session ne se limitera pas à une simple présentation des nouveautés. Vous en ressortirez aussi avec le pourquoi et le comment derrière ces choix technologiques ainsi que le processus d’innovation mis en place.",
-    "speakersId": [
-      "emmanuel-bernard"
+      "rmi-birot-delrue"
     ],
     "format": "Conférence",
     "categorie": "Backend",
     "tags": [
       "backend"
     ],
-    "room": "La Forge",
-    "day": "day-2",
-    "slot": "day-2-conference-5-gs",
-    "slug": "quarkus-philosophie-pragmatisme-et-innovation",
-    "cancelled": false
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "les-rouages-de-lauto-compltion",
+    "cancelled": false,
+    "mc": "c4a237ef-26d9-4d25-ad3d-32f80ea99295",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=qy4q_I8zATs"
   },
   {
-    "id": "cm733xtk00121ml3mdkfbg91v",
-    "title": "Développe sur un toaster🍞 grâce à Coder",
-    "abstract": "Vos développeurs se plaignent continuellement que leurs **PCs** sont des **toasters** ?  Que les **environnements de développements** ne sont pas **homogènes** ?  Vos **managers** râlent sur les temps d'**installation de postes** ?  Venez donc découvrir les **Cloud Development Environments** : des environnements de développement distants tout en un, disposant de tous les outils nécessaire à vos développeurs.  Nous utiliserons **Coder** pour **orchestrer nos environnements**. Il fonctionne avec les IDE **Jetbrains** et **VSCode** et pourrait vous aider à atténuer ces points de douleurs. Et par dessus tout ... c'est **Open Source** et **gratuit** !  Nous verrons comment créer un environnement dans **Kubernetes**, en s'appuyant sur **Terraform**, et comment l'utiliser, en se mettant dans la peau d'un développeur.",
+    "id": "cmmchu4be025n01nsdbklijff",
+    "title": "Ce que les développeurs \"haut niveau\" peuvent (re)apprendre des dev embarqués",
+    "abstract": "Nous, développeurs embarqués sommes un peu \"ostracisés\" par les autres développeurs utilisant des langages plus \"haut niveau\"...\nBeaucoup se demandent encore pourquoi nous restons encore à l'âge de pierre avec nos vieux outils et nos vieilles pratiques...\n\nPourtant de nombreuses pratiques perçues comme \"nouvelles\" comme l'écoconception, les principes de simplicité du design (KISS) et l'optimisation/refactoring réguliers... sont des pratiques issues des nécessités des environnements contraints sur lesquels nous développons (et que les développeurs haut niveau ont malheureusement oubliées).\n\nIl est peut être temps de réapprendre de nos \"anciens\" certaines bonnes pratiques...",
     "speakersId": [
-      "paul-vulliemin",
-      "melissa-pinon"
+      "damien-hackett"
     ],
     "format": "Conférence",
-    "categorie": "Cloud & DevSecOps",
+    "categorie": "Méthodo & Architecture",
     "tags": [
-      "cloud_devops"
+      "architecture"
     ],
-    "room": "Le planétarium",
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "ce-que-les-dveloppeurs-haut-niveau-peuvent-reapprendre-des-dev-embarqus",
+    "cancelled": false,
+    "mc": "f6c73fdb-1b56-43f2-b2ec-2489911582ed",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=5lp7JjFbFas"
+  },
+  {
+    "id": "cmmchzr70026801ns34wu2lxj",
+    "title": "Le code change, la doc suit : trois skills en relais",
+    "abstract": "Souvent, architecture et documentation se décalent avec le temps. Entre refactors, nouvelles features et décisions prises rapidement, le README et les ADR (Architecture Decision Records) ne suivent plus toujours le code. Résultat : onboarding plus lent, revues plus longues, et agents de codage IA qui décrochent.\n\nFace à ce décalage, on a mis en place un relais entre le dev, l’agent, l’équipe. Trois skills l'outillent, trois procédures qu'un agent déclenche à la demande. Une pour capter une décision d'archi, mémoire du projet et règle pour l'agent. Une pour aligner la doc sur le code. Et une pour auditer la branche avant merge. Le dev tranche, la doc suit, l'équipe challenge.\n\nJe partage ce retour d'expérience depuis une codebase d'entreprise. Vous repartirez avec une méthode éprouvée, qui transforme les décisions en ADR exploitables, et garde la doc vivante pour les développeurs comme pour les agents, au bénéfice de la vélocité de l'équipe.",
+    "speakersId": [
+      "emmanuel-sandorfi"
+    ],
+    "format": "Quickie",
+    "categorie": "Méthodo & Architecture",
+    "tags": [
+      "architecture"
+    ],
+    "room": "",
+    "slot": "",
     "day": "day-2",
-    "slot": "day-2-conference-5-ps",
-    "slug": "dveloppe-sur-un-toaster-grce--coder",
+    "slug": "le-code-change-la-doc-suit--trois-skills-en-relais",
+    "cancelled": false,
+    "mc": "c4a237ef-26d9-4d25-ad3d-32f80ea99295",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=0eOiV-xU7Ek"
+  },
+  {
+    "id": "generatedByVGO100",
+    "title": "Votre chatbot IA n'est pas sécurisé (Le notre non plus, au début)",
+    "abstract": "Tout le monde veut son chatbot, mais personne ne veut finir en 'bad buzz' à cause d'une hallucination créative. Si les LLM brillent par leur éloquence, leur propension à inventer des faits est le principal frein à leur déploiement face aux clients.\n\n​Dans ce talk, je vous propose un retour d'expérience concret sur la sécurisation des agents conversationnels. Nous dépasserons le stade du simple 'système de prompt' pour explorer des solutions robustes : implémentation avancée du RAG (Retrieval-Augmented Generation), mise en place de garde-fous (guardrails), et stratégies de vérification factuelle.\n\n​L'objectif ? Repartir avec une boîte à outils éprouvée pour dompter l'imprévisibilité des modèles et garantir des réponses fiables à vos utilisateurs.",
+    "speakersId": [
+      "benjamin-marcheix"
+    ],
+    "format": "Quickie",
+    "categorie": "Quêtes Secondaires",
+    "tags": [],
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "votre-chatbot-ia-nest-pas-scuris-le-notre-non-plus-au-dbut",
+    "cancelled": false,
+    "mc": "c4a237ef-26d9-4d25-ad3d-32f80ea99295",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=vqu0hewI4Aw"
+  },
+  {
+    "id": "cmmci3ulv026o01nswd048tx7",
+    "title": "404 - Happiness not found!",
+    "abstract": "Il y a de fortes chances pour que vous connaissiez un développeur qui rêve de tout plaquer pour élever des chèvres en Ardèche 👨‍🌾. Ce n’est pas qu’une blague : en ligne comme en entreprise, la lassitude est bien réelle ! Beaucoup en viennent à douter, et à envisager plus ou moins sérieusement de tourner la page 🤔.\n\nMoi aussi, j’ai eu envie de tout arrêter 🙅‍♂️. Et pourtant, aujourd’hui, j’aime ce métier comme au premier jour ❤️.\n\nAvec le recul, j’ai compris que cette crise n’était pas un échec, mais une étape. Dans ce talk, je vous propose un récit personnel des coulisses d’un métier idéalisé, pour regarder en face ses travers, et vous aider à formuler les réponses à vos propres problèmes.\n\nQue vous soyez junior en quête de repères, senior désabusé, ou juste un·e dev qui a googlé “informatique + chèvres” 🐐, ce talk est pour vous !",
+    "speakersId": [
+      "arthur-murillo"
+    ],
+    "format": "Quickie",
+    "categorie": "Quêtes Secondaires",
+    "tags": [],
+    "room": "",
+    "slot": "",
+    "day": "day-2",
+    "slug": "404---happiness-not-found",
+    "cancelled": false,
+    "mc": "f7bf426f-ea75-4f99-94d3-e6d3e887a649",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=n6OttjSHx1E"
+  },
+  {
+    "id": "cmmchzonb026701nsul8esyzt",
+    "title": "Hacker-Proof : Renforcez la Sécurité de Votre Code en 15 Minutes",
+    "abstract": "La cybersécurité n'a jamais été aussi cruciale, et la sécurité de votre code en fait partie intégrante 🔐. \n\nEn seulement 15 minutes, découvrez les principes fondamentaux de la sécurité logicielle et apprenez à protéger vos applications contre les vulnérabilités les plus courantes 💥: injections SQL, failles XSS et CSRF. \n\nVous apprendrez également les meilleures pratiques pour gérer les secrets et sécuriser vos clés API, afin de garantir que votre code reste inviolable 🚀. \n\nQue vous soyez développeur ou chef de projet, ce rapide tour d’horizon vous donnera les outils pour renforcer la sécurité de vos applications et protéger vos utilisateurs, tout en évitant les pièges fréquents. \n\nNe laissez aucune faille passer sous votre radar 🛡️!",
+    "speakersId": [
+      "khadija-abdelouali"
+    ],
+    "format": "Quickie",
+    "categorie": "Méthodo & Architecture",
+    "tags": [
+      "architecture"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-2",
+    "slug": "hacker-proof--renforcez-la-scurit-de-votre-code-en-15-minutes",
+    "cancelled": false,
+    "mc": "f6c73fdb-1b56-43f2-b2ec-2489911582ed",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=k9tVHPqYYsU"
+  },
+  {
+    "id": "cmmchvwa2025w01nsap1f4twp",
+    "title": "Atelier : 10 tests simples pour améliorer l'accessibilité de votre site",
+    "abstract": "Derrière ce titre « clickbait » se cache une vraie méthode basée sur une checklist du W3C.\n\nElle permet de tester soit même l’accessibilité d’un site en **10 tests simple, même sans avoir un profil technique**.\n\nCette méthode ne remplace pas un « vrais » audit de site, mais elle va permettre de **donner une idée générale de l’accessibilité d'un site**.\nCes tests couvrent une bonne partie des problèmes bloquants d’accessibilité. Les passer avec succès est une **base essentielle pour rendre accessible un site**.\n\nIls sont rapides et faciles à faire, **tous les intervenants d’un projet peuvent les réaliser** : Clients, PO, CP, Dev, UX/UI Designers… \n\nL’objectif de cet atelier  est de présenter ces 10 tests et de **les pratiquer en « live »** en utilisant divers outils quand c'est nécessaire :\n- **Extensions navigateurs** (Web Developper, Heading Maps, A11y Outline, Stylish...)\n- Les **outils d'accessibilité des navigateur**\n- L'inspecteur de code pour les profils les plus techniques\n\nNous aborderons également les **outils d'automatisation** de tests qui peuvent être intégrés à vos IDE ou à votre **CI/CD**.\n\nS'il reste assez de temps, en fonction de la progression des participants, nous pourrons même aborder des tests \"bonus\" ou jouer un peu avec les lecteurs d'écrans.",
+    "speakersId": [
+      "franois-xavier-lair",
+      "henri-gauffriau"
+    ],
+    "format": "Workshop",
+    "categorie": "Frontend",
+    "tags": [
+      "frontend"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "atelier--10-tests-simples-pour-amliorer-laccessibilit-de-votre-site",
     "cancelled": false
   },
   {
-    "id": "cm8db0z580ax0pr3n18889i8i",
-    "title": "Hands-on Gen AI On AWS",
-    "abstract": "Plongez dans l'Univers de l'IA Générative avec Amazon Bedrock ! Êtes-vous prêt à explorer le futur de l'intelligence artificielle ? Rejoignez-nous pour un hands-on captivant qui vous plongera au cœur des modèles de langage (LLM) et vous permettra de déployer une infrastructure innovante grâce à Amazon Bedrock ! ## Ce que vous allez découvrir : ### Initiation aux LLM Démarrez votre voyage par une introduction passionnante aux modèles de langage et à leur impact révolutionnaire sur divers secteurs. ### Maîtrise d'Amazon Bedrock Apprenez à naviguer dans cette plateforme puissante qui simplifie l'accès à des modèles de fondation avancés. Découvrez comment tirer parti de l'API unique de Bedrock pour transformer vos idées en réalité. ### Création d'une Base de Connaissances Développez une base de connaissances robuste qui enrichira vos applications et optimisera les interactions avec vos utilisateurs. ### Prompt Engineering  Plongez dans l'art du prompt engineering pour maximiser la performance des LLM. Apprenez à formuler des requêtes efficaces qui produisent des résultats pertinents et précis. ### Déploiement de RAG  Mettez en place un système de Retrieval-Augmented Generation (RAG) sans serveur, alliant puissance et flexibilité pour des réponses contextualisées et enrichies.",
+    "id": "cmmchu6qj025o01nspxcobq75",
+    "title": "L’ampoule qui en savait trop : voyage au cœur de la sécurité des objets connectés",
+    "abstract": "On allume une ampoule, elle s’allume. Simple, non ?\nEt pourtant, derrière cette lumière se cache un monde fascinant — et incroyablement complexe. En partant d’un simple objet du quotidien, ce talk vous emmène dans une expérience de reverse engineering sur une ampoule connectée du grand public.\nL’objectif : comprendre comment l’industrie a transformé un petit bout de code qui fait briller une LED en une forteresse numérique bardée de protections logicielles et matérielles.\nEntre secrets enfouis dans le silicium, architectures embarquées et exigences réglementaires comme la RED ou la CRA, on découvrira que le “S” de l’IoT existe bien finalement et compose 99% du code à écrire.",
     "speakersId": [
-      "julien-furiga",
-      "thomas-cornec"
+      "paul-pinault"
+    ],
+    "format": "Conférence",
+    "categorie": "Quêtes Secondaires",
+    "tags": [],
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "lampoule-qui-en-savait-trop--voyage-au-cur-de-la-scurit-des-objets-connects",
+    "cancelled": false,
+    "mc": "f6c73fdb-1b56-43f2-b2ec-2489911582ed",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=gMosvNfHlAE"
+  },
+  {
+    "id": "cmmchqyia025d01nsb0wsl1rj",
+    "title": "Dicefolk : retour d'expérience de la programmation d'un jeu vidéo indépendant",
+    "abstract": "Dicefolk est un jeu vidéo indépendant sorti en 2024, après 4 ans de développement.\n\nLe jeu se forme autour d'une petite équipe et cette taille réduite devient un enjeu principal pour mener à bien ce projet.\n\nPaul Gerst est le programmeur de Dicefolk et il reviendra sur les outils mis en place dans ce contexte : \n - Comment structurer le code pour faciliter la reproductibilité des bugs ?\n - Comment faciliter l'accès aux rapports de bugs ?\n - Quels outils de visualisation pour diagnostiquer les problèmes ?",
+    "speakersId": [
+      "paul-gerst"
+    ],
+    "format": "Quickie",
+    "categorie": "Quêtes Secondaires",
+    "tags": [],
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "dicefolk--retour-dexprience-de-la-programmation-dun-jeu-vido-indpendant",
+    "cancelled": false,
+    "mc": "1763c54d-5325-4594-abfc-1ebaea3f110d",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=WQ0iQqIRk9o"
+  },
+  {
+    "id": "cmmchu13i025l01ns87mdptj4",
+    "title": "Ce que les devs peuvent attendre d'un chef de projet",
+    "abstract": "Ambiguïtés, changements de priorités, pression métier, insécurité psychologique, manque de reconnaissance, problèmes récurrents qui reviennent comme des bugs jamais corrigés… \nPour beaucoup de développeurs, ce n’est pas l’exception mais le quotidien.\n\nEt pourtant, c’est précisément le rôle de votre chef de projet de réduire ces irritants, pas de les amplifier.\n\nDans ce talk, nous remettrons vos attentes de développeurs au centre et vous repartirez avec :\n* des repères simples et concrets pour reconnaître une gestion de projet efficace \n* des leviers pour influer positivement sur la façon dont vos projets sont pilotés",
+    "speakersId": [
+      "pierre-tibulle"
+    ],
+    "format": "Quickie",
+    "categorie": "Quêtes Secondaires",
+    "tags": [],
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "ce-que-les-devs-peuvent-attendre-dun-chef-de-projet",
+    "cancelled": false,
+    "mc": "f6c73fdb-1b56-43f2-b2ec-2489911582ed",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=fMdlCQ_xt-k"
+  },
+  {
+    "id": "cmmci0z02026f01nsfi7ql7dm",
+    "title": "Object Calisthenics : simplifier le code pour retrouver le métier",
+    "abstract": "Complexité qui s’accumule, évolutions douloureuses, métier qui se dilue : comment reprendre la main sur le code ? \n\nEt si un cadre simple devenait un levier de design ? \n\nLes Object Calisthenics, c’est une invitation à transformer la conception orientée objet en terrain de jeu : neuf règles, pas une de plus !\n En appliquant ces règles complémentaires sur des extraits de code avant/après refactoring, nous découvrirons comment :\n - apprivoiser la complexité\n - clarifier les responsabilités\n - faire émerger le métier \n\n Un quickie orienté pratique pour repartir avec des réflexes de conception applicables dès le lendemain et une grille de lecture concrète pour faire du code un support fidèle au métier.",
+    "speakersId": [
+      "jacqueline-rwanyindo"
+    ],
+    "format": "Quickie",
+    "categorie": "Méthodo & Architecture",
+    "tags": [
+      "architecture"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-2",
+    "slug": "object-calisthenics--simplifier-le-code-pour-retrouver-le-mtier",
+    "cancelled": false,
+    "mc": "f7bf426f-ea75-4f99-94d3-e6d3e887a649",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=kaSlYV5CpTU"
+  },
+  {
+    "id": "cmmci1my0026l01ns4wpdckr2",
+    "title": "Développer un agent IA : Ce qu'on ne te montre jamais dans les démos",
+    "abstract": "L'**intelligence artificielle** moderne est **puissante**, mais souvent mal comprise. Généralement, elle est utilisée comme une boîte noire, produisant des résultats spectaculaires... **mais imprévisibles**.\n\nCette session te plonge dans les entrailles des agents IA : les mécanismes qui comptent vraiment, les **pièges à éviter**, et ce qui sépare une belle démo d'un système fiable.\n\n**Tu vas apprendre** étape par étape à :\n\n- maîtriser les réponses d’un LLM\n- doter un LLM de nouveaux sens : des **outils** pour agir, des **données** pour comprendre, une **mémoire** pour se souvenir\n- orchestrer des **workflows** pour gérer des cas complexes\n- **évaluer ton agent IA** pour comprendre ses forces, ses limites et améliorer sa fiabilité\n- créer des **agents** capables d’agir de façon **autonome**\n- **expérimenter** des concepts comme **RAG**, **chain of thought**, **MCP**, etc.\n\nViens à cet atelier pour dépasser le simple prompt engineering et apprendre à développer en Python (sans prérequis) un véritable agent IA prêt pour la production.",
+    "speakersId": [
+      "stanley-servical",
+      "louis-fredice-njako-molom"
     ],
     "format": "Workshop",
     "categorie": "Cloud & DevSecOps",
     "tags": [
       "cloud_devops"
     ],
-    "room": "Le Laboratoire",
+    "room": "",
+    "slot": "",
     "day": "day-2",
-    "slot": "day-2-codelab-3",
-    "slug": "hands-on-gen-ai-on-aws",
+    "slug": "dvelopper-un-agent-ia--ce-quon-ne-te-montre-jamais-dans-les-dmos",
     "cancelled": false
   },
   {
-    "id": "cm8db0z580ax0pr3aa8889i1i",
-    "title": "À vous de jouer : l’Agilité sur plateau !",
-    "abstract": "Un point de départ, quatre points d'arrivée, et une multitude de possibilités au milieu : bienvenue à Camping Paradigme ! Le jeu de société où l'organisation de vacances n'est pas de tout repos.\nLes participants seront répartis en équipes et devront établir une stratégie, afin de traverser le plateau de jeu en passant par quatre étapes essentielles : transports, activités, repas et logement. Quatre défis et des cases \"galère\" pendant le parcours afin de développer son état d'esprit Agile ; collaborer, communiquer, s'adapter et vivre concrètement les valeurs et principes du Manifeste Agile (tout en souhaitant retourner bosser au plus vite pour se reposer enfin !).\n\nAprès le jeu, nous reviendrons sur le parcours et les stratégies de chaque équipe afin de comprendre en quoi l'Agilité permet d'améliorer la gestion de projet, et quel framework Agile aurait pu améliorer les performances de chaque équipe. Le but étant de tordre le cou aux préjugés et revenir à l'essentiel : prendre plaisir à créer pour répondre aux besoins de futurs utilisateurs. Pour de vrai.",
+    "id": "cmmci1alv026i01ns0qjd7ksv",
+    "title": "Le bug n'est pas dans le code ! J'ai enfin compris pourquoi 50% des femmes quittent la tech avant 35 ans",
+    "abstract": "Selon les statistiques, une femme sur deux quitte la tech avant 35 ans. Une fatalité ? Non, je ne crois pas...\nCette année, je soufflerai ma 34ᵉ bougie, et cela fait 10 ans que je suis ingénieure en développement logiciel.\n\nAussi loin que je me souvienne — jusqu’aux classes de primaire — j’ai toujours aimé les sciences. Les mathématiques, la logique, la résolution de problèmes… tout cela a toujours été une passion. Et pendant longtemps, j’ai cru que cette passion suffirait à me protéger, qu’elle serait un rempart naturel contre l’idée même de rejoindre cette statistique.\n\nJ’ai cru que cette passion suffirait à me faire rebondir, encore et encore, malgré les défis que représente le fait d’être une développeuse — et, dans mon cas, une femme issue de l’immigration.\nMais la réalité est plus complexe.\n\nDans ce talk, je ne parle pas au nom de toutes les femmes. Je partage mon expérience, ma façon de voir les choses, et quelques pistes pour améliorer la rétention des talents féminins dans nos équipes.\n\nVais‑je finir par rejoindre cette statistique ?\nQui sait...",
+    "speakersId": [
+      "chodaton-vanessa"
+    ],
+    "format": "Quickie",
+    "categorie": "Quêtes Secondaires",
+    "tags": [],
+    "room": "",
+    "slot": "",
+    "day": "day-2",
+    "slug": "le-bug-nest-pas-dans-le-code--jai-enfin-compris-pourquoi-50-des-femmes-quittent-la-tech-avant-35-ans",
+    "cancelled": false,
+    "mc": "0af75d2b-b613-46ce-a778-aabd4fe22c20",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=ZXH7LMzmlGo"
+  },
+  {
+    "id": "cmmchyuaq026101nstgt6t46f",
+    "title": "Quel avenir pour les devs à l'ère de la GenAI ?",
+    "abstract": "Aujourd'hui, on entend parler du remplacement des devs par des flottes d'agents IA toujours plus compétents les uns que les autres. Mais doit-on croire à ces avertissements ? Finalement, est-ce que ça n'est pas fait pour nous amener à nous poser les bonnes questions ?\n* Que faire de nos équipes déjà en place ?\n* Et si on transformait ces craintes en force ?\n* Comment accompagner ce changement aussi bien humain que technique ?\nÀ travers cette conférence, nous allons revenir sur des enjeux stratégiques et proposer certaines pistes d'accompagnement que l'on peut déployer dans nos sociétés. Cette conférence sera aussi l'occasion de prendre un peu de recul et se poser des questions plus societale sur cette transformation en cours.",
+    "speakersId": [
+      "jean-francois-garreau"
+    ],
+    "format": "Conférence",
+    "categorie": "Quêtes Secondaires",
+    "tags": [],
+    "room": "",
+    "slot": "",
+    "day": "day-2",
+    "slug": "quel-avenir-pour-les-devs--lre-de-la-genai-",
+    "cancelled": false,
+    "mc": "f7bf426f-ea75-4f99-94d3-e6d3e887a649",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=jgsm6StQfNQ"
+  },
+  {
+    "id": "cmmchyqif026001nsztpb3gtp",
+    "title": "Chip-8 : Le projet idéal pour maîtriser les bases de l’émulation rétro-gaming",
+    "abstract": "Le Chip-8, un système des années 70, est un classique pour l'émulation. J'ai créé un émulateur qui redonne vie à cette machine rétro, capable de faire tourner d'anciens jeux et programmes. Découvrez comment ce projet recrée l'affichage, les registres,opcode et les instructions du Chip-8.",
+    "speakersId": [
+      "godin-remy"
+    ],
+    "format": "Conférence",
+    "categorie": "Quêtes Secondaires",
+    "tags": [],
+    "room": "",
+    "slot": "",
+    "day": "day-2",
+    "slug": "chip-8--le-projet-idal-pour-matriser-les-bases-de-lmulation-rtro-gaming",
+    "cancelled": false,
+    "mc": "f6c73fdb-1b56-43f2-b2ec-2489911582ed",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=y6dCiyjsx2U"
+  },
+  {
+    "id": "cmmchyvdx026201ns0de4sazw",
+    "title": "L’animation web responsable : faire bouger sans alourdir",
+    "abstract": "Depuis une dizaine d’années, les animations web ont profondément transformé notre manière d’interagir avec les interfaces numériques. Qu’il s’agisse de transitions fluides, de micro-interactions ou d’effets de défilement, elles sont devenues un langage visuel à part entière. Ces animations enrichissent l’expérience utilisateur, attirent l’attention, facilitent la compréhension… et parfois, en font trop.\n\nMais derrière cette légèreté apparente se cachent des enjeux plus profonds : performance, accessibilité, sobriété numérique. Une animation mal pensée peut ralentir un site, exclure des utilisateurs sensibles aux mouvements, ou simplement détourner l’attention du message. À l’inverse, une animation bien conçue peut guider, apaiser, clarifier — sans surcharger.\n\nAujourd’hui, dans ce talk, je vous propose un voyage à travers les bonnes pratiques, les outils CSS modernes, et les choix de design qui permettent de faire bouger nos interfaces… sans les alourdir.",
+    "speakersId": [
+      "josiane-makelele"
+    ],
+    "format": "Conférence",
+    "categorie": "Frontend",
+    "tags": [
+      "frontend"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-2",
+    "slug": "lanimation-web-responsable--faire-bouger-sans-alourdir",
+    "cancelled": false,
+    "mc": "c4a237ef-26d9-4d25-ad3d-32f80ea99295",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=8mbfF1VYDtY"
+  },
+  {
+    "id": "cmmchz3lf026401nss2ygbvmy",
+    "title": "Optimisation de performance bénéfice ou sacrifice ?",
+    "abstract": "**Plus le code est rapide, plus le code est bon**. Au-delà de cette phrase tarte à la crème, ce talk propose de voir quand il faut optimiser du code, comment s'y prendre, et à quel moment s'arrêter.\nLes premières optimisations relèvent des **bonnes pratiques** que tout le monde devrait savoir faire, les suivantes sont **sacrificielles** : elles dégradent la lisibilité, la maintenabilité du code. \nPensé comme une **déclinaison concrète de la loi de Eroom** proposé par Tristan Nitot, ce talk, commencera avec un exemple de projet de code bien mal conçu comme nous l'avons tous déjà fait, puis au fil des optimisations d'**architecture** puis de **code**, nous verrons bénéfices et sacrifices à faire pour aller toujours plus vite, économiser toujours plus de ressources. \nSpoiler : Les optimisations vont rendre le projet **plusieurs milliers de fois plus rapide**.",
+    "speakersId": [
+      "emmanuel-lin-toulemonde"
+    ],
+    "format": "Conférence",
+    "categorie": "Méthodo & Architecture",
+    "tags": [
+      "architecture"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-2",
+    "slug": "optimisation-de-performance-bnfice-ou-sacrifice-",
+    "cancelled": false,
+    "mc": "c4a237ef-26d9-4d25-ad3d-32f80ea99295",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=Q1Pfa0flNpI"
+  },
+  {
+    "id": "GenratedVGO2811",
+    "title": "J'ai packagé mon application en image Docker, et maintenant ?",
+    "abstract": "Vous avez réussi à packager/builder votre application en image de conteneur, avec Docker ou Podman, et à la pusher dans un registre d’images/d’artefacts ? Félicitations… mais le travail n’est pas terminé 🙂. Maintenant il est temps de mettre en place les bonnes pratiques de la Software Supply Chain Security !\n\nPourquoi et comment signer une image ?\n\n - Pourquoi et comment générer l’inventaire de mon image ? \n\n - Mon image a-t-elle des vulnérabilités ? Sont-elles exploitables ?\n\n - Les attestations ça sert à quoi ?\n\n - Comment automatiser tout cela ?\n\nDans ce talk, étape par étapes, avec un mélange de slides et de live démos, nous verrons tout cela, et bien plus encore.\n\nVous saurez comment mettre en place ces bonnes pratiques, en local et même dans vos pipelines CI/CD.\n\nEt bonus track, après ce talk des termes comme “cosign”, “sbom”, “vex”, “in-toto”… n’auront plus de secret pour vous !",
+    "speakersId": [
+      "aurlie-vache"
+    ],
+    "format": "Conférence",
+    "categorie": "Cloud & DevOps",
+    "tags": [
+      "cloud_devops"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "jai-packag-mon-application-en-image-docker-et-maintenant-",
+    "cancelled": false,
+    "mc": "c4a237ef-26d9-4d25-ad3d-32f80ea99295",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=wXfJibRBcIY"
+  },
+  {
+    "id": "cmmchvufy025v01ns5rztjd9v",
+    "title": "Specification Driven Development : Développer à l'ère des LLM",
+    "abstract": "Depuis l'avènement des LLMs, la question de l'évolution du rôle de développeur se pose.\n\nUne des réponse pourrait être l'adoption du Specification Driven Development.\n\nC’est une méthode où le développeur décrit ce qu’il veut faire sous forme de spécifications textuelles et l’IA génère le code correspondant. Cela transforme le rôle du développeur en auteur de specs intelligentes plutôt qu’en simple implémenteur.\n\nNous vous proposons donc ce Lab afin de mettre en pratique cette méthodologie au travers de l'extension de Github Copilot Spec-Kit :\n\n    Développer une application Front from scratch en se basant sur des spécifications OpenApi\n    Reprendre une application Backend existante et au travers de spécifications claire lui ajouter un nouvel endpoint\n    Répercuter cette évolution sur notre application Front.\n    Si le temps le permet ajouter d'autres fonctionnalités au grès de vos envies\n\nLes prérequis :\n\n    Un IDE avec Github Copilot\n    Un OS supportant Docker (Linux recommandé)\n    Docker\n    Java 21, Maven\n    React, NPM\n    Des connaissances en développement (préférable)",
+    "speakersId": [
+      "philippe-bousquet",
+      "anthony-baudouin"
+    ],
+    "format": "Workshop",
+    "categorie": "Méthodo & Architecture",
+    "tags": [
+      "architecture"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "specification-driven-development--dvelopper--lre-des-llm",
+    "cancelled": false
+  },
+  {
+    "id": "cmmci1oa4026m01nsms16ec8n",
+    "title": "La recette secrète : lancez la création de votre produit !",
+    "abstract": "Bienvenue à Bikini Bottom ! Mr Krabbs fait appel à vous pour créer le nouveau produit incontournable qu'il compte mettre à la carte de son restaurant (et gagner beaucoup de nouveaux billets). De la vision produit à la création de votre backlog, en passant par la conception et l'élaboration du premier product goal, découvrez pas à pas la gestion orientée produit. A travers des exercices en équipe, faites parler votre créativité pour imaginer le plat dont tous les fastfoods sous-marins rêvent. \n\nAmateurs de Bob l'Eponge, vous avez une idée de produit que vous adoreriez créer ? Ou bien vous travaillez déjà, ou désirez orienter votre carrière vers le domaine métier ? Cet atelier est fait pour vous ! Apprenez à mettre vos idées en forme, essayez-vous au découpage, à la priorisation et à la rédaction de user stories, tout en définissant le contexte de votre futur projet.",
     "speakersId": [
       "laurie-coquillat"
     ],
     "format": "Workshop",
-    "categorie": "Agilité",
-    "tags": [
-      "architecture"
-    ],
-    "room": "La porte Alchimique",
-    "day": "day-2",
-    "slot": "day-2-codelab-4",
-    "slug": "agilite-plateau",
-    "cancelled": false
-  },
-  {
-    "id": "cm88149gr08lgpr3nvfg4eu9j",
-    "title": "⚔️ Le code dont vous êtes le héros ou l’héroïne : +5 en agilité, +10 en fun !",
-    "abstract": "Imaginez… Une équipe de devs aguerri·es, un royaume en proie au chaos technique, et une quête légendaire pour vaincre la dette legacy à coups de pull requests magiques. Votre CI est une arène. Vos tests, des sorts. Et chaque merge réussie vous fait gagner des points d'expérience.  Partez à la découverte de la gamification appliquée au cycle de développement logiciel. À travers des retours d’expérience concrets (Sonar Smash, GitLab Achievements, et autres serious games), des mécaniques ludiques applicables dans vos routines d'équipe, et quelques mini-jeux surprises, nous explorerons comment transformer nos pratiques quotidiennes en véritables quêtes collaboratives.  Que vous soyez une barbare du back-end 🪓, un ensorceleur tieffelin du front 🔮 ou une elfe multi-classée DruideOps 🌿, vous repartirez avec des idées concrètes, des ressources, et une furieuse envie de jouer.  Rejoignez l’aventure, héros et héroïnes du code…  Vous pouvez lancer l'initiative ! 🎲",
-    "speakersId": [
-      "paul-roye"
-    ],
-    "format": "Conférence",
-    "categorie": "Backend",
-    "tags": [
-      "architecture"
-    ],
-    "room": "La Forge",
-    "day": "day-2",
-    "slot": "day-2-conference-6-gs",
-    "slug": "-le-code-dont-vous-tes-le-hros-ou-lhrone--5-en-agilit-10-en-fun-",
-    "cancelled": false
-  },
-  {
-    "id": "cm70y678900r8ml3mrc6a3p0y",
-    "title": "La recherche à l'ère de l'IA\n",
-    "abstract": "La recherche ne se contente plus de l'approche maintenant traditionnelle basée sur la fréquence des termes (TF/IDF ou BM25) mais plus sur la tendance actuelle du machine learning où les nouveaux modèles ont ouvert une nouvelle dimension pour la recherche.\n\nCette conférence donne un aperçu de :\n\n* La recherche \"Classique\" et ses limitations\n* Qu'est qu'un modèle de machine learning et comment vous pouvez l'utiliser\n* Comment utiliser la recherche vectorielle ou la recherche hybride dans Elasticsearch\n* Comment ChatGPT d'OpenAI ou les \"large language models\" (LLMs) similaires viennent jouer naturellement avec Elastic\n\nLa démo principale montre comment générer des embeddings à partir de musiques puis comment trouver la musique qui s'approche le plus d'une musique que nous fredonnons \uD83C\uDFB6\uD83C\uDFB8\uD83C\uDFBB.",
-    "speakersId": [
-      "david-pilato"
-    ],
-    "format": "Conférence",
-    "categorie": "Cloud & DevSecOps",
-    "tags": [
-      "cloud_devops"
-    ],
-    "room": "Le planétarium",
-    "day": "day-2",
-    "slot": "day-2-conference-6-ps",
-    "slug": "la-recherche-a-lere-de-lia",
-    "cancelled": false
-  },
-  {
-    "id": "cm63giaf60495qy3mpdnljodt",
-    "title": "Réaliser un jeu vidéo de A à Z",
-    "abstract": "Les développeurs pensent souvent que le développement de jeux vidéo est réservé aujourd'hui à des studios importants utilisant des moteurs de jeux tels que Unity, Unreal, Godot et autres. L'époque où une seule personne pouvait sortir un jeu vidéo semble ancienne et révolue pour beaucoup. Et bien non, il existe de nombreuses petites équipes (d'une à quelques personnes) qui sortent des jeux magnifiques avec peu de moyen. La scène indépendante et les succès des gamejams le démontrent chaque jour !  Je vous propose dans ce talk de voir comment on peut réaliser un jeu vidéo de A à Z sans utiliser de moteur de jeu du marché. Ce que je trouve intéressant en tant que dev, c'est de comprendre comment ça se passe sous le capot. Comme le dit David Mekersa (Gamecodeur), si on utilise un moteur déjà tout fait : - on est dépendant du moteur (on voit bien ce que ça donne avec Unity ces derniers temps); - on ne fait qu'assembler des briques toutes faites sans bien comprendre ce qu'il se passe; - on peut être limité par les fonctionnalités du moteur.  Beaucoup de développeuses/développeurs sont tombé(e)s dans la programmation via les jeux vidéo. Dépassez vos préjugés et laissez exploser votre créativité (chose qu'on ne fait pas dans forcément tous les jours dans l'informatique de gestion) en créant des jeux 2D ou 3D multiplateformes !",
-    "speakersId": [
-      "gregory-bersegeay"
-    ],
-    "format": "Conférence",
     "categorie": "Quêtes Secondaires",
-    "tags": [
-      "discovery"
-    ],
-    "room": "La Forge",
+    "tags": [],
+    "room": "",
+    "slot": "",
     "day": "day-2",
-    "slot": "day-2-conference-7-gs",
-    "slug": "realiser-un-jeu-vido-de-a--z",
+    "slug": "la-recette-secrte--lancez-la-cration-de-votre-produit-",
     "cancelled": false
   },
   {
-    "id": "cm6akgkbx05baqy3mo3xy94ez",
-    "title": "Vous pouvez venir à ce talk les yeux fermés",
-    "abstract": "La navigation sur les sites internet à l'aide d'un lecteur d'écran comment ça marche ?  Comment \"voit-on\" un site sans le voir ?  Quels sont les problèmes rencontrés par les utilisateurs de lecteurs d'écrans et surtout, comment faciliter cette navigation et éviter de faire un site inutilisable pour certains.  Durant ce talk, on écouteras des sites web, on parlera de sémantique, d'accès rapide, de landmarks, d'alternatives aux images, de formulaires, de liens et de boutons (spoiler : un div n'est pas un bouton).  On écouteras aussi comment Aria peut améliorer cela.  On parlera aussi un peu de SEO : l'aveugle le plus célèbre au monde n'est il pas Google ?  Un talk a écouter les yeux fermés.",
-    "speakersId": [
-      "francois-xavier-lair"
-    ],
-    "format": "Conférence",
-    "categorie": "Frontend",
-    "tags": [
-      "frontend"
-    ],
-    "room": "Le planétarium",
-    "day": "day-2",
-    "slot": "day-2-conference-7-ps",
-    "slug": "vous-pouvez-venir--ce-talk-les-yeux-ferms",
-    "cancelled": false
+    "id": "cmmchlwwv025101nsth7fesqc",
+    "title": "Keynote",
+    "abstract": "",
+    "speakersId": [],
+    "format": "Keynote",
+    "categorie": "",
+    "tags": [],
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "keynote",
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=M8QM4klrGcM"
   },
   {
-    "id": "cm6tg1z1b01a0ms3m95u4nwjn",
-    "title": "Comment merger sa PR en 10 secondes​ : REX mob code review",
-    "abstract": "Dans la plupart des équipes de développement les suggestions de code sont faites via des Pull (ou Merges) Request. Elles sont le lieu de discussions asynchrones pouvant prendre des heures voire des jours à se terminer. Des validations sont en plus nécessaires pour les merger ralentissant le rythme des releases de nouvelles fonctionnalités. Ces échanges écrits peuvent également amener des incompréhensions et une communication violente qui peuvent dégrader la cohésion dans une équipe.  Pendant 2 ans, dans mon équipe, nous avons fait du mob code review avant de merger nos PR. Au lieu de les ouvrir et de faire des code reviews chacun de notre côté, nous nous retrouvions plusieurs fois par jour pour présenter et améliorer le code écrit. C’est comme cela que nous mergions nos PR en 10 secondes​.  Après vous avoir présenté ce concept, je vous expliquerai comment nous avons fait évoluer nos pratiques au fur et à mesure que l’équipe grandissait. Parmi elles, nous souhaitions aligner l’architecture et les standards de code, tout en ayant au sein de l’équipe, une bonne compréhension de l’application d’un point de vue fonctionnel ou technique. Je détaillerai les difficultés que nous avons rencontrées et les ajustements que nous avons mis en place, les avantages et les inconvénients que j’y vois, ainsi que les conditions nécessaires pour faire du mob code review.",
+    "id": "cmmchua2u025q01ns2l6voghs",
+    "title": "Ma Quête du Lead : 10 conseils d'expert·es pour réussir et faire réussir",
+    "abstract": "Je suis développeur depuis plus de 10 ans. Un jour, une entreprise a écrit “sénior” sur mon contrat sans m’avoir concerté. J’ai mis les 5 années suivantes à comprendre ce que cela signifiait d’être sénior et à gagner ma légitimité.\n\nAujourd’hui mon nouveau challenge est de devenir lead, et je me confronte à la même problématique : comment atteindre un tel objectif quand il n’existe pas de chemin tout tracé ? Pire, comment savoir quel lead je souhaite devenir quand chaque entreprise, chaque équipe a sa propre définition du rôle.\n\nPour y voir plus clair, j’ai décidé d’interviewer les personnes qui m’ont inspiré durant ma carrière : des CTOs, des leaders techniques ou encore des engineering managers.\n\nComment gagner sa légitimité sans tomber dans le piège du super-héros ?\nComment passer du code à la vision globale sans perdre son âme de dev ?\nComment accompagner sainement ses collaboratrices et collaborateurs dans leur vie de lead ?\n\n\nEn 15 minutes, je vous livre la synthèse de ces échanges et les enseignements tirés de ma propre expérience. De la communication non violente au “Servant Leadership” en passant par les communautés de pratique, vous repartirez avec 10 leviers pour vous aider à basculer vers votre propre lead ou pour accompagner les personnes qui souhaitent le devenir. ",
     "speakersId": [
-      "thibautcantet"
+      "dimitri-lahaye"
     ],
     "format": "Quickie",
     "categorie": "Méthodo & Architecture",
     "tags": [
       "architecture"
     ],
-    "room": "La Forge",
-    "day": "day-2",
-    "slot": "day-2-quickie-9-gs",
-    "slug": "comment-merger-sa-pr-en-10-secondes--rex-mob-code-review",
-    "cancelled": false
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "ma-qute-du-lead--10-conseils-dexpertes-pour-russir-et-faire-russir",
+    "cancelled": false,
+    "mc": "c4a237ef-26d9-4d25-ad3d-32f80ea99295",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=0gSuAuC-hT8"
   },
   {
-    "id": "cm88deamo08lqpr3nf0fgq4sy",
-    "title": "Le quantique : c'est épique !!!",
-    "abstract": "Imaginez pouvoir explorer plusieurs donjons en même temps, pouvoir vous téléporter directement dans la salle du trésor ou si vous rêvez de faire des expériences sur des chats enfermés dans des boîtes (ou des elfes, ça doit marcher aussi), ce talk est fait pour vous !!! En plus, on jettera 2D6 (non fournis) à chaque slide, comme ça vous ne serez pas perdu.  On y découvrera les aspects intriguants du quantique, ses applications possibles et les différents guildes qui tentent de s emparer de la suprématie quantique.",
+    "id": "cmmchz10n026301nspsn1lq62",
+    "title": "CQRS & Event Sourcing : La revanche des micro-services",
+    "abstract": "Si vous travaillez avec une architecture récente, il y a fort à parier que vous avez déjà mis les mains dans des micro-services et appliqué du Domain Driven Design. Et il y a également des chances que vous ayez, un jour, été confronté.e à cette situation (trop) familière :\n“Mais comment cette donnée pourrie a bien pu se retrouver dans la DB 💩 ?!” \n\nCe problème est malheureusement universel !\nDans les systèmes distribués, la traçabilité des données peut devenir très rapidement un casse-tête : des flux compliqués, des responsabilités multiples, des bugs alambiqués… 😵‍💫\n\nCe talk propose une approche concrète pour résoudre ce défi des temps modernes en combinant trois principes clé pour construire une architecture permettant :\n\n- Traçabilité des données 🕵️\n- Conservation de la scalabilité 📈\n- Aucun sacrifice de performance ⚡\n\nLa session s’appuie sur une démonstration live mettant en œuvre cette approche et démontrant son impact réel sur la compréhension et la fiabilité des flux de données 🧑‍💻!",
     "speakersId": [
-      "damien-hackett"
+      "arthur-murillo"
     ],
-    "format": "Quickie",
-    "categorie": "Quêtes Secondaires",
+    "format": "Conférence",
+    "categorie": "Méthodo & Architecture",
     "tags": [
-      "discovery"
+      "architecture"
     ],
-    "room": "Le planétarium",
+    "room": "",
+    "slot": "",
     "day": "day-2",
-    "slot": "day-2-quickie-8-ps",
-    "slug": "le-quantique--c-est-pique-",
+    "slug": "cqrs--event-sourcing--la-revanche-des-micro-services",
+    "cancelled": false,
+    "mc": "c4a237ef-26d9-4d25-ad3d-32f80ea99295",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=i_j9QZ1JiAg"
+  },
+  {
+    "id": "cmmchvnu3025u01nsor9ubilk",
+    "title": "Workflows agentiques : passer du no-code à l’échelle industrielle avec MCP et Otoroshi-LLM",
+    "abstract": " L'année écoulée a vu l'explosion des agents IA, portés par une multitude de frameworks (LangGraph, smolagents, OpenAI agents SDK...) et d'outils no-code (n8n, Flowise, LangFlow...). Pourtant, si la création d'un agent est devenue simple, son industrialisation reste un défi majeur : fiabilité, sécurité et passage à l'échelle sont souvent les parents pauvres de ces expérimentations.\n\n Contenu de l'atelier : cet atelier propose une immersion pratique pour transformer l'essai agentique en solution de production (construction visuelle d'une architecture robuste avec le moteur de workflow d'Otoroshi-LLM, conçu pour intégrer nativement les contraintes de sécurité et de pilotage).  ",
+    "speakersId": [
+      "mathieu-ancelin",
+      "sbastien-prunier"
+    ],
+    "format": "Workshop",
+    "categorie": "Cloud & DevSecOps",
+    "tags": [
+      "cloud_devops"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "workflows-agentiques--passer-du-no-code--lchelle-industrielle-avec-mcp-et-otoroshi-llm",
     "cancelled": false
   },
   {
-    "id": "bt5ze6t1ec9tbr3v8vz31vre51",
-    "title": "Le Grimoire Perdu : La Renaissance de l’Écriture Sacrée avec mkdocs",
-    "abstract": "Ecrire des parchemins de savoir, rares sont les âmes courageuses qui s’y adonnent de bon cœur. C’est une tâche ardue, souvent terne, reléguée aux oubliettes des bibliothèques de quelques mages farfelus. Ainsi, nombre de manuscrits ne furent jamais terminés, engloutis par la paresse et l’indifférence.\n\nPourtant, il fut un temps où moi-même, humble scribe, trouvais un certain plaisir à graver des runes de connaissance. Mais hélas ! Mes écrits étaient aussi fades qu’une soupe de crapauds de la vieille sorcière du village, si bien que nul aventurier ne daignait les consulter. \uD83D\uDE05\n\nPuis, un jour, tel un artefact légendaire surgissant des brumes du destin, je découvris MkDocs. Ce puissant outil, doté d’un écosystème riche et enchanteur, raviva la flamme de l’écriture en moi. Grâce à lui, écrire des grimoires élégants, structurés et d’une clarté cristalline devint un jeu d’enfant.\n\nRejoignez-moi dans cette quête ! Ensemble, nous explorerons les arcanes fondamentaux de MkDocs. Et peut-être, comme moi, retrouverez-vous le plaisir, jusque là inavouable, de noircir des parchemins de savoir dignes des plus grandes bibliothèques enchantées. \uD83D\uDCDC✨",
+    "id": "cmmchm620025401nslo5uqdw1",
+    "title": "OpenRewrite: Refactor as code",
+    "abstract": "Vous êtes dans la team __Doc as code, Infrastructure as code, Ci as code__ ? La réponse à ces questions vous semble évidente.\n\nLes bienfaits de l'approche _\"as code\"_ ne sont plus à démontrer et pourtant il reste un domaine laissé pour compte.\n\nOui parce que si je vous pose ces questions pour vos refactorings et vos migrations, ça sera plutôt : \n\n   Vous êtes plutôt team __chercher/remplacer__ ? __regexp__ ? __IDE click droit *rename method*__ ?\n\nEh oui, les cordonniers sont toujours les plus mal chaussés, et nous continuons a écrire des guides de migrations longs comme un dimanche de pluie. Fatigué de mener des migrations JUnit4 ->JUnit 5? Spring-boot 2 -> Spring-boot 3?\n\nEst-ce qu’il ne serait pas temps d’entrer dans la team ___refactoring as code___? \n\nOpenRewrite est la boîte à outils parfaite pour écrire, versionner et partager vos refactoring. L'Ansible du refactoring.\n\nNe repartez pas sans une nouvelle as corde à votre arc, ne faite plus jamais vos migrations à la main.",
     "speakersId": [
-      "matthieu-vincent"
+      "jrme-tama"
+    ],
+    "format": "Conférence",
+    "categorie": "Backend",
+    "tags": [
+      "backend"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "openrewrite-refactor-as-code",
+    "cancelled": false,
+    "mc": "f7136c44-6421-47bf-9e25-abf51d5d261c",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=Kwp_vylButQ"
+  },
+  {
+    "id": "cmmci144d026g01nsktetytlw",
+    "title": "L'art d'être MANIAC",
+    "abstract": "Et si être maniaque n'était pas une critique, mais une philosophie d'ingénierie ?\n\nCette conférence démystifie le mythe du perfectionnisme pour mettre en lumière un enjeu plus profond : la cohérence collective.\n\nÀ travers plusieurs outils (EditorConfig, Prettier, ESLint, etc.), nous verrons comment transformer des choix subjectifs en règles objectives.\n\nDe la mise en forme au contrôle statique du code, découvrez une démarche permettant de fiabiliser le code sans ralentir les équipes : une discipline technique sans rigidité.\n\nPour les équipes qui sont fatiguées des débats éternels et souhaitent juste... que ça fonctionne !",
+    "speakersId": [
+      "damien-chazoule"
     ],
     "format": "Quickie",
     "categorie": "Frontend",
     "tags": [
       "frontend"
     ],
-    "room": "Le planétarium",
-    "day": "day-1",
-    "slot": "day-1-quickie-7-ps",
-    "slug": "astro-vers-l-infini-et-au-dela",
+    "room": "",
+    "slot": "",
+    "day": "day-2",
+    "slug": "lart-dtre-maniac",
+    "cancelled": false,
+    "mc": "0af75d2b-b613-46ce-a778-aabd4fe22c20",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=An4WMSukd4s"
+  },
+  {
+    "id": "cmmci1g9w026j01nsld2eiuuf",
+    "title": "Ajouter de l'IA à nos applications : et si c'était aussi simple qu'ajouter une librairie ?",
+    "abstract": "L'intelligence artificielle et les LLM commencent à faire partie de nos vies personnelles mais aussi professionnelles.\n\nSi on est habitué•es à les utiliser régulièrement, il en est autrement pour ce qui concerne nos développements.\n\nLes intégrer peut nous paraître plus complexe que de les utiliser dans notre quotidien.\n\nDois-je apprendre un nouveau langage ou une nouvelle stack ?\n\nDurant ce workshop nous vous proposons de vous donner tous les éléments pour débuter votre voyage au sein de l'IA sans quitter votre langage de prédilection : Java.\n\nVous apprendrez comment utiliser les Frameworks du moment (Quarkus, LangChain4j, ...) mais aussi les outils vous facilitant la vie pour que dès le retour à votre application préférée, intégrer de l'IA au sein de celle-ci ne soit plus une peur mais une action aussi simple que de rajouter une librairie tierce.\n\nEt, toujours pour vous simplifier la vie, venez juste avec votre ordinateur et un navigateur Internet, je me charge du reste pour vous construire un environnement de développement aux petits oignons grâce aux CDE.",
+    "speakersId": [
+      "stphane-philippart"
+    ],
+    "format": "Workshop",
+    "categorie": "Cloud & DevSecOps",
+    "tags": [
+      "cloud_devops"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-2",
+    "slug": "ajouter-de-lia--nos-applications--et-si-ctait-aussi-simple-quajouter-une-librairie-",
     "cancelled": false
   },
   {
-    "id": "cm86krnta0892pr3nwk8hr0lw",
-    "title": "⚔️ Testing Quest: La Légende des Gardiens du Code 🏰🔥",
-    "abstract": "L’Appel de l’Aventure  Il y a bien longtemps, dans le royaume des Développeurs, un empire prospérait sous l’égide du Grand Pipeline de CI/CD.  Les commits coulaient comme le vin, les releases arrivaient en temps et en heure, et la production connaissait une paix éternelle.  Mais les ténèbres s’épaississent…    Les Bugs de l’Ombre, créatures perfides surgies du Chaos des Merges non testés, se multiplient.   Des applications tombent, des utilisateurs fuient, les rollbacks sont légion.  Le Conseil des Lead Tech a convoqué les Gardiens du Code.    Vous, nobles chevaliers du Testing, élus pour défendre la production contre la régression, voici votre quête :  ## Maîtriser les Artefacts du Testing et renforcer la forteresse CI/CD avant l’invasion finale.",
+    "id": "cmmci0eai026c01nsb8myt37z",
+    "title": "Le seigneur du legacy, la communauté du code",
+    "abstract": "Un code pour les gouverner tous, un code pour les lier...\"\nAvez-vous déjà hérité d'un projet avec un fichier marqué \"NE PAS TOUCHER\" ?\n\nAvez-vous déjà vécu une réunion d'architecture de 4 heures qui n'aboutit à rien ?\n\nAvez-vous déjà vu un projet où corriger un bug en introduit plusieurs autres ?\n\nSi oui, cette présentation est pour vous !\n\nÀ travers le prisme épique du Seigneur des Anneaux, nous explorerons les défis quotidiens du développement logiciel : le couplage fort qui corrompt nos systèmes comme l'Anneau Unique et la dette technique qui s'accumule telle une armée d'Orques.\n\nCette conférence s'adresse aux développeurs, architectes, et managers qui ont vécu (ou vivront bientôt) les péripéties du legacy code.\n\nJe vous y partagerai une vision sur le couplage, la dette technique et quelques techniques pour écrire du code plus facile à maintenir.",
     "speakersId": [
-      "mehdi-chilla",
-      "jeremy-bernard"
+      "edouard-mangel"
+    ],
+    "format": "Conférence",
+    "categorie": "Méthodo & Architecture",
+    "tags": [
+      "architecture"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-2",
+    "slug": "le-seigneur-du-legacy-la-communaut-du-code",
+    "cancelled": false,
+    "mc": "f7bf426f-ea75-4f99-94d3-e6d3e887a649",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=HJx5TC8n5AE"
+  },
+  {
+    "id": "cmmchtjej025i01nsqg3qhwyv",
+    "title": "Comprendre Kubernetes de manière visuelle",
+    "abstract": "Kubernetes est devenu le standard de facto pour déployer et exploiter des applications conteneurisées. Mais comprendre Kubernetes peut s’avérer difficile ou prendre beaucoup de temps.\n\nIl y a quelques années, je me suis demandé comment j'imaginais les concepts de Kubernetes : un pod, un déploiement, un service, un secret, une configmap, un cronjob… et j'ai ensuite créé une nouvelle façon d'expliquer les technologies Cloud visuellement.\n\nDans la première partie de ce talk, je vais vous raconter une histoire, je vais vous raconter mon histoire. Comment, pendant plusieurs années, j'ai travaillé chaque soir/nuit/week-end pour expliquer Kubernetes dans des sketchnotes, des articles de blog, des vidéos et finalement publié dans un livre illustré de plus de 270 pages (avec tous les concepts incluant le Debugging ainsi que des outils et des tips) et pourquoi je continue à le faire.\n\nEt dans la deuxième partie, je vous expliquerai Kubernetes et ses concepts... de manière visuelle :-).",
+    "speakersId": [
+      "aurlie-vache"
     ],
     "format": "Quickie",
     "categorie": "Cloud & DevSecOps",
     "tags": [
       "cloud_devops"
     ],
-    "room": "Le planétarium",
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "comprendre-kubernetes-de-manire-visuelle",
+    "cancelled": false,
+    "mc": "1763c54d-5325-4594-abfc-1ebaea3f110d",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=gB9S9SO4VEE"
+  },
+  {
+    "id": "cmmcht6aa025h01nskahe960h",
+    "title": "TechLeads : arrêtez de répondre. Commencez à questionner !",
+    "abstract": "On attend du Techlead qu’il sache.\nOn vient le voir pour chaque décision : relecture de code, décision d'architecture, arbitrage produit, debug complexe, médiation d'équipe...\nEt plus il est compétent, plus il est sollicité !\n\nLe paradoxe ? Sa valeur crée sa surcharge.\nEt si le rôle du TechLead n’était pas d’avoir les meilleures réponses… mais de poser les meilleures questions ?\n\nLe questionnement puissant est une compétence centrale en coaching mais quasiment absente de la culture technique.\n\nAlors permettez-moi de vous offrir cet angle nouveau qui pourrait vous permettre de :\n- réduire la charge cognitive du TechLead,\n- faire émerger des solutions plus solides,\n- responsabiliser sans imposer,\n- et d'éviter les dépendances invisibles\n\nUn sujet pour celles et ceux qui veulent faire grandir leur impact sans s’épuiser.",
+    "speakersId": [
+      "fanny-klauk"
+    ],
+    "format": "Quickie",
+    "categorie": "Méthodo & Architecture",
+    "tags": [
+      "architecture"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "techleads--arrtez-de-rpondre-commencez--questionner-",
+    "cancelled": false,
+    "mc": "0af75d2b-b613-46ce-a778-aabd4fe22c20",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=2UAkPVrn_1A"
+  },
+  {
+    "id": "cmmchqs6k025c01ns1piozypy",
+    "title": "État des Lieux de la Souveraineté du Cloud : Des Clouds Publics aux Clouds Confidentiels",
+    "abstract": "Dans un contexte géopolitique tendu et face à des réglementations de plus en plus exigeantes, la souveraineté numérique est devenue un enjeu stratégique pour les organisations. Cette conférence propose un état des lieux complet des solutions de cloud souverain, depuis les clouds publics traditionnels jusqu'aux technologies émergentes de cloud confidentiel.\n\nNous explorerons l'évolution des approches de souveraineté cloud, en analysant leurs forces et faiblesses respectives : clouds souverains de première génération, clouds de confiance issus de partenariats avec les hyperscalers, initiatives européennes comme GAIA-X, et technologies de confidential computing. Pour chaque approche, nous examinerons les aspects techniques, juridiques et stratégiques.\n\nLa présentation culminera avec une feuille de route pratique en quatre phases pour adopter une stratégie cloud souveraine adaptée à votre organisation, en équilibrant exigences de souveraineté, contraintes budgétaires et besoins d'innovation.\n\nQue vous soyez en phase d'évaluation de votre stratégie cloud ou déjà engagé dans une démarche de souveraineté numérique, cette conférence vous fournira une vision claire des options disponibles et des tendances futures pour faire des choix éclairés.",
+    "speakersId": [
+      "seifeddin-mansri"
+    ],
+    "format": "Conférence",
+    "categorie": "Cloud & DevSecOps",
+    "tags": [
+      "cloud_devops"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "tat-des-lieux-de-la-souverainet-du-cloud--des-clouds-publics-aux-clouds-confidentiels",
+    "cancelled": false,
+    "mc": "1763c54d-5325-4594-abfc-1ebaea3f110d",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=6PzxRMMf2vg"
+  },
+  {
+    "id": "cmmchswu0025g01nsz5rccqzi",
+    "title": "Votre guide de survie à l’IA dans le développement logiciel",
+    "abstract": "L’IA envahit la boîte à outils des développeurs : chatbots, assistants de code, agents, LLM locaux… Résultat : beaucoup de bruit, peu de livrables.\n\nCe talk est un guide de survie pragmatique pour remettre de l’ingénierie là où il faut : fiabilité, preuve, et contrôle.\n\nOn part d’un constat simple : un bon output IA est un output vérifiable. Nous découvrirons une méthode reproductible (Prompt/Rules/Workflows → Diff → Proof), une checklist de validation (build, tests, diff, sécurité, observabilité) et des stop rules claires pour savoir quand dire “non”.\n\nEnsuite, place au concret via des use cases réels côté dev : expliquer du code, refactorer, générer/renforcer des tests, créer une API, améliorer un pipeline CI/CD, ou encore corriger des problèmes de sécurité. Pour chaque cas, nous verrons les familles d’outils les plus adaptées, avec des démonstrations orientées open-source.\n\nVous repartirez avec une grille simple pour choisir les bons outils selon vos contraintes (privacy, intégration, coût/ROI, adoption) et surtout un workflow que vous pouvez répéter, auditer et enseigner.\n\nParce que survivre à la jungle de l’IA, ce n’est pas collectionner des outils. C’est savoir livrer du code que l’on peut assumer.",
+    "speakersId": [
+      "rafik-ferroukh"
+    ],
+    "format": "Conférence",
+    "categorie": "Cloud & DevSecOps",
+    "tags": [
+      "cloud_devops"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-1",
+    "slug": "votre-guide-de-survie--lia-dans-le-dveloppement-logiciel",
+    "cancelled": false,
+    "mc": "0af75d2b-b613-46ce-a778-aabd4fe22c20",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=UtOyOZ1Ji3s"
+  },
+  {
+    "id": "cmmci0cxr026b01nsccxs89q8",
+    "title": "Un donjon, deux donjons, trois donjons... Et si on automatisait la génération ?",
+    "abstract": "Depuis des années, l'industrie du jeu vidéo n'a qu'un seul mot à la bouche : Open World. Un concept qui implique de nombreuses contraintes, notamment sur la génération de l'univers : les paysages, les décors, les ambiances sont des élèments de gameplay primordiaux pour immerger le joueur dans votre monde.\n\nImaginez-vous un Minecraft, plat, avec un seul biôme ? Pire, ça vous dirait que les décors soient impraticables et que les spots de diamants soient sporadiques, voire inexistant ? \n\nAlors, comment générer des mondes cohérents quand l'aléatoire ne suffit plus ? Nous vous proposons de découvrir la génération procédurale, de sa genèse à son application dans la création d'un donjon tout au long du talk. Embarquez avec nous dans cette aventure interactive !\n\n\nBon après, un Minecraft plat avec un seul biome, ça a existé donc... 😄",
+    "speakersId": [
+      "florian-forestier",
+      "sylvain-gougouzian"
+    ],
+    "format": "Conférence",
+    "categorie": "Méthodo & Architecture",
+    "tags": [
+      "architecture"
+    ],
+    "room": "",
+    "slot": "",
     "day": "day-2",
-    "slot": "day-2-quickie-9-ps",
-    "slug": "-testing-quest-la-lgende-des-gardiens-du-code-",
+    "slug": "un-donjon-deux-donjons-trois-donjons-et-si-on-automatisait-la-gnration-",
+    "cancelled": false,
+    "mc": "c4a237ef-26d9-4d25-ad3d-32f80ea99295",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=jzwANzXxcN8"
+  },
+  {
+    "id": "generatedbyvgo0001",
+    "title": "Fatigués de la POO ? Passez à la DOP !",
+    "abstract": "Depuis Java 8 et l'introduction de d'une dose de programmation fonctionnelle, le langage a beaucoup évoluer.\n\nChaque release ou presque apporte son lot de nouveautés qui nous permettent de repenser nos applications, qui nous donnent de nouveaux outils.\n\nLa Programmation Orientée Données (Data Oriented Programming) représente un paradigme émergent qui privilégie la manipulation des données plutôt que l’encapsulation des comportements.\n\nCe guide pratique -sous forme de refactoring- explore les étapes clés pour transformer du code Java, d'une approche traditionnelle, orientés objet vers une approche orientée données.\n\n🏹 Armez vos arcs de nouvelles cordes et repartez avec un kata à faire en équipe.",
+    "speakersId": [
+      "jrme-tama"
+    ],
+    "format": "Conférence",
+    "categorie": "Backend",
+    "tags": [
+      "backend"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-2",
+    "slug": "fatigus-de-la-poo--passez--la-dop-",
+    "cancelled": false,
+    "mc": "f6c73fdb-1b56-43f2-b2ec-2489911582ed",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=VUpaGwp4zZo"
+  },
+  {
+    "id": "cmmci0jj1026d01nsm9bqit1m",
+    "title": "GitHub Copilot en 2026 : l'ère des agents autonomes",
+    "abstract": "Il y a 4 ans nous découvrions comment GitHub Copilot révolutionnait notre façon d'écrire du code. En 2026, l'IA ne se contente plus de suggérer : elle exécute, planifie et collabore comme un véritable membre de l'équipe.\n\n**Bienvenue dans l'ère du Développement Agentique !**\n\nDécouvrez comment les agents de GitHub Copilot transforment radicalement votre quotidien. Durant cette session riche en démos, Tug vous montrera comment exploiter l'IA autonome pour passer de la simple intention à la mise en production.\n\n## Du \"Vibe Coding\" au Spec-Driven Development\n\n- Une nouvelle application à bootstraper ?\n- Une fonctionnalité complexe à intégrer ?\n- Des tests à écrire ?\n- Un bug récalcitrant à corriger ?\n\nQue vous partiez d'une **page blanche** ou d'un **système legacy complexe**, Tug nous montrera comment GitHub Copilot nous assiste durant l'intégralité du cycle de développement, transformant vos intentions en code et documentation grâce à la puissance des agents.\n\n### Au programme:\n\n\n - **Context Engineering** : Apprenez à doper vos agents en couplant la connectivité du **MCP** avec des **Skills** métier, tout en cadrant leur comportement via les fichiers **agents.md** et **instructions** personnalisées.\n\n- **Maîtrise des modes** : Exploiter les modes Ask (assistance), Plan (conception) et les Agents personnalisés directement dans votre IDE, dans la CLI ou sur GitHub.com. (Creation de PRs, Revue de Code, Analyze de Logs, Gestion des issues, etc.)\n\n- **Human-in-the-loop** : Comment garder le contrôle et piloter ces agents sans perdre votre expertise technique.\n\nCette présentation est **entierement basée sur des démonstrations** et retours d'expérience concrets. \n\nVenez avec vos questions, Tug se fera un plaisir d'y répondre en direct !",
+    "speakersId": [
+      "tugdual-grall"
+    ],
+    "format": "Conférence",
+    "categorie": "Cloud & DevSecOps",
+    "tags": [
+      "cloud_devops"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-2",
+    "slug": "github-copilot-en-2026--lre-des-agents-autonomes",
+    "cancelled": false,
+    "mc": "f6c73fdb-1b56-43f2-b2ec-2489911582ed",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=yOQhGDz12vs"
+  },
+  {
+    "id": "cmmci1hja026k01nsgpspts6u",
+    "title": "Arrêtez de miser sur vos Tests Unitaires !",
+    "abstract": "Vous en avez assez de voir vos Tests Unitaires passer... alors que votre application plante en production ?\nFatigué de devoir adapter des dizaines de mocks à chaque refactorisation ?\nIl est temps de passer aux Tests d'Intégration !\nDans ce codelab, nous explorerons comment tester efficacement une application Spring Boot en simulant les dépendances externes :\n* WireMock pour simuler vos appels API,\n* Testcontainers pour tester une vraie base de données dans un environnement isolé,\n* LocalStack pour reproduire vos intégrations AWS.\nRepartez avec une application plus robuste, des tests plus fiables… et moins de surprises en production ! \n\n\n __prerequis__ :\n\n\n - Docker\n - Java 25",
+    "speakersId": [
+      "jean-michel-leclercq"
+    ],
+    "format": "Workshop",
+    "categorie": "Backend",
+    "tags": [
+      "backend"
+    ],
+    "room": "",
+    "slot": "",
+    "day": "day-2",
+    "slug": "arrtez-de-miser-sur-vos-tests-unitaires-",
     "cancelled": false
   },
   {
-    "id": "oifgjofurhorudhgouhfohgouihg",
-    "title": "Mes trains Jouef passent au numérique, avec des Raspberry et TinyGo !",
-    "abstract": "Dans les années 1970/1980, de nombreux enfants ont eu la chance de grandir avec des petits trains électriques, au format HO (1:87). Le principe était simple : on pose des rails, qu'on alimente en 18V, et les trains circulent sur les rails.  Un demi-siècle plus tard, mon grand-père de 85 ans et moi-même nous sommes lancés dans le projet un peu fou de faire passer au numérique ses trains électriques de cette époque. Bienvenue dans ce retour d'expérience, avec du matériel, et des humains, qui ont traversé les générations.  Au menu : de l'électronique (pas trop, promis !), des Raspberry, du TinyGo... et des petits trains, bien entendu.",
+    "id": "cmmchsggk025e01nskdp8wojx",
+    "title": "Server-Sent Events : quand l'API murmure à l’oreille de votre navigateur",
+    "abstract": "Vos utilisateurs en ont marre d’attendre... \nNos applications s’essoufflent sous le poids du polling et des loaders plus ou moins maîtrisés . Et si les Server-Sent Events (SSE) étaient la solution simple et légère que vous cherchez ?\nLes SSE permettent de basculer d’un modèle où le navigateur demande à un système ou le serveur murmure à son oreille. Ce changement de paradigme a de nombreux impacts sur l'architecture, le code, et même sur la conception de l’expérience utilisateur.\n\nCharline et Nicolas, Lead Tech Frontend et Backend, vous partagent leur retour d’expérience sur cette mise en place dans des cas d'usages réels. Dans des jeux multi-joueurs, ou dans des applications de gestion traditionnelles,  ils vous montreront les cas d'usages concret, les gains et les pièges à éviter.\n\nVenez découvrir comment les SSE influencent votre code,  de l'intégration aux frameworks Frontend, jusqu'à  la séparation lecture/écriture côté backend. Vous verrez aussi comment cette approche fait évoluer la conception des échanges Front/Back et l'expérience utilisateur, tout en offrant de nouvelles possibilités...",
     "speakersId": [
-      "florian-forestier"
+      "charline-humeau",
+      "nicolas-giraud"
     ],
-    "format": "Quickie",
-    "categorie": "Quêtes Secondaires",
+    "format": "Conférence",
+    "categorie": "Méthodo & Architecture",
     "tags": [
-      "discovery"
+      "architecture"
     ],
-    "room": "Le planétarium",
+    "room": "",
+    "slot": "",
     "day": "day-1",
-    "slot": "day-2-conference-bonus-ps",
-    "slug": "mes-trains-jouef-passent-au-numrique-avec-des-raspberry-et-tinygo-",
-    "cancelled": false
+    "slug": "server-sent-events--quand-lapi-murmure--loreille-de-votre-navigateur",
+    "cancelled": false,
+    "mc": "0af75d2b-b613-46ce-a778-aabd4fe22c20",
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=8owxvJvFBeY"
   }
 ]
