@@ -47,7 +47,9 @@
     ],
     "format": "Conférence",
     "categorie": "Quêtes Secondaires",
-    "tags": [],
+    "tags": [
+      "discovery"
+    ],
     "room": "",
     "slot": "",
     "day": "day-1",
@@ -145,7 +147,9 @@
     ],
     "format": "Quickie",
     "categorie": "Quêtes Secondaires",
-    "tags": [],
+    "tags": [
+      "discovery"
+    ],
     "room": "",
     "slot": "",
     "day": "day-1",
@@ -163,7 +167,9 @@
     ],
     "format": "Quickie",
     "categorie": "Quêtes Secondaires",
-    "tags": [],
+    "tags": [
+      "discovery"
+    ],
     "room": "",
     "slot": "",
     "day": "day-2",
@@ -220,7 +226,9 @@
     ],
     "format": "Conférence",
     "categorie": "Quêtes Secondaires",
-    "tags": [],
+    "tags": [
+      "discovery"
+    ],
     "room": "",
     "slot": "",
     "day": "day-1",
@@ -238,7 +246,9 @@
     ],
     "format": "Quickie",
     "categorie": "Quêtes Secondaires",
-    "tags": [],
+    "tags": [
+      "discovery"
+    ],
     "room": "",
     "slot": "",
     "day": "day-1",
@@ -256,7 +266,9 @@
     ],
     "format": "Quickie",
     "categorie": "Quêtes Secondaires",
-    "tags": [],
+    "tags": [
+      "discovery"
+    ],
     "room": "",
     "slot": "",
     "day": "day-1",
@@ -313,7 +325,9 @@
     ],
     "format": "Quickie",
     "categorie": "Quêtes Secondaires",
-    "tags": [],
+    "tags": [
+      "discovery"
+    ],
     "room": "",
     "slot": "",
     "day": "day-2",
@@ -331,7 +345,9 @@
     ],
     "format": "Conférence",
     "categorie": "Quêtes Secondaires",
-    "tags": [],
+    "tags": [
+      "discovery"
+    ],
     "room": "",
     "slot": "",
     "day": "day-2",
@@ -349,7 +365,9 @@
     ],
     "format": "Conférence",
     "categorie": "Quêtes Secondaires",
-    "tags": [],
+    "tags": [
+      "discovery"
+    ],
     "room": "",
     "slot": "",
     "day": "day-2",
@@ -446,7 +464,9 @@
     ],
     "format": "Workshop",
     "categorie": "Quêtes Secondaires",
-    "tags": [],
+    "tags": [
+      "discovery"
+    ],
     "room": "",
     "slot": "",
     "day": "day-2",
