@@ -8,6 +8,7 @@ import { Partenaire } from "@/model/Partenaire";
 import { LevelPartenaire } from "@/model/LevelPartenaire";
 import { Session } from "@/model/Session";
 import { Speaker } from "@/model/Speaker";
+import { CardListSession } from "@/components/sessions/CardListSession/CardListSession";
 
 export default async function Edition2026() {
   const partenairesFile = await fs.readFile(
@@ -40,23 +41,15 @@ export default async function Edition2026() {
 
         <h2>La troisième édition du dev quest c'est : </h2>
         <Galery>
-          <Card>350 paticipants</Card>
-          <Card>13 sponsors</Card>
+          <Card>350 participants</Card>
+          <Card>{partenaires.length} Partenaires</Card>
           <Card>800 repas</Card>
-          <Card>47 speakers</Card>
+          <Card>{speakers.length} speakers</Card>
         </Galery>
       </Section>
       <Section theme="Dark" >
         <h2> Les Menestrels  </h2>
-        <Galery>
-          {sessions.map(session => <Card><h3>{session.title}</h3>
-            <div>
-              {session.categorie}
-              {session.speakersId.map(idSpeaker => speakers.find(speaker => speaker.id === idSpeaker))
-                  .map((speaker,index) => <div key={index}>{speaker?.name}</div>)}
-            </div></Card>)}
-        </Galery>
-
+        <CardListSession sessions={sessions} speakers={speakers} columns={3} />
       </Section>
       <Section theme="Light" >
         <h2>Les guildes presentent cette année la </h2>
