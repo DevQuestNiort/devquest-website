@@ -43,27 +43,16 @@
     }
   ],
   "columns": [
-    {
-      "title": "L'Événement",
-      "links": [
-        { "label": "Programme", "href": "/schedule/day-1" },
-        { "label": "Mentions légales", "href": "/mentions-legales" }
-      ]
-    },
-    {
+        {
       "title": "La Communauté",
       "links": [
         { "label": "⚔️ La Guilde", "href": "/guilde" },
-        { "label": "🔮 Conseil des Mages", "href": "/conseil-des-mages" },
-        { "label": "🎙️ Maîtres de Conf", "href": "/maitres-de-conf" },
-        { "label": "🧑‍🤝‍🧑 Bénévoles", "href": "/benevoles" },
         { "label": "🔨 Artisans", "href": "/artisans" }
       ]
     },
     {
       "title": "Ressources",
       "links": [
-        { "label": "Ressources graphiques", "href": "/packmedia" },
         { "label": "Kit partenaires ↗", "href": "https://drive.google.com/drive/folders/1Fb5xMkGeXH5w6W3CUQCd53FcOUXuP0rq" },
         { "label": "Le jeu DevQuest 2025 ↗", "href": "https://devquestniort.github.io/dq-game/" }
       ]
