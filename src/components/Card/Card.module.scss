@@ -28,6 +28,11 @@
     color: white;
   }
 
+  &Fluid {
+    width: 100%;
+    max-width: none;
+  }
+
   @media (max-width: 640px) {
     margin-left: 0;
     margin-right: 0;
