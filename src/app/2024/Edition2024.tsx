@@ -8,6 +8,10 @@ import { Partenaire } from "@/model/Partenaire";
 import { Speaker } from "@/model/Speaker";
 import { promises as fs } from "fs";
 import { Session } from "@/model/Session";
+import backgroundImage from "/public/img/2024/2024-hero.png";
+import Image from "next/image";
+
+
 export default async function Edition2024() {
   const partenairesFile = await fs.readFile(
     process.cwd() + "/src/data/2024/partenaires.json",
@@ -37,13 +41,37 @@ export default async function Edition2024() {
   return (
     <div>
       <div>
-        <Section theme="Light" >
+        <Section
 
-          <h2>La troisième édition du dev quest c'est : </h2>
+          style={{
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.10), rgba(0,0,0,0.10)), url(${backgroundImage.src})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+          }}
+        >
+          <Image
+            // id={styles.logo}
+            src="/logo/2024/devquest-logo.svg"
+            alt="DevQuest 2026"
+            priority
+            width={350}
+            height={320}
+          />
+          <Card>
+            <p>Merci @tous pour cette première aventure...
+              Nous tenions à remercier l'ensemble de nos partenaires, speakeuses et speakeurs, bénévoles, maîtres et maîtresse de conférence pour nous avoir aidé et accompagné dans cette aventure. Cette journée fut tellement intense et riche pour l'ensemble de la team.. Mille mercis.
+              Suivez nous pour ne pas manquer les futures quêtes !</p>
+
+            <p>Alice, Alex, Alex, Florent, Guillaume, Nicolas, Samuel, Susan, Vincent, Xavier.
+            </p>
+          </Card>
+        </Section>
+        <Section theme="Light" >
           <Galery>
+            <Card>Une journée</Card>
             <Card>350 participants</Card>
             <Card>{partenaires.length} Partenaires</Card>
-            <Card>800 repas</Card>
+            <Card>400 repas</Card>
             <Card>{speakers.length} speakers</Card>
           </Galery>
         </Section>

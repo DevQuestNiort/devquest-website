@@ -10,6 +10,10 @@ import { Session } from "@/model/Session";
 import { Speaker } from "@/model/Speaker";
 import { CardListSession } from "@/components/sessions/CardListSession/CardListSession";
 
+import backgroundImage from "/public/img/2025/2025-hero.png";
+import Image from "next/image";
+
+
 export default async function Edition2025() {
   const partenairesFile = await fs.readFile(
     process.cwd() + "/src/data/2025/partenaires.json",
@@ -37,13 +41,36 @@ export default async function Edition2025() {
 
   return (
     <div>
+      <Section
+
+          style={{
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.10), rgba(0,0,0,0.10)), url(${backgroundImage.src})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+          }}
+        >
+          <Image
+            // id={styles.logo}
+            src="/logo/2025/logo-date-lieu-2025.svg"
+            alt="DevQuest 2026"
+            priority
+            width={350}
+            height={320}
+          />
+          <Card>
+            <p>Une deuxième édition, pleine de surprise. Nous remercions tous les participants, les speakers, les benvoles, nos Sponsors. Gràce à vous tous, on repart pour une année.  </p>
+            <p> Alex, Alex, Alexis, Florent, Guillaume, Susan, Vincent, Xavier.
+            </p>
+          </Card>
+        </Section>
       <Section theme="Light" >
 
-        <h2>La troisième édition du dev quest c'est : </h2>
+        <h2>Deuxiéme chapitre de notre histoire Devquest :  </h2>
         <Galery>
+          <Card>Passage sur deux jours</Card>
           <Card>350 participants</Card>
           <Card>{partenaires.length} Partenaires</Card>
-          <Card>800 repas</Card>
+          <Card>700 repas</Card>
           <Card>{speakers.length} speakers</Card>
         </Galery>
       </Section>
