@@ -13,18 +13,21 @@ export function CardSession({ session, speakers }: CardSessionProperties) {
   const tag = session.tags[0] ? tagLabels[session.tags[0]] : undefined;
 
   return (
-    <Card fluid className={styles.sessionCard}>
+    <Card fluid className={styles.sessionCard} theme="Light">
       <h3 className={styles.sessionTitle}>{session.title}</h3>
       <div className={styles.speakers}>
         {session.speakersId
           .map((idSpeaker) => speakers.find((speaker) => speaker.id === idSpeaker))
           .map((speaker, index) => speaker && <span key={index}>{speaker.name}</span>)}
       </div>
-      {tag ? (
+      <div style={{ flexBasis: "100%" }}>
+ {tag ? (
         <Chip icon={tag.icon} label={tag.label} />
       ) : (
         session.categorie && <Chip icon={<></>} label={session.categorie} />
       )}
+      </div>
+
       {session.videoLinkYoutube && (
         <a
           href={session.videoLinkYoutube}

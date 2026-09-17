@@ -61,7 +61,7 @@ export default async function Edition2026() {
           <p> Alex, Alex, Alexis, Loic,  Guillaume, Susan, Sylvain,  Vincent, Xavier.</p>
         </Card>
       </Section>
-  <Section theme="Light">
+      <Section theme="Light">
         <h2>Section Light</h2>
 
         <Card theme="Light">
@@ -91,7 +91,7 @@ export default async function Edition2026() {
         <h2>L&apos;aventure continue Dark</h2>
 
 
-              <Card theme="Light">
+        <Card theme="Light">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
@@ -118,7 +118,7 @@ export default async function Edition2026() {
         <h2>L&apos;aventure continue Primary</h2>
 
 
-               <Card theme="Light">
+        <Card theme="Light">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
@@ -144,7 +144,7 @@ export default async function Edition2026() {
         <h2>L&apos;aventure continue Secondary</h2>
 
 
-               <Card theme="Light">
+        <Card theme="Light">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
@@ -171,7 +171,7 @@ export default async function Edition2026() {
         <h2>L&apos;aventure continue Tertiary</h2>
 
 
-               <Card theme="Light">
+        <Card theme="Light">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
@@ -198,11 +198,36 @@ export default async function Edition2026() {
 
       <Section theme="Light" >
         <h2>La troisième édition du dev quest c&apos;est : </h2>
-        <Galery>
-          <Card>350 participants</Card>
-          <Card>{partenaires.length} Partenaires</Card>
-          <Card>800 repas</Card>
-          <Card>{speakers.length} speakers</Card>
+        <Galery columns={4}>
+          <Card theme="Tertiary">
+            <Image
+              src="/icons-rp/communsword.png"
+              alt="DevQuest 2026"
+              priority
+              width={60}
+              height={60}
+            />350 participants</Card>
+          <Card theme="Tertiary"><Image
+              src="/icons-rp/village.png"
+              alt="DevQuest 2026"
+              priority
+              width={60}
+              height={60}
+            />{partenaires.length} Partenaires</Card>
+          <Card theme="Tertiary"><Image
+              src="/icons-rp/chicken.png"
+              alt="DevQuest 2026"
+              priority
+              width={60}
+              height={60}
+            />800 repas</Card>
+          <Card theme="Tertiary"><Image
+              src="/icons-rp/group.png"
+              alt="DevQuest 2026"
+              priority
+              width={60}
+              height={60}
+            />{speakers.length} speakers</Card>
         </Galery>
       </Section>
       <Section theme="Primary" >

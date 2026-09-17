@@ -7,26 +7,26 @@
 
   &Light {
     background-color: var(--ligth-color);
-    color: black;
+    color: var(--ligth-font-color);
   }
 
   &Dark {
     background-color: var(--dark-color);
-    color: white;
+    color: var(--dark-font-color);
   }
 
   &Primary {
     background-color: var(--primary-color);
-    color: black;
+    color: var(--primary-font-color);
   }
 
   &Secondary {
     background-color: var(--secondary-color);
-    color: white;
+    color: var(--secondary-font-color);
   }
 
   &Tertiary {
     background-color: var(--tertiary-color);
-    color:  var(--secondary-color);
+    color: var(--tertiary-font-color);
   }
 }
