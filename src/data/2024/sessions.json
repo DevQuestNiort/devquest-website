@@ -16,7 +16,8 @@
     "slot": "day-1-keynote-open",
     "day": "",
     "slug": "level-up-ta-conf-12-ans-daventure-au-devfest-nantes",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=BIbCacNYObQ"
   },
   {
     "id": "XTt5AjfH18vpgIg3HC1j",
@@ -35,7 +36,8 @@
     "slot": "day-1-conference-7-ps",
     "day": "",
     "slug": "chrome-dev-tools-from-zero-to-hero",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=EmhR9xnAEFI"
   },
   {
     "id": "ioc2x2nW4KV5zrt69ZQm",
@@ -53,7 +55,8 @@
     "slot": "day-1-conference-1-ps",
     "day": "",
     "slug": "dessine-moi-un-graphique-en-CSS",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=ph-T_ypfNgM"
   },
   {
     "id": "op9NV6COKMkYfRsCbA5Z",
@@ -71,7 +74,8 @@
     "slot": "day-1-conference-4-gs",
     "day": "",
     "slug": "ne-jouez-plus-solo",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=QGi34Ty7F9Y"
   },
   {
     "id": "sxuXYZ9LFxNrSVqKAGTu",
@@ -89,7 +93,8 @@
     "slot": "day-1-conference-6-gs",
     "day": "",
     "slug": "3615-twitch",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=rzhC_m-3lzc"
   },
   {
     "id": "YPsuYQYS1gWLrKb4f2SA",
@@ -107,7 +112,8 @@
     "slot": "day-1-conference-5-ps",
     "day": "",
     "slug": "j-ai-beaucoup-de-taf",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=PyhGGfTHmbM"
   },
   {
     "id": "yRdKlGPKyggIvbVMJd45",
@@ -144,7 +150,8 @@
     "slot": "day-1-conference-8-gs",
     "day": "",
     "slug": "c-est-l-heure-du-check-up-de-vos-pipelines-ci-cd",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=kRNlqN2x0RA"
   },
   {
     "id": "104ABCaH2K2YG1jyGRQ0",
@@ -162,7 +169,8 @@
     "slot": "day-1-conference-5-gs",
     "day": "",
     "slug": "au-secours-mon-manager-me-demande-des-kpis",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=3FF3a0l_-Yg"
   },
   {
     "id": "421I87Jua5ybGBpFB8mY",
@@ -180,7 +188,8 @@
     "slot": "day-1-conference-1-gs",
     "day": "",
     "slug": "le-produit-entre-la-qualite-et-l-over-engineering",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=LRKvS2S790A"
   },
   {
     "id": "1UTHgcp3UIDFcoA2vwPC",
@@ -198,7 +207,8 @@
     "slot": "day-1-conference-7-gs",
     "day": "",
     "slug": "les-flux-de-reactor-expliques",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=5vSJuE08czw"
   },
   {
     "id": "S33SsGdvuBSe79BRHX3L",
@@ -216,7 +226,8 @@
     "slot": "day-1-conference-3-gs",
     "day": "",
     "slug": "mister-wip-miss-vsm-in-factory-town",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=lV_cpgpm088"
   },
   {
     "id": "S33SsGd-tremplin",
@@ -234,7 +245,8 @@
     "slot": "day-1-conference-3-ps",
     "day": "",
     "slug": "tremplin-speaker",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=vcBGPLxztQY"
   },
   {
     "id": "jOS0fDBjpVxRwkJhYGx8",
@@ -252,7 +264,8 @@
     "slot": "day-1-conference-4-ps",
     "day": "",
     "slug": "ppentelemetry-vous-ne-pourrez-plus-vous-passer-de-monitoring-en-prod",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=wq1wsyBn1xI"
   },
   {
     "id": "DFwcuwO56ihk6RRt92UE",
@@ -270,7 +283,8 @@
     "slot": "day-1-conference-6-ps",
     "day": "",
     "slug": "securite-automatisee-regardez-vos-failles-en-face",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=v_RzIPS72E0"
   },
   {
     "id": "anOldGi7qzAGSBM90IDy",
@@ -289,7 +303,8 @@
     "slot": "day-1-conference-8-ps",
     "day": "",
     "slug": "dedramatisons-l-accessibilite",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=Q6t7xIUaBao"
   },
   {
     "id": "1VwnWElWuMILCaS98esg",
@@ -307,7 +322,8 @@
     "slot": "day-1-conference-2-ps",
     "day": "",
     "slug": "les-feature-flags-le-couteau-suisse-de-votre-flow-de-developpement",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=5PEHIs0xx0E"
   },
   {
     "id": "DtBsONOL77NRIUkJCPqG",
@@ -325,7 +341,8 @@
     "slot": "day-1-conference-2-gs",
     "day": "",
     "slug": "la-clean-archi-ca-marche-aussi-dans-le-front",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=ncad1IsAyv0"
   },
   {
     "id": "kXmpwDrXnSne2RsXfj5X",

@@ -14,7 +14,8 @@
     "room": "La Forge",
     "slot": "day-1-keynote-open",
     "slug": "keynote-day-1",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=uCDtQov6jWA"
   },
   {
     "id": "cm8bvayuq09vypr3net3sw0g3",
@@ -32,7 +33,8 @@
     "day": "day-1",
     "slot": "day-1-conference-1-gs",
     "slug": "pair-et-mob-programming--ensemble-on-va-plus-loin",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=mSO37YtAvGo"
   },
   {
     "id": "cm6hn7y2y01i5qy3mwl7ihzwe",
@@ -50,7 +52,8 @@
     "day": "day-1",
     "slot": "day-1-conference-1-ps",
     "slug": "succs-dbloqu--rendre-son-jeu-vido-accessible",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=v7xaSNz8j6g"
   },
   {
     "id": "cm6esinq900ijqy3mknikw534",
@@ -108,7 +111,8 @@
     "day": "day-1",
     "slot": "day-1-emission",
     "slug": "emission-1",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=jZy3Bjm0rto"
   },
   {
     "id": "cm9cw8rmb0agupr3npza3rxaa",
@@ -126,7 +130,8 @@
     "day": "day-2",
     "slot": "day-2-emission",
     "slug": "emission-2",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=BRAOH82gvj4"
   },
   {
     "id": "cm6dqrrlv00e1qy3moij8sixq",
@@ -145,7 +150,8 @@
     "day": "day-1",
     "slot": "day-1-conference-2-gs",
     "slug": "-vois-sur-ton-chemin-aventuriers-gars---ya-t-il-un-gps-dans-le-donjon-",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=YrmgfLigUsw"
   },
   {
     "id": "cm6fn1gm600wgqy3m6raun1qn",
@@ -181,7 +187,8 @@
     "day": "day-1",
     "slot": "day-1-quickie-3-gs",
     "slug": "vous-ne-connaissez-pas-le-s-de-solid-",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=BulsdLNBbE4"
   },
   {
     "id": "cm6j6kywd01uoqyzz8798ojax",
@@ -199,7 +206,8 @@
     "day": "day-1",
     "slot": "day-1-quickie-3-ps",
     "slug": "tremplin-1",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=r8DuJI8rn8E"
   },
   {
     "id": "cm6gwmltt01etqy3mhj7z575d",
@@ -218,7 +226,8 @@
     "day": "day-1",
     "slot": "day-1-conference-4-gs",
     "slug": "les-coulisses-de-javascript--ce-quon-utilise-sans-comprendre-",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=noMdK4o6jVk"
   },
   {
     "id": "cm6aymuvz0006qy3mibu4gx6b",
@@ -236,7 +245,8 @@
     "day": "day-1",
     "slot": "day-1-conference-4-ps",
     "slug": "cartographier-pour-mieux-naviguer",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=VLgzgmNiSyY"
   },
   {
     "id": "cm84q0or8073apr3nqe2bm6d8",
@@ -290,7 +300,8 @@
     "day": "day-1",
     "slot": "day-1-conference-5-gs",
     "slug": "vers-une-mtrique-ddd-continue--dpasser-les-limites-de-levent-storming",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=6RWQ18MLzpc"
   },
   {
     "id": "cm7t8u3tr0145p53me4jc32yk",
@@ -308,7 +319,8 @@
     "day": "day-1",
     "slot": "day-1-conference-5-ps",
     "slug": "un-pixel-puis-un-autre--comment-faire-tourner-doom-sur-une-liseuse-lectronique-",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=9hvCSK7c8s4"
   },
   {
     "id": "cm7nu1o5f01klob3nv0l8etv8",
@@ -327,7 +339,8 @@
     "day": "day-1",
     "slot": "day-1-conference-6-gs",
     "slug": "rafrachi-ta-prod-avec-kro",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=pDH10q8GS1M"
   },
   {
     "id": "cm6asu4v705fuqy3myteyguxq",
@@ -346,7 +359,8 @@
     "day": "day-1",
     "slot": "day-1-conference-6-ps",
     "slug": "dark-mode--analyse-et-conception",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=AVZmHZcoXFs"
   },
   {
     "id": "cm63d63xg0491qy3m7wmw7d55",
@@ -402,7 +416,8 @@
     "day": "day-1",
     "slot": "day-1-quickie-7-gs",
     "slug": "une-identit-pour-les-fdrer-toutes-",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=NmxHM7Hdf_w"
   },
   {
     "id": "cm7ptd0oq02kbob3n1ujqut1r",
@@ -420,7 +435,8 @@
     "day": "day-2",
     "slot": "day-2-quickie-8-ps",
     "slug": "parse-dont-validate-en-java-ou-comment-viter-les-bugs-ds-la-compilation",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=G4lR-dRD_Is"
   },
   {
     "id": "cm8bv1ymp09vbpr3nyd3wxb5w",
@@ -438,7 +454,8 @@
     "day": "day-1",
     "slot": "day-1-quickie-8-gs",
     "slug": "osint--lart-de-trouver-ce-qui-ne-devrait-pas-tre-trouv",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=hZVTqFVazuQ"
   },
   {
     "id": "cm85swij307bxpr3nlhmzosxm",
@@ -456,7 +473,8 @@
     "day": "day-1",
     "slot": "day-1-quickie-8-ps",
     "slug": "mes-trains-jouef-passent-au-numrique-avec-des-raspberry-et-tinygo-",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=ZI9PwlMAKQM"
   },
   {
     "id": "cm63ldyyb049mqy3m34x4qx89",
@@ -474,7 +492,8 @@
     "day": "day-2",
     "slot": "day-2-conference-1-gs",
     "slug": "le-dilemme-du-code-legacy--on-maintient-ou-on-rcrit-",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=UE_Ym5TzG7U"
   },
   {
     "id": "cm82vobp905glpr3n2ru6c1gh",
@@ -492,7 +511,8 @@
     "day": "day-2",
     "slot": "day-2-conference-1-ps",
     "slug": "comment-jai-presque-arrt-de-faire-des-tests-automatiss-",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=Hp3FS2xSYnQ"
   },
   {
     "id": "cm6ccrrc8006oqy3mrjk3rlew",
@@ -510,7 +530,8 @@
     "day": "day-2",
     "slot": "day-2-conference-2-gs",
     "slug": "je-malmne-ton-llm-en-direct-avec-10-failles-de-scurits",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=pp7K8hr4N_0"
   },
   {
     "id": "cm7d3soxt012dnz3mida7eluu",
@@ -528,7 +549,8 @@
     "day": "day-2",
     "slot": "day-2-conference-2-ps",
     "slug": "cloud-run-tout-ce-quil-faut-sans-k8s",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=pDlmKRgCzpg"
   },
   {
     "id": "cm79bosgy003pnz3m4tnjdc0u",
@@ -583,7 +605,8 @@
     "day": "day-2",
     "slot": "day-2-conference-3-gs",
     "slug": "linvasion-du-html-mutant",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=OxyEgwaVnmU"
   },
   {
     "id": "cm88zazuy08rnpr3n1ymsjesu",
@@ -601,7 +624,8 @@
     "day": "day-2",
     "slot": "day-2-conference-3-ps",
     "slug": "comment-garantir-la-scurit-des-applications-mobiles-bancaires-",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=MlfuW9EXEGU"
   },
   {
     "id": "cm85mm6db0783pr3n9g5gf6k2",
@@ -619,7 +643,8 @@
     "day": "day-2",
     "slot": "day-2-quickie-4-gs",
     "slug": "jbang-un-fichier-java-pour-les-gouverner-tous-",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=AsyxQGMZI6A"
   },
   {
     "id": "cm85mm6db0783pr3n9g5rf6k2",
@@ -637,7 +662,8 @@
     "day": "day-2",
     "slot": "day-2-quickie-4-ps",
     "slug": "tremplin-2",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=t7XOXxFVmOo"
   },
   {
     "id": "cm8d8l0qs0awmpr3nhs5tp5sy",
@@ -655,7 +681,8 @@
     "day": "day-2",
     "slot": "day-2-conference-5-gs",
     "slug": "quarkus-philosophie-pragmatisme-et-innovation",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=t7aPKSYh2Zg"
   },
   {
     "id": "cm733xtk00121ml3mdkfbg91v",
@@ -674,7 +701,8 @@
     "day": "day-2",
     "slot": "day-2-conference-5-ps",
     "slug": "dveloppe-sur-un-toaster-grce--coder",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=bjl-XhrOEvA"
   },
   {
     "id": "cm8db0z580ax0pr3n18889i8i",
@@ -729,7 +757,8 @@
     "day": "day-2",
     "slot": "day-2-conference-6-gs",
     "slug": "-le-code-dont-vous-tes-le-hros-ou-lhrone--5-en-agilit-10-en-fun-",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=UzB_9FymB3c"
   },
   {
     "id": "cm70y678900r8ml3mrc6a3p0y",
@@ -747,7 +776,8 @@
     "day": "day-2",
     "slot": "day-2-conference-6-ps",
     "slug": "la-recherche-a-lere-de-lia",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=R_4JmvrIaX0"
   },
   {
     "id": "cm63giaf60495qy3mpdnljodt",
@@ -765,7 +795,8 @@
     "day": "day-2",
     "slot": "day-2-conference-7-gs",
     "slug": "realiser-un-jeu-vido-de-a--z",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=8nxfArKlsE0"
   },
   {
     "id": "cm6akgkbx05baqy3mo3xy94ez",
@@ -783,7 +814,8 @@
     "day": "day-2",
     "slot": "day-2-conference-7-ps",
     "slug": "vous-pouvez-venir--ce-talk-les-yeux-ferms",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=RGmXxKEYb7g"
   },
   {
     "id": "cm6tg1z1b01a0ms3m95u4nwjn",
@@ -801,7 +833,8 @@
     "day": "day-2",
     "slot": "day-2-quickie-9-gs",
     "slug": "comment-merger-sa-pr-en-10-secondes--rex-mob-code-review",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=qRumA06Wzl0"
   },
   {
     "id": "cm88deamo08lqpr3nf0fgq4sy",
@@ -819,7 +852,8 @@
     "day": "day-2",
     "slot": "day-2-quickie-8-ps",
     "slug": "le-quantique--c-est-pique-",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=bxzQCqfdIAQ"
   },
   {
     "id": "bt5ze6t1ec9tbr3v8vz31vre51",
@@ -837,7 +871,8 @@
     "day": "day-1",
     "slot": "day-1-quickie-7-ps",
     "slug": "astro-vers-l-infini-et-au-dela",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=daGQew9KlgA"
   },
   {
     "id": "cm86krnta0892pr3nwk8hr0lw",
@@ -856,7 +891,8 @@
     "day": "day-2",
     "slot": "day-2-quickie-9-ps",
     "slug": "-testing-quest-la-lgende-des-gardiens-du-code-",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=8QoU_Vpw6-o"
   },
   {
     "id": "oifgjofurhorudhgouhfohgouihg",
@@ -874,6 +910,7 @@
     "day": "day-1",
     "slot": "day-2-conference-bonus-ps",
     "slug": "mes-trains-jouef-passent-au-numrique-avec-des-raspberry-et-tinygo-",
-    "cancelled": false
+    "cancelled": false,
+    "videoLinkYoutube": "https://www.youtube.com/watch?v=ZI9PwlMAKQM"
   }
 ]
