@@ -106,3 +106,19 @@
   --dark-font-color: white;
   --ligth-font-color: black;
 }
+
+[data-theme="2027b"] {
+  --bleu-fonce: #0aaac7;
+  --bleu: #41daf5; //
+  --bleu-clair: #a3edfa; //
+  --primary-color: var(--bleu);
+  --secondary-color: var(--bleu-fonce);
+  --tertiary-color: var(--bleu-clair);
+  --dark-color: var(--bleu-fonce);
+  --ligth-color: var(--sable);
+  --primary-font-color: black;
+  --secondary-font-color: white;
+  --tertiary-font-color: var(--bleu-fonce);
+  --dark-font-color: white;
+  --ligth-font-color: black;
+}
