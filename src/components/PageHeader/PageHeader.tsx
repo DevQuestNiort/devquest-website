@@ -5,6 +5,7 @@ import menu from "../../data/menu.json";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { DevQuestLogo } from "../DevQuestLogo";
 
 type NavChild = { label: string; href: string };
 type NavItem = {
@@ -41,7 +42,12 @@ export const PageHeader = ({ theme = "Primary" }: PageHeaderProperties) => {
       <div className={styles.inner}>
         {/* Logo */}
         <Link href="/" className={styles.logo} onClick={close}>
-          <Image src="logo/2027/DQ2027-SansDate-Blanc.svg" alt="logo devquest" width={48} height={48} />
+              <DevQuestLogo
+                  glyphColor="var(--primary-font-color)"
+                  backgroundColor="none"
+                width={48} 
+                height={48}
+                />
         </Link>
 
         {/* Desktop navigation */}

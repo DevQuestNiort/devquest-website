@@ -57,7 +57,7 @@ export async function Guilde() {
    {membres.length > 0 && (
         <Section theme="Light">
            <h2>👥 Les membres de la Guilde (saison 3)</h2>
-          <Galery >
+          <Galery columns={3}>
             {membres.map((artisan) => (
               <MembreCard key={artisan.name} membre={artisan}/>
             ))}

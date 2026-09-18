@@ -59,7 +59,7 @@ export default function RootLayout({
 }>) {
   // FIXME : pas ouf le head comme ça pour les icones...
   return (
-    <html lang="fr" data-theme="2027">
+    <html lang="fr" data-theme="2027b">
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0&display=swap"
@@ -69,9 +69,9 @@ export default function RootLayout({
       <body className={`${teko.variable} ${sourceSansPro.variable}`}>
         <GoogleAnalytics gaId="G-MR3XKZY9PM" />
         <RouteTheme />
-        <PageHeader />
+        <PageHeader theme="Primary" />
         {children}
-        <Footer />
+        <Footer theme="Primary"/>
       </body>
     </html>
   );

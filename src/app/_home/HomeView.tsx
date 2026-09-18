@@ -6,6 +6,7 @@ import { PartnersSection } from "@/app/_home/sections/partnersSection/PartnersSe
 import { LevelPartenaire } from "@/model/LevelPartenaire";
 import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
+import { DevQuestLogo } from "@/components/DevQuestLogo";
 
 interface HomeViewProperties {
   readonly contacts: MoyensContact[];
@@ -45,13 +46,80 @@ export default function HomeView({
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
 
-
       </Section>
       <Section theme="Dark">
         <h2>L&apos;aventure continue Dark</h2>
 
 
-              <Card theme="Light">
+        <DevQuestLogo
+          glyphColor="black"
+          backgroundColor="none"
+          width={96}
+          height={96}
+        />
+        <h3>Logo noir</h3>
+
+
+        <br /><br />
+
+        <DevQuestLogo
+          glyphColor="white"
+          backgroundColor="none"
+          width={96}
+          height={96}
+        />
+        <h3>Logo blanc</h3>
+
+
+        <br /><br />
+
+        <DevQuestLogo
+          glyphColor="var(--primary-color)"
+          backgroundColor="var(--ligth-color)"
+          width={96}
+          height={96}
+        />
+        <h3>Logo </h3>
+
+
+        <br /><br />
+
+
+        <DevQuestLogo
+          glyphColor="var(--ligth-color)"
+          backgroundColor="var(--primary-color)"
+          width={96}
+          height={96}
+        />
+        <h3>Logo inverse</h3>
+
+
+
+        <DevQuestLogo
+          glyphColor="var(--primary-color)"
+          backgroundColor="none"
+          width={96}
+          height={96}
+        />
+        <h3>Logo sans fondz</h3>
+
+
+        <br /><br />
+
+
+        <DevQuestLogo
+          glyphColor="var(--ligth-color)"
+          backgroundColor="none"
+          width={96}
+          height={96}
+        />
+        <h3>Logo inverse sans fond</h3>
+
+
+
+
+
+        <Card theme="Light">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
@@ -78,7 +146,7 @@ export default function HomeView({
         <h2>L&apos;aventure continue Primary</h2>
 
 
-               <Card theme="Light">
+        <Card theme="Light">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
@@ -100,7 +168,7 @@ export default function HomeView({
         </Card>
 
       </Section>
-      <Section theme="Secondary">
+      {/* <Section theme="Secondary">
         <h2>L&apos;aventure continue Secondary</h2>
 
 
@@ -153,7 +221,7 @@ export default function HomeView({
         </Card>
 
 
-      </Section>
+      </Section> */}
     </div>
   );
 }
