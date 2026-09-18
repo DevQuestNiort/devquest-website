@@ -7,6 +7,7 @@ import { LevelPartenaire } from "@/model/LevelPartenaire";
 import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
 import { DevQuestLogo } from "@/components/DevQuestLogo";
+import { Galery } from "@/components/Galery";
 
 interface HomeViewProperties {
   readonly contacts: MoyensContact[];
@@ -51,69 +52,77 @@ export default function HomeView({
         <h2>L&apos;aventure continue Dark</h2>
 
 
-        <DevQuestLogo
-          glyphColor="black"
-          backgroundColor="none"
-          width={96}
-          height={96}
-        />
-        <h3>Logo noir</h3>
+        <Galery columns={3}>
 
 
-        <br /><br />
+          <Card theme="Tertiary">
+            <DevQuestLogo
+              glyphColor="black"
+              backgroundColor="none"
+              width={96}
+              height={96}
+            />
+            <h3>Logo noir</h3>
 
-        <DevQuestLogo
-          glyphColor="white"
-          backgroundColor="none"
-          width={96}
-          height={96}
-        />
-        <h3>Logo blanc</h3>
+          </Card>
+
+          <Card theme="Tertiary">
+            <DevQuestLogo
+              glyphColor="white"
+              backgroundColor="none"
+              width={96}
+              height={96}
+            />
+            <h3>Logo blanc</h3>
+
+          </Card>
+          <Card theme="Tertiary">
+            <br /><br />
+
+            <DevQuestLogo
+              glyphColor="var(--primary-color)"
+              backgroundColor="var(--ligth-color)"
+              width={96}
+              height={96}
+            />
+            <h3>Logo </h3>
+          </Card>
+          <Card theme="Tertiary">
+            <DevQuestLogo
+              glyphColor="var(--ligth-color)"
+              backgroundColor="var(--primary-color)"
+              width={96}
+              height={96}
+            />
+            <h3>Logo inverse</h3>
+          </Card>
+          <Card theme="Tertiary">
+            <DevQuestLogo
+              glyphColor="var(--primary-color)"
+              backgroundColor="none"
+              width={96}
+              height={96}
+            />
+            <h3>Logo sans fondz</h3>
+          </Card>
+          <Card theme="Tertiary">
+            <DevQuestLogo
+              glyphColor="var(--ligth-color)"
+              backgroundColor="none"
+              width={96}
+              height={96}
+            />
+            <h3>Logo inverse sans fond</h3>
+          </Card>
 
 
-        <br /><br />
-
-        <DevQuestLogo
-          glyphColor="var(--primary-color)"
-          backgroundColor="var(--ligth-color)"
-          width={96}
-          height={96}
-        />
-        <h3>Logo </h3>
-
-
-        <br /><br />
-
-
-        <DevQuestLogo
-          glyphColor="var(--ligth-color)"
-          backgroundColor="var(--primary-color)"
-          width={96}
-          height={96}
-        />
-        <h3>Logo inverse</h3>
+        </Galery>
 
 
 
-        <DevQuestLogo
-          glyphColor="var(--primary-color)"
-          backgroundColor="none"
-          width={96}
-          height={96}
-        />
-        <h3>Logo sans fondz</h3>
 
 
-        <br /><br />
 
-
-        <DevQuestLogo
-          glyphColor="var(--ligth-color)"
-          backgroundColor="none"
-          width={96}
-          height={96}
-        />
-        <h3>Logo inverse sans fond</h3>
 
 
 
