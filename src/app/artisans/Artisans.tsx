@@ -28,7 +28,7 @@ export async function Artisans() {
           backgroundSize: "cover",
         }}
       >
-        <Card theme="Light">
+        <Card variant="Main">
           <h1>Les Artisans du DevQuest</h1>
           <h2>🔨 Les bâtisseurs de l&apos;ombre</h2>
           <p>
@@ -40,7 +40,7 @@ export async function Artisans() {
         </Card>
       </Section>
 
-      <Section theme="Dark">
+      <Section variant="Complementary">
         <h2>⚒️ Leur rôle</h2>
         <p>
           Contrairement aux bénévoles du jour J, les Artisans œuvrent dans
@@ -57,7 +57,7 @@ export async function Artisans() {
       </Section>
 
       {artisans.length > 0 && (
-        <Section theme="Light">
+        <Section variant="Main">
           <h2>🔧 Nos artisans (édition 2026)</h2>
           <div className={styles.artisansGrid}>
             {artisans.map((artisan) => (
@@ -67,7 +67,7 @@ export async function Artisans() {
         </Section>
       )}
 
-      <Section theme="Light">
+      <Section variant="Main">
         <h2>💛 Devenir artisan</h2>
         <p>
           Tu as des compétences techniques ou créatives et tu veux les mettre au

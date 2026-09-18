@@ -27,11 +27,11 @@ const socialIcons: Record<string, IconType> = {
 };
 
 interface FooterProperties {
-  readonly theme?: "Light" | "Dark" | "Primary" | "Secondary" | "Tertiary";
+  readonly variant?: "Main" | "Complementary" | "Chapter" | "ChapterDark" | "ChapterLight";
 }
 
-export const Footer = ({ theme = "Primary" }: FooterProperties) => (
-  <footer className={`${styles.footer} ${styles[`footer${theme}`]}`}>
+export const Footer = ({ variant = "Chapter" }: FooterProperties) => (
+  <footer className={`${styles.footer} ${styles[`footer${variant}`]}`}>
     <div className={styles.grid}>
       {/* Colonne 1 — Identité */}
       <div className={styles.col}>

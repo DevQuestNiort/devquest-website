@@ -27,7 +27,7 @@ export async function Guilde() {
           backgroundSize: "cover",
         }}
       >
-        <Card theme="Light">
+        <Card variant="Main">
           <h1>La Guilde du DevQuest</h1>
           <h2>⚔️ Le noyau dur de l&apos;événement</h2>
           <p>
@@ -38,7 +38,7 @@ export async function Guilde() {
         </Card>
       </Section>
 
-      <Section theme="Dark">
+      <Section variant="Complementary">
         <h2>🛡️ Qui sommes-nous ?</h2>
         <p>
           Nous sommes une équipe de passionné·es du numérique basée à Niort.
@@ -55,7 +55,7 @@ export async function Guilde() {
 
 
    {membres.length > 0 && (
-        <Section theme="Light">
+        <Section variant="Main">
            <h2>👥 Les membres de la Guilde (saison 3)</h2>
           <Galery columns={3}>
             {membres.map((artisan) => (
@@ -64,7 +64,7 @@ export async function Guilde() {
           </Galery>
         </Section>
       )}
-      <Section theme="Light">
+      <Section variant="Main">
         <h2>💛 Rejoindre la Guilde</h2>
         <p>
           Tu veux nous rejoindre et contribuer à l&apos;aventure DevQuest ?

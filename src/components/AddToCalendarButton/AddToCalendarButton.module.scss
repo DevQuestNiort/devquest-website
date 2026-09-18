@@ -32,17 +32,17 @@
   align-items: center;
   gap: 0.4rem;
   padding: 0.5rem 1rem;
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--chapter-color);
   border-radius: 6px;
   background: transparent;
-  color: var(--primary-color);
+  color: var(--chapter-color);
   font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.15s ease, color 0.15s ease;
 
   &:hover {
-    background: var(--primary-color);
+    background: var(--chapter-color);
     color: var(--sable);
   }
 }

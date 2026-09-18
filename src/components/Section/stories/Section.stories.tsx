@@ -17,6 +17,6 @@ export const Default: Story = {
         <p>And I am a paragraph</p>
       </>
     ),
-    theme: "Light",
+    variant: "Main",
   },
 };

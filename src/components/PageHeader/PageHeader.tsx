@@ -29,21 +29,21 @@ const isItemActive = (item: NavItem, pathname: string): boolean => {
 };
 
 interface PageHeaderProperties {
-  readonly theme?: "Light" | "Dark" | "Primary" | "Secondary" | "Tertiary";
+  readonly variant?: "Main" | "Complementary" | "Chapter" | "ChapterDark" | "ChapterLight";
 }
 
-export const PageHeader = ({ theme = "Primary" }: PageHeaderProperties) => {
+export const PageHeader = ({ variant = "Chapter" }: PageHeaderProperties) => {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const close = () => setMenuOpen(false);
 
   return (
-    <header className={`${styles.header} ${styles[`header${theme}`]}`}>
+    <header className={`${styles.header} ${styles[`header${variant}`]}`}>
       <div className={styles.inner}>
         {/* Logo */}
         <Link href="/" className={styles.logo} onClick={close}>
               <DevQuestLogo
-                  glyphColor="var(--primary-font-color)"
+                  glyphColor="var(--chapter-font-color)"
                   backgroundColor="none"
                 width={48} 
                 height={48}

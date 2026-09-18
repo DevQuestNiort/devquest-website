@@ -64,133 +64,133 @@ export default async function Edition2025() {
           </Card>
         </Section>
 
-         <Section theme="Light">
+         <Section variant="Main">
         <h2>Section Light</h2>
 
-        <Card theme="Light">
+        <Card variant="Main">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Dark">
+        <Card variant="Complementary">
           <h3> Card Dark  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Primary">
+        <Card variant="Chapter">
           <h3> Card Primary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Secondary">
+        <Card variant="ChapterDark">
           <h3> Card Secondary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Tertiary">
+        <Card variant="ChapterLight">
           <h3> Card Tertiary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
 
 
       </Section>
-      <Section theme="Dark">
+      <Section variant="Complementary">
         <h2>L&apos;aventure continue Dark</h2>
 
 
-              <Card theme="Light">
+              <Card variant="Main">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Dark">
+        <Card variant="Complementary">
           <h3> Card Dark  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Primary">
+        <Card variant="Chapter">
           <h3> Card Primary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Secondary">
+        <Card variant="ChapterDark">
           <h3> Card Secondary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Tertiary">
+        <Card variant="ChapterLight">
           <h3> Card Tertiary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
 
 
       </Section>
-      <Section theme="Primary">
+      <Section variant="Chapter">
         <h2>L&apos;aventure continue Primary</h2>
 
 
-               <Card theme="Light">
+               <Card variant="Main">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Dark">
+        <Card variant="Complementary">
           <h3> Card Dark  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Primary">
+        <Card variant="Chapter">
           <h3> Card Primary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Secondary">
+        <Card variant="ChapterDark">
           <h3> Card Secondary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Tertiary">
+        <Card variant="ChapterLight">
           <h3> Card Tertiary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
 
       </Section>
-      <Section theme="Secondary">
+      <Section variant="ChapterDark">
         <h2>L&apos;aventure continue Secondary</h2>
 
 
-               <Card theme="Light">
+               <Card variant="Main">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Dark">
+        <Card variant="Complementary">
           <h3> Card Dark  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Primary">
+        <Card variant="Chapter">
           <h3> Card Primary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Secondary">
+        <Card variant="ChapterDark">
           <h3> Card Secondary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Tertiary">
+        <Card variant="ChapterLight">
           <h3> Card Tertiary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
 
 
       </Section>
-      <Section theme="Tertiary">
+      <Section variant="ChapterLight">
         <h2>L&apos;aventure continue Tertiary</h2>
 
 
-               <Card theme="Light">
+               <Card variant="Main">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Dark">
+        <Card variant="Complementary">
           <h3> Card Dark  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Primary">
+        <Card variant="Chapter">
           <h3> Card Primary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Secondary">
+        <Card variant="ChapterDark">
           <h3> Card Secondary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Tertiary">
+        <Card variant="ChapterLight">
           <h3> Card Tertiary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
@@ -198,7 +198,7 @@ export default async function Edition2025() {
 
       </Section>
 
-      <Section theme="Light" >
+      <Section variant="Main" >
 
         <h2>Deuxiéme chapitre de notre histoire Devquest :  </h2>
         <Galery>
@@ -209,11 +209,11 @@ export default async function Edition2025() {
           <Card>{speakers.length} speakers</Card>
         </Galery>
       </Section>
-      <Section theme="Primary" >
+      <Section variant="Chapter" >
         <h2> Les Menestrels  </h2>
         <CardListSession sessions={sessions} speakers={speakers} columns={3} />
       </Section>
-      <Section theme="Light" >
+      <Section variant="Main" >
         <h2>Les guildes presentent cette année la </h2>
         <SponsorsByLevel
           levelpartenaires={levelpartenaires}

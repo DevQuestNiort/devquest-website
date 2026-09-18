@@ -5,25 +5,25 @@
   padding: 3rem 2rem 2rem;
   border-top: 2px solid rgba(241, 221, 182, 0.35);
 
-  &Light {
-    --footer-bg: var(--ligth-color);
-    --footer-fg: var(--ligth-font-color);
+  &Main {
+    --footer-bg: var(--main-color);
+    --footer-fg: var(--main-font-color);
   }
-  &Dark {
-    --footer-bg: var(--dark-color);
-    --footer-fg: var(--dark-font-color);
+  &Complementary {
+    --footer-bg: var(--complementary-color);
+    --footer-fg: var(--complementary-font-color);
   }
-  &Primary {
-    --footer-bg: var(--primary-color);
-    --footer-fg: var(--primary-font-color);
+  &Chapter {
+    --footer-bg: var(--chapter-color);
+    --footer-fg: var(--chapter-font-color);
   }
-  &Secondary {
-    --footer-bg: var(--secondary-color);
-    --footer-fg: var(--secondary-font-color);
+  &ChapterDark {
+    --footer-bg: var(--chapter-dark-color);
+    --footer-fg: var(--chapter-dark-font-color);
   }
-  &Tertiary {
-    --footer-bg: var(--tertiary-color);
-    --footer-fg: var(--tertiary-font-color);
+  &ChapterLight {
+    --footer-bg: var(--chapter-ligth-color);
+    --footer-fg: var(--chapter-ligth-font-color);
   }
 }
 

@@ -20,10 +20,10 @@ export function HeroSection() {
       <DevQuestLogo     
         width={350}
         height={320}
-        glyphColor="var(--primary-color)" 
-        backgroundColor="var(--ligth-color)"
+        glyphColor="var(--chapter-color)" 
+        backgroundColor="var(--main-color)"
         />
-      <Card theme="Light" className={styles.heroCard}>
+      <Card variant="Main" className={styles.heroCard}>
         <h1>Le premier rassemblement des devs Niortais Revient bientôt</h1>
       </Card>
     </Section>

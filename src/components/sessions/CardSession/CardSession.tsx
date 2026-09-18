@@ -13,7 +13,7 @@ export function CardSession({ session, speakers }: CardSessionProperties) {
   const tag = session.tags[0] ? tagLabels[session.tags[0]] : undefined;
 
   return (
-    <Card fluid className={styles.sessionCard} theme="Light">
+    <Card fluid className={styles.sessionCard} variant="Main">
       <h3 className={styles.sessionTitle}>{session.title}</h3>
       <div className={styles.speakers}>
         {session.speakersId

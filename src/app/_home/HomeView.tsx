@@ -23,39 +23,39 @@ export default function HomeView({
   return (
     <div className={styles.main}>
       <HeroSection />
-      <Section theme="Light">
+      <Section variant="Main">
         <h2>Section Light</h2>
 
-        <Card theme="Light">
+        <Card variant="Main">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Dark">
+        <Card variant="Complementary">
           <h3> Card Dark  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Primary">
+        <Card variant="Chapter">
           <h3> Card Primary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Secondary">
+        <Card variant="ChapterDark">
           <h3> Card Secondary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Tertiary">
+        <Card variant="ChapterLight">
           <h3> Card Tertiary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
 
       </Section>
-      <Section theme="Dark">
+      <Section variant="Complementary">
         <h2>L&apos;aventure continue Dark</h2>
 
 
         <Galery columns={3}>
 
 
-          <Card theme="Tertiary">
+          <Card variant="ChapterLight">
             <DevQuestLogo
               glyphColor="black"
               backgroundColor="none"
@@ -66,7 +66,7 @@ export default function HomeView({
 
           </Card>
 
-          <Card theme="Tertiary">
+          <Card variant="ChapterLight">
             <DevQuestLogo
               glyphColor="white"
               backgroundColor="none"
@@ -76,38 +76,38 @@ export default function HomeView({
             <h3>Logo blanc</h3>
 
           </Card>
-          <Card theme="Tertiary">
+          <Card variant="ChapterLight">
             <br /><br />
 
             <DevQuestLogo
-              glyphColor="var(--primary-color)"
-              backgroundColor="var(--ligth-color)"
+              glyphColor="var(--chapter-color)"
+              backgroundColor="var(--main-color)"
               width={96}
               height={96}
             />
             <h3>Logo </h3>
           </Card>
-          <Card theme="Tertiary">
+          <Card variant="ChapterLight">
             <DevQuestLogo
-              glyphColor="var(--ligth-color)"
-              backgroundColor="var(--primary-color)"
+              glyphColor="var(--main-color)"
+              backgroundColor="var(--chapter-color)"
               width={96}
               height={96}
             />
             <h3>Logo inverse</h3>
           </Card>
-          <Card theme="Tertiary">
+          <Card variant="ChapterLight">
             <DevQuestLogo
-              glyphColor="var(--primary-color)"
+              glyphColor="var(--chapter-color)"
               backgroundColor="none"
               width={96}
               height={96}
             />
             <h3>Logo sans fondz</h3>
           </Card>
-          <Card theme="Tertiary">
+          <Card variant="ChapterLight">
             <DevQuestLogo
-              glyphColor="var(--ligth-color)"
+              glyphColor="var(--main-color)"
               backgroundColor="none"
               width={96}
               height={96}
@@ -128,103 +128,103 @@ export default function HomeView({
 
 
 
-        <Card theme="Light">
+        <Card variant="Main">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Dark">
+        <Card variant="Complementary">
           <h3> Card Dark  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Primary">
+        <Card variant="Chapter">
           <h3> Card Primary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Secondary">
+        <Card variant="ChapterDark">
           <h3> Card Secondary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Tertiary">
+        <Card variant="ChapterLight">
           <h3> Card Tertiary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
 
 
       </Section>
-      <Section theme="Primary">
+      <Section variant="Chapter">
         <h2>L&apos;aventure continue Primary</h2>
 
 
-        <Card theme="Light">
+        <Card variant="Main">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Dark">
+        <Card variant="Complementary">
           <h3> Card Dark  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Primary">
+        <Card variant="Chapter">
           <h3> Card Primary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Secondary">
+        <Card variant="ChapterDark">
           <h3> Card Secondary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Tertiary">
+        <Card variant="ChapterLight">
           <h3> Card Tertiary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
 
       </Section>
-      {/* <Section theme="Secondary">
+      {/* <Section variant="ChapterDark">
         <h2>L&apos;aventure continue Secondary</h2>
 
 
-               <Card theme="Light">
+               <Card variant="Main">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Dark">
+        <Card variant="Complementary">
           <h3> Card Dark  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Primary">
+        <Card variant="Chapter">
           <h3> Card Primary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Secondary">
+        <Card variant="ChapterDark">
           <h3> Card Secondary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Tertiary">
+        <Card variant="ChapterLight">
           <h3> Card Tertiary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
 
 
       </Section>
-      <Section theme="Tertiary">
+      <Section variant="ChapterLight">
         <h2>L&apos;aventure continue Tertiary</h2>
 
 
-               <Card theme="Light">
+               <Card variant="Main">
           <h3> Card Ligth  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Dark">
+        <Card variant="Complementary">
           <h3> Card Dark  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Primary">
+        <Card variant="Chapter">
           <h3> Card Primary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Secondary">
+        <Card variant="ChapterDark">
           <h3> Card Secondary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
-        <Card theme="Tertiary">
+        <Card variant="ChapterLight">
           <h3> Card Tertiary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
@@ -238,7 +238,7 @@ export default function HomeView({
 
 
 /**
- *  <Card theme="Light" className={styles.heroCard}>
+ *  <Card variant="Main" className={styles.heroCard}>
         <h1>Le rassemblement des devs Niortais</h1>
         <p>Les vidéos des conférences sont disponibles sur le programme :</p>
         <LinkButton

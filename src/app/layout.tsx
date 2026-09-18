@@ -69,9 +69,9 @@ export default function RootLayout({
       <body className={`${teko.variable} ${sourceSansPro.variable}`}>
         <GoogleAnalytics gaId="G-MR3XKZY9PM" />
         <RouteTheme />
-        <PageHeader theme="Primary" />
+        <PageHeader variant="Chapter" />
         {children}
-        <Footer theme="Primary"/>
+        <Footer variant="Chapter"/>
       </body>
     </html>
   );

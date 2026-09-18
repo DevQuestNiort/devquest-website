@@ -5,28 +5,28 @@
   flex-direction: column;
   align-items: center;
 
-  &Light {
-    background-color: var(--ligth-color);
-    color: var(--ligth-font-color);
+  &Main {
+    background-color: var(--main-color);
+    color: var(--main-font-color);
   }
 
-  &Dark {
-    background-color: var(--dark-color);
-    color: var(--dark-font-color);
+  &Complementary {
+    background-color: var(--complementary-color);
+    color: var(--complementary-font-color);
   }
 
-  &Primary {
-    background-color: var(--primary-color);
-    color: var(--primary-font-color);
+  &Chapter {
+    background-color: var(--chapter-color);
+    color: var(--chapter-font-color);
   }
 
-  &Secondary {
-    background-color: var(--secondary-color);
-    color: var(--secondary-font-color);
+  &ChapterDark {
+    background-color: var(--chapter-dark-color);
+    color: var(--chapter-dark-font-color);
   }
 
-  &Tertiary {
-    background-color: var(--tertiary-color);
-    color: var(--tertiary-font-color);
+  &ChapterLight {
+    background-color: var(--chapter-ligth-color);
+    color: var(--chapter-ligth-font-color);
   }
 }

@@ -6,25 +6,25 @@
   top: 0;
   z-index: 1000;
 
-  &Light {
-    --header-bg: var(--ligth-color);
-    --header-fg: var(--ligth-font-color);
+  &Main {
+    --header-bg: var(--main-color);
+    --header-fg: var(--main-font-color);
   }
-  &Dark {
-    --header-bg: var(--dark-color);
-    --header-fg: var(--dark-font-color);
+  &Complementary {
+    --header-bg: var(--complementary-color);
+    --header-fg: var(--complementary-font-color);
   }
-  &Primary {
-    --header-bg: var(--primary-color);
-    --header-fg: var(--primary-font-color);
+  &Chapter {
+    --header-bg: var(--chapter-color);
+    --header-fg: var(--chapter-font-color);
   }
-  &Secondary {
-    --header-bg: var(--secondary-color);
-    --header-fg: var(--secondary-font-color);
+  &ChapterDark {
+    --header-bg: var(--chapter-dark-color);
+    --header-fg: var(--chapter-dark-font-color);
   }
-  &Tertiary {
-    --header-bg: var(--tertiary-color);
-    --header-fg: var(--tertiary-font-color);
+  &ChapterLight {
+    --header-bg: var(--chapter-ligth-color);
+    --header-fg: var(--chapter-ligth-font-color);
   }
 }
 

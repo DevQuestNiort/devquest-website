@@ -7,7 +7,7 @@ interface DevQuestLogoProperties
 // Le logo utilise le meme trace pour toutes les variantes (Blanc, Noir, Couleur, ...) :
 // seul path[0] (le blob de fond) et les autres paths (le glyphe "DQ") changent de couleur.
 // glyphColor/backgroundColor acceptent toute couleur CSS valide, y compris une variable
-// de theme : <DevQuestLogo glyphColor="var(--primary-color)" backgroundColor="var(--tertiary-color)" />.
+// de theme : <DevQuestLogo glyphColor="var(--chapter-color)" backgroundColor="var(--chapter-ligth-color)" />.
 // Si le logo est utilise seul (sans texte adjacent), penser a ajouter
 // role="img" aria-label="DevQuest" sur l'appelant.
 export default function DevQuestLogo({

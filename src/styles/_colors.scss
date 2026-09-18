@@ -42,56 +42,56 @@
   --bleu-clair: #4addf7; //
 
   // Thème actif par défaut : 2027
-  --primary-color: var(--bleu);
-  --secondary-color: var(--bleu-fonce);
-  --tertiary-color: var(--bleu-clair);
-  --dark-color: var(--bleu-fonce);
-  --ligth-color: var(--sable);
-  --primary-font-color: black;
-  --secondary-font-color: white;
-  --tertiary-font-color: var(--bleu-fonce);
-  --dark-font-color: white;
-  --ligth-font-color: black;
+  --chapter-color: var(--bleu);
+  --chapter-dark-color: var(--bleu-fonce);
+  --chapter-ligth-color: var(--bleu-clair);
+  --complementary-color: var(--bleu-fonce);
+  --main-color: var(--sable);
+  --chapter-font-color: black;
+  --chapter-dark-font-color: white;
+  --chapter-ligth-font-color: var(--bleu-fonce);
+  --complementary-font-color: white;
+  --main-font-color: black;
 }
 
 [data-theme="2024"] {
-  --primary-color: var(--vert);
-  --secondary-color: var(--marron-clair);
-  --tertiary-color: var(--orange-clair);
-  --dark-color: var(--marron);
-  --ligth-color: var(--sable);
-  --primary-font-color: white;
-  --secondary-font-color: white;
-  --tertiary-font-color: black;
-  --dark-font-color: white;
-  --ligth-font-color: black;
+  --chapter-color: var(--vert);
+  --chapter-dark-color: var(--marron-clair);
+  --chapter-ligth-color: var(--orange-clair);
+  --complementary-color: var(--marron);
+  --main-color: var(--sable);
+  --chapter-font-color: white;
+  --chapter-dark-font-color: white;
+  --chapter-ligth-font-color: black;
+  --complementary-font-color: white;
+  --main-font-color: black;
 
 }
 
 [data-theme="2025"] {
-  --primary-color: var(--violet);
-  --secondary-color: var(--violet-fonce);
-  --tertiary-color: var(--violet-clair);
-  --dark-color: var(--violet-fonce);
-  --ligth-color: var(--sable);
-  --primary-font-color: white;
-  --secondary-font-color: white;
-  --tertiary-font-color: white;
-  --dark-font-color: white;
-  --ligth-font-color: black;
+  --chapter-color: var(--violet);
+  --chapter-dark-color: var(--violet-fonce);
+  --chapter-ligth-color: var(--violet-clair);
+  --complementary-color: var(--violet-fonce);
+  --main-color: var(--sable);
+  --chapter-font-color: white;
+  --chapter-dark-font-color: white;
+  --chapter-ligth-font-color: white;
+  --complementary-font-color: white;
+  --main-font-color: black;
 }
 
 [data-theme="2026"] {
-  --primary-color: var(--rouge);
-  --secondary-color: var(--rouge-fonce);
-  --tertiary-color: var(--rouge-clair);
-  --dark-color: var(--rouge-fonce);
-  --ligth-color: var(--sable);
-  --primary-font-color: white;
-  --secondary-font-color: white;
-  --tertiary-font-color: black;
-  --dark-font-color: white;
-  --ligth-font-color: black;
+  --chapter-color: var(--rouge);
+  --chapter-dark-color: var(--rouge-fonce);
+  --chapter-ligth-color: var(--rouge-clair);
+  --complementary-color: var(--rouge-fonce);
+  --main-color: var(--sable);
+  --chapter-font-color: white;
+  --chapter-dark-font-color: white;
+  --chapter-ligth-font-color: black;
+  --complementary-font-color: white;
+  --main-font-color: black;
 }
 
 [data-theme="2027"] {
@@ -105,16 +105,16 @@
 // 1465bb
 // #af4836
   
-  --primary-color:#1465bb;
-  --secondary-color: #ff963b;
-  --tertiary-color: #5fbcff;
-  --dark-color: #022f68;
-  --ligth-color: var(--sable);
-  --primary-font-color: white;
-  --secondary-font-color: white;
-  --tertiary-font-color: black;
-  --dark-font-color: white;
-  --ligth-font-color: black;
+  --chapter-color:#1465bb;
+  --chapter-dark-color: #ff963b;
+  --chapter-ligth-color: #5fbcff;
+  --complementary-color: #022f68;
+  --main-color: var(--sable);
+  --chapter-font-color: white;
+  --chapter-dark-font-color: white;
+  --chapter-ligth-font-color: black;
+  --complementary-font-color: white;
+  --main-font-color: black;
 }
 
 [data-theme="2027b"] {
@@ -122,30 +122,30 @@
   --bleu-fonce: #0aaac7;
   --bleu: #41daf5; //
   --bleu-clair: #a3edfa; //
-  --primary-color: var(--bleu);
-  --secondary-color: var(--bleu-fonce);
-  --tertiary-color: var(--bleu-clair);
-  --dark-color: var(--bleu-fonce);
-  --ligth-color: var(--sable);
-  --primary-font-color: black;
-  --secondary-font-color: white;
-  --tertiary-font-color: var(--bleu-fonce);
-  --dark-font-color: white;
-  --ligth-font-color: black;
+  --chapter-color: var(--bleu);
+  --chapter-dark-color: var(--bleu-fonce);
+  --chapter-ligth-color: var(--bleu-clair);
+  --complementary-color: var(--bleu-fonce);
+  --main-color: var(--sable);
+  --chapter-font-color: black;
+  --chapter-dark-font-color: white;
+  --chapter-ligth-font-color: var(--bleu-fonce);
+  --complementary-font-color: white;
+  --main-font-color: black;
 }
 [data-theme="2027d"] {
    // Monochromatique 
   --bleu-fonce: #d309b4;
   --bleu: #41daf5; //
   --bleu-clair: #b4d309; //
-  --primary-color: var(--bleu);
-  --secondary-color: var(--bleu-fonce);
-  --tertiary-color: var(--bleu-clair);
-  --dark-color: var(--bleu-fonce);
-  --ligth-color: var(--sable);
-  --primary-font-color: black;
-  --secondary-font-color: white;
-  --tertiary-font-color: var(--bleu-fonce);
-  --dark-font-color: white;
-  --ligth-font-color: black;
+  --chapter-color: var(--bleu);
+  --chapter-dark-color: var(--bleu-fonce);
+  --chapter-ligth-color: var(--bleu-clair);
+  --complementary-color: var(--bleu-fonce);
+  --main-color: var(--sable);
+  --chapter-font-color: black;
+  --chapter-dark-font-color: white;
+  --chapter-ligth-font-color: var(--bleu-fonce);
+  --complementary-font-color: white;
+  --main-font-color: black;
 }

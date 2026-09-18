@@ -9,14 +9,14 @@
 
   &Primary {
     border: solid 2px white;
-    background-color: var(--primary-color);
+    background-color: var(--chapter-color);
     color: white;
   }
 
   &Secondary {
-    border: solid 2px var(--primary-color);
-    background-color: var(--tertiary-color);
-    color: var(--primary-color);
+    border: solid 2px var(--chapter-color);
+    background-color: var(--chapter-ligth-color);
+    color: var(--chapter-color);
   }
 
   &:hover {
