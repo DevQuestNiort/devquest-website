@@ -59,7 +59,7 @@ export default function RootLayout({
 }>) {
   // FIXME : pas ouf le head comme ça pour les icones...
   return (
-    <html lang="fr" data-theme="2027b">
+    <html lang="fr" data-theme="2027">
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0&display=swap"

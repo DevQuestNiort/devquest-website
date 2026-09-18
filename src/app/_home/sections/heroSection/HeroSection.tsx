@@ -22,6 +22,9 @@ export function HeroSection() {
         height={320}
         glyphColor="var(--chapter-color)" 
         backgroundColor="var(--main-color)"
+           style={{
+        boxShadow: "0px 0px 55px red"
+      }}
         />
       <Card variant="Main" className={styles.heroCard}>
         <h1>Le premier rassemblement des devs Niortais Revient bientôt</h1>

@@ -23,214 +23,115 @@ export default function HomeView({
   return (
     <div className={styles.main}>
       <HeroSection />
+      
+      
       <Section variant="Main">
-        <h2>Section Light</h2>
+        <h2>Section Main</h2>
 
         <Card variant="Main">
-          <h3> Card Ligth  </h3>
+          <h3> Card Main  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
         <Card variant="Complementary">
-          <h3> Card Dark  </h3>
+          <h3> Card Complementary  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
         <Card variant="Chapter">
-          <h3> Card Primary  </h3>
+          <h3> Card Chapter  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
         <Card variant="ChapterDark">
-          <h3> Card Secondary  </h3>
+          <h3> Card ChapterDark  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
         <Card variant="ChapterLight">
-          <h3> Card Tertiary  </h3>
+          <h3> Card ChapterLight  </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
         </Card>
 
       </Section>
-      <Section variant="Complementary">
-        <h2>L&apos;aventure continue Dark</h2>
+      <Section variant="Chapter">
+        <h2>Section  Chapter</h2>
+        
+        <Card variant="Main">
+          <h3> Card Main  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card variant="Complementary">
+          <h3> Card Complementary  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card variant="Chapter">
+          <h3> Card Chapter  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card variant="ChapterDark">
+          <h3> Card ChapterDark  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+        <Card variant="ChapterLight">
+          <h3> Card ChapterLight  </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
+        </Card>
+      </Section>
 
+      <Galery columns={3}>
 
-        <Galery columns={3}>
-
-
-          <Card variant="ChapterLight">
+          <Card variant="ChapterLight"> 
+            <h3>Logo noir</h3>
             <DevQuestLogo
               glyphColor="black"
               backgroundColor="none"
               width={96}
               height={96}
             />
-            <h3>Logo noir</h3>
-
           </Card>
-
           <Card variant="ChapterLight">
+            <h3>Logo blanc</h3>
             <DevQuestLogo
               glyphColor="white"
               backgroundColor="none"
               width={96}
               height={96}
             />
-            <h3>Logo blanc</h3>
-
           </Card>
           <Card variant="ChapterLight">
-            <br /><br />
-
+            <h3>Logo </h3>
             <DevQuestLogo
               glyphColor="var(--chapter-color)"
               backgroundColor="var(--main-color)"
               width={96}
               height={96}
             />
-            <h3>Logo </h3>
           </Card>
           <Card variant="ChapterLight">
+            <h3>Logo inverse</h3>
             <DevQuestLogo
               glyphColor="var(--main-color)"
               backgroundColor="var(--chapter-color)"
               width={96}
               height={96}
             />
-            <h3>Logo inverse</h3>
           </Card>
           <Card variant="ChapterLight">
+            <h3>Logo sans fondz</h3>
             <DevQuestLogo
               glyphColor="var(--chapter-color)"
               backgroundColor="none"
               width={96}
               height={96}
             />
-            <h3>Logo sans fondz</h3>
           </Card>
           <Card variant="ChapterLight">
+            <h3>Logo inverse sans fond</h3>
             <DevQuestLogo
               glyphColor="var(--main-color)"
               backgroundColor="none"
               width={96}
               height={96}
             />
-            <h3>Logo inverse sans fond</h3>
           </Card>
-
-
         </Galery>
-
-
-
-
-
-
-
-
-
-
-
-        <Card variant="Main">
-          <h3> Card Ligth  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="Complementary">
-          <h3> Card Dark  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="Chapter">
-          <h3> Card Primary  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="ChapterDark">
-          <h3> Card Secondary  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="ChapterLight">
-          <h3> Card Tertiary  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-
-
-      </Section>
-      <Section variant="Chapter">
-        <h2>L&apos;aventure continue Primary</h2>
-
-
-        <Card variant="Main">
-          <h3> Card Ligth  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="Complementary">
-          <h3> Card Dark  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="Chapter">
-          <h3> Card Primary  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="ChapterDark">
-          <h3> Card Secondary  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="ChapterLight">
-          <h3> Card Tertiary  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-
-      </Section>
-      {/* <Section variant="ChapterDark">
-        <h2>L&apos;aventure continue Secondary</h2>
-
-
-               <Card variant="Main">
-          <h3> Card Ligth  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="Complementary">
-          <h3> Card Dark  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="Chapter">
-          <h3> Card Primary  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="ChapterDark">
-          <h3> Card Secondary  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="ChapterLight">
-          <h3> Card Tertiary  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-
-
-      </Section>
-      <Section variant="ChapterLight">
-        <h2>L&apos;aventure continue Tertiary</h2>
-
-
-               <Card variant="Main">
-          <h3> Card Ligth  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="Complementary">
-          <h3> Card Dark  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="Chapter">
-          <h3> Card Primary  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="ChapterDark">
-          <h3> Card Secondary  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-        <Card variant="ChapterLight">
-          <h3> Card Tertiary  </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor, nulla at scelerisque auctor, tortor diam tempor velit, eget vestibulum velit tellus ac mi. Sed ut hendrerit tortor </p>
-        </Card>
-
-
-      </Section> */}
     </div>
   );
 }
