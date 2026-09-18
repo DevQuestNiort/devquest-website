@@ -25,8 +25,12 @@ const socialIcons: Record<string, IconType> = {
   email: FaEnvelope,
 };
 
-export const Footer = () => (
-  <footer className={styles.footer}>
+interface FooterProperties {
+  readonly theme?: "Light" | "Dark" | "Primary" | "Secondary" | "Tertiary";
+}
+
+export const Footer = ({ theme = "Primary" }: FooterProperties) => (
+  <footer className={`${styles.footer} ${styles[`footer${theme}`]}`}>
     <div className={styles.grid}>
       {/* Colonne 1 — Identité */}
       <div className={styles.col}>

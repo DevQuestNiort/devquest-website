@@ -1,9 +1,30 @@
 .footer {
-  background-color: var(--primary-color);
-  color: var(--blanc);
+  background-color: var(--footer-bg);
+  color: var(--footer-fg);
   font-weight: 900;
   padding: 3rem 2rem 2rem;
   border-top: 2px solid rgba(241, 221, 182, 0.35);
+
+  &Light {
+    --footer-bg: var(--ligth-color);
+    --footer-fg: var(--ligth-font-color);
+  }
+  &Dark {
+    --footer-bg: var(--dark-color);
+    --footer-fg: var(--dark-font-color);
+  }
+  &Primary {
+    --footer-bg: var(--primary-color);
+    --footer-fg: var(--primary-font-color);
+  }
+  &Secondary {
+    --footer-bg: var(--secondary-color);
+    --footer-fg: var(--secondary-font-color);
+  }
+  &Tertiary {
+    --footer-bg: var(--tertiary-color);
+    --footer-fg: var(--tertiary-font-color);
+  }
 }
 
 .grid {
@@ -34,7 +55,7 @@
   justify-content:center;
   gap: 0.6rem;
   text-decoration: none;
-  color: var(--blanc);
+  color: var(--footer-fg);
   font-family: var(--font-teko);
   font-size: 1.4rem;
   font-weight: 700;
@@ -65,14 +86,14 @@
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--blanc);
+    background: color-mix(in srgb, var(--footer-fg) 10%, transparent);
+    color: var(--footer-fg);
     text-decoration: none;
     font-size: 1rem;
     transition: background 0.15s ease, opacity 0.15s ease;
 
     &:hover {
-      background: rgba(255, 255, 255, 0.25);
+      background: color-mix(in srgb, var(--footer-fg) 25%, transparent);
       opacity: 1;
     }
 
@@ -95,7 +116,7 @@
   font-weight: 900;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--blanc);
+  color: var(--footer-fg);
   margin: 0 0 0.25rem;
   opacity: 1;
 }
@@ -109,7 +130,7 @@
   gap: 0.4rem;
 
   a {
-    color: var(--blanc);
+    color: var(--footer-fg);
     text-decoration: none;
     font-size: 0.9rem;
     opacity: 0.85;

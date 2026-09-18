@@ -27,13 +27,17 @@ const isItemActive = (item: NavItem, pathname: string): boolean => {
   return pathname === item.href;
 };
 
-export const PageHeader = () => {
+interface PageHeaderProperties {
+  readonly theme?: "Light" | "Dark" | "Primary" | "Secondary" | "Tertiary";
+}
+
+export const PageHeader = ({ theme = "Primary" }: PageHeaderProperties) => {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const close = () => setMenuOpen(false);
 
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} ${styles[`header${theme}`]}`}>
       <div className={styles.inner}>
         {/* Logo */}
         <Link href="/" className={styles.logo} onClick={close}>
