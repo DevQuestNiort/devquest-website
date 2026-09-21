@@ -15,6 +15,7 @@ export function HeroSection() {
         backgroundImage: `linear-gradient(rgba(0,0,0,0.10), rgba(0,0,0,0.10)), url(${backgroundImage.src})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
+        minHeight: "100vh",
       }}
     >
       <DevQuestLogo

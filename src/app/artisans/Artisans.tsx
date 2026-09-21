@@ -40,7 +40,7 @@ export async function Artisans() {
         </Card>
       </Section>
 
-      <Section variant="Complementary">
+      <Section variant="Main">
         <h2>⚒️ Leur rôle</h2>
         <p>
           Contrairement aux bénévoles du jour J, les Artisans œuvrent dans
@@ -57,7 +57,7 @@ export async function Artisans() {
       </Section>
 
       {artisans.length > 0 && (
-        <Section variant="Main">
+        <Section variant="ChapterLight">
           <h2>🔧 Nos artisans (édition 2026)</h2>
           <div className={styles.artisansGrid}>
             {artisans.map((artisan) => (

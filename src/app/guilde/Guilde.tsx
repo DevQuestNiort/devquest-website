@@ -38,7 +38,7 @@ export async function Guilde() {
         </Card>
       </Section>
 
-      <Section variant="Complementary">
+      <Section variant="Main">
         <h2>🛡️ Qui sommes-nous ?</h2>
         <p>
           Nous sommes une équipe de passionné·es du numérique basée à Niort.
@@ -55,7 +55,7 @@ export async function Guilde() {
 
 
    {membres.length > 0 && (
-        <Section variant="Main">
+        <Section variant="ChapterLight">
            <h2>👥 Les membres de la Guilde (saison 3)</h2>
           <Galery columns={3}>
             {membres.map((artisan) => (
