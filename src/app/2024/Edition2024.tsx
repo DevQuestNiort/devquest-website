@@ -11,6 +11,7 @@ import { Session } from "@/model/Session";
 import backgroundImage from "/public/img/2024/2024-hero.png";
 import Image from "next/image";
 import Dummy from "@/components/dummy/Dummy";
+import { DevQuestLogo } from "@/components/DevQuestLogo";
 
 
 export default async function Edition2024() {
@@ -50,13 +51,13 @@ export default async function Edition2024() {
             backgroundSize: "cover",
           }}
         >
-          <Image
-            // id={styles.logo}
-            src="/logo/2024/devquest-logo.svg"
-            alt="DevQuest 2026"
-            priority
+          <DevQuestLogo
             width={350}
             height={320}
+            glyphColor="var(--chapter-color)"
+            backgroundColor="var(--main-color)"
+            haloColor="var(--chapter-ligth-color)"
+            haloSize={70}
           />
           <Card>
             <p>Merci @tous pour cette première aventure...
@@ -68,9 +69,9 @@ export default async function Edition2024() {
           </Card>
         </Section>
 
-  <Dummy />
+        <Dummy />
 
-  
+
         <Section variant="Main" >
           <Galery>
             <Card>Une journée</Card>

@@ -13,6 +13,7 @@ import { CardListSession } from "@/components/sessions/CardListSession/CardListS
 import backgroundImage from "/public/img/2026/2026-hero.png";
 import Image from "next/image";
 import Dummy from "@/components/dummy/Dummy";
+import { DevQuestLogo } from "@/components/DevQuestLogo";
 
 export default async function Edition2026() {
   const partenairesFile = await fs.readFile(
@@ -49,20 +50,20 @@ export default async function Edition2026() {
           backgroundSize: "cover",
         }}
       >
-        <Image
-          // id={styles.logo}
-          src="/logo/2026/DQ2026-SansDate-Couleur.svg"
-          alt="DevQuest 2026"
-          priority
+        <DevQuestLogo
           width={350}
           height={320}
+          glyphColor="var(--chapter-color)"
+          backgroundColor="var(--main-color)"
+          haloColor="var(--chapter-color)"
+          haloSize={70}
         />
         <Card>
           <p> Troisième chapitre du devquest cloturé. Cette année a té particulièrement dur pour les orgas. Mais aufinal, vous avez fait de cet évènement, un instant magique.. Donc on repart pour une quatrième. </p>
           <p> Alex, Alex, Alexis, Loic,  Guillaume, Susan, Sylvain,  Vincent, Xavier.</p>
         </Card>
       </Section>
-     <Dummy />
+      <Dummy />
 
 
       <Section variant="Main" >
@@ -77,26 +78,26 @@ export default async function Edition2026() {
               height={60}
             />350 participants</Card>
           <Card variant="ChapterLight"><Image
-              src="/icons-rp/village.png"
-              alt="DevQuest 2026"
-              priority
-              width={60}
-              height={60}
-            />{partenaires.length} Partenaires</Card>
+            src="/icons-rp/village.png"
+            alt="DevQuest 2026"
+            priority
+            width={60}
+            height={60}
+          />{partenaires.length} Partenaires</Card>
           <Card variant="ChapterLight"><Image
-              src="/icons-rp/chicken.png"
-              alt="DevQuest 2026"
-              priority
-              width={60}
-              height={60}
-            />800 repas</Card>
+            src="/icons-rp/chicken.png"
+            alt="DevQuest 2026"
+            priority
+            width={60}
+            height={60}
+          />800 repas</Card>
           <Card variant="ChapterLight"><Image
-              src="/icons-rp/group.png"
-              alt="DevQuest 2026"
-              priority
-              width={60}
-              height={60}
-            />{speakers.length} speakers</Card>
+            src="/icons-rp/group.png"
+            alt="DevQuest 2026"
+            priority
+            width={60}
+            height={60}
+          />{speakers.length} speakers</Card>
         </Galery>
       </Section>
       <Section variant="Chapter" >

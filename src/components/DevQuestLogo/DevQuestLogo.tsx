@@ -1,22 +1,49 @@
 interface DevQuestLogoProperties
   extends Omit<React.SVGProps<SVGSVGElement>, "fill" | "viewBox" | "xmlns"> {
+  /** Couleur du glyphe "DQ" (couleur CSS ou variable de thème). @default "white" */
   readonly glyphColor?: string;
+  /** Couleur du blob de fond, invisible par défaut (couleur CSS ou variable de thème). @default "none" */
   readonly backgroundColor?: string;
+  /** Couleur du halo lumineux autour du logo. Absent = pas de halo. */
+  readonly haloColor?: string;
+  /** Rayon du halo en pixels, ignoré si `haloColor` n'est pas défini. @default 40 */
+  readonly haloSize?: number;
 }
 
-// Le logo utilise le meme trace pour toutes les variantes (Blanc, Noir, Couleur, ...) :
-// seul path[0] (le blob de fond) et les autres paths (le glyphe "DQ") changent de couleur.
-// glyphColor/backgroundColor acceptent toute couleur CSS valide, y compris une variable
-// de theme : <DevQuestLogo glyphColor="var(--chapter-color)" backgroundColor="var(--chapter-ligth-color)" />.
-// Si le logo est utilise seul (sans texte adjacent), penser a ajouter
-// role="img" aria-label="DevQuest" sur l'appelant.
+/**
+ * Logo DevQuest en SVG inline, avec ses deux couleurs et son halo pilotables par props
+ * (au lieu d'un fichier SVG statique par variante comme `Blanc`/`Couleur`/`Noir`...).
+ *
+ * Le tracé est le même pour toutes les variantes historiques : seul `path[0]` (le blob
+ * de fond) et les autres paths (le glyphe "DQ") changent de couleur.
+ *
+ * `glyphColor`/`backgroundColor` acceptent toute couleur CSS valide, y compris une
+ * variable de thème : `glyphColor="var(--chapter-color)"`.
+ *
+ * `haloColor` ajoute un halo lumineux qui épouse la forme du SVG (via `filter: drop-shadow`,
+ * pas `box-shadow` qui dessinerait un cadre rectangulaire) ; `haloSize` règle son rayon.
+ *
+ * Si le logo est utilisé seul (sans texte adjacent), penser à ajouter
+ * `role="img" aria-label="DevQuest"` sur l'appelant.
+ */
 export default function DevQuestLogo({
   glyphColor = "white",
   backgroundColor = "none",
+  haloColor,
+  haloSize = 40,
+  style,
   ...props
 }: DevQuestLogoProperties) {
   return (
-    <svg viewBox="0 0 292 320" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg
+      viewBox="0 0 292 320"
+      xmlns="http://www.w3.org/2000/svg"
+      style={{
+        ...(haloColor ? { filter: `drop-shadow(0 0 ${haloSize}px ${haloColor})` } : {}),
+        ...style,
+      }}
+      {...props}
+    >
       <path
         d="M12.5 185L39 173L70 176.5L72.5 101H123.5L145.5 115.5H216L255.5 117.5L247 180.5H278.5L281.5 266L149 259.5L44 272.5L12.5 261V185Z"
         fill={backgroundColor}

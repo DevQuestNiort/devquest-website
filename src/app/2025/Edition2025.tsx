@@ -13,6 +13,7 @@ import { CardListSession } from "@/components/sessions/CardListSession/CardListS
 import backgroundImage from "/public/img/2025/2025-hero.png";
 import Image from "next/image";
 import Dummy from "@/components/dummy/Dummy";
+import { DevQuestLogo } from "@/components/DevQuestLogo";
 
 
 export default async function Edition2025() {
@@ -44,28 +45,28 @@ export default async function Edition2025() {
     <div>
       <Section
 
-          style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.10), rgba(0,0,0,0.10)), url(${backgroundImage.src})`,
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-          }}
-        >
-          <Image
-            // id={styles.logo}
-            src="/logo/2025/logo-date-lieu-2025.svg"
-            alt="DevQuest 2026"
-            priority
-            width={350}
-            height={320}
-          />
-          <Card>
-            <p>Une deuxième édition, pleine de surprise. Nous remercions tous les participants, les speakers, les benvoles, nos Sponsors. Gràce à vous tous, on repart pour une année.  </p>
-            <p> Alex, Alex, Alexis, Florent, Guillaume, Susan, Vincent, Xavier.
-            </p>
-          </Card>
-        </Section>
+        style={{
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.10), rgba(0,0,0,0.10)), url(${backgroundImage.src})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}
+      >
+        <DevQuestLogo
+          width={350}
+          height={320}
+          glyphColor="var(--chapter-color)"
+          backgroundColor="var(--main-color)"
+          haloColor="var(--complementary-color)"
+          haloSize={70}
+        />
+        <Card>
+          <p>Une deuxième édition, pleine de surprise. Nous remercions tous les participants, les speakers, les benvoles, nos Sponsors. Gràce à vous tous, on repart pour une année.  </p>
+          <p> Alex, Alex, Alexis, Florent, Guillaume, Susan, Vincent, Xavier.
+          </p>
+        </Card>
+      </Section>
 
-       <Dummy />
+      <Dummy />
 
       <Section variant="Main" >
 
