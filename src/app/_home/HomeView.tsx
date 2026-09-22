@@ -30,7 +30,7 @@ export default function HomeView({
         <h2>Un nouveau chapitre</h2>
 
         <p>
-          Un nouveau chapitre est en cours de préparation pour cette nouvelle édition du DevQuest. Restez à l'écoute pour découvrir toutes les nouveautés et surprises que nous vous réservons !
+          Un nouveau chapitre est en cours de préparation pour cette nouvelle édition du DevQuest. Restez à l&apos;écoute pour découvrir toutes les nouveautés et surprises que nous vous réservons !
         </p>
 
       </Section>
