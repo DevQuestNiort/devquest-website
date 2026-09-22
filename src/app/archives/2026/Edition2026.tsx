@@ -10,15 +10,15 @@ import { Session } from "@/model/Session";
 import { Speaker } from "@/model/Speaker";
 import { CardListSession } from "@/components/sessions/CardListSession/CardListSession";
 
-import backgroundImage from "/public/img/2025/2025-hero.png";
+import backgroundImage from "/public/img/2026/2026-hero.png";
 import Image from "next/image";
 import Dummy from "@/components/dummy/Dummy";
 import { DevQuestLogo } from "@/components/DevQuestLogo";
+import { UseTheme } from "@/components/RouteTheme/RouteTheme";
 
-
-export default async function Edition2025() {
+export default async function Edition2026() {
   const partenairesFile = await fs.readFile(
-    process.cwd() + "/src/data/2025/partenaires.json",
+    process.cwd() + "/src/data/2026/partenaires.json",
     "utf8",
   );
   const LevelsPartenaireFile = await fs.readFile(
@@ -27,11 +27,11 @@ export default async function Edition2025() {
   );
 
   const sessionsFile = await fs.readFile(
-    process.cwd() + "/src/data/2025/sessions.json",
+    process.cwd() + "/src/data/2026/sessions.json",
     "utf8",
   );
   const SpeakersFile = await fs.readFile(
-    process.cwd() + "/src/data/2025/speakers.json",
+    process.cwd() + "/src/data/2026/speakers.json",
     "utf8",
   );
 
@@ -43,6 +43,7 @@ export default async function Edition2025() {
 
   return (
     <div>
+      <UseTheme theme="2026" />
       <Section
 
         style={{
@@ -56,27 +57,49 @@ export default async function Edition2025() {
           height={320}
           glyphColor="var(--chapter-color)"
           backgroundColor="var(--main-color)"
-          haloColor="var(--complementary-color)"
+          haloColor="var(--chapter-color)"
           haloSize={70}
         />
         <Card>
-          <p>Une deuxième édition, pleine de surprise. Nous remercions tous les participants, les speakers, les benvoles, nos Sponsors. Gràce à vous tous, on repart pour une année.  </p>
-          <p> Alex, Alex, Alexis, Florent, Guillaume, Susan, Vincent, Xavier.
-          </p>
+          <p> Troisième chapitre du devquest cloturé. Cette année a été particulièrement dur pour les orgas. Mais aufinal, vous avez fait de cet évènement, un instant magique.. Donc on repart pour une quatrième. </p>
+          <p> Alex, Alex, Alexis, Loic,  Guillaume, Susan, Sylvain,  Vincent, Xavier.</p>
         </Card>
       </Section>
-
       <Dummy />
 
-      <Section variant="Main" >
 
-        <h2>Deuxiéme chapitre de notre histoire Devquest :  </h2>
-        <Galery>
-          <Card>Passage sur deux jours</Card>
-          <Card>350 participants</Card>
-          <Card>{partenaires.length} Partenaires</Card>
-          <Card>700 repas</Card>
-          <Card>{speakers.length} speakers</Card>
+      <Section variant="Main" >
+        <h2>La troisième édition du dev quest c&apos;est : </h2>
+        <Galery columns={4}>
+          <Card variant="ChapterLight">
+            <Image
+              src="/icons-rp/communsword.png"
+              alt="DevQuest 2026"
+              priority
+              width={60}
+              height={60}
+            />350 participants</Card>
+          <Card variant="ChapterLight"><Image
+            src="/icons-rp/village.png"
+            alt="DevQuest 2026"
+            priority
+            width={60}
+            height={60}
+          />{partenaires.length} Partenaires</Card>
+          <Card variant="ChapterLight"><Image
+            src="/icons-rp/chicken.png"
+            alt="DevQuest 2026"
+            priority
+            width={60}
+            height={60}
+          />800 repas</Card>
+          <Card variant="ChapterLight"><Image
+            src="/icons-rp/group.png"
+            alt="DevQuest 2026"
+            priority
+            width={60}
+            height={60}
+          />{speakers.length} speakers</Card>
         </Galery>
       </Section>
       <Section variant="Chapter" >

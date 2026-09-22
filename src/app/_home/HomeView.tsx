@@ -8,6 +8,7 @@ import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
 import { DevQuestLogo } from "@/components/DevQuestLogo";
 import { Galery } from "@/components/Galery";
+import { Contact } from "@/components/Contact";
 
 interface HomeViewProperties {
   readonly contacts: MoyensContact[];
@@ -40,17 +41,3 @@ export default function HomeView({
 }
 
 
-
-/**
- *  <Card variant="Main" className={styles.heroCard}>
-        <h1>Le rassemblement des devs Niortais</h1>
-        <p>Les vidéos des conférences sont disponibles sur le programme :</p>
-        <LinkButton
-          theme="Primary"
-          style={{ marginTop: "0.5rem" }}
-          href={"/schedule/day-1"}
-        >
-          Voir le programme / les vidéos
-        </LinkButton>
-      </Card>
- */

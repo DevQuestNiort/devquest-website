@@ -2,18 +2,18 @@
   "items": [
     { "label": "Accueil", "href": "/" },
     {
-      "label": "Communauté",
+      "label": "Batisseurs",
       "children": [
-        { "label": "⚔️ La Guilde", "href": "/guilde" },        
-        { "label": "🔨 Artisans", "href": "/artisans" }
+        { "label": "La Guilde", "href": "/guilde" },        
+        { "label": "Artisans", "href": "/artisans" }
       ]
     },
      {
       "label": "Chapitre",
       "children": [
-        { "label": "Devquest 2026", "href": "/2026" },
-        { "label": "Devquest 2025", "href": "/2025" },
-        { "label": "Devquest 2024", "href": "/2024" }
+        { "label": "Devquest 2026", "href": "/archives/2026" },
+        { "label": "Devquest 2025", "href": "/archives/2025" },
+        { "label": "Devquest 2024", "href": "/archives/2024" }
       ]
     }
   ]

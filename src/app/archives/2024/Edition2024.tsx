@@ -12,6 +12,7 @@ import backgroundImage from "/public/img/2024/2024-hero.png";
 import Image from "next/image";
 import Dummy from "@/components/dummy/Dummy";
 import { DevQuestLogo } from "@/components/DevQuestLogo";
+import { UseTheme } from "@/components/RouteTheme/RouteTheme";
 
 
 export default async function Edition2024() {
@@ -42,6 +43,7 @@ export default async function Edition2024() {
 
   return (
     <div>
+      <UseTheme theme="2024" />
       <div>
         <Section
 
