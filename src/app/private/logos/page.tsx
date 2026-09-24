@@ -3,6 +3,7 @@ import { Card } from "@/components/Card";
 import { Galery } from "@/components/Galery";
 import { Section } from "@/components/Section";
 import {
+  DevQuestLogoEpee,
   DevQuestLogoLongDate,
   DevQuestLogoShortDate,
   DownloadLogoPng,
@@ -82,6 +83,22 @@ export default function LogosCatalog() {
             </Card>
           )),
         )}
+      </Galery>
+
+      <h2>Logo épée</h2>
+      <Galery columns={3}>
+        {colorVariants.map((color) => (
+          <Card variant="ChapterLight" key={color.slug}>
+            <h3>{color.label}</h3>
+            <DownloadLogoPng filename={`devquest-logo-epee-${color.slug}`}>
+              <DevQuestLogoEpee
+                darkColor={color.darkColor}
+                lightColor={color.lightColor}
+                height={200}
+              />
+            </DownloadLogoPng>
+          </Card>
+        ))}
       </Galery>
     </Section>
   );
