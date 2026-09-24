@@ -13,7 +13,7 @@ import { CardListSession } from "@/components/sessions/CardListSession/CardListS
 import backgroundImage from "/public/img/2026/2026-hero.png";
 import Image from "next/image";
 import Dummy from "@/components/dummy/Dummy";
-import { DevQuestLogo } from "@/components/DevQuestLogo";
+import { DevQuestLogoShortDate } from "@/components/DevQuestLogo";
 import { UseTheme } from "@/components/RouteTheme/RouteTheme";
 
 export default async function Edition2026() {
@@ -52,11 +52,11 @@ export default async function Edition2026() {
           backgroundSize: "cover",
         }}
       >
-        <DevQuestLogo
+        <DevQuestLogoShortDate
           width={350}
           height={320}
-          glyphColor="var(--chapter-color)"
-          backgroundColor="var(--main-color)"
+          darkColor="var(--chapter-color)"
+          lightColor="var(--main-color)"
           haloColor="var(--chapter-color)"
           haloSize={70}
         />

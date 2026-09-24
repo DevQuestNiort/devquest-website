@@ -13,7 +13,7 @@ import {
   FaFacebook,
   FaEnvelope,
 } from "react-icons/fa";
-import { DevQuestLogo } from "../DevQuestLogo";
+import { DevQuestLogoShortDate } from "../DevQuestLogo";
 
 const socialIcons: Record<string, IconType> = {
   linkedin: FaLinkedin,
@@ -37,9 +37,9 @@ export const Footer = ({ variant = "Chapter" }: FooterProperties) => (
       <div className={styles.col}>
         <Link href="/" className={styles.brand}>
 
-        <DevQuestLogo
-          glyphColor="white"
-          backgroundColor="none"
+        <DevQuestLogoShortDate
+          darkColor="white"
+          lightColor="none"
           width={96}
                     height={96}
         />

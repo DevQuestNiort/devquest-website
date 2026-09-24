@@ -5,7 +5,7 @@ import { Card } from "@/components/Card";
 
 
 import backgroundImage from "/public/img/2027/2027-hero-4.png";
-import { DevQuestLogo } from "@/components/DevQuestLogo";
+import { DevQuestLogoShortDate } from "@/components/DevQuestLogo";
 
 export function HeroSection() {
   return (
@@ -18,11 +18,11 @@ export function HeroSection() {
         minHeight: "100vh",
       }}
     >
-      <DevQuestLogo
+      <DevQuestLogoShortDate
         width={350}
         height={320}
-        glyphColor="var(--chapter-color)"
-        backgroundColor="var(--main-color)"
+        darkColor="var(--chapter-color)"
+        lightColor="var(--main-color)"
         haloColor="var(--complementary-color)"
         haloSize={20}
       />

@@ -1,1 +1,3 @@
-export { default as DevQuestLogo } from "./DevQuestLogo";
+export { default as DevQuestLogoShortDate } from "./DevQuestLogoShortDate";
+export { default as DevQuestLogoLongDate } from "./DevQuestLogoLongDate";
+export { default as DownloadLogoPng } from "./DownloadLogoPng";

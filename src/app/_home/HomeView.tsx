@@ -6,7 +6,7 @@ import { PartnersSection } from "@/app/_home/sections/partnersSection/PartnersSe
 import { LevelPartenaire } from "@/model/LevelPartenaire";
 import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
-import { DevQuestLogo } from "@/components/DevQuestLogo";
+import { DevQuestLogoShortDate } from "@/components/DevQuestLogo";
 import { Galery } from "@/components/Galery";
 import { Contact } from "@/components/Contact";
 
