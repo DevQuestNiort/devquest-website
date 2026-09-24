@@ -20,7 +20,7 @@ export function HeroSection() {
     >
       <DevQuestLogoShortDate
         width={350}
-        height={320}
+        city="Niort"
         darkColor="var(--chapter-color)"
         lightColor="var(--main-color)"
         haloColor="var(--complementary-color)"

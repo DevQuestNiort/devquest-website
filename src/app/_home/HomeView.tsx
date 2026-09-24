@@ -24,22 +24,15 @@ export default function HomeView({
   return (
     <div className={styles.main}>
       <HeroSection />
-      
-      
       <Section variant="Main">
         <h2>Un nouveau chapitre</h2>
-
         <p>
           Un nouveau chapitre est en cours de préparation pour cette nouvelle édition du DevQuest. Restez à l&apos;écoute pour découvrir toutes les nouveautés et surprises que nous vous réservons !
         </p>
-
         <div style={ { display: "flex", flexDirection : "row", gap: "20px"}}>
           {contacts?.map(contact =>  <Contact key={contact.name} name={contact.name} link={contact.link} asset={contact.asset}/> )}
         </div>
-
       </Section>
-     
-      
     </div>
   );
 }
