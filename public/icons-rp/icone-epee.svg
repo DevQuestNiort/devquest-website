@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Épée violette et sable</title>
+  <desc id="desc">Une épée sable et sable clair sur un cercle violet.</desc>
+
+  <circle cx="278" cy="237" r="163" fill="#260742"/>
+
+  <g transform="rotate(-20 256 256)">
+    <!-- Contour de l'épée -->
+    <path fill="#260742" d="M225 43h62l18 37-18 39v183l34 32-17 31-17 8 17 48-48 25-48-25 17-48-17-8-17-31 34-32V119l-18-39 18-37z"/>
+
+    <!-- Lame -->
+    <path fill="#F2AA6B" d="M234 67h44l12 25-12 28v193h-44V120l-12-28 12-25z"/>
+    <path fill="#F1DDB6" d="M234 67h17v246h-17V120l-12-28 12-25z"/>
+
+    <!-- Garde -->
+    <path fill="#F2AA6B" d="M151 278h210v29l-19 16h-172l-19-16v-29z"/>
+
+    <!-- Poignée et pommeau -->
+    <path fill="#F2AA6B" d="M234 323h44v72l-22 19-22-19v-72z"/>
+    <path fill="#F2AA6B" d="M218 395h76v37l-38 20-38-20v-37z"/>
+  </g>
+</svg>
