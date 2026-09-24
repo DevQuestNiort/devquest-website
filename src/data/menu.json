@@ -11,9 +11,10 @@
      {
       "label": "Chapitre",
       "children": [
-        { "label": "Devquest 2026", "href": "/archives/2026" },
-        { "label": "Devquest 2025", "href": "/archives/2025" },
-        { "label": "Devquest 2024", "href": "/archives/2024" }
+        { "label": "Archives", "href": "/archives" },
+        { "label": " - Devquest 2026", "href": "/archives/2026" },
+        { "label": " - Devquest 2025", "href": "/archives/2025" },
+        { "label": " - Devquest 2024", "href": "/archives/2024" }
       ]
     }
   ]

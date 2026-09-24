@@ -24,7 +24,7 @@ export function HeroSection() {
         glyphColor="var(--chapter-color)"
         backgroundColor="var(--main-color)"
         haloColor="var(--complementary-color)"
-        haloSize={50}
+        haloSize={20}
       />
       <Card variant="Main" className={styles.heroCard}>
         <h1>Le premier rassemblement des devs Niortais Revient bientôt</h1>
