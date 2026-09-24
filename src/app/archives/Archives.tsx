@@ -4,6 +4,7 @@ import { DevQuestLogoEpee, DevQuestLogoShortDate } from "@/components/DevQuestLo
 import Dummy from "@/components/dummy/Dummy";
 import { Galery } from "@/components/Galery";
 import { Section } from "@/components/Section";
+import { Separator } from "@/components/Separator";
 
 
 
@@ -33,9 +34,12 @@ export default function Archives() {
                     <h2>Chapitre 1 (DevQuest 2024) : La genèse</h2>
                     <p>L&apos;année une : on part de rien. On ne sait pas trop si ça va prendre, ni comment s&apos;y prendre, tant en communication qu&apos;en organisation et en administratif. Mais les partenaires étaient présents, les participants et les speakers aussi. Grosse victoire !</p>
                 </Card>
+                   <Separator  color="var(--vert)" />   
             </Section>
 
+  
             <Section variant="Main">
+             
                 <Link href="/archives/2025" aria-label="Voir l'édition 2025" style={{ display: "inline-block" }}>
                     <DevQuestLogoEpee
                         width={64}
@@ -49,6 +53,7 @@ export default function Archives() {
                     <h2>Chapitre 2 (DevQuest 2025) : Et si on doublait</h2>
                     <p>L&apos;année où l&apos;on a doublé le nombre de jours de l&apos;événement, et donc le nombre de conférences, pour offrir encore plus de contenu à nos visiteurs.</p>
                 </Card>
+                   <Separator  color="var(--violet)" />   
             </Section>
 
             <Section variant="Main">
@@ -65,6 +70,7 @@ export default function Archives() {
                     <h2>Chapitre 3 (DevQuest 2026) : On peaufine et on stabilise</h2>
                     <p>La formule nous semble stable. On s&apos;interroge sur la façon d&apos;améliorer la qualité de l&apos;événement sans en dénaturer le cœur. Les retours étaient plutôt bons.</p>
                 </Card>
+                   <Separator  color="var(--rouge)" />   
             </Section>
 
         </>
