@@ -2,12 +2,8 @@ import styles from "./Home.module.scss";
 import { MoyensContact } from "@/model/MoyensContact";
 import { Partenaire } from "@/model/Partenaire";
 import { HeroSection } from "./sections/heroSection/HeroSection";
-import { PartnersSection } from "@/app/_home/sections/partnersSection/PartnersSection";
 import { LevelPartenaire } from "@/model/LevelPartenaire";
 import { Section } from "@/components/Section";
-import { Card } from "@/components/Card";
-import { DevQuestLogoShortDate } from "@/components/DevQuestLogo";
-import { Galery } from "@/components/Galery";
 import { Contact } from "@/components/Contact";
 
 interface HomeViewProperties {

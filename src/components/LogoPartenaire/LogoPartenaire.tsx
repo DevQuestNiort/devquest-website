@@ -1,6 +1,6 @@
 import styles from "./LogoPartenaire.module.scss";
 import Image from "next/image";
-import { Component, ElementType } from "react";
+import {  ElementType } from "react";
 
 interface LogoPartenaireProperties {
   name: string;

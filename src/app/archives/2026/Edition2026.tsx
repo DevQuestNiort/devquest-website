@@ -12,7 +12,6 @@ import { CardListSession } from "@/components/sessions/CardListSession/CardListS
 
 import backgroundImage from "/public/img/2026/2026-hero.png";
 import Image from "next/image";
-import Dummy from "@/components/dummy/Dummy";
 import { DevQuestLogoShortDate } from "@/components/DevQuestLogo";
 import { UseTheme } from "@/components/RouteTheme/RouteTheme";
 
@@ -58,14 +57,15 @@ export default async function Edition2026() {
           darkColor="var(--chapter-color)"
           lightColor="var(--main-color)"
           haloColor="var(--chapter-color)"
-          haloSize={70}
+          haloSize={20}
         />
         <Card>
-          <p> Troisième chapitre du devquest cloturé. Cette année a été particulièrement dur pour les orgas. Mais aufinal, vous avez fait de cet évènement, un instant magique.. Donc on repart pour une quatrième. </p>
+          <p> Troisième chapitre du devquest cloturé. Cette année a été particulièrement dure pour les orgas. Mais au final, vous avez fait de cet évènement, un instant magique.. Donc on repart pour une quatrième édition. </p>
           <p> Alex, Alex, Alexis, Loic,  Guillaume, Susan, Sylvain,  Vincent, Xavier.</p>
         </Card>
       </Section>
-      <Dummy />
+   
+
 
 
       <Section variant="Main" >

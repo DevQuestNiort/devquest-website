@@ -62,24 +62,58 @@ export default async function Edition2025() {
           haloSize={70}
         />
         <Card>
-          <p>Une deuxième édition, pleine de surprise. Nous remercions tous les participants, les speakers, les benvoles, nos Sponsors. Gràce à vous tous, on repart pour une année.  </p>
+          <p>Une deuxième édition, pleine de surprise. Nous remercions tous les participants, les speakers, les bénévoles et nos Sponsors. Grâce à vous tous, on repart pour une année.  </p>
           <p> Alex, Alex, Alexis, Florent, Guillaume, Susan, Vincent, Xavier.
           </p>
         </Card>
       </Section>
 
-      <Dummy />
+  
 
       <Section variant="Main" >
 
         <h2>Deuxiéme chapitre de notre histoire Devquest :  </h2>
-        <Galery>
-          <Card>Passage sur deux jours</Card>
-          <Card>350 participants</Card>
-          <Card>{partenaires.length} Partenaires</Card>
-          <Card>700 repas</Card>
-          <Card>{speakers.length} speakers</Card>
-        </Galery>
+      
+           <Galery columns={4}>
+                    <Card variant="ChapterLight">
+                      <Image
+                        src="/icons-rp/communsword.png"
+                        alt="DevQuest 2026"
+                        priority
+                        width={60}
+                        height={60}
+                      />350 participants</Card>
+                            <Card variant="ChapterLight">
+                      <Image
+                        src="/icons-rp/horloge.png"
+                        alt="DevQuest 2026"
+                        priority
+                        width={60}
+                        height={80}
+                      />Passage sur deux jours</Card>   
+                    <Card variant="ChapterLight"><Image
+                      src="/icons-rp/village.png"
+                      alt="DevQuest 2026"
+                      priority
+                      width={60}
+                      height={60}
+                    />{partenaires.length} Partenaires</Card>
+                    <Card variant="ChapterLight"><Image
+                      src="/icons-rp/chicken.png"
+                      alt="DevQuest 2026"
+                      priority
+                      width={60}
+                      height={60}
+                    />800 repas</Card>
+                    <Card variant="ChapterLight"><Image
+                      src="/icons-rp/group.png"
+                      alt="DevQuest 2026"
+                      priority
+                      width={60}
+                      height={60}
+                    />{speakers.length} speakers</Card>
+                  </Galery>
+
       </Section>
       <Section variant="Chapter" >
         <h2> Les Menestrels  </h2>

@@ -41,6 +41,9 @@ export default function LogosCatalog() {
         <Link href="/private">← Page privée</Link>
       </p>
 
+
+
+
       <h2>Logo court</h2>
       <Galery columns={2}>
         {colorVariants.flatMap((color) =>

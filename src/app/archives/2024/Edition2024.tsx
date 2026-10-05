@@ -71,8 +71,6 @@ export default async function Edition2024() {
           </Card>
         </Section>
 
-        <Dummy />
-
 
         <Section variant="Main" >
           <Galery>

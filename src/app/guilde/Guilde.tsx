@@ -11,7 +11,7 @@ import MembreCard from "@/components/MembreCard/MembreCard";
 
 const getMembres = async () =>
   JSON.parse(
-    await fs.readFile(process.cwd() + "/src/data/teams.json", "utf8"),
+    await fs.readFile(process.cwd() + "/src/data/2027/teams.json", "utf8"),
   ) as Membre[];
 
 export async function Guilde() {
