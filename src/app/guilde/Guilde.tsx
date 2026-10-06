@@ -6,11 +6,12 @@ import { Membre } from "@/model/Membre";
 import { promises as fs } from "fs";
 import styles from "./Guilde.module.scss";
 
-import backgroundImage from "/public/avatar/conseilDeMage.png";
+import backgroundImage from "/public/img/2027/2027-guilde-hero.png";
+import MembreCard from "@/components/MembreCard/MembreCard";
 
 const getMembres = async () =>
   JSON.parse(
-    await fs.readFile(process.cwd() + "/src/data/teams.json", "utf8"),
+    await fs.readFile(process.cwd() + "/src/data/2027/teams.json", "utf8"),
   ) as Membre[];
 
 export async function Guilde() {
@@ -21,12 +22,12 @@ export async function Guilde() {
       <Section
         className={styles.heroSection}
         style={{
-          backgroundImage: `url(${backgroundImage.src})`,
+          backgroundImage: `linear-gradient(rgba(0, 63, 145, 0.2), rgba(0, 63, 145, 0.58)), url(${backgroundImage.src})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
       >
-        <Card theme="Light">
+        <Card variant="Main">
           <h1>La Guilde du DevQuest</h1>
           <h2>⚔️ Le noyau dur de l&apos;événement</h2>
           <p>
@@ -37,7 +38,7 @@ export async function Guilde() {
         </Card>
       </Section>
 
-      <Section theme="Light">
+      <Section variant="Main">
         <h2>🛡️ Qui sommes-nous ?</h2>
         <p>
           Nous sommes une équipe de passionné·es du numérique basée à Niort.
@@ -52,25 +53,18 @@ export async function Guilde() {
         </ul>
       </Section>
 
-      <Section theme="Dark">
-        <h2>👥 Les membres de la Guilde (saison 3)</h2>
-        <Galery>
-          {membres
-            .sort(() => (Math.random() > 0.5 ? 1 : -1))
-            .map((m, i) => (
-              <Avatar
-                key={i}
-                img={m.picture}
-                name={m.name}
-                role={m.role}
-                github={m.github}
-                linkedin={m.linkedin}
-              />
-            ))}
-        </Galery>
-      </Section>
 
-      <Section theme="Light">
+   {membres.length > 0 && (
+        <Section variant="ChapterLight">
+           <h2>👥 Les membres de la Guilde (saison 3)</h2>
+          <Galery columns={3}>
+            {membres.map((artisan) => (
+              <MembreCard key={artisan.name} membre={artisan}/>
+            ))}
+          </Galery>
+        </Section>
+      )}
+      <Section variant="Main">
         <h2>💛 Rejoindre la Guilde</h2>
         <p>
           Tu veux nous rejoindre et contribuer à l&apos;aventure DevQuest ?

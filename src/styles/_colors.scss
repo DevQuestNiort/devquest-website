@@ -1,21 +1,84 @@
+// Système de thème par année : --primary/secondary/tertiary-color sont les seuls
+// tokens que les composants doivent utiliser. :root fixe le thème actif (2026).
+// Un data-theme="2024|2025|2026|2027" sur un ancêtre permet de forcer le rendu d'une
+// autre édition (ex. page d'archives) sans dupliquer le CSS des composants.
 :root {
+  // Constantes, invariables d'une année à l'autre
   --sable: #F1DDB6;
+  --dark: #000000;
+  --blanc: #FFFFFF;
+
+    // Palette 2024
   --vert: #192811;
   --vert-clair: #A69B02;
-  --marron: #594848;
   --bleu-clair: #96CBD9;
   --orange-clair: #F2AA6B;
   --orange: #F29543;
-  --marron-clair: #7d6969d1;
+  --marron: #594848;
+  --marron-clair: rgb(143, 123, 123);
+
+  // Palette 2025
+  --rose: #EFBFB7;
   --violet-fonce: #260742;
   --violet: #360362;
   --violet-clair: #551B7E;
-  --rose: #EFBFB7;
-  --dark: #000000;
-  --rouge: #800016;
 
-  --primary-color: var(--rouge);
-  --secondary-color: #802A00;
-  --tertiary-color: var(--rose);
+  // Palette 2026
+  --rouge-clair: #EFBFB7;
+  --rouge: #800016;
+  --rouge-fonce: #3d000a;
 
 }
+
+[data-theme="2024"] {
+  --chapter-color: var(--vert);
+  --chapter-dark-color: var(--marron);
+  --chapter-ligth-color:var(--vert-clair) ;
+  --complementary-color: var(--bleu-clair);
+  --main-color: var(--sable);
+  --chapter-font-color: white;
+  --chapter-dark-font-color: white;
+  --chapter-ligth-font-color: black;
+  --complementary-font-color: white;
+  --main-font-color: black;
+}
+
+[data-theme="2025"] {
+  --chapter-color: var(--violet);
+  --chapter-dark-color: var(--violet-fonce);
+  --chapter-ligth-color: var(--violet-clair);
+  --complementary-color: var(--rose);
+  --main-color: var(--sable);
+  --chapter-font-color: white;
+  --chapter-dark-font-color: white;
+  --chapter-ligth-font-color: white;
+  --complementary-font-color: black;
+  --main-font-color: black;
+}
+
+[data-theme="2026"] {
+  --chapter-color: var(--rouge);
+  --chapter-dark-color: var(--rouge-fonce);
+  --chapter-ligth-color: var(--rouge-clair);
+  --complementary-color: #abcc69;
+  --main-color: var(--sable);
+  --chapter-font-color: white;
+  --chapter-dark-font-color: white;
+  --chapter-ligth-font-color: black;
+  --complementary-font-color: black;
+  --main-font-color: black;
+}
+
+[data-theme="2027"] {
+  --chapter-color:#1465bb;
+  --chapter-dark-color: #022f68;
+  --chapter-ligth-color: #5fbcff;
+  --complementary-color: #ff963b;
+  --main-color: var(--sable);
+  --chapter-font-color: white;
+  --chapter-dark-font-color: white;
+  --chapter-ligth-font-color: black;
+  --complementary-font-color: black;
+  --main-font-color: black;
+}
+

@@ -1,0 +1,7 @@
+[
+  { "order": 10, "code": "LEGENDAIRE", "iconName": "uniquesword.png", "label": "Légendaire" },
+  { "order": 20, "code": "EPIQUE", "iconName": "epicsword.png", "label": "Épiques" },
+  { "order": 30, "code": "RARE", "iconName": "raresword.png", "label": "Rares" },
+  { "order": 40, "code": "COMMUN", "iconName": "communsword.png", "label": "Communs" },
+  { "order": 50, "code": "AUTRE", "iconName": "magicsword.png", "label": "Nos compagnons d'aventure" }
+]

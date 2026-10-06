@@ -2,50 +2,32 @@ import Image from "next/image";
 import styles from "./HeroSection.module.scss";
 import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
-import { LinkButton } from "@/components/LinkButton";
-import config from "../../../../data/config.json";
 
-import backgroundImage from "/public/fond_site_26.png";
+
+import backgroundImage from "/public/img/2027/2027-hero-4.png";
+import { DevQuestLogoShortDate } from "@/components/DevQuestLogo";
 
 export function HeroSection() {
   return (
     <Section
       id={styles.heroSection}
       style={{
-        backgroundImage: `url(${backgroundImage.src})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.10), rgba(0,0,0,0.10)), url(${backgroundImage.src})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
+        minHeight: "100vh",
       }}
     >
-      <Image
-        id={styles.logo}
-        src="/logo/DQ2026-AvecDate-Couleur.svg"
-        alt="DevQuest 2026"
-        priority
+      <DevQuestLogoShortDate
         width={350}
-        height={320}
+        city="Niort"
+        darkColor="var(--chapter-color)"
+        lightColor="var(--main-color)"
+        haloColor="var(--complementary-color)"
+        haloSize={20}
       />
-      <Card theme="Light" className={styles.heroCard}>
-        <h1>Le premier rassemblement des devs Niortais</h1>
-        <p>Les Vidéo sont disponible sur le programme :  </p>
-        <LinkButton
-          theme="Primary"
-          style={{ marginTop: "0.5rem" }}
-          href={"/schedule/day-1"}
-        >
-          Voir le programme/ les vidéos
-        </LinkButton>
-
-        {/*<LinkButton
-          theme="Secondary"
-          style={{ marginTop: "0.5rem" }}
-          href={"https://companion.devquest.fr/"}
-          target="_blank"
-        >
-          Devquest Compagnon
-        </LinkButton>
-*/}
-     
+      <Card variant="Main" className={styles.heroCard}>
+        <h1>Le premier rassemblement des devs Niortais Revient bientôt</h1>
       </Card>
     </Section>
   );

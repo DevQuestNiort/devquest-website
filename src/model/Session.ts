@@ -16,7 +16,7 @@ export interface Session {
   videoLinkYoutube?: string;
 }
 
-export type Format = "Workshop" | "Quickie" | "Workshop";
+export type Format = "Workshop" | "Quickie" | "Conférence" | "Keynote";
 
 export type Tags =
   | "backend"

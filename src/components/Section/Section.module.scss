@@ -5,18 +5,28 @@
   flex-direction: column;
   align-items: center;
 
-  &Light {
-    background-color: var(--sable);
-    color: black;
+  &Main {
+    background-color: var(--main-color);
+    color: var(--main-font-color);
   }
 
-  &Dark {
-    background-color: var(--primary-color);
-    color: white;
+  &Complementary {
+    background-color: var(--complementary-color);
+    color: var(--complementary-font-color);
   }
 
-  &Secondary {
-    background-color: var(--secondary-color); 
-    color: white;
+  &Chapter {
+    background-color: var(--chapter-color);
+    color: var(--chapter-font-color);
+  }
+
+  &ChapterDark {
+    background-color: var(--chapter-dark-color);
+    color: var(--chapter-dark-font-color);
+  }
+
+  &ChapterLight {
+    background-color: var(--chapter-ligth-color);
+    color: var(--chapter-ligth-font-color);
   }
 }

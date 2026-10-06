@@ -1,37 +1,36 @@
 import styles from "./Home.module.scss";
-import { Theme } from "@/model/Theme";
 import { MoyensContact } from "@/model/MoyensContact";
 import { Partenaire } from "@/model/Partenaire";
 import { HeroSection } from "./sections/heroSection/HeroSection";
-import { CatchSection } from "./sections/catchSection/CatchSection";
-import { EventSpecSection } from "./sections/eventSpecSection/EventSpecSection";
-import { EventThemesSection } from "./sections/eventThemesSection/EventThemesSection";
-import { MapSection } from "./sections/MapSection/MapSection";
-import { LastYearSection } from "./sections/lastYearSection/LastYearSection";
-import { TremplinSection } from "@/app/_home/sections/TremplinSection/TremplinSection";
-import { PartnersSection } from "@/app/_home/sections/partnersSection/PartnersSection";
+import { LevelPartenaire } from "@/model/LevelPartenaire";
+import { Section } from "@/components/Section";
+import { Contact } from "@/components/Contact";
 
 interface HomeViewProperties {
-  readonly themes: Theme[];
   readonly contacts: MoyensContact[];
   readonly partenaires: Partenaire[];
+  readonly levelpartenaires: LevelPartenaire[];
 }
 
 export default function HomeView({
   contacts,
-  themes,
   partenaires,
+  levelpartenaires,
 }: HomeViewProperties) {
   return (
     <div className={styles.main}>
       <HeroSection />
-      <CatchSection contacts={contacts} />
-      {/* <TremplinSection /> */}
-      {/* <EventSpecSection /> */}
-      {/* <EventThemesSection themes={themes} /> */}
-      {/* <MapSection /> */}
-      <PartnersSection partenaires={partenaires} />
-      <LastYearSection />
+      <Section variant="Main">
+        <h2>Un nouveau chapitre</h2>
+        <p>
+          Un nouveau chapitre est en cours de préparation pour cette nouvelle édition du DevQuest. Restez à l&apos;écoute pour découvrir toutes les nouveautés et surprises que nous vous réservons !
+        </p>
+        <div style={ { display: "flex", flexDirection : "row", gap: "20px"}}>
+          {contacts?.map(contact =>  <Contact key={contact.name} name={contact.name} link={contact.link} asset={contact.asset}/> )}
+        </div>
+      </Section>
     </div>
   );
 }
+
+

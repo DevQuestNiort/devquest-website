@@ -1,0 +1,42 @@
+.sessionCard {
+  align-items: stretch;
+  text-align: left;
+  gap: 0.4rem;
+  max-width: 320px;
+  border-radius: 1em;
+
+
+  .sessionTitle {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.3;
+  }
+
+  .speakers {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 500;
+    opacity: 0.95;
+  }
+
+  .videoLink {
+    align-items: center;
+    background-color: var(--chapter-color);
+    color: var(--blanc);
+    display: flex;
+    font-size: 0.85rem;
+    font-weight: 600;
+    gap: 6px;
+    justify-content: center;
+    margin: auto 8px 8px;
+    padding: 0.6rem;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+}

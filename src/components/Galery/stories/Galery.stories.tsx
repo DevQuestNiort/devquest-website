@@ -28,6 +28,16 @@ export const Default: Story = {
     </Galery>
   ),
 };
+
+export const ResponsiveColumns: Story = {
+  args: {
+    columns: 3,
+    tabletColumns: 2,
+    mobileColumns: 1,
+  },
+  render: Default.render,
+};
+
 export const With: Story = {
   render: (args) => (
     <Galery {...args}>

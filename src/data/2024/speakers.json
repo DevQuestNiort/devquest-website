@@ -1,0 +1,297 @@
+[
+  {
+    "name": "Julien Landuré",
+    "id": "julien-landure",
+    "picture": "https://lh5.googleusercontent.com/-BrUtXil2gXA/AAAAAAAAAAI/AAAAAAAArDA/X8QWXTZ-ZrA/photo.jpg",
+    "company": "Zenika",
+    "bio": "CTO de Zenika Nantes, Julien est aussi Google Developer Expert Cloud. Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes.",
+    "sessionsId": [
+      "Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt"
+    ],
+    "social": {
+      "x": "https://twitter.com/jlandure",
+      "github": "https://github.com/jlandure"
+    }
+  },
+  {
+    "name": "Annabelle Koster",
+    "id": "annabelle-koster",
+    "picture": "https://media.licdn.com/dms/image/D5603AQE6zBLvOY9Gmw/profile-displayphoto-shrink_800_800/0/1701266237656?e=1722470400&v=beta&t=cgnUeQ8CSnBMkU-hjplcTTCw9V4j4u2vpKNULEAPSCY",
+    "company": "Sfeir",
+    "bio": "Ancienne Recruteuse IT, désormais Ambassadrice des communautés SFEIR. Je suis membre du GDG Nantes et organisatrice du DevFest Nantes depuis 2016, et présidente depuis 2020 ! Passionnée de l'univers IT, de mon métier et fan des Spice Girls !",
+    "sessionsId": [
+      "Y2lZpK9WwGOtlJAClHuT4KJWDFf1ClKnt"
+    ],
+    "social": {
+      "x": "https://twitter.com/AnnabelleKoster"
+    }
+  },
+  {
+    "name": "Simon Belbeoch",
+    "id": "R0e7G73kFbUoklczbPnVNlRZEAN2",
+    "picture": "https://lh3.googleusercontent.com/a/AGNmyxaD9wz2BJKqjan-v1O0Wuq12AZSAi68LF46dZx2=s96-c",
+    "company": "OCTO TECHNOLOGY",
+    "bio": "Simon débute l’informatique dès son plus jeune âge en automatisant des scripts et en réalisant le site de la webradio associative auprès de laquelle il s’engage à 12 ans.\nIl développe sa passion lors de ses études en MIAGE ou il développe ses compétences en apprentissage sur de l’expertise technique chez Orange puis SFR.\nIl lance en parallèle Intuitive Communication une application libre et gratuite qui permet aux personnes en situation de handicap de communiquer à nouveau. Convaincu que le web est voué à perdurer il développe l’application au format web ce qui permettra à quelques dizaines de milliers de personnes sourdes d’utiliser l’application.\n\nPendant deux ans et demi Simon tente ensuite l’expérience entrepreneuriale en développant frankise, une solution web pour remettre les utilisateurs en avant dans le cadre des avis clients. Il rejoint ensuite Octo Technology ou il rejoint WebF pour lui permettre dans ses mission comme en R&D de travailler autour des PWA et sur l’architecture front.",
+    "sessionsId": [
+      "XTt5AjfH18vpgIg3HC1j"
+    ],
+    "social": {
+      "x": "https://twitter.com/liquidIT_fr",
+      "github": "https://github.com/LiquidITGuy/"
+    }
+  },
+  {
+    "name": "Brandone Martins",
+    "id": "Y2lZpK9WwGOtlJAClHuT4KJWDFf1",
+    "picture": "https://lh3.googleusercontent.com/a/ACg8ocLYt6lx3mG2ietFCLUB28R0xuZApaTW2SnIZ8u5gt3pVok=s96-c",
+    "company": null,
+    "bio": null,
+    "sessionsId": [
+      "XTt5AjfH18vpgIg3HC1j"
+    ],
+    "social": {}
+  },
+  {
+    "name": "Gaël Poupard",
+    "id": "YtwBB1tQOvPPUtv5kF729IErT4A2",
+    "picture": "https://avatars.githubusercontent.com/u/2890570?v=4",
+    "company": "ONEPOINT",
+    "bio": "Lead tech front et accessibilité à Nantes, je profite du soleil pendant les conf’ et dis des âneries régulièrement. Les jeux de mots sont notre avenir, ne nous économisons pas.",
+    "sessionsId": [
+      "ioc2x2nW4KV5zrt69ZQm"
+    ],
+    "social": {
+      "github": "ffoodd"
+    }
+  },
+  {
+    "name": "Julien Libert",
+    "id": "2aE2PqjuMEY7Fkzoa1QIXahUJZh1",
+    "picture": "https://lh3.googleusercontent.com/a/ACg8ocL0nyMI0BVkUL1VcrzHUUH0EeBF0onH9LTEE8r07UX1",
+    "company": "EVOLIZ",
+    "bio": "Développeur Web depuis plus de 15 ans, j’aime coder, gérer des équipes et faire en sorte de garder une bonne cohérence dans mon code et une architecture de projet élaborée. \nJe passe la majorité de mon quotidien à jongler entre du Laravel, du VueJS, mais aussi de bons gros morceaux de code legacy (PHP, jQuery…). \n\nAprès une formation en informatique générale, c’est toujours le web et ses technos qui m’ont attirées. La véritable révélation s'est faite avec l’arrivée des frameworks (CSS, PHP, JS) qui ont commencé à structurer et donner des lignes directrices pour des projets plus ou moins complexes. Malgré les reproches qu’on peut parfois leur faire, ils permettent aux équipes de développement d’accélérer la production, d’éviter la redite de tâches laborieuses et ainsi se concentrer sur du code à forte valeur ajoutée pour les utilisateurs.\n\nActuellement Lead développeur chez Evoliz, j'ai dû aborder un framework dans un autre domaine : l’agilité dans la réalisation de projets, avec SCRUM. Notre philosophie : on essaie, on échoue, on améliore, on réussit, on améliore encore… Après 6 ans à leurs côtés, je me dis qu’on a tenté pas mal de choses, réussi sur certaines, échoué sur d’autres, et surtout acquis une modeste expérience sur divers sujets. C’est donc tout naturellement que me vient l’envie de partager tout cela avec d’autres.\n",
+    "sessionsId": [
+      "op9NV6COKMkYfRsCbA5Z"
+    ],
+    "social": {}
+  },
+  {
+    "name": "Sylvain Gougouzian",
+    "id": "IlVQ3DcdvccEIvzcYr75msiHJUo1",
+    "picture": "https://sylvain.gougouzian.fr/apple-touch-icon.png",
+    "company": "ZENIKA",
+    "bio": "Dev / Formateur @ Zenika Clermont-Ferrand,\nSpeaker,\nChef d'orchestre,\n(Retro)Gamer,\nPapa geek,\nEleveur de GNUs\n\nPlus d'infos sur https://gouz.dev",
+    "sessionsId": [
+      "sxuXYZ9LFxNrSVqKAGTu"
+    ],
+    "social": {
+      "x": "gouz",
+      "github": "gouz"
+    }
+  },
+  {
+    "name": "jean-francois garreau",
+    "id": "bAkrQrssjgU1zb5V2y2QpVnuCmf1",
+    "picture": "https://pbs.twimg.com/profile_images/1722992762981593088/JSeOp1pY_400x400.jpg",
+    "company": "SFEIR / GDG NANTES",
+    "bio": "GDE Web Technology, je travaille pour Sfeir en tant que CTO de l'agence de Nantes. Je suis un fan de la Web Platform et m'amuse dès que je peux avec les standards :)\n\nEn dehors du travail, je suis co-fondateur du GDG Nantes, organisateur du DevFest Nantes, Women Tech Makers Amabassador\n\nRetrouvez l'ensemble de mes contributions sur https://github.com/jefBinomed",
+    "sessionsId": [
+      "YPsuYQYS1gWLrKb4f2SA"
+    ],
+    "social": {
+      "x": "jefbinomed",
+      "github": "jefbinomed"
+    }
+  },
+  {
+    "name": "Curacao",
+    "id": "QDwJ4DU76sNb5oSyuI4gbySGGub2",
+    "picture": "https://avatars.githubusercontent.com/u/131726886?v=4",
+    "company": null,
+    "bio": null,
+    "sessionsId": [
+      "yRdKlGPKyggIvbVMJd45"
+    ],
+    "social": {}
+  },
+  {
+    "name": "Stanley S",
+    "id": "OwhDA6tB9thpeMKG6M99VySu2N12",
+    "picture": "https://sessionize.com/image/1039-400o400o2-DMhoYdSRNTBGtVTfnR1h7T.png",
+    "company": "ORANGE",
+    "bio": null,
+    "sessionsId": [
+      "yRdKlGPKyggIvbVMJd45"
+    ],
+    "social": {
+      "x": "https://twitter.com/2setech",
+      "github": "https://github.com/stanlee974"
+    }
+  },
+  {
+    "name": "Aurelien Coget",
+    "id": "YCssZeWom0gKHOMeVhmeseomrOA2",
+    "picture": "https://pbs.twimg.com/profile_images/1515336693641003013/DwikKth9_400x400.jpg",
+    "company": "R2DEVOPS",
+    "bio": "https://www.linkedin.com/in/aurelien-coget/",
+    "sessionsId": [
+      "0gKr1WucXpgx24GQNrk5"
+    ],
+    "social": {}
+  },
+  {
+    "name": "Geoffrey Graveaud",
+    "id": "A9zzfqYXubg8W63xrhWSXDz2Is53",
+    "company": "ARIANE GROUP",
+    "bio": "Devops Lead & Acculturation at Ariane Group (SpaceEnabler)\nI'm like a Swiss army knife : DevOps, agility, accelerate(DORA metrics), coaching, etc.\nI am a speaker and I train on public speaking",
+    "sessionsId": [
+      "104ABCaH2K2YG1jyGRQ0"
+    ],
+    "social": {
+      "x": "@GraveaudG"
+    }
+  },
+  {
+    "name": "Jihène Mejri",
+    "id": "Yn72dWZwPYS1oDKlxfw6J70PtBW2",
+    "picture": "https://media.licdn.com/dms/image/D4E03AQEpU0dd-S_jlg/profile-displayphoto-shrink_200_200/0/1677596494172?e=1722470400&v=beta&t=j6xyrdoFNEsfhy8OP0IktNF0GkELz6xYLhU98LLSwys",
+    "company": "BFORBANK",
+    "bio": "Je m'appelle Jihène je suis ingénieure en systèmes embarqués spécialisée dans le développement mobile depuis 12 ans. \nActuellement, je suis Chapter Lead  chez Bforbank 🐸.\n\n",
+    "sessionsId": [
+      "421I87Jua5ybGBpFB8mY"
+    ],
+    "social": {
+      "x": "https://www.linkedin.com/in/jihenemejri/"
+    }
+  },
+  {
+    "name": "Delegue Alexandre",
+    "id": "9g2TJuw97VMd8Zwn9y2x0g0w7SB2",
+    "picture": "https://avatars2.githubusercontent.com/u/1575521?v=4",
+    "company": "MAIF",
+    "bio": "Java, Scala, Kotlin, Javascript, pain au levain",
+    "sessionsId": [
+      "1UTHgcp3UIDFcoA2vwPC"
+    ],
+    "social": {
+      "x": "@chanksleroux",
+      "github": "larousso"
+    }
+  },
+  {
+    "name": "Fanny Klauk",
+    "id": "hDgeovtbpYUe248iONsiVDFsTn53",
+    "picture": "https://lh3.googleusercontent.com/a-/AOh14Ghy-jt97zLXbqxsYUcdxvd62hB1katKsxvruKL4",
+    "company": "APSIDE",
+    "bio": "[french version]  \nAccompagnatrice agile, co-créatrice de TADx, j'ai parcouru des kilomètres de lignes de développements, d'analyses fonctionnelles et d'architectures orientées données avant de revenir à mes premières amours : le travail d'équipe, dans un cadre motivant et bienveillant, autour de produits utiles et vivants.  \nC'est donc tout naturellement vers l'agilité que mes dernières missions se sont tournées. Depuis, je glane le meilleur pour alimenter les équipes que j'accompagne au quotidien : mindset DevOps et craftership, outils au service de la qualité et du déploiement, techniques de design thinking pour capter les vrais besoins et l'amélioration continue des produits et des équipes.\n\n-----\n\n[english version]  \nAs an agile coach and co-creator of TADx, I covered miles of development lines, functional analyses and data-oriented architectures before returning to my first love: teamwork, in a motivating and caring environment, around useful and lively products.   \nSo it was quite naturally that my latest assignments turned to agility. Since then, I've been gleaning the best from the teams I work with on a daily basis: a DevOps and craftership mindset, tools for quality and deployment, design thinking techniques to capture real needs and the continuous improvement of products and teams.\n",
+    "sessionsId": [
+      "S33SsGdvuBSe79BRHX3L"
+    ],
+    "social": {
+      "x": "@klf37",
+      "github": "klaukf"
+    }
+  },
+  {
+    "name": "Thomas Da Rocha",
+    "id": "tremplin",
+    "picture": "https://avatars.githubusercontent.com/u/8969556?v=4",
+    "company": "Lenra",
+    "bio": "Passionné d'informatique depuis le lycée, tous les sujets liés au développement m'intriguent. Le développement est pour moi aussi créatif que la musique et une excellente solution pour la résolution de problèmes au quotidien.\n\nCette passion m'a permis de toucher à tous types de sujets lié au développement et me permet aujourd'hui d'être aussi à l'aise sur des sujets de développement front-end, back-end et Ops.\n\nJ'ai créé l'entreprise Lenra en 2015 avec pour but de déporter les puissances de calcul côté serveur, et c'est comme ça que nous avons lancé la plateforme Lenra en octobre 2023 après plusieurs refonte et années de développement.",
+    "sessionsId": [
+      "S33SsGd-tremplin"
+    ],
+    "social": {
+      "x": "taorepoara",
+      "github": "taorepoara"
+    }
+  },
+  {
+    "name": "Vivien Maleze",
+    "id": "YLVMWwftLxMo9ReJKfiE5PRPVH23",
+    "picture": "https://gravatar.com/userimage/143841654/b55ad03b3e18b46c6de006673499537c.jpeg?size=256",
+    "company": "IPPON TECHNOLOGIES",
+    "bio": "Vivien est architecte technique chez Ippon Technologies. Son gros sujet, c'est améliorer l'expérience de développement de ses collaborateurs\nPassioné de nouvelles technologies, il est toujours avide de découvrir de nouveaux sujets, mais aussi de les partager.\n\nVivien a eu l'occasion de travailler sur de multiples architectures distribuées chez de nombreux clients avec chacune leur facette bien spécifique. Il a eu la chance de travailler aussi bien sur le développement de microservices, que sur leur déploiement et leur maintien sur les plateformes clouds",
+    "sessionsId": [
+      "jOS0fDBjpVxRwkJhYGx8"
+    ],
+    "social": {
+      "x": "@vmaleze",
+      "github": "vmaleze"
+    }
+  },
+  {
+    "name": "Marine du Mesnil",
+    "id": "44hfk2wWowgNUCwLbanl27TPNC12",
+    "picture": "https://media.licdn.com/dms/image/C4E03AQE8-KTEeViCPA/profile-displayphoto-shrink_400_400/0/1657548896096?e=1717632000&v=beta&t=78KWAx5rTSVXfXReuS3RanoNVLnYTVOmu5jpeeVWqfU",
+    "company": "THEODO",
+    "bio": "Head of Cybersecurity Tribe @Theodo, Marine du Mesnil s’intéresse tout particulièrement à la sécurité informatique et s’implique au sein de la guilde Sécurité de Theodo pour aider les développeurs à créer des produits conformes en les formant et en intervenant dans les différents projets. \n\nElle suit particulièrement les publications de l’OWASP et s’intéresse tout particulièrement au contrôle d’accès, devenu la cause principale de faille sur les sites internets et placé au Top 1 du nouveau Top 10 de l’OWASP.",
+    "sessionsId": [
+      "DFwcuwO56ihk6RRt92UE"
+    ],
+    "social": {
+      "x": "marine_mesnil",
+      "github": "marine-mb"
+    }
+  },
+  {
+    "name": "Céline Mérand",
+    "id": "7YSzr05x4XUGZ8SsUtRUnNX6pIf2",
+    "picture": "https://lh3.googleusercontent.com/a/AGNmyxYvlqDjsfuDpmuhg8-R6s1oLIpxe6gfHZ-D3ocBTA=s96-c-rg-br100",
+    "company": null,
+    "bio": null,
+    "sessionsId": [
+      "anOldGi7qzAGSBM90IDy"
+    ],
+    "social": {}
+  },
+  {
+    "name": "charline humeau",
+    "id": "HejjXL871HSYUhQxJUh1lJtueOp1",
+    "picture": "https://lh3.googleusercontent.com/a-/AOh14GgT-29BeaaTZZ7BB_sDQcHSH05HilRbreZCCpy3tw=s96-c",
+    "company": "ONEPOINT",
+    "bio": "Charline travaille depuis 7 ans chez onepoint. Son sujet du moment? L'accessibilité numérique ou comme le dit Tim Berners-Lee : \"Mettre le Web et ses services à la disposition de tous les individus, quel que soit leur matériel ou logiciel, [...] leur langue maternelle, ou leurs aptitudes physiques ou mentales\".\nAu quotidien, elle concentre toutes ses compétences pour réaliser des applications Web modernes à forte valeur ajoutée et à large diffusion. ",
+    "sessionsId": [
+      "anOldGi7qzAGSBM90IDy"
+    ],
+    "social": {}
+  },
+  {
+    "name": "Benjamin Cavy",
+    "id": "PRuMzxC7NVbsVnJP07AbHR2cNFx2",
+    "picture": "https://lh3.googleusercontent.com/-qridgWF20Vk/AAAAAAAAAAI/AAAAAAAAAtQ/K8bT4K-PTmU/photo.jpg",
+    "company": "MAIF",
+    "bio": "Lead dev à la MAIF, je m'intéresse en ce moment particulièrement aux tests et à ce qu'ils peuvent apporter dans le processus de développement logiciel.",
+    "sessionsId": [
+      "1VwnWElWuMILCaS98esg"
+    ],
+    "social": {
+      "x": "@benjamin_cavy",
+      "github": "ptitFicus"
+    }
+  },
+  {
+    "name": "Dorian Lamandé",
+    "id": "6QI2Npr3sNYkVNvhdG0M3XD7IQg1",
+    "picture": "https://sessionize.com/image/860d-200o200o2-af67621f-91b1-453a-8f1d-d0a857a71aee.jpg",
+    "company": null,
+    "bio": "Dorian, à la fois formateur et leader d'équipe partage avec enthousiasme ses compétences humaines et techniques pour inspirer et guider chacun vers l'exploitation totale de leurs capacités.",
+    "sessionsId": [
+      "DtBsONOL77NRIUkJCPqG"
+    ],
+    "social": {
+      "github": "dlamande"
+    }
+  },
+  {
+    "name": "Neil Benn",
+    "id": "MUIqX7ikE2aFlv66SOSnx4MylRb2",
+    "picture": "https://lh3.googleusercontent.com/a/ACg8ocJSZKh_Y6Mw4yVa9Fbs56v_oKUFMcjRdhp2ZdUj0Zf1Qw=s96-c",
+    "company": null,
+    "bio": null,
+    "sessionsId": [
+      "kXmpwDrXnSne2RsXfj5X"
+    ],
+    "social": {}
+  }
+]
