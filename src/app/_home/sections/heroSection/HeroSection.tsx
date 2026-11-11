@@ -6,6 +6,7 @@ import { Card } from "@/components/Card";
 
 import backgroundImage from "/public/img/2027/2027-hero-4.png";
 import { DevQuestLogoShortDate } from "@/components/DevQuestLogo";
+import { LinkButton } from "@/components/LinkButton";
 
 export function HeroSection() {
   return (
@@ -26,8 +27,24 @@ export function HeroSection() {
         haloColor="var(--complementary-color)"
         haloSize={20}
       />
-      <Card variant="Main" className={styles.heroCard}>
-        <h1>Le premier rassemblement des devs Niortais Revient bientôt</h1>
+      <Card variant="Main" >
+                <h2>Aux mécènes de la quête</h2>
+                <p>
+                  Nobles compagnons, la <strong>Guilde DevQuest</strong> convoque ses alliés à un grand conseil,
+                  le <strong>27 novembre</strong>, par-delà les ondes de la visioconférence.
+                  <br/>Au menu : le dévoilement des <strong>packs sponsors</strong>, trésors et faveurs réservés à ceux qui rejoindront notre table et nous soutiendrons dans cette quatrième quête.
+                </p>
+                <p>
+                  Que votre bannière se joigne à l&apos;aventure !
+                </p>
+                <LinkButton
+                  theme="Primary"
+                  href="https://calendar.app.google/MM8GqZP8VBx3ZDRC7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  S'inscrire à la présentation des packs sponsors
+                </LinkButton>
       </Card>
     </Section>
   );
