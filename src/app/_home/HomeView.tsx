@@ -5,6 +5,7 @@ import { HeroSection } from "./sections/heroSection/HeroSection";
 import { LevelPartenaire } from "@/model/LevelPartenaire";
 import { Section } from "@/components/Section";
 import { Contact } from "@/components/Contact";
+import { LinkButton } from "@/components/LinkButton";
 
 interface HomeViewProperties {
   readonly contacts: MoyensContact[];
@@ -29,6 +30,8 @@ export default function HomeView({
           {contacts?.map(contact =>  <Contact key={contact.name} name={contact.name} link={contact.link} asset={contact.asset}/> )}
         </div>
       </Section>
+
+
     </div>
   );
 }
