@@ -43,7 +43,7 @@ export function HeroSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  S'inscrire à la présentation des packs sponsors
+                  S&apos;inscrire à la présentation des packs sponsors
                 </LinkButton>
       </Card>
     </Section>
