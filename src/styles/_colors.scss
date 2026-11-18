@@ -1,5 +1,6 @@
-// Système de thème par année : --primary/secondary/tertiary-color sont les seuls
-// tokens que les composants doivent utiliser. :root fixe le thème actif (2026).
+// Système de thème par année : les tokens --main / --complementary / --chapter /
+// --chapter-dark / --chapter-ligth (-color et -font-color) sont les seuls que les
+// composants doivent utiliser, jamais les couleurs brutes des palettes. Le thème actif est posé par data-theme sur <html> (layout.tsx).
 // Un data-theme="2024|2025|2026|2027" sur un ancêtre permet de forcer le rendu d'une
 // autre édition (ex. page d'archives) sans dupliquer le CSS des composants.
 :root {

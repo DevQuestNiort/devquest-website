@@ -1,4 +1,10 @@
+// Chaque variant prend le fond et la couleur de texte de son thème (cf. styles/_colors.scss).
+// La bordure reprend la couleur du texte : le bouton reste visible même posé sur une
+// section ou une carte du même thème.
 .btn {
+  --btn-bg: var(--chapter-color);
+  --btn-fg: var(--chapter-font-color);
+
   padding: 0.25em 1em;
   font-family: var(--font-teko), sans-serif;
   font-weight: bold;
@@ -6,17 +12,33 @@
   text-decoration: none;
   transition: 0.25s;
   text-align: center;
+  border: solid 2px var(--btn-fg);
+  background-color: var(--btn-bg);
+  color: var(--btn-fg);
 
-  &Primary {
-    border: solid 2px white;
-    background-color: var(--chapter-color);
-    color: white;
+  &Main {
+    --btn-bg: var(--main-color);
+    --btn-fg: var(--main-font-color);
   }
 
-  &Secondary {
-    border: solid 2px var(--chapter-color);
-    background-color: var(--chapter-ligth-color);
-    color: var(--chapter-color);
+  &Complementary {
+    --btn-bg: var(--complementary-color);
+    --btn-fg: var(--complementary-font-color);
+  }
+
+  &Chapter {
+    --btn-bg: var(--chapter-color);
+    --btn-fg: var(--chapter-font-color);
+  }
+
+  &ChapterDark {
+    --btn-bg: var(--chapter-dark-color);
+    --btn-fg: var(--chapter-dark-font-color);
+  }
+
+  &ChapterLight {
+    --btn-bg: var(--chapter-ligth-color);
+    --btn-fg: var(--chapter-ligth-font-color);
   }
 
   &:hover {

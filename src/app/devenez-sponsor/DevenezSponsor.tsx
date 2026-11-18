@@ -123,7 +123,7 @@ export function DevenezSponsor() {
             votre bannière flotte devant des centaines de développeur·ses,
             étudiant·es et décideur·ses du bassin niortais.
           </p>
-          <LinkButton theme="Primary" href="#packs">
+          <LinkButton variant="Chapter" href="#packs">
             Découvrir les packs
           </LinkButton>
         </Card>
@@ -263,7 +263,7 @@ export function DevenezSponsor() {
               présenter cette quatrième quête.
             </p>
             <LinkButton
-              theme="Primary"
+              variant="Chapter"
               href="https://calendar.app.google/MM8GqZP8VBx3ZDRC7"
               target="_blank"
               rel="noopener noreferrer"

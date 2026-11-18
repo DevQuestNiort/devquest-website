@@ -39,14 +39,14 @@ export function HeroSection() {
                 </p>
                 <div className={styles.actions}>
                 <LinkButton
-                  theme="Primary"
+                  variant="Chapter"
                   href="https://calendar.app.google/MM8GqZP8VBx3ZDRC7"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   S&apos;inscrire à la présentation des packs sponsors
                 </LinkButton>
-                <LinkButton theme="Secondary" href="/devenez-sponsor">
+                <LinkButton variant="ChapterLight" href="/devenez-sponsor">
                   Découvrir les packs sponsors
                 </LinkButton>
                 </div>

@@ -11,7 +11,7 @@ type Story = StoryObj<typeof LinkButton>;
 
 export const Default: Story = {
   args: {
-    theme: "Primary",
+    variant: "Chapter",
     href: "www.google.fr",
     children: "Click on me!",
   },

@@ -6,8 +6,8 @@
   align-items: center;
   justify-content: center;
   min-height: 80px;
-  background-color: white;
-  color: black;
+  background-color: var(--main-color);
+  color: var(--main-font-color);
 
 
   @media (min-width: 640px) {
