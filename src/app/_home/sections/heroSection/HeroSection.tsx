@@ -46,7 +46,7 @@ export function HeroSection() {
                 >
                   S&apos;inscrire à la présentation des packs sponsors
                 </LinkButton>
-                <LinkButton variant="ChapterLight" href="/devenez-sponsor">
+                <LinkButton variant="Complementary" href="/devenez-sponsor">
                   Découvrir les packs sponsors
                 </LinkButton>
                 </div>
