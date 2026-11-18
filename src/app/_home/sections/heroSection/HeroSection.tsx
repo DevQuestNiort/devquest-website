@@ -37,6 +37,7 @@ export function HeroSection() {
                 <p>
                   Que votre bannière se joigne à l&apos;aventure !
                 </p>
+                <div className={styles.actions}>
                 <LinkButton
                   theme="Primary"
                   href="https://calendar.app.google/MM8GqZP8VBx3ZDRC7"
@@ -45,6 +46,10 @@ export function HeroSection() {
                 >
                   S&apos;inscrire à la présentation des packs sponsors
                 </LinkButton>
+                <LinkButton theme="Secondary" href="/devenez-sponsor">
+                  Découvrir les packs sponsors
+                </LinkButton>
+                </div>
       </Card>
     </Section>
   );

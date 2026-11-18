@@ -1,6 +1,7 @@
 {
   "items": [
     { "label": "Accueil", "href": "/" },
+    { "label": "Devenez sponsor", "href": "/devenez-sponsor" },
     {
       "label": "Batisseurs",
       "children": [
