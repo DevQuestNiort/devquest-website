@@ -161,6 +161,12 @@
     max-width: 1300px;
     overflow-x: auto;
     margin: 1rem 0 1.5rem;
+
+    // Un conteneur à overflow empêche l'en-tête collant (vertical) de
+    // fonctionner ; inutile sur mobile puisque le tableau s'empile.
+    @media (max-width: 768px) {
+      overflow: visible;
+    }
   }
 
   .compare {
@@ -249,6 +255,65 @@
       img {
         vertical-align: middle;
         margin-right: 0.5rem;
+      }
+    }
+
+    // Petit écran : plus de colonnes côte à côte ni de défilement horizontal.
+    // Chaque option = libellé (+ explication) sur toute la largeur, puis
+    // une ligne de N cases (une par pack). Les noms de packs restent collés
+    // en haut, sous le header du site (64px).
+    @media (max-width: 768px) {
+      display: block;
+      min-width: 0;
+
+      thead,
+      tbody {
+        display: block;
+      }
+
+      thead {
+        position: sticky;
+        top: 64px;
+        z-index: 1;
+      }
+
+      tr {
+        display: grid;
+        grid-template-columns: repeat(var(--packs), minmax(0, 1fr));
+      }
+
+      th,
+      td {
+        padding: 0.4rem 0.5rem;
+      }
+
+      th:first-child {
+        position: static;
+      }
+
+      // La case « Option » de l'en-tête n'a plus de colonne à titrer.
+      thead th:first-child {
+        display: none;
+      }
+
+      thead th {
+        font-size: 0.85rem;
+        overflow-wrap: anywhere;
+      }
+
+      .comparePrice {
+        font-size: 0.9rem;
+      }
+
+      tbody th[scope="row"],
+      .compareGroup th {
+        grid-column: 1 / -1;
+        max-width: none;
+        border-bottom: none;
+      }
+
+      tbody th[scope="row"] {
+        padding-bottom: 0;
       }
     }
   }

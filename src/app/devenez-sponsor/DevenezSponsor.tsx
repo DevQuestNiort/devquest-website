@@ -164,7 +164,10 @@ export function DevenezSponsor() {
           Comparatif des packs
         </h3>
         <div className={styles.compareWrapper}>
-          <table className={styles.compare}>
+          <table
+            className={styles.compare}
+            style={{ "--packs": packs.length } as React.CSSProperties}
+          >
             <thead>
               <tr>
                 <th scope="col">Option</th>
