@@ -32,7 +32,7 @@ const packs: Pack[] = [
     perks: {
       stand: ["1 pass DevQuest 2 jours"],
       visibilite: [
-        "Panneau de « quête » pour afficher les logos",
+        "Logo sur le panneau d'entrée",
         "Logo et redirection vers le site sur devquest.fr",
       ],
       social: ["1 communication sur les réseaux sociaux"],
@@ -48,7 +48,7 @@ const packs: Pack[] = [
     perks: {
       stand: ["1 stand de 3x4m", "2 pass DevQuest 2 jours"],
       visibilite: [
-        "Panneau de « quête » pour afficher les logos",
+        "Logo sur le panneau d'entrée",
         "Logo et redirection vers le site sur devquest.fr",
         "Logo sur les slides de transition lors de l'évènement",
       ],
@@ -65,14 +65,14 @@ const packs: Pack[] = [
     perks: {
       stand: ["1 stand de 3x4m", "4 pass DevQuest 2 jours"],
       visibilite: [
-        "Panneau de « quête » pour afficher les logos",
+        "Logo sur le panneau d'entrée",
         "Logo et redirection vers le site sur devquest.fr",
         "Logo sur les slides de transition lors de l'évènement",
         "Logo sur les livrets visiteurs",
         "Lien vers votre site dans la description des replays",
       ],
       social: ["2 communications sur les réseaux sociaux"],
-      bonus: ["Participation à l'escape game DevQuest (QRGlyphe)"],
+      bonus: ["Participation au jeu DevQuest (QRGlyphe)"],
     },
   },
   {
@@ -84,12 +84,12 @@ const packs: Pack[] = [
     perks: {
       stand: ["1 stand de 3x4m", "5 pass DevQuest 2 jours"],
       visibilite: [
-        "Panneau de « quête » pour afficher les logos",
+        "Logo sur le panneau d'entrée",
         "Logo et redirection vers le site sur devquest.fr",
         "Logo sur les slides de transition lors de l'évènement",
         "Logo sur les livrets visiteurs",
         "Lien vers votre site dans la description des replays",
-        "1 bannière personnalisée du DevQuest",
+        "Surprise du DevQuest",
         "Logo sur les tours de cou",
         "Logo affiché sur la diffusion du direct Twitch",
         "Lien poussé dans le tchat Twitch",
@@ -97,8 +97,8 @@ const packs: Pack[] = [
       ],
       social: ["2 communications sur les réseaux sociaux"],
       bonus: [
-        "Participation à l'escape game DevQuest (QRGlyphe)",
-        "1 activité sur le stand par DevQuest",
+        "Participation au jeu DevQuest (QRGlyphe)",
+        "Activité sur le stand par DevQuest",
       ],
     },
   },
@@ -160,7 +160,7 @@ export function DevenezSponsor() {
           </li>
           <li>
             <strong>Recrutement</strong> : rencontrez en direct les talents de
-            demain, sur votre stand ou autour de l&apos;escape game.
+            demain, sur votre stand ou autour du jeu DevQuest.
           </li>
           <li>
             <strong>Rayonnement local</strong> : affichez votre ancrage dans
