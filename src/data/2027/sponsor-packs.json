@@ -1,0 +1,183 @@
+{
+  "groups": [
+    { "key": "stand", "title": "Stand & places", "icon": "/icons-rp/dnd-stand.png" },
+    { "key": "visibilite", "title": "Visibilité", "icon": "/icons-rp/dnd-visibilite.png" },
+    { "key": "social", "title": "Réseaux sociaux", "icon": "/icons-rp/dnd-reseaux.png" },
+    { "key": "bonus", "title": "Bonus", "icon": "/icons-rp/dnd-bonus.png" }
+  ],
+  "perks": [
+    {
+      "key": "stand",
+      "group": "stand",
+      "kind": "count",
+      "label": { "one": "{n} stand de 3x4m", "other": "{n} stands de 3x4m" },
+      "tableLabel": "Stand de 3x4m"
+    },
+    {
+      "key": "pass",
+      "group": "stand",
+      "kind": "count",
+      "label": "{n} pass DevQuest 2 jours",
+      "tableLabel": "Pass DevQuest 2 jours",
+      "details": "Pass exposant ou participant, sans distinction : il faut un pass pour chaque personne qui tient le stand."
+    },
+    {
+      "key": "panneau",
+      "group": "visibilite",
+      "kind": "flag",
+      "label": "Logo sur le panneau d'entrée",
+      "details": "Affichage sur la grande bâche du DevQuest, à l'entrée. Idéal pour les photos !"
+    },
+    {
+      "key": "site",
+      "group": "visibilite",
+      "kind": "flag",
+      "label": "Logo et redirection vers le site sur devquest.fr"
+    },
+    {
+      "key": "slides",
+      "group": "visibilite",
+      "kind": "flag",
+      "label": "Logo sur les slides de transition lors de l'évènement",
+      "details": "Votre logo est présent sur les affichages numériques tout au long du DevQuest."
+    },
+    {
+      "key": "livrets",
+      "group": "visibilite",
+      "kind": "flag",
+      "label": "Logo sur les livrets visiteurs",
+      "details": "Votre logo figure sur le livret distribué aux participant·es, avec le programme et les infos de l'évènement."
+    },
+    {
+      "key": "lienReplays",
+      "group": "visibilite",
+      "kind": "flag",
+      "label": "Lien vers votre site dans la description des replays",
+      "details": "Dans la description des replays sur YouTube, nous ajoutons un lien vers votre site web."
+    },
+    {
+      "key": "surprise",
+      "group": "visibilite",
+      "kind": "flag",
+      "label": "Surprise du DevQuest",
+      "details": "Nous tâcherons de vous préparer un cadeau personnalisé."
+    },
+    {
+      "key": "tourDeCou",
+      "group": "visibilite",
+      "kind": "flag",
+      "label": "Logo sur les tours de cou",
+      "details": "Votre logo sur les tours de cou des participant·es. Attention : si votre pack est acheté au dernier moment et que les tours de cou sont déjà commandés, nous ne pourrons pas nous y engager."
+    },
+    {
+      "key": "twitch",
+      "group": "visibilite",
+      "kind": "flag",
+      "label": "Logo affiché sur la diffusion du direct Twitch",
+      "details": "Votre logo s'affiche régulièrement pendant le live Twitch."
+    },
+    {
+      "key": "tchat",
+      "group": "visibilite",
+      "kind": "flag",
+      "label": "Lien poussé dans le tchat Twitch"
+    },
+    {
+      "key": "youtube",
+      "group": "visibilite",
+      "kind": "flag",
+      "label": "Logo sur les vidéos des replays YouTube",
+      "details": "Votre logo s'affiche régulièrement dans les replays YouTube."
+    },
+    {
+      "key": "communications",
+      "group": "social",
+      "kind": "count",
+      "label": {
+        "one": "{n} communication sur les réseaux sociaux",
+        "other": "{n} communications sur les réseaux sociaux"
+      },
+      "tableLabel": "Communications sur les réseaux sociaux"
+    },
+    {
+      "key": "jeu",
+      "group": "bonus",
+      "kind": "flag",
+      "label": "Participation au jeu DevQuest (QRGlyphe)",
+      "details": "Le jeu que nous organisons chaque année incite les participant·es à venir jusqu'à votre stand."
+    },
+    {
+      "key": "activite",
+      "group": "bonus",
+      "kind": "flag",
+      "label": "Activité sur le stand par DevQuest",
+      "details": "Nous installons une activité sur votre stand pour attirer les participant·es vers vous."
+    }
+  ],
+  "packs": [
+    {
+      "code": "COMMUN",
+      "icon": "/icons-rp/communsword.png",
+      "name": "Pack Commun",
+      "price": "1 000 €",
+      "perks": { "pass": 1, "panneau": true, "site": true, "communications": 1 }
+    },
+    {
+      "code": "RARE",
+      "icon": "/icons-rp/raresword.png",
+      "name": "Pack Rare",
+      "price": "4 000 €",
+      "extension": "+ 4 000 €",
+      "perks": {
+        "stand": 1,
+        "pass": 2,
+        "panneau": true,
+        "site": true,
+        "slides": true,
+        "communications": 1
+      }
+    },
+    {
+      "code": "EPIQUE",
+      "icon": "/icons-rp/epicsword.png",
+      "name": "Pack Épique",
+      "price": "5 000 €",
+      "extension": "+ 3 500 €",
+      "perks": {
+        "stand": 1,
+        "pass": 4,
+        "panneau": true,
+        "site": true,
+        "slides": true,
+        "livrets": true,
+        "lienReplays": true,
+        "communications": 2,
+        "jeu": true
+      }
+    },
+    {
+      "code": "LEGENDAIRE",
+      "icon": "/icons-rp/uniquesword.png",
+      "name": "Pack Légendaire",
+      "price": "7 000 €",
+      "extension": "+ 3 000 €",
+      "perks": {
+        "stand": 1,
+        "pass": 5,
+        "panneau": true,
+        "site": true,
+        "slides": true,
+        "livrets": true,
+        "lienReplays": true,
+        "surprise": true,
+        "tourDeCou": true,
+        "twitch": true,
+        "tchat": true,
+        "youtube": true,
+        "communications": 2,
+        "jeu": true,
+        "activite": true
+      }
+    }
+  ]
+}

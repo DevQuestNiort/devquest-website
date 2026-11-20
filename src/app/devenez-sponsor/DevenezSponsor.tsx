@@ -5,104 +5,14 @@ import styles from "./DevenezSponsor.module.scss";
 
 import backgroundImage from "/public/img/2027/2027-guilde-hero.png";
 
-const groups = [
-  { key: "stand", title: "Stand & places", icon: "/icons-rp/dnd-stand.png" },
-  { key: "visibilite", title: "Visibilité", icon: "/icons-rp/dnd-visibilite.png" },
-  { key: "social", title: "Réseaux sociaux", icon: "/icons-rp/dnd-reseaux.png" },
-  { key: "bonus", title: "Bonus", icon: "/icons-rp/dnd-bonus.png" },
-] as const;
-
-type GroupKey = (typeof groups)[number]["key"];
-
-interface Pack {
-  code: string;
-  icon: string;
-  name: string;
-  price: string;
-  extension?: string;
-  perks: Record<GroupKey, string[]>;
-}
-
-const packs: Pack[] = [
-  {
-    code: "COMMUN",
-    icon: "/icons-rp/communsword.png",
-    name: "Pack Commun",
-    price: "1 000 €",
-    perks: {
-      stand: ["1 pass DevQuest 2 jours"],
-      visibilite: [
-        "Logo sur le panneau d'entrée",
-        "Logo et redirection vers le site sur devquest.fr",
-      ],
-      social: ["1 communication sur les réseaux sociaux"],
-      bonus: [],
-    },
-  },
-  {
-    code: "RARE",
-    icon: "/icons-rp/raresword.png",
-    name: "Pack Rare",
-    price: "4 000 €",
-    extension: "+ 4 000 €",
-    perks: {
-      stand: ["1 stand de 3x4m", "2 pass DevQuest 2 jours"],
-      visibilite: [
-        "Logo sur le panneau d'entrée",
-        "Logo et redirection vers le site sur devquest.fr",
-        "Logo sur les slides de transition lors de l'évènement",
-      ],
-      social: ["1 communication sur les réseaux sociaux"],
-      bonus: [],
-    },
-  },
-  {
-    code: "EPIQUE",
-    icon: "/icons-rp/epicsword.png",
-    name: "Pack Épique",
-    price: "5 000 €",
-    extension: "+ 3 500 €",
-    perks: {
-      stand: ["1 stand de 3x4m", "4 pass DevQuest 2 jours"],
-      visibilite: [
-        "Logo sur le panneau d'entrée",
-        "Logo et redirection vers le site sur devquest.fr",
-        "Logo sur les slides de transition lors de l'évènement",
-        "Logo sur les livrets visiteurs",
-        "Lien vers votre site dans la description des replays",
-      ],
-      social: ["2 communications sur les réseaux sociaux"],
-      bonus: ["Participation au jeu DevQuest (QRGlyphe)"],
-    },
-  },
-  {
-    code: "LEGENDAIRE",
-    icon: "/icons-rp/uniquesword.png",
-    name: "Pack Légendaire",
-    price: "7 000 €",
-    extension: "+ 3 000 €",
-    perks: {
-      stand: ["1 stand de 3x4m", "5 pass DevQuest 2 jours"],
-      visibilite: [
-        "Logo sur le panneau d'entrée",
-        "Logo et redirection vers le site sur devquest.fr",
-        "Logo sur les slides de transition lors de l'évènement",
-        "Logo sur les livrets visiteurs",
-        "Lien vers votre site dans la description des replays",
-        "Surprise du DevQuest",
-        "Logo sur les tours de cou",
-        "Logo affiché sur la diffusion du direct Twitch",
-        "Lien poussé dans le tchat Twitch",
-        "Logo sur les vidéos des replays YouTube",
-      ],
-      social: ["2 communications sur les réseaux sociaux"],
-      bonus: [
-        "Participation au jeu DevQuest (QRGlyphe)",
-        "Activité sur le stand par DevQuest",
-      ],
-    },
-  },
-];
+import {
+  groups,
+  packPerkLabels,
+  packs,
+  perks,
+  tableCell,
+  tableLabel,
+} from "./sponsorPacks";
 
 export function DevenezSponsor() {
   return (
@@ -192,29 +102,34 @@ export function DevenezSponsor() {
               <p className={styles.price}>{pack.price}</p>
             </div>
           ))}
-          {groups.map((group, g) =>
-            packs.map((pack, i) => (
-              <div
-                key={`${pack.code}-${group.key}`}
-                className={`${styles.cell} ${styles.group} `}
-                style={{ "--pack": i } as React.CSSProperties}
-              >
-                <h4>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={group.icon} alt="" width={32} height={32} />
-                  {group.title}
-                </h4>
-                {pack.perks[group.key].length > 0 ? (
-                  <ul>
-                    {pack.perks[group.key].map((perk) => (
-                      <li key={perk}>{perk}</li>
-                    ))}
-                  </ul>
-                ) : (
-                  <p className={styles.none}>—</p>
-                )}
-              </div>
-            )),
+          {groups.map((group) =>
+            packs.map((pack, i) => {
+              const labels = packPerkLabels(pack, group.key);
+              return (
+                <div
+                  key={`${pack.code}-${group.key}`}
+                  className={`${styles.cell} ${styles.group}`}
+                  style={{ "--pack": i } as React.CSSProperties}
+                >
+                  <h4>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={group.icon} alt="" width={32} height={32} />
+                    {group.title}
+                  </h4>
+                  {labels.length > 0 ? (
+                    <ul>
+                      {labels.map(({ label, details }) => (
+                        <li key={label} title={details}>
+                          {label}
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className={styles.none}>—</p>
+                  )}
+                </div>
+              );
+            }),
           )}
           {packs.map((pack, i) => (
             <div
@@ -243,6 +158,75 @@ export function DevenezSponsor() {
             </div>
           ))}
         </div>
+
+        {/* Ancre utilisée par le QR code : /devenez-sponsor#comparatif */}
+        <h3 id="comparatif" className={styles.compareTitle}>
+          Comparatif des packs
+        </h3>
+        <div className={styles.compareWrapper}>
+          <table className={styles.compare}>
+            <thead>
+              <tr>
+                <th scope="col">Option</th>
+                {packs.map((pack) => (
+                  <th key={pack.code} scope="col">
+                    {pack.name.replace(/^Pack /, "")}
+                    <span className={styles.comparePrice}>{pack.price}</span>
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            {groups.map((group) => (
+              <tbody key={group.key}>
+                <tr className={styles.compareGroup}>
+                  <th scope="colgroup" colSpan={packs.length + 1}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={group.icon} alt="" width={24} height={24} />
+                    {group.title}
+                  </th>
+                </tr>
+                {perks
+                  .filter((perk) => perk.group === group.key)
+                  .map((perk) => (
+                    <tr key={perk.key}>
+                      <th scope="row">
+                        {tableLabel(perk)}
+                        {perk.details && (
+                          <span className={styles.compareDetails}>
+                            {perk.details}
+                          </span>
+                        )}
+                      </th>
+                      {packs.map((pack) => (
+                        <td key={pack.code}>{tableCell(pack, perk)}</td>
+                      ))}
+                    </tr>
+                  ))}
+              </tbody>
+            ))}
+            <tbody>
+              <tr className={styles.compareGroup}>
+                <th scope="colgroup" colSpan={packs.length + 1}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/icons-rp/dnd-extension.png"
+                    alt=""
+                    width={24}
+                    height={24}
+                  />
+                  Possibilité d&apos;extension
+                </th>
+              </tr>
+              <tr>
+                <th scope="row">Second stand</th>
+                {packs.map((pack) => (
+                  <td key={pack.code}>{pack.extension ?? "—"}</td>
+                ))}
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
         <p className={styles.note}>
           Un besoin particulier ? Contactez nous ! 
         </p>

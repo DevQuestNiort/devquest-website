@@ -148,6 +148,111 @@
     font-style: italic;
   }
 
+  // Tableau comparatif : défilement horizontal sur petit écran,
+  // première colonne collée pour garder le libellé visible.
+  .compareTitle {
+    margin-top: 2rem;
+    // Compense le header collant (64px) quand on arrive via l'ancre.
+    scroll-margin-top: 80px;
+  }
+
+  .compareWrapper {
+    width: 100%;
+    max-width: 1300px;
+    overflow-x: auto;
+    margin: 1rem 0 1.5rem;
+  }
+
+  .compare {
+    width: 100%;
+    min-width: 640px;
+    border-collapse: collapse;
+    background-color: var(--main-color);
+    color: var(--main-font-color);
+    font-family: var(--font-source-sans-pro), sans-serif;
+    font-size: 1rem;
+
+    th,
+    td {
+      padding: 0.5rem 0.75rem;
+      border-bottom: 1px dashed currentColor;
+    }
+
+    td {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    // Fond explicite sur chaque case : nécessaire pour la colonne collée
+    // (sinon le contenu défilant passe en transparence dessous).
+    th,
+    td {
+      background-color: var(--main-color);
+    }
+
+    thead th {
+      text-align: center;
+      font-size: 1.1rem;
+      vertical-align: bottom;
+      background-color: var(--chapter-dark-color);
+      color: var(--chapter-dark-font-color);
+      border-bottom: none;
+
+      &:first-child {
+        text-align: left;
+      }
+    }
+
+    tbody th[scope="row"] {
+      text-align: left;
+      font-weight: bold;
+      max-width: 420px;
+    }
+
+    .compareDetails {
+      display: block;
+      margin-top: 0.2rem;
+      font-size: 0.85rem;
+      font-weight: normal;
+      font-style: italic;
+      opacity: 0.8;
+    }
+
+    // Lignes alternées pour suivre une option d'un bout à l'autre.
+    // (La ligne de groupe est la 1re de chaque tbody, donc les options
+    // commencent en position 2.)
+    tbody tr:nth-child(odd):not(.compareGroup) {
+      th,
+      td {
+        background-color: color-mix(in srgb, var(--main-color), black 7%);
+      }
+    }
+
+    th:first-child {
+      position: sticky;
+      left: 0;
+    }
+
+    .comparePrice {
+      display: block;
+      font-size: 1.25rem;
+    }
+
+    .compareGroup th {
+      text-align: left;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background-color: var(--chapter-color);
+      color: var(--chapter-font-color);
+      border-bottom: none;
+
+      img {
+        vertical-align: middle;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
   .meeting {
     display: flex;
     flex-wrap: wrap;
