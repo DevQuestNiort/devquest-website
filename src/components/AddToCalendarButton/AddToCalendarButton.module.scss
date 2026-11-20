@@ -52,10 +52,10 @@
   top: calc(100% + 6px);
   left: 0;
   min-width: 200px;
-  background: #fff;
-  border: 1px solid #e0e0e0;
+  background: var(--main-color);
+  border: 1px solid color-mix(in srgb, var(--main-font-color) 20%, transparent);
   border-radius: 6px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 16px color-mix(in srgb, var(--main-font-color) 15%, transparent);
   z-index: 100;
   overflow: hidden;
   display: flex;
@@ -68,10 +68,10 @@
   padding: 0.65rem 1rem;
   background: none;
   border: none;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid color-mix(in srgb, var(--main-font-color) 10%, transparent);
   text-align: left;
   font-size: 0.875rem;
-  color: #333;
+  color: var(--main-font-color);
   cursor: pointer;
   text-decoration: none;
   transition: background 0.1s ease;
@@ -81,6 +81,6 @@
   }
 
   &:hover {
-    background: #f5f5f5;
+    background: color-mix(in srgb, var(--main-font-color) 10%, transparent);
   }
 }

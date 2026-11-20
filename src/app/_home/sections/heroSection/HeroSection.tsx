@@ -37,14 +37,19 @@ export function HeroSection() {
                 <p>
                   Que votre bannière se joigne à l&apos;aventure !
                 </p>
+                <div className={styles.actions}>
                 <LinkButton
-                  theme="Primary"
+                  variant="Chapter"
                   href="https://calendar.app.google/MM8GqZP8VBx3ZDRC7"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   S&apos;inscrire à la présentation des packs sponsors
                 </LinkButton>
+                <LinkButton variant="Complementary" href="/devenez-sponsor">
+                  Découvrir les packs sponsors
+                </LinkButton>
+                </div>
       </Card>
     </Section>
   );

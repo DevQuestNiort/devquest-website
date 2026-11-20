@@ -8,7 +8,7 @@ interface CardProperties extends React.ComponentPropsWithoutRef<"div"> {
 
 export default function Card({
   children,
-  variant,
+  variant = "Main",
   fluid = false,
   className = "",
   ...props

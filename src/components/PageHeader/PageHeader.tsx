@@ -136,7 +136,7 @@ export const PageHeader = ({ variant = "Chapter" }: PageHeaderProperties) => {
 
         {/* {config.shop && (
           <div className={styles.drawerCta}>
-            <LinkButton theme="Primary" href={config.shop} target="_blank">
+            <LinkButton variant="Chapter" href={config.shop} target="_blank">
               Réserver mes places
             </LinkButton>
           </div>

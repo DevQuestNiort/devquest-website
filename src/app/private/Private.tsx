@@ -40,6 +40,18 @@ export  function Private() {
             />
           </Card>
           <Card variant="ChapterLight">
+            <h3>Logo </h3>
+             <DownloadLogoPng filename="devquest-logo-court-niort">
+            <DevQuestLogoShortDate
+              darkColor="var(--chapter-color)"
+              lightColor="var(--main-color)"
+              width={150}
+              height={150}
+            /></DownloadLogoPng>
+          </Card>
+           
+          
+          <Card variant="ChapterLight">
             <h3>Logo inverse</h3>
             <DevQuestLogoShortDate
               darkColor="var(--main-color)"

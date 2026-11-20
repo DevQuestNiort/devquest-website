@@ -3,7 +3,7 @@
     margin: 0 auto;
     justify-content: center;
     color: var(--chapter-dark-color);
-    background-color: var(--sable);
+    background-color: var(--main-color);
   
     @media(width>900px) {
         min-height: 800px;
@@ -36,3 +36,10 @@
           max-width: 90vw;
     }
   }
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
