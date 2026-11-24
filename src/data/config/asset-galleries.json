@@ -8,6 +8,14 @@
     "columnMinWidth": 360
   },
   {
+    "id": "couvertures",
+    "label": "Couvertures et fonds d'écran",
+    "description": "Décors de la quête, pour un fond d'écran, un fond de visio ou une couverture de réseau social.",
+    "dir": "img/2027/cover",
+    "downloadPrefix": "devquest-2027-couverture",
+    "columnMinWidth": 360
+  },
+  {
     "id": "cartes",
     "label": "Cartes",
     "description": "Personnages de la quête au format carré, pour un post ou une illustration.",

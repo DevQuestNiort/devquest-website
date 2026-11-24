@@ -26,6 +26,7 @@ demande aucune modification de code.**
 | Onglet    | Dossier                   | Exemple de fichier   | Nom au téléchargement                   |
 | --------- | ------------------------- | -------------------- | --------------------------------------- |
 | Bannières | `public/img/2027/banner/` | `dragon-lune-doree.png` | `devquest-2027-banniere-dragon-lune-doree.png` |
+| Couvertures et fonds d'écran | `public/img/2027/cover/` | `foret-champignons-lumineux.png` | `devquest-2027-couverture-foret-champignons-lumineux.png` |
 | Cartes    | `public/img/2027/card/`   | `fee-bleue.png`      | `devquest-2027-carte-fee-bleue.png`     |
 
 Bon à savoir :
