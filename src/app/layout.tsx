@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "DevQuest",
     images: [
       {
-        url: "/fond_site_26logo.png",
+        url: "/fond_site_27logo.webp",
         width: 1200,
         height: 630,
         alt: "DevQuest —  Niort",
