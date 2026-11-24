@@ -6,6 +6,7 @@ import { LevelPartenaire } from "@/model/LevelPartenaire";
 import { Section } from "@/components/Section";
 import { Contact } from "@/components/Contact";
 import { LinkButton } from "@/components/LinkButton";
+import { PassContents } from "@/components/PassContents";
 
 interface HomeViewProperties {
   readonly contacts: MoyensContact[];
@@ -31,7 +32,18 @@ export default function HomeView({
         </div>
       </Section>
 
-
+      <Section variant="ChapterLight">
+        <h2>Ce que comprend votre pass</h2>
+        <p>
+          Pour chaque journée de quête, votre pass vous ouvre les portes du
+          DevQuest : conférences, ateliers, et de quoi reprendre des forces
+          entre deux sessions.
+        </p>
+        <PassContents />
+        <LinkButton variant="Chapter" href="/billetterie">
+          Tout savoir sur la billetterie
+        </LinkButton>
+      </Section>
     </div>
   );
 }

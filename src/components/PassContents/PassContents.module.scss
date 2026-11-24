@@ -1,0 +1,69 @@
+.pass {
+  width: 100%;
+  max-width: 1100px;
+  margin: 1.5rem 0;
+}
+
+// Tuiles : autant de colonnes que la largeur le permet, une seule sur mobile.
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.25rem 1rem;
+  text-align: center;
+  background-color: var(--main-color);
+  color: var(--main-font-color);
+  border-radius: 12px;
+  font-family: var(--font-source-sans-pro), sans-serif;
+}
+
+.label {
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.details {
+  font-size: 0.95rem;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.options {
+  margin-top: 2rem;
+  text-align: center;
+
+  h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  // Une option seule ne doit pas s'étirer sur toute la largeur.
+  .items {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 320px));
+    justify-content: center;
+  }
+
+  // Bordure pointillée : distingue visuellement ce qui est payant en plus.
+  .item {
+    border: 2px dashed currentColor;
+  }
+}
+
+.validity {
+  margin-top: 1rem;
+  text-align: center;
+  font-style: italic;
+}

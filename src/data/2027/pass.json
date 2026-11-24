@@ -1,0 +1,42 @@
+{
+  "validity": "Le pass est valable pour une journée.",
+  "items": [
+    {
+      "icon": "/icons-rp/quete.png",
+      "label": "L'entrée pour la journée"
+    },
+    {
+      "icon": "/icons-rp/wizard.png",
+      "label": "L'accès aux conférences et aux ateliers"
+    },
+    {
+      "icon": "/icons-rp/tasse-a-cafe.png",
+      "label": "Le petit-déjeuner",
+      "details": "Café, thé…"
+    },
+    {
+      "icon": "/icons-rp/chicken.png",
+      "label": "Le repas du midi"
+    },
+    {
+      "icon": "/icons-rp/gateaux.png",
+      "label": "Un petit goûter"
+    },
+    {
+      "icon": "/icons-rp/potion.png",
+      "label": "Des boissons",
+      "details": "Tout au long de la journée"
+    },
+    {
+      "icon": "/icons-rp/shield.png",
+      "label": "Un accès à notre partenaire"
+    }
+  ],
+  "options": [
+    {
+      "icon": "/icons-rp/backpack.png",
+      "label": "Le t-shirt DevQuest",
+      "details": "Aux couleurs du DevQuest, à ajouter en option lors de l'achat de votre place"
+    }
+  ]
+}

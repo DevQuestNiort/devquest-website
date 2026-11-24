@@ -1,0 +1,27 @@
+.container {
+  p,
+  li {
+    font-size: 20px;
+    font-family: var(--font-source-sans-pro), sans-serif;
+  }
+
+  h1 {
+    padding-bottom: 1rem;
+  }
+
+  .intro {
+    max-width: 900px;
+    margin-bottom: 1rem;
+  }
+
+  .reasons {
+    list-style: disc;
+    padding-left: 2rem;
+    max-width: 900px;
+    margin-top: 1rem;
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
