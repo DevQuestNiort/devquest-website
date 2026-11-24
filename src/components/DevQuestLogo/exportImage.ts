@@ -65,11 +65,20 @@ function readHalo(svg: SVGSVGElement): { color: string; radius: number } | null 
 }
 
 /**
- * Construit un SVG autonome à partir du logo affiché : couleurs (variables CSS) résolues,
- * police embarquée, dimensions fixées à `width` (hauteur au ratio du viewBox). Un halo CSS est
- * converti en filtre SVG, et l'image est agrandie pour qu'il ne soit pas coupé.
+ * Taille demandée pour un logo exporté :
+ * - `{ width }` : largeur du logo seul ; la marge du halo s'ajoute autour
+ *   (utile pour placer précisément le logo sur une image) ;
+ * - `{ height }` : hauteur finale exacte du fichier, halo compris ; la largeur
+ *   suit les proportions.
  */
-export async function buildStandaloneSvg(svg: SVGSVGElement, width: number) {
+export type LogoSize = { width: number } | { height: number };
+
+/**
+ * Construit un SVG autonome à partir du logo affiché : couleurs (variables CSS) résolues,
+ * police embarquée, dimensions fixées selon `size`. Un halo CSS est converti en filtre SVG,
+ * et l'image est agrandie pour qu'il ne soit pas coupé.
+ */
+export async function buildStandaloneSvg(svg: SVGSVGElement, size: LogoSize) {
   const [viewX, viewY, viewWidth, viewHeight] = svg
     .getAttribute("viewBox")!
     .split(" ")
@@ -100,9 +109,11 @@ export async function buildStandaloneSvg(svg: SVGSVGElement, width: number) {
 
   const outViewWidth = viewWidth + 2 * pad;
   const outViewHeight = viewHeight + 2 * pad;
-  // `width` correspond au logo seul : la marge du halo s'ajoute autour.
-  const outWidth = Math.round((width * outViewWidth) / viewWidth);
-  const outHeight = Math.round((width * outViewHeight) / viewWidth);
+  // Pixels par unité du viewBox, selon le mode de taille demandé.
+  const pixelsPerUnit =
+    "height" in size ? size.height / outViewHeight : size.width / viewWidth;
+  const outWidth = Math.round(outViewWidth * pixelsPerUnit);
+  const outHeight = "height" in size ? size.height : Math.round(outViewHeight * pixelsPerUnit);
   clone.setAttribute(
     "viewBox",
     `${viewX - pad} ${viewY - pad} ${outViewWidth} ${outViewHeight}`,
@@ -128,8 +139,8 @@ export function triggerDownload(href: string, filename: string) {
   link.click();
 }
 
-export async function exportSvg(svg: SVGSVGElement, width: number, filename: string) {
-  const { markup } = await buildStandaloneSvg(svg, width);
+export async function exportSvg(svg: SVGSVGElement, size: LogoSize, filename: string) {
+  const { markup } = await buildStandaloneSvg(svg, size);
   const url = URL.createObjectURL(new Blob([markup], { type: "image/svg+xml" }));
   try {
     triggerDownload(url, `${filename}.svg`);
@@ -139,8 +150,8 @@ export async function exportSvg(svg: SVGSVGElement, width: number, filename: str
   }
 }
 
-export async function exportPng(svg: SVGSVGElement, width: number, filename: string) {
-  const out = await buildStandaloneSvg(svg, width);
+export async function exportPng(svg: SVGSVGElement, size: LogoSize, filename: string) {
+  const out = await buildStandaloneSvg(svg, size);
   const url = URL.createObjectURL(new Blob([out.markup], { type: "image/svg+xml" }));
   try {
     const image = new Image();
@@ -174,13 +185,14 @@ export const RASTER_FORMATS: { value: RasterFormat; label: string; extension: st
   { value: "webp", label: "WebP", extension: "webp" },
 ];
 
-export type Corner = "top-left" | "top-right" | "bottom-left" | "bottom-right";
+/** Position du logo sur l'image : un des quatre coins, ou le centre. */
+export type Corner = "top-left" | "top-right" | "center" | "bottom-left" | "bottom-right";
 
 export interface LogoPlacement {
   corner: Corner;
   /** Largeur du logo, en % de la largeur de l'image. */
   sizePercent: number;
-  /** Marge entre le logo et les bords, en % de la largeur de l'image. */
+  /** Marge entre le logo et les bords, en % de la largeur de l'image (ignorée au centre). */
   marginPercent: number;
 }
 
@@ -203,13 +215,20 @@ async function drawLogo(
   // pour que ce soit le logo lui-même, pas sa marge, qui respecte la marge voulue.
   const logoWidth = Math.round((width * placement.sizePercent) / 100);
   const margin = Math.round((width * placement.marginPercent) / 100);
-  const out = await buildStandaloneSvg(logo, logoWidth);
+  const out = await buildStandaloneSvg(logo, { width: logoWidth });
   const haloPad = (out.width - logoWidth) / 2;
   const logoHeight = out.height - 2 * haloPad;
-  const left = placement.corner.endsWith("left");
-  const top = placement.corner.startsWith("top");
-  const x = (left ? margin : width - margin - logoWidth) - haloPad;
-  const y = (top ? margin : height - margin - logoHeight) - haloPad;
+  let x: number;
+  let y: number;
+  if (placement.corner === "center") {
+    x = (width - logoWidth) / 2 - haloPad;
+    y = (height - logoHeight) / 2 - haloPad;
+  } else {
+    const left = placement.corner.endsWith("left");
+    const top = placement.corner.startsWith("top");
+    x = (left ? margin : width - margin - logoWidth) - haloPad;
+    y = (top ? margin : height - margin - logoHeight) - haloPad;
+  }
 
   const url = URL.createObjectURL(new Blob([out.markup], { type: "image/svg+xml" }));
   try {

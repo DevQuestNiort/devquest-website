@@ -9,13 +9,13 @@ interface DownloadLogoPngProperties {
   readonly children: React.ReactNode;
   /** Nom du fichier téléchargé, sans extension. @default "devquest-logo" */
   readonly filename?: string;
-  /** Largeur du PNG en pixels, la hauteur suit le ratio du logo. @default 1200 */
+  /** Largeur du logo exporté en pixels, la hauteur suit le ratio du logo. @default 1200 */
   readonly width?: number;
   /**
-   * Si défini, ignore `width` : l'export reprend la taille affichée du logo multipliée par
-   * `scale` (ex. 2 pour un PNG deux fois plus grand qu'à l'écran).
+   * Si défini, ignore `width` : hauteur exacte du fichier exporté en pixels,
+   * halo compris (la largeur suit les proportions).
    */
-  readonly scale?: number;
+  readonly height?: number;
   /** Libellé du bouton PNG. @default "Télécharger en PNG" */
   readonly label?: string;
   /** Libellé du bouton SVG. @default "Télécharger en SVG" */
@@ -33,7 +33,7 @@ export default function DownloadLogoPng({
   children,
   filename = "devquest-logo",
   width = 1200,
-  scale,
+  height,
   label = "Télécharger en PNG",
   svgLabel = "Télécharger en SVG",
   formats = ["png", "svg"],
@@ -46,10 +46,7 @@ export default function DownloadLogoPng({
     if (!svg) return;
     setBusy(true);
     try {
-      const exportWidth = scale
-        ? Math.round(svg.getBoundingClientRect().width * scale)
-        : width;
-      await EXPORTERS[format](svg, exportWidth, filename);
+      await EXPORTERS[format](svg, height ? { height } : { width }, filename);
     } finally {
       setBusy(false);
     }

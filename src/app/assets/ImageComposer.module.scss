@@ -43,10 +43,16 @@
 }
 
 
+// Coins sur deux colonnes, « Centre » seul sur sa ligne, au milieu.
 .corners {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.25rem 0.75rem;
+}
+
+.center {
+  grid-column: 1 / -1;
+  justify-self: center;
 }
 
 .hint {

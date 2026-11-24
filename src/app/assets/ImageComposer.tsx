@@ -10,6 +10,7 @@ import styles from "./ImageComposer.module.scss";
 const CORNERS: { value: Corner; label: string }[] = [
   { value: "top-left", label: "Haut gauche" },
   { value: "top-right", label: "Haut droite" },
+  { value: "center", label: "Centre" },
   { value: "bottom-left", label: "Bas gauche" },
   { value: "bottom-right", label: "Bas droite" },
 ];
@@ -38,7 +39,10 @@ export function ImageComposer({ preview }: { readonly preview: string }) {
             <legend>Position</legend>
             <div className={styles.corners}>
               {CORNERS.map((corner) => (
-                <label key={corner.value}>
+                <label
+                  key={corner.value}
+                  className={corner.value === "center" ? styles.center : undefined}
+                >
                   <input
                     type="radio"
                     name="composer-corner"
@@ -60,11 +64,12 @@ export function ImageComposer({ preview }: { readonly preview: string }) {
               />
             </label>
             <label>
-              Marge : {placement.marginPercent} %
+              Marge : {placement.corner === "center" ? "sans objet au centre" : `${placement.marginPercent} %`}
               <input
                 type="range"
                 min={0}
                 max={10}
+                disabled={placement.corner === "center"}
                 value={placement.marginPercent}
                 onChange={(e) => setPlacement("marginPercent", Number(e.target.value))}
               />

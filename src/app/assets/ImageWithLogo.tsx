@@ -37,10 +37,28 @@ export function ImageWithLogo({ src, showLogo, width, height, lazy }: ImageWithL
 
   const scale = (imageWidth * placement.sizePercent) / 100 / LOGO_REFERENCE_WIDTH;
   const margin = (imageWidth * placement.marginPercent) / 100;
-  const [vertical, horizontal] = placement.corner.split("-") as [
-    "top" | "bottom",
-    "left" | "right",
-  ];
+  // Au centre : ancré au milieu de l'image, réduit depuis son propre centre.
+  // Dans un coin : ancré au coin (marge comprise), réduit depuis ce coin.
+  const position: React.CSSProperties =
+    placement.corner === "center"
+      ? {
+          left: "50%",
+          top: "50%",
+          transform: `translate(-50%, -50%) scale(${scale})`,
+          transformOrigin: "center",
+        }
+      : (() => {
+          const [vertical, horizontal] = placement.corner.split("-") as [
+            "top" | "bottom",
+            "left" | "right",
+          ];
+          return {
+            [vertical]: margin,
+            [horizontal]: margin,
+            transform: `scale(${scale})`,
+            transformOrigin: `${vertical} ${horizontal}`,
+          };
+        })();
 
   return (
     // data-theme : la palette de l'édition choisie s'applique au logo.
@@ -57,13 +75,7 @@ export function ImageWithLogo({ src, showLogo, width, height, lazy }: ImageWithL
       {showLogo && imageWidth > 0 && (
         <div
           className={styles.logo}
-          style={{
-            width: LOGO_REFERENCE_WIDTH,
-            [vertical]: margin,
-            [horizontal]: margin,
-            transform: `scale(${scale})`,
-            transformOrigin: `${vertical} ${horizontal}`,
-          }}
+          style={{ width: LOGO_REFERENCE_WIDTH, ...position }}
         >
           <LogoMark
             options={options}

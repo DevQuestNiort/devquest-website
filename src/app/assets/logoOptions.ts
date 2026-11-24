@@ -35,8 +35,6 @@ export const HALO_COLORS = [
   { value: "noir", label: "Noir", color: "black" },
 ] as const;
 
-export const SCALES = [1, 2, 4] as const;
-
 export type Model = (typeof MODELS)[number]["value"];
 export type ColorScheme = (typeof COLOR_SCHEMES)[number]["value"];
 export type HaloColor = (typeof HALO_COLORS)[number]["value"];
@@ -53,8 +51,8 @@ export interface LogoOptions {
   halo: boolean;
   haloColor: HaloColor;
   haloSize: number;
+  /** Hauteur exacte du PNG exporté, en pixels, halo compris. */
   size: number;
-  scale: number;
 }
 
 export const DEFAULT_OPTIONS: LogoOptions = {
@@ -68,12 +66,11 @@ export const DEFAULT_OPTIONS: LogoOptions = {
   halo: false,
   haloColor: "chapter",
   haloSize: 20,
-  size: 150,
-  scale: 4,
+  size: 512,
 };
 
-export const SIZE_MIN = 50;
-export const SIZE_MAX = 250;
+export const SIZE_MIN = 32;
+export const SIZE_MAX = 1024;
 
 // ─── Préréglages (reprennent les variantes de l'ancienne page) ───────────────
 
@@ -83,9 +80,9 @@ export const PRESETS: { label: string; options: Partial<LogoOptions> }[] = [
   { label: "Court, blanc sans fond", options: { colors: "blanc", background: false, text: false } },
   { label: "Court, sans texte", options: { text: false } },
   { label: "Court, avec halo", options: { halo: true } },
-  { label: "Long, thème", options: { model: "long", size: 100 } },
-  { label: "Long, noir et blanc", options: { model: "long", colors: "noir", size: 100 } },
-  { label: "Long, avec halo", options: { model: "long", halo: true, size: 100 } },
+  { label: "Long, thème", options: { model: "long" } },
+  { label: "Long, noir et blanc", options: { model: "long", colors: "noir" } },
+  { label: "Long, avec halo", options: { model: "long", halo: true } },
   { label: "Épée, thème", options: { model: "epee" } },
   { label: "Épée, inversé", options: { model: "epee", colors: "inverse" } },
 ];
@@ -93,7 +90,7 @@ export const PRESETS: { label: string; options: Partial<LogoOptions> }[] = [
 // ─── Lien partageable : options <-> paramètres d'URL ─────────────────────────
 
 const BOOLEAN_KEYS = ["background", "text", "halo"] as const;
-const NUMBER_KEYS = ["haloSize", "size", "scale"] as const;
+const NUMBER_KEYS = ["haloSize", "size"] as const;
 
 export function optionsToQuery(options: LogoOptions): string {
   const params = new URLSearchParams();
@@ -103,6 +100,11 @@ export function optionsToQuery(options: LogoOptions): string {
     params.set(key, typeof value === "boolean" ? (value ? "1" : "0") : String(value));
   }
   return params.toString();
+}
+
+/** Taille entière, ramenée entre SIZE_MIN et SIZE_MAX. */
+export function clampSize(size: number): number {
+  return Math.min(SIZE_MAX, Math.max(SIZE_MIN, Math.round(size)));
 }
 
 function oneOf<T extends string>(value: string | null, allowed: readonly T[], fallback: T): T {
@@ -128,8 +130,7 @@ export function queryToOptions(query: string): LogoOptions {
     const value = Number(params.get(key));
     if (params.has(key) && Number.isFinite(value)) options[key] = value;
   }
-  options.size = Math.min(SIZE_MAX, Math.max(SIZE_MIN, options.size));
-  if (!(SCALES as readonly number[]).includes(options.scale)) options.scale = DEFAULT_OPTIONS.scale;
+  options.size = clampSize(options.size);
   return options;
 }
 
