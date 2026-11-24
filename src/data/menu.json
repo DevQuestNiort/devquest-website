@@ -1,7 +1,7 @@
 {
   "items": [
     { "label": "Accueil", "href": "/" },
-    { "label": "Billetterie", "href": "/billetterie" },
+    { "label": "Billetterie", "href": "/billetterie", "feature": "billetterie" },
     { "label": "Devenez sponsor", "href": "/devenez-sponsor" },
     {
       "label": "Batisseurs",

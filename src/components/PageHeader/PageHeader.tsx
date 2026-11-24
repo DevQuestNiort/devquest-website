@@ -6,14 +6,28 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { DevQuestLogoShortDate } from "../DevQuestLogo";
+import { useNow } from "../Scheduled";
+import { type Schedule, isScheduledVisible } from "@/lib/schedule";
 
-type NavChild = { label: string; href: string };
+// showFrom / showUntil : apparition et disparition programmées (voir menu.md).
+type NavChild = { label: string; href: string } & Schedule;
 type NavItem = {
   label: string;
   href?: string;
   activeMatch?: string[];
   children?: NavChild[];
-};
+} & Schedule;
+
+/** Entrées visibles à l'instant `now` ; un sous-menu sans enfant visible disparaît. */
+const visibleItems = (items: NavItem[], now: number): NavItem[] =>
+  items
+    .filter((item) => isScheduledVisible(now, item))
+    .map((item) =>
+      item.children
+        ? { ...item, children: item.children.filter((child) => isScheduledVisible(now, child)) }
+        : item,
+    )
+    .filter((item) => !item.children || item.children.length > 0);
 
 const isExternal = (href: string) => href.startsWith("http");
 
@@ -34,6 +48,7 @@ interface PageHeaderProperties {
 
 export const PageHeader = ({ variant = "Chapter" }: PageHeaderProperties) => {
   const pathname = usePathname();
+  const items = visibleItems(menu.items, useNow());
   const [menuOpen, setMenuOpen] = useState(false);
   const close = () => setMenuOpen(false);
 
@@ -52,7 +67,7 @@ export const PageHeader = ({ variant = "Chapter" }: PageHeaderProperties) => {
 
         {/* Desktop navigation */}
         <nav className={styles.navDesktop} aria-label="Navigation principale">
-          {menu.items.map((item: NavItem) =>
+          {items.map((item) =>
             item.children ? (
               <div className={styles.dropdown} key={item.label}>
                 <span
@@ -105,7 +120,7 @@ export const PageHeader = ({ variant = "Chapter" }: PageHeaderProperties) => {
         aria-label="Navigation mobile"
         aria-hidden={!menuOpen}
       >
-        {menu.items.map((item: NavItem) =>
+        {items.map((item) =>
           item.children ? (
             <div key={item.label}>
               <p className={styles.drawerSectionLabel}>{item.label}</p>

@@ -7,6 +7,7 @@ import { Section } from "@/components/Section";
 import { Contact } from "@/components/Contact";
 import { LinkButton } from "@/components/LinkButton";
 import { PassContents } from "@/components/PassContents";
+import { Scheduled } from "@/components/Scheduled";
 
 interface HomeViewProperties {
   readonly contacts: MoyensContact[];
@@ -31,8 +32,8 @@ export default function HomeView({
           {contacts?.map(contact =>  <Contact key={contact.name} name={contact.name} link={contact.link} asset={contact.asset}/> )}
         </div>
       </Section>
-
-      <Section variant="ChapterLight">
+<Scheduled feature="billetterie">
+   <Section variant="ChapterLight">
         <h2>Ce que comprend votre pass</h2>
         <p>
           Pour chaque journée de quête, votre pass vous ouvre les portes du
@@ -44,6 +45,8 @@ export default function HomeView({
           Tout savoir sur la billetterie
         </LinkButton>
       </Section>
+</Scheduled>
+     
     </div>
   );
 }

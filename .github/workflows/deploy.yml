@@ -9,6 +9,13 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  # Reconstruit le site chaque nuit (00:05 heure de Paris en hiver, 01:05 en
+  # été) : le HTML généré tient compte des contenus programmés (showFrom /
+  # showUntil, voir src/lib/schedule.ts). Cron en UTC ; ne tourne que sur la
+  # branche par défaut.
+  schedule:
+    - cron: "5 23 * * *"
+
 # Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages
 permissions:
   contents: read
