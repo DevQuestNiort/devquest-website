@@ -1,0 +1,143 @@
+// Constructeur : réglages à gauche, aperçu à droite, préréglages dessous.
+// Une seule colonne sur mobile.
+.builder {
+  display: grid;
+  grid-template-columns: minmax(260px, 340px) 1fr;
+  grid-template-areas:
+    "controls output"
+    "presets presets";
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1100px;
+  margin: 1.5rem 0;
+  text-align: left;
+
+  @media (max-width: 768px) {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "output"
+      "controls"
+      "presets";
+  }
+
+  button {
+    cursor: pointer;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid currentColor;
+    border-radius: 6px;
+    background: var(--main-color);
+    color: var(--main-font-color);
+    font: inherit;
+
+    &:hover {
+      background: var(--chapter-ligth-color);
+      color: var(--chapter-ligth-font-color);
+    }
+  }
+}
+
+.controls {
+  grid-area: controls;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+    border-radius: 8px;
+  }
+
+  legend {
+    padding: 0 0.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.9rem;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  input[type="range"] {
+    width: 100%;
+  }
+
+  input[type="text"],
+  select {
+    padding: 0.25rem 0.4rem;
+    font: inherit;
+  }
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.output {
+  grid-area: output;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+
+  // Sur grand écran, l'aperçu reste visible pendant qu'on règle.
+  @media (min-width: 769px) {
+    position: sticky;
+    top: 80px;
+    align-self: start;
+  }
+}
+
+// Damier : rend visible la transparence du logo.
+.preview {
+  width: 100%;
+  padding: 2rem 1rem 1rem;
+  border-radius: 8px;
+  background-color: #fff;
+  background-image: conic-gradient(#ddd 25%, transparent 0 50%, #ddd 0 75%, transparent 0);
+  background-size: 20px 20px;
+  color: black;
+  text-align: center;
+}
+
+// Zone de l'aperçu à hauteur fixe (taille max + place pour le halo) : la page
+// ne saute pas quand on bouge le curseur de taille.
+.stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 340px;
+  margin-bottom: 1rem;
+}
+
+.filename {
+  font-family: monospace;
+  font-size: 0.9rem;
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+
+.presets {
+  grid-area: presets;
+
+  h3 {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.presetList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}

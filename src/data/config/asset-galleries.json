@@ -1,0 +1,18 @@
+[
+  {
+    "id": "bannieres",
+    "label": "Bannières",
+    "description": "Visuels larges, pour un en-tête de page, une bannière LinkedIn ou une couverture.",
+    "dir": "img/2027/banner",
+    "downloadPrefix": "devquest-2027-banniere",
+    "columnMinWidth": 360
+  },
+  {
+    "id": "cartes",
+    "label": "Cartes",
+    "description": "Personnages de la quête au format carré, pour un post ou une illustration.",
+    "dir": "img/2027/card",
+    "downloadPrefix": "devquest-2027-carte",
+    "columnMinWidth": 220
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "barde-au-micro.png": {
+    "width": 1024,
+    "height": 1024,
+    "thumb": "/thumbs/img/2027/card/barde-au-micro.webp"
+  },
+  "chevalier-chateau-1.png": {
+    "width": 1024,
+    "height": 1024,
+    "thumb": "/thumbs/img/2027/card/chevalier-chateau-1.webp"
+  },
+  "chevalier-chateau-2.png": {
+    "width": 1024,
+    "height": 1024,
+    "thumb": "/thumbs/img/2027/card/chevalier-chateau-2.webp"
+  },
+  "fee-bleue.png": {
+    "width": 1024,
+    "height": 1024,
+    "thumb": "/thumbs/img/2027/card/fee-bleue.webp"
+  },
+  "fee-brune.png": {
+    "width": 1024,
+    "height": 1024,
+    "thumb": "/thumbs/img/2027/card/fee-brune.webp"
+  },
+  "fee-rousse.png": {
+    "width": 1024,
+    "height": 1024,
+    "thumb": "/thumbs/img/2027/card/fee-rousse.webp"
+  },
+  "fee-sylvestre.png": {
+    "width": 1024,
+    "height": 1024,
+    "thumb": "/thumbs/img/2027/card/fee-sylvestre.webp"
+  },
+  "lutin-1.png": {
+    "width": 1024,
+    "height": 1024,
+    "thumb": "/thumbs/img/2027/card/lutin-1.webp"
+  },
+  "lutin-2.png": {
+    "width": 1024,
+    "height": 1024,
+    "thumb": "/thumbs/img/2027/card/lutin-2.webp"
+  },
+  "lutin-3.png": {
+    "width": 1024,
+    "height": 1024,
+    "thumb": "/thumbs/img/2027/card/lutin-3.webp"
+  },
+  "petit-chevalier.png": {
+    "width": 1024,
+    "height": 1024,
+    "thumb": "/thumbs/img/2027/card/petit-chevalier.webp"
+  },
+  "reine-trone.png": {
+    "width": 1024,
+    "height": 1024,
+    "thumb": "/thumbs/img/2027/card/reine-trone.webp"
+  }
+}

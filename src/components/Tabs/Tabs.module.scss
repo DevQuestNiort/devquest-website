@@ -1,0 +1,42 @@
+.tabs {
+  width: 100%;
+  max-width: 1100px;
+}
+
+// Barre d'onglets : défile horizontalement si les onglets ne tiennent pas.
+.list {
+  display: flex;
+  gap: 0.25rem;
+  overflow-x: auto;
+  border-bottom: 3px solid var(--chapter-color);
+}
+
+.tab {
+  flex-shrink: 0;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px 8px 0 0;
+  background: color-mix(in srgb, var(--chapter-color) 15%, transparent);
+  color: inherit;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    background: color-mix(in srgb, var(--chapter-color) 30%, transparent);
+  }
+
+  &[aria-selected="true"] {
+    background: var(--chapter-color);
+    color: var(--chapter-font-color);
+  }
+
+  &:focus-visible {
+    outline: 3px solid var(--complementary-color);
+    outline-offset: 2px;
+  }
+}
+
+.panel {
+  padding-top: 1rem;
+}

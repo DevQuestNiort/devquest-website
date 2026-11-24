@@ -1,0 +1,19 @@
+.frame {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  // data-theme pose aussi la couleur de texte du thème : on garde celle du parent.
+  color: inherit;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.logo {
+  position: absolute;
+  line-height: 0;
+  pointer-events: none;
+}

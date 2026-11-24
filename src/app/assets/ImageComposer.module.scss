@@ -1,0 +1,55 @@
+// Aperçu à gauche (reste visible en défilant), réglages à droite.
+// Une colonne sur mobile, aperçu en premier.
+.composer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 320px);
+  gap: 1.5rem;
+  align-items: start;
+  text-align: left;
+
+  @media (max-width: 768px) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  @media (min-width: 769px) {
+    position: sticky;
+    top: 0;
+  }
+}
+
+// Les réglages du constructeur déclarent une zone de grille nommée : on la
+// neutralise ici, la grille de l'outil a sa propre disposition.
+.controls > form {
+  grid-area: auto;
+}
+
+.preview {
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+.corners {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem 0.75rem;
+}
+
+.hint {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}

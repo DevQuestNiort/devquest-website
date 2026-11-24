@@ -1,0 +1,179 @@
+.gallery {
+  width: 100%;
+  text-align: left;
+}
+
+// --column-min : largeur mini d'une vignette (bannières plus larges que cartes).
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(var(--column-min), 100%), 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--chapter-color) 10%, transparent);
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+}
+
+// Format de téléchargement, au-dessus de chaque galerie.
+// Barre au-dessus de la galerie : format (à gauche) et logo (à droite),
+// réglages communs à toutes les images.
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 1rem;
+  margin: 0.5rem 0;
+
+  small {
+    opacity: 0.8;
+  }
+}
+
+.formats {
+  flex: 1 1 320px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+  border-radius: 8px;
+
+  legend {
+    padding: 0 0.3rem;
+    font-weight: bold;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  small {
+    flex-basis: 100%;
+  }
+}
+
+.logoSettings {
+  flex: 0 1 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+// Actions d'une image : case « Avec logo » et Télécharger.
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 0 0.75rem 0.75rem;
+  font-size: 0.9rem;
+}
+
+.withLogo {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-right: auto;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.secondary {
+  padding: 0.3rem 0.8rem;
+  border: 2px solid var(--chapter-color);
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+
+  &:hover {
+    background: color-mix(in srgb, var(--chapter-color) 15%, transparent);
+  }
+}
+
+.message {
+  flex-basis: 100%;
+  font-size: 0.85rem;
+}
+
+// Fenêtre de l'outil d'incrustation (élément <dialog>, rendu au premier plan).
+.dialog {
+  width: min(1100px, 95vw);
+  max-height: 92vh;
+  padding: 1.25rem;
+  border: none;
+  border-radius: 12px;
+  background: var(--main-color);
+  color: var(--main-font-color);
+
+  &::backdrop {
+    background: rgb(0 0 0 / 60%);
+  }
+}
+
+.dialogHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  button {
+    padding: 0.3rem 0.8rem;
+    border: 1px solid currentColor;
+    border-radius: 6px;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+  }
+}
+
+.download {
+  padding: 0.3rem 0.8rem;
+  border: 2px solid var(--chapter-color);
+  border-radius: 6px;
+  background: var(--chapter-color);
+  color: var(--chapter-font-color);
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.85;
+  }
+
+  &:disabled {
+    cursor: wait;
+    opacity: 0.6;
+  }
+}
