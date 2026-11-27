@@ -5,6 +5,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import { PageHeader } from "@/components/PageHeader/PageHeader";
 import { Footer } from "@/components/Footer/Footer";
 import { RouteTheme } from "@/components/RouteTheme/RouteTheme";
+import { SimulatedDateBanner } from "@/components/Scheduled";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.devquest.fr"),
@@ -72,6 +73,8 @@ export default function RootLayout({
         <PageHeader variant="Chapter" />
         {children}
         <Footer variant="Chapter"/>
+        {/* Développement : rappel quand une date est simulée (?simuler=…). */}
+        <SimulatedDateBanner />
       </body>
     </html>
   );

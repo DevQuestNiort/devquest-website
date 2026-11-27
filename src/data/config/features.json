@@ -2,5 +2,15 @@
   "billetterie": {
     "description": "Ouverture de la billetterie : entrée du menu, section de l'accueil.",
     "showFrom": "2027-01-15"
+  },
+  "ReunionPacksSponsor2027": {
+    "description": "Réunion de présentation des packs sponsors du 27/11 à 12h : hero de l'accueil (annonce et inscription à la visio).",
+    "showUntil": "2026-11-27T13:00",
+    "url": "https://calendar.app.google/MM8GqZP8VBx3ZDRC7"
+  },
+  "PreinscriptionSponsor2027": {
+    "description": "Pré-inscription des sponsors 2027 : bouton dans le hero de l'accueil et sur la page Devenez sponsor (en haut et sous les packs).",
+    "showFrom": "2026-12-13",
+    "url": "https://corga.devquest.fr/sponsor/H6UChaoTqkuYkwxSaFF6JOT9"
   }
 }

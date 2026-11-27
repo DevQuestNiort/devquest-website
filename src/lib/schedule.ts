@@ -76,6 +76,8 @@ export interface Feature {
   description?: string;
   showFrom?: string;
   showUntil?: string;
+  /** Lien associé à la feature (ex. formulaire), écrit une seule fois ici. */
+  url?: string;
 }
 
 export const FEATURES: Record<string, Feature> = featuresData;
@@ -117,6 +119,31 @@ export function isScheduledVisible(
     if (!inDateRange(now, declared.showFrom, declared.showUntil)) return false;
   }
   return inDateRange(now, showFrom, showUntil);
+}
+
+/** Lien associé à une feature (champ `url` de features.json). Erreur au build s'il manque. */
+export function featureUrl(feature: string): string {
+  const url = FEATURES[feature]?.url;
+  if (!url) {
+    throw new Error(`features.json : la feature « ${feature} » n'a pas de champ "url"`);
+  }
+  return url;
+}
+
+/**
+ * Date de début d'une feature en toutes lettres (« 13 décembre »), pour
+ * l'annoncer dans un texte sans la recopier. Erreur au build si absente.
+ */
+export function featureStartLabel(feature: string): string {
+  const showFrom = FEATURES[feature]?.showFrom;
+  if (!showFrom) {
+    throw new Error(`features.json : la feature « ${feature} » n'a pas de champ "showFrom"`);
+  }
+  return new Intl.DateTimeFormat("fr-FR", {
+    timeZone: TIME_ZONE,
+    day: "numeric",
+    month: "long",
+  }).format(new Date(parseScheduleDate(showFrom)));
 }
 
 /** Raccourci : la feature est-elle active à l'instant `now` ? */

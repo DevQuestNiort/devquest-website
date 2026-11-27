@@ -1,6 +1,8 @@
 import { Section } from "@/components/Section";
 import { Card } from "@/components/Card";
 import { LinkButton } from "@/components/LinkButton";
+import { Scheduled } from "@/components/Scheduled";
+import { featureUrl } from "@/lib/schedule";
 import styles from "./DevenezSponsor.module.scss";
 
 import backgroundImage from "/public/img/2027/2027-guilde-hero.png";
@@ -33,9 +35,21 @@ export function DevenezSponsor() {
             votre bannière flotte devant des centaines de développeur·ses,
             étudiant·es et décideur·ses du bassin niortais.
           </p>
-          <LinkButton variant="Chapter" href="#packs">
-            Découvrir les packs
-          </LinkButton>
+          <div className={styles.actions}>
+            <Scheduled feature="PreinscriptionSponsor2027">
+              <LinkButton
+                variant="Chapter"
+                href={featureUrl("PreinscriptionSponsor2027")}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Se pré-inscrire comme sponsor
+              </LinkButton>
+            </Scheduled>
+            <LinkButton variant="Complementary" href="#packs">
+              Découvrir les packs
+            </LinkButton>
+          </div>
         </Card>
       </Section>
 
@@ -229,6 +243,20 @@ export function DevenezSponsor() {
             </tbody>
           </table>
         </div>
+
+        <Scheduled feature="PreinscriptionSponsor2027">
+          <div className={styles.preinscription}>
+            <p>Votre choix est fait ? Réservez votre place à la table des mécènes.</p>
+            <LinkButton
+              variant="Chapter"
+              href={featureUrl("PreinscriptionSponsor2027")}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Se pré-inscrire comme sponsor
+            </LinkButton>
+          </div>
+        </Scheduled>
 
         <p className={styles.note}>
           Un besoin particulier ? Contactez nous ! 

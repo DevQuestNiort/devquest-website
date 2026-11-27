@@ -112,6 +112,43 @@ Avec une feature **et** des dates directes, le contenu n'est visible que si les 
 l'autorisent (ex. `feature="billetterie" showUntil="2027-06-01"` : suit l'ouverture de la
 billetterie, mais disparaît le 1er juin).
 
+### Plusieurs versions d'un même bloc selon la période
+
+Quand un bloc doit changer de contenu au fil du temps (ex. le hero de l'accueil : annonce de
+la réunion, puis packs dévoilés, puis pré-inscriptions ouvertes), utiliser
+`<ScheduledSwitch>` plutôt que plusieurs `<Scheduled>` : il affiche le **premier cas
+actif**, sinon le contenu par défaut. Il y a donc toujours exactement une version affichée,
+sans trou ni chevauchement si une date change.
+
+```tsx
+<ScheduledSwitch
+  cases={[
+    { feature: "ReunionPacksSponsor2027", content: <HeroReunion /> },
+    { feature: "PreinscriptionSponsor2027", content: <HeroPreinscription /> },
+  ]}
+  fallback={<HeroPacksDevoiles />}
+/>
+```
+
+Pour citer une date de feature dans un texte sans la recopier :
+`featureStartLabel("PreinscriptionSponsor2027")` renvoie « 13 décembre ». Pour un lien :
+`featureUrl("...")` lit le champ `url` de la feature.
+
+### Tester une date en développement
+
+Avec `npm run dev`, ajouter `?simuler=<date>` à l'adresse pour que tout le site se
+comporte comme à cette date (même format que `showFrom`) :
+
+```
+http://localhost:3000/?simuler=2026-12-13
+http://localhost:3000/devenez-sponsor?simuler=2026-11-28T09:00
+```
+
+- La date reste simulée pendant la navigation dans l'onglet ; un bandeau rouge en bas à
+  gauche le rappelle.
+- `?simuler=` (vide), ou le lien du bandeau, revient à la vraie date.
+- Ignoré en production : le code de simulation n'est même pas inclus dans le site déployé.
+
 ### Règles communes
 
 - Dates **à l'heure de Paris**, au format `AAAA-MM-JJ` (minuit) ou `AAAA-MM-JJTHH:MM`.
