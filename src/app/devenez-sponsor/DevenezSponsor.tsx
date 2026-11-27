@@ -264,7 +264,7 @@ export function DevenezSponsor() {
       </Section>
 
       <Section variant="Chapter" id="reunion">
-        <h2>📜 Réunion de présentation des packs</h2>
+        <h2>Réunion de présentation des packs</h2>
         <Card variant="Main" className={styles.meeting}>
           <div className={styles.when}>
             <span className={styles.day}>27</span>
@@ -273,18 +273,43 @@ export function DevenezSponsor() {
           </div>
           <div className={styles.what}>
             <p>
-              Un grand conseil en <strong>visioconférence</strong> pour
-              dévoiler les packs sponsors, répondre à vos questions et vous
-              présenter cette quatrième quête.
+              Le grand conseil s&apos;est tenu en <strong>visioconférence</strong> :
+              les packs sponsors y ont été dévoilés et cette quatrième quête
+              présentée.
             </p>
-            <LinkButton
-              variant="Chapter"
-              href="https://calendar.app.google/MM8GqZP8VBx3ZDRC7"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              S&apos;inscrire à la réunion
-            </LinkButton>
+            <p>
+              Vous l&apos;avez manqué ? Retrouvez l&apos;<strong>enregistrement
+              de la séance</strong> et le <strong>document de présentation</strong>{" "}
+              des packs.
+            </p>
+            <div className={styles.actions}>
+              <LinkButton
+                variant="Chapter"
+                href="https://drive.google.com/file/d/1VqyDZmGs7kL8W023PENYh6KOpPNSCBBe/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Voir l&apos;enregistrement
+              </LinkButton>
+              <LinkButton
+                variant="ChapterLight"
+                href="https://drive.google.com/file/d/1Z_MI4hSTYAzuKiRHaI13Uub8WE4qEaER/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Présentation (PDF)
+              </LinkButton>
+              <LinkButton
+                variant="ChapterLight"
+                href="https://drive.google.com/file/d/13tdZGOoqCelnetcpji500K5lNHahb9b1/view?usp=sharing"
+                hrefLang="en"
+                lang="en"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Presentation in English (PDF)
+              </LinkButton>
+            </div>
           </div>
         </Card>
       </Section>
